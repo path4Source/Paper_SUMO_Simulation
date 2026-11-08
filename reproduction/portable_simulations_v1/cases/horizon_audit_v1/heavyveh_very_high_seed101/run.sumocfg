@@ -1,0 +1,46 @@
+<?xml version='1.0' encoding='utf-8'?>
+<configuration>
+  <input>
+    <net-file value="network.net.xml" />
+    <route-files value="routes.rou.xml" />
+    <additional-files value="additional.xml" />
+  </input>
+  <output>
+    <summary-output value="summary.xml" />
+    <tripinfo-output value="tripinfo.xml" />
+    <tripinfo-output.write-unfinished value="true" />
+    <tripinfo-output.write-undeparted value="true" />
+    <statistic-output value="statistics.xml" />
+    <collision-output value="collisions.xml" />
+    <lanechange-output value="lanechanges.xml" />
+    <lanechange-output.xy value="true" />
+    <fcd-output value="connector_fcd.xml.gz" />
+    <fcd-output.filter-edges.input-file value="fcd_edges.txt" />
+  </output>
+  <time>
+    <begin value="0" />
+    <end value="7200" />
+    <step-length value="0.1" />
+  </time>
+  <processing>
+    <step-method.ballistic value="true" />
+    <default.action-step-length value="0.1" />
+    <default.carfollowmodel value="Krauss" />
+    <collision.action value="teleport" />
+    <collision.stoptime value="0" />
+    <collision.check-junctions value="true" />
+    <collision.mingap-factor value="-1" />
+    <time-to-teleport value="300" />
+    <time-to-teleport.remove value="false" />
+    <max-depart-delay value="-1" />
+    <insertion-checks value="all" />
+  </processing>
+  <report>
+    <xml-validation value="never" />
+    <no-step-log value="true" />
+    <duration-log.disable value="true" />
+  </report>
+  <random_number>
+    <seed value="101" />
+  </random_number>
+</configuration>

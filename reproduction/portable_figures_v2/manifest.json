@@ -1,0 +1,195 @@
+{
+  "schema": 1,
+  "created_utc": "2026-10-21T02:10:45.612810+00:00",
+  "files": {
+    "core_detector_batch/cycle_diagnostics.csv": "d23784758cfe8501c253c97f243f88f9b2ef630e2383a23b336646bb88b54d51",
+    "expected/Fig08_baseline_edge_bottleneck.png": "eedca90b24c081a196aa745355eef68711d1fd3d4fcb16f9f61a1ea22993d427",
+    "expected/Fig23_weather_decomposition.png": "90a79e65d3c32acc8c905d3f952f335559b3c2bdc3bb484955554968966230bc",
+    "expected/Fig_revision_cycle_audit.png": "c69267ef97f01d060f147c58b2d35f4a308a6e219af58ab455290b1879764306",
+    "expected/Fig_revision_framework.png": "9a115368aca5ac39a282f5f35445f4e7dcd560ea1ad8d7c5a97ed9f409b51253",
+    "expected/Fig_revision_horizon.png": "c43038f26d4c93eb481a9ea55093fe48201346c33e8c0d0f64840560c4e64317",
+    "expected/Fig_revision_interactions_stage10.png": "cd4d330dfedd266385eda319ca2c17006f98700a8c28c9d50bd5c35e27f4f1ea",
+    "expected/Fig_revision_intervention.png": "3a3b66fa041c8856d33ebcd083617197b422247639f95bc56a9ee0718d7b2b57",
+    "expected/Fig_revision_multiseed_scores.png": "0312fcdd1be86abbf28aa718f6388acac05cda6c9236599375a723db4c575e0d",
+    "expected/Fig_revision_network_stage10.png": "00a4ded10a9e62ec4c9ec10c7eddb671a668c6b9a509075f8b2c1ffaa87ba206",
+    "expected/Fig_revision_oat_stage10.png": "08cfd9faecad6e7f9e0d2105160a3153a877a63f7676d6e53410b4b81640ca1f",
+    "expected/Fig_revision_QD_response.png": "bd3afd45530af88fcf800dcf61715790e267e67872ccb1cc3a318b9ad3c9f041",
+    "expected/Fig_revision_score_robustness.png": "f6f4ef6728d3bef3d3429eba29d485b9e7e89b27614dc9b1935c200ed4c61d3f",
+    "expected/Fig_revision_scores.png": "5a78b150278d3631a45af6b2c76a30149af69256ae7954f85aec337963b86800",
+    "expected/Fig_revision_ten_seed_stage10.png": "30eeeaa44153b443b99f556babe5a940eabae8c4e67accfce2f855538b455c2a",
+    "expected/Fig_revision_three_seed_stage10.png": "be19333ff02b218a168476502bee552b10409d2c62cf5f5ab206a8be152ea08a",
+    "frozen/data/baseline_edge_bottleneck.csv": "e6d2b2c4b81dd58702f3022102f917252a1a3702483a37e450d14d67e846ecf4",
+    "frozen/data/sumo_factorial_interactions.csv": "d6859ff97a2321b33cfa6046163422685ed6754a147614a17287a95598292468",
+    "frozen/data/sumo_keyseed_scenario_summary.csv": "6876c10d4758063c433f380a8e40cba9855af665a2bbff4a612e81bde80599a8",
+    "frozen/data/sumo_multiseed_scenario_summary.csv": "60e72abac4b1c8981cb53de18f66a9649eae5bf6b2b20402c45667db1615cb19",
+    "frozen/data/sumo_scenario_effects.csv": "f270502f777b65db9790f21c6735ceafa26dcff35eca606edff3c77562abb3f7",
+    "frozen/data/weather_decomposition_summary.csv": "7e59873744ecab5c2aaf4a982dff1a97f20aa964e8bc3ef3fa6d6b28a821136d",
+    "frozen/inputs/network.net.xml": "5c18dcd49ff415a90acc61c5d12ea5a3630928aa8d4c87492ce63de426245ce2",
+    "horizon_audit_v1/timeline.csv": "31182a814b233c2dd588b1d69042a815adfa2090aaf62a5a91c268287a69e70d",
+    "independent_intervention_v1/analysis_summary.json": "6676bd532d48f42d34fc50e15b168fe0a1170f46d5d847d03f93beef3c19a47a",
+    "independent_intervention_v1/paired_intervention_effects.csv": "f58b26141e7ba95c68f927dcfd31441d908d781900789ca0472526ab5bf0dfab",
+    "README.txt": "24721ae6ca9306b2f7d9d67d9cfa0c966d500a3bd9bd2a158b8cd579a8322cec",
+    "reproduce_figures.py": "fa89a56bc73cad60a18da4e1ec4848a0f4e07946241c440c607d0e82b3c8e7d2",
+    "requirements-legacy-renderer.txt": "ebd94ddd27d56083672864e89a4698015acf6233e3ca0b2ed4569943f94cf42d",
+    "requirements.txt": "419514ad49582e8d71847864d03869a491abaeee8580f1c6e4634c662e24c34e",
+    "score_revision_v1/factor_scores.csv": "0414babf75b35277b28499d86f29818e16d0a7407334eca731a56f58f7d83934",
+    "score_revision_v1/multiseed_factor_scores.csv": "e403434d0387509206a3cdad93cf35477fdd0566e3ebb1110682a65085e75c30",
+    "score_revision_v1/range_summary.csv": "9099883d2b9339e8635961233ca4e0a80045bbded95cfea5a6931f1885a912b9",
+    "score_revision_v1/scenario_scores.csv": "c38a2d41aed37c04da61e036065598d7ca2d8cb2101450501a3055ad5db53bd6",
+    "scripts/legacy_bottleneck.py": "b612c4610cbcc54cf27fde861c5d5102a987b76272ee156d238c0227a4b75776",
+    "scripts/legacy_weather.py": "67e10fada99722d241e0c0f877fb9e20c30031967082a5492a802d9a9baaec8f",
+    "scripts/plot_core_cycle_check.py": "e01df52a49ae592ebcad84dd84752bbd2af20419eedfeb2fbc9231ff632c77d9",
+    "scripts/plot_horizon_v1.py": "87d179b433be5681996e45d6e43e22740cae5e989dfb290f8d1c3f77586d264b",
+    "scripts/plot_independent_intervention_v1.py": "8a738fc9327810df856c28ef43429d7853ac4c2f1e1deb6542fb0ffa592df18c",
+    "scripts/plot_legacy_stage10.py": "51d05ab13ddbeb5017ebd424802b82e59f9e36ad1982f11b14a28f8da44a0437",
+    "scripts/plot_scores_stage8.py": "a7e328243a3bec0717f36b6caf08f394a5f0d9302e9e21066a45d3de00dc7b84",
+    "scripts/stopline_instrumentation.py": "b540ba24659642c55ba718c58c67f3f097502f4ebb529e977557154a4e62edbe"
+  },
+  "figures": [
+    {
+      "document": "main.tex",
+      "ordinal": 1,
+      "asset": "figures/Fig_revision_framework.pdf",
+      "asset_sha256": "f172fc84dee2f12ef3f571fde1aae5f4add9756d3721ade939a5780ed63f71de",
+      "stem": "Fig_revision_framework",
+      "reference_png": "expected/Fig_revision_framework.png",
+      "produced_png": "manuscript_working/figures/Fig_revision_framework.png"
+    },
+    {
+      "document": "main.tex",
+      "ordinal": 2,
+      "asset": "figures/Fig_revision_network_stage10.pdf",
+      "asset_sha256": "95e26b8c60c9604d4114b5859f3ea7473e373c4bfc13633802b8810ad6746459",
+      "stem": "Fig_revision_network_stage10",
+      "reference_png": "expected/Fig_revision_network_stage10.png",
+      "produced_png": "manuscript_working/figures/Fig_revision_network_stage10.png"
+    },
+    {
+      "document": "main.tex",
+      "ordinal": 3,
+      "asset": "figures/Fig_revision_oat_stage10.pdf",
+      "asset_sha256": "0a98a4141bceb6749e494aed25f1425951416e9002b36650bf17acc04024cc93",
+      "stem": "Fig_revision_oat_stage10",
+      "reference_png": "expected/Fig_revision_oat_stage10.png",
+      "produced_png": "manuscript_working/figures/Fig_revision_oat_stage10.png"
+    },
+    {
+      "document": "main.tex",
+      "ordinal": 4,
+      "asset": "figures/Fig_revision_scores.png",
+      "asset_sha256": "5a78b150278d3631a45af6b2c76a30149af69256ae7954f85aec337963b86800",
+      "stem": "Fig_revision_scores",
+      "reference_png": "expected/Fig_revision_scores.png",
+      "produced_png": "manuscript_working/figures/Fig_revision_scores.png"
+    },
+    {
+      "document": "main.tex",
+      "ordinal": 5,
+      "asset": "figures/Fig_revision_cycle_audit.pdf",
+      "asset_sha256": "4ae31029f304085d5f69ce53e22b4076d04adafe57b56e25181f271f02e11c84",
+      "stem": "Fig_revision_cycle_audit",
+      "reference_png": "expected/Fig_revision_cycle_audit.png",
+      "produced_png": "core_detector_batch/figures/ED2_378_lane1_cycle_check.png"
+    },
+    {
+      "document": "main.tex",
+      "ordinal": 6,
+      "asset": "figures/Fig_revision_score_robustness.png",
+      "asset_sha256": "f6f4ef6728d3bef3d3429eba29d485b9e7e89b27614dc9b1935c200ed4c61d3f",
+      "stem": "Fig_revision_score_robustness",
+      "reference_png": "expected/Fig_revision_score_robustness.png",
+      "produced_png": "manuscript_working/figures/Fig_revision_score_robustness.png"
+    },
+    {
+      "document": "main.tex",
+      "ordinal": 7,
+      "asset": "figures/Fig_revision_QD_response.png",
+      "asset_sha256": "bd3afd45530af88fcf800dcf61715790e267e67872ccb1cc3a318b9ad3c9f041",
+      "stem": "Fig_revision_QD_response",
+      "reference_png": "expected/Fig_revision_QD_response.png",
+      "produced_png": "manuscript_working/figures/Fig_revision_QD_response.png"
+    },
+    {
+      "document": "main.tex",
+      "ordinal": 8,
+      "asset": "figures/Fig23_weather_decomposition.pdf",
+      "asset_sha256": "dee2daf00a58de750dcceb0a47a33e425c6c44165e30053bac752eda21ed1a5e",
+      "stem": "Fig23_weather_decomposition",
+      "reference_png": "expected/Fig23_weather_decomposition.png",
+      "produced_png": "manuscript_working/figures/Fig23_weather_decomposition.png"
+    },
+    {
+      "document": "main.tex",
+      "ordinal": 9,
+      "asset": "figures/Fig_revision_interactions_stage10.pdf",
+      "asset_sha256": "db6ba688aff129baa794de400bf5fbff2bb9aec11fdbae315332a32d9b743ff1",
+      "stem": "Fig_revision_interactions_stage10",
+      "reference_png": "expected/Fig_revision_interactions_stage10.png",
+      "produced_png": "manuscript_working/figures/Fig_revision_interactions_stage10.png"
+    },
+    {
+      "document": "main.tex",
+      "ordinal": 10,
+      "asset": "figures/Fig08_baseline_edge_bottleneck.png",
+      "asset_sha256": "eedca90b24c081a196aa745355eef68711d1fd3d4fcb16f9f61a1ea22993d427",
+      "stem": "Fig08_baseline_edge_bottleneck",
+      "reference_png": "expected/Fig08_baseline_edge_bottleneck.png",
+      "produced_png": "manuscript_working/figures/Fig08_baseline_edge_bottleneck.png"
+    },
+    {
+      "document": "main.tex",
+      "ordinal": 11,
+      "asset": "figures/Fig_revision_intervention.png",
+      "asset_sha256": "3a3b66fa041c8856d33ebcd083617197b422247639f95bc56a9ee0718d7b2b57",
+      "stem": "Fig_revision_intervention",
+      "reference_png": "expected/Fig_revision_intervention.png",
+      "produced_png": "manuscript_working/figures/Fig_revision_intervention.png"
+    },
+    {
+      "document": "supplementary.tex",
+      "ordinal": 1,
+      "asset": "figures/Fig_revision_three_seed_stage10.pdf",
+      "asset_sha256": "1a1e3f90cfce45ab2b3c904dba3491c34988ffc0551cc8180494fd76a3292ad1",
+      "stem": "Fig_revision_three_seed_stage10",
+      "reference_png": "expected/Fig_revision_three_seed_stage10.png",
+      "produced_png": "manuscript_working/figures/Fig_revision_three_seed_stage10.png"
+    },
+    {
+      "document": "supplementary.tex",
+      "ordinal": 2,
+      "asset": "figures/Fig_revision_multiseed_scores.png",
+      "asset_sha256": "0312fcdd1be86abbf28aa718f6388acac05cda6c9236599375a723db4c575e0d",
+      "stem": "Fig_revision_multiseed_scores",
+      "reference_png": "expected/Fig_revision_multiseed_scores.png",
+      "produced_png": "manuscript_working/figures/Fig_revision_multiseed_scores.png"
+    },
+    {
+      "document": "supplementary.tex",
+      "ordinal": 3,
+      "asset": "figures/Fig_revision_ten_seed_stage10.pdf",
+      "asset_sha256": "abaacaf0c22bdba1b74ef80ece94f2d2a5023c4fb7e98c54ef61b541d096f7ce",
+      "stem": "Fig_revision_ten_seed_stage10",
+      "reference_png": "expected/Fig_revision_ten_seed_stage10.png",
+      "produced_png": "manuscript_working/figures/Fig_revision_ten_seed_stage10.png"
+    },
+    {
+      "document": "supplementary.tex",
+      "ordinal": 4,
+      "asset": "figures/Fig_revision_horizon.pdf",
+      "asset_sha256": "1e8d76a598190e34673d58618c8e3ae5925c18beb2418fedf8d47163158b000d",
+      "stem": "Fig_revision_horizon",
+      "reference_png": "expected/Fig_revision_horizon.png",
+      "produced_png": "manuscript_working/figures/Fig_revision_horizon.png"
+    }
+  ],
+  "packages": {
+    "numpy": "2.5.4",
+    "matplotlib": "3.11.2",
+    "pandas": "3.0.6",
+    "Pillow": "13.0.0"
+  },
+  "python_version": "3.12.14 (main, Aug 25 2026, 14:01:42) [MSC v.1944 64 bit (AMD64)]",
+  "scope": "Processed tables and frozen network to active figures; not a simulation rerun or public release",
+  "prior_manifest_sha256": "34f3794f36bd06c4a6b064f98224dc46176789be2d7ab3cf46af56bdad3e0fd1",
+  "pre_cleanup_fix_manifest_sha256": "e62b0fae322ed1f043fdada1fdd29cc4a12b259edf535fa5de9e706f2cb729cc"
+}

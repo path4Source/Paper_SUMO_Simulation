@@ -1,0 +1,342 @@
+{
+  "version": "1.0",
+  "design": "Exploratory 3-condition x 2-plan paired intervention check; 5 fixed seeds per cell.",
+  "purpose": "Respond to R2.5 and R3.2 with a new operational intervention that does not remove the heavy-vehicle/weather perturbation, and distinguish generic retiming benefit from adverse-condition-specific benefit.",
+  "states": [
+    "baseline",
+    "heavyveh_very_high",
+    "weather_heavy_rain"
+  ],
+  "plans": [
+    "reference",
+    "reallocation"
+  ],
+  "seeds": [
+    11,
+    29,
+    47,
+    71,
+    101
+  ],
+  "new_runs": 25,
+  "reused_reference_baselines": 5,
+  "reused_scope": "Only unchanged 0.1/0.1-s baselines from connector audit are reused; all 25 intervention/adverse-condition runs are new. No earlier OAT or weather-component outcome is counted as a new intervention.",
+  "selection": "Plan fixed before these outcomes, using the existing ED1.177 and ED2.378 bottleneck locations, not optimized on current outcomes. Seeds are the previously fixed five; no seed is removed because of warnings. This is not an independently blinded classifier test.",
+  "intervention": "At n1 phase 0 gains 4 s, phases 2 and 6 each lose 2 s; at n2 phase 0 gains 4 s, phases 2 and 4 each lose 2 s. Phase indices are zero-based. All state strings, yellow durations, cycles, offsets, n4 timing and network geometry remain unchanged. Donor green intervals remain at least 18 s. This is a testable candidate, not an optimized or safety-calibrated signal plan.",
+  "phase_rows": [
+    {
+      "signal": "n1",
+      "phase_index": 0,
+      "state": "GGGGgggggrrrrrrrGrrrrrgrrrrr",
+      "reference_s": 36.0,
+      "intervention_s": 40.0,
+      "delta_s": 4.0,
+      "offset_s": 0.0,
+      "cycle_s": 133.0
+    },
+    {
+      "signal": "n1",
+      "phase_index": 1,
+      "state": "GyyyyyyygrrrrrrrGrrrrrgrrrrr",
+      "reference_s": 3.0,
+      "intervention_s": 3.0,
+      "delta_s": 0.0,
+      "offset_s": 0.0,
+      "cycle_s": 133.0
+    },
+    {
+      "signal": "n1",
+      "phase_index": 2,
+      "state": "GrrrrrrrgrrrrrrrGggggggrrrrr",
+      "reference_s": 38.0,
+      "intervention_s": 36.0,
+      "delta_s": -2.0,
+      "offset_s": 0.0,
+      "cycle_s": 133.0
+    },
+    {
+      "signal": "n1",
+      "phase_index": 3,
+      "state": "GrrrrrrrgrrrrrrrGyyyyygrrrrr",
+      "reference_s": 3.0,
+      "intervention_s": 3.0,
+      "delta_s": 0.0,
+      "offset_s": 0.0,
+      "cycle_s": 133.0
+    },
+    {
+      "signal": "n1",
+      "phase_index": 4,
+      "state": "GrrrrrrrGGGGGGrrgrrrrrGGGGrr",
+      "reference_s": 27.0,
+      "intervention_s": 27.0,
+      "delta_s": 0.0,
+      "offset_s": 0.0,
+      "cycle_s": 133.0
+    },
+    {
+      "signal": "n1",
+      "phase_index": 5,
+      "state": "GrrrrrrrGyyyyyrrgrrrrrGyyyrr",
+      "reference_s": 3.0,
+      "intervention_s": 3.0,
+      "delta_s": 0.0,
+      "offset_s": 0.0,
+      "cycle_s": 133.0
+    },
+    {
+      "signal": "n1",
+      "phase_index": 6,
+      "state": "GrrrrrrrGrrrrrGGgrrrrrGrrrGG",
+      "reference_s": 20.0,
+      "intervention_s": 18.0,
+      "delta_s": -2.0,
+      "offset_s": 0.0,
+      "cycle_s": 133.0
+    },
+    {
+      "signal": "n1",
+      "phase_index": 7,
+      "state": "GrrrrrrrGrrrrryygrrrrrGrrryy",
+      "reference_s": 3.0,
+      "intervention_s": 3.0,
+      "delta_s": 0.0,
+      "offset_s": 0.0,
+      "cycle_s": 133.0
+    },
+    {
+      "signal": "n2",
+      "phase_index": 0,
+      "state": "GGGGGrrggggrrr",
+      "reference_s": 33.0,
+      "intervention_s": 37.0,
+      "delta_s": 4.0,
+      "offset_s": 0.0,
+      "cycle_s": 120.0
+    },
+    {
+      "signal": "n2",
+      "phase_index": 1,
+      "state": "Gyyyyrrggggrrr",
+      "reference_s": 6.0,
+      "intervention_s": 6.0,
+      "delta_s": 0.0,
+      "offset_s": 0.0,
+      "cycle_s": 120.0
+    },
+    {
+      "signal": "n2",
+      "phase_index": 2,
+      "state": "GrrGGGGggggrrr",
+      "reference_s": 30.0,
+      "intervention_s": 28.0,
+      "delta_s": -2.0,
+      "offset_s": 0.0,
+      "cycle_s": 120.0
+    },
+    {
+      "signal": "n2",
+      "phase_index": 3,
+      "state": "Grryyyyggggrrr",
+      "reference_s": 6.0,
+      "intervention_s": 6.0,
+      "delta_s": 0.0,
+      "offset_s": 0.0,
+      "cycle_s": 120.0
+    },
+    {
+      "signal": "n2",
+      "phase_index": 4,
+      "state": "GrrrrrrGGgGGGG",
+      "reference_s": 33.0,
+      "intervention_s": 31.0,
+      "delta_s": -2.0,
+      "offset_s": 0.0,
+      "cycle_s": 120.0
+    },
+    {
+      "signal": "n2",
+      "phase_index": 5,
+      "state": "Grrrrrrggggyyy",
+      "reference_s": 6.0,
+      "intervention_s": 6.0,
+      "delta_s": 0.0,
+      "offset_s": 0.0,
+      "cycle_s": 120.0
+    },
+    {
+      "signal": "n2",
+      "phase_index": 6,
+      "state": "yrrrrrryyyyyyy",
+      "reference_s": 6.0,
+      "intervention_s": 6.0,
+      "delta_s": 0.0,
+      "offset_s": 0.0,
+      "cycle_s": 120.0
+    },
+    {
+      "signal": "n4",
+      "phase_index": 0,
+      "state": "GGGGGrGrrGGGGGrGrr",
+      "reference_s": 40.0,
+      "intervention_s": 40.0,
+      "delta_s": 0.0,
+      "offset_s": 0.0,
+      "cycle_s": 137.0
+    },
+    {
+      "signal": "n4",
+      "phase_index": 1,
+      "state": "gyyyyrgrrgyyyyrgrr",
+      "reference_s": 3.0,
+      "intervention_s": 3.0,
+      "delta_s": 0.0,
+      "offset_s": 0.0,
+      "cycle_s": 137.0
+    },
+    {
+      "signal": "n4",
+      "phase_index": 2,
+      "state": "grrrrGgrrgrrrrGgrr",
+      "reference_s": 30.0,
+      "intervention_s": 30.0,
+      "delta_s": 0.0,
+      "offset_s": 0.0,
+      "cycle_s": 137.0
+    },
+    {
+      "signal": "n4",
+      "phase_index": 3,
+      "state": "grrrrygrrgrrrrygrr",
+      "reference_s": 3.0,
+      "intervention_s": 3.0,
+      "delta_s": 0.0,
+      "offset_s": 0.0,
+      "cycle_s": 137.0
+    },
+    {
+      "signal": "n4",
+      "phase_index": 4,
+      "state": "GrrrrrGGrGrrrrrGGr",
+      "reference_s": 30.0,
+      "intervention_s": 30.0,
+      "delta_s": 0.0,
+      "offset_s": 0.0,
+      "cycle_s": 137.0
+    },
+    {
+      "signal": "n4",
+      "phase_index": 5,
+      "state": "grrrrrgyrgrrrrrgyr",
+      "reference_s": 3.0,
+      "intervention_s": 3.0,
+      "delta_s": 0.0,
+      "offset_s": 0.0,
+      "cycle_s": 137.0
+    },
+    {
+      "signal": "n4",
+      "phase_index": 6,
+      "state": "grrrrrgrGgrrrrrgrG",
+      "reference_s": 25.0,
+      "intervention_s": 25.0,
+      "delta_s": 0.0,
+      "offset_s": 0.0,
+      "cycle_s": 137.0
+    },
+    {
+      "signal": "n4",
+      "phase_index": 7,
+      "state": "grrrrrgrygrrrrrgry",
+      "reference_s": 3.0,
+      "intervention_s": 3.0,
+      "delta_s": 0.0,
+      "offset_s": 0.0,
+      "cycle_s": 137.0
+    }
+  ],
+  "adversity": "Retain exact archived 24% truck composition and heavy-rain vehicle parameters separately. Routes, demands, vehicle parameters and departure settings are identical within each condition's reference/intervention pair. Tau omitted in rain file retains simulator default 1 s. No emission outcomes or truck-lane restrictions are introduced.",
+  "vehicle_types": {
+    "baseline": [
+      {
+        "id": "car",
+        "accel": "2.6",
+        "decel": "4.5",
+        "sigma": "0.5",
+        "length": "5",
+        "minGap": "2.5",
+        "maxSpeed": "16.67",
+        "guiShape": "passenger",
+        "tau": "1"
+      }
+    ],
+    "heavyveh_very_high": [
+      {
+        "id": "car",
+        "accel": "2.6",
+        "decel": "4.5",
+        "sigma": "0.5",
+        "length": "5",
+        "minGap": "2.5",
+        "maxSpeed": "16.67",
+        "tau": "1",
+        "guiShape": "passenger"
+      },
+      {
+        "id": "truck",
+        "accel": "1.20",
+        "decel": "3.50",
+        "sigma": "0.55",
+        "length": "10.0",
+        "minGap": "3.0",
+        "maxSpeed": "13.89",
+        "tau": "1",
+        "guiShape": "truck"
+      }
+    ],
+    "weather_heavy_rain": [
+      {
+        "id": "car",
+        "accel": "1.82",
+        "decel": "3.825",
+        "sigma": "0.8",
+        "length": "5",
+        "minGap": "2.5",
+        "maxSpeed": "13.336",
+        "guiShape": "passenger"
+      }
+    ]
+  },
+  "simulation": "SUMO 1.24.0; ballistic; step/action 0.1/0.1 s; horizon 0-3600 s; no warmup removal; junction collision checks on; collision teleport and 300-s gridlock teleport; complete trip-population output; all source settings otherwise retained.",
+  "primary": "Within each condition, report paired percentage change in arrived throughput and total vehicle-hours (network running plus entry waiting). Report completed-trip time loss, final insertion backlog, in-network vehicles, unique teleported vehicles and collisions as supporting diagnostics.",
+  "comparison": "Also report adverse-reference versus baseline-reference and the paired difference in intervention percentage responses (adverse minus baseline), in percentage points. The latter is a response-heterogeneity contrast, not an independent causal validation of the original source label.",
+  "local": "Direct lane-end front crossings and summed time-mean lane queue extent over the last up-to-100m. Target lanes fixed as listed. Donor lanes are those whose all-connections-green duration decreases under the fixed plan. Also report each signal and every lane; n4 is unchanged by the plan, not an independent isolated control because traffic can redistribute.",
+  "target_lanes": [
+    "ED1.177_1",
+    "ED1.177_2",
+    "ED1.177_3",
+    "ED2.378_1",
+    "ED2.378_2"
+  ],
+  "uncertainty": "Student t95 intervals of five paired seed responses, df4. Exploratory, unadjusted for multiple outcomes/conditions; no confirmatory efficacy or equivalence claim. Confidence intervals crossing zero remain unresolved.",
+  "interpretation_rule": "Network recovery requires the whole throughput CI above +2% and the whole total vehicle-hour CI below -5%; no timing/collision/teleport warning in either arm; and the upper confidence bound of insertion-backlog change no greater than +2 percentage points of planned demand. Local corroboration separately requires target crossing CI above +2% and target queue CI below -5%; donor deterioration is reported separately. Failure or conflict is retained and does not falsify the original degradation diagnosis. These are conservative reporting rules, not a proof of mechanism.",
+  "no_tuning": "Run all prespecified cells. Do not replace the plan, drop seeds, change tolerances or suppress failures after observing outcomes. Any later candidate requires a new protocol and is exploratory.",
+  "source_hashes": {
+    "network": "5c18dcd49ff415a90acc61c5d12ea5a3630928aa8d4c87492ce63de426245ce2",
+    "sumo": "68a88f8c057d7aed44c63d93b6133f94d605dfe2578938221a65ee455d64b376",
+    "routes_baseline": "72c3ddb6a6fba7de58accd78a8f80c0c0aab9c6533ba6003096a7546cfc2d081",
+    "routes_heavyveh_very_high": "4b0143dcd11a4b1441fd592ea9049fdb94c16a90659ef77ec600b7356b7f1620",
+    "routes_weather_heavy_rain": "1cf32bc0adcebe326048c3ff53978bb71ee390199cd6639bcc32e626ee4244fa",
+    "baseline_seed11": "9d6823b3df8bade2e9186802c66923535558304e59d0a2fb2588610eae85ec94",
+    "baseline_seed29": "c489c01ed431d3699826015447def41f940d45b87b80b221456eae008f2692ef",
+    "baseline_seed47": "5ae4068b0defd24edb126ba48148715bf14e11d3cf6ca4886861f521c2e3a278",
+    "baseline_seed71": "29c3ffd43b8bd19ac5b598a82730b8527bd14997718f737dd397c20ee53c66a4",
+    "baseline_seed101": "970348c926f23e0b3895de3a766bceb0cac3da1dc044dfce9f24da29ab1234f9"
+  },
+  "code_hashes": {
+    "run_independent_intervention_v1.py": "a81c6ba5c664e8c999ec47fd5f8054bdebaa9985e327484368b751f30c8bd08c",
+    "audit_metrics.py": "d6b12fb1405426b35a74085b85cdd0b62f305eb3625262b2db2eddec7ea508fe",
+    "stopline_instrumentation.py": "b540ba24659642c55ba718c58c67f3f097502f4ebb529e977557154a4e62edbe"
+  },
+  "frozen_utc": "2026-10-19T18:08:58.320644+00:00"
+}

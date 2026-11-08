@@ -1,0 +1,63 @@
+{
+  "source_sha256": {
+    "sumo_oat_results.csv": "e3c2f9a5268ecdd3a2dfb22b0e946a4a51026518544f61bafd7def72695a375c",
+    "sumo_multiseed_results.csv": "08643634f5c5f6d5bf05d54d0b0de727f6aa2a12bbef1c1bb372cb11e08acdcb",
+    "sumo_scenario_effects.csv": "f270502f777b65db9790f21c6735ceafa26dcff35eca606edff3c77562abb3f7"
+  },
+  "new_sumo_runs": 0,
+  "weights_QDH": [
+    0.5294117647058824,
+    0.29411764705882354,
+    0.17647058823529413
+  ],
+  "normalization": "All 26 non-baseline responses for seed 42; pooled 78 seed-matched responses for the three-seed check. Fixed within each analysis, including range variants.",
+  "loss_denominators_pct": [
+    17.12173781867552,
+    85.85929085697342,
+    172.49173631523345
+  ],
+  "gain_denominators_pct": [
+    15.809322673103022,
+    81.16376872293955,
+    87.40219562966139
+  ],
+  "multiseed_loss_denominators_pct": [
+    18.04085284031609,
+    90.34294248959147,
+    181.17254062075995
+  ],
+  "multiseed_gain_denominators_pct": [
+    16.39866504854368,
+    81.32975618144968,
+    87.51893401340863
+  ],
+  "demand": "Retained in normalization for audit continuity, excluded from factor ranking and score interpretation.",
+  "screening": "All IPI values are raw descriptive audit values; no composite score grants operational improvement status.",
+  "random_seed": 20261020,
+  "weight_samples": 5000,
+  "range_variants": [
+    "Max",
+    "Mean",
+    "Remove peak",
+    "Without Q",
+    "Without D",
+    "Without H"
+  ],
+  "tie_policy": "average rank; same fixed component denominators in all six variants",
+  "legacy_four_component_reproduction": "passed at absolute tolerance 1e-10",
+  "leading_five": [
+    "heavy_vehicle_share",
+    "weather",
+    "driver_sigma",
+    "reaction_time",
+    "signal_lost_time"
+  ],
+  "multiseed_leading_five": [
+    "weather",
+    "heavy_vehicle_share",
+    "driver_sigma",
+    "reaction_time",
+    "signal_lost_time"
+  ],
+  "changed_ranks": []
+}

@@ -1,0 +1,1637 @@
+{
+  "measurement": [
+    {
+      "case": "baseline_reference_seed11",
+      "state": "baseline",
+      "plan": "reference",
+      "seed": 11,
+      "family": "BH",
+      "raw_path": "BH/baseline_reference_seed11"
+    },
+    {
+      "case": "baseline_reference_seed29",
+      "state": "baseline",
+      "plan": "reference",
+      "seed": 29,
+      "family": "BH",
+      "raw_path": "BH/baseline_reference_seed29"
+    },
+    {
+      "case": "baseline_reference_seed47",
+      "state": "baseline",
+      "plan": "reference",
+      "seed": 47,
+      "family": "BH",
+      "raw_path": "BH/baseline_reference_seed47"
+    },
+    {
+      "case": "baseline_reference_seed71",
+      "state": "baseline",
+      "plan": "reference",
+      "seed": 71,
+      "family": "BH",
+      "raw_path": "BH/baseline_reference_seed71"
+    },
+    {
+      "case": "baseline_reference_seed101",
+      "state": "baseline",
+      "plan": "reference",
+      "seed": 101,
+      "family": "BH",
+      "raw_path": "BH/baseline_reference_seed101"
+    },
+    {
+      "case": "baseline_reallocation_seed11",
+      "state": "baseline",
+      "plan": "reallocation",
+      "seed": 11,
+      "family": "BH",
+      "raw_path": "BH/baseline_reallocation_seed11"
+    },
+    {
+      "case": "baseline_reallocation_seed29",
+      "state": "baseline",
+      "plan": "reallocation",
+      "seed": 29,
+      "family": "BH",
+      "raw_path": "BH/baseline_reallocation_seed29"
+    },
+    {
+      "case": "baseline_reallocation_seed47",
+      "state": "baseline",
+      "plan": "reallocation",
+      "seed": 47,
+      "family": "BH",
+      "raw_path": "BH/baseline_reallocation_seed47"
+    },
+    {
+      "case": "baseline_reallocation_seed71",
+      "state": "baseline",
+      "plan": "reallocation",
+      "seed": 71,
+      "family": "BH",
+      "raw_path": "BH/baseline_reallocation_seed71"
+    },
+    {
+      "case": "baseline_reallocation_seed101",
+      "state": "baseline",
+      "plan": "reallocation",
+      "seed": 101,
+      "family": "BH",
+      "raw_path": "BH/baseline_reallocation_seed101"
+    },
+    {
+      "case": "heavyveh_very_high_reference_seed11",
+      "state": "heavyveh_very_high",
+      "plan": "reference",
+      "seed": 11,
+      "family": "BH",
+      "raw_path": "BH/heavyveh_very_high_reference_seed11"
+    },
+    {
+      "case": "heavyveh_very_high_reference_seed29",
+      "state": "heavyveh_very_high",
+      "plan": "reference",
+      "seed": 29,
+      "family": "BH",
+      "raw_path": "BH/heavyveh_very_high_reference_seed29"
+    },
+    {
+      "case": "heavyveh_very_high_reference_seed47",
+      "state": "heavyveh_very_high",
+      "plan": "reference",
+      "seed": 47,
+      "family": "BH",
+      "raw_path": "BH/heavyveh_very_high_reference_seed47"
+    },
+    {
+      "case": "heavyveh_very_high_reference_seed71",
+      "state": "heavyveh_very_high",
+      "plan": "reference",
+      "seed": 71,
+      "family": "BH",
+      "raw_path": "BH/heavyveh_very_high_reference_seed71"
+    },
+    {
+      "case": "heavyveh_very_high_reference_seed101",
+      "state": "heavyveh_very_high",
+      "plan": "reference",
+      "seed": 101,
+      "family": "BH",
+      "raw_path": "BH/heavyveh_very_high_reference_seed101"
+    },
+    {
+      "case": "heavyveh_very_high_reallocation_seed11",
+      "state": "heavyveh_very_high",
+      "plan": "reallocation",
+      "seed": 11,
+      "family": "BH",
+      "raw_path": "BH/heavyveh_very_high_reallocation_seed11"
+    },
+    {
+      "case": "heavyveh_very_high_reallocation_seed29",
+      "state": "heavyveh_very_high",
+      "plan": "reallocation",
+      "seed": 29,
+      "family": "BH",
+      "raw_path": "BH/heavyveh_very_high_reallocation_seed29"
+    },
+    {
+      "case": "heavyveh_very_high_reallocation_seed47",
+      "state": "heavyveh_very_high",
+      "plan": "reallocation",
+      "seed": 47,
+      "family": "BH",
+      "raw_path": "BH/heavyveh_very_high_reallocation_seed47"
+    },
+    {
+      "case": "heavyveh_very_high_reallocation_seed71",
+      "state": "heavyveh_very_high",
+      "plan": "reallocation",
+      "seed": 71,
+      "family": "BH",
+      "raw_path": "BH/heavyveh_very_high_reallocation_seed71"
+    },
+    {
+      "case": "heavyveh_very_high_reallocation_seed101",
+      "state": "heavyveh_very_high",
+      "plan": "reallocation",
+      "seed": 101,
+      "family": "BH",
+      "raw_path": "BH/heavyveh_very_high_reallocation_seed101"
+    },
+    {
+      "case": "weather_heavy_rain_reference_seed11",
+      "state": "weather_heavy_rain",
+      "plan": "reference",
+      "seed": 11,
+      "family": "BH",
+      "raw_path": "BH/weather_heavy_rain_reference_seed11"
+    },
+    {
+      "case": "weather_heavy_rain_reference_seed29",
+      "state": "weather_heavy_rain",
+      "plan": "reference",
+      "seed": 29,
+      "family": "BH",
+      "raw_path": "BH/weather_heavy_rain_reference_seed29"
+    },
+    {
+      "case": "weather_heavy_rain_reference_seed47",
+      "state": "weather_heavy_rain",
+      "plan": "reference",
+      "seed": 47,
+      "family": "BH",
+      "raw_path": "BH/weather_heavy_rain_reference_seed47"
+    },
+    {
+      "case": "weather_heavy_rain_reference_seed71",
+      "state": "weather_heavy_rain",
+      "plan": "reference",
+      "seed": 71,
+      "family": "BH",
+      "raw_path": "BH/weather_heavy_rain_reference_seed71"
+    },
+    {
+      "case": "weather_heavy_rain_reference_seed101",
+      "state": "weather_heavy_rain",
+      "plan": "reference",
+      "seed": 101,
+      "family": "BH",
+      "raw_path": "BH/weather_heavy_rain_reference_seed101"
+    },
+    {
+      "case": "weather_heavy_rain_reallocation_seed11",
+      "state": "weather_heavy_rain",
+      "plan": "reallocation",
+      "seed": 11,
+      "family": "BH",
+      "raw_path": "BH/weather_heavy_rain_reallocation_seed11"
+    },
+    {
+      "case": "weather_heavy_rain_reallocation_seed29",
+      "state": "weather_heavy_rain",
+      "plan": "reallocation",
+      "seed": 29,
+      "family": "BH",
+      "raw_path": "BH/weather_heavy_rain_reallocation_seed29"
+    },
+    {
+      "case": "weather_heavy_rain_reallocation_seed47",
+      "state": "weather_heavy_rain",
+      "plan": "reallocation",
+      "seed": 47,
+      "family": "BH",
+      "raw_path": "BH/weather_heavy_rain_reallocation_seed47"
+    },
+    {
+      "case": "weather_heavy_rain_reallocation_seed71",
+      "state": "weather_heavy_rain",
+      "plan": "reallocation",
+      "seed": 71,
+      "family": "BH",
+      "raw_path": "BH/weather_heavy_rain_reallocation_seed71"
+    },
+    {
+      "case": "weather_heavy_rain_reallocation_seed101",
+      "state": "weather_heavy_rain",
+      "plan": "reallocation",
+      "seed": 101,
+      "family": "BH",
+      "raw_path": "BH/weather_heavy_rain_reallocation_seed101"
+    },
+    {
+      "case": "bridge_baseline_seed101",
+      "family": "BK",
+      "raw_path": "BK/bridge_baseline_seed101",
+      "reference_raw_path": "holdout_raw/bridge/baseline_seed101"
+    },
+    {
+      "case": "bridge_baseline_seed11",
+      "family": "BK",
+      "raw_path": "BK/bridge_baseline_seed11",
+      "reference_raw_path": "holdout_raw/bridge/baseline_seed11"
+    },
+    {
+      "case": "bridge_baseline_seed29",
+      "family": "BK",
+      "raw_path": "BK/bridge_baseline_seed29",
+      "reference_raw_path": "holdout_raw/bridge/baseline_seed29"
+    },
+    {
+      "case": "bridge_baseline_seed47",
+      "family": "BK",
+      "raw_path": "BK/bridge_baseline_seed47",
+      "reference_raw_path": "holdout_raw/bridge/baseline_seed47"
+    },
+    {
+      "case": "bridge_baseline_seed71",
+      "family": "BK",
+      "raw_path": "BK/bridge_baseline_seed71",
+      "reference_raw_path": "holdout_raw/bridge/baseline_seed71"
+    },
+    {
+      "case": "bridge_heavyveh_very_high_seed101",
+      "family": "BK",
+      "raw_path": "BK/bridge_heavyveh_very_high_seed101",
+      "reference_raw_path": "holdout_raw/bridge/heavyveh_very_high_seed101"
+    },
+    {
+      "case": "bridge_heavyveh_very_high_seed11",
+      "family": "BK",
+      "raw_path": "BK/bridge_heavyveh_very_high_seed11",
+      "reference_raw_path": "holdout_raw/bridge/heavyveh_very_high_seed11"
+    },
+    {
+      "case": "bridge_heavyveh_very_high_seed29",
+      "family": "BK",
+      "raw_path": "BK/bridge_heavyveh_very_high_seed29",
+      "reference_raw_path": "holdout_raw/bridge/heavyveh_very_high_seed29"
+    },
+    {
+      "case": "bridge_heavyveh_very_high_seed47",
+      "family": "BK",
+      "raw_path": "BK/bridge_heavyveh_very_high_seed47",
+      "reference_raw_path": "holdout_raw/bridge/heavyveh_very_high_seed47"
+    },
+    {
+      "case": "bridge_heavyveh_very_high_seed71",
+      "family": "BK",
+      "raw_path": "BK/bridge_heavyveh_very_high_seed71",
+      "reference_raw_path": "holdout_raw/bridge/heavyveh_very_high_seed71"
+    },
+    {
+      "case": "bridge_weather_heavy_rain_seed101",
+      "family": "BK",
+      "raw_path": "BK/bridge_weather_heavy_rain_seed101",
+      "reference_raw_path": "holdout_raw/bridge/weather_heavy_rain_seed101"
+    },
+    {
+      "case": "bridge_weather_heavy_rain_seed11",
+      "family": "BK",
+      "raw_path": "BK/bridge_weather_heavy_rain_seed11",
+      "reference_raw_path": "holdout_raw/bridge/weather_heavy_rain_seed11"
+    },
+    {
+      "case": "bridge_weather_heavy_rain_seed29",
+      "family": "BK",
+      "raw_path": "BK/bridge_weather_heavy_rain_seed29",
+      "reference_raw_path": "holdout_raw/bridge/weather_heavy_rain_seed29"
+    },
+    {
+      "case": "bridge_weather_heavy_rain_seed47",
+      "family": "BK",
+      "raw_path": "BK/bridge_weather_heavy_rain_seed47",
+      "reference_raw_path": "holdout_raw/bridge/weather_heavy_rain_seed47"
+    },
+    {
+      "case": "bridge_weather_heavy_rain_seed71",
+      "family": "BK",
+      "raw_path": "BK/bridge_weather_heavy_rain_seed71",
+      "reference_raw_path": "holdout_raw/bridge/weather_heavy_rain_seed71"
+    },
+    {
+      "case": "holdout_B00_seed211",
+      "family": "BK",
+      "raw_path": "BK/holdout_B00_seed211",
+      "reference_raw_path": "holdout_raw/holdout/B00_seed211"
+    },
+    {
+      "case": "holdout_B00_seed307",
+      "family": "BK",
+      "raw_path": "BK/holdout_B00_seed307",
+      "reference_raw_path": "holdout_raw/holdout/B00_seed307"
+    },
+    {
+      "case": "holdout_B00_seed401",
+      "family": "BK",
+      "raw_path": "BK/holdout_B00_seed401",
+      "reference_raw_path": "holdout_raw/holdout/B00_seed401"
+    },
+    {
+      "case": "holdout_B00_seed503",
+      "family": "BK",
+      "raw_path": "BK/holdout_B00_seed503",
+      "reference_raw_path": "holdout_raw/holdout/B00_seed503"
+    },
+    {
+      "case": "holdout_B00_seed601",
+      "family": "BK",
+      "raw_path": "BK/holdout_B00_seed601",
+      "reference_raw_path": "holdout_raw/holdout/B00_seed601"
+    },
+    {
+      "case": "holdout_H01_seed211",
+      "family": "BK",
+      "raw_path": "BK/holdout_H01_seed211",
+      "reference_raw_path": "holdout_raw/holdout/H01_seed211"
+    },
+    {
+      "case": "holdout_H01_seed307",
+      "family": "BK",
+      "raw_path": "BK/holdout_H01_seed307",
+      "reference_raw_path": "holdout_raw/holdout/H01_seed307"
+    },
+    {
+      "case": "holdout_H01_seed401",
+      "family": "BK",
+      "raw_path": "BK/holdout_H01_seed401",
+      "reference_raw_path": "holdout_raw/holdout/H01_seed401"
+    },
+    {
+      "case": "holdout_H01_seed503",
+      "family": "BK",
+      "raw_path": "BK/holdout_H01_seed503",
+      "reference_raw_path": "holdout_raw/holdout/H01_seed503"
+    },
+    {
+      "case": "holdout_H01_seed601",
+      "family": "BK",
+      "raw_path": "BK/holdout_H01_seed601",
+      "reference_raw_path": "holdout_raw/holdout/H01_seed601"
+    },
+    {
+      "case": "holdout_H02_seed211",
+      "family": "BK",
+      "raw_path": "BK/holdout_H02_seed211",
+      "reference_raw_path": "holdout_raw/holdout/H02_seed211"
+    },
+    {
+      "case": "holdout_H02_seed307",
+      "family": "BK",
+      "raw_path": "BK/holdout_H02_seed307",
+      "reference_raw_path": "holdout_raw/holdout/H02_seed307"
+    },
+    {
+      "case": "holdout_H02_seed401",
+      "family": "BK",
+      "raw_path": "BK/holdout_H02_seed401",
+      "reference_raw_path": "holdout_raw/holdout/H02_seed401"
+    },
+    {
+      "case": "holdout_H02_seed503",
+      "family": "BK",
+      "raw_path": "BK/holdout_H02_seed503",
+      "reference_raw_path": "holdout_raw/holdout/H02_seed503"
+    },
+    {
+      "case": "holdout_H02_seed601",
+      "family": "BK",
+      "raw_path": "BK/holdout_H02_seed601",
+      "reference_raw_path": "holdout_raw/holdout/H02_seed601"
+    },
+    {
+      "case": "holdout_H03_seed211",
+      "family": "BK",
+      "raw_path": "BK/holdout_H03_seed211",
+      "reference_raw_path": "holdout_raw/holdout/H03_seed211"
+    },
+    {
+      "case": "holdout_H03_seed307",
+      "family": "BK",
+      "raw_path": "BK/holdout_H03_seed307",
+      "reference_raw_path": "holdout_raw/holdout/H03_seed307"
+    },
+    {
+      "case": "holdout_H03_seed401",
+      "family": "BK",
+      "raw_path": "BK/holdout_H03_seed401",
+      "reference_raw_path": "holdout_raw/holdout/H03_seed401"
+    },
+    {
+      "case": "holdout_H03_seed503",
+      "family": "BK",
+      "raw_path": "BK/holdout_H03_seed503",
+      "reference_raw_path": "holdout_raw/holdout/H03_seed503"
+    },
+    {
+      "case": "holdout_H03_seed601",
+      "family": "BK",
+      "raw_path": "BK/holdout_H03_seed601",
+      "reference_raw_path": "holdout_raw/holdout/H03_seed601"
+    },
+    {
+      "case": "holdout_H04_seed211",
+      "family": "BK",
+      "raw_path": "BK/holdout_H04_seed211",
+      "reference_raw_path": "holdout_raw/holdout/H04_seed211"
+    },
+    {
+      "case": "holdout_H04_seed307",
+      "family": "BK",
+      "raw_path": "BK/holdout_H04_seed307",
+      "reference_raw_path": "holdout_raw/holdout/H04_seed307"
+    },
+    {
+      "case": "holdout_H04_seed401",
+      "family": "BK",
+      "raw_path": "BK/holdout_H04_seed401",
+      "reference_raw_path": "holdout_raw/holdout/H04_seed401"
+    },
+    {
+      "case": "holdout_H04_seed503",
+      "family": "BK",
+      "raw_path": "BK/holdout_H04_seed503",
+      "reference_raw_path": "holdout_raw/holdout/H04_seed503"
+    },
+    {
+      "case": "holdout_H04_seed601",
+      "family": "BK",
+      "raw_path": "BK/holdout_H04_seed601",
+      "reference_raw_path": "holdout_raw/holdout/H04_seed601"
+    },
+    {
+      "case": "holdout_H05_seed211",
+      "family": "BK",
+      "raw_path": "BK/holdout_H05_seed211",
+      "reference_raw_path": "holdout_raw/holdout/H05_seed211"
+    },
+    {
+      "case": "holdout_H05_seed307",
+      "family": "BK",
+      "raw_path": "BK/holdout_H05_seed307",
+      "reference_raw_path": "holdout_raw/holdout/H05_seed307"
+    },
+    {
+      "case": "holdout_H05_seed401",
+      "family": "BK",
+      "raw_path": "BK/holdout_H05_seed401",
+      "reference_raw_path": "holdout_raw/holdout/H05_seed401"
+    },
+    {
+      "case": "holdout_H05_seed503",
+      "family": "BK",
+      "raw_path": "BK/holdout_H05_seed503",
+      "reference_raw_path": "holdout_raw/holdout/H05_seed503"
+    },
+    {
+      "case": "holdout_H05_seed601",
+      "family": "BK",
+      "raw_path": "BK/holdout_H05_seed601",
+      "reference_raw_path": "holdout_raw/holdout/H05_seed601"
+    },
+    {
+      "case": "holdout_H06_seed211",
+      "family": "BK",
+      "raw_path": "BK/holdout_H06_seed211",
+      "reference_raw_path": "holdout_raw/holdout/H06_seed211"
+    },
+    {
+      "case": "holdout_H06_seed307",
+      "family": "BK",
+      "raw_path": "BK/holdout_H06_seed307",
+      "reference_raw_path": "holdout_raw/holdout/H06_seed307"
+    },
+    {
+      "case": "holdout_H06_seed401",
+      "family": "BK",
+      "raw_path": "BK/holdout_H06_seed401",
+      "reference_raw_path": "holdout_raw/holdout/H06_seed401"
+    },
+    {
+      "case": "holdout_H06_seed503",
+      "family": "BK",
+      "raw_path": "BK/holdout_H06_seed503",
+      "reference_raw_path": "holdout_raw/holdout/H06_seed503"
+    },
+    {
+      "case": "holdout_H06_seed601",
+      "family": "BK",
+      "raw_path": "BK/holdout_H06_seed601",
+      "reference_raw_path": "holdout_raw/holdout/H06_seed601"
+    },
+    {
+      "case": "holdout_H07_seed211",
+      "family": "BK",
+      "raw_path": "BK/holdout_H07_seed211",
+      "reference_raw_path": "holdout_raw/holdout/H07_seed211"
+    },
+    {
+      "case": "holdout_H07_seed307",
+      "family": "BK",
+      "raw_path": "BK/holdout_H07_seed307",
+      "reference_raw_path": "holdout_raw/holdout/H07_seed307"
+    },
+    {
+      "case": "holdout_H07_seed401",
+      "family": "BK",
+      "raw_path": "BK/holdout_H07_seed401",
+      "reference_raw_path": "holdout_raw/holdout/H07_seed401"
+    },
+    {
+      "case": "holdout_H07_seed503",
+      "family": "BK",
+      "raw_path": "BK/holdout_H07_seed503",
+      "reference_raw_path": "holdout_raw/holdout/H07_seed503"
+    },
+    {
+      "case": "holdout_H07_seed601",
+      "family": "BK",
+      "raw_path": "BK/holdout_H07_seed601",
+      "reference_raw_path": "holdout_raw/holdout/H07_seed601"
+    },
+    {
+      "case": "holdout_H08_seed211",
+      "family": "BK",
+      "raw_path": "BK/holdout_H08_seed211",
+      "reference_raw_path": "holdout_raw/holdout/H08_seed211"
+    },
+    {
+      "case": "holdout_H08_seed307",
+      "family": "BK",
+      "raw_path": "BK/holdout_H08_seed307",
+      "reference_raw_path": "holdout_raw/holdout/H08_seed307"
+    },
+    {
+      "case": "holdout_H08_seed401",
+      "family": "BK",
+      "raw_path": "BK/holdout_H08_seed401",
+      "reference_raw_path": "holdout_raw/holdout/H08_seed401"
+    },
+    {
+      "case": "holdout_H08_seed503",
+      "family": "BK",
+      "raw_path": "BK/holdout_H08_seed503",
+      "reference_raw_path": "holdout_raw/holdout/H08_seed503"
+    },
+    {
+      "case": "holdout_H08_seed601",
+      "family": "BK",
+      "raw_path": "BK/holdout_H08_seed601",
+      "reference_raw_path": "holdout_raw/holdout/H08_seed601"
+    },
+    {
+      "case": "holdout_H09_seed211",
+      "family": "BK",
+      "raw_path": "BK/holdout_H09_seed211",
+      "reference_raw_path": "holdout_raw/holdout/H09_seed211"
+    },
+    {
+      "case": "holdout_H09_seed307",
+      "family": "BK",
+      "raw_path": "BK/holdout_H09_seed307",
+      "reference_raw_path": "holdout_raw/holdout/H09_seed307"
+    },
+    {
+      "case": "holdout_H09_seed401",
+      "family": "BK",
+      "raw_path": "BK/holdout_H09_seed401",
+      "reference_raw_path": "holdout_raw/holdout/H09_seed401"
+    },
+    {
+      "case": "holdout_H09_seed503",
+      "family": "BK",
+      "raw_path": "BK/holdout_H09_seed503",
+      "reference_raw_path": "holdout_raw/holdout/H09_seed503"
+    },
+    {
+      "case": "holdout_H09_seed601",
+      "family": "BK",
+      "raw_path": "BK/holdout_H09_seed601",
+      "reference_raw_path": "holdout_raw/holdout/H09_seed601"
+    },
+    {
+      "case": "holdout_H10_seed211",
+      "family": "BK",
+      "raw_path": "BK/holdout_H10_seed211",
+      "reference_raw_path": "holdout_raw/holdout/H10_seed211"
+    },
+    {
+      "case": "holdout_H10_seed307",
+      "family": "BK",
+      "raw_path": "BK/holdout_H10_seed307",
+      "reference_raw_path": "holdout_raw/holdout/H10_seed307"
+    },
+    {
+      "case": "holdout_H10_seed401",
+      "family": "BK",
+      "raw_path": "BK/holdout_H10_seed401",
+      "reference_raw_path": "holdout_raw/holdout/H10_seed401"
+    },
+    {
+      "case": "holdout_H10_seed503",
+      "family": "BK",
+      "raw_path": "BK/holdout_H10_seed503",
+      "reference_raw_path": "holdout_raw/holdout/H10_seed503"
+    },
+    {
+      "case": "holdout_H10_seed601",
+      "family": "BK",
+      "raw_path": "BK/holdout_H10_seed601",
+      "reference_raw_path": "holdout_raw/holdout/H10_seed601"
+    },
+    {
+      "case": "holdout_H11_seed211",
+      "family": "BK",
+      "raw_path": "BK/holdout_H11_seed211",
+      "reference_raw_path": "holdout_raw/holdout/H11_seed211"
+    },
+    {
+      "case": "holdout_H11_seed307",
+      "family": "BK",
+      "raw_path": "BK/holdout_H11_seed307",
+      "reference_raw_path": "holdout_raw/holdout/H11_seed307"
+    },
+    {
+      "case": "holdout_H11_seed401",
+      "family": "BK",
+      "raw_path": "BK/holdout_H11_seed401",
+      "reference_raw_path": "holdout_raw/holdout/H11_seed401"
+    },
+    {
+      "case": "holdout_H11_seed503",
+      "family": "BK",
+      "raw_path": "BK/holdout_H11_seed503",
+      "reference_raw_path": "holdout_raw/holdout/H11_seed503"
+    },
+    {
+      "case": "holdout_H11_seed601",
+      "family": "BK",
+      "raw_path": "BK/holdout_H11_seed601",
+      "reference_raw_path": "holdout_raw/holdout/H11_seed601"
+    },
+    {
+      "case": "holdout_H12_seed211",
+      "family": "BK",
+      "raw_path": "BK/holdout_H12_seed211",
+      "reference_raw_path": "holdout_raw/holdout/H12_seed211"
+    },
+    {
+      "case": "holdout_H12_seed307",
+      "family": "BK",
+      "raw_path": "BK/holdout_H12_seed307",
+      "reference_raw_path": "holdout_raw/holdout/H12_seed307"
+    },
+    {
+      "case": "holdout_H12_seed401",
+      "family": "BK",
+      "raw_path": "BK/holdout_H12_seed401",
+      "reference_raw_path": "holdout_raw/holdout/H12_seed401"
+    },
+    {
+      "case": "holdout_H12_seed503",
+      "family": "BK",
+      "raw_path": "BK/holdout_H12_seed503",
+      "reference_raw_path": "holdout_raw/holdout/H12_seed503"
+    },
+    {
+      "case": "holdout_H12_seed601",
+      "family": "BK",
+      "raw_path": "BK/holdout_H12_seed601",
+      "reference_raw_path": "holdout_raw/holdout/H12_seed601"
+    }
+  ],
+  "numerical": [
+    {
+      "case": "baseline_seed11_sigma0.1_step0.1",
+      "state": "baseline",
+      "seed": 11,
+      "sigma_s": 0.1,
+      "step_s": 0.1,
+      "network_sha256": "5c18dcd49ff415a90acc61c5d12ea5a3630928aa8d4c87492ce63de426245ce2",
+      "raw_path": "holdout_raw/bridge_reused/baseline_seed11",
+      "reused": true
+    },
+    {
+      "case": "baseline_seed29_sigma0.1_step0.1",
+      "state": "baseline",
+      "seed": 29,
+      "sigma_s": 0.1,
+      "step_s": 0.1,
+      "network_sha256": "5c18dcd49ff415a90acc61c5d12ea5a3630928aa8d4c87492ce63de426245ce2",
+      "raw_path": "holdout_raw/bridge_reused/baseline_seed29",
+      "reused": true
+    },
+    {
+      "case": "baseline_seed47_sigma0.1_step0.1",
+      "state": "baseline",
+      "seed": 47,
+      "sigma_s": 0.1,
+      "step_s": 0.1,
+      "network_sha256": "5c18dcd49ff415a90acc61c5d12ea5a3630928aa8d4c87492ce63de426245ce2",
+      "raw_path": "holdout_raw/bridge_reused/baseline_seed47",
+      "reused": true
+    },
+    {
+      "case": "baseline_seed71_sigma0.1_step0.1",
+      "state": "baseline",
+      "seed": 71,
+      "sigma_s": 0.1,
+      "step_s": 0.1,
+      "network_sha256": "5c18dcd49ff415a90acc61c5d12ea5a3630928aa8d4c87492ce63de426245ce2",
+      "raw_path": "holdout_raw/bridge_reused/baseline_seed71",
+      "reused": true
+    },
+    {
+      "case": "baseline_seed101_sigma0.1_step0.1",
+      "state": "baseline",
+      "seed": 101,
+      "sigma_s": 0.1,
+      "step_s": 0.1,
+      "network_sha256": "5c18dcd49ff415a90acc61c5d12ea5a3630928aa8d4c87492ce63de426245ce2",
+      "raw_path": "holdout_raw/bridge_reused/baseline_seed101",
+      "reused": true
+    },
+    {
+      "case": "heavyveh_very_high_seed11_sigma0.1_step0.1",
+      "state": "heavyveh_very_high",
+      "seed": 11,
+      "sigma_s": 0.1,
+      "step_s": 0.1,
+      "network_sha256": "5c18dcd49ff415a90acc61c5d12ea5a3630928aa8d4c87492ce63de426245ce2",
+      "raw_path": "holdout_raw/bridge_reused/heavyveh_very_high_seed11",
+      "reused": true
+    },
+    {
+      "case": "heavyveh_very_high_seed29_sigma0.1_step0.1",
+      "state": "heavyveh_very_high",
+      "seed": 29,
+      "sigma_s": 0.1,
+      "step_s": 0.1,
+      "network_sha256": "5c18dcd49ff415a90acc61c5d12ea5a3630928aa8d4c87492ce63de426245ce2",
+      "raw_path": "holdout_raw/bridge_reused/heavyveh_very_high_seed29",
+      "reused": true
+    },
+    {
+      "case": "heavyveh_very_high_seed47_sigma0.1_step0.1",
+      "state": "heavyveh_very_high",
+      "seed": 47,
+      "sigma_s": 0.1,
+      "step_s": 0.1,
+      "network_sha256": "5c18dcd49ff415a90acc61c5d12ea5a3630928aa8d4c87492ce63de426245ce2",
+      "raw_path": "holdout_raw/bridge_reused/heavyveh_very_high_seed47",
+      "reused": true
+    },
+    {
+      "case": "heavyveh_very_high_seed71_sigma0.1_step0.1",
+      "state": "heavyveh_very_high",
+      "seed": 71,
+      "sigma_s": 0.1,
+      "step_s": 0.1,
+      "network_sha256": "5c18dcd49ff415a90acc61c5d12ea5a3630928aa8d4c87492ce63de426245ce2",
+      "raw_path": "holdout_raw/bridge_reused/heavyveh_very_high_seed71",
+      "reused": true
+    },
+    {
+      "case": "heavyveh_very_high_seed101_sigma0.1_step0.1",
+      "state": "heavyveh_very_high",
+      "seed": 101,
+      "sigma_s": 0.1,
+      "step_s": 0.1,
+      "network_sha256": "5c18dcd49ff415a90acc61c5d12ea5a3630928aa8d4c87492ce63de426245ce2",
+      "raw_path": "holdout_raw/bridge_reused/heavyveh_very_high_seed101",
+      "reused": true
+    },
+    {
+      "case": "weather_heavy_rain_seed11_sigma0.1_step0.1",
+      "state": "weather_heavy_rain",
+      "seed": 11,
+      "sigma_s": 0.1,
+      "step_s": 0.1,
+      "network_sha256": "5c18dcd49ff415a90acc61c5d12ea5a3630928aa8d4c87492ce63de426245ce2",
+      "raw_path": "holdout_raw/bridge_reused/weather_heavy_rain_seed11",
+      "reused": true
+    },
+    {
+      "case": "weather_heavy_rain_seed29_sigma0.1_step0.1",
+      "state": "weather_heavy_rain",
+      "seed": 29,
+      "sigma_s": 0.1,
+      "step_s": 0.1,
+      "network_sha256": "5c18dcd49ff415a90acc61c5d12ea5a3630928aa8d4c87492ce63de426245ce2",
+      "raw_path": "holdout_raw/bridge_reused/weather_heavy_rain_seed29",
+      "reused": true
+    },
+    {
+      "case": "weather_heavy_rain_seed47_sigma0.1_step0.1",
+      "state": "weather_heavy_rain",
+      "seed": 47,
+      "sigma_s": 0.1,
+      "step_s": 0.1,
+      "network_sha256": "5c18dcd49ff415a90acc61c5d12ea5a3630928aa8d4c87492ce63de426245ce2",
+      "raw_path": "holdout_raw/bridge_reused/weather_heavy_rain_seed47",
+      "reused": true
+    },
+    {
+      "case": "weather_heavy_rain_seed71_sigma0.1_step0.1",
+      "state": "weather_heavy_rain",
+      "seed": 71,
+      "sigma_s": 0.1,
+      "step_s": 0.1,
+      "network_sha256": "5c18dcd49ff415a90acc61c5d12ea5a3630928aa8d4c87492ce63de426245ce2",
+      "raw_path": "holdout_raw/bridge_reused/weather_heavy_rain_seed71",
+      "reused": true
+    },
+    {
+      "case": "weather_heavy_rain_seed101_sigma0.1_step0.1",
+      "state": "weather_heavy_rain",
+      "seed": 101,
+      "sigma_s": 0.1,
+      "step_s": 0.1,
+      "network_sha256": "5c18dcd49ff415a90acc61c5d12ea5a3630928aa8d4c87492ce63de426245ce2",
+      "raw_path": "holdout_raw/bridge_reused/weather_heavy_rain_seed101",
+      "reused": true
+    },
+    {
+      "case": "baseline_seed11_sigma1_step0.1",
+      "state": "baseline",
+      "seed": 11,
+      "sigma_s": 1.0,
+      "step_s": 0.1,
+      "network_sha256": "5c18dcd49ff415a90acc61c5d12ea5a3630928aa8d4c87492ce63de426245ce2",
+      "raw_path": "holdout_raw/bridge/baseline_seed11",
+      "reused": true
+    },
+    {
+      "case": "baseline_seed29_sigma1_step0.1",
+      "state": "baseline",
+      "seed": 29,
+      "sigma_s": 1.0,
+      "step_s": 0.1,
+      "network_sha256": "5c18dcd49ff415a90acc61c5d12ea5a3630928aa8d4c87492ce63de426245ce2",
+      "raw_path": "holdout_raw/bridge/baseline_seed29",
+      "reused": true
+    },
+    {
+      "case": "baseline_seed47_sigma1_step0.1",
+      "state": "baseline",
+      "seed": 47,
+      "sigma_s": 1.0,
+      "step_s": 0.1,
+      "network_sha256": "5c18dcd49ff415a90acc61c5d12ea5a3630928aa8d4c87492ce63de426245ce2",
+      "raw_path": "holdout_raw/bridge/baseline_seed47",
+      "reused": true
+    },
+    {
+      "case": "baseline_seed71_sigma1_step0.1",
+      "state": "baseline",
+      "seed": 71,
+      "sigma_s": 1.0,
+      "step_s": 0.1,
+      "network_sha256": "5c18dcd49ff415a90acc61c5d12ea5a3630928aa8d4c87492ce63de426245ce2",
+      "raw_path": "holdout_raw/bridge/baseline_seed71",
+      "reused": true
+    },
+    {
+      "case": "baseline_seed101_sigma1_step0.1",
+      "state": "baseline",
+      "seed": 101,
+      "sigma_s": 1.0,
+      "step_s": 0.1,
+      "network_sha256": "5c18dcd49ff415a90acc61c5d12ea5a3630928aa8d4c87492ce63de426245ce2",
+      "raw_path": "holdout_raw/bridge/baseline_seed101",
+      "reused": true
+    },
+    {
+      "case": "heavyveh_very_high_seed11_sigma1_step0.1",
+      "state": "heavyveh_very_high",
+      "seed": 11,
+      "sigma_s": 1.0,
+      "step_s": 0.1,
+      "network_sha256": "5c18dcd49ff415a90acc61c5d12ea5a3630928aa8d4c87492ce63de426245ce2",
+      "raw_path": "holdout_raw/bridge/heavyveh_very_high_seed11",
+      "reused": true
+    },
+    {
+      "case": "heavyveh_very_high_seed29_sigma1_step0.1",
+      "state": "heavyveh_very_high",
+      "seed": 29,
+      "sigma_s": 1.0,
+      "step_s": 0.1,
+      "network_sha256": "5c18dcd49ff415a90acc61c5d12ea5a3630928aa8d4c87492ce63de426245ce2",
+      "raw_path": "holdout_raw/bridge/heavyveh_very_high_seed29",
+      "reused": true
+    },
+    {
+      "case": "heavyveh_very_high_seed47_sigma1_step0.1",
+      "state": "heavyveh_very_high",
+      "seed": 47,
+      "sigma_s": 1.0,
+      "step_s": 0.1,
+      "network_sha256": "5c18dcd49ff415a90acc61c5d12ea5a3630928aa8d4c87492ce63de426245ce2",
+      "raw_path": "holdout_raw/bridge/heavyveh_very_high_seed47",
+      "reused": true
+    },
+    {
+      "case": "heavyveh_very_high_seed71_sigma1_step0.1",
+      "state": "heavyveh_very_high",
+      "seed": 71,
+      "sigma_s": 1.0,
+      "step_s": 0.1,
+      "network_sha256": "5c18dcd49ff415a90acc61c5d12ea5a3630928aa8d4c87492ce63de426245ce2",
+      "raw_path": "holdout_raw/bridge/heavyveh_very_high_seed71",
+      "reused": true
+    },
+    {
+      "case": "heavyveh_very_high_seed101_sigma1_step0.1",
+      "state": "heavyveh_very_high",
+      "seed": 101,
+      "sigma_s": 1.0,
+      "step_s": 0.1,
+      "network_sha256": "5c18dcd49ff415a90acc61c5d12ea5a3630928aa8d4c87492ce63de426245ce2",
+      "raw_path": "holdout_raw/bridge/heavyveh_very_high_seed101",
+      "reused": true
+    },
+    {
+      "case": "weather_heavy_rain_seed11_sigma1_step0.1",
+      "state": "weather_heavy_rain",
+      "seed": 11,
+      "sigma_s": 1.0,
+      "step_s": 0.1,
+      "network_sha256": "5c18dcd49ff415a90acc61c5d12ea5a3630928aa8d4c87492ce63de426245ce2",
+      "raw_path": "holdout_raw/bridge/weather_heavy_rain_seed11",
+      "reused": true
+    },
+    {
+      "case": "weather_heavy_rain_seed29_sigma1_step0.1",
+      "state": "weather_heavy_rain",
+      "seed": 29,
+      "sigma_s": 1.0,
+      "step_s": 0.1,
+      "network_sha256": "5c18dcd49ff415a90acc61c5d12ea5a3630928aa8d4c87492ce63de426245ce2",
+      "raw_path": "holdout_raw/bridge/weather_heavy_rain_seed29",
+      "reused": true
+    },
+    {
+      "case": "weather_heavy_rain_seed47_sigma1_step0.1",
+      "state": "weather_heavy_rain",
+      "seed": 47,
+      "sigma_s": 1.0,
+      "step_s": 0.1,
+      "network_sha256": "5c18dcd49ff415a90acc61c5d12ea5a3630928aa8d4c87492ce63de426245ce2",
+      "raw_path": "holdout_raw/bridge/weather_heavy_rain_seed47",
+      "reused": true
+    },
+    {
+      "case": "weather_heavy_rain_seed71_sigma1_step0.1",
+      "state": "weather_heavy_rain",
+      "seed": 71,
+      "sigma_s": 1.0,
+      "step_s": 0.1,
+      "network_sha256": "5c18dcd49ff415a90acc61c5d12ea5a3630928aa8d4c87492ce63de426245ce2",
+      "raw_path": "holdout_raw/bridge/weather_heavy_rain_seed71",
+      "reused": true
+    },
+    {
+      "case": "weather_heavy_rain_seed101_sigma1_step0.1",
+      "state": "weather_heavy_rain",
+      "seed": 101,
+      "sigma_s": 1.0,
+      "step_s": 0.1,
+      "network_sha256": "5c18dcd49ff415a90acc61c5d12ea5a3630928aa8d4c87492ce63de426245ce2",
+      "raw_path": "holdout_raw/bridge/weather_heavy_rain_seed101",
+      "reused": true
+    },
+    {
+      "case": "baseline_seed11_sigma0.1_step0.05",
+      "state": "baseline",
+      "seed": 11,
+      "sigma_s": 0.1,
+      "step_s": 0.05,
+      "network_sha256": "5c18dcd49ff415a90acc61c5d12ea5a3630928aa8d4c87492ce63de426245ce2",
+      "raw_path": "BL/baseline_seed11_sigma0.1_step0.05",
+      "reused": false
+    },
+    {
+      "case": "baseline_seed29_sigma0.1_step0.05",
+      "state": "baseline",
+      "seed": 29,
+      "sigma_s": 0.1,
+      "step_s": 0.05,
+      "network_sha256": "5c18dcd49ff415a90acc61c5d12ea5a3630928aa8d4c87492ce63de426245ce2",
+      "raw_path": "BL/baseline_seed29_sigma0.1_step0.05",
+      "reused": false
+    },
+    {
+      "case": "baseline_seed47_sigma0.1_step0.05",
+      "state": "baseline",
+      "seed": 47,
+      "sigma_s": 0.1,
+      "step_s": 0.05,
+      "network_sha256": "5c18dcd49ff415a90acc61c5d12ea5a3630928aa8d4c87492ce63de426245ce2",
+      "raw_path": "BL/baseline_seed47_sigma0.1_step0.05",
+      "reused": false
+    },
+    {
+      "case": "baseline_seed71_sigma0.1_step0.05",
+      "state": "baseline",
+      "seed": 71,
+      "sigma_s": 0.1,
+      "step_s": 0.05,
+      "network_sha256": "5c18dcd49ff415a90acc61c5d12ea5a3630928aa8d4c87492ce63de426245ce2",
+      "raw_path": "BL/baseline_seed71_sigma0.1_step0.05",
+      "reused": false
+    },
+    {
+      "case": "baseline_seed101_sigma0.1_step0.05",
+      "state": "baseline",
+      "seed": 101,
+      "sigma_s": 0.1,
+      "step_s": 0.05,
+      "network_sha256": "5c18dcd49ff415a90acc61c5d12ea5a3630928aa8d4c87492ce63de426245ce2",
+      "raw_path": "BL/baseline_seed101_sigma0.1_step0.05",
+      "reused": false
+    },
+    {
+      "case": "heavyveh_very_high_seed11_sigma0.1_step0.05",
+      "state": "heavyveh_very_high",
+      "seed": 11,
+      "sigma_s": 0.1,
+      "step_s": 0.05,
+      "network_sha256": "5c18dcd49ff415a90acc61c5d12ea5a3630928aa8d4c87492ce63de426245ce2",
+      "raw_path": "BL/heavyveh_very_high_seed11_sigma0.1_step0.05",
+      "reused": false
+    },
+    {
+      "case": "heavyveh_very_high_seed29_sigma0.1_step0.05",
+      "state": "heavyveh_very_high",
+      "seed": 29,
+      "sigma_s": 0.1,
+      "step_s": 0.05,
+      "network_sha256": "5c18dcd49ff415a90acc61c5d12ea5a3630928aa8d4c87492ce63de426245ce2",
+      "raw_path": "BL/heavyveh_very_high_seed29_sigma0.1_step0.05",
+      "reused": false
+    },
+    {
+      "case": "heavyveh_very_high_seed47_sigma0.1_step0.05",
+      "state": "heavyveh_very_high",
+      "seed": 47,
+      "sigma_s": 0.1,
+      "step_s": 0.05,
+      "network_sha256": "5c18dcd49ff415a90acc61c5d12ea5a3630928aa8d4c87492ce63de426245ce2",
+      "raw_path": "BL/heavyveh_very_high_seed47_sigma0.1_step0.05",
+      "reused": false
+    },
+    {
+      "case": "heavyveh_very_high_seed71_sigma0.1_step0.05",
+      "state": "heavyveh_very_high",
+      "seed": 71,
+      "sigma_s": 0.1,
+      "step_s": 0.05,
+      "network_sha256": "5c18dcd49ff415a90acc61c5d12ea5a3630928aa8d4c87492ce63de426245ce2",
+      "raw_path": "BL/heavyveh_very_high_seed71_sigma0.1_step0.05",
+      "reused": false
+    },
+    {
+      "case": "heavyveh_very_high_seed101_sigma0.1_step0.05",
+      "state": "heavyveh_very_high",
+      "seed": 101,
+      "sigma_s": 0.1,
+      "step_s": 0.05,
+      "network_sha256": "5c18dcd49ff415a90acc61c5d12ea5a3630928aa8d4c87492ce63de426245ce2",
+      "raw_path": "BL/heavyveh_very_high_seed101_sigma0.1_step0.05",
+      "reused": false
+    },
+    {
+      "case": "weather_heavy_rain_seed11_sigma0.1_step0.05",
+      "state": "weather_heavy_rain",
+      "seed": 11,
+      "sigma_s": 0.1,
+      "step_s": 0.05,
+      "network_sha256": "5c18dcd49ff415a90acc61c5d12ea5a3630928aa8d4c87492ce63de426245ce2",
+      "raw_path": "BL/weather_heavy_rain_seed11_sigma0.1_step0.05",
+      "reused": false
+    },
+    {
+      "case": "weather_heavy_rain_seed29_sigma0.1_step0.05",
+      "state": "weather_heavy_rain",
+      "seed": 29,
+      "sigma_s": 0.1,
+      "step_s": 0.05,
+      "network_sha256": "5c18dcd49ff415a90acc61c5d12ea5a3630928aa8d4c87492ce63de426245ce2",
+      "raw_path": "BL/weather_heavy_rain_seed29_sigma0.1_step0.05",
+      "reused": false
+    },
+    {
+      "case": "weather_heavy_rain_seed47_sigma0.1_step0.05",
+      "state": "weather_heavy_rain",
+      "seed": 47,
+      "sigma_s": 0.1,
+      "step_s": 0.05,
+      "network_sha256": "5c18dcd49ff415a90acc61c5d12ea5a3630928aa8d4c87492ce63de426245ce2",
+      "raw_path": "BL/weather_heavy_rain_seed47_sigma0.1_step0.05",
+      "reused": false
+    },
+    {
+      "case": "weather_heavy_rain_seed71_sigma0.1_step0.05",
+      "state": "weather_heavy_rain",
+      "seed": 71,
+      "sigma_s": 0.1,
+      "step_s": 0.05,
+      "network_sha256": "5c18dcd49ff415a90acc61c5d12ea5a3630928aa8d4c87492ce63de426245ce2",
+      "raw_path": "BL/weather_heavy_rain_seed71_sigma0.1_step0.05",
+      "reused": false
+    },
+    {
+      "case": "weather_heavy_rain_seed101_sigma0.1_step0.05",
+      "state": "weather_heavy_rain",
+      "seed": 101,
+      "sigma_s": 0.1,
+      "step_s": 0.05,
+      "network_sha256": "5c18dcd49ff415a90acc61c5d12ea5a3630928aa8d4c87492ce63de426245ce2",
+      "raw_path": "BL/weather_heavy_rain_seed101_sigma0.1_step0.05",
+      "reused": false
+    },
+    {
+      "case": "baseline_seed11_sigma1_step0.05",
+      "state": "baseline",
+      "seed": 11,
+      "sigma_s": 1.0,
+      "step_s": 0.05,
+      "network_sha256": "5c18dcd49ff415a90acc61c5d12ea5a3630928aa8d4c87492ce63de426245ce2",
+      "raw_path": "BL/baseline_seed11_sigma1_step0.05",
+      "reused": false
+    },
+    {
+      "case": "baseline_seed29_sigma1_step0.05",
+      "state": "baseline",
+      "seed": 29,
+      "sigma_s": 1.0,
+      "step_s": 0.05,
+      "network_sha256": "5c18dcd49ff415a90acc61c5d12ea5a3630928aa8d4c87492ce63de426245ce2",
+      "raw_path": "BL/baseline_seed29_sigma1_step0.05",
+      "reused": false
+    },
+    {
+      "case": "baseline_seed47_sigma1_step0.05",
+      "state": "baseline",
+      "seed": 47,
+      "sigma_s": 1.0,
+      "step_s": 0.05,
+      "network_sha256": "5c18dcd49ff415a90acc61c5d12ea5a3630928aa8d4c87492ce63de426245ce2",
+      "raw_path": "BL/baseline_seed47_sigma1_step0.05",
+      "reused": false
+    },
+    {
+      "case": "baseline_seed71_sigma1_step0.05",
+      "state": "baseline",
+      "seed": 71,
+      "sigma_s": 1.0,
+      "step_s": 0.05,
+      "network_sha256": "5c18dcd49ff415a90acc61c5d12ea5a3630928aa8d4c87492ce63de426245ce2",
+      "raw_path": "BL/baseline_seed71_sigma1_step0.05",
+      "reused": false
+    },
+    {
+      "case": "baseline_seed101_sigma1_step0.05",
+      "state": "baseline",
+      "seed": 101,
+      "sigma_s": 1.0,
+      "step_s": 0.05,
+      "network_sha256": "5c18dcd49ff415a90acc61c5d12ea5a3630928aa8d4c87492ce63de426245ce2",
+      "raw_path": "BL/baseline_seed101_sigma1_step0.05",
+      "reused": false
+    },
+    {
+      "case": "heavyveh_very_high_seed11_sigma1_step0.05",
+      "state": "heavyveh_very_high",
+      "seed": 11,
+      "sigma_s": 1.0,
+      "step_s": 0.05,
+      "network_sha256": "5c18dcd49ff415a90acc61c5d12ea5a3630928aa8d4c87492ce63de426245ce2",
+      "raw_path": "BL/heavyveh_very_high_seed11_sigma1_step0.05",
+      "reused": false
+    },
+    {
+      "case": "heavyveh_very_high_seed29_sigma1_step0.05",
+      "state": "heavyveh_very_high",
+      "seed": 29,
+      "sigma_s": 1.0,
+      "step_s": 0.05,
+      "network_sha256": "5c18dcd49ff415a90acc61c5d12ea5a3630928aa8d4c87492ce63de426245ce2",
+      "raw_path": "BL/heavyveh_very_high_seed29_sigma1_step0.05",
+      "reused": false
+    },
+    {
+      "case": "heavyveh_very_high_seed47_sigma1_step0.05",
+      "state": "heavyveh_very_high",
+      "seed": 47,
+      "sigma_s": 1.0,
+      "step_s": 0.05,
+      "network_sha256": "5c18dcd49ff415a90acc61c5d12ea5a3630928aa8d4c87492ce63de426245ce2",
+      "raw_path": "BL/heavyveh_very_high_seed47_sigma1_step0.05",
+      "reused": false
+    },
+    {
+      "case": "heavyveh_very_high_seed71_sigma1_step0.05",
+      "state": "heavyveh_very_high",
+      "seed": 71,
+      "sigma_s": 1.0,
+      "step_s": 0.05,
+      "network_sha256": "5c18dcd49ff415a90acc61c5d12ea5a3630928aa8d4c87492ce63de426245ce2",
+      "raw_path": "BL/heavyveh_very_high_seed71_sigma1_step0.05",
+      "reused": false
+    },
+    {
+      "case": "heavyveh_very_high_seed101_sigma1_step0.05",
+      "state": "heavyveh_very_high",
+      "seed": 101,
+      "sigma_s": 1.0,
+      "step_s": 0.05,
+      "network_sha256": "5c18dcd49ff415a90acc61c5d12ea5a3630928aa8d4c87492ce63de426245ce2",
+      "raw_path": "BL/heavyveh_very_high_seed101_sigma1_step0.05",
+      "reused": false
+    },
+    {
+      "case": "weather_heavy_rain_seed11_sigma1_step0.05",
+      "state": "weather_heavy_rain",
+      "seed": 11,
+      "sigma_s": 1.0,
+      "step_s": 0.05,
+      "network_sha256": "5c18dcd49ff415a90acc61c5d12ea5a3630928aa8d4c87492ce63de426245ce2",
+      "raw_path": "BL/weather_heavy_rain_seed11_sigma1_step0.05",
+      "reused": false
+    },
+    {
+      "case": "weather_heavy_rain_seed29_sigma1_step0.05",
+      "state": "weather_heavy_rain",
+      "seed": 29,
+      "sigma_s": 1.0,
+      "step_s": 0.05,
+      "network_sha256": "5c18dcd49ff415a90acc61c5d12ea5a3630928aa8d4c87492ce63de426245ce2",
+      "raw_path": "BL/weather_heavy_rain_seed29_sigma1_step0.05",
+      "reused": false
+    },
+    {
+      "case": "weather_heavy_rain_seed47_sigma1_step0.05",
+      "state": "weather_heavy_rain",
+      "seed": 47,
+      "sigma_s": 1.0,
+      "step_s": 0.05,
+      "network_sha256": "5c18dcd49ff415a90acc61c5d12ea5a3630928aa8d4c87492ce63de426245ce2",
+      "raw_path": "BL/weather_heavy_rain_seed47_sigma1_step0.05",
+      "reused": false
+    },
+    {
+      "case": "weather_heavy_rain_seed71_sigma1_step0.05",
+      "state": "weather_heavy_rain",
+      "seed": 71,
+      "sigma_s": 1.0,
+      "step_s": 0.05,
+      "network_sha256": "5c18dcd49ff415a90acc61c5d12ea5a3630928aa8d4c87492ce63de426245ce2",
+      "raw_path": "BL/weather_heavy_rain_seed71_sigma1_step0.05",
+      "reused": false
+    },
+    {
+      "case": "weather_heavy_rain_seed101_sigma1_step0.05",
+      "state": "weather_heavy_rain",
+      "seed": 101,
+      "sigma_s": 1.0,
+      "step_s": 0.05,
+      "network_sha256": "5c18dcd49ff415a90acc61c5d12ea5a3630928aa8d4c87492ce63de426245ce2",
+      "raw_path": "BL/weather_heavy_rain_seed101_sigma1_step0.05",
+      "reused": false
+    },
+    {
+      "case": "baseline_seed11_sigma0.1_step0.02",
+      "state": "baseline",
+      "seed": 11,
+      "sigma_s": 0.1,
+      "step_s": 0.02,
+      "network_sha256": "5c18dcd49ff415a90acc61c5d12ea5a3630928aa8d4c87492ce63de426245ce2",
+      "raw_path": "BL/baseline_seed11_sigma0.1_step0.02",
+      "reused": false
+    },
+    {
+      "case": "baseline_seed29_sigma0.1_step0.02",
+      "state": "baseline",
+      "seed": 29,
+      "sigma_s": 0.1,
+      "step_s": 0.02,
+      "network_sha256": "5c18dcd49ff415a90acc61c5d12ea5a3630928aa8d4c87492ce63de426245ce2",
+      "raw_path": "BL/baseline_seed29_sigma0.1_step0.02",
+      "reused": false
+    },
+    {
+      "case": "baseline_seed47_sigma0.1_step0.02",
+      "state": "baseline",
+      "seed": 47,
+      "sigma_s": 0.1,
+      "step_s": 0.02,
+      "network_sha256": "5c18dcd49ff415a90acc61c5d12ea5a3630928aa8d4c87492ce63de426245ce2",
+      "raw_path": "BL/baseline_seed47_sigma0.1_step0.02",
+      "reused": false
+    },
+    {
+      "case": "baseline_seed71_sigma0.1_step0.02",
+      "state": "baseline",
+      "seed": 71,
+      "sigma_s": 0.1,
+      "step_s": 0.02,
+      "network_sha256": "5c18dcd49ff415a90acc61c5d12ea5a3630928aa8d4c87492ce63de426245ce2",
+      "raw_path": "BL/baseline_seed71_sigma0.1_step0.02",
+      "reused": false
+    },
+    {
+      "case": "baseline_seed101_sigma0.1_step0.02",
+      "state": "baseline",
+      "seed": 101,
+      "sigma_s": 0.1,
+      "step_s": 0.02,
+      "network_sha256": "5c18dcd49ff415a90acc61c5d12ea5a3630928aa8d4c87492ce63de426245ce2",
+      "raw_path": "BL/baseline_seed101_sigma0.1_step0.02",
+      "reused": false
+    },
+    {
+      "case": "heavyveh_very_high_seed11_sigma0.1_step0.02",
+      "state": "heavyveh_very_high",
+      "seed": 11,
+      "sigma_s": 0.1,
+      "step_s": 0.02,
+      "network_sha256": "5c18dcd49ff415a90acc61c5d12ea5a3630928aa8d4c87492ce63de426245ce2",
+      "raw_path": "BL/heavyveh_very_high_seed11_sigma0.1_step0.02",
+      "reused": false
+    },
+    {
+      "case": "heavyveh_very_high_seed29_sigma0.1_step0.02",
+      "state": "heavyveh_very_high",
+      "seed": 29,
+      "sigma_s": 0.1,
+      "step_s": 0.02,
+      "network_sha256": "5c18dcd49ff415a90acc61c5d12ea5a3630928aa8d4c87492ce63de426245ce2",
+      "raw_path": "BL/heavyveh_very_high_seed29_sigma0.1_step0.02",
+      "reused": false
+    },
+    {
+      "case": "heavyveh_very_high_seed47_sigma0.1_step0.02",
+      "state": "heavyveh_very_high",
+      "seed": 47,
+      "sigma_s": 0.1,
+      "step_s": 0.02,
+      "network_sha256": "5c18dcd49ff415a90acc61c5d12ea5a3630928aa8d4c87492ce63de426245ce2",
+      "raw_path": "BL/heavyveh_very_high_seed47_sigma0.1_step0.02",
+      "reused": false
+    },
+    {
+      "case": "heavyveh_very_high_seed71_sigma0.1_step0.02",
+      "state": "heavyveh_very_high",
+      "seed": 71,
+      "sigma_s": 0.1,
+      "step_s": 0.02,
+      "network_sha256": "5c18dcd49ff415a90acc61c5d12ea5a3630928aa8d4c87492ce63de426245ce2",
+      "raw_path": "BL/heavyveh_very_high_seed71_sigma0.1_step0.02",
+      "reused": false
+    },
+    {
+      "case": "heavyveh_very_high_seed101_sigma0.1_step0.02",
+      "state": "heavyveh_very_high",
+      "seed": 101,
+      "sigma_s": 0.1,
+      "step_s": 0.02,
+      "network_sha256": "5c18dcd49ff415a90acc61c5d12ea5a3630928aa8d4c87492ce63de426245ce2",
+      "raw_path": "BL/heavyveh_very_high_seed101_sigma0.1_step0.02",
+      "reused": false
+    },
+    {
+      "case": "weather_heavy_rain_seed11_sigma0.1_step0.02",
+      "state": "weather_heavy_rain",
+      "seed": 11,
+      "sigma_s": 0.1,
+      "step_s": 0.02,
+      "network_sha256": "5c18dcd49ff415a90acc61c5d12ea5a3630928aa8d4c87492ce63de426245ce2",
+      "raw_path": "BL/weather_heavy_rain_seed11_sigma0.1_step0.02",
+      "reused": false
+    },
+    {
+      "case": "weather_heavy_rain_seed29_sigma0.1_step0.02",
+      "state": "weather_heavy_rain",
+      "seed": 29,
+      "sigma_s": 0.1,
+      "step_s": 0.02,
+      "network_sha256": "5c18dcd49ff415a90acc61c5d12ea5a3630928aa8d4c87492ce63de426245ce2",
+      "raw_path": "BL/weather_heavy_rain_seed29_sigma0.1_step0.02",
+      "reused": false
+    },
+    {
+      "case": "weather_heavy_rain_seed47_sigma0.1_step0.02",
+      "state": "weather_heavy_rain",
+      "seed": 47,
+      "sigma_s": 0.1,
+      "step_s": 0.02,
+      "network_sha256": "5c18dcd49ff415a90acc61c5d12ea5a3630928aa8d4c87492ce63de426245ce2",
+      "raw_path": "BL/weather_heavy_rain_seed47_sigma0.1_step0.02",
+      "reused": false
+    },
+    {
+      "case": "weather_heavy_rain_seed71_sigma0.1_step0.02",
+      "state": "weather_heavy_rain",
+      "seed": 71,
+      "sigma_s": 0.1,
+      "step_s": 0.02,
+      "network_sha256": "5c18dcd49ff415a90acc61c5d12ea5a3630928aa8d4c87492ce63de426245ce2",
+      "raw_path": "BL/weather_heavy_rain_seed71_sigma0.1_step0.02",
+      "reused": false
+    },
+    {
+      "case": "weather_heavy_rain_seed101_sigma0.1_step0.02",
+      "state": "weather_heavy_rain",
+      "seed": 101,
+      "sigma_s": 0.1,
+      "step_s": 0.02,
+      "network_sha256": "5c18dcd49ff415a90acc61c5d12ea5a3630928aa8d4c87492ce63de426245ce2",
+      "raw_path": "BL/weather_heavy_rain_seed101_sigma0.1_step0.02",
+      "reused": false
+    },
+    {
+      "case": "baseline_seed11_sigma1_step0.02",
+      "state": "baseline",
+      "seed": 11,
+      "sigma_s": 1.0,
+      "step_s": 0.02,
+      "network_sha256": "5c18dcd49ff415a90acc61c5d12ea5a3630928aa8d4c87492ce63de426245ce2",
+      "raw_path": "BL/baseline_seed11_sigma1_step0.02",
+      "reused": false
+    },
+    {
+      "case": "baseline_seed29_sigma1_step0.02",
+      "state": "baseline",
+      "seed": 29,
+      "sigma_s": 1.0,
+      "step_s": 0.02,
+      "network_sha256": "5c18dcd49ff415a90acc61c5d12ea5a3630928aa8d4c87492ce63de426245ce2",
+      "raw_path": "BL/baseline_seed29_sigma1_step0.02",
+      "reused": false
+    },
+    {
+      "case": "baseline_seed47_sigma1_step0.02",
+      "state": "baseline",
+      "seed": 47,
+      "sigma_s": 1.0,
+      "step_s": 0.02,
+      "network_sha256": "5c18dcd49ff415a90acc61c5d12ea5a3630928aa8d4c87492ce63de426245ce2",
+      "raw_path": "BL/baseline_seed47_sigma1_step0.02",
+      "reused": false
+    },
+    {
+      "case": "baseline_seed71_sigma1_step0.02",
+      "state": "baseline",
+      "seed": 71,
+      "sigma_s": 1.0,
+      "step_s": 0.02,
+      "network_sha256": "5c18dcd49ff415a90acc61c5d12ea5a3630928aa8d4c87492ce63de426245ce2",
+      "raw_path": "BL/baseline_seed71_sigma1_step0.02",
+      "reused": false
+    },
+    {
+      "case": "baseline_seed101_sigma1_step0.02",
+      "state": "baseline",
+      "seed": 101,
+      "sigma_s": 1.0,
+      "step_s": 0.02,
+      "network_sha256": "5c18dcd49ff415a90acc61c5d12ea5a3630928aa8d4c87492ce63de426245ce2",
+      "raw_path": "BL/baseline_seed101_sigma1_step0.02",
+      "reused": false
+    },
+    {
+      "case": "heavyveh_very_high_seed11_sigma1_step0.02",
+      "state": "heavyveh_very_high",
+      "seed": 11,
+      "sigma_s": 1.0,
+      "step_s": 0.02,
+      "network_sha256": "5c18dcd49ff415a90acc61c5d12ea5a3630928aa8d4c87492ce63de426245ce2",
+      "raw_path": "BL/heavyveh_very_high_seed11_sigma1_step0.02",
+      "reused": false
+    },
+    {
+      "case": "heavyveh_very_high_seed29_sigma1_step0.02",
+      "state": "heavyveh_very_high",
+      "seed": 29,
+      "sigma_s": 1.0,
+      "step_s": 0.02,
+      "network_sha256": "5c18dcd49ff415a90acc61c5d12ea5a3630928aa8d4c87492ce63de426245ce2",
+      "raw_path": "BL/heavyveh_very_high_seed29_sigma1_step0.02",
+      "reused": false
+    },
+    {
+      "case": "heavyveh_very_high_seed47_sigma1_step0.02",
+      "state": "heavyveh_very_high",
+      "seed": 47,
+      "sigma_s": 1.0,
+      "step_s": 0.02,
+      "network_sha256": "5c18dcd49ff415a90acc61c5d12ea5a3630928aa8d4c87492ce63de426245ce2",
+      "raw_path": "BL/heavyveh_very_high_seed47_sigma1_step0.02",
+      "reused": false
+    },
+    {
+      "case": "heavyveh_very_high_seed71_sigma1_step0.02",
+      "state": "heavyveh_very_high",
+      "seed": 71,
+      "sigma_s": 1.0,
+      "step_s": 0.02,
+      "network_sha256": "5c18dcd49ff415a90acc61c5d12ea5a3630928aa8d4c87492ce63de426245ce2",
+      "raw_path": "BL/heavyveh_very_high_seed71_sigma1_step0.02",
+      "reused": false
+    },
+    {
+      "case": "heavyveh_very_high_seed101_sigma1_step0.02",
+      "state": "heavyveh_very_high",
+      "seed": 101,
+      "sigma_s": 1.0,
+      "step_s": 0.02,
+      "network_sha256": "5c18dcd49ff415a90acc61c5d12ea5a3630928aa8d4c87492ce63de426245ce2",
+      "raw_path": "BL/heavyveh_very_high_seed101_sigma1_step0.02",
+      "reused": false
+    },
+    {
+      "case": "weather_heavy_rain_seed11_sigma1_step0.02",
+      "state": "weather_heavy_rain",
+      "seed": 11,
+      "sigma_s": 1.0,
+      "step_s": 0.02,
+      "network_sha256": "5c18dcd49ff415a90acc61c5d12ea5a3630928aa8d4c87492ce63de426245ce2",
+      "raw_path": "BL/weather_heavy_rain_seed11_sigma1_step0.02",
+      "reused": false
+    },
+    {
+      "case": "weather_heavy_rain_seed29_sigma1_step0.02",
+      "state": "weather_heavy_rain",
+      "seed": 29,
+      "sigma_s": 1.0,
+      "step_s": 0.02,
+      "network_sha256": "5c18dcd49ff415a90acc61c5d12ea5a3630928aa8d4c87492ce63de426245ce2",
+      "raw_path": "BL/weather_heavy_rain_seed29_sigma1_step0.02",
+      "reused": false
+    },
+    {
+      "case": "weather_heavy_rain_seed47_sigma1_step0.02",
+      "state": "weather_heavy_rain",
+      "seed": 47,
+      "sigma_s": 1.0,
+      "step_s": 0.02,
+      "network_sha256": "5c18dcd49ff415a90acc61c5d12ea5a3630928aa8d4c87492ce63de426245ce2",
+      "raw_path": "BL/weather_heavy_rain_seed47_sigma1_step0.02",
+      "reused": false
+    },
+    {
+      "case": "weather_heavy_rain_seed71_sigma1_step0.02",
+      "state": "weather_heavy_rain",
+      "seed": 71,
+      "sigma_s": 1.0,
+      "step_s": 0.02,
+      "network_sha256": "5c18dcd49ff415a90acc61c5d12ea5a3630928aa8d4c87492ce63de426245ce2",
+      "raw_path": "BL/weather_heavy_rain_seed71_sigma1_step0.02",
+      "reused": false
+    },
+    {
+      "case": "weather_heavy_rain_seed101_sigma1_step0.02",
+      "state": "weather_heavy_rain",
+      "seed": 101,
+      "sigma_s": 1.0,
+      "step_s": 0.02,
+      "network_sha256": "5c18dcd49ff415a90acc61c5d12ea5a3630928aa8d4c87492ce63de426245ce2",
+      "raw_path": "BL/weather_heavy_rain_seed101_sigma1_step0.02",
+      "reused": false
+    }
+  ],
+  "control": {
+    "case": "technical_explicit_sigma_control",
+    "state": "baseline",
+    "seed": 11,
+    "sigma_s": 0.1,
+    "step_s": 0.1,
+    "network_sha256": "5c18dcd49ff415a90acc61c5d12ea5a3630928aa8d4c87492ce63de426245ce2",
+    "raw_path": "BL/technical_explicit_sigma_control",
+    "reused": false,
+    "reference_raw_path": "holdout_raw/bridge_reused/baseline_seed11"
+  }
+}

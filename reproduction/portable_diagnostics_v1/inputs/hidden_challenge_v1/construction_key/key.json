@@ -1,0 +1,93 @@
+[
+  {
+    "case_id": "C01",
+    "name": "truck12_incompatible",
+    "truck": 0.12,
+    "tau": 0.3
+  },
+  {
+    "case_id": "C02",
+    "name": "truck20",
+    "truck": 0.2
+  },
+  {
+    "case_id": "C03",
+    "name": "stochastic_high_demand",
+    "sigma": 0.65,
+    "demand": 1.15
+  },
+  {
+    "case_id": "C04",
+    "name": "stochastic065",
+    "sigma": 0.65
+  },
+  {
+    "case_id": "C05",
+    "name": "demand_increased",
+    "demand": 1.15
+  },
+  {
+    "case_id": "C06",
+    "name": "incompatible_short_headway",
+    "tau": 0.3
+  },
+  {
+    "case_id": "C07",
+    "name": "compatible_short_headway",
+    "tau": 0.7
+  },
+  {
+    "case_id": "C08",
+    "name": "demand_reduced",
+    "demand": 0.85
+  },
+  {
+    "case_id": "C09",
+    "name": "composite_high_demand",
+    "speed": 0.9,
+    "accel": 0.85,
+    "decel": 0.9,
+    "sigma": 0.65,
+    "demand": 1.15
+  },
+  {
+    "case_id": "C10",
+    "name": "sham"
+  },
+  {
+    "case_id": "C11",
+    "name": "composite_moderate",
+    "speed": 0.9,
+    "accel": 0.85,
+    "decel": 0.9,
+    "sigma": 0.65
+  },
+  {
+    "case_id": "C12",
+    "name": "truck12",
+    "truck": 0.12
+  },
+  {
+    "case_id": "C13",
+    "name": "headway13",
+    "tau": 1.3
+  },
+  {
+    "case_id": "C14",
+    "name": "truck12_reduced_demand",
+    "truck": 0.12,
+    "demand": 0.85
+  },
+  {
+    "case_id": "C15",
+    "name": "truck12_high_demand",
+    "truck": 0.12,
+    "demand": 1.15
+  },
+  {
+    "case_id": "C16",
+    "name": "incompatible_high_demand",
+    "tau": 0.3,
+    "demand": 1.15
+  }
+]

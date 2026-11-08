@@ -1,0 +1,37 @@
+{
+  "kind": "exploratory amendment prompted by a simulator configuration warning",
+  "seed": 42,
+  "tau_s": [
+    1.0,
+    0.8
+  ],
+  "step_action_pairs_s": [
+    [
+      0.5,
+      0.5
+    ],
+    [
+      0.5,
+      1.0
+    ],
+    [
+      0.1,
+      0.5
+    ]
+  ],
+  "integration": "explicit ballistic in every comparison",
+  "why": "SUMO warns that action intervals longer than the step with Euler may cause collisions. The Euler separation tranche is discontinued; all finished and partial runs remain archived. This is a configuration-validity amendment, not removal of unfavorable outcomes.",
+  "contrasts": "Fixed step 0.5: action 0.5 vs 1.0. Fixed action 0.5: step 0.5 vs 0.1. Compare tau within setting, never label cross-setting differences a treatment effect.",
+  "legacy_comparison": "Existing Euler 0.5/0.5 provides an integration comparison, not a replicate.",
+  "limits": "One seed is a feasibility check only. Tau 0.8 below action 1.0 is deliberately an invalid-headway stress case, not an engineering recommendation. Junction collision checks retain original false; safety validation remains incomplete.",
+  "horizon_s": [
+    0,
+    3600
+  ],
+  "warmup_excluded_s": 0,
+  "network_sha256": "5c18dcd49ff415a90acc61c5d12ea5a3630928aa8d4c87492ce63de426245ce2",
+  "route_sha256": "12d34980decfb81168a58b3cfb316b39dff5d9012fed070c174be988749288ef",
+  "sumo_sha256": "68a88f8c057d7aed44c63d93b6133f94d605dfe2578938221a65ee455d64b376",
+  "stop_rule": "Preserve failures. Stop on execution failure, accounting failure or incompatible integration warning. Retain all response signs and warning counts.",
+  "frozen_utc": "2026-10-19T13:40:13.070252+00:00"
+}

@@ -1,0 +1,15 @@
+﻿run,lane,vehicle,front_time_s,prior_teleports,last_teleport_time_s,last_reinsertion_edge
+heavyveh_very_high_seed42,Ed1.209_2,Eh2_2_truck.32,3183.51,1,3089.5,Ed1
+weather_heavy_rain_seed42,Ed1.209_2,Eh2_2_car.137,3305.36,1,3210.5,Ed1
+weather_heavy_rain_seed42,Ed1.209_1,Eh2_3_car.148,3367.4,1,3210.0,Ed1
+weather_heavy_rain_seed42,Ed1.209_0,Eh2_3_car.151,3371.96,1,3212.0,Ed1
+weather_heavy_rain_seed42,ED2.378_0,ED2_car.227,3484.19,1,3392.0,ED2.378
+weather_heavy_rain_seed42,ED2.378_0,ED2_car.228,3486.69,1,3393.0,ED2.378
+weather_heavy_rain_seed42,Ed1.209_3,Eh2_2_car.140,3534.42,1,3209.0,Ed1
+heavyveh_very_high_seed2024,Ed1.209_0,Eh2_3_car.82,3300.26,1,3220.0,Ed1
+heavyveh_very_high_seed2024,Ed1.209_0,Eh2_3_truck.34,3531.67,1,3221.0,Ed1
+heavyveh_very_high_seed2024,Ed1.209_3,Eh2_2_car.108,3536.96,1,3222.5,Ed1
+heavyveh_very_high_seed2025,Ed1.209_3,Eh2_2_car.58,2091.16,1,1882.5,Ed1
+heavyveh_very_high_seed2025,Ed1.209_2,Eh2_2_car.109,3178.31,1,3143.0,Ed1
+heavyveh_very_high_seed2025,Ed1.209_2,Eh2_2_car.123,3303.82,1,3287.5,Ed1
+weather_heavy_rain_seed2025,Ed1.209_0,Eh2_3_car.119,3484.44,1,3343.0,Ed1

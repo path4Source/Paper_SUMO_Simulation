@@ -1,0 +1,7 @@
+﻿variant,conditions,retained_improvement,demand_flag,warning_flag,local_loss,local_gain,status_counts_json
+A_QD,16,3,0,0,0,0,"{""gain_candidate"": 3, ""loss_candidate"": 4, ""unresolved_or_small"": 9}"
+B_accounting,16,2,7,0,0,0,"{""demand_conditioned_unresolved"": 7, ""improvement_candidate"": 2, ""service_deterioration_supported"": 3, ""unresolved_or_small"": 4}"
+C_warning,16,0,7,16,0,0,"{""warning_qualified_demand_conditioned_unresolved"": 7, ""warning_qualified_improvement_candidate"": 2, ""warning_qualified_service_deterioration_supported"": 3, ""warning_qualified_unresolved_or_small"": 4}"
+D_full,16,0,7,16,6,2,"{""warning_qualified_demand_conditioned_unresolved"": 7, ""warning_qualified_network_improvement_only"": 2, ""warning_qualified_service_deterioration_supported"": 3, ""warning_qualified_unresolved_or_small"": 4}"
+D_without_accounting,16,0,0,16,6,2,"{""warning_qualified_gain_candidate"": 1, ""warning_qualified_loss_candidate"": 4, ""warning_qualified_network_improvement_only"": 2, ""warning_qualified_unresolved_or_small"": 9}"
+D_without_warning,16,0,7,0,6,2,"{""demand_conditioned_unresolved"": 7, ""network_improvement_only"": 2, ""service_deterioration_supported"": 3, ""unresolved_or_small"": 4}"

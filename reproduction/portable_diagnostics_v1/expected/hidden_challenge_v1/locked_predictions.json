@@ -1,0 +1,2986 @@
+{
+  "C01": {
+    "features": {
+      "baseline_warning_seeds": 2,
+      "burden": {
+        "hi": -62.53215279658544,
+        "lo": -64.84511357188676,
+        "mean": -63.6886331842361,
+        "n": 5
+      },
+      "burden_per_planned": {
+        "hi": -62.53215279658546,
+        "lo": -64.84511357188677,
+        "mean": -63.68863318423611,
+        "n": 5
+      },
+      "collisions": 20357.0,
+      "completion": {
+        "hi": 12.991292411785745,
+        "lo": 12.06693543631552,
+        "mean": 12.529113924050632,
+        "n": 5
+      },
+      "config_warning_seeds": 5,
+      "d": {
+        "hi": -68.38481878773861,
+        "lo": -70.00147694783719,
+        "mean": -69.1931478677879,
+        "n": 5
+      },
+      "demand": {
+        "hi": 0.0,
+        "lo": 0.0,
+        "mean": 0.0,
+        "n": 5
+      },
+      "entry_backlog": {
+        "hi": -9.067379885149542,
+        "lo": -9.762999861685902,
+        "mean": -9.415189873417722,
+        "n": 5
+      },
+      "halting": {
+        "hi": -64.86600308859828,
+        "lo": -66.58498638361199,
+        "mean": -65.72549473610513,
+        "n": 5
+      },
+      "local": {
+        "n1": {
+          "front_crossings": {
+            "hi": -17.558336244652153,
+            "lo": -19.5702299737752,
+            "mean": -18.564283109213676,
+            "n": 5
+          },
+          "queue_m": {
+            "hi": -43.78313920728569,
+            "lo": -47.37492868639632,
+            "mean": -45.57903394684101,
+            "n": 5
+          }
+        },
+        "n2": {
+          "front_crossings": {
+            "hi": 2.160928973058329,
+            "lo": -1.3211906814383354,
+            "mean": 0.4198691458099968,
+            "n": 5
+          },
+          "queue_m": {
+            "hi": -60.573139327981394,
+            "lo": -64.04445298214067,
+            "mean": -62.30879615506103,
+            "n": 5
+          }
+        },
+        "n4": {
+          "front_crossings": {
+            "hi": -17.51558136436126,
+            "lo": -18.463587542448643,
+            "mean": -17.98958445340495,
+            "n": 5
+          },
+          "queue_m": {
+            "hi": -24.432185688102972,
+            "lo": -25.266573071584364,
+            "mean": -24.84937937984367,
+            "n": 5
+          }
+        }
+      },
+      "q": {
+        "hi": 15.454956508803969,
+        "lo": 14.189714063931168,
+        "mean": 14.822335286367569,
+        "n": 5
+      },
+      "teleports": 20357
+    },
+    "predictions": {
+      "A_QD": {
+        "labels": [],
+        "local_gain_signals": [],
+        "local_loss_signals": [],
+        "raw_gain": true,
+        "raw_loss": false,
+        "reasons": [],
+        "retained_improvement": true,
+        "status": "gain_candidate"
+      },
+      "B_accounting": {
+        "labels": [],
+        "local_gain_signals": [],
+        "local_loss_signals": [],
+        "raw_gain": true,
+        "raw_loss": false,
+        "reasons": [],
+        "retained_improvement": true,
+        "status": "improvement_candidate"
+      },
+      "C_warning": {
+        "labels": [
+          "warning_audit_required"
+        ],
+        "local_gain_signals": [],
+        "local_loss_signals": [],
+        "raw_gain": true,
+        "raw_loss": false,
+        "reasons": [
+          "Any recorded teleport/collision or timing warning vetoes unqualified improvement; magnitude and cause require separate audit."
+        ],
+        "retained_improvement": false,
+        "status": "warning_qualified_improvement_candidate"
+      },
+      "D_full": {
+        "labels": [
+          "warning_audit_required"
+        ],
+        "local_gain_signals": [],
+        "local_loss_signals": [],
+        "raw_gain": true,
+        "raw_loss": false,
+        "reasons": [
+          "Any recorded teleport/collision or timing warning vetoes unqualified improvement; magnitude and cause require separate audit."
+        ],
+        "retained_improvement": false,
+        "status": "warning_qualified_network_improvement_only"
+      },
+      "D_without_accounting": {
+        "labels": [
+          "warning_audit_required"
+        ],
+        "local_gain_signals": [],
+        "local_loss_signals": [],
+        "raw_gain": true,
+        "raw_loss": false,
+        "reasons": [
+          "Any recorded teleport/collision or timing warning vetoes unqualified improvement; magnitude and cause require separate audit."
+        ],
+        "retained_improvement": false,
+        "status": "warning_qualified_network_improvement_only"
+      },
+      "D_without_warning": {
+        "labels": [],
+        "local_gain_signals": [],
+        "local_loss_signals": [],
+        "raw_gain": true,
+        "raw_loss": false,
+        "reasons": [],
+        "retained_improvement": false,
+        "status": "network_improvement_only"
+      }
+    }
+  },
+  "C02": {
+    "features": {
+      "baseline_warning_seeds": 2,
+      "burden": {
+        "hi": 62.83601012361836,
+        "lo": 37.72806440863071,
+        "mean": 50.28203726612453,
+        "n": 5
+      },
+      "burden_per_planned": {
+        "hi": 62.83601012361834,
+        "lo": 37.728064408630715,
+        "mean": 50.282037266124526,
+        "n": 5
+      },
+      "collisions": 9.0,
+      "completion": {
+        "hi": -7.768764481529314,
+        "lo": -14.469210202014995,
+        "mean": -11.118987341772154,
+        "n": 5
+      },
+      "config_warning_seeds": 0,
+      "d": {
+        "hi": 94.43991000087703,
+        "lo": 47.01689996881987,
+        "mean": 70.72840498484845,
+        "n": 5
+      },
+      "demand": {
+        "hi": 0.0,
+        "lo": 0.0,
+        "mean": 0.0,
+        "n": 5
+      },
+      "entry_backlog": {
+        "hi": 7.107085831885989,
+        "lo": 3.9156989782405938,
+        "mean": 5.511392405063291,
+        "n": 5
+      },
+      "halting": {
+        "hi": 97.33911737285693,
+        "lo": 44.13955400177703,
+        "mean": 70.73933568731698,
+        "n": 5
+      },
+      "local": {
+        "n1": {
+          "front_crossings": {
+            "hi": -7.332732590210413,
+            "lo": -15.348834504480628,
+            "mean": -11.34078354734552,
+            "n": 5
+          },
+          "queue_m": {
+            "hi": 66.61007455416697,
+            "lo": 31.815713499548437,
+            "mean": 49.212894026857704,
+            "n": 5
+          }
+        },
+        "n2": {
+          "front_crossings": {
+            "hi": -11.550728530985339,
+            "lo": -20.919612660290056,
+            "mean": -16.235170595637697,
+            "n": 5
+          },
+          "queue_m": {
+            "hi": 19.156851237570496,
+            "lo": 8.592210481148587,
+            "mean": 13.874530859359542,
+            "n": 5
+          }
+        },
+        "n4": {
+          "front_crossings": {
+            "hi": -8.359880816109667,
+            "lo": -14.736606398055867,
+            "mean": -11.548243607082767,
+            "n": 5
+          },
+          "queue_m": {
+            "hi": 74.32683218857363,
+            "lo": 49.929795264696686,
+            "mean": 62.12831372663516,
+            "n": 5
+          }
+        }
+      },
+      "q": {
+        "hi": -9.186463637579312,
+        "lo": -17.121533726286096,
+        "mean": -13.153998681932704,
+        "n": 5
+      },
+      "teleports": 35
+    },
+    "predictions": {
+      "A_QD": {
+        "labels": [],
+        "local_gain_signals": [],
+        "local_loss_signals": [],
+        "raw_gain": false,
+        "raw_loss": true,
+        "reasons": [],
+        "retained_improvement": false,
+        "status": "loss_candidate"
+      },
+      "B_accounting": {
+        "labels": [],
+        "local_gain_signals": [],
+        "local_loss_signals": [],
+        "raw_gain": false,
+        "raw_loss": true,
+        "reasons": [],
+        "retained_improvement": false,
+        "status": "service_deterioration_supported"
+      },
+      "C_warning": {
+        "labels": [
+          "warning_audit_required"
+        ],
+        "local_gain_signals": [],
+        "local_loss_signals": [],
+        "raw_gain": false,
+        "raw_loss": true,
+        "reasons": [
+          "Any recorded teleport/collision or timing warning vetoes unqualified improvement; magnitude and cause require separate audit."
+        ],
+        "retained_improvement": false,
+        "status": "warning_qualified_service_deterioration_supported"
+      },
+      "D_full": {
+        "labels": [
+          "warning_audit_required",
+          "local_deterioration_evidence"
+        ],
+        "local_gain_signals": [],
+        "local_loss_signals": [
+          "n1",
+          "n2",
+          "n4"
+        ],
+        "raw_gain": false,
+        "raw_loss": true,
+        "reasons": [
+          "Any recorded teleport/collision or timing warning vetoes unqualified improvement; magnitude and cause require separate audit."
+        ],
+        "retained_improvement": false,
+        "status": "warning_qualified_service_deterioration_supported"
+      },
+      "D_without_accounting": {
+        "labels": [
+          "warning_audit_required",
+          "local_deterioration_evidence"
+        ],
+        "local_gain_signals": [],
+        "local_loss_signals": [
+          "n1",
+          "n2",
+          "n4"
+        ],
+        "raw_gain": false,
+        "raw_loss": true,
+        "reasons": [
+          "Any recorded teleport/collision or timing warning vetoes unqualified improvement; magnitude and cause require separate audit."
+        ],
+        "retained_improvement": false,
+        "status": "warning_qualified_loss_candidate"
+      },
+      "D_without_warning": {
+        "labels": [
+          "local_deterioration_evidence"
+        ],
+        "local_gain_signals": [],
+        "local_loss_signals": [
+          "n1",
+          "n2",
+          "n4"
+        ],
+        "raw_gain": false,
+        "raw_loss": true,
+        "reasons": [],
+        "retained_improvement": false,
+        "status": "service_deterioration_supported"
+      }
+    }
+  },
+  "C03": {
+    "features": {
+      "baseline_warning_seeds": 2,
+      "burden": {
+        "hi": 77.43230824269648,
+        "lo": 62.48177390425392,
+        "mean": 69.9570410734752,
+        "n": 5
+      },
+      "burden_per_planned": {
+        "hi": 54.288963689301276,
+        "lo": 41.288499047177304,
+        "mean": 47.78873136823929,
+        "n": 5
+      },
+      "collisions": 10.0,
+      "completion": {
+        "hi": -10.074321316957978,
+        "lo": -11.442244450791062,
+        "mean": -10.75828288387452,
+        "n": 5
+      },
+      "config_warning_seeds": 0,
+      "d": {
+        "hi": 69.21428376014073,
+        "lo": 57.65464315874568,
+        "mean": 63.4344634594432,
+        "n": 5
+      },
+      "demand": {
+        "hi": 14.999999999999991,
+        "lo": 14.999999999999991,
+        "mean": 14.999999999999991,
+        "n": 5
+      },
+      "entry_backlog": {
+        "hi": 5.735200416771584,
+        "lo": 4.832328477009374,
+        "mean": 5.283764446890479,
+        "n": 5
+      },
+      "halting": {
+        "hi": 102.2742243157303,
+        "lo": 85.47074644731805,
+        "mean": 93.87248538152417,
+        "n": 5
+      },
+      "local": {
+        "n1": {
+          "front_crossings": {
+            "hi": 2.130632256908683,
+            "lo": 0.3603689035263039,
+            "mean": 1.2455005802174934,
+            "n": 5
+          },
+          "queue_m": {
+            "hi": 50.056289841509184,
+            "lo": 43.76012262196363,
+            "mean": 46.90820623173641,
+            "n": 5
+          }
+        },
+        "n2": {
+          "front_crossings": {
+            "hi": -4.213787948494303,
+            "lo": -6.574940406575094,
+            "mean": -5.394364177534698,
+            "n": 5
+          },
+          "queue_m": {
+            "hi": 17.298593303446822,
+            "lo": 10.61083465829377,
+            "mean": 13.954713980870297,
+            "n": 5
+          }
+        },
+        "n4": {
+          "front_crossings": {
+            "hi": 1.9402390757470545,
+            "lo": 0.1286454483888132,
+            "mean": 1.0344422620679339,
+            "n": 5
+          },
+          "queue_m": {
+            "hi": 78.59072569615554,
+            "lo": 68.27924812647484,
+            "mean": 73.43498691131519,
+            "n": 5
+          }
+        }
+      },
+      "q": {
+        "hi": 1.2407617459470606,
+        "lo": -0.5065629923855104,
+        "mean": 0.3670993767807751,
+        "n": 5
+      },
+      "teleports": 13
+    },
+    "predictions": {
+      "A_QD": {
+        "labels": [],
+        "local_gain_signals": [],
+        "local_loss_signals": [],
+        "raw_gain": false,
+        "raw_loss": false,
+        "reasons": [],
+        "retained_improvement": false,
+        "status": "unresolved_or_small"
+      },
+      "B_accounting": {
+        "labels": [
+          "demand_change",
+          "demand_pressure_observed"
+        ],
+        "local_gain_signals": [],
+        "local_loss_signals": [],
+        "raw_gain": false,
+        "raw_loss": false,
+        "reasons": [
+          "Demand differs: Q and delay cannot alone isolate supply deterioration or capacity gain; mixed causes remain possible."
+        ],
+        "retained_improvement": false,
+        "status": "demand_conditioned_unresolved"
+      },
+      "C_warning": {
+        "labels": [
+          "warning_audit_required",
+          "demand_change",
+          "demand_pressure_observed"
+        ],
+        "local_gain_signals": [],
+        "local_loss_signals": [],
+        "raw_gain": false,
+        "raw_loss": false,
+        "reasons": [
+          "Any recorded teleport/collision or timing warning vetoes unqualified improvement; magnitude and cause require separate audit.",
+          "Demand differs: Q and delay cannot alone isolate supply deterioration or capacity gain; mixed causes remain possible."
+        ],
+        "retained_improvement": false,
+        "status": "warning_qualified_demand_conditioned_unresolved"
+      },
+      "D_full": {
+        "labels": [
+          "warning_audit_required",
+          "demand_change",
+          "demand_pressure_observed",
+          "local_deterioration_evidence"
+        ],
+        "local_gain_signals": [],
+        "local_loss_signals": [
+          "n2"
+        ],
+        "raw_gain": false,
+        "raw_loss": false,
+        "reasons": [
+          "Any recorded teleport/collision or timing warning vetoes unqualified improvement; magnitude and cause require separate audit.",
+          "Demand differs: Q and delay cannot alone isolate supply deterioration or capacity gain; mixed causes remain possible."
+        ],
+        "retained_improvement": false,
+        "status": "warning_qualified_demand_conditioned_unresolved"
+      },
+      "D_without_accounting": {
+        "labels": [
+          "warning_audit_required",
+          "local_deterioration_evidence"
+        ],
+        "local_gain_signals": [],
+        "local_loss_signals": [
+          "n2"
+        ],
+        "raw_gain": false,
+        "raw_loss": false,
+        "reasons": [
+          "Any recorded teleport/collision or timing warning vetoes unqualified improvement; magnitude and cause require separate audit."
+        ],
+        "retained_improvement": false,
+        "status": "warning_qualified_unresolved_or_small"
+      },
+      "D_without_warning": {
+        "labels": [
+          "demand_change",
+          "demand_pressure_observed",
+          "local_deterioration_evidence"
+        ],
+        "local_gain_signals": [],
+        "local_loss_signals": [
+          "n2"
+        ],
+        "raw_gain": false,
+        "raw_loss": false,
+        "reasons": [
+          "Demand differs: Q and delay cannot alone isolate supply deterioration or capacity gain; mixed causes remain possible."
+        ],
+        "retained_improvement": false,
+        "status": "demand_conditioned_unresolved"
+      }
+    }
+  },
+  "C04": {
+    "features": {
+      "baseline_warning_seeds": 2,
+      "burden": {
+        "hi": 7.640126907994075,
+        "lo": -0.3260261199400811,
+        "mean": 3.657050394026997,
+        "n": 5
+      },
+      "burden_per_planned": {
+        "hi": 7.640126907994075,
+        "lo": -0.3260261199400811,
+        "mean": 3.657050394026997,
+        "n": 5
+      },
+      "collisions": 0.0,
+      "completion": {
+        "hi": 0.18590785507657726,
+        "lo": -1.5023635512791116,
+        "mean": -0.6582278481012671,
+        "n": 5
+      },
+      "config_warning_seeds": 0,
+      "d": {
+        "hi": 10.338510332920574,
+        "lo": 2.636408238602596,
+        "mean": 6.487459285761585,
+        "n": 5
+      },
+      "demand": {
+        "hi": 0.0,
+        "lo": 0.0,
+        "mean": 0.0,
+        "n": 5
+      },
+      "entry_backlog": {
+        "hi": 0.9724410379049854,
+        "lo": -0.45092205056321355,
+        "mean": 0.2607594936708859,
+        "n": 5
+      },
+      "halting": {
+        "hi": 7.349049753867033,
+        "lo": -0.6771994304671489,
+        "mean": 3.335925161699942,
+        "n": 5
+      },
+      "local": {
+        "n1": {
+          "front_crossings": {
+            "hi": 0.37656313740247804,
+            "lo": -1.542429434427831,
+            "mean": -0.5829331485126765,
+            "n": 5
+          },
+          "queue_m": {
+            "hi": 2.8293266426804147,
+            "lo": -0.6176085732393302,
+            "mean": 1.1058590347205421,
+            "n": 5
+          }
+        },
+        "n2": {
+          "front_crossings": {
+            "hi": 0.15196315283068262,
+            "lo": -3.4491433289939417,
+            "mean": -1.6485900880816295,
+            "n": 5
+          },
+          "queue_m": {
+            "hi": 10.005399280970707,
+            "lo": 1.9250081975732716,
+            "mean": 5.965203739271989,
+            "n": 5
+          }
+        },
+        "n4": {
+          "front_crossings": {
+            "hi": 0.551051527633339,
+            "lo": -1.133182097270133,
+            "mean": -0.291065284818397,
+            "n": 5
+          },
+          "queue_m": {
+            "hi": 1.8930106805920914,
+            "lo": -1.3691162257735305,
+            "mean": 0.26194722740928045,
+            "n": 5
+          }
+        }
+      },
+      "q": {
+        "hi": 0.21912587179972998,
+        "lo": -1.7712342689824332,
+        "mean": -0.7760541985913516,
+        "n": 5
+      },
+      "teleports": 0
+    },
+    "predictions": {
+      "A_QD": {
+        "labels": [],
+        "local_gain_signals": [],
+        "local_loss_signals": [],
+        "raw_gain": false,
+        "raw_loss": false,
+        "reasons": [],
+        "retained_improvement": false,
+        "status": "unresolved_or_small"
+      },
+      "B_accounting": {
+        "labels": [],
+        "local_gain_signals": [],
+        "local_loss_signals": [],
+        "raw_gain": false,
+        "raw_loss": false,
+        "reasons": [],
+        "retained_improvement": false,
+        "status": "unresolved_or_small"
+      },
+      "C_warning": {
+        "labels": [
+          "warning_audit_required"
+        ],
+        "local_gain_signals": [],
+        "local_loss_signals": [],
+        "raw_gain": false,
+        "raw_loss": false,
+        "reasons": [
+          "Any recorded teleport/collision or timing warning vetoes unqualified improvement; magnitude and cause require separate audit."
+        ],
+        "retained_improvement": false,
+        "status": "warning_qualified_unresolved_or_small"
+      },
+      "D_full": {
+        "labels": [
+          "warning_audit_required"
+        ],
+        "local_gain_signals": [],
+        "local_loss_signals": [],
+        "raw_gain": false,
+        "raw_loss": false,
+        "reasons": [
+          "Any recorded teleport/collision or timing warning vetoes unqualified improvement; magnitude and cause require separate audit."
+        ],
+        "retained_improvement": false,
+        "status": "warning_qualified_unresolved_or_small"
+      },
+      "D_without_accounting": {
+        "labels": [
+          "warning_audit_required"
+        ],
+        "local_gain_signals": [],
+        "local_loss_signals": [],
+        "raw_gain": false,
+        "raw_loss": false,
+        "reasons": [
+          "Any recorded teleport/collision or timing warning vetoes unqualified improvement; magnitude and cause require separate audit."
+        ],
+        "retained_improvement": false,
+        "status": "warning_qualified_unresolved_or_small"
+      },
+      "D_without_warning": {
+        "labels": [],
+        "local_gain_signals": [],
+        "local_loss_signals": [],
+        "raw_gain": false,
+        "raw_loss": false,
+        "reasons": [],
+        "retained_improvement": false,
+        "status": "unresolved_or_small"
+      }
+    }
+  },
+  "C05": {
+    "features": {
+      "baseline_warning_seeds": 2,
+      "burden": {
+        "hi": 58.08981272754973,
+        "lo": 46.26752676897537,
+        "mean": 52.17866974826255,
+        "n": 5
+      },
+      "burden_per_planned": {
+        "hi": 37.46940237178237,
+        "lo": 27.189153712152482,
+        "mean": 32.32927804196743,
+        "n": 5
+      },
+      "collisions": 3.0,
+      "completion": {
+        "hi": -6.108873684276673,
+        "lo": -7.896409749955581,
+        "mean": -7.002641717116127,
+        "n": 5
+      },
+      "config_warning_seeds": 0,
+      "d": {
+        "hi": 45.084971627117085,
+        "lo": 26.486066281057976,
+        "mean": 35.78551895408753,
+        "n": 5
+      },
+      "demand": {
+        "hi": 14.999999999999991,
+        "lo": 14.999999999999991,
+        "mean": 14.999999999999991,
+        "n": 5
+      },
+      "entry_backlog": {
+        "hi": 3.6932072320135068,
+        "lo": 3.0086089485038294,
+        "mean": 3.350908090258668,
+        "n": 5
+      },
+      "halting": {
+        "hi": 73.37811905504941,
+        "lo": 47.386983515646605,
+        "mean": 60.38255128534801,
+        "n": 5
+      },
+      "local": {
+        "n1": {
+          "front_crossings": {
+            "hi": 6.7957706467266075,
+            "lo": 4.51182316164258,
+            "mean": 5.653796904184594,
+            "n": 5
+          },
+          "queue_m": {
+            "hi": 40.51626868820245,
+            "lo": 34.99338677932571,
+            "mean": 37.75482773376408,
+            "n": 5
+          }
+        },
+        "n2": {
+          "front_crossings": {
+            "hi": 1.4068685599663944,
+            "lo": -2.1109138780701286,
+            "mean": -0.35202265905186714,
+            "n": 5
+          },
+          "queue_m": {
+            "hi": 15.30962299518462,
+            "lo": 8.930992847590018,
+            "mean": 12.120307921387319,
+            "n": 5
+          }
+        },
+        "n4": {
+          "front_crossings": {
+            "hi": 9.392829908505474,
+            "lo": 6.4691719642953895,
+            "mean": 7.931000936400432,
+            "n": 5
+          },
+          "queue_m": {
+            "hi": 51.700307165005185,
+            "lo": 26.21053241830323,
+            "mean": 38.95541979165421,
+            "n": 5
+          }
+        }
+      },
+      "q": {
+        "hi": 6.662501263465802,
+        "lo": 4.290020441590538,
+        "mean": 5.47626085252817,
+        "n": 5
+      },
+      "teleports": 3
+    },
+    "predictions": {
+      "A_QD": {
+        "labels": [],
+        "local_gain_signals": [],
+        "local_loss_signals": [],
+        "raw_gain": false,
+        "raw_loss": false,
+        "reasons": [],
+        "retained_improvement": false,
+        "status": "unresolved_or_small"
+      },
+      "B_accounting": {
+        "labels": [
+          "demand_change",
+          "demand_pressure_observed"
+        ],
+        "local_gain_signals": [],
+        "local_loss_signals": [],
+        "raw_gain": false,
+        "raw_loss": false,
+        "reasons": [
+          "Demand differs: Q and delay cannot alone isolate supply deterioration or capacity gain; mixed causes remain possible."
+        ],
+        "retained_improvement": false,
+        "status": "demand_conditioned_unresolved"
+      },
+      "C_warning": {
+        "labels": [
+          "warning_audit_required",
+          "demand_change",
+          "demand_pressure_observed"
+        ],
+        "local_gain_signals": [],
+        "local_loss_signals": [],
+        "raw_gain": false,
+        "raw_loss": false,
+        "reasons": [
+          "Any recorded teleport/collision or timing warning vetoes unqualified improvement; magnitude and cause require separate audit.",
+          "Demand differs: Q and delay cannot alone isolate supply deterioration or capacity gain; mixed causes remain possible."
+        ],
+        "retained_improvement": false,
+        "status": "warning_qualified_demand_conditioned_unresolved"
+      },
+      "D_full": {
+        "labels": [
+          "warning_audit_required",
+          "demand_change",
+          "demand_pressure_observed"
+        ],
+        "local_gain_signals": [],
+        "local_loss_signals": [],
+        "raw_gain": false,
+        "raw_loss": false,
+        "reasons": [
+          "Any recorded teleport/collision or timing warning vetoes unqualified improvement; magnitude and cause require separate audit.",
+          "Demand differs: Q and delay cannot alone isolate supply deterioration or capacity gain; mixed causes remain possible."
+        ],
+        "retained_improvement": false,
+        "status": "warning_qualified_demand_conditioned_unresolved"
+      },
+      "D_without_accounting": {
+        "labels": [
+          "warning_audit_required"
+        ],
+        "local_gain_signals": [],
+        "local_loss_signals": [],
+        "raw_gain": false,
+        "raw_loss": false,
+        "reasons": [
+          "Any recorded teleport/collision or timing warning vetoes unqualified improvement; magnitude and cause require separate audit."
+        ],
+        "retained_improvement": false,
+        "status": "warning_qualified_unresolved_or_small"
+      },
+      "D_without_warning": {
+        "labels": [
+          "demand_change",
+          "demand_pressure_observed"
+        ],
+        "local_gain_signals": [],
+        "local_loss_signals": [],
+        "raw_gain": false,
+        "raw_loss": false,
+        "reasons": [
+          "Demand differs: Q and delay cannot alone isolate supply deterioration or capacity gain; mixed causes remain possible."
+        ],
+        "retained_improvement": false,
+        "status": "demand_conditioned_unresolved"
+      }
+    }
+  },
+  "C06": {
+    "features": {
+      "baseline_warning_seeds": 2,
+      "burden": {
+        "hi": -63.70470029989466,
+        "lo": -66.23654645489836,
+        "mean": -64.9706233773965,
+        "n": 5
+      },
+      "burden_per_planned": {
+        "hi": -63.70470029989466,
+        "lo": -66.23654645489836,
+        "mean": -64.9706233773965,
+        "n": 5
+      },
+      "collisions": 20205.0,
+      "completion": {
+        "hi": 12.900372111971826,
+        "lo": 11.935070926002854,
+        "mean": 12.41772151898734,
+        "n": 5
+      },
+      "config_warning_seeds": 5,
+      "d": {
+        "hi": -69.99518306623501,
+        "lo": -71.84332776974522,
+        "mean": -70.91925541799012,
+        "n": 5
+      },
+      "demand": {
+        "hi": 0.0,
+        "lo": 0.0,
+        "mean": 0.0,
+        "n": 5
+      },
+      "entry_backlog": {
+        "hi": -9.067379885149542,
+        "lo": -9.762999861685902,
+        "mean": -9.415189873417722,
+        "n": 5
+      },
+      "halting": {
+        "hi": -64.33290780056032,
+        "lo": -66.82643380646931,
+        "mean": -65.57967080351482,
+        "n": 5
+      },
+      "local": {
+        "n1": {
+          "front_crossings": {
+            "hi": -16.75511049213147,
+            "lo": -17.78870397066715,
+            "mean": -17.27190723139931,
+            "n": 5
+          },
+          "queue_m": {
+            "hi": -48.735004717637594,
+            "lo": -50.426395741357595,
+            "mean": -49.580700229497594,
+            "n": 5
+          }
+        },
+        "n2": {
+          "front_crossings": {
+            "hi": 4.098869931563838,
+            "lo": 0.8563542391941614,
+            "mean": 2.4776120853789996,
+            "n": 5
+          },
+          "queue_m": {
+            "hi": -63.495610072602716,
+            "lo": -67.06353439110518,
+            "mean": -65.27957223185395,
+            "n": 5
+          }
+        },
+        "n4": {
+          "front_crossings": {
+            "hi": -20.522192441291125,
+            "lo": -22.782071859966734,
+            "mean": -21.65213215062893,
+            "n": 5
+          },
+          "queue_m": {
+            "hi": -36.34632628691817,
+            "lo": -36.86128674130666,
+            "mean": -36.603806514112414,
+            "n": 5
+          }
+        }
+      },
+      "q": {
+        "hi": 15.347272996886643,
+        "lo": 14.034024851570292,
+        "mean": 14.690648924228467,
+        "n": 5
+      },
+      "teleports": 20205
+    },
+    "predictions": {
+      "A_QD": {
+        "labels": [],
+        "local_gain_signals": [],
+        "local_loss_signals": [],
+        "raw_gain": true,
+        "raw_loss": false,
+        "reasons": [],
+        "retained_improvement": true,
+        "status": "gain_candidate"
+      },
+      "B_accounting": {
+        "labels": [],
+        "local_gain_signals": [],
+        "local_loss_signals": [],
+        "raw_gain": true,
+        "raw_loss": false,
+        "reasons": [],
+        "retained_improvement": true,
+        "status": "improvement_candidate"
+      },
+      "C_warning": {
+        "labels": [
+          "warning_audit_required"
+        ],
+        "local_gain_signals": [],
+        "local_loss_signals": [],
+        "raw_gain": true,
+        "raw_loss": false,
+        "reasons": [
+          "Any recorded teleport/collision or timing warning vetoes unqualified improvement; magnitude and cause require separate audit."
+        ],
+        "retained_improvement": false,
+        "status": "warning_qualified_improvement_candidate"
+      },
+      "D_full": {
+        "labels": [
+          "warning_audit_required"
+        ],
+        "local_gain_signals": [],
+        "local_loss_signals": [],
+        "raw_gain": true,
+        "raw_loss": false,
+        "reasons": [
+          "Any recorded teleport/collision or timing warning vetoes unqualified improvement; magnitude and cause require separate audit."
+        ],
+        "retained_improvement": false,
+        "status": "warning_qualified_network_improvement_only"
+      },
+      "D_without_accounting": {
+        "labels": [
+          "warning_audit_required"
+        ],
+        "local_gain_signals": [],
+        "local_loss_signals": [],
+        "raw_gain": true,
+        "raw_loss": false,
+        "reasons": [
+          "Any recorded teleport/collision or timing warning vetoes unqualified improvement; magnitude and cause require separate audit."
+        ],
+        "retained_improvement": false,
+        "status": "warning_qualified_network_improvement_only"
+      },
+      "D_without_warning": {
+        "labels": [],
+        "local_gain_signals": [],
+        "local_loss_signals": [],
+        "raw_gain": true,
+        "raw_loss": false,
+        "reasons": [],
+        "retained_improvement": false,
+        "status": "network_improvement_only"
+      }
+    }
+  },
+  "C07": {
+    "features": {
+      "baseline_warning_seeds": 2,
+      "burden": {
+        "hi": -11.588639381777156,
+        "lo": -22.9353454606431,
+        "mean": -17.261992421210127,
+        "n": 5
+      },
+      "burden_per_planned": {
+        "hi": -11.588639381777156,
+        "lo": -22.935345460643106,
+        "mean": -17.26199242121013,
+        "n": 5
+      },
+      "collisions": 0.0,
+      "completion": {
+        "hi": 4.844622924078652,
+        "lo": 2.446516316427676,
+        "mean": 3.645569620253164,
+        "n": 5
+      },
+      "config_warning_seeds": 0,
+      "d": {
+        "hi": -3.681767884262938,
+        "lo": -11.899921945185564,
+        "mean": -7.790844914724251,
+        "n": 5
+      },
+      "demand": {
+        "hi": 0.0,
+        "lo": 0.0,
+        "mean": 0.0,
+        "n": 5
+      },
+      "entry_backlog": {
+        "hi": -2.3867970090328257,
+        "lo": -4.519532104891226,
+        "mean": -3.453164556962026,
+        "n": 5
+      },
+      "halting": {
+        "hi": 7.1931266061771275,
+        "lo": -3.5266911607962146,
+        "mean": 1.8332177226904567,
+        "n": 5
+      },
+      "local": {
+        "n1": {
+          "front_crossings": {
+            "hi": 5.9823761039484955,
+            "lo": 2.6319230646419003,
+            "mean": 4.307149584295198,
+            "n": 5
+          },
+          "queue_m": {
+            "hi": 1.2031072361024437,
+            "lo": -2.650708819478245,
+            "mean": -0.7238007916879008,
+            "n": 5
+          }
+        },
+        "n2": {
+          "front_crossings": {
+            "hi": 10.544497943642485,
+            "lo": 4.9713116988818715,
+            "mean": 7.757904821262178,
+            "n": 5
+          },
+          "queue_m": {
+            "hi": -5.535408175033579,
+            "lo": -14.490782642837418,
+            "mean": -10.013095408935499,
+            "n": 5
+          }
+        },
+        "n4": {
+          "front_crossings": {
+            "hi": 5.462832108980516,
+            "lo": 2.4260096741245025,
+            "mean": 3.944420891552509,
+            "n": 5
+          },
+          "queue_m": {
+            "hi": -0.6665951732258517,
+            "lo": -3.245051120742862,
+            "mean": -1.9558231469843568,
+            "n": 5
+          }
+        }
+      },
+      "q": {
+        "hi": 5.762147159687208,
+        "lo": 2.8696843321711554,
+        "mean": 4.315915745929182,
+        "n": 5
+      },
+      "teleports": 0
+    },
+    "predictions": {
+      "A_QD": {
+        "labels": [],
+        "local_gain_signals": [],
+        "local_loss_signals": [],
+        "raw_gain": false,
+        "raw_loss": false,
+        "reasons": [],
+        "retained_improvement": false,
+        "status": "unresolved_or_small"
+      },
+      "B_accounting": {
+        "labels": [],
+        "local_gain_signals": [],
+        "local_loss_signals": [],
+        "raw_gain": false,
+        "raw_loss": false,
+        "reasons": [],
+        "retained_improvement": false,
+        "status": "unresolved_or_small"
+      },
+      "C_warning": {
+        "labels": [
+          "warning_audit_required"
+        ],
+        "local_gain_signals": [],
+        "local_loss_signals": [],
+        "raw_gain": false,
+        "raw_loss": false,
+        "reasons": [
+          "Any recorded teleport/collision or timing warning vetoes unqualified improvement; magnitude and cause require separate audit."
+        ],
+        "retained_improvement": false,
+        "status": "warning_qualified_unresolved_or_small"
+      },
+      "D_full": {
+        "labels": [
+          "warning_audit_required",
+          "local_recovery_evidence"
+        ],
+        "local_gain_signals": [
+          "n2"
+        ],
+        "local_loss_signals": [],
+        "raw_gain": false,
+        "raw_loss": false,
+        "reasons": [
+          "Any recorded teleport/collision or timing warning vetoes unqualified improvement; magnitude and cause require separate audit."
+        ],
+        "retained_improvement": false,
+        "status": "warning_qualified_unresolved_or_small"
+      },
+      "D_without_accounting": {
+        "labels": [
+          "warning_audit_required",
+          "local_recovery_evidence"
+        ],
+        "local_gain_signals": [
+          "n2"
+        ],
+        "local_loss_signals": [],
+        "raw_gain": false,
+        "raw_loss": false,
+        "reasons": [
+          "Any recorded teleport/collision or timing warning vetoes unqualified improvement; magnitude and cause require separate audit."
+        ],
+        "retained_improvement": false,
+        "status": "warning_qualified_unresolved_or_small"
+      },
+      "D_without_warning": {
+        "labels": [
+          "local_recovery_evidence"
+        ],
+        "local_gain_signals": [
+          "n2"
+        ],
+        "local_loss_signals": [],
+        "raw_gain": false,
+        "raw_loss": false,
+        "reasons": [],
+        "retained_improvement": false,
+        "status": "unresolved_or_small"
+      }
+    }
+  },
+  "C08": {
+    "features": {
+      "baseline_warning_seeds": 2,
+      "burden": {
+        "hi": -31.710376240050792,
+        "lo": -40.6282300702139,
+        "mean": -36.16930315513235,
+        "n": 5
+      },
+      "burden_per_planned": {
+        "hi": -19.65926616476564,
+        "lo": -30.15085890613399,
+        "mean": -24.905062535449815,
+        "n": 5
+      },
+      "collisions": 0.0,
+      "completion": {
+        "hi": 5.118850178029936,
+        "lo": 4.149653172677434,
+        "mean": 4.634251675353685,
+        "n": 5
+      },
+      "config_warning_seeds": 0,
+      "d": {
+        "hi": -3.539815799424985,
+        "lo": -14.836109361666416,
+        "mean": -9.187962580545701,
+        "n": 5
+      },
+      "demand": {
+        "hi": -15.000000000000002,
+        "lo": -15.000000000000002,
+        "mean": -15.000000000000002,
+        "n": 5
+      },
+      "entry_backlog": {
+        "hi": -4.463316462266433,
+        "lo": -5.533109449870573,
+        "mean": -4.998212956068503,
+        "n": 5
+      },
+      "halting": {
+        "hi": -13.177001632718728,
+        "lo": -21.88621108377277,
+        "mean": -17.53160635824575,
+        "n": 5
+      },
+      "local": {
+        "n1": {
+          "front_crossings": {
+            "hi": -9.356559962837427,
+            "lo": -10.600786105306206,
+            "mean": -9.978673034071816,
+            "n": 5
+          },
+          "queue_m": {
+            "hi": -9.50102297073263,
+            "lo": -12.274932848772393,
+            "mean": -10.887977909752511,
+            "n": 5
+          }
+        },
+        "n2": {
+          "front_crossings": {
+            "hi": -5.1238111499810515,
+            "lo": -7.376613932644151,
+            "mean": -6.250212541312601,
+            "n": 5
+          },
+          "queue_m": {
+            "hi": -14.334159306383613,
+            "lo": -22.77393196495869,
+            "mean": -18.55404563567115,
+            "n": 5
+          }
+        },
+        "n4": {
+          "front_crossings": {
+            "hi": -10.05341557717247,
+            "lo": -11.236340472567687,
+            "mean": -10.644878024870078,
+            "n": 5
+          },
+          "queue_m": {
+            "hi": -11.324325776737536,
+            "lo": -14.995671531542564,
+            "mean": -13.15999865414005,
+            "n": 5
+          }
+        }
+      },
+      "q": {
+        "hi": -9.836694960902225,
+        "lo": -10.842345386337719,
+        "mean": -10.339520173619972,
+        "n": 5
+      },
+      "teleports": 0
+    },
+    "predictions": {
+      "A_QD": {
+        "labels": [],
+        "local_gain_signals": [],
+        "local_loss_signals": [],
+        "raw_gain": false,
+        "raw_loss": false,
+        "reasons": [],
+        "retained_improvement": false,
+        "status": "unresolved_or_small"
+      },
+      "B_accounting": {
+        "labels": [
+          "demand_change"
+        ],
+        "local_gain_signals": [],
+        "local_loss_signals": [],
+        "raw_gain": false,
+        "raw_loss": false,
+        "reasons": [
+          "Demand differs: Q and delay cannot alone isolate supply deterioration or capacity gain; mixed causes remain possible."
+        ],
+        "retained_improvement": false,
+        "status": "demand_conditioned_unresolved"
+      },
+      "C_warning": {
+        "labels": [
+          "warning_audit_required",
+          "demand_change"
+        ],
+        "local_gain_signals": [],
+        "local_loss_signals": [],
+        "raw_gain": false,
+        "raw_loss": false,
+        "reasons": [
+          "Any recorded teleport/collision or timing warning vetoes unqualified improvement; magnitude and cause require separate audit.",
+          "Demand differs: Q and delay cannot alone isolate supply deterioration or capacity gain; mixed causes remain possible."
+        ],
+        "retained_improvement": false,
+        "status": "warning_qualified_demand_conditioned_unresolved"
+      },
+      "D_full": {
+        "labels": [
+          "warning_audit_required",
+          "demand_change"
+        ],
+        "local_gain_signals": [],
+        "local_loss_signals": [],
+        "raw_gain": false,
+        "raw_loss": false,
+        "reasons": [
+          "Any recorded teleport/collision or timing warning vetoes unqualified improvement; magnitude and cause require separate audit.",
+          "Demand differs: Q and delay cannot alone isolate supply deterioration or capacity gain; mixed causes remain possible."
+        ],
+        "retained_improvement": false,
+        "status": "warning_qualified_demand_conditioned_unresolved"
+      },
+      "D_without_accounting": {
+        "labels": [
+          "warning_audit_required"
+        ],
+        "local_gain_signals": [],
+        "local_loss_signals": [],
+        "raw_gain": false,
+        "raw_loss": false,
+        "reasons": [
+          "Any recorded teleport/collision or timing warning vetoes unqualified improvement; magnitude and cause require separate audit."
+        ],
+        "retained_improvement": false,
+        "status": "warning_qualified_unresolved_or_small"
+      },
+      "D_without_warning": {
+        "labels": [
+          "demand_change"
+        ],
+        "local_gain_signals": [],
+        "local_loss_signals": [],
+        "raw_gain": false,
+        "raw_loss": false,
+        "reasons": [
+          "Demand differs: Q and delay cannot alone isolate supply deterioration or capacity gain; mixed causes remain possible."
+        ],
+        "retained_improvement": false,
+        "status": "demand_conditioned_unresolved"
+      }
+    }
+  },
+  "C09": {
+    "features": {
+      "baseline_warning_seeds": 2,
+      "burden": {
+        "hi": 96.46553015958534,
+        "lo": 72.4096518286429,
+        "mean": 84.43759099411412,
+        "n": 5
+      },
+      "burden_per_planned": {
+        "hi": 70.83959144311768,
+        "lo": 49.92143637273293,
+        "mean": 60.380513907925305,
+        "n": 5
+      },
+      "collisions": 8.0,
+      "completion": {
+        "hi": -11.722573510244388,
+        "lo": -14.742808988379721,
+        "mean": -13.232691249312055,
+        "n": 5
+      },
+      "config_warning_seeds": 0,
+      "d": {
+        "hi": 85.16741385459213,
+        "lo": 65.90830549473398,
+        "mean": 75.53785967466305,
+        "n": 5
+      },
+      "demand": {
+        "hi": 14.999999999999991,
+        "lo": 14.999999999999991,
+        "mean": 14.999999999999991,
+        "n": 5
+      },
+      "entry_backlog": {
+        "hi": 7.876229571612013,
+        "lo": 5.7336768675734575,
+        "mean": 6.804953219592735,
+        "n": 5
+      },
+      "halting": {
+        "hi": 122.60031154949439,
+        "lo": 98.20439539178409,
+        "mean": 110.40235347063924,
+        "n": 5
+      },
+      "local": {
+        "n1": {
+          "front_crossings": {
+            "hi": 1.2197482178175973,
+            "lo": -3.2244647743237738,
+            "mean": -1.0023582782530882,
+            "n": 5
+          },
+          "queue_m": {
+            "hi": 54.59361559547838,
+            "lo": 47.51141862098204,
+            "mean": 51.05251710823021,
+            "n": 5
+          }
+        },
+        "n2": {
+          "front_crossings": {
+            "hi": -5.272420436632418,
+            "lo": -11.80522191646376,
+            "mean": -8.538821176548089,
+            "n": 5
+          },
+          "queue_m": {
+            "hi": 19.34729182638564,
+            "lo": 11.069424482788726,
+            "mean": 15.208358154587183,
+            "n": 5
+          }
+        },
+        "n4": {
+          "front_crossings": {
+            "hi": 0.1734189100015091,
+            "lo": -5.054617091880614,
+            "mean": -2.4405990909395525,
+            "n": 5
+          },
+          "queue_m": {
+            "hi": 84.85054450275922,
+            "lo": 68.17037996335816,
+            "mean": 76.51046223305869,
+            "n": 5
+          }
+        }
+      },
+      "q": {
+        "hi": -1.0112735981956271,
+        "lo": -4.9813758904400345,
+        "mean": -2.996324744317831,
+        "n": 5
+      },
+      "teleports": 8
+    },
+    "predictions": {
+      "A_QD": {
+        "labels": [],
+        "local_gain_signals": [],
+        "local_loss_signals": [],
+        "raw_gain": false,
+        "raw_loss": false,
+        "reasons": [],
+        "retained_improvement": false,
+        "status": "unresolved_or_small"
+      },
+      "B_accounting": {
+        "labels": [
+          "demand_change",
+          "demand_pressure_observed"
+        ],
+        "local_gain_signals": [],
+        "local_loss_signals": [],
+        "raw_gain": false,
+        "raw_loss": false,
+        "reasons": [
+          "Demand differs: Q and delay cannot alone isolate supply deterioration or capacity gain; mixed causes remain possible."
+        ],
+        "retained_improvement": false,
+        "status": "demand_conditioned_unresolved"
+      },
+      "C_warning": {
+        "labels": [
+          "warning_audit_required",
+          "demand_change",
+          "demand_pressure_observed"
+        ],
+        "local_gain_signals": [],
+        "local_loss_signals": [],
+        "raw_gain": false,
+        "raw_loss": false,
+        "reasons": [
+          "Any recorded teleport/collision or timing warning vetoes unqualified improvement; magnitude and cause require separate audit.",
+          "Demand differs: Q and delay cannot alone isolate supply deterioration or capacity gain; mixed causes remain possible."
+        ],
+        "retained_improvement": false,
+        "status": "warning_qualified_demand_conditioned_unresolved"
+      },
+      "D_full": {
+        "labels": [
+          "warning_audit_required",
+          "demand_change",
+          "demand_pressure_observed",
+          "local_deterioration_evidence"
+        ],
+        "local_gain_signals": [],
+        "local_loss_signals": [
+          "n2"
+        ],
+        "raw_gain": false,
+        "raw_loss": false,
+        "reasons": [
+          "Any recorded teleport/collision or timing warning vetoes unqualified improvement; magnitude and cause require separate audit.",
+          "Demand differs: Q and delay cannot alone isolate supply deterioration or capacity gain; mixed causes remain possible."
+        ],
+        "retained_improvement": false,
+        "status": "warning_qualified_demand_conditioned_unresolved"
+      },
+      "D_without_accounting": {
+        "labels": [
+          "warning_audit_required",
+          "local_deterioration_evidence"
+        ],
+        "local_gain_signals": [],
+        "local_loss_signals": [
+          "n2"
+        ],
+        "raw_gain": false,
+        "raw_loss": false,
+        "reasons": [
+          "Any recorded teleport/collision or timing warning vetoes unqualified improvement; magnitude and cause require separate audit."
+        ],
+        "retained_improvement": false,
+        "status": "warning_qualified_unresolved_or_small"
+      },
+      "D_without_warning": {
+        "labels": [
+          "demand_change",
+          "demand_pressure_observed",
+          "local_deterioration_evidence"
+        ],
+        "local_gain_signals": [],
+        "local_loss_signals": [
+          "n2"
+        ],
+        "raw_gain": false,
+        "raw_loss": false,
+        "reasons": [
+          "Demand differs: Q and delay cannot alone isolate supply deterioration or capacity gain; mixed causes remain possible."
+        ],
+        "retained_improvement": false,
+        "status": "demand_conditioned_unresolved"
+      }
+    }
+  },
+  "C10": {
+    "features": {
+      "baseline_warning_seeds": 2,
+      "burden": {
+        "hi": 0.0,
+        "lo": 0.0,
+        "mean": 0.0,
+        "n": 5
+      },
+      "burden_per_planned": {
+        "hi": 0.0,
+        "lo": 0.0,
+        "mean": 0.0,
+        "n": 5
+      },
+      "collisions": 2.0,
+      "completion": {
+        "hi": 0.0,
+        "lo": 0.0,
+        "mean": 0.0,
+        "n": 5
+      },
+      "config_warning_seeds": 0,
+      "d": {
+        "hi": 0.0,
+        "lo": 0.0,
+        "mean": 0.0,
+        "n": 5
+      },
+      "demand": {
+        "hi": 0.0,
+        "lo": 0.0,
+        "mean": 0.0,
+        "n": 5
+      },
+      "entry_backlog": {
+        "hi": 0.0,
+        "lo": 0.0,
+        "mean": 0.0,
+        "n": 5
+      },
+      "halting": {
+        "hi": 0.0,
+        "lo": 0.0,
+        "mean": 0.0,
+        "n": 5
+      },
+      "local": {
+        "n1": {
+          "front_crossings": {
+            "hi": 0.0,
+            "lo": 0.0,
+            "mean": 0.0,
+            "n": 5
+          },
+          "queue_m": {
+            "hi": 0.0,
+            "lo": 0.0,
+            "mean": 0.0,
+            "n": 5
+          }
+        },
+        "n2": {
+          "front_crossings": {
+            "hi": 0.0,
+            "lo": 0.0,
+            "mean": 0.0,
+            "n": 5
+          },
+          "queue_m": {
+            "hi": 0.0,
+            "lo": 0.0,
+            "mean": 0.0,
+            "n": 5
+          }
+        },
+        "n4": {
+          "front_crossings": {
+            "hi": 0.0,
+            "lo": 0.0,
+            "mean": 0.0,
+            "n": 5
+          },
+          "queue_m": {
+            "hi": 0.0,
+            "lo": 0.0,
+            "mean": 0.0,
+            "n": 5
+          }
+        }
+      },
+      "q": {
+        "hi": 0.0,
+        "lo": 0.0,
+        "mean": 0.0,
+        "n": 5
+      },
+      "teleports": 2
+    },
+    "predictions": {
+      "A_QD": {
+        "labels": [],
+        "local_gain_signals": [],
+        "local_loss_signals": [],
+        "raw_gain": false,
+        "raw_loss": false,
+        "reasons": [],
+        "retained_improvement": false,
+        "status": "unresolved_or_small"
+      },
+      "B_accounting": {
+        "labels": [],
+        "local_gain_signals": [],
+        "local_loss_signals": [],
+        "raw_gain": false,
+        "raw_loss": false,
+        "reasons": [],
+        "retained_improvement": false,
+        "status": "unresolved_or_small"
+      },
+      "C_warning": {
+        "labels": [
+          "warning_audit_required"
+        ],
+        "local_gain_signals": [],
+        "local_loss_signals": [],
+        "raw_gain": false,
+        "raw_loss": false,
+        "reasons": [
+          "Any recorded teleport/collision or timing warning vetoes unqualified improvement; magnitude and cause require separate audit."
+        ],
+        "retained_improvement": false,
+        "status": "warning_qualified_unresolved_or_small"
+      },
+      "D_full": {
+        "labels": [
+          "warning_audit_required"
+        ],
+        "local_gain_signals": [],
+        "local_loss_signals": [],
+        "raw_gain": false,
+        "raw_loss": false,
+        "reasons": [
+          "Any recorded teleport/collision or timing warning vetoes unqualified improvement; magnitude and cause require separate audit."
+        ],
+        "retained_improvement": false,
+        "status": "warning_qualified_unresolved_or_small"
+      },
+      "D_without_accounting": {
+        "labels": [
+          "warning_audit_required"
+        ],
+        "local_gain_signals": [],
+        "local_loss_signals": [],
+        "raw_gain": false,
+        "raw_loss": false,
+        "reasons": [
+          "Any recorded teleport/collision or timing warning vetoes unqualified improvement; magnitude and cause require separate audit."
+        ],
+        "retained_improvement": false,
+        "status": "warning_qualified_unresolved_or_small"
+      },
+      "D_without_warning": {
+        "labels": [],
+        "local_gain_signals": [],
+        "local_loss_signals": [],
+        "raw_gain": false,
+        "raw_loss": false,
+        "reasons": [],
+        "retained_improvement": false,
+        "status": "unresolved_or_small"
+      }
+    }
+  },
+  "C11": {
+    "features": {
+      "baseline_warning_seeds": 2,
+      "burden": {
+        "hi": 28.66421143952377,
+        "lo": 5.722369820458928,
+        "mean": 17.19329062999135,
+        "n": 5
+      },
+      "burden_per_planned": {
+        "hi": 28.664211439523754,
+        "lo": 5.7223698204589315,
+        "mean": 17.193290629991342,
+        "n": 5
+      },
+      "collisions": 2.0,
+      "completion": {
+        "hi": -0.5749889421734644,
+        "lo": -5.703492070484762,
+        "mean": -3.139240506329113,
+        "n": 5
+      },
+      "config_warning_seeds": 0,
+      "d": {
+        "hi": 32.60955419285042,
+        "lo": 2.3268890437096346,
+        "mean": 17.468221618280026,
+        "n": 5
+      },
+      "demand": {
+        "hi": 0.0,
+        "lo": 0.0,
+        "mean": 0.0,
+        "n": 5
+      },
+      "entry_backlog": {
+        "hi": 3.7937436522019086,
+        "lo": 0.17081330982340615,
+        "mean": 1.9822784810126575,
+        "n": 5
+      },
+      "halting": {
+        "hi": 35.202698807308856,
+        "lo": -2.045270133515473,
+        "mean": 16.57871433689669,
+        "n": 5
+      },
+      "local": {
+        "n1": {
+          "front_crossings": {
+            "hi": -0.04008570077525864,
+            "lo": -7.218074674593589,
+            "mean": -3.6290801876844236,
+            "n": 5
+          },
+          "queue_m": {
+            "hi": 25.733873709665698,
+            "lo": -3.1443501391519035,
+            "mean": 11.294761785256897,
+            "n": 5
+          }
+        },
+        "n2": {
+          "front_crossings": {
+            "hi": -1.0822834228346743,
+            "lo": -11.648243653100687,
+            "mean": -6.365263537967681,
+            "n": 5
+          },
+          "queue_m": {
+            "hi": 16.32805825945493,
+            "lo": 3.146617489006524,
+            "mean": 9.737337874230727,
+            "n": 5
+          }
+        },
+        "n4": {
+          "front_crossings": {
+            "hi": -0.4811369052051917,
+            "lo": -4.17746964716248,
+            "mean": -2.329303276183836,
+            "n": 5
+          },
+          "queue_m": {
+            "hi": 7.667144460850572,
+            "lo": 1.108868032980066,
+            "mean": 4.388006246915319,
+            "n": 5
+          }
+        }
+      },
+      "q": {
+        "hi": -0.6984061903229364,
+        "lo": -6.715365079348138,
+        "mean": -3.7068856348355372,
+        "n": 5
+      },
+      "teleports": 8
+    },
+    "predictions": {
+      "A_QD": {
+        "labels": [],
+        "local_gain_signals": [],
+        "local_loss_signals": [],
+        "raw_gain": false,
+        "raw_loss": false,
+        "reasons": [],
+        "retained_improvement": false,
+        "status": "unresolved_or_small"
+      },
+      "B_accounting": {
+        "labels": [],
+        "local_gain_signals": [],
+        "local_loss_signals": [],
+        "raw_gain": false,
+        "raw_loss": false,
+        "reasons": [],
+        "retained_improvement": false,
+        "status": "unresolved_or_small"
+      },
+      "C_warning": {
+        "labels": [
+          "warning_audit_required"
+        ],
+        "local_gain_signals": [],
+        "local_loss_signals": [],
+        "raw_gain": false,
+        "raw_loss": false,
+        "reasons": [
+          "Any recorded teleport/collision or timing warning vetoes unqualified improvement; magnitude and cause require separate audit."
+        ],
+        "retained_improvement": false,
+        "status": "warning_qualified_unresolved_or_small"
+      },
+      "D_full": {
+        "labels": [
+          "warning_audit_required"
+        ],
+        "local_gain_signals": [],
+        "local_loss_signals": [],
+        "raw_gain": false,
+        "raw_loss": false,
+        "reasons": [
+          "Any recorded teleport/collision or timing warning vetoes unqualified improvement; magnitude and cause require separate audit."
+        ],
+        "retained_improvement": false,
+        "status": "warning_qualified_unresolved_or_small"
+      },
+      "D_without_accounting": {
+        "labels": [
+          "warning_audit_required"
+        ],
+        "local_gain_signals": [],
+        "local_loss_signals": [],
+        "raw_gain": false,
+        "raw_loss": false,
+        "reasons": [
+          "Any recorded teleport/collision or timing warning vetoes unqualified improvement; magnitude and cause require separate audit."
+        ],
+        "retained_improvement": false,
+        "status": "warning_qualified_unresolved_or_small"
+      },
+      "D_without_warning": {
+        "labels": [],
+        "local_gain_signals": [],
+        "local_loss_signals": [],
+        "raw_gain": false,
+        "raw_loss": false,
+        "reasons": [],
+        "retained_improvement": false,
+        "status": "unresolved_or_small"
+      }
+    }
+  },
+  "C12": {
+    "features": {
+      "baseline_warning_seeds": 2,
+      "burden": {
+        "hi": 35.52076651614198,
+        "lo": 26.90192925361143,
+        "mean": 31.211347884876705,
+        "n": 5
+      },
+      "burden_per_planned": {
+        "hi": 35.52076651614198,
+        "lo": 26.90192925361143,
+        "mean": 31.211347884876705,
+        "n": 5
+      },
+      "collisions": 14.0,
+      "completion": {
+        "hi": -6.057508562795349,
+        "lo": -7.496921816951491,
+        "mean": -6.77721518987342,
+        "n": 5
+      },
+      "config_warning_seeds": 0,
+      "d": {
+        "hi": 46.48005960266289,
+        "lo": 37.78204350548458,
+        "mean": 42.131051554073736,
+        "n": 5
+      },
+      "demand": {
+        "hi": 0.0,
+        "lo": 0.0,
+        "mean": 0.0,
+        "n": 5
+      },
+      "entry_backlog": {
+        "hi": 4.133726491380034,
+        "lo": 2.787792495961738,
+        "mean": 3.460759493670886,
+        "n": 5
+      },
+      "halting": {
+        "hi": 47.79050675243817,
+        "lo": 32.49959935589968,
+        "mean": 40.145053054168926,
+        "n": 5
+      },
+      "local": {
+        "n1": {
+          "front_crossings": {
+            "hi": -5.405398062861752,
+            "lo": -7.7377680161664015,
+            "mean": -6.571583039514077,
+            "n": 5
+          },
+          "queue_m": {
+            "hi": 30.578197288064104,
+            "lo": 23.22906008740643,
+            "mean": 26.903628687735267,
+            "n": 5
+          }
+        },
+        "n2": {
+          "front_crossings": {
+            "hi": -8.878926989456161,
+            "lo": -12.458029500356258,
+            "mean": -10.66847824490621,
+            "n": 5
+          },
+          "queue_m": {
+            "hi": 16.503996215007056,
+            "lo": 10.255006128903597,
+            "mean": 13.379501171955326,
+            "n": 5
+          }
+        },
+        "n4": {
+          "front_crossings": {
+            "hi": -6.494753837359866,
+            "lo": -7.976721900415262,
+            "mean": -7.235737868887564,
+            "n": 5
+          },
+          "queue_m": {
+            "hi": 45.483701120580754,
+            "lo": 40.06441630837441,
+            "mean": 42.77405871447758,
+            "n": 5
+          }
+        }
+      },
+      "q": {
+        "hi": -7.1937730987406505,
+        "lo": -8.836259307764438,
+        "mean": -8.015016203252545,
+        "n": 5
+      },
+      "teleports": 16
+    },
+    "predictions": {
+      "A_QD": {
+        "labels": [],
+        "local_gain_signals": [],
+        "local_loss_signals": [],
+        "raw_gain": false,
+        "raw_loss": true,
+        "reasons": [],
+        "retained_improvement": false,
+        "status": "loss_candidate"
+      },
+      "B_accounting": {
+        "labels": [],
+        "local_gain_signals": [],
+        "local_loss_signals": [],
+        "raw_gain": false,
+        "raw_loss": true,
+        "reasons": [],
+        "retained_improvement": false,
+        "status": "service_deterioration_supported"
+      },
+      "C_warning": {
+        "labels": [
+          "warning_audit_required"
+        ],
+        "local_gain_signals": [],
+        "local_loss_signals": [],
+        "raw_gain": false,
+        "raw_loss": true,
+        "reasons": [
+          "Any recorded teleport/collision or timing warning vetoes unqualified improvement; magnitude and cause require separate audit."
+        ],
+        "retained_improvement": false,
+        "status": "warning_qualified_service_deterioration_supported"
+      },
+      "D_full": {
+        "labels": [
+          "warning_audit_required",
+          "local_deterioration_evidence"
+        ],
+        "local_gain_signals": [],
+        "local_loss_signals": [
+          "n1",
+          "n2",
+          "n4"
+        ],
+        "raw_gain": false,
+        "raw_loss": true,
+        "reasons": [
+          "Any recorded teleport/collision or timing warning vetoes unqualified improvement; magnitude and cause require separate audit."
+        ],
+        "retained_improvement": false,
+        "status": "warning_qualified_service_deterioration_supported"
+      },
+      "D_without_accounting": {
+        "labels": [
+          "warning_audit_required",
+          "local_deterioration_evidence"
+        ],
+        "local_gain_signals": [],
+        "local_loss_signals": [
+          "n1",
+          "n2",
+          "n4"
+        ],
+        "raw_gain": false,
+        "raw_loss": true,
+        "reasons": [
+          "Any recorded teleport/collision or timing warning vetoes unqualified improvement; magnitude and cause require separate audit."
+        ],
+        "retained_improvement": false,
+        "status": "warning_qualified_loss_candidate"
+      },
+      "D_without_warning": {
+        "labels": [
+          "local_deterioration_evidence"
+        ],
+        "local_gain_signals": [],
+        "local_loss_signals": [
+          "n1",
+          "n2",
+          "n4"
+        ],
+        "raw_gain": false,
+        "raw_loss": true,
+        "reasons": [],
+        "retained_improvement": false,
+        "status": "service_deterioration_supported"
+      }
+    }
+  },
+  "C13": {
+    "features": {
+      "baseline_warning_seeds": 2,
+      "burden": {
+        "hi": 38.41774685465944,
+        "lo": 25.91684445232057,
+        "mean": 32.16729565349001,
+        "n": 5
+      },
+      "burden_per_planned": {
+        "hi": 38.417746854659434,
+        "lo": 25.916844452320568,
+        "mean": 32.16729565349,
+        "n": 5
+      },
+      "collisions": 10.0,
+      "completion": {
+        "hi": -6.172609968157973,
+        "lo": -8.202073576145823,
+        "mean": -7.187341772151898,
+        "n": 5
+      },
+      "config_warning_seeds": 0,
+      "d": {
+        "hi": 55.25078821049031,
+        "lo": 46.073378428530845,
+        "mean": 50.66208331951058,
+        "n": 5
+      },
+      "demand": {
+        "hi": 0.0,
+        "lo": 0.0,
+        "mean": 0.0,
+        "n": 5
+      },
+      "entry_backlog": {
+        "hi": 3.077030399763967,
+        "lo": 1.9660075749195776,
+        "mean": 2.5215189873417723,
+        "n": 5
+      },
+      "halting": {
+        "hi": 59.206191249088086,
+        "lo": 41.316739870424506,
+        "mean": 50.261465559756296,
+        "n": 5
+      },
+      "local": {
+        "n1": {
+          "front_crossings": {
+            "hi": -6.35964573018522,
+            "lo": -8.981410735662404,
+            "mean": -7.670528232923813,
+            "n": 5
+          },
+          "queue_m": {
+            "hi": 28.299651926804486,
+            "lo": 26.937441432985963,
+            "mean": 27.618546679895225,
+            "n": 5
+          }
+        },
+        "n2": {
+          "front_crossings": {
+            "hi": -10.285966686869964,
+            "lo": -14.389365899421948,
+            "mean": -12.337666293145956,
+            "n": 5
+          },
+          "queue_m": {
+            "hi": 14.255920802869618,
+            "lo": 5.423621413469856,
+            "mean": 9.839771108169737,
+            "n": 5
+          }
+        },
+        "n4": {
+          "front_crossings": {
+            "hi": -5.519503251172571,
+            "lo": -7.481276201016939,
+            "mean": -6.500389726094755,
+            "n": 5
+          },
+          "queue_m": {
+            "hi": 50.882712555412965,
+            "lo": 34.551714241360486,
+            "mean": 42.717213398386725,
+            "n": 5
+          }
+        }
+      },
+      "q": {
+        "hi": -7.331838247230694,
+        "lo": -9.66611849362089,
+        "mean": -8.498978370425792,
+        "n": 5
+      },
+      "teleports": 12
+    },
+    "predictions": {
+      "A_QD": {
+        "labels": [],
+        "local_gain_signals": [],
+        "local_loss_signals": [],
+        "raw_gain": false,
+        "raw_loss": true,
+        "reasons": [],
+        "retained_improvement": false,
+        "status": "loss_candidate"
+      },
+      "B_accounting": {
+        "labels": [],
+        "local_gain_signals": [],
+        "local_loss_signals": [],
+        "raw_gain": false,
+        "raw_loss": true,
+        "reasons": [],
+        "retained_improvement": false,
+        "status": "service_deterioration_supported"
+      },
+      "C_warning": {
+        "labels": [
+          "warning_audit_required"
+        ],
+        "local_gain_signals": [],
+        "local_loss_signals": [],
+        "raw_gain": false,
+        "raw_loss": true,
+        "reasons": [
+          "Any recorded teleport/collision or timing warning vetoes unqualified improvement; magnitude and cause require separate audit."
+        ],
+        "retained_improvement": false,
+        "status": "warning_qualified_service_deterioration_supported"
+      },
+      "D_full": {
+        "labels": [
+          "warning_audit_required",
+          "local_deterioration_evidence"
+        ],
+        "local_gain_signals": [],
+        "local_loss_signals": [
+          "n1",
+          "n2",
+          "n4"
+        ],
+        "raw_gain": false,
+        "raw_loss": true,
+        "reasons": [
+          "Any recorded teleport/collision or timing warning vetoes unqualified improvement; magnitude and cause require separate audit."
+        ],
+        "retained_improvement": false,
+        "status": "warning_qualified_service_deterioration_supported"
+      },
+      "D_without_accounting": {
+        "labels": [
+          "warning_audit_required",
+          "local_deterioration_evidence"
+        ],
+        "local_gain_signals": [],
+        "local_loss_signals": [
+          "n1",
+          "n2",
+          "n4"
+        ],
+        "raw_gain": false,
+        "raw_loss": true,
+        "reasons": [
+          "Any recorded teleport/collision or timing warning vetoes unqualified improvement; magnitude and cause require separate audit."
+        ],
+        "retained_improvement": false,
+        "status": "warning_qualified_loss_candidate"
+      },
+      "D_without_warning": {
+        "labels": [
+          "local_deterioration_evidence"
+        ],
+        "local_gain_signals": [],
+        "local_loss_signals": [
+          "n1",
+          "n2",
+          "n4"
+        ],
+        "raw_gain": false,
+        "raw_loss": true,
+        "reasons": [],
+        "retained_improvement": false,
+        "status": "service_deterioration_supported"
+      }
+    }
+  },
+  "C14": {
+    "features": {
+      "baseline_warning_seeds": 2,
+      "burden": {
+        "hi": -15.531182642430121,
+        "lo": -23.49927119780151,
+        "mean": -19.515226920115815,
+        "n": 5
+      },
+      "burden_per_planned": {
+        "hi": -0.6249207558001482,
+        "lo": -9.999142585648837,
+        "mean": -5.312031670724493,
+        "n": 5
+      },
+      "collisions": 0.0,
+      "completion": {
+        "hi": 2.3001275893029405,
+        "lo": 0.8269014501609416,
+        "mean": 1.563514519731941,
+        "n": 5
+      },
+      "config_warning_seeds": 0,
+      "d": {
+        "hi": 4.865387188941892,
+        "lo": -2.688994947647634,
+        "mean": 1.0881961206471291,
+        "n": 5
+      },
+      "demand": {
+        "hi": -15.000000000000002,
+        "lo": -15.000000000000002,
+        "mean": -15.000000000000002,
+        "n": 5
+      },
+      "entry_backlog": {
+        "hi": -1.114511483106698,
+        "lo": -2.019665732083176,
+        "mean": -1.567088607594937,
+        "n": 5
+      },
+      "halting": {
+        "hi": -12.812782510957721,
+        "lo": -17.728666290946038,
+        "mean": -15.27072440095188,
+        "n": 5
+      },
+      "local": {
+        "n1": {
+          "front_crossings": {
+            "hi": -12.674083524050385,
+            "lo": -14.504320578732681,
+            "mean": -13.589202051391533,
+            "n": 5
+          },
+          "queue_m": {
+            "hi": -3.665631906281518,
+            "lo": -6.758389579834695,
+            "mean": -5.212010743058107,
+            "n": 5
+          }
+        },
+        "n2": {
+          "front_crossings": {
+            "hi": -10.587565607684699,
+            "lo": -13.42337764388268,
+            "mean": -12.00547162578369,
+            "n": 5
+          },
+          "queue_m": {
+            "hi": -5.3434425592925,
+            "lo": -12.338033719705377,
+            "mean": -8.840738139498939,
+            "n": 5
+          }
+        },
+        "n4": {
+          "front_crossings": {
+            "hi": -13.077322965545337,
+            "lo": -14.538628391655758,
+            "mean": -13.807975678600547,
+            "n": 5
+          },
+          "queue_m": {
+            "hi": -6.14441164252798,
+            "lo": -10.358187790638326,
+            "mean": -8.251299716583153,
+            "n": 5
+          }
+        }
+      },
+      "q": {
+        "hi": -12.676823007485485,
+        "lo": -14.175221369286433,
+        "mean": -13.426022188385959,
+        "n": 5
+      },
+      "teleports": 1
+    },
+    "predictions": {
+      "A_QD": {
+        "labels": [],
+        "local_gain_signals": [],
+        "local_loss_signals": [],
+        "raw_gain": false,
+        "raw_loss": false,
+        "reasons": [],
+        "retained_improvement": false,
+        "status": "unresolved_or_small"
+      },
+      "B_accounting": {
+        "labels": [
+          "demand_change"
+        ],
+        "local_gain_signals": [],
+        "local_loss_signals": [],
+        "raw_gain": false,
+        "raw_loss": false,
+        "reasons": [
+          "Demand differs: Q and delay cannot alone isolate supply deterioration or capacity gain; mixed causes remain possible."
+        ],
+        "retained_improvement": false,
+        "status": "demand_conditioned_unresolved"
+      },
+      "C_warning": {
+        "labels": [
+          "warning_audit_required",
+          "demand_change"
+        ],
+        "local_gain_signals": [],
+        "local_loss_signals": [],
+        "raw_gain": false,
+        "raw_loss": false,
+        "reasons": [
+          "Any recorded teleport/collision or timing warning vetoes unqualified improvement; magnitude and cause require separate audit.",
+          "Demand differs: Q and delay cannot alone isolate supply deterioration or capacity gain; mixed causes remain possible."
+        ],
+        "retained_improvement": false,
+        "status": "warning_qualified_demand_conditioned_unresolved"
+      },
+      "D_full": {
+        "labels": [
+          "warning_audit_required",
+          "demand_change"
+        ],
+        "local_gain_signals": [],
+        "local_loss_signals": [],
+        "raw_gain": false,
+        "raw_loss": false,
+        "reasons": [
+          "Any recorded teleport/collision or timing warning vetoes unqualified improvement; magnitude and cause require separate audit.",
+          "Demand differs: Q and delay cannot alone isolate supply deterioration or capacity gain; mixed causes remain possible."
+        ],
+        "retained_improvement": false,
+        "status": "warning_qualified_demand_conditioned_unresolved"
+      },
+      "D_without_accounting": {
+        "labels": [
+          "warning_audit_required"
+        ],
+        "local_gain_signals": [],
+        "local_loss_signals": [],
+        "raw_gain": false,
+        "raw_loss": false,
+        "reasons": [
+          "Any recorded teleport/collision or timing warning vetoes unqualified improvement; magnitude and cause require separate audit."
+        ],
+        "retained_improvement": false,
+        "status": "warning_qualified_unresolved_or_small"
+      },
+      "D_without_warning": {
+        "labels": [
+          "demand_change"
+        ],
+        "local_gain_signals": [],
+        "local_loss_signals": [],
+        "raw_gain": false,
+        "raw_loss": false,
+        "reasons": [
+          "Demand differs: Q and delay cannot alone isolate supply deterioration or capacity gain; mixed causes remain possible."
+        ],
+        "retained_improvement": false,
+        "status": "demand_conditioned_unresolved"
+      }
+    }
+  },
+  "C15": {
+    "features": {
+      "baseline_warning_seeds": 2,
+      "burden": {
+        "hi": 113.30754675187005,
+        "lo": 90.44542958588643,
+        "mean": 101.87648816887824,
+        "n": 5
+      },
+      "burden_per_planned": {
+        "hi": 85.48482326249571,
+        "lo": 65.60472137903166,
+        "mean": 75.54477232076368,
+        "n": 5
+      },
+      "collisions": 10.0,
+      "completion": {
+        "hi": -14.962132400198959,
+        "lo": -18.384923185932028,
+        "mean": -16.673527793065492,
+        "n": 5
+      },
+      "config_warning_seeds": 0,
+      "d": {
+        "hi": 108.13867926575628,
+        "lo": 88.15131923106108,
+        "mean": 98.14499924840868,
+        "n": 5
+      },
+      "demand": {
+        "hi": 14.999999999999991,
+        "lo": 14.999999999999991,
+        "mean": 14.999999999999991,
+        "n": 5
+      },
+      "entry_backlog": {
+        "hi": 11.458872510738928,
+        "lo": 9.508216096856007,
+        "mean": 10.483544303797467,
+        "n": 5
+      },
+      "halting": {
+        "hi": 142.27904773449646,
+        "lo": 118.5911903484367,
+        "mean": 130.43511904146658,
+        "n": 5
+      },
+      "local": {
+        "n1": {
+          "front_crossings": {
+            "hi": -3.5393327564846833,
+            "lo": -8.09002876754207,
+            "mean": -5.814680762013376,
+            "n": 5
+          },
+          "queue_m": {
+            "hi": 70.27425863987973,
+            "lo": 61.99949609749625,
+            "mean": 66.13687736868799,
+            "n": 5
+          }
+        },
+        "n2": {
+          "front_crossings": {
+            "hi": -8.806522985865223,
+            "lo": -12.477057654622785,
+            "mean": -10.641790320244004,
+            "n": 5
+          },
+          "queue_m": {
+            "hi": 19.682472034771425,
+            "lo": 11.237968795691334,
+            "mean": 15.46022041523138,
+            "n": 5
+          }
+        },
+        "n4": {
+          "front_crossings": {
+            "hi": -5.212048612298073,
+            "lo": -11.260063483946588,
+            "mean": -8.23605604812233,
+            "n": 5
+          },
+          "queue_m": {
+            "hi": 112.45479616595051,
+            "lo": 92.86762786225788,
+            "mean": 102.6612120141042,
+            "n": 5
+          }
+        }
+      },
+      "q": {
+        "hi": -5.35705131338509,
+        "lo": -10.00551299276729,
+        "mean": -7.68128215307619,
+        "n": 5
+      },
+      "teleports": 13
+    },
+    "predictions": {
+      "A_QD": {
+        "labels": [],
+        "local_gain_signals": [],
+        "local_loss_signals": [],
+        "raw_gain": false,
+        "raw_loss": true,
+        "reasons": [],
+        "retained_improvement": false,
+        "status": "loss_candidate"
+      },
+      "B_accounting": {
+        "labels": [
+          "demand_change",
+          "demand_pressure_observed"
+        ],
+        "local_gain_signals": [],
+        "local_loss_signals": [],
+        "raw_gain": false,
+        "raw_loss": true,
+        "reasons": [
+          "Demand differs: Q and delay cannot alone isolate supply deterioration or capacity gain; mixed causes remain possible."
+        ],
+        "retained_improvement": false,
+        "status": "demand_conditioned_unresolved"
+      },
+      "C_warning": {
+        "labels": [
+          "warning_audit_required",
+          "demand_change",
+          "demand_pressure_observed"
+        ],
+        "local_gain_signals": [],
+        "local_loss_signals": [],
+        "raw_gain": false,
+        "raw_loss": true,
+        "reasons": [
+          "Any recorded teleport/collision or timing warning vetoes unqualified improvement; magnitude and cause require separate audit.",
+          "Demand differs: Q and delay cannot alone isolate supply deterioration or capacity gain; mixed causes remain possible."
+        ],
+        "retained_improvement": false,
+        "status": "warning_qualified_demand_conditioned_unresolved"
+      },
+      "D_full": {
+        "labels": [
+          "warning_audit_required",
+          "demand_change",
+          "demand_pressure_observed",
+          "local_deterioration_evidence"
+        ],
+        "local_gain_signals": [],
+        "local_loss_signals": [
+          "n1",
+          "n2",
+          "n4"
+        ],
+        "raw_gain": false,
+        "raw_loss": true,
+        "reasons": [
+          "Any recorded teleport/collision or timing warning vetoes unqualified improvement; magnitude and cause require separate audit.",
+          "Demand differs: Q and delay cannot alone isolate supply deterioration or capacity gain; mixed causes remain possible."
+        ],
+        "retained_improvement": false,
+        "status": "warning_qualified_demand_conditioned_unresolved"
+      },
+      "D_without_accounting": {
+        "labels": [
+          "warning_audit_required",
+          "local_deterioration_evidence"
+        ],
+        "local_gain_signals": [],
+        "local_loss_signals": [
+          "n1",
+          "n2",
+          "n4"
+        ],
+        "raw_gain": false,
+        "raw_loss": true,
+        "reasons": [
+          "Any recorded teleport/collision or timing warning vetoes unqualified improvement; magnitude and cause require separate audit."
+        ],
+        "retained_improvement": false,
+        "status": "warning_qualified_loss_candidate"
+      },
+      "D_without_warning": {
+        "labels": [
+          "demand_change",
+          "demand_pressure_observed",
+          "local_deterioration_evidence"
+        ],
+        "local_gain_signals": [],
+        "local_loss_signals": [
+          "n1",
+          "n2",
+          "n4"
+        ],
+        "raw_gain": false,
+        "raw_loss": true,
+        "reasons": [
+          "Demand differs: Q and delay cannot alone isolate supply deterioration or capacity gain; mixed causes remain possible."
+        ],
+        "retained_improvement": false,
+        "status": "demand_conditioned_unresolved"
+      }
+    }
+  },
+  "C16": {
+    "features": {
+      "baseline_warning_seeds": 2,
+      "burden": {
+        "hi": -58.46587039210916,
+        "lo": -61.3218748706474,
+        "mean": -59.89387263137828,
+        "n": 5
+      },
+      "burden_per_planned": {
+        "hi": -63.88336555835579,
+        "lo": -66.36684771360643,
+        "mean": -65.12510663598111,
+        "n": 5
+      },
+      "collisions": 25337.0,
+      "completion": {
+        "hi": 12.781555737564794,
+        "lo": 11.92312230316167,
+        "mean": 12.352339020363232,
+        "n": 5
+      },
+      "config_warning_seeds": 5,
+      "d": {
+        "hi": -70.08025090577931,
+        "lo": -72.1692776973,
+        "mean": -71.12476430153966,
+        "n": 5
+      },
+      "demand": {
+        "hi": 14.999999999999991,
+        "lo": 14.999999999999991,
+        "mean": 14.999999999999991,
+        "n": 5
+      },
+      "entry_backlog": {
+        "hi": -9.067379885149542,
+        "lo": -9.762999861685902,
+        "mean": -9.415189873417722,
+        "n": 5
+      },
+      "halting": {
+        "hi": -61.10466962720526,
+        "lo": -63.81315933655137,
+        "mean": -62.45891448187832,
+        "n": 5
+      },
+      "local": {
+        "n1": {
+          "front_crossings": {
+            "hi": -6.853917497599898,
+            "lo": -8.687722878244925,
+            "mean": -7.7708201879224115,
+            "n": 5
+          },
+          "queue_m": {
+            "hi": -44.176786965032434,
+            "lo": -46.60849645534698,
+            "mean": -45.39264171018971,
+            "n": 5
+          }
+        },
+        "n2": {
+          "front_crossings": {
+            "hi": 13.847243235011456,
+            "lo": 11.160794043114189,
+            "mean": 12.504018639062823,
+            "n": 5
+          },
+          "queue_m": {
+            "hi": -59.379019297077605,
+            "lo": -64.67931307314541,
+            "mean": -62.02916618511151,
+            "n": 5
+          }
+        },
+        "n4": {
+          "front_crossings": {
+            "hi": -10.879144960609937,
+            "lo": -11.403040164727178,
+            "mean": -11.141092562668558,
+            "n": 5
+          },
+          "queue_m": {
+            "hi": -26.128708651445276,
+            "lo": -30.71170574923443,
+            "mean": -28.420207200339853,
+            "n": 5
+          }
+        }
+      },
+      "q": {
+        "hi": 32.485859607028,
+        "lo": 31.124283757024045,
+        "mean": 31.80507168202602,
+        "n": 5
+      },
+      "teleports": 25337
+    },
+    "predictions": {
+      "A_QD": {
+        "labels": [],
+        "local_gain_signals": [],
+        "local_loss_signals": [],
+        "raw_gain": true,
+        "raw_loss": false,
+        "reasons": [],
+        "retained_improvement": true,
+        "status": "gain_candidate"
+      },
+      "B_accounting": {
+        "labels": [
+          "demand_change"
+        ],
+        "local_gain_signals": [],
+        "local_loss_signals": [],
+        "raw_gain": true,
+        "raw_loss": false,
+        "reasons": [
+          "Demand differs: Q and delay cannot alone isolate supply deterioration or capacity gain; mixed causes remain possible."
+        ],
+        "retained_improvement": false,
+        "status": "demand_conditioned_unresolved"
+      },
+      "C_warning": {
+        "labels": [
+          "warning_audit_required",
+          "demand_change"
+        ],
+        "local_gain_signals": [],
+        "local_loss_signals": [],
+        "raw_gain": true,
+        "raw_loss": false,
+        "reasons": [
+          "Any recorded teleport/collision or timing warning vetoes unqualified improvement; magnitude and cause require separate audit.",
+          "Demand differs: Q and delay cannot alone isolate supply deterioration or capacity gain; mixed causes remain possible."
+        ],
+        "retained_improvement": false,
+        "status": "warning_qualified_demand_conditioned_unresolved"
+      },
+      "D_full": {
+        "labels": [
+          "warning_audit_required",
+          "demand_change",
+          "local_recovery_evidence"
+        ],
+        "local_gain_signals": [
+          "n2"
+        ],
+        "local_loss_signals": [],
+        "raw_gain": true,
+        "raw_loss": false,
+        "reasons": [
+          "Any recorded teleport/collision or timing warning vetoes unqualified improvement; magnitude and cause require separate audit.",
+          "Demand differs: Q and delay cannot alone isolate supply deterioration or capacity gain; mixed causes remain possible."
+        ],
+        "retained_improvement": false,
+        "status": "warning_qualified_demand_conditioned_unresolved"
+      },
+      "D_without_accounting": {
+        "labels": [
+          "warning_audit_required",
+          "local_recovery_evidence"
+        ],
+        "local_gain_signals": [
+          "n2"
+        ],
+        "local_loss_signals": [],
+        "raw_gain": true,
+        "raw_loss": false,
+        "reasons": [
+          "Any recorded teleport/collision or timing warning vetoes unqualified improvement; magnitude and cause require separate audit."
+        ],
+        "retained_improvement": false,
+        "status": "warning_qualified_gain_candidate"
+      },
+      "D_without_warning": {
+        "labels": [
+          "demand_change",
+          "local_recovery_evidence"
+        ],
+        "local_gain_signals": [
+          "n2"
+        ],
+        "local_loss_signals": [],
+        "raw_gain": true,
+        "raw_loss": false,
+        "reasons": [
+          "Demand differs: Q and delay cannot alone isolate supply deterioration or capacity gain; mixed causes remain possible."
+        ],
+        "retained_improvement": false,
+        "status": "demand_conditioned_unresolved"
+      }
+    }
+  }
+}

@@ -1,0 +1,3 @@
+﻿kind,seed,run,time,type,lane,pos,collider,victim,colliderType,victimType,colliderSpeed,victimSpeed,colliderFront,colliderBack,victimFront,victimBack,event_index,related_lanechanges_within_2s
+passive,11,passive_seed11,765.00,side,:J3_0_1,5.53,ED2_3_car.16,ED2_2_car.14,car,car,1.27,0.00,"488.14,1021.90","491.79,1025.74","489.65,1021.24","491.77,1025.17",0,1
+passive,101,passive_seed101,1632.00,side,:J3_0_3,5.07,ED2_car.96,ED2_1_car.36,car,car,0.69,0.00,"493.48,1022.12","495.19,1026.23","495.20,1021.75","495.20,1025.88",0,1

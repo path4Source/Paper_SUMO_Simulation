@@ -1,0 +1,9 @@
+{
+  "completed": 3,
+  "cases": [
+    "baseline_seed11_sigma0.1_step0.05",
+    "baseline_seed71_sigma0.1_step0.05",
+    "baseline_seed47_sigma0.1_step0.05"
+  ],
+  "utc": "2026-10-23T07:34:21.675372+00:00"
+}

@@ -1,0 +1,8 @@
+{
+  "protected_windows_total": 12429,
+  "complete_protected_windows": 12087,
+  "queue_supported_windows": 8099,
+  "operational_headway_pairs": 3728,
+  "saturation_eligible_windows": 0,
+  "interpretation": "Exploratory measurement audit, not a frozen diagnostic classifier or saturation-flow estimate. First four passages discarded within a complete protected-green window; pre-green and between-passage queues required. No threshold fitted to force any scenario ranking."
+}

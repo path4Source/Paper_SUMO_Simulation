@@ -1,0 +1,2 @@
+<?xml version='1.0' encoding='utf-8'?>
+<additional><edgeData id="traffic" period="300" excludeEmpty="true" file="traffic_edges.xml" /><edgeData id="emissions" type="emissions" period="300" excludeEmpty="true" file="emission_edges.xml" /></additional>

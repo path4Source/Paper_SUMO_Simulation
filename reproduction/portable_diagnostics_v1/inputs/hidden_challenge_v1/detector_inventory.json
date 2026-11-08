@@ -1,0 +1,2040 @@
+[
+  {
+    "lane": "ED1.177_0",
+    "edge": "ED1.177",
+    "signal": "n1",
+    "length_m": 95.09,
+    "link_indices": [
+      0
+    ],
+    "connections": [
+      {
+        "from": "ED1.177",
+        "to": "EH2",
+        "fromLane": "0",
+        "toLane": "0",
+        "via": ":n1_0_0",
+        "tl": "n1",
+        "linkIndex": "0",
+        "dir": "r",
+        "state": "O"
+      }
+    ],
+    "directions": [
+      "r"
+    ],
+    "homogeneous_signal_states": true,
+    "cycle_s": 133.0,
+    "program": "0",
+    "offset_s": 0.0,
+    "all_connections_green_s": 133.0,
+    "all_connections_protected_s": 133.0,
+    "loop_id": "stop_ED1.177_0",
+    "loop_pos_m": 95.09,
+    "queue_id": "queue_ED1.177_0",
+    "queue_pos_m": 0.0,
+    "queue_end_m": 95.09,
+    "queue_detector_length_m": 95.09,
+    "scope": "lane-level crossing; shared-lane movements not separately identified"
+  },
+  {
+    "lane": "ED1.177_1",
+    "edge": "ED1.177",
+    "signal": "n1",
+    "length_m": 95.09,
+    "link_indices": [
+      1
+    ],
+    "connections": [
+      {
+        "from": "ED1.177",
+        "to": "ED3",
+        "fromLane": "1",
+        "toLane": "1",
+        "via": ":n1_1_0",
+        "tl": "n1",
+        "linkIndex": "1",
+        "dir": "s",
+        "state": "O"
+      }
+    ],
+    "directions": [
+      "s"
+    ],
+    "homogeneous_signal_states": true,
+    "cycle_s": 133.0,
+    "program": "0",
+    "offset_s": 0.0,
+    "all_connections_green_s": 36.0,
+    "all_connections_protected_s": 36.0,
+    "loop_id": "stop_ED1.177_1",
+    "loop_pos_m": 95.09,
+    "queue_id": "queue_ED1.177_1",
+    "queue_pos_m": 0.0,
+    "queue_end_m": 95.09,
+    "queue_detector_length_m": 95.09,
+    "scope": "lane-level crossing; shared-lane movements not separately identified"
+  },
+  {
+    "lane": "ED1.177_2",
+    "edge": "ED1.177",
+    "signal": "n1",
+    "length_m": 95.09,
+    "link_indices": [
+      2
+    ],
+    "connections": [
+      {
+        "from": "ED1.177",
+        "to": "ED3",
+        "fromLane": "2",
+        "toLane": "2",
+        "via": ":n1_1_1",
+        "tl": "n1",
+        "linkIndex": "2",
+        "dir": "s",
+        "state": "O"
+      }
+    ],
+    "directions": [
+      "s"
+    ],
+    "homogeneous_signal_states": true,
+    "cycle_s": 133.0,
+    "program": "0",
+    "offset_s": 0.0,
+    "all_connections_green_s": 36.0,
+    "all_connections_protected_s": 36.0,
+    "loop_id": "stop_ED1.177_2",
+    "loop_pos_m": 95.09,
+    "queue_id": "queue_ED1.177_2",
+    "queue_pos_m": 0.0,
+    "queue_end_m": 95.09,
+    "queue_detector_length_m": 95.09,
+    "scope": "lane-level crossing; shared-lane movements not separately identified"
+  },
+  {
+    "lane": "ED1.177_3",
+    "edge": "ED1.177",
+    "signal": "n1",
+    "length_m": 95.09,
+    "link_indices": [
+      3
+    ],
+    "connections": [
+      {
+        "from": "ED1.177",
+        "to": "ED3",
+        "fromLane": "3",
+        "toLane": "3",
+        "via": ":n1_1_2",
+        "tl": "n1",
+        "linkIndex": "3",
+        "dir": "s",
+        "state": "O"
+      }
+    ],
+    "directions": [
+      "s"
+    ],
+    "homogeneous_signal_states": true,
+    "cycle_s": 133.0,
+    "program": "0",
+    "offset_s": 0.0,
+    "all_connections_green_s": 36.0,
+    "all_connections_protected_s": 36.0,
+    "loop_id": "stop_ED1.177_3",
+    "loop_pos_m": 95.09,
+    "queue_id": "queue_ED1.177_3",
+    "queue_pos_m": 0.0,
+    "queue_end_m": 95.09,
+    "queue_detector_length_m": 95.09,
+    "scope": "lane-level crossing; shared-lane movements not separately identified"
+  },
+  {
+    "lane": "ED1.177_4",
+    "edge": "ED1.177",
+    "signal": "n1",
+    "length_m": 95.09,
+    "link_indices": [
+      6
+    ],
+    "connections": [
+      {
+        "from": "ED1.177",
+        "to": "Eh1",
+        "fromLane": "4",
+        "toLane": "4",
+        "via": ":n1_4_0",
+        "tl": "n1",
+        "linkIndex": "6",
+        "dir": "l",
+        "state": "o"
+      }
+    ],
+    "directions": [
+      "l"
+    ],
+    "homogeneous_signal_states": true,
+    "cycle_s": 133.0,
+    "program": "0",
+    "offset_s": 0.0,
+    "all_connections_green_s": 36.0,
+    "all_connections_protected_s": 0,
+    "loop_id": "stop_ED1.177_4",
+    "loop_pos_m": 95.09,
+    "queue_id": "queue_ED1.177_4",
+    "queue_pos_m": 0.0,
+    "queue_end_m": 95.09,
+    "queue_detector_length_m": 95.09,
+    "scope": "lane-level crossing; shared-lane movements not separately identified"
+  },
+  {
+    "lane": "ED1.177_5",
+    "edge": "ED1.177",
+    "signal": "n1",
+    "length_m": 95.09,
+    "link_indices": [
+      7
+    ],
+    "connections": [
+      {
+        "from": "ED1.177",
+        "to": "Eh1",
+        "fromLane": "5",
+        "toLane": "5",
+        "via": ":n1_4_1",
+        "tl": "n1",
+        "linkIndex": "7",
+        "dir": "l",
+        "state": "o"
+      }
+    ],
+    "directions": [
+      "l"
+    ],
+    "homogeneous_signal_states": true,
+    "cycle_s": 133.0,
+    "program": "0",
+    "offset_s": 0.0,
+    "all_connections_green_s": 36.0,
+    "all_connections_protected_s": 0,
+    "loop_id": "stop_ED1.177_5",
+    "loop_pos_m": 95.09,
+    "queue_id": "queue_ED1.177_5",
+    "queue_pos_m": 0.0,
+    "queue_end_m": 95.09,
+    "queue_detector_length_m": 95.09,
+    "scope": "lane-level crossing; shared-lane movements not separately identified"
+  },
+  {
+    "lane": "ED2.378_0",
+    "edge": "ED2.378",
+    "signal": "n2",
+    "length_m": 100.96,
+    "link_indices": [
+      0
+    ],
+    "connections": [
+      {
+        "from": "ED2.378",
+        "to": "EH3",
+        "fromLane": "0",
+        "toLane": "0",
+        "via": ":n2_0_0",
+        "tl": "n2",
+        "linkIndex": "0",
+        "dir": "r",
+        "state": "O"
+      }
+    ],
+    "directions": [
+      "r"
+    ],
+    "homogeneous_signal_states": true,
+    "cycle_s": 120.0,
+    "program": "0",
+    "offset_s": 0.0,
+    "all_connections_green_s": 114.0,
+    "all_connections_protected_s": 114.0,
+    "loop_id": "stop_ED2.378_0",
+    "loop_pos_m": 100.96,
+    "queue_id": "queue_ED2.378_0",
+    "queue_pos_m": 0.9599999999999937,
+    "queue_end_m": 100.96,
+    "queue_detector_length_m": 100.0,
+    "scope": "lane-level crossing; shared-lane movements not separately identified"
+  },
+  {
+    "lane": "ED2.378_1",
+    "edge": "ED2.378",
+    "signal": "n2",
+    "length_m": 100.96,
+    "link_indices": [
+      1
+    ],
+    "connections": [
+      {
+        "from": "ED2.378",
+        "to": "ED1",
+        "fromLane": "1",
+        "toLane": "2",
+        "via": ":n2_1_0",
+        "tl": "n2",
+        "linkIndex": "1",
+        "dir": "s",
+        "state": "O"
+      }
+    ],
+    "directions": [
+      "s"
+    ],
+    "homogeneous_signal_states": true,
+    "cycle_s": 120.0,
+    "program": "0",
+    "offset_s": 0.0,
+    "all_connections_green_s": 33.0,
+    "all_connections_protected_s": 33.0,
+    "loop_id": "stop_ED2.378_1",
+    "loop_pos_m": 100.96,
+    "queue_id": "queue_ED2.378_1",
+    "queue_pos_m": 0.9599999999999937,
+    "queue_end_m": 100.96,
+    "queue_detector_length_m": 100.0,
+    "scope": "lane-level crossing; shared-lane movements not separately identified"
+  },
+  {
+    "lane": "ED2.378_2",
+    "edge": "ED2.378",
+    "signal": "n2",
+    "length_m": 100.96,
+    "link_indices": [
+      2
+    ],
+    "connections": [
+      {
+        "from": "ED2.378",
+        "to": "ED1",
+        "fromLane": "2",
+        "toLane": "3",
+        "via": ":n2_1_1",
+        "tl": "n2",
+        "linkIndex": "2",
+        "dir": "s",
+        "state": "O"
+      }
+    ],
+    "directions": [
+      "s"
+    ],
+    "homogeneous_signal_states": true,
+    "cycle_s": 120.0,
+    "program": "0",
+    "offset_s": 0.0,
+    "all_connections_green_s": 33.0,
+    "all_connections_protected_s": 33.0,
+    "loop_id": "stop_ED2.378_2",
+    "loop_pos_m": 100.96,
+    "queue_id": "queue_ED2.378_2",
+    "queue_pos_m": 0.9599999999999937,
+    "queue_end_m": 100.96,
+    "queue_detector_length_m": 100.0,
+    "scope": "lane-level crossing; shared-lane movements not separately identified"
+  },
+  {
+    "lane": "ED3.294_0",
+    "edge": "ED3.294",
+    "signal": "n4",
+    "length_m": 87.58,
+    "link_indices": [
+      0
+    ],
+    "connections": [
+      {
+        "from": "ED3.294",
+        "to": "EH4",
+        "fromLane": "0",
+        "toLane": "0",
+        "via": ":n4_0_0",
+        "tl": "n4",
+        "linkIndex": "0",
+        "dir": "r",
+        "state": "O"
+      }
+    ],
+    "directions": [
+      "r"
+    ],
+    "homogeneous_signal_states": true,
+    "cycle_s": 137.0,
+    "program": "0",
+    "offset_s": 0.0,
+    "all_connections_green_s": 137.0,
+    "all_connections_protected_s": 70.0,
+    "loop_id": "stop_ED3.294_0",
+    "loop_pos_m": 87.58,
+    "queue_id": "queue_ED3.294_0",
+    "queue_pos_m": 0.0,
+    "queue_end_m": 87.58,
+    "queue_detector_length_m": 87.58,
+    "scope": "lane-level crossing; shared-lane movements not separately identified"
+  },
+  {
+    "lane": "ED3.294_1",
+    "edge": "ED3.294",
+    "signal": "n4",
+    "length_m": 87.58,
+    "link_indices": [
+      1
+    ],
+    "connections": [
+      {
+        "from": "ED3.294",
+        "to": "ED4",
+        "fromLane": "1",
+        "toLane": "1",
+        "via": ":n4_1_0",
+        "tl": "n4",
+        "linkIndex": "1",
+        "dir": "s",
+        "state": "O"
+      }
+    ],
+    "directions": [
+      "s"
+    ],
+    "homogeneous_signal_states": true,
+    "cycle_s": 137.0,
+    "program": "0",
+    "offset_s": 0.0,
+    "all_connections_green_s": 40.0,
+    "all_connections_protected_s": 40.0,
+    "loop_id": "stop_ED3.294_1",
+    "loop_pos_m": 87.58,
+    "queue_id": "queue_ED3.294_1",
+    "queue_pos_m": 0.0,
+    "queue_end_m": 87.58,
+    "queue_detector_length_m": 87.58,
+    "scope": "lane-level crossing; shared-lane movements not separately identified"
+  },
+  {
+    "lane": "ED3.294_2",
+    "edge": "ED3.294",
+    "signal": "n4",
+    "length_m": 87.58,
+    "link_indices": [
+      2
+    ],
+    "connections": [
+      {
+        "from": "ED3.294",
+        "to": "ED4",
+        "fromLane": "2",
+        "toLane": "2",
+        "via": ":n4_1_1",
+        "tl": "n4",
+        "linkIndex": "2",
+        "dir": "s",
+        "state": "O"
+      }
+    ],
+    "directions": [
+      "s"
+    ],
+    "homogeneous_signal_states": true,
+    "cycle_s": 137.0,
+    "program": "0",
+    "offset_s": 0.0,
+    "all_connections_green_s": 40.0,
+    "all_connections_protected_s": 40.0,
+    "loop_id": "stop_ED3.294_2",
+    "loop_pos_m": 87.58,
+    "queue_id": "queue_ED3.294_2",
+    "queue_pos_m": 0.0,
+    "queue_end_m": 87.58,
+    "queue_detector_length_m": 87.58,
+    "scope": "lane-level crossing; shared-lane movements not separately identified"
+  },
+  {
+    "lane": "ED3.294_3",
+    "edge": "ED3.294",
+    "signal": "n4",
+    "length_m": 87.58,
+    "link_indices": [
+      3
+    ],
+    "connections": [
+      {
+        "from": "ED3.294",
+        "to": "ED4",
+        "fromLane": "3",
+        "toLane": "3",
+        "via": ":n4_1_2",
+        "tl": "n4",
+        "linkIndex": "3",
+        "dir": "s",
+        "state": "O"
+      }
+    ],
+    "directions": [
+      "s"
+    ],
+    "homogeneous_signal_states": true,
+    "cycle_s": 137.0,
+    "program": "0",
+    "offset_s": 0.0,
+    "all_connections_green_s": 40.0,
+    "all_connections_protected_s": 40.0,
+    "loop_id": "stop_ED3.294_3",
+    "loop_pos_m": 87.58,
+    "queue_id": "queue_ED3.294_3",
+    "queue_pos_m": 0.0,
+    "queue_end_m": 87.58,
+    "queue_detector_length_m": 87.58,
+    "scope": "lane-level crossing; shared-lane movements not separately identified"
+  },
+  {
+    "lane": "ED3.294_4",
+    "edge": "ED3.294",
+    "signal": "n4",
+    "length_m": 87.58,
+    "link_indices": [
+      4
+    ],
+    "connections": [
+      {
+        "from": "ED3.294",
+        "to": "ED4",
+        "fromLane": "4",
+        "toLane": "4",
+        "via": ":n4_1_3",
+        "tl": "n4",
+        "linkIndex": "4",
+        "dir": "s",
+        "state": "O"
+      }
+    ],
+    "directions": [
+      "s"
+    ],
+    "homogeneous_signal_states": true,
+    "cycle_s": 137.0,
+    "program": "0",
+    "offset_s": 0.0,
+    "all_connections_green_s": 40.0,
+    "all_connections_protected_s": 40.0,
+    "loop_id": "stop_ED3.294_4",
+    "loop_pos_m": 87.58,
+    "queue_id": "queue_ED3.294_4",
+    "queue_pos_m": 0.0,
+    "queue_end_m": 87.58,
+    "queue_detector_length_m": 87.58,
+    "scope": "lane-level crossing; shared-lane movements not separately identified"
+  },
+  {
+    "lane": "ED3.294_5",
+    "edge": "ED3.294",
+    "signal": "n4",
+    "length_m": 87.58,
+    "link_indices": [
+      5
+    ],
+    "connections": [
+      {
+        "from": "ED3.294",
+        "to": "Eh5",
+        "fromLane": "5",
+        "toLane": "2",
+        "via": ":n4_5_0",
+        "tl": "n4",
+        "linkIndex": "5",
+        "dir": "l",
+        "state": "o"
+      }
+    ],
+    "directions": [
+      "l"
+    ],
+    "homogeneous_signal_states": true,
+    "cycle_s": 137.0,
+    "program": "0",
+    "offset_s": 0.0,
+    "all_connections_green_s": 30.0,
+    "all_connections_protected_s": 30.0,
+    "loop_id": "stop_ED3.294_5",
+    "loop_pos_m": 87.58,
+    "queue_id": "queue_ED3.294_5",
+    "queue_pos_m": 0.0,
+    "queue_end_m": 87.58,
+    "queue_detector_length_m": 87.58,
+    "scope": "lane-level crossing; shared-lane movements not separately identified"
+  },
+  {
+    "lane": "EH1.385_0",
+    "edge": "EH1.385",
+    "signal": "n1",
+    "length_m": 87.57,
+    "link_indices": [
+      8
+    ],
+    "connections": [
+      {
+        "from": "EH1.385",
+        "to": "Ed1",
+        "fromLane": "0",
+        "toLane": "0",
+        "via": ":n1_6_0",
+        "tl": "n1",
+        "linkIndex": "8",
+        "dir": "r",
+        "state": "o"
+      }
+    ],
+    "directions": [
+      "r"
+    ],
+    "homogeneous_signal_states": true,
+    "cycle_s": 133.0,
+    "program": "0",
+    "offset_s": 0.0,
+    "all_connections_green_s": 133.0,
+    "all_connections_protected_s": 53.0,
+    "loop_id": "stop_EH1.385_0",
+    "loop_pos_m": 87.57,
+    "queue_id": "queue_EH1.385_0",
+    "queue_pos_m": 0.0,
+    "queue_end_m": 87.57,
+    "queue_detector_length_m": 87.57,
+    "scope": "lane-level crossing; shared-lane movements not separately identified"
+  },
+  {
+    "lane": "EH1.385_1",
+    "edge": "EH1.385",
+    "signal": "n1",
+    "length_m": 87.57,
+    "link_indices": [
+      9,
+      10
+    ],
+    "connections": [
+      {
+        "from": "EH1.385",
+        "to": "EH2",
+        "fromLane": "1",
+        "toLane": "1",
+        "via": ":n1_7_0",
+        "tl": "n1",
+        "linkIndex": "9",
+        "dir": "s",
+        "state": "o"
+      },
+      {
+        "from": "EH1.385",
+        "to": "EH2",
+        "fromLane": "1",
+        "toLane": "2",
+        "via": ":n1_7_1",
+        "tl": "n1",
+        "linkIndex": "10",
+        "dir": "s",
+        "state": "o"
+      }
+    ],
+    "directions": [
+      "s"
+    ],
+    "homogeneous_signal_states": true,
+    "cycle_s": 133.0,
+    "program": "0",
+    "offset_s": 0.0,
+    "all_connections_green_s": 27.0,
+    "all_connections_protected_s": 27.0,
+    "loop_id": "stop_EH1.385_1",
+    "loop_pos_m": 87.57,
+    "queue_id": "queue_EH1.385_1",
+    "queue_pos_m": 0.0,
+    "queue_end_m": 87.57,
+    "queue_detector_length_m": 87.57,
+    "scope": "lane-level crossing; shared-lane movements not separately identified"
+  },
+  {
+    "lane": "EH1.385_2",
+    "edge": "EH1.385",
+    "signal": "n1",
+    "length_m": 87.57,
+    "link_indices": [
+      11
+    ],
+    "connections": [
+      {
+        "from": "EH1.385",
+        "to": "EH2",
+        "fromLane": "2",
+        "toLane": "3",
+        "via": ":n1_7_2",
+        "tl": "n1",
+        "linkIndex": "11",
+        "dir": "s",
+        "state": "o"
+      }
+    ],
+    "directions": [
+      "s"
+    ],
+    "homogeneous_signal_states": true,
+    "cycle_s": 133.0,
+    "program": "0",
+    "offset_s": 0.0,
+    "all_connections_green_s": 27.0,
+    "all_connections_protected_s": 27.0,
+    "loop_id": "stop_EH1.385_2",
+    "loop_pos_m": 87.57,
+    "queue_id": "queue_EH1.385_2",
+    "queue_pos_m": 0.0,
+    "queue_end_m": 87.57,
+    "queue_detector_length_m": 87.57,
+    "scope": "lane-level crossing; shared-lane movements not separately identified"
+  },
+  {
+    "lane": "EH1.385_3",
+    "edge": "EH1.385",
+    "signal": "n1",
+    "length_m": 87.57,
+    "link_indices": [
+      12,
+      13
+    ],
+    "connections": [
+      {
+        "from": "EH1.385",
+        "to": "EH2",
+        "fromLane": "3",
+        "toLane": "4",
+        "via": ":n1_7_3",
+        "tl": "n1",
+        "linkIndex": "12",
+        "dir": "s",
+        "state": "o"
+      },
+      {
+        "from": "EH1.385",
+        "to": "EH2",
+        "fromLane": "3",
+        "toLane": "5",
+        "via": ":n1_7_4",
+        "tl": "n1",
+        "linkIndex": "13",
+        "dir": "s",
+        "state": "o"
+      }
+    ],
+    "directions": [
+      "s"
+    ],
+    "homogeneous_signal_states": true,
+    "cycle_s": 133.0,
+    "program": "0",
+    "offset_s": 0.0,
+    "all_connections_green_s": 27.0,
+    "all_connections_protected_s": 27.0,
+    "loop_id": "stop_EH1.385_3",
+    "loop_pos_m": 87.57,
+    "queue_id": "queue_EH1.385_3",
+    "queue_pos_m": 0.0,
+    "queue_end_m": 87.57,
+    "queue_detector_length_m": 87.57,
+    "scope": "lane-level crossing; shared-lane movements not separately identified"
+  },
+  {
+    "lane": "EH1.385_4",
+    "edge": "EH1.385",
+    "signal": "n1",
+    "length_m": 87.57,
+    "link_indices": [
+      14
+    ],
+    "connections": [
+      {
+        "from": "EH1.385",
+        "to": "ED3",
+        "fromLane": "4",
+        "toLane": "4",
+        "via": ":n1_12_0",
+        "tl": "n1",
+        "linkIndex": "14",
+        "dir": "l",
+        "state": "o"
+      }
+    ],
+    "directions": [
+      "l"
+    ],
+    "homogeneous_signal_states": true,
+    "cycle_s": 133.0,
+    "program": "0",
+    "offset_s": 0.0,
+    "all_connections_green_s": 20.0,
+    "all_connections_protected_s": 20.0,
+    "loop_id": "stop_EH1.385_4",
+    "loop_pos_m": 87.57,
+    "queue_id": "queue_EH1.385_4",
+    "queue_pos_m": 0.0,
+    "queue_end_m": 87.57,
+    "queue_detector_length_m": 87.57,
+    "scope": "lane-level crossing; shared-lane movements not separately identified"
+  },
+  {
+    "lane": "EH1.385_5",
+    "edge": "EH1.385",
+    "signal": "n1",
+    "length_m": 87.57,
+    "link_indices": [
+      15
+    ],
+    "connections": [
+      {
+        "from": "EH1.385",
+        "to": "ED3",
+        "fromLane": "5",
+        "toLane": "5",
+        "via": ":n1_12_1",
+        "tl": "n1",
+        "linkIndex": "15",
+        "dir": "l",
+        "state": "o"
+      }
+    ],
+    "directions": [
+      "l"
+    ],
+    "homogeneous_signal_states": true,
+    "cycle_s": 133.0,
+    "program": "0",
+    "offset_s": 0.0,
+    "all_connections_green_s": 20.0,
+    "all_connections_protected_s": 20.0,
+    "loop_id": "stop_EH1.385_5",
+    "loop_pos_m": 87.57,
+    "queue_id": "queue_EH1.385_5",
+    "queue_pos_m": 0.0,
+    "queue_end_m": 87.57,
+    "queue_detector_length_m": 87.57,
+    "scope": "lane-level crossing; shared-lane movements not separately identified"
+  },
+  {
+    "lane": "EH5.381_0",
+    "edge": "EH5.381",
+    "signal": "n4",
+    "length_m": 91.66,
+    "link_indices": [
+      6
+    ],
+    "connections": [
+      {
+        "from": "EH5.381",
+        "to": "Ed3",
+        "fromLane": "0",
+        "toLane": "0",
+        "via": ":n4_6_0",
+        "tl": "n4",
+        "linkIndex": "6",
+        "dir": "r",
+        "state": "O"
+      }
+    ],
+    "directions": [
+      "r"
+    ],
+    "homogeneous_signal_states": true,
+    "cycle_s": 137.0,
+    "program": "0",
+    "offset_s": 0.0,
+    "all_connections_green_s": 137.0,
+    "all_connections_protected_s": 70.0,
+    "loop_id": "stop_EH5.381_0",
+    "loop_pos_m": 91.66,
+    "queue_id": "queue_EH5.381_0",
+    "queue_pos_m": 0.0,
+    "queue_end_m": 91.66,
+    "queue_detector_length_m": 91.66,
+    "scope": "lane-level crossing; shared-lane movements not separately identified"
+  },
+  {
+    "lane": "EH5.381_1",
+    "edge": "EH5.381",
+    "signal": "n4",
+    "length_m": 91.66,
+    "link_indices": [
+      7
+    ],
+    "connections": [
+      {
+        "from": "EH5.381",
+        "to": "EH4",
+        "fromLane": "1",
+        "toLane": "1",
+        "via": ":n4_7_0",
+        "tl": "n4",
+        "linkIndex": "7",
+        "dir": "s",
+        "state": "o"
+      }
+    ],
+    "directions": [
+      "s"
+    ],
+    "homogeneous_signal_states": true,
+    "cycle_s": 137.0,
+    "program": "0",
+    "offset_s": 0.0,
+    "all_connections_green_s": 30.0,
+    "all_connections_protected_s": 30.0,
+    "loop_id": "stop_EH5.381_1",
+    "loop_pos_m": 91.66,
+    "queue_id": "queue_EH5.381_1",
+    "queue_pos_m": 0.0,
+    "queue_end_m": 91.66,
+    "queue_detector_length_m": 91.66,
+    "scope": "lane-level crossing; shared-lane movements not separately identified"
+  },
+  {
+    "lane": "EH5.381_2",
+    "edge": "EH5.381",
+    "signal": "n4",
+    "length_m": 91.66,
+    "link_indices": [
+      8
+    ],
+    "connections": [
+      {
+        "from": "EH5.381",
+        "to": "ED4",
+        "fromLane": "2",
+        "toLane": "5",
+        "via": ":n4_8_0",
+        "tl": "n4",
+        "linkIndex": "8",
+        "dir": "l",
+        "state": "o"
+      }
+    ],
+    "directions": [
+      "l"
+    ],
+    "homogeneous_signal_states": true,
+    "cycle_s": 137.0,
+    "program": "0",
+    "offset_s": 0.0,
+    "all_connections_green_s": 25.0,
+    "all_connections_protected_s": 25.0,
+    "loop_id": "stop_EH5.381_2",
+    "loop_pos_m": 91.66,
+    "queue_id": "queue_EH5.381_2",
+    "queue_pos_m": 0.0,
+    "queue_end_m": 91.66,
+    "queue_detector_length_m": 91.66,
+    "scope": "lane-level crossing; shared-lane movements not separately identified"
+  },
+  {
+    "lane": "Ed1.209_0",
+    "edge": "Ed1.209",
+    "signal": "n2",
+    "length_m": 69.3,
+    "link_indices": [
+      3
+    ],
+    "connections": [
+      {
+        "from": "Ed1.209",
+        "to": "Ed2",
+        "fromLane": "0",
+        "toLane": "0",
+        "via": ":n2_3_0",
+        "tl": "n2",
+        "linkIndex": "3",
+        "dir": "s",
+        "state": "O"
+      }
+    ],
+    "directions": [
+      "s"
+    ],
+    "homogeneous_signal_states": true,
+    "cycle_s": 120.0,
+    "program": "0",
+    "offset_s": 0.0,
+    "all_connections_green_s": 63.0,
+    "all_connections_protected_s": 63.0,
+    "loop_id": "stop_Ed1.209_0",
+    "loop_pos_m": 69.3,
+    "queue_id": "queue_Ed1.209_0",
+    "queue_pos_m": 0.0,
+    "queue_end_m": 69.3,
+    "queue_detector_length_m": 69.3,
+    "scope": "lane-level crossing; shared-lane movements not separately identified"
+  },
+  {
+    "lane": "Ed1.209_1",
+    "edge": "Ed1.209",
+    "signal": "n2",
+    "length_m": 69.3,
+    "link_indices": [
+      4
+    ],
+    "connections": [
+      {
+        "from": "Ed1.209",
+        "to": "Ed2",
+        "fromLane": "1",
+        "toLane": "1",
+        "via": ":n2_3_1",
+        "tl": "n2",
+        "linkIndex": "4",
+        "dir": "s",
+        "state": "O"
+      }
+    ],
+    "directions": [
+      "s"
+    ],
+    "homogeneous_signal_states": true,
+    "cycle_s": 120.0,
+    "program": "0",
+    "offset_s": 0.0,
+    "all_connections_green_s": 63.0,
+    "all_connections_protected_s": 63.0,
+    "loop_id": "stop_Ed1.209_1",
+    "loop_pos_m": 69.3,
+    "queue_id": "queue_Ed1.209_1",
+    "queue_pos_m": 0.0,
+    "queue_end_m": 69.3,
+    "queue_detector_length_m": 69.3,
+    "scope": "lane-level crossing; shared-lane movements not separately identified"
+  },
+  {
+    "lane": "Ed1.209_2",
+    "edge": "Ed1.209",
+    "signal": "n2",
+    "length_m": 69.3,
+    "link_indices": [
+      5
+    ],
+    "connections": [
+      {
+        "from": "Ed1.209",
+        "to": "EH3",
+        "fromLane": "2",
+        "toLane": "2",
+        "via": ":n2_5_0",
+        "tl": "n2",
+        "linkIndex": "5",
+        "dir": "l",
+        "state": "o"
+      }
+    ],
+    "directions": [
+      "l"
+    ],
+    "homogeneous_signal_states": true,
+    "cycle_s": 120.0,
+    "program": "0",
+    "offset_s": 0.0,
+    "all_connections_green_s": 30.0,
+    "all_connections_protected_s": 30.0,
+    "loop_id": "stop_Ed1.209_2",
+    "loop_pos_m": 69.3,
+    "queue_id": "queue_Ed1.209_2",
+    "queue_pos_m": 0.0,
+    "queue_end_m": 69.3,
+    "queue_detector_length_m": 69.3,
+    "scope": "lane-level crossing; shared-lane movements not separately identified"
+  },
+  {
+    "lane": "Ed1.209_3",
+    "edge": "Ed1.209",
+    "signal": "n2",
+    "length_m": 69.3,
+    "link_indices": [
+      6
+    ],
+    "connections": [
+      {
+        "from": "Ed1.209",
+        "to": "EH3",
+        "fromLane": "3",
+        "toLane": "3",
+        "via": ":n2_5_1",
+        "tl": "n2",
+        "linkIndex": "6",
+        "dir": "l",
+        "state": "o"
+      }
+    ],
+    "directions": [
+      "l"
+    ],
+    "homogeneous_signal_states": true,
+    "cycle_s": 120.0,
+    "program": "0",
+    "offset_s": 0.0,
+    "all_connections_green_s": 30.0,
+    "all_connections_protected_s": 30.0,
+    "loop_id": "stop_Ed1.209_3",
+    "loop_pos_m": 69.3,
+    "queue_id": "queue_Ed1.209_3",
+    "queue_pos_m": 0.0,
+    "queue_end_m": 69.3,
+    "queue_detector_length_m": 69.3,
+    "scope": "lane-level crossing; shared-lane movements not separately identified"
+  },
+  {
+    "lane": "Ed3.290_0",
+    "edge": "Ed3.290",
+    "signal": "n1",
+    "length_m": 82.68,
+    "link_indices": [
+      16
+    ],
+    "connections": [
+      {
+        "from": "Ed3.290",
+        "to": "Eh1",
+        "fromLane": "0",
+        "toLane": "0",
+        "via": ":n1_14_0",
+        "tl": "n1",
+        "linkIndex": "16",
+        "dir": "r",
+        "state": "O"
+      }
+    ],
+    "directions": [
+      "r"
+    ],
+    "homogeneous_signal_states": true,
+    "cycle_s": 133.0,
+    "program": "0",
+    "offset_s": 0.0,
+    "all_connections_green_s": 133.0,
+    "all_connections_protected_s": 80.0,
+    "loop_id": "stop_Ed3.290_0",
+    "loop_pos_m": 82.68,
+    "queue_id": "queue_Ed3.290_0",
+    "queue_pos_m": 0.0,
+    "queue_end_m": 82.68,
+    "queue_detector_length_m": 82.68,
+    "scope": "lane-level crossing; shared-lane movements not separately identified"
+  },
+  {
+    "lane": "Ed3.290_1",
+    "edge": "Ed3.290",
+    "signal": "n1",
+    "length_m": 82.68,
+    "link_indices": [
+      17
+    ],
+    "connections": [
+      {
+        "from": "Ed3.290",
+        "to": "Ed1",
+        "fromLane": "1",
+        "toLane": "0",
+        "via": ":n1_15_0",
+        "tl": "n1",
+        "linkIndex": "17",
+        "dir": "s",
+        "state": "O"
+      }
+    ],
+    "directions": [
+      "s"
+    ],
+    "homogeneous_signal_states": true,
+    "cycle_s": 133.0,
+    "program": "0",
+    "offset_s": 0.0,
+    "all_connections_green_s": 38.0,
+    "all_connections_protected_s": 0,
+    "loop_id": "stop_Ed3.290_1",
+    "loop_pos_m": 82.68,
+    "queue_id": "queue_Ed3.290_1",
+    "queue_pos_m": 0.0,
+    "queue_end_m": 82.68,
+    "queue_detector_length_m": 82.68,
+    "scope": "lane-level crossing; shared-lane movements not separately identified"
+  },
+  {
+    "lane": "Ed3.290_2",
+    "edge": "Ed3.290",
+    "signal": "n1",
+    "length_m": 82.68,
+    "link_indices": [
+      18
+    ],
+    "connections": [
+      {
+        "from": "Ed3.290",
+        "to": "Ed1",
+        "fromLane": "2",
+        "toLane": "1",
+        "via": ":n1_15_1",
+        "tl": "n1",
+        "linkIndex": "18",
+        "dir": "s",
+        "state": "O"
+      }
+    ],
+    "directions": [
+      "s"
+    ],
+    "homogeneous_signal_states": true,
+    "cycle_s": 133.0,
+    "program": "0",
+    "offset_s": 0.0,
+    "all_connections_green_s": 38.0,
+    "all_connections_protected_s": 0,
+    "loop_id": "stop_Ed3.290_2",
+    "loop_pos_m": 82.68,
+    "queue_id": "queue_Ed3.290_2",
+    "queue_pos_m": 0.0,
+    "queue_end_m": 82.68,
+    "queue_detector_length_m": 82.68,
+    "scope": "lane-level crossing; shared-lane movements not separately identified"
+  },
+  {
+    "lane": "Ed3.290_3",
+    "edge": "Ed3.290",
+    "signal": "n1",
+    "length_m": 82.68,
+    "link_indices": [
+      19
+    ],
+    "connections": [
+      {
+        "from": "Ed3.290",
+        "to": "Ed1",
+        "fromLane": "3",
+        "toLane": "2",
+        "via": ":n1_15_2",
+        "tl": "n1",
+        "linkIndex": "19",
+        "dir": "s",
+        "state": "O"
+      }
+    ],
+    "directions": [
+      "s"
+    ],
+    "homogeneous_signal_states": true,
+    "cycle_s": 133.0,
+    "program": "0",
+    "offset_s": 0.0,
+    "all_connections_green_s": 38.0,
+    "all_connections_protected_s": 0,
+    "loop_id": "stop_Ed3.290_3",
+    "loop_pos_m": 82.68,
+    "queue_id": "queue_Ed3.290_3",
+    "queue_pos_m": 0.0,
+    "queue_end_m": 82.68,
+    "queue_detector_length_m": 82.68,
+    "scope": "lane-level crossing; shared-lane movements not separately identified"
+  },
+  {
+    "lane": "Ed3.290_4",
+    "edge": "Ed3.290",
+    "signal": "n1",
+    "length_m": 82.68,
+    "link_indices": [
+      20
+    ],
+    "connections": [
+      {
+        "from": "Ed3.290",
+        "to": "EH2",
+        "fromLane": "4",
+        "toLane": "4",
+        "via": ":n1_18_0",
+        "tl": "n1",
+        "linkIndex": "20",
+        "dir": "l",
+        "state": "o"
+      }
+    ],
+    "directions": [
+      "l"
+    ],
+    "homogeneous_signal_states": true,
+    "cycle_s": 133.0,
+    "program": "0",
+    "offset_s": 0.0,
+    "all_connections_green_s": 38.0,
+    "all_connections_protected_s": 0,
+    "loop_id": "stop_Ed3.290_4",
+    "loop_pos_m": 82.68,
+    "queue_id": "queue_Ed3.290_4",
+    "queue_pos_m": 0.0,
+    "queue_end_m": 82.68,
+    "queue_detector_length_m": 82.68,
+    "scope": "lane-level crossing; shared-lane movements not separately identified"
+  },
+  {
+    "lane": "Ed3.290_5",
+    "edge": "Ed3.290",
+    "signal": "n1",
+    "length_m": 82.68,
+    "link_indices": [
+      21
+    ],
+    "connections": [
+      {
+        "from": "Ed3.290",
+        "to": "EH2",
+        "fromLane": "5",
+        "toLane": "5",
+        "via": ":n1_18_1",
+        "tl": "n1",
+        "linkIndex": "21",
+        "dir": "l",
+        "state": "o"
+      }
+    ],
+    "directions": [
+      "l"
+    ],
+    "homogeneous_signal_states": true,
+    "cycle_s": 133.0,
+    "program": "0",
+    "offset_s": 0.0,
+    "all_connections_green_s": 38.0,
+    "all_connections_protected_s": 0,
+    "loop_id": "stop_Ed3.290_5",
+    "loop_pos_m": 82.68,
+    "queue_id": "queue_Ed3.290_5",
+    "queue_pos_m": 0.0,
+    "queue_end_m": 82.68,
+    "queue_detector_length_m": 82.68,
+    "scope": "lane-level crossing; shared-lane movements not separately identified"
+  },
+  {
+    "lane": "Ed4.376_0",
+    "edge": "Ed4.376",
+    "signal": "n4",
+    "length_m": 105.93,
+    "link_indices": [
+      9
+    ],
+    "connections": [
+      {
+        "from": "Ed4.376",
+        "to": "Eh5",
+        "fromLane": "0",
+        "toLane": "0",
+        "via": ":n4_9_0",
+        "tl": "n4",
+        "linkIndex": "9",
+        "dir": "r",
+        "state": "O"
+      }
+    ],
+    "directions": [
+      "r"
+    ],
+    "homogeneous_signal_states": true,
+    "cycle_s": 137.0,
+    "program": "0",
+    "offset_s": 0.0,
+    "all_connections_green_s": 137.0,
+    "all_connections_protected_s": 70.0,
+    "loop_id": "stop_Ed4.376_0",
+    "loop_pos_m": 105.93,
+    "queue_id": "queue_Ed4.376_0",
+    "queue_pos_m": 5.930000000000007,
+    "queue_end_m": 105.93,
+    "queue_detector_length_m": 100.0,
+    "scope": "lane-level crossing; shared-lane movements not separately identified"
+  },
+  {
+    "lane": "Ed4.376_1",
+    "edge": "Ed4.376",
+    "signal": "n4",
+    "length_m": 105.93,
+    "link_indices": [
+      10
+    ],
+    "connections": [
+      {
+        "from": "Ed4.376",
+        "to": "Ed3",
+        "fromLane": "1",
+        "toLane": "1",
+        "via": ":n4_10_0",
+        "tl": "n4",
+        "linkIndex": "10",
+        "dir": "s",
+        "state": "O"
+      }
+    ],
+    "directions": [
+      "s"
+    ],
+    "homogeneous_signal_states": true,
+    "cycle_s": 137.0,
+    "program": "0",
+    "offset_s": 0.0,
+    "all_connections_green_s": 40.0,
+    "all_connections_protected_s": 40.0,
+    "loop_id": "stop_Ed4.376_1",
+    "loop_pos_m": 105.93,
+    "queue_id": "queue_Ed4.376_1",
+    "queue_pos_m": 5.930000000000007,
+    "queue_end_m": 105.93,
+    "queue_detector_length_m": 100.0,
+    "scope": "lane-level crossing; shared-lane movements not separately identified"
+  },
+  {
+    "lane": "Ed4.376_2",
+    "edge": "Ed4.376",
+    "signal": "n4",
+    "length_m": 105.93,
+    "link_indices": [
+      11
+    ],
+    "connections": [
+      {
+        "from": "Ed4.376",
+        "to": "Ed3",
+        "fromLane": "2",
+        "toLane": "2",
+        "via": ":n4_10_1",
+        "tl": "n4",
+        "linkIndex": "11",
+        "dir": "s",
+        "state": "O"
+      }
+    ],
+    "directions": [
+      "s"
+    ],
+    "homogeneous_signal_states": true,
+    "cycle_s": 137.0,
+    "program": "0",
+    "offset_s": 0.0,
+    "all_connections_green_s": 40.0,
+    "all_connections_protected_s": 40.0,
+    "loop_id": "stop_Ed4.376_2",
+    "loop_pos_m": 105.93,
+    "queue_id": "queue_Ed4.376_2",
+    "queue_pos_m": 5.930000000000007,
+    "queue_end_m": 105.93,
+    "queue_detector_length_m": 100.0,
+    "scope": "lane-level crossing; shared-lane movements not separately identified"
+  },
+  {
+    "lane": "Ed4.376_3",
+    "edge": "Ed4.376",
+    "signal": "n4",
+    "length_m": 105.93,
+    "link_indices": [
+      12
+    ],
+    "connections": [
+      {
+        "from": "Ed4.376",
+        "to": "Ed3",
+        "fromLane": "3",
+        "toLane": "3",
+        "via": ":n4_10_2",
+        "tl": "n4",
+        "linkIndex": "12",
+        "dir": "s",
+        "state": "O"
+      }
+    ],
+    "directions": [
+      "s"
+    ],
+    "homogeneous_signal_states": true,
+    "cycle_s": 137.0,
+    "program": "0",
+    "offset_s": 0.0,
+    "all_connections_green_s": 40.0,
+    "all_connections_protected_s": 40.0,
+    "loop_id": "stop_Ed4.376_3",
+    "loop_pos_m": 105.93,
+    "queue_id": "queue_Ed4.376_3",
+    "queue_pos_m": 5.930000000000007,
+    "queue_end_m": 105.93,
+    "queue_detector_length_m": 100.0,
+    "scope": "lane-level crossing; shared-lane movements not separately identified"
+  },
+  {
+    "lane": "Ed4.376_4",
+    "edge": "Ed4.376",
+    "signal": "n4",
+    "length_m": 105.93,
+    "link_indices": [
+      13
+    ],
+    "connections": [
+      {
+        "from": "Ed4.376",
+        "to": "Ed3",
+        "fromLane": "4",
+        "toLane": "4",
+        "via": ":n4_10_3",
+        "tl": "n4",
+        "linkIndex": "13",
+        "dir": "s",
+        "state": "O"
+      }
+    ],
+    "directions": [
+      "s"
+    ],
+    "homogeneous_signal_states": true,
+    "cycle_s": 137.0,
+    "program": "0",
+    "offset_s": 0.0,
+    "all_connections_green_s": 40.0,
+    "all_connections_protected_s": 40.0,
+    "loop_id": "stop_Ed4.376_4",
+    "loop_pos_m": 105.93,
+    "queue_id": "queue_Ed4.376_4",
+    "queue_pos_m": 5.930000000000007,
+    "queue_end_m": 105.93,
+    "queue_detector_length_m": 100.0,
+    "scope": "lane-level crossing; shared-lane movements not separately identified"
+  },
+  {
+    "lane": "Ed4.376_5",
+    "edge": "Ed4.376",
+    "signal": "n4",
+    "length_m": 105.93,
+    "link_indices": [
+      14
+    ],
+    "connections": [
+      {
+        "from": "Ed4.376",
+        "to": "EH4",
+        "fromLane": "5",
+        "toLane": "2",
+        "via": ":n4_14_0",
+        "tl": "n4",
+        "linkIndex": "14",
+        "dir": "l",
+        "state": "o"
+      }
+    ],
+    "directions": [
+      "l"
+    ],
+    "homogeneous_signal_states": true,
+    "cycle_s": 137.0,
+    "program": "0",
+    "offset_s": 0.0,
+    "all_connections_green_s": 30.0,
+    "all_connections_protected_s": 30.0,
+    "loop_id": "stop_Ed4.376_5",
+    "loop_pos_m": 105.93,
+    "queue_id": "queue_Ed4.376_5",
+    "queue_pos_m": 5.930000000000007,
+    "queue_end_m": 105.93,
+    "queue_detector_length_m": 100.0,
+    "scope": "lane-level crossing; shared-lane movements not separately identified"
+  },
+  {
+    "lane": "Eh2.386_0",
+    "edge": "Eh2.386",
+    "signal": "n1",
+    "length_m": 86.31,
+    "link_indices": [
+      22
+    ],
+    "connections": [
+      {
+        "from": "Eh2.386",
+        "to": "ED3",
+        "fromLane": "0",
+        "toLane": "0",
+        "via": ":n1_20_0",
+        "tl": "n1",
+        "linkIndex": "22",
+        "dir": "r",
+        "state": "O"
+      }
+    ],
+    "directions": [
+      "r"
+    ],
+    "homogeneous_signal_states": true,
+    "cycle_s": 133.0,
+    "program": "0",
+    "offset_s": 0.0,
+    "all_connections_green_s": 133.0,
+    "all_connections_protected_s": 53.0,
+    "loop_id": "stop_Eh2.386_0",
+    "loop_pos_m": 86.31,
+    "queue_id": "queue_Eh2.386_0",
+    "queue_pos_m": 0.0,
+    "queue_end_m": 86.31,
+    "queue_detector_length_m": 86.31,
+    "scope": "lane-level crossing; shared-lane movements not separately identified"
+  },
+  {
+    "lane": "Eh2.386_1",
+    "edge": "Eh2.386",
+    "signal": "n1",
+    "length_m": 86.31,
+    "link_indices": [
+      23
+    ],
+    "connections": [
+      {
+        "from": "Eh2.386",
+        "to": "Eh1",
+        "fromLane": "1",
+        "toLane": "0",
+        "via": ":n1_21_0",
+        "tl": "n1",
+        "linkIndex": "23",
+        "dir": "s",
+        "state": "o"
+      }
+    ],
+    "directions": [
+      "s"
+    ],
+    "homogeneous_signal_states": true,
+    "cycle_s": 133.0,
+    "program": "0",
+    "offset_s": 0.0,
+    "all_connections_green_s": 27.0,
+    "all_connections_protected_s": 27.0,
+    "loop_id": "stop_Eh2.386_1",
+    "loop_pos_m": 86.31,
+    "queue_id": "queue_Eh2.386_1",
+    "queue_pos_m": 0.0,
+    "queue_end_m": 86.31,
+    "queue_detector_length_m": 86.31,
+    "scope": "lane-level crossing; shared-lane movements not separately identified"
+  },
+  {
+    "lane": "Eh2.386_2",
+    "edge": "Eh2.386",
+    "signal": "n1",
+    "length_m": 86.31,
+    "link_indices": [
+      24
+    ],
+    "connections": [
+      {
+        "from": "Eh2.386",
+        "to": "Eh1",
+        "fromLane": "2",
+        "toLane": "1",
+        "via": ":n1_21_1",
+        "tl": "n1",
+        "linkIndex": "24",
+        "dir": "s",
+        "state": "o"
+      }
+    ],
+    "directions": [
+      "s"
+    ],
+    "homogeneous_signal_states": true,
+    "cycle_s": 133.0,
+    "program": "0",
+    "offset_s": 0.0,
+    "all_connections_green_s": 27.0,
+    "all_connections_protected_s": 27.0,
+    "loop_id": "stop_Eh2.386_2",
+    "loop_pos_m": 86.31,
+    "queue_id": "queue_Eh2.386_2",
+    "queue_pos_m": 0.0,
+    "queue_end_m": 86.31,
+    "queue_detector_length_m": 86.31,
+    "scope": "lane-level crossing; shared-lane movements not separately identified"
+  },
+  {
+    "lane": "Eh2.386_3",
+    "edge": "Eh2.386",
+    "signal": "n1",
+    "length_m": 86.31,
+    "link_indices": [
+      25
+    ],
+    "connections": [
+      {
+        "from": "Eh2.386",
+        "to": "Eh1",
+        "fromLane": "3",
+        "toLane": "2",
+        "via": ":n1_21_2",
+        "tl": "n1",
+        "linkIndex": "25",
+        "dir": "s",
+        "state": "o"
+      }
+    ],
+    "directions": [
+      "s"
+    ],
+    "homogeneous_signal_states": true,
+    "cycle_s": 133.0,
+    "program": "0",
+    "offset_s": 0.0,
+    "all_connections_green_s": 27.0,
+    "all_connections_protected_s": 27.0,
+    "loop_id": "stop_Eh2.386_3",
+    "loop_pos_m": 86.31,
+    "queue_id": "queue_Eh2.386_3",
+    "queue_pos_m": 0.0,
+    "queue_end_m": 86.31,
+    "queue_detector_length_m": 86.31,
+    "scope": "lane-level crossing; shared-lane movements not separately identified"
+  },
+  {
+    "lane": "Eh2.386_4",
+    "edge": "Eh2.386",
+    "signal": "n1",
+    "length_m": 86.31,
+    "link_indices": [
+      26
+    ],
+    "connections": [
+      {
+        "from": "Eh2.386",
+        "to": "Ed1",
+        "fromLane": "4",
+        "toLane": "1",
+        "via": ":n1_24_0",
+        "tl": "n1",
+        "linkIndex": "26",
+        "dir": "l",
+        "state": "o"
+      }
+    ],
+    "directions": [
+      "l"
+    ],
+    "homogeneous_signal_states": true,
+    "cycle_s": 133.0,
+    "program": "0",
+    "offset_s": 0.0,
+    "all_connections_green_s": 20.0,
+    "all_connections_protected_s": 20.0,
+    "loop_id": "stop_Eh2.386_4",
+    "loop_pos_m": 86.31,
+    "queue_id": "queue_Eh2.386_4",
+    "queue_pos_m": 0.0,
+    "queue_end_m": 86.31,
+    "queue_detector_length_m": 86.31,
+    "scope": "lane-level crossing; shared-lane movements not separately identified"
+  },
+  {
+    "lane": "Eh2.386_5",
+    "edge": "Eh2.386",
+    "signal": "n1",
+    "length_m": 86.31,
+    "link_indices": [
+      27
+    ],
+    "connections": [
+      {
+        "from": "Eh2.386",
+        "to": "Ed1",
+        "fromLane": "5",
+        "toLane": "2",
+        "via": ":n1_24_1",
+        "tl": "n1",
+        "linkIndex": "27",
+        "dir": "l",
+        "state": "o"
+      }
+    ],
+    "directions": [
+      "l"
+    ],
+    "homogeneous_signal_states": true,
+    "cycle_s": 133.0,
+    "program": "0",
+    "offset_s": 0.0,
+    "all_connections_green_s": 20.0,
+    "all_connections_protected_s": 20.0,
+    "loop_id": "stop_Eh2.386_5",
+    "loop_pos_m": 86.31,
+    "queue_id": "queue_Eh2.386_5",
+    "queue_pos_m": 0.0,
+    "queue_end_m": 86.31,
+    "queue_detector_length_m": 86.31,
+    "scope": "lane-level crossing; shared-lane movements not separately identified"
+  },
+  {
+    "lane": "Eh3.384_0",
+    "edge": "Eh3.384",
+    "signal": "n2",
+    "length_m": 94.99,
+    "link_indices": [
+      7
+    ],
+    "connections": [
+      {
+        "from": "Eh3.384",
+        "to": "ED1",
+        "fromLane": "0",
+        "toLane": "0",
+        "via": ":n2_7_0",
+        "tl": "n2",
+        "linkIndex": "7",
+        "dir": "r",
+        "state": "O"
+      }
+    ],
+    "directions": [
+      "r"
+    ],
+    "homogeneous_signal_states": true,
+    "cycle_s": 120.0,
+    "program": "0",
+    "offset_s": 0.0,
+    "all_connections_green_s": 114.0,
+    "all_connections_protected_s": 33.0,
+    "loop_id": "stop_Eh3.384_0",
+    "loop_pos_m": 94.99,
+    "queue_id": "queue_Eh3.384_0",
+    "queue_pos_m": 0.0,
+    "queue_end_m": 94.99,
+    "queue_detector_length_m": 94.99,
+    "scope": "lane-level crossing; shared-lane movements not separately identified"
+  },
+  {
+    "lane": "Eh3.384_1",
+    "edge": "Eh3.384",
+    "signal": "n2",
+    "length_m": 94.99,
+    "link_indices": [
+      9
+    ],
+    "connections": [
+      {
+        "from": "Eh3.384",
+        "to": "ED1",
+        "fromLane": "1",
+        "toLane": "1",
+        "via": ":n2_7_1",
+        "tl": "n2",
+        "linkIndex": "9",
+        "dir": "r",
+        "state": "O"
+      }
+    ],
+    "directions": [
+      "r"
+    ],
+    "homogeneous_signal_states": true,
+    "cycle_s": 120.0,
+    "program": "0",
+    "offset_s": 0.0,
+    "all_connections_green_s": 114.0,
+    "all_connections_protected_s": 0,
+    "loop_id": "stop_Eh3.384_1",
+    "loop_pos_m": 94.99,
+    "queue_id": "queue_Eh3.384_1",
+    "queue_pos_m": 0.0,
+    "queue_end_m": 94.99,
+    "queue_detector_length_m": 94.99,
+    "scope": "lane-level crossing; shared-lane movements not separately identified"
+  },
+  {
+    "lane": "Eh3.384_2",
+    "edge": "Eh3.384",
+    "signal": "n2",
+    "length_m": 94.99,
+    "link_indices": [
+      12
+    ],
+    "connections": [
+      {
+        "from": "Eh3.384",
+        "to": "Ed2",
+        "fromLane": "2",
+        "toLane": "0",
+        "via": ":n2_9_0",
+        "tl": "n2",
+        "linkIndex": "12",
+        "dir": "l",
+        "state": "o"
+      }
+    ],
+    "directions": [
+      "l"
+    ],
+    "homogeneous_signal_states": true,
+    "cycle_s": 120.0,
+    "program": "0",
+    "offset_s": 0.0,
+    "all_connections_green_s": 33.0,
+    "all_connections_protected_s": 33.0,
+    "loop_id": "stop_Eh3.384_2",
+    "loop_pos_m": 94.99,
+    "queue_id": "queue_Eh3.384_2",
+    "queue_pos_m": 0.0,
+    "queue_end_m": 94.99,
+    "queue_detector_length_m": 94.99,
+    "scope": "lane-level crossing; shared-lane movements not separately identified"
+  },
+  {
+    "lane": "Eh3.384_3",
+    "edge": "Eh3.384",
+    "signal": "n2",
+    "length_m": 94.99,
+    "link_indices": [
+      13
+    ],
+    "connections": [
+      {
+        "from": "Eh3.384",
+        "to": "Ed2",
+        "fromLane": "3",
+        "toLane": "1",
+        "via": ":n2_9_1",
+        "tl": "n2",
+        "linkIndex": "13",
+        "dir": "l",
+        "state": "o"
+      }
+    ],
+    "directions": [
+      "l"
+    ],
+    "homogeneous_signal_states": true,
+    "cycle_s": 120.0,
+    "program": "0",
+    "offset_s": 0.0,
+    "all_connections_green_s": 33.0,
+    "all_connections_protected_s": 33.0,
+    "loop_id": "stop_Eh3.384_3",
+    "loop_pos_m": 94.99,
+    "queue_id": "queue_Eh3.384_3",
+    "queue_pos_m": 0.0,
+    "queue_end_m": 94.99,
+    "queue_detector_length_m": 94.99,
+    "scope": "lane-level crossing; shared-lane movements not separately identified"
+  },
+  {
+    "lane": "Eh4.360_0",
+    "edge": "Eh4.360",
+    "signal": "n4",
+    "length_m": 112.66,
+    "link_indices": [
+      15
+    ],
+    "connections": [
+      {
+        "from": "Eh4.360",
+        "to": "ED4",
+        "fromLane": "0",
+        "toLane": "0",
+        "via": ":n4_15_0",
+        "tl": "n4",
+        "linkIndex": "15",
+        "dir": "r",
+        "state": "O"
+      }
+    ],
+    "directions": [
+      "r"
+    ],
+    "homogeneous_signal_states": true,
+    "cycle_s": 137.0,
+    "program": "0",
+    "offset_s": 0.0,
+    "all_connections_green_s": 137.0,
+    "all_connections_protected_s": 70.0,
+    "loop_id": "stop_Eh4.360_0",
+    "loop_pos_m": 112.66,
+    "queue_id": "queue_Eh4.360_0",
+    "queue_pos_m": 12.659999999999997,
+    "queue_end_m": 112.66,
+    "queue_detector_length_m": 100.0,
+    "scope": "lane-level crossing; shared-lane movements not separately identified"
+  },
+  {
+    "lane": "Eh4.360_1",
+    "edge": "Eh4.360",
+    "signal": "n4",
+    "length_m": 112.66,
+    "link_indices": [
+      16
+    ],
+    "connections": [
+      {
+        "from": "Eh4.360",
+        "to": "Eh5",
+        "fromLane": "1",
+        "toLane": "1",
+        "via": ":n4_16_0",
+        "tl": "n4",
+        "linkIndex": "16",
+        "dir": "s",
+        "state": "o"
+      }
+    ],
+    "directions": [
+      "s"
+    ],
+    "homogeneous_signal_states": true,
+    "cycle_s": 137.0,
+    "program": "0",
+    "offset_s": 0.0,
+    "all_connections_green_s": 30.0,
+    "all_connections_protected_s": 30.0,
+    "loop_id": "stop_Eh4.360_1",
+    "loop_pos_m": 112.66,
+    "queue_id": "queue_Eh4.360_1",
+    "queue_pos_m": 12.659999999999997,
+    "queue_end_m": 112.66,
+    "queue_detector_length_m": 100.0,
+    "scope": "lane-level crossing; shared-lane movements not separately identified"
+  },
+  {
+    "lane": "Eh4.360_2",
+    "edge": "Eh4.360",
+    "signal": "n4",
+    "length_m": 112.66,
+    "link_indices": [
+      17
+    ],
+    "connections": [
+      {
+        "from": "Eh4.360",
+        "to": "Ed3",
+        "fromLane": "2",
+        "toLane": "5",
+        "via": ":n4_17_0",
+        "tl": "n4",
+        "linkIndex": "17",
+        "dir": "l",
+        "state": "o"
+      }
+    ],
+    "directions": [
+      "l"
+    ],
+    "homogeneous_signal_states": true,
+    "cycle_s": 137.0,
+    "program": "0",
+    "offset_s": 0.0,
+    "all_connections_green_s": 25.0,
+    "all_connections_protected_s": 25.0,
+    "loop_id": "stop_Eh4.360_2",
+    "loop_pos_m": 112.66,
+    "queue_id": "queue_Eh4.360_2",
+    "queue_pos_m": 12.659999999999997,
+    "queue_end_m": 112.66,
+    "queue_detector_length_m": 100.0,
+    "scope": "lane-level crossing; shared-lane movements not separately identified"
+  }
+]

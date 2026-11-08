@@ -1,0 +1,30 @@
+{
+  "recorded_utc": "2026-10-19T14:53:34.075765+00:00",
+  "record_type": "retrospective execution and parser amendment record, not preregistration",
+  "Euler_separation": "Stopped after an explicit integration/action incompatibility warning. Two completed runs and one partial run retained. No incomplete result is used as a completed experiment.",
+  "partial_runs": [
+    {
+      "group": "pilot_euler_v2",
+      "run": "tau1_dt0.1_action0.5_seed42",
+      "status": "interrupted, excluded from complete-run results",
+      "files_sha256": {
+        "additional.xml": "9c9010cab3d3542c4e48f4163e209294e47c5f40cab17324f4c06e320f86ba75",
+        "collisions.xml": "f36a1da75e2c355ad16e0bdbf1dadef1d297141ac05b1e1f31c9ee3e29971a11",
+        "emission_edges.xml": "16d0121f6a4e9cc854b4c81c274dcdcc6410954bbf0d82baa0a97670afda2abc",
+        "routes.rou.xml": "e76f40db0cbc40df4bcf03f2d0f6a4e1b127a10a832b30d84697862a897428e2",
+        "run.sumocfg": "d6261abc046f06cffe0a31d71898fa3b1f23118bc65af1014f626635fb86e11a",
+        "statistics.xml": "af5e0878aec9642dbc0636cdace6e6a9773d435c096d2e54c1350577a2735fd2",
+        "summary.xml": "b308bf4087a0d785a7f20359e67fbde6cbaa2ce62aae6048797e0dff9d06f394",
+        "sumo_stderr.log": "e84253cf3cd7743c22d61175dfdd5d4f11d248c34f4a676ddcf29f611f1eb498",
+        "sumo_stdout.log": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "traffic_edges.xml": "6c3bf70d716dbb330a4a43d21f97a51dd855b1e5c6be7330d1a25db00a392217",
+        "tripinfo.xml": "91c410dddb375284ea1dc26f21fdf5ea4b78e89ef81bed8102e9292fa5e016f4"
+      }
+    }
+  ],
+  "ballistic_followup": "Six seed-42 runs completed under the separately frozen ballistic protocol. No final production configuration selected.",
+  "E1_identical_entries": "Collapse only repeated entries with identical detector, vehicle and timestamp before an exit; retain multiplicity per event. Two such duplicates occurred in the 0.5s baseline. Non-identical repeats remain fatal parser errors.",
+  "E1_exit_semantics": "All deduplicated front entries count as crossings. A later non-longitudinal loop leave does not cancel the earlier crossing. Exit type and horizon censoring remain visible.",
+  "phase_boundary_limit": "E1 interpolation and TLS step-end timing require care. Events within one step of signal transitions are flagged; current phase-normalized rates and headways are provisional, not manuscript-ready saturation estimates.",
+  "warning_parser": "Junction/frontal collision messages now included in collision teleport category. Total event and unique-vehicle counts are unchanged by the classification correction."
+}

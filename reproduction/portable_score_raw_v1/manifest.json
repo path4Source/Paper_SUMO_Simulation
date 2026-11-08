@@ -1,0 +1,721 @@
+{
+  "runs": [
+    {
+      "scenario": "accel_high",
+      "seed": 42,
+      "directory": "accel_high",
+      "legacy_emission_check": true
+    },
+    {
+      "scenario": "accel_low",
+      "seed": 42,
+      "directory": "accel_low",
+      "legacy_emission_check": true
+    },
+    {
+      "scenario": "baseline",
+      "seed": 42,
+      "directory": "baseline",
+      "legacy_emission_check": true
+    },
+    {
+      "scenario": "bottleneck_speed_drop",
+      "seed": 42,
+      "directory": "bottleneck_speed_drop",
+      "legacy_emission_check": true
+    },
+    {
+      "scenario": "decel_high",
+      "seed": 42,
+      "directory": "decel_high",
+      "legacy_emission_check": true
+    },
+    {
+      "scenario": "decel_low",
+      "seed": 42,
+      "directory": "decel_low",
+      "legacy_emission_check": true
+    },
+    {
+      "scenario": "demand_high",
+      "seed": 42,
+      "directory": "demand_high",
+      "legacy_emission_check": true
+    },
+    {
+      "scenario": "demand_low",
+      "seed": 42,
+      "directory": "demand_low",
+      "legacy_emission_check": true
+    },
+    {
+      "scenario": "demand_peak",
+      "seed": 42,
+      "directory": "demand_peak",
+      "legacy_emission_check": true
+    },
+    {
+      "scenario": "heavyveh_high",
+      "seed": 42,
+      "directory": "heavyveh_high",
+      "legacy_emission_check": true
+    },
+    {
+      "scenario": "heavyveh_mid",
+      "seed": 42,
+      "directory": "heavyveh_mid",
+      "legacy_emission_check": true
+    },
+    {
+      "scenario": "heavyveh_very_high",
+      "seed": 42,
+      "directory": "heavyveh_very_high",
+      "legacy_emission_check": true
+    },
+    {
+      "scenario": "lane_control_ed2",
+      "seed": 42,
+      "directory": "lane_control_ed2",
+      "legacy_emission_check": true
+    },
+    {
+      "scenario": "mingap_high",
+      "seed": 42,
+      "directory": "mingap_high",
+      "legacy_emission_check": true
+    },
+    {
+      "scenario": "mingap_low",
+      "seed": 42,
+      "directory": "mingap_low",
+      "legacy_emission_check": true
+    },
+    {
+      "scenario": "reaction_fast",
+      "seed": 42,
+      "directory": "reaction_fast",
+      "legacy_emission_check": true
+    },
+    {
+      "scenario": "reaction_slow",
+      "seed": 42,
+      "directory": "reaction_slow",
+      "legacy_emission_check": true
+    },
+    {
+      "scenario": "sigma_high",
+      "seed": 42,
+      "directory": "sigma_high",
+      "legacy_emission_check": true
+    },
+    {
+      "scenario": "sigma_low",
+      "seed": 42,
+      "directory": "sigma_low",
+      "legacy_emission_check": true
+    },
+    {
+      "scenario": "signal_green_long",
+      "seed": 42,
+      "directory": "signal_green_long",
+      "legacy_emission_check": true
+    },
+    {
+      "scenario": "signal_green_short",
+      "seed": 42,
+      "directory": "signal_green_short",
+      "legacy_emission_check": true
+    },
+    {
+      "scenario": "signal_losttime_high",
+      "seed": 42,
+      "directory": "signal_losttime_high",
+      "legacy_emission_check": true
+    },
+    {
+      "scenario": "signal_offset_mismatch",
+      "seed": 42,
+      "directory": "signal_offset_mismatch",
+      "legacy_emission_check": true
+    },
+    {
+      "scenario": "speed_high",
+      "seed": 42,
+      "directory": "speed_high",
+      "legacy_emission_check": true
+    },
+    {
+      "scenario": "speed_low",
+      "seed": 42,
+      "directory": "speed_low",
+      "legacy_emission_check": true
+    },
+    {
+      "scenario": "weather_heavy_rain",
+      "seed": 42,
+      "directory": "weather_heavy_rain",
+      "legacy_emission_check": true
+    },
+    {
+      "scenario": "weather_rain",
+      "seed": 42,
+      "directory": "weather_rain",
+      "legacy_emission_check": true
+    },
+    {
+      "scenario": "accel_high",
+      "seed": 2024,
+      "directory": "accel_high_seed2024",
+      "legacy_emission_check": false
+    },
+    {
+      "scenario": "accel_low",
+      "seed": 2024,
+      "directory": "accel_low_seed2024",
+      "legacy_emission_check": false
+    },
+    {
+      "scenario": "baseline",
+      "seed": 2024,
+      "directory": "baseline_seed2024",
+      "legacy_emission_check": false
+    },
+    {
+      "scenario": "bottleneck_speed_drop",
+      "seed": 2024,
+      "directory": "bottleneck_speed_drop_seed2024",
+      "legacy_emission_check": false
+    },
+    {
+      "scenario": "decel_high",
+      "seed": 2024,
+      "directory": "decel_high_seed2024",
+      "legacy_emission_check": false
+    },
+    {
+      "scenario": "decel_low",
+      "seed": 2024,
+      "directory": "decel_low_seed2024",
+      "legacy_emission_check": false
+    },
+    {
+      "scenario": "demand_high",
+      "seed": 2024,
+      "directory": "demand_high_seed2024",
+      "legacy_emission_check": false
+    },
+    {
+      "scenario": "demand_low",
+      "seed": 2024,
+      "directory": "demand_low_seed2024",
+      "legacy_emission_check": false
+    },
+    {
+      "scenario": "demand_peak",
+      "seed": 2024,
+      "directory": "demand_peak_seed2024",
+      "legacy_emission_check": false
+    },
+    {
+      "scenario": "heavyveh_high",
+      "seed": 2024,
+      "directory": "heavyveh_high_seed2024",
+      "legacy_emission_check": false
+    },
+    {
+      "scenario": "heavyveh_mid",
+      "seed": 2024,
+      "directory": "heavyveh_mid_seed2024",
+      "legacy_emission_check": false
+    },
+    {
+      "scenario": "heavyveh_very_high",
+      "seed": 2024,
+      "directory": "heavyveh_very_high_seed2024",
+      "legacy_emission_check": false
+    },
+    {
+      "scenario": "lane_control_ed2",
+      "seed": 2024,
+      "directory": "lane_control_ed2_seed2024",
+      "legacy_emission_check": false
+    },
+    {
+      "scenario": "mingap_high",
+      "seed": 2024,
+      "directory": "mingap_high_seed2024",
+      "legacy_emission_check": false
+    },
+    {
+      "scenario": "mingap_low",
+      "seed": 2024,
+      "directory": "mingap_low_seed2024",
+      "legacy_emission_check": false
+    },
+    {
+      "scenario": "reaction_fast",
+      "seed": 2024,
+      "directory": "reaction_fast_seed2024",
+      "legacy_emission_check": false
+    },
+    {
+      "scenario": "reaction_slow",
+      "seed": 2024,
+      "directory": "reaction_slow_seed2024",
+      "legacy_emission_check": false
+    },
+    {
+      "scenario": "sigma_high",
+      "seed": 2024,
+      "directory": "sigma_high_seed2024",
+      "legacy_emission_check": false
+    },
+    {
+      "scenario": "sigma_low",
+      "seed": 2024,
+      "directory": "sigma_low_seed2024",
+      "legacy_emission_check": false
+    },
+    {
+      "scenario": "signal_green_long",
+      "seed": 2024,
+      "directory": "signal_green_long_seed2024",
+      "legacy_emission_check": false
+    },
+    {
+      "scenario": "signal_green_short",
+      "seed": 2024,
+      "directory": "signal_green_short_seed2024",
+      "legacy_emission_check": false
+    },
+    {
+      "scenario": "signal_losttime_high",
+      "seed": 2024,
+      "directory": "signal_losttime_high_seed2024",
+      "legacy_emission_check": false
+    },
+    {
+      "scenario": "signal_offset_mismatch",
+      "seed": 2024,
+      "directory": "signal_offset_mismatch_seed2024",
+      "legacy_emission_check": false
+    },
+    {
+      "scenario": "speed_high",
+      "seed": 2024,
+      "directory": "speed_high_seed2024",
+      "legacy_emission_check": false
+    },
+    {
+      "scenario": "speed_low",
+      "seed": 2024,
+      "directory": "speed_low_seed2024",
+      "legacy_emission_check": false
+    },
+    {
+      "scenario": "weather_heavy_rain",
+      "seed": 2024,
+      "directory": "weather_heavy_rain_seed2024",
+      "legacy_emission_check": false
+    },
+    {
+      "scenario": "weather_rain",
+      "seed": 2024,
+      "directory": "weather_rain_seed2024",
+      "legacy_emission_check": false
+    },
+    {
+      "scenario": "accel_high",
+      "seed": 2025,
+      "directory": "accel_high_seed2025",
+      "legacy_emission_check": false
+    },
+    {
+      "scenario": "accel_low",
+      "seed": 2025,
+      "directory": "accel_low_seed2025",
+      "legacy_emission_check": false
+    },
+    {
+      "scenario": "baseline",
+      "seed": 2025,
+      "directory": "baseline_seed2025",
+      "legacy_emission_check": false
+    },
+    {
+      "scenario": "bottleneck_speed_drop",
+      "seed": 2025,
+      "directory": "bottleneck_speed_drop_seed2025",
+      "legacy_emission_check": false
+    },
+    {
+      "scenario": "decel_high",
+      "seed": 2025,
+      "directory": "decel_high_seed2025",
+      "legacy_emission_check": false
+    },
+    {
+      "scenario": "decel_low",
+      "seed": 2025,
+      "directory": "decel_low_seed2025",
+      "legacy_emission_check": false
+    },
+    {
+      "scenario": "demand_high",
+      "seed": 2025,
+      "directory": "demand_high_seed2025",
+      "legacy_emission_check": false
+    },
+    {
+      "scenario": "demand_low",
+      "seed": 2025,
+      "directory": "demand_low_seed2025",
+      "legacy_emission_check": false
+    },
+    {
+      "scenario": "demand_peak",
+      "seed": 2025,
+      "directory": "demand_peak_seed2025",
+      "legacy_emission_check": false
+    },
+    {
+      "scenario": "heavyveh_high",
+      "seed": 2025,
+      "directory": "heavyveh_high_seed2025",
+      "legacy_emission_check": false
+    },
+    {
+      "scenario": "heavyveh_mid",
+      "seed": 2025,
+      "directory": "heavyveh_mid_seed2025",
+      "legacy_emission_check": false
+    },
+    {
+      "scenario": "heavyveh_very_high",
+      "seed": 2025,
+      "directory": "heavyveh_very_high_seed2025",
+      "legacy_emission_check": false
+    },
+    {
+      "scenario": "lane_control_ed2",
+      "seed": 2025,
+      "directory": "lane_control_ed2_seed2025",
+      "legacy_emission_check": false
+    },
+    {
+      "scenario": "mingap_high",
+      "seed": 2025,
+      "directory": "mingap_high_seed2025",
+      "legacy_emission_check": false
+    },
+    {
+      "scenario": "mingap_low",
+      "seed": 2025,
+      "directory": "mingap_low_seed2025",
+      "legacy_emission_check": false
+    },
+    {
+      "scenario": "reaction_fast",
+      "seed": 2025,
+      "directory": "reaction_fast_seed2025",
+      "legacy_emission_check": false
+    },
+    {
+      "scenario": "reaction_slow",
+      "seed": 2025,
+      "directory": "reaction_slow_seed2025",
+      "legacy_emission_check": false
+    },
+    {
+      "scenario": "sigma_high",
+      "seed": 2025,
+      "directory": "sigma_high_seed2025",
+      "legacy_emission_check": false
+    },
+    {
+      "scenario": "sigma_low",
+      "seed": 2025,
+      "directory": "sigma_low_seed2025",
+      "legacy_emission_check": false
+    },
+    {
+      "scenario": "signal_green_long",
+      "seed": 2025,
+      "directory": "signal_green_long_seed2025",
+      "legacy_emission_check": false
+    },
+    {
+      "scenario": "signal_green_short",
+      "seed": 2025,
+      "directory": "signal_green_short_seed2025",
+      "legacy_emission_check": false
+    },
+    {
+      "scenario": "signal_losttime_high",
+      "seed": 2025,
+      "directory": "signal_losttime_high_seed2025",
+      "legacy_emission_check": false
+    },
+    {
+      "scenario": "signal_offset_mismatch",
+      "seed": 2025,
+      "directory": "signal_offset_mismatch_seed2025",
+      "legacy_emission_check": false
+    },
+    {
+      "scenario": "speed_high",
+      "seed": 2025,
+      "directory": "speed_high_seed2025",
+      "legacy_emission_check": false
+    },
+    {
+      "scenario": "speed_low",
+      "seed": 2025,
+      "directory": "speed_low_seed2025",
+      "legacy_emission_check": false
+    },
+    {
+      "scenario": "weather_heavy_rain",
+      "seed": 2025,
+      "directory": "weather_heavy_rain_seed2025",
+      "legacy_emission_check": false
+    },
+    {
+      "scenario": "weather_rain",
+      "seed": 2025,
+      "directory": "weather_rain_seed2025",
+      "legacy_emission_check": false
+    }
+  ],
+  "raw_sha256": {
+    "accel_high/summary.xml": "26a8b27cdee36829220b2cb74c1972914d3b878ad7683648ff01414b7a2604db",
+    "accel_high/tripinfo.xml": "ef00c5262e1743b9df588bc0f85196c2859274fc7131e19a27b5441d4bcf1c05",
+    "accel_high/emission_edges.xml": "7dbb79a57dcbd0bbc7cbf3eebcf20b3019abb5541b647c1a065a51c01aca0a7b",
+    "accel_low/summary.xml": "f6428abb41783aff1912fdc82ae8710b88e779412df01be97eef2f950a20e2ca",
+    "accel_low/tripinfo.xml": "e585c986861281af40db8ac5a5bff44c591c4c9a169401bc5ffa7cdabcfed5ce",
+    "accel_low/emission_edges.xml": "62c064058266434ef75c100a9060a44a50a395d971078ea7e97636b4af111290",
+    "baseline/summary.xml": "ee929c5fee982108eed480d4c31903b1fad667e432b26334713f71d4a8d46c30",
+    "baseline/tripinfo.xml": "0e9233a1936ad60827805006f9b323b6ad193c1bcff9feecdb84c837ecd1b775",
+    "baseline/emission_edges.xml": "6c3324d4ccc8b0f080326e944b1bfa997c440d3c65492cc9b524ee8d8f28c672",
+    "bottleneck_speed_drop/summary.xml": "ecea5b3bdfdea3ce81ec17c52a5011f6467435ca6c4e2e0cd48f0526293b03b7",
+    "bottleneck_speed_drop/tripinfo.xml": "ecdae4d55e4a30d55ac3a2f14cfc7a1c2ad52c2cba5d2460556966dc64837fd5",
+    "bottleneck_speed_drop/emission_edges.xml": "0c9fee81b108c541802a71045e13d75eeb61e5dbd309349ae0f5cfa1ea047c0d",
+    "decel_high/summary.xml": "e37ebfffd72741e5397b53250d15cc30758a38092915f023ab65c1b4ee56a461",
+    "decel_high/tripinfo.xml": "ee5e573b1fb6399bb95d6af1886f42fca4848fcec452ebf573ca8fc5b0ed0950",
+    "decel_high/emission_edges.xml": "8ff383194b59816d46b680ac70187aee7013088d8edeeb8b8d197c85677965e8",
+    "decel_low/summary.xml": "7740502b1a8d01f7dbbfe19a9b76a3b2ee5884dd839f2c98f11434d558bbeb3b",
+    "decel_low/tripinfo.xml": "be7246babbb60b1cc834a117bf15bca237a40999400ff9bc69b591f85bba2da5",
+    "decel_low/emission_edges.xml": "32f65e7c2f981aeaca8bb6741074f8edf74e328dc41a6511181b42175739a780",
+    "demand_high/summary.xml": "ea72c065c49f4c2b9450f4af5ad0f51f7702f8431427d7a0ab57af338d79b6bb",
+    "demand_high/tripinfo.xml": "5b7b52366b132510eb3d0c2b45dc42ff1b0b6ed31293e34bd3289e25168c7598",
+    "demand_high/emission_edges.xml": "bac644092aab6135b606107843cec175031c12776a96b455054de8503849d96b",
+    "demand_low/summary.xml": "347c8b9c307db0e68799737b1bf53d706caaf76f5a2a828cf7470e23de125e97",
+    "demand_low/tripinfo.xml": "63b48c125e5abdc513a42f6b7aabd277c2b7de97caf76d1673e3e84542d3cf23",
+    "demand_low/emission_edges.xml": "ebdb3f4108269a82dd212e5bc570cda8058e62dce3fbaf4ffb18eccac22ec093",
+    "demand_peak/summary.xml": "8801214a9642138b7edffa655ea98864aabe1e6be3f2cd6655838ec69fd3d3b2",
+    "demand_peak/tripinfo.xml": "b8006846957b21d98d7ba7fb6216bf846cd615887f5a56b6f2a0be18e4d3cebd",
+    "demand_peak/emission_edges.xml": "7f676eb4339cdd3aa423058162faffd88cf86bec4c7f149b9c2264d659fa1ddb",
+    "heavyveh_high/summary.xml": "5302830a8a793a5715e41ca0adb04a69f649af2aba943506a5c0fd60dd691ef3",
+    "heavyveh_high/tripinfo.xml": "c080c795f1e5c2140c1ff77a1e4ca751e383f7c672abaffc23570322cd52ed90",
+    "heavyveh_high/emission_edges.xml": "70b3f726788c48d0b5a20cd496ab31fdbb7ab48b0aabd5cc469e846fb5cfce50",
+    "heavyveh_mid/summary.xml": "d087df1afcf05d087843bc8b6142acea5aed7801b5573eb24f834cd7465f74b2",
+    "heavyveh_mid/tripinfo.xml": "9268c03de4bfd9a127595206a29458aa51fb2f83817dcbde3f3d4df79b79268e",
+    "heavyveh_mid/emission_edges.xml": "512a2dcf7f2fbdc1914a7b41d4d685666681a2c333bfb6b97d0acc0006ce62b0",
+    "heavyveh_very_high/summary.xml": "85758b79d091b1bcdd868a3a83e36e6f327496d4573ac806ebb0b85a116dc7a5",
+    "heavyveh_very_high/tripinfo.xml": "b93abbbc4ff3aea7418becd1f34dd24951838ac64796e711e39875ea9a084089",
+    "heavyveh_very_high/emission_edges.xml": "86815153f7a14b7407f071c43367280d56bee7d8b489681fc1438fb2d084e37a",
+    "lane_control_ed2/summary.xml": "b85b22d34a9401b170e54f545b5d0f3c8cf51cc2575d70eea911985793ff58a9",
+    "lane_control_ed2/tripinfo.xml": "e522bf48b6deb643eb150eb4b8b8dd2c9f0328b116cf894b612d7872c3676090",
+    "lane_control_ed2/emission_edges.xml": "c7b88b5bb7d1918518f7a3c328f1f59fe38b0d97b6896cce957d089718178694",
+    "mingap_high/summary.xml": "617dbb880d143e92aa981426f935b37c8a43e55fe7b51848d35892529a02de77",
+    "mingap_high/tripinfo.xml": "1df55722ae39d3c16016a2418e70478fb292e09c0f88be017bf2b016b56c9674",
+    "mingap_high/emission_edges.xml": "bcb4513b628c7049ea2c8bf059b18fd3c6262a87a59933b2ac8473271ce0c235",
+    "mingap_low/summary.xml": "5555890608630d58301e1835f8be8e629b6571dfafc78c1aa99c961e1c6134a4",
+    "mingap_low/tripinfo.xml": "29739e3e241e6c02d581436d12784b3deb7e41022af3e6d67459b147f1dc0436",
+    "mingap_low/emission_edges.xml": "cf2861d06e750e6d8aae6275caa84c251c309413897e275a9a546c97425aee04",
+    "reaction_fast/summary.xml": "59b911fa06b179aa80c9a0d92290c30bdfbe060e7cca7810455252af96ff149d",
+    "reaction_fast/tripinfo.xml": "c920d8a7730cdf641f27f1ce3721a18b11c9f5e5b0aeaca38b862b35b699638b",
+    "reaction_fast/emission_edges.xml": "c2413ddc2ac8c3b2893be50a9df7ed2d4aa21b0ef10894e8d1074262f766f048",
+    "reaction_slow/summary.xml": "1e2bf98be691965074cb0b70a0a3da4911ce253eafe7fc5cb99be2735ebb064b",
+    "reaction_slow/tripinfo.xml": "a23c5470344cbd666cf6f11c84b4be0070c8a7e1ae17352cb0ec3700b7b180ae",
+    "reaction_slow/emission_edges.xml": "0168f18ff90cacb729403c5d41ef9a5d5e7a42d47bf4c0f3dd337cddd519eca2",
+    "sigma_high/summary.xml": "365b87fc50781eed49de5bd1311f1f6a90cafd60a8bc0b9d45d062f4285b9fd5",
+    "sigma_high/tripinfo.xml": "408af815472cdbb1c31df446544f1ed6c7186ac444834cc46998cc20ad12ff5b",
+    "sigma_high/emission_edges.xml": "40f168585da1be47ca683800068b8fc3d2fb4529ffd766e6d381744e39e9db7b",
+    "sigma_low/summary.xml": "2dce6f5aced15e52d46929a38eb598c5bcbdc18296bb13a8d024d4b676307e8d",
+    "sigma_low/tripinfo.xml": "87af5c92a6fa7a72a8f4b1f42d33e30329fae7f2f7d4250845df345bd9ae2516",
+    "sigma_low/emission_edges.xml": "c7fb44b09bfccc0f98ea26cb4c306818ff090fa8d4033f4b5e774947bdb6119f",
+    "signal_green_long/summary.xml": "857fd6fc535825ccc4d9e07295214771e47239d857a7c0780163773d4ae9cec7",
+    "signal_green_long/tripinfo.xml": "a1765c5f0a2fd9c18a111d3fe3490e0e5b9c3aad995b99f55d87742bad78f8cf",
+    "signal_green_long/emission_edges.xml": "c989979ce538a8551ae3ba129ba6ee14e68b438a42ce88ae33abbd671656e495",
+    "signal_green_short/summary.xml": "a5312942fa3fe92810bd82c8bdc566664fcd301a9162eacd0b8b4f0ed9b31dc3",
+    "signal_green_short/tripinfo.xml": "1b13a7ef406fcc99ad482286d8abac27be18a76f2529b8924c2e79cae6e40304",
+    "signal_green_short/emission_edges.xml": "0eac1ffb60cab316c6e922be98d691778193fea6777a98159a19d08dc9b0b013",
+    "signal_losttime_high/summary.xml": "332cedc621dc6c5cad1b774dad0e84dd35ac969227760b89141bf3a3dc5759e2",
+    "signal_losttime_high/tripinfo.xml": "4f9508a6442ab9abedbddc04626866613f3c45af1801e6aeb8bcb8befb87fda3",
+    "signal_losttime_high/emission_edges.xml": "7f0cca7c22ebd6d2aaf24d50a4fc0440a81f897cc0a2550f6f47e18ea2264eb9",
+    "signal_offset_mismatch/summary.xml": "21fdcb3c6c65c122c9c0979f5ea6865b59d4cc1a0a2fb61a28bb2131948b62ef",
+    "signal_offset_mismatch/tripinfo.xml": "050696ef7eb70c62310bf63a0261f8caa19a1ad84f6aefb1f9a245f1b60eae55",
+    "signal_offset_mismatch/emission_edges.xml": "3dff183a06d796c828594075488ed8d1e1f29ce673d9e559d29e9317bd72d063",
+    "speed_high/summary.xml": "ca89549f359169358c8fa4dec156c0b73b0cfdf92c3caa858c1db989189eaf92",
+    "speed_high/tripinfo.xml": "1503619e8c83ab2b2935fde1fb4e9325b3c1d0957e91676c402a38bce64ee8d5",
+    "speed_high/emission_edges.xml": "53c08fc7ef95cc9b7fdff88222869d68bcad9d06ad4a43c353fbe9f068d3013f",
+    "speed_low/summary.xml": "9b86cd52eda71db8eb20ad4be634608bfd67b12b16291a8faf39e546170a8121",
+    "speed_low/tripinfo.xml": "c8efd2e719d8882ff1447f7312dc92825db36929b54e4b2e207a0e5d7901e89f",
+    "speed_low/emission_edges.xml": "557e6ffdffae07bc089b68ae5a68c5cbd7500356d62de1fbd30ec733a32b10ed",
+    "weather_heavy_rain/summary.xml": "95f3617213f7445a34164cd907a60bd3631bacd4e4348632d2f8060ea3deaadf",
+    "weather_heavy_rain/tripinfo.xml": "211253c34d0dfe3be6a0b1391ec011b0736ad8c2806958c68dcd47e7b149a861",
+    "weather_heavy_rain/emission_edges.xml": "9dab14b50fee5dd0af4d06af976401e7a86c60eef887fceb7334def21afd3f00",
+    "weather_rain/summary.xml": "f79820fe86f5a9a667a81344fade0e3dfb82a299425002fe80e0b4c5e67a8f8c",
+    "weather_rain/tripinfo.xml": "fe1f6ee87a00d92921e50c782112d8ee5d7591bb473c21e2c378a7bd0632ba73",
+    "weather_rain/emission_edges.xml": "530bf9e1c1e1bba184aebd40e7bc903eed4e2bf5e90204ef59a398922c481f5e",
+    "accel_high_seed2024/summary.xml": "dd4f62c7e496cd0f59b7302850a4b26858c8e31c0195c0081c1f344b3c304133",
+    "accel_high_seed2024/tripinfo.xml": "b7b1fbadccd86bb5d4039b95632091615339bb46aed3deacf2093cf794d72d26",
+    "accel_low_seed2024/summary.xml": "272ab604c48b3cc39d8c26a3a458464eec7c178190e52943b3c4ebf219696042",
+    "accel_low_seed2024/tripinfo.xml": "106dac78c16f27c531468d2658a4ea87d8790dd5ad48524dc2cace9950702fbd",
+    "baseline_seed2024/summary.xml": "da77a5c4739fa8eb0b3f4519b6243b292a37ce6f235e68e49b8da5e71d45b32d",
+    "baseline_seed2024/tripinfo.xml": "aa54845381d5f693eac68ad9ecbf59b63c5294e6eda42252df444fbc3643560f",
+    "bottleneck_speed_drop_seed2024/summary.xml": "1b61228ac92ce98cd24380a4153d26446aadfd5908836a7ba5cb263c16fb6725",
+    "bottleneck_speed_drop_seed2024/tripinfo.xml": "8547e832261cd27fac343863cfd2e6d9fbc9e072e66f7d64c4020a11dd46b218",
+    "decel_high_seed2024/summary.xml": "450f41f9b2009c52249fe7b4f18dfc589ba95a1a2807a9f32c3009a9f138d339",
+    "decel_high_seed2024/tripinfo.xml": "40368507144c24e1afe7be368ac53640adcd34589f6bff8fc90d778c283b3419",
+    "decel_low_seed2024/summary.xml": "0fae97d16c8770bcb94efdc738cdd1b3729bd37e8362278286fcf054e98563b4",
+    "decel_low_seed2024/tripinfo.xml": "8525c59a98a5cdd52d7a7facf3db7b4ee5bc6988eb2b0da7f82da32e521dafdd",
+    "demand_high_seed2024/summary.xml": "62999c60964ed979e4498946482cbb0bda34392af981f1e732495ef05bceb10d",
+    "demand_high_seed2024/tripinfo.xml": "1a7f030554b2e8a342a5f8a2f4d8afb4c3d015f88110f66c192fd102bc1321bf",
+    "demand_low_seed2024/summary.xml": "ca8e94a761e36774221dde1051d795fb4504941df903339325e001cfadaf2293",
+    "demand_low_seed2024/tripinfo.xml": "e2487b2458ac11dd0ca1cceb6adeb1949d1fc63364a2ef21ab4329a2cc43677d",
+    "demand_peak_seed2024/summary.xml": "c3433eeddcdec69d4912284380e94480be918091be59c0a49cc166a023050057",
+    "demand_peak_seed2024/tripinfo.xml": "ce4d7f4acda04433c103206d7fd53373247dd512663e17e4f3c0fa88187226cc",
+    "heavyveh_high_seed2024/summary.xml": "d1125a0c9a71811108cbeee68b75f3e565904f6c567d7035718982949a4294ad",
+    "heavyveh_high_seed2024/tripinfo.xml": "c1a347c6313a07879c0afdf83e063d051adb91b64adb838dacd477d89786e9d7",
+    "heavyveh_mid_seed2024/summary.xml": "3e689a80f2dd7158d3b1cf47674851b9a8d227c0bac27c29e71ef4027415bcee",
+    "heavyveh_mid_seed2024/tripinfo.xml": "e66217c29320bb30d62f066116b1f815fb8e0873998bea1ff0ad7d12fdf550f6",
+    "heavyveh_very_high_seed2024/summary.xml": "af3154157cecaf0d96e022a551c50ca6372504ad8a31e9b587dd090dbbda4cd6",
+    "heavyveh_very_high_seed2024/tripinfo.xml": "26bd5da30bec58cb907162c59b08fff2a4338a35054eadb431a27084371cbe57",
+    "lane_control_ed2_seed2024/summary.xml": "73316815cbf33fb4437c9d11279f57a80172bd233cbc7adb5fcea1411053fb64",
+    "lane_control_ed2_seed2024/tripinfo.xml": "eaf4b7e2c50f17e1fb06274ec56e362bd6fdeb863b5c352fc020ebdf1cb11594",
+    "mingap_high_seed2024/summary.xml": "97042027af8f10799693372a51bf8cecbf8f5348b32bd800db53c6a361729683",
+    "mingap_high_seed2024/tripinfo.xml": "55afed62f96b0a927ecbd899785e28d4d1aa0b236fecbc375589834adb0dcc86",
+    "mingap_low_seed2024/summary.xml": "f459c4a93831ba7f9be3f4f646df3a7411f49e3e61d6bf315c17a0ae0ecc53e2",
+    "mingap_low_seed2024/tripinfo.xml": "1962c00cce58bd43480fe6017ba3dfb44ad81b657fd78775aed072a92395f850",
+    "reaction_fast_seed2024/summary.xml": "71a26dce729e55ebdf487b6330a382b4d3338cb172c70ec7fba80c378a301bd1",
+    "reaction_fast_seed2024/tripinfo.xml": "da5f47cecc50cad6b56ec09cf493870975393886fd051978d8465b24c8bc8fa8",
+    "reaction_slow_seed2024/summary.xml": "dd45f58a7f4c93c34584803c0a7753b5f1b08d1e4ec15b84fc073d29a0185d4d",
+    "reaction_slow_seed2024/tripinfo.xml": "6308862878e4b5e470a6218e01c688dcc9cc869b216377376387032a2cb58a7e",
+    "sigma_high_seed2024/summary.xml": "1b8953a96a044c3cbcf1045dcc74937cd3cf4057f5b8c5898f18761b9bab2b50",
+    "sigma_high_seed2024/tripinfo.xml": "7f6a7ab0a858a946d48b94458f5a702c7f1e5077eefac2fb63f873ff0ce9dbca",
+    "sigma_low_seed2024/summary.xml": "d7c30f95dfcf7f7063e34fa82fb8b144ceb0600eb64280a0e00341cb61ad08dd",
+    "sigma_low_seed2024/tripinfo.xml": "a58e499481281ab1f4c91548481ae60e7fb7438b8527794ac782bf404bd3f90d",
+    "signal_green_long_seed2024/summary.xml": "a29421c6fb0586a2c26182fae632652f42796e4c7008f7be59140af2d0459f45",
+    "signal_green_long_seed2024/tripinfo.xml": "06890a19e5fc685043f3c0e8e5e3d46571a763230e505288b8043fefd9d2e2df",
+    "signal_green_short_seed2024/summary.xml": "2e73742f001abd51a714770ff8336e83502e9a49ee86cac6aba2427999293ab7",
+    "signal_green_short_seed2024/tripinfo.xml": "9163010dd8fcfd249198d9f12870d317942bb058b384976db39d394e991fc9bf",
+    "signal_losttime_high_seed2024/summary.xml": "edbe3b57c322b810982769104dfbe15025ff376003f488f4543cda8538a8c755",
+    "signal_losttime_high_seed2024/tripinfo.xml": "8a33b2353e118963b869122ec154b6307527b015a2ad5d503e4ec8475c681a03",
+    "signal_offset_mismatch_seed2024/summary.xml": "1bce8bd2b4d18bea03beb341f97efa5d9c82ad2f18da0a37edb9d136c8e9add5",
+    "signal_offset_mismatch_seed2024/tripinfo.xml": "7231d4bb327a4051072ac91d6e8efa5d53931378eebf105f2044ab40b5d13b96",
+    "speed_high_seed2024/summary.xml": "3a5e1d562a0262e8b5bf0c1393841cce971a74573b84114c54246d70fbe889b2",
+    "speed_high_seed2024/tripinfo.xml": "99d14d6a162bb544503998294401f1d6965cb542f07b07e0849e58b909f3e5a7",
+    "speed_low_seed2024/summary.xml": "019c8b617cd0dc1815e13b096464a3cd46141c8611c76a28bb0dc4591089491c",
+    "speed_low_seed2024/tripinfo.xml": "60a2e84930ea99cd5a5312cee51ada59f94881c0443b7df073e134952e34fa48",
+    "weather_heavy_rain_seed2024/summary.xml": "87096f1a406604cc94e616db43d5e443e2d51b25fd77b938a814bfea90c73bd5",
+    "weather_heavy_rain_seed2024/tripinfo.xml": "41c9f779af106e2035b6fd098357150fb87b517737ccc5c3a5c2fa7065ed778d",
+    "weather_rain_seed2024/summary.xml": "4be81061f521ef98f652e89a56df9fa1287b68b6f25a169eee9b66e51b91d087",
+    "weather_rain_seed2024/tripinfo.xml": "ffcb59f93287c944028714e4b9c122717cde0c4b18148cbd790d0c114acabee0",
+    "accel_high_seed2025/summary.xml": "541fefdb3c8bd4ee7c3a0239c52e1e26c5523afd0bf780d7dcfc646f343925dc",
+    "accel_high_seed2025/tripinfo.xml": "21daef36b00879c922ece7281eb0d9a5ebbf6c940ac65ea0444a6ab7ee181fd6",
+    "accel_low_seed2025/summary.xml": "370b3dcd8bfdb7509ef222d51a2150e8b6217c31a80767d7193b6f4eeadf7c6a",
+    "accel_low_seed2025/tripinfo.xml": "d1e30c119f0a27b5c933608dcdf67aa79a3548ec7edfc9840b668fc153cf1754",
+    "baseline_seed2025/summary.xml": "6b86c72d321b63c2b8543c48e4b1046e16f99d8a20d5e6829fefe826a1a0056f",
+    "baseline_seed2025/tripinfo.xml": "d556730d13dfbb8c8424ee4b863160059401573664d709b108a69245a9ccb46f",
+    "bottleneck_speed_drop_seed2025/summary.xml": "53deee01fb701b7e03d5ca395744584cfd02cf853def95a88606b5eab9fdf238",
+    "bottleneck_speed_drop_seed2025/tripinfo.xml": "75556724ba458c9a2e4700ff726b871501214330245b36059b0bd2e67f0a04f5",
+    "decel_high_seed2025/summary.xml": "8d6faea5294f7af6c6ee56cee839cbb9fe8405ed39307831a73d1d1f81ee4937",
+    "decel_high_seed2025/tripinfo.xml": "d34a39cd8a11d5c89ba40595be7cfd3f563c0a790d4ae0984eddb4d2c7690631",
+    "decel_low_seed2025/summary.xml": "4fa638c75c22208e5610b5d2924bd3cdce3c720966ab646d282cffb1aeb0b771",
+    "decel_low_seed2025/tripinfo.xml": "b18c68f5c0b8b2a9c75ae04f51a5d103d746d0903d8eae73d07d1a443a5e4935",
+    "demand_high_seed2025/summary.xml": "de22a847804be7f078dc7771dd9f298f19e94019e37e39a05338143ba8efe9ff",
+    "demand_high_seed2025/tripinfo.xml": "ab5f307f48206e90544bdf6415624950886e57282c9ea2b309eee8a445f5efb0",
+    "demand_low_seed2025/summary.xml": "93116aa6bf57e9fc3e4919600d789801fbce5f3fe7e1e34db547ac923fe676a1",
+    "demand_low_seed2025/tripinfo.xml": "c27430265b5d5a3f62309af3bea0f25bc336170109f5eb4ddedad22a0aad01f9",
+    "demand_peak_seed2025/summary.xml": "f0f1611bbf9e81c15e8aff7871990b9140bffc418a1dc4733f0b54ff00979e8e",
+    "demand_peak_seed2025/tripinfo.xml": "09ae38c1e5b4d0a4c2d418b3321c97567db03037c008bbaaaac8ffa54caec8a5",
+    "heavyveh_high_seed2025/summary.xml": "9d88da13e8376ca8a22f0f29e555ecef785003d6d75378cecb8a9f8b8588e8f9",
+    "heavyveh_high_seed2025/tripinfo.xml": "13eb7ba41ae82eaa1cca018c627c221fddeff54939e88e98378e4ab3fa50f6ee",
+    "heavyveh_mid_seed2025/summary.xml": "5d8e8b0afcb9a1c2a2fc0a37c8206b002748d59997802ed2d162ca43f749946d",
+    "heavyveh_mid_seed2025/tripinfo.xml": "8e0ee24c061eae924f1f337532ff61d41adb9d66a5bf6c7e1ed847c9d404ee9d",
+    "heavyveh_very_high_seed2025/summary.xml": "3bb6183e5f0b2722596f378b0a5eda2f1aaa4a70dda6191c8d9fe60347dd499f",
+    "heavyveh_very_high_seed2025/tripinfo.xml": "dc1cff4729c511f30bdbc0543ef4c5c0c88e5f1dfd3584b8ae3a01433e4cd8ed",
+    "lane_control_ed2_seed2025/summary.xml": "95f3556819f1171a84c4b445fdd042e14f1941eeaafdbc69c24d5968fa15f608",
+    "lane_control_ed2_seed2025/tripinfo.xml": "d6c91df6c4f154788d4e4ee78610275879393c0c24079c878182271845db6cea",
+    "mingap_high_seed2025/summary.xml": "85d6f14693bc5e00a5a7b4c837ffdabeb16333c9a7ec465e9f4d209b1d7f40b2",
+    "mingap_high_seed2025/tripinfo.xml": "634f69d085c54b1cca8d9dbb0e7f6a3438e07bee18ad4b5c3fcdb2c4024e289e",
+    "mingap_low_seed2025/summary.xml": "91192f4e7515505d08e6dbc661ca1386f2ceed3e66371bfe9d395bcb7d5505d5",
+    "mingap_low_seed2025/tripinfo.xml": "197fbde2c8e9139a55855a9b134090263643f48cf8f7b283fe96c25414052a67",
+    "reaction_fast_seed2025/summary.xml": "be1a287e84971e1db707d5064d171eb6a52e0b328425cc170aa6a14a0c2072ba",
+    "reaction_fast_seed2025/tripinfo.xml": "3aa9709c3ec8fe9df3eeb033f3b0d64f0caf6f13fe50032b4476e40121a71e29",
+    "reaction_slow_seed2025/summary.xml": "31d943d4a6d197e619df22dcc022fe0a058ec2eae553825ad68b9bd1e9829a6f",
+    "reaction_slow_seed2025/tripinfo.xml": "ed768a0272bc2eb6ed92ccec598ad71f91df6c7393bb7b6869fc5d11579336c7",
+    "sigma_high_seed2025/summary.xml": "6836202aaa92c4442eb067a2243eb13dc26d9af9daee1d3c41d0370837c9617b",
+    "sigma_high_seed2025/tripinfo.xml": "7d1f18ad90769a4dac66e935719aca358b24b517a8e57aa3baddca6ff9a04f16",
+    "sigma_low_seed2025/summary.xml": "3dfe17ab5efe6ebd199d0a374254a7cd7c279fd99d82c2b4c2747d943d4b0058",
+    "sigma_low_seed2025/tripinfo.xml": "c462072cf06a53cb859b0498ba5cdf1498bc653c9536efba9f784cb471cb743b",
+    "signal_green_long_seed2025/summary.xml": "8f54501a171aa066ccef692144a8726433bef87c73f2e3f4eaaacc7bfe9e4e34",
+    "signal_green_long_seed2025/tripinfo.xml": "947d58c50ea139e583c593bb71281f3296ad27e4d13f7e27762eaaf98ec36e5d",
+    "signal_green_short_seed2025/summary.xml": "0228df48b39d6e7fc4bbb3cafeacaefc4ebab3c4f71d21b1118badee0aa44042",
+    "signal_green_short_seed2025/tripinfo.xml": "390d62dc54ce183f167675fa3ab9eeca4ceee28f5baab9c6ebec540c1cecfd61",
+    "signal_losttime_high_seed2025/summary.xml": "8204bbed65ebfe1decc9f46f88a2f5476e552849a9e7c55414fdccc0f3b036d1",
+    "signal_losttime_high_seed2025/tripinfo.xml": "d82bc751cbaccd846fd502ab9b401b02de74092716e927cbe165742eeb4855e1",
+    "signal_offset_mismatch_seed2025/summary.xml": "7afb2da2797d929ad286a4c2d1f2aaf3ac391fa76218a01922e5e940b5931bfc",
+    "signal_offset_mismatch_seed2025/tripinfo.xml": "a48879340ef0b107aa0340aae1fef6fdf2630c88f42f36e1486a7149ade717bd",
+    "speed_high_seed2025/summary.xml": "f580dfaeaccbfe76fb2396bbc73f9bd029bcaa208ec752b4d64e322fe017ce74",
+    "speed_high_seed2025/tripinfo.xml": "b6adabace9bd4d6eb065dbe252a1ff8a892995029eb95c5d5ae7404aeaa3e1c7",
+    "speed_low_seed2025/summary.xml": "4cbbe5255c528c7b3d3779bf31412f51cf943f5f2e20841e36c01be0e0be866c",
+    "speed_low_seed2025/tripinfo.xml": "3a52a2b2d9bd621748ab310e74fdf25aba6e00098caf75aec614fdbffba1560e",
+    "weather_heavy_rain_seed2025/summary.xml": "a3e5991c037007ee6d29c97bcd7aa5369a680b19134f3659dc3c804fa3a4a977",
+    "weather_heavy_rain_seed2025/tripinfo.xml": "5aac7d9781c8c24ff24f64660eec9c328351a19c1d65b96e3c1598bc69009afe",
+    "weather_rain_seed2025/summary.xml": "b115c1da2a3743f2a208b674886f8fa909cc0fdd19fba687091db7cb731277da",
+    "weather_rain_seed2025/tripinfo.xml": "23792773c9a72c134840b186c37c2ead05f346b3f4e35834e2620387419cd164"
+  },
+  "score_outputs": [
+    "scenario_scores.csv",
+    "factor_scores.csv",
+    "weight_frequencies.csv",
+    "weight_samples.csv",
+    "range_rankings.csv",
+    "range_summary.csv",
+    "multiseed_scores.csv",
+    "multiseed_factor_scores.csv",
+    "analysis_summary.json"
+  ],
+  "frozen_metric_producer_sha256": "7a7668a94bc684d985ea3d0c3d8b8d8f85b4be902e938fe3ab0a78a234396e3a",
+  "score_estimator_source_sha256": "e8281d7dedadf8daf2f04cd186ed8a122e7f9d538b5a672777a257d09db6b77a",
+  "parser_functions": [
+    "parse_summary",
+    "parse_tripinfo",
+    "parse_emissions"
+  ],
+  "python_packages": {
+    "numpy": "2.5.4"
+  },
+  "files_sha256": {
+    "frozen_metrics.py": "f0bfe871d266a69bdbd233248fba005e29b821ea259a0c2973c0daafec2916f7",
+    "README.txt": "2854e5381320bd510acd0204cb3e7b5b25a563b03254a8d4d20f939c016eb8a0",
+    "replay_checks.py": "71d130df30ef4e0fcde8e4eb2897944713e4f2318daaa6c02cd609a5214ba122",
+    "run_raw_reproduction.py": "3a99188a005b0d8ae73c47cb9f24f51ec24b9d621995562252611cfd6545aab7",
+    "score_analysis.py": "40c87b0c2ffd670fd363a71a0b418a438bbfeae74fc810776a10abfc953b2b54",
+    "expected/analysis_summary.json": "7b3d3cb27a4c1ce2f229b9ac6c8b853e01e89a129863e56456933a76630e90e6",
+    "expected/factor_scores.csv": "0414babf75b35277b28499d86f29818e16d0a7407334eca731a56f58f7d83934",
+    "expected/multiseed_factor_scores.csv": "e403434d0387509206a3cdad93cf35477fdd0566e3ebb1110682a65085e75c30",
+    "expected/multiseed_scores.csv": "a33215ffd9801da6a6c7571bcea7da5e7c039a4c55d39997343dc8b3a0a6544b",
+    "expected/range_rankings.csv": "4ef083b2f79a050f2c8efb47a3271d90a6ee680cecd67463827c676dafc97907",
+    "expected/range_summary.csv": "9099883d2b9339e8635961233ca4e0a80045bbded95cfea5a6931f1885a912b9",
+    "expected/scenario_scores.csv": "c38a2d41aed37c04da61e036065598d7ca2d8cb2101450501a3055ad5db53bd6",
+    "expected/weight_frequencies.csv": "4b3fda5cc46ca666e51265c66f918204d6ad9243ab6b4165e14c4c2c56fa1201",
+    "expected/weight_samples.csv": "97a6ebdd78e78883ffff37d40ac443dc30afd232925cc0f7e95a56cf3678e115",
+    "inputs/sumo_multiseed_results.csv": "08643634f5c5f6d5bf05d54d0b0de727f6aa2a12bbef1c1bb372cb11e08acdcb",
+    "inputs/sumo_oat_results.csv": "e3c2f9a5268ecdd3a2dfb22b0e946a4a51026518544f61bafd7def72695a375c",
+    "inputs/sumo_scenario_effects.csv": "f270502f777b65db9790f21c6735ceafa26dcff35eca606edff3c77562abb3f7"
+  }
+}

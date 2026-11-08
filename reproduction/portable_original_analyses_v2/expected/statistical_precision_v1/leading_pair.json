@@ -1,0 +1,18 @@
+{
+  "n": 10,
+  "mean": 0.2156290367537485,
+  "sample_sd": 1.528843761239011,
+  "ci95_halfwidth": 1.0936689427795152,
+  "ci95_low": -0.8780399060257666,
+  "ci95_high": 1.3092979795332638,
+  "contrast": "HV24 throughput loss minus heavy-rain throughput loss",
+  "unit": "percentage points",
+  "bootstrap_seed": 20261020,
+  "bootstrap_resamples": 50000,
+  "paired_percentile_bootstrap_ci95": [
+    -0.6938462833016924,
+    1.101639741948495
+  ],
+  "both_scenarios_warning_qualified": true,
+  "equivalence_claimed": false
+}

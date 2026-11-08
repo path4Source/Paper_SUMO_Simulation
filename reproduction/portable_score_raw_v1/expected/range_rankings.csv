@@ -1,0 +1,79 @@
+variant,factor,score,rank
+Max,acceleration,0.11322740247124757,6.0
+Max,bottleneck_speed,0.0012918603853990915,11.0
+Max,deceleration,0.02157438777203273,10.0
+Max,driver_sigma,0.6215130925033816,3.0
+Max,heavy_vehicle_share,0.8891918388823778,1.0
+Max,lane_control,0.0,12.5
+Max,max_speed,0.08163701170599541,8.0
+Max,min_gap,0.10210671735357654,7.0
+Max,reaction_time,0.5169995584237255,4.0
+Max,signal_green,0.08075198783543436,9.0
+Max,signal_lost_time,0.2756221041577526,5.0
+Max,signal_offset,0.0,12.5
+Max,weather,0.8210981442033567,2.0
+Mean,acceleration,0.05661370123562379,6.0
+Mean,bottleneck_speed,0.0012918603853990915,11.0
+Mean,deceleration,0.01568483576215016,10.0
+Mean,driver_sigma,0.3107565462516908,3.0
+Mean,heavy_vehicle_share,0.6464905735635221,1.0
+Mean,lane_control,0.0,12.5
+Mean,max_speed,0.04760245516741296,8.0
+Mean,min_gap,0.05105335867678827,7.0
+Mean,reaction_time,0.25849977921186273,5.0
+Mean,signal_green,0.04037599391771718,9.0
+Mean,signal_lost_time,0.2756221041577526,4.0
+Mean,signal_offset,0.0,12.5
+Mean,weather,0.5646106535543137,2.0
+Remove peak,acceleration,0.0,10.0
+Remove peak,bottleneck_speed,0.0012918603853990915,6.0
+Remove peak,deceleration,0.009795283752267589,5.0
+Remove peak,driver_sigma,0.0,10.0
+Remove peak,heavy_vehicle_share,0.6072558958909147,1.0
+Remove peak,lane_control,0.0,10.0
+Remove peak,max_speed,0.013567898628830517,4.0
+Remove peak,min_gap,0.0,10.0
+Remove peak,reaction_time,0.0,10.0
+Remove peak,signal_green,0.0,10.0
+Remove peak,signal_lost_time,0.2756221041577526,3.0
+Remove peak,signal_offset,0.0,10.0
+Remove peak,weather,0.3081231629052708,2.0
+Without Q,acceleration,0.07904435359941907,6.0
+Without Q,bottleneck_speed,0.0027452033189730696,11.0
+Without Q,deceleration,0.015118701768873524,10.0
+Without Q,driver_sigma,0.5832703876489812,3.0
+Without Q,heavy_vehicle_share,0.764532657625053,2.0
+Without Q,lane_control,0.0,12.5
+Without Q,max_speed,0.07336851771665027,7.0
+Without Q,min_gap,0.05541289772436811,9.0
+Without Q,reaction_time,0.46525401759755297,4.0
+Without Q,signal_green,0.06950546313708182,8.0
+Without Q,signal_lost_time,0.30023441626914504,5.0
+Without Q,signal_offset,0.0,12.5
+Without Q,weather,0.7695031599563621,1.0
+Without D,acceleration,0.12225420741206351,6.0
+Without D,bottleneck_speed,0.0015162564063301953,11.0
+Without D,deceleration,0.021240151338072104,10.0
+Without D,driver_sigma,0.5838877434142662,3.0
+Without D,heavy_vehicle_share,0.8890197338847774,1.0
+Without D,lane_control,0.0,12.5
+Without D,max_speed,0.0781337098606802,8.0
+Without D,min_gap,0.11759287022589883,7.0
+Without D,reaction_time,0.484689701395297,4.0
+Without D,signal_green,0.07792539475535246,9.0
+Without D,signal_lost_time,0.2531159894930686,5.0
+Without D,signal_offset,0.0,12.5
+Without D,weather,0.7826765655839302,2.0
+Without H,acceleration,0.12502331187730734,6.0
+Without H,bottleneck_speed,0.0002690392625587294,11.0
+Without H,deceleration,0.025549839574375666,10.0
+Without H,driver_sigma,0.6756163659251379,3.0
+Without H,heavy_vehicle_share,0.9605731753130783,1.0
+Without H,lane_control,0.0,12.5
+Without H,max_speed,0.08936469556731996,9.0
+Without H,min_gap,0.1155150546797051,7.0
+Without H,reaction_time,0.5742626020630485,4.0
+Without H,signal_green,0.08960136744599174,8.0
+Without H,signal_lost_time,0.2808488812352575,5.0
+Without H,signal_offset,0.0,12.5
+Without H,weather,0.8835137740182906,2.0

@@ -1,0 +1,9 @@
+{
+  "grouped_paired_comparisons": 9,
+  "same_direction_count": 9,
+  "max_absolute_mean_change_pp": 0.004487323368116414,
+  "post_acquisition_sensitivity": true,
+  "frozen_intervention_rules_changed": false,
+  "physical_measurement_validation_complete": false,
+  "explanation": "Direction uses the existing paired t interval and +/-2 percent crossing tolerance. Agreement between simulator channels is not lane-attribution ground truth; the recorded trajectory discrepancy is retained separately."
+}

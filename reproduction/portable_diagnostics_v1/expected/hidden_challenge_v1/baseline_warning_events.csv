@@ -1,0 +1,3 @@
+﻿seed,vehicle,time_s,origin_lane,kind,subtype,log_line,reinsertion_edge,reinsertion_time_s
+101,ED2_car.96,1632.0,:J3_0_3,collision,side collision,2,ED1.177,1632.0
+11,ED2_3_car.16,765.0,:J3_0_1,collision,side collision,2,ED1.177,765.0

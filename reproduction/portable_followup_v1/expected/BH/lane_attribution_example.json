@@ -1,0 +1,59 @@
+{
+  "vehicle": "ED2_3_car.64",
+  "detector_entry": {
+    "id": "stop_ED1.177_0",
+    "time": "3082.22",
+    "state": "enter",
+    "vehID": "ED2_3_car.64",
+    "speed": "15.00",
+    "length": "5.00",
+    "type": "car",
+    "gap": "26.97"
+  },
+  "trajectory_before": {
+    "time": "3082.20",
+    "id": "ED2_3_car.64",
+    "x": "485.60",
+    "y": "923.54",
+    "angle": "180.00",
+    "type": "car",
+    "speed": "15.00",
+    "pos": "94.75",
+    "lane": "ED1.177_1",
+    "slope": "0.00"
+  },
+  "trajectory_after": {
+    "time": "3082.30",
+    "id": "ED2_3_car.64",
+    "x": "485.60",
+    "y": "922.04",
+    "angle": "180.00",
+    "type": "car",
+    "speed": "15.03",
+    "pos": "1.16",
+    "lane": ":n1_1_0",
+    "slope": "0.00"
+  },
+  "connection": {
+    "from": "ED1.177",
+    "to": "ED3",
+    "fromLane": "1",
+    "toLane": "1",
+    "via": ":n1_1_0",
+    "tl": "n1",
+    "linkIndex": "1",
+    "dir": "s",
+    "state": "O"
+  },
+  "trace_sha256": "e61c99a88e7a6b12c299d7c7fedfd3b88501b200d0f9e9497b7a446b618cd397",
+  "original_fcd_semantic_digest": {
+    "records": 1838828,
+    "sha256": "aec8201ba6d52369c77ab2a4194cda86e92b0cff63529f28ddf526d213d624d9"
+  },
+  "replay_fcd_semantic_digest": {
+    "records": 1838828,
+    "sha256": "aec8201ba6d52369c77ab2a4194cda86e92b0cff63529f28ddf526d213d624d9"
+  },
+  "observation": "After a recorded teleport/reinsertion, the front event is labelled lane 0 while the trajectory and unique successor connection indicate lane 1.",
+  "scope": "An event-level lane-attribution discrepancy, not a full-lane trajectory validation. No original counts are overwritten."
+}

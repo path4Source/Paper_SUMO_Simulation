@@ -1,0 +1,7 @@
+﻿step_s,action_s,metric,mean,ci95_lower_exploratory,ci95_upper_exploratory,n_matched_seeds,scope
+0.5,0.5,Q_change_pct,3.0306129596590257,1.4889976665238964,4.5722282527941545,3,"conditional exploratory paired t interval, not numerical convergence"
+0.5,0.5,completed_delay_change_pct,-6.343995426125598,-10.657264599377783,-2.0307262528734142,3,"conditional exploratory paired t interval, not numerical convergence"
+0.5,0.5,total_vehicle_hours_change_pct,-11.545443246465597,-17.246094178183064,-5.84479231474813,3,"conditional exploratory paired t interval, not numerical convergence"
+0.1,0.1,Q_change_pct,3.4455833124846453,1.9914054774286443,4.899761147540646,3,"conditional exploratory paired t interval, not numerical convergence"
+0.1,0.1,completed_delay_change_pct,-6.492328710995488,-15.42502014318941,2.440362721198434,3,"conditional exploratory paired t interval, not numerical convergence"
+0.1,0.1,total_vehicle_hours_change_pct,-15.932364067212362,-19.302982651073084,-12.56174548335164,3,"conditional exploratory paired t interval, not numerical convergence"

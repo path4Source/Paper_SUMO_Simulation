@@ -1,0 +1,39 @@
+{
+  "created_utc": "2026-10-21T02:37:13.852411+00:00",
+  "bundles": {
+    "portable_original_v1": {
+      "manifest_sha256": "b0f8576b651a8552d6de23bd70fe5aa8c6c222eb88e96684457c8026aa96a918",
+      "cases": 240
+    },
+    "portable_simulations_v1": {
+      "manifest_sha256": "edd04a4afafd452f2ed58a10d188958a5a04a2f311605af8e205ee643fed7949",
+      "cases": 166
+    },
+    "portable_morris_inputs_v1": {
+      "manifest_sha256": "9860d9733bde2304293541c659caf647b6a882742cb4ccd90c5bc6c702db1d1b",
+      "cases": 665
+    },
+    "portable_pilots_v1": {
+      "manifest_sha256": "4f4ec6c900079653e1a7d3e992c24f7af1a8d736448da79f8abcafffda6ec2bf",
+      "cases": 22
+    }
+  },
+  "category_counts": {
+    "original_archived": 240,
+    "other_completed_revision": 188,
+    "morris_equivalence_control": 5,
+    "morris_design": 660
+  },
+  "total_input_sets": 1093,
+  "analysis_chains_identified": 15,
+  "new_simulations": 0,
+  "full_raw_to_analysis_closure": false,
+  "files_sha256": {
+    "analysis_chains.json": "a725f53c3de8b1b3b00ea63a7b986b4dfb295d8fccceb4009b96ad55f2373c20",
+    "excluded_executions.json": "7ae87e87450f603f60e275e3214ea33a41e493bf2f03822b71d8c1044d3132de",
+    "README.txt": "c8591ced15bea239fa00001016c2b8213801ffcf24b36bc6f0154ca6b434ea1d",
+    "reused_references.csv": "d3850bfa8ea95e56694a1784950dcba481c0a127d7936de9eaa344ffc6510c49",
+    "run_inventory.csv": "b3ff8672a18261239e3c4279aed75fd5660f95314eb2a1f9fff53bca6c07bb16",
+    "verify_inventory.py": "2bb2b25035cbea6e72058e9186052466775f8972cf12276d4b6ee3cd5fcf4a18"
+  }
+}

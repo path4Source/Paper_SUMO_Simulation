@@ -1,0 +1,3834 @@
+{
+  "schema": "author-holdout-observations-v2",
+  "cases": [
+    {
+      "case_id": "H01",
+      "same_demand_structure": true,
+      "demand_structure_evidence": "Frozen common OD proportions and departure-window construction; vehicle types are supply perturbations.",
+      "reference": [
+        {
+          "seed": 211,
+          "begin_s": 0,
+          "end_s": 3600,
+          "planned": 7900,
+          "inserted": 7083,
+          "arrived": 6602,
+          "running": 481,
+          "waiting": 817,
+          "entry_vh": 307.2792222222283,
+          "network_vh": 461.52022222222286,
+          "total_vh": 768.7994444444512,
+          "completed_delay_s": 150.47539684943982,
+          "teleports": 0,
+          "collisions": 0,
+          "timing_warning": false,
+          "local": {
+            "target": {
+              "front_crossings": 1529,
+              "queue_m": 269.2758333333333
+            },
+            "donor": {
+              "front_crossings": 2524,
+              "queue_m": 228.8575
+            },
+            "other": {
+              "front_crossings": 8705,
+              "queue_m": 424.6958333333333
+            }
+          }
+        },
+        {
+          "seed": 307,
+          "begin_s": 0,
+          "end_s": 3600,
+          "planned": 7900,
+          "inserted": 7194,
+          "arrived": 6686,
+          "running": 508,
+          "waiting": 706,
+          "entry_vh": 297.1590277777812,
+          "network_vh": 455.94752777777904,
+          "total_vh": 753.1065555555602,
+          "completed_delay_s": 147.1042820819628,
+          "teleports": 0,
+          "collisions": 0,
+          "timing_warning": false,
+          "local": {
+            "target": {
+              "front_crossings": 1569,
+              "queue_m": 267.64
+            },
+            "donor": {
+              "front_crossings": 2529,
+              "queue_m": 224.52583333333334
+            },
+            "other": {
+              "front_crossings": 8844,
+              "queue_m": 409.97333333333336
+            }
+          }
+        },
+        {
+          "seed": 401,
+          "begin_s": 0,
+          "end_s": 3600,
+          "planned": 7900,
+          "inserted": 7032,
+          "arrived": 6543,
+          "running": 489,
+          "waiting": 868,
+          "entry_vh": 327.75836111112346,
+          "network_vh": 461.59733333332645,
+          "total_vh": 789.3556944444499,
+          "completed_delay_s": 149.11072749503262,
+          "teleports": 0,
+          "collisions": 0,
+          "timing_warning": false,
+          "local": {
+            "target": {
+              "front_crossings": 1459,
+              "queue_m": 271.09749999999997
+            },
+            "donor": {
+              "front_crossings": 2517,
+              "queue_m": 227.2175
+            },
+            "other": {
+              "front_crossings": 8636,
+              "queue_m": 418.3475
+            }
+          }
+        },
+        {
+          "seed": 503,
+          "begin_s": 0,
+          "end_s": 3600,
+          "planned": 7900,
+          "inserted": 7068,
+          "arrived": 6574,
+          "running": 494,
+          "waiting": 832,
+          "entry_vh": 328.94752777777256,
+          "network_vh": 459.43413888888614,
+          "total_vh": 788.3816666666587,
+          "completed_delay_s": 151.7097581381198,
+          "teleports": 0,
+          "collisions": 0,
+          "timing_warning": false,
+          "local": {
+            "target": {
+              "front_crossings": 1528,
+              "queue_m": 267.56416666666667
+            },
+            "donor": {
+              "front_crossings": 2522,
+              "queue_m": 228.765
+            },
+            "other": {
+              "front_crossings": 8673,
+              "queue_m": 424.3958333333333
+            }
+          }
+        },
+        {
+          "seed": 601,
+          "begin_s": 0,
+          "end_s": 3600,
+          "planned": 7900,
+          "inserted": 7116,
+          "arrived": 6629,
+          "running": 487,
+          "waiting": 784,
+          "entry_vh": 297.4855277777787,
+          "network_vh": 456.2851944444443,
+          "total_vh": 753.7707222222231,
+          "completed_delay_s": 146.66216020515895,
+          "teleports": 0,
+          "collisions": 0,
+          "timing_warning": false,
+          "local": {
+            "target": {
+              "front_crossings": 1529,
+              "queue_m": 266.9875
+            },
+            "donor": {
+              "front_crossings": 2528,
+              "queue_m": 225.94416666666666
+            },
+            "other": {
+              "front_crossings": 8748,
+              "queue_m": 420.89666666666665
+            }
+          }
+        }
+      ],
+      "treatment": [
+        {
+          "seed": 211,
+          "begin_s": 0,
+          "end_s": 3600,
+          "planned": 7900,
+          "inserted": 6949,
+          "arrived": 6220,
+          "running": 729,
+          "waiting": 951,
+          "entry_vh": 387.15597222222,
+          "network_vh": 547.657111111117,
+          "total_vh": 934.8130833333371,
+          "completed_delay_s": 199.08397266881022,
+          "teleports": 0,
+          "collisions": 0,
+          "timing_warning": false,
+          "local": {
+            "target": {
+              "front_crossings": 1395,
+              "queue_m": 274.9525
+            },
+            "donor": {
+              "front_crossings": 2337,
+              "queue_m": 326.64416666666665
+            },
+            "other": {
+              "front_crossings": 8314,
+              "queue_m": 523.8391666666666
+            }
+          }
+        },
+        {
+          "seed": 307,
+          "begin_s": 0,
+          "end_s": 3600,
+          "planned": 7900,
+          "inserted": 6960,
+          "arrived": 6232,
+          "running": 728,
+          "waiting": 940,
+          "entry_vh": 369.08694444444393,
+          "network_vh": 549.1473333333419,
+          "total_vh": 918.2342777777859,
+          "completed_delay_s": 195.5636071887034,
+          "teleports": 1,
+          "collisions": 1,
+          "timing_warning": false,
+          "local": {
+            "target": {
+              "front_crossings": 1393,
+              "queue_m": 276.37833333333333
+            },
+            "donor": {
+              "front_crossings": 2324,
+              "queue_m": 330.91249999999997
+            },
+            "other": {
+              "front_crossings": 8348,
+              "queue_m": 527.9883333333333
+            }
+          }
+        },
+        {
+          "seed": 401,
+          "begin_s": 0,
+          "end_s": 3600,
+          "planned": 7900,
+          "inserted": 6956,
+          "arrived": 6147,
+          "running": 809,
+          "waiting": 944,
+          "entry_vh": 392.5962499999992,
+          "network_vh": 573.0595277777703,
+          "total_vh": 965.6557777777696,
+          "completed_delay_s": 208.43645355457917,
+          "teleports": 1,
+          "collisions": 1,
+          "timing_warning": false,
+          "local": {
+            "target": {
+              "front_crossings": 1387,
+              "queue_m": 279.7758333333333
+            },
+            "donor": {
+              "front_crossings": 2250,
+              "queue_m": 342.72916666666663
+            },
+            "other": {
+              "front_crossings": 8311,
+              "queue_m": 546.1558333333334
+            }
+          }
+        },
+        {
+          "seed": 503,
+          "begin_s": 0,
+          "end_s": 3600,
+          "planned": 7900,
+          "inserted": 6996,
+          "arrived": 6275,
+          "running": 721,
+          "waiting": 904,
+          "entry_vh": 365.4009444444426,
+          "network_vh": 572.6233611111096,
+          "total_vh": 938.0243055555522,
+          "completed_delay_s": 211.58529721115497,
+          "teleports": 1,
+          "collisions": 1,
+          "timing_warning": false,
+          "local": {
+            "target": {
+              "front_crossings": 1453,
+              "queue_m": 273.6983333333333
+            },
+            "donor": {
+              "front_crossings": 2328,
+              "queue_m": 331.22
+            },
+            "other": {
+              "front_crossings": 8445,
+              "queue_m": 547.0633333333334
+            }
+          }
+        },
+        {
+          "seed": 601,
+          "begin_s": 0,
+          "end_s": 3600,
+          "planned": 7900,
+          "inserted": 7051,
+          "arrived": 6251,
+          "running": 800,
+          "waiting": 849,
+          "entry_vh": 366.6096944444405,
+          "network_vh": 559.6220833333307,
+          "total_vh": 926.2317777777712,
+          "completed_delay_s": 203.33384098544138,
+          "teleports": 1,
+          "collisions": 1,
+          "timing_warning": false,
+          "local": {
+            "target": {
+              "front_crossings": 1451,
+              "queue_m": 276.535
+            },
+            "donor": {
+              "front_crossings": 2278,
+              "queue_m": 333.5725
+            },
+            "other": {
+              "front_crossings": 8420,
+              "queue_m": 534.6133333333333
+            }
+          }
+        }
+      ]
+    },
+    {
+      "case_id": "H02",
+      "same_demand_structure": true,
+      "demand_structure_evidence": "Frozen common OD proportions and departure-window construction; vehicle types are supply perturbations.",
+      "reference": [
+        {
+          "seed": 211,
+          "begin_s": 0,
+          "end_s": 3600,
+          "planned": 7900,
+          "inserted": 7083,
+          "arrived": 6602,
+          "running": 481,
+          "waiting": 817,
+          "entry_vh": 307.2792222222283,
+          "network_vh": 461.52022222222286,
+          "total_vh": 768.7994444444512,
+          "completed_delay_s": 150.47539684943982,
+          "teleports": 0,
+          "collisions": 0,
+          "timing_warning": false,
+          "local": {
+            "target": {
+              "front_crossings": 1529,
+              "queue_m": 269.2758333333333
+            },
+            "donor": {
+              "front_crossings": 2524,
+              "queue_m": 228.8575
+            },
+            "other": {
+              "front_crossings": 8705,
+              "queue_m": 424.6958333333333
+            }
+          }
+        },
+        {
+          "seed": 307,
+          "begin_s": 0,
+          "end_s": 3600,
+          "planned": 7900,
+          "inserted": 7194,
+          "arrived": 6686,
+          "running": 508,
+          "waiting": 706,
+          "entry_vh": 297.1590277777812,
+          "network_vh": 455.94752777777904,
+          "total_vh": 753.1065555555602,
+          "completed_delay_s": 147.1042820819628,
+          "teleports": 0,
+          "collisions": 0,
+          "timing_warning": false,
+          "local": {
+            "target": {
+              "front_crossings": 1569,
+              "queue_m": 267.64
+            },
+            "donor": {
+              "front_crossings": 2529,
+              "queue_m": 224.52583333333334
+            },
+            "other": {
+              "front_crossings": 8844,
+              "queue_m": 409.97333333333336
+            }
+          }
+        },
+        {
+          "seed": 401,
+          "begin_s": 0,
+          "end_s": 3600,
+          "planned": 7900,
+          "inserted": 7032,
+          "arrived": 6543,
+          "running": 489,
+          "waiting": 868,
+          "entry_vh": 327.75836111112346,
+          "network_vh": 461.59733333332645,
+          "total_vh": 789.3556944444499,
+          "completed_delay_s": 149.11072749503262,
+          "teleports": 0,
+          "collisions": 0,
+          "timing_warning": false,
+          "local": {
+            "target": {
+              "front_crossings": 1459,
+              "queue_m": 271.09749999999997
+            },
+            "donor": {
+              "front_crossings": 2517,
+              "queue_m": 227.2175
+            },
+            "other": {
+              "front_crossings": 8636,
+              "queue_m": 418.3475
+            }
+          }
+        },
+        {
+          "seed": 503,
+          "begin_s": 0,
+          "end_s": 3600,
+          "planned": 7900,
+          "inserted": 7068,
+          "arrived": 6574,
+          "running": 494,
+          "waiting": 832,
+          "entry_vh": 328.94752777777256,
+          "network_vh": 459.43413888888614,
+          "total_vh": 788.3816666666587,
+          "completed_delay_s": 151.7097581381198,
+          "teleports": 0,
+          "collisions": 0,
+          "timing_warning": false,
+          "local": {
+            "target": {
+              "front_crossings": 1528,
+              "queue_m": 267.56416666666667
+            },
+            "donor": {
+              "front_crossings": 2522,
+              "queue_m": 228.765
+            },
+            "other": {
+              "front_crossings": 8673,
+              "queue_m": 424.3958333333333
+            }
+          }
+        },
+        {
+          "seed": 601,
+          "begin_s": 0,
+          "end_s": 3600,
+          "planned": 7900,
+          "inserted": 7116,
+          "arrived": 6629,
+          "running": 487,
+          "waiting": 784,
+          "entry_vh": 297.4855277777787,
+          "network_vh": 456.2851944444443,
+          "total_vh": 753.7707222222231,
+          "completed_delay_s": 146.66216020515895,
+          "teleports": 0,
+          "collisions": 0,
+          "timing_warning": false,
+          "local": {
+            "target": {
+              "front_crossings": 1529,
+              "queue_m": 266.9875
+            },
+            "donor": {
+              "front_crossings": 2528,
+              "queue_m": 225.94416666666666
+            },
+            "other": {
+              "front_crossings": 8748,
+              "queue_m": 420.89666666666665
+            }
+          }
+        }
+      ],
+      "treatment": [
+        {
+          "seed": 211,
+          "begin_s": 0,
+          "end_s": 3600,
+          "planned": 7900,
+          "inserted": 7226,
+          "arrived": 6743,
+          "running": 483,
+          "waiting": 674,
+          "entry_vh": 247.0161111111111,
+          "network_vh": 447.1622499999997,
+          "total_vh": 694.1783611111108,
+          "completed_delay_s": 138.86084977013172,
+          "teleports": 0,
+          "collisions": 0,
+          "timing_warning": false,
+          "local": {
+            "target": {
+              "front_crossings": 1648,
+              "queue_m": 264.70666666666665
+            },
+            "donor": {
+              "front_crossings": 2545,
+              "queue_m": 212.16666666666666
+            },
+            "other": {
+              "front_crossings": 8914,
+              "queue_m": 416.2341666666667
+            }
+          }
+        },
+        {
+          "seed": 307,
+          "begin_s": 0,
+          "end_s": 3600,
+          "planned": 7900,
+          "inserted": 7130,
+          "arrived": 6623,
+          "running": 507,
+          "waiting": 770,
+          "entry_vh": 287.87683333334155,
+          "network_vh": 457.93405555555944,
+          "total_vh": 745.8108888889011,
+          "completed_delay_s": 146.95646534802998,
+          "teleports": 2,
+          "collisions": 0,
+          "timing_warning": false,
+          "local": {
+            "target": {
+              "front_crossings": 1571,
+              "queue_m": 270.20750000000004
+            },
+            "donor": {
+              "front_crossings": 2508,
+              "queue_m": 227.39583333333334
+            },
+            "other": {
+              "front_crossings": 8745,
+              "queue_m": 418.5283333333333
+            }
+          }
+        },
+        {
+          "seed": 401,
+          "begin_s": 0,
+          "end_s": 3600,
+          "planned": 7900,
+          "inserted": 7190,
+          "arrived": 6712,
+          "running": 478,
+          "waiting": 710,
+          "entry_vh": 265.1639722222222,
+          "network_vh": 447.56958333333444,
+          "total_vh": 712.7335555555567,
+          "completed_delay_s": 141.9924791418357,
+          "teleports": 0,
+          "collisions": 0,
+          "timing_warning": false,
+          "local": {
+            "target": {
+              "front_crossings": 1611,
+              "queue_m": 267.7925
+            },
+            "donor": {
+              "front_crossings": 2543,
+              "queue_m": 216.26583333333332
+            },
+            "other": {
+              "front_crossings": 8861,
+              "queue_m": 416.10333333333335
+            }
+          }
+        },
+        {
+          "seed": 503,
+          "begin_s": 0,
+          "end_s": 3600,
+          "planned": 7900,
+          "inserted": 7208,
+          "arrived": 6726,
+          "running": 482,
+          "waiting": 692,
+          "entry_vh": 272.5978888888844,
+          "network_vh": 448.3000277777778,
+          "total_vh": 720.8979166666622,
+          "completed_delay_s": 143.24245019327964,
+          "teleports": 0,
+          "collisions": 0,
+          "timing_warning": false,
+          "local": {
+            "target": {
+              "front_crossings": 1607,
+              "queue_m": 266.1191666666667
+            },
+            "donor": {
+              "front_crossings": 2543,
+              "queue_m": 213.07583333333332
+            },
+            "other": {
+              "front_crossings": 8869,
+              "queue_m": 416.19083333333333
+            }
+          }
+        },
+        {
+          "seed": 601,
+          "begin_s": 0,
+          "end_s": 3600,
+          "planned": 7900,
+          "inserted": 7218,
+          "arrived": 6713,
+          "running": 505,
+          "waiting": 682,
+          "entry_vh": 294.8070833333323,
+          "network_vh": 447.87874999999724,
+          "total_vh": 742.6858333333295,
+          "completed_delay_s": 142.17570832712653,
+          "teleports": 0,
+          "collisions": 0,
+          "timing_warning": false,
+          "local": {
+            "target": {
+              "front_crossings": 1600,
+              "queue_m": 265.8491666666667
+            },
+            "donor": {
+              "front_crossings": 2545,
+              "queue_m": 212.1525
+            },
+            "other": {
+              "front_crossings": 8867,
+              "queue_m": 410.7025
+            }
+          }
+        }
+      ]
+    },
+    {
+      "case_id": "H03",
+      "same_demand_structure": true,
+      "demand_structure_evidence": "Frozen common OD proportions and departure-window construction; vehicle types are supply perturbations.",
+      "reference": [
+        {
+          "seed": 211,
+          "begin_s": 0,
+          "end_s": 3600,
+          "planned": 7900,
+          "inserted": 7083,
+          "arrived": 6602,
+          "running": 481,
+          "waiting": 817,
+          "entry_vh": 307.2792222222283,
+          "network_vh": 461.52022222222286,
+          "total_vh": 768.7994444444512,
+          "completed_delay_s": 150.47539684943982,
+          "teleports": 0,
+          "collisions": 0,
+          "timing_warning": false,
+          "local": {
+            "target": {
+              "front_crossings": 1529,
+              "queue_m": 269.2758333333333
+            },
+            "donor": {
+              "front_crossings": 2524,
+              "queue_m": 228.8575
+            },
+            "other": {
+              "front_crossings": 8705,
+              "queue_m": 424.6958333333333
+            }
+          }
+        },
+        {
+          "seed": 307,
+          "begin_s": 0,
+          "end_s": 3600,
+          "planned": 7900,
+          "inserted": 7194,
+          "arrived": 6686,
+          "running": 508,
+          "waiting": 706,
+          "entry_vh": 297.1590277777812,
+          "network_vh": 455.94752777777904,
+          "total_vh": 753.1065555555602,
+          "completed_delay_s": 147.1042820819628,
+          "teleports": 0,
+          "collisions": 0,
+          "timing_warning": false,
+          "local": {
+            "target": {
+              "front_crossings": 1569,
+              "queue_m": 267.64
+            },
+            "donor": {
+              "front_crossings": 2529,
+              "queue_m": 224.52583333333334
+            },
+            "other": {
+              "front_crossings": 8844,
+              "queue_m": 409.97333333333336
+            }
+          }
+        },
+        {
+          "seed": 401,
+          "begin_s": 0,
+          "end_s": 3600,
+          "planned": 7900,
+          "inserted": 7032,
+          "arrived": 6543,
+          "running": 489,
+          "waiting": 868,
+          "entry_vh": 327.75836111112346,
+          "network_vh": 461.59733333332645,
+          "total_vh": 789.3556944444499,
+          "completed_delay_s": 149.11072749503262,
+          "teleports": 0,
+          "collisions": 0,
+          "timing_warning": false,
+          "local": {
+            "target": {
+              "front_crossings": 1459,
+              "queue_m": 271.09749999999997
+            },
+            "donor": {
+              "front_crossings": 2517,
+              "queue_m": 227.2175
+            },
+            "other": {
+              "front_crossings": 8636,
+              "queue_m": 418.3475
+            }
+          }
+        },
+        {
+          "seed": 503,
+          "begin_s": 0,
+          "end_s": 3600,
+          "planned": 7900,
+          "inserted": 7068,
+          "arrived": 6574,
+          "running": 494,
+          "waiting": 832,
+          "entry_vh": 328.94752777777256,
+          "network_vh": 459.43413888888614,
+          "total_vh": 788.3816666666587,
+          "completed_delay_s": 151.7097581381198,
+          "teleports": 0,
+          "collisions": 0,
+          "timing_warning": false,
+          "local": {
+            "target": {
+              "front_crossings": 1528,
+              "queue_m": 267.56416666666667
+            },
+            "donor": {
+              "front_crossings": 2522,
+              "queue_m": 228.765
+            },
+            "other": {
+              "front_crossings": 8673,
+              "queue_m": 424.3958333333333
+            }
+          }
+        },
+        {
+          "seed": 601,
+          "begin_s": 0,
+          "end_s": 3600,
+          "planned": 7900,
+          "inserted": 7116,
+          "arrived": 6629,
+          "running": 487,
+          "waiting": 784,
+          "entry_vh": 297.4855277777787,
+          "network_vh": 456.2851944444443,
+          "total_vh": 753.7707222222231,
+          "completed_delay_s": 146.66216020515895,
+          "teleports": 0,
+          "collisions": 0,
+          "timing_warning": false,
+          "local": {
+            "target": {
+              "front_crossings": 1529,
+              "queue_m": 266.9875
+            },
+            "donor": {
+              "front_crossings": 2528,
+              "queue_m": 225.94416666666666
+            },
+            "other": {
+              "front_crossings": 8748,
+              "queue_m": 420.89666666666665
+            }
+          }
+        }
+      ],
+      "treatment": [
+        {
+          "seed": 211,
+          "begin_s": 0,
+          "end_s": 3600,
+          "planned": 7900,
+          "inserted": 7278,
+          "arrived": 6818,
+          "running": 460,
+          "waiting": 622,
+          "entry_vh": 241.89819444444484,
+          "network_vh": 445.7165000000053,
+          "total_vh": 687.6146944444502,
+          "completed_delay_s": 139.1550220005866,
+          "teleports": 0,
+          "collisions": 0,
+          "timing_warning": false,
+          "local": {
+            "target": {
+              "front_crossings": 1675,
+              "queue_m": 262.8608333333333
+            },
+            "donor": {
+              "front_crossings": 2558,
+              "queue_m": 205.79666666666668
+            },
+            "other": {
+              "front_crossings": 9027,
+              "queue_m": 409.7275
+            }
+          }
+        },
+        {
+          "seed": 307,
+          "begin_s": 0,
+          "end_s": 3600,
+          "planned": 7900,
+          "inserted": 7181,
+          "arrived": 6728,
+          "running": 453,
+          "waiting": 719,
+          "entry_vh": 238.01474999999994,
+          "network_vh": 451.5749999999982,
+          "total_vh": 689.5897499999982,
+          "completed_delay_s": 137.15760255648047,
+          "teleports": 0,
+          "collisions": 0,
+          "timing_warning": false,
+          "local": {
+            "target": {
+              "front_crossings": 1589,
+              "queue_m": 270.7966666666667
+            },
+            "donor": {
+              "front_crossings": 2550,
+              "queue_m": 205.43166666666667
+            },
+            "other": {
+              "front_crossings": 8883,
+              "queue_m": 413.87916666666666
+            }
+          }
+        },
+        {
+          "seed": 401,
+          "begin_s": 0,
+          "end_s": 3600,
+          "planned": 7900,
+          "inserted": 7176,
+          "arrived": 6700,
+          "running": 476,
+          "waiting": 724,
+          "entry_vh": 248.65188888888915,
+          "network_vh": 447.6069166666633,
+          "total_vh": 696.2588055555525,
+          "completed_delay_s": 136.49810447761192,
+          "teleports": 0,
+          "collisions": 0,
+          "timing_warning": false,
+          "local": {
+            "target": {
+              "front_crossings": 1620,
+              "queue_m": 270.31333333333333
+            },
+            "donor": {
+              "front_crossings": 2547,
+              "queue_m": 202.85583333333335
+            },
+            "other": {
+              "front_crossings": 8815,
+              "queue_m": 419.68583333333333
+            }
+          }
+        },
+        {
+          "seed": 503,
+          "begin_s": 0,
+          "end_s": 3600,
+          "planned": 7900,
+          "inserted": 7231,
+          "arrived": 6760,
+          "running": 471,
+          "waiting": 669,
+          "entry_vh": 233.23997222222857,
+          "network_vh": 446.3421388888885,
+          "total_vh": 679.5821111111171,
+          "completed_delay_s": 138.17921745562182,
+          "teleports": 2,
+          "collisions": 1,
+          "timing_warning": false,
+          "local": {
+            "target": {
+              "front_crossings": 1643,
+              "queue_m": 268.39
+            },
+            "donor": {
+              "front_crossings": 2553,
+              "queue_m": 201.53166666666667
+            },
+            "other": {
+              "front_crossings": 8940,
+              "queue_m": 413.50083333333333
+            }
+          }
+        },
+        {
+          "seed": 601,
+          "begin_s": 0,
+          "end_s": 3600,
+          "planned": 7900,
+          "inserted": 7260,
+          "arrived": 6799,
+          "running": 461,
+          "waiting": 640,
+          "entry_vh": 240.1377222222194,
+          "network_vh": 443.76083333332696,
+          "total_vh": 683.8985555555463,
+          "completed_delay_s": 137.66230033828515,
+          "teleports": 0,
+          "collisions": 0,
+          "timing_warning": false,
+          "local": {
+            "target": {
+              "front_crossings": 1676,
+              "queue_m": 265.5416666666667
+            },
+            "donor": {
+              "front_crossings": 2553,
+              "queue_m": 203.63916666666665
+            },
+            "other": {
+              "front_crossings": 8981,
+              "queue_m": 407.67833333333334
+            }
+          }
+        }
+      ]
+    },
+    {
+      "case_id": "H04",
+      "same_demand_structure": true,
+      "demand_structure_evidence": "Frozen common OD proportions and departure-window construction; vehicle types are supply perturbations.",
+      "reference": [
+        {
+          "seed": 211,
+          "begin_s": 0,
+          "end_s": 3600,
+          "planned": 7900,
+          "inserted": 7083,
+          "arrived": 6602,
+          "running": 481,
+          "waiting": 817,
+          "entry_vh": 307.2792222222283,
+          "network_vh": 461.52022222222286,
+          "total_vh": 768.7994444444512,
+          "completed_delay_s": 150.47539684943982,
+          "teleports": 0,
+          "collisions": 0,
+          "timing_warning": false,
+          "local": {
+            "target": {
+              "front_crossings": 1529,
+              "queue_m": 269.2758333333333
+            },
+            "donor": {
+              "front_crossings": 2524,
+              "queue_m": 228.8575
+            },
+            "other": {
+              "front_crossings": 8705,
+              "queue_m": 424.6958333333333
+            }
+          }
+        },
+        {
+          "seed": 307,
+          "begin_s": 0,
+          "end_s": 3600,
+          "planned": 7900,
+          "inserted": 7194,
+          "arrived": 6686,
+          "running": 508,
+          "waiting": 706,
+          "entry_vh": 297.1590277777812,
+          "network_vh": 455.94752777777904,
+          "total_vh": 753.1065555555602,
+          "completed_delay_s": 147.1042820819628,
+          "teleports": 0,
+          "collisions": 0,
+          "timing_warning": false,
+          "local": {
+            "target": {
+              "front_crossings": 1569,
+              "queue_m": 267.64
+            },
+            "donor": {
+              "front_crossings": 2529,
+              "queue_m": 224.52583333333334
+            },
+            "other": {
+              "front_crossings": 8844,
+              "queue_m": 409.97333333333336
+            }
+          }
+        },
+        {
+          "seed": 401,
+          "begin_s": 0,
+          "end_s": 3600,
+          "planned": 7900,
+          "inserted": 7032,
+          "arrived": 6543,
+          "running": 489,
+          "waiting": 868,
+          "entry_vh": 327.75836111112346,
+          "network_vh": 461.59733333332645,
+          "total_vh": 789.3556944444499,
+          "completed_delay_s": 149.11072749503262,
+          "teleports": 0,
+          "collisions": 0,
+          "timing_warning": false,
+          "local": {
+            "target": {
+              "front_crossings": 1459,
+              "queue_m": 271.09749999999997
+            },
+            "donor": {
+              "front_crossings": 2517,
+              "queue_m": 227.2175
+            },
+            "other": {
+              "front_crossings": 8636,
+              "queue_m": 418.3475
+            }
+          }
+        },
+        {
+          "seed": 503,
+          "begin_s": 0,
+          "end_s": 3600,
+          "planned": 7900,
+          "inserted": 7068,
+          "arrived": 6574,
+          "running": 494,
+          "waiting": 832,
+          "entry_vh": 328.94752777777256,
+          "network_vh": 459.43413888888614,
+          "total_vh": 788.3816666666587,
+          "completed_delay_s": 151.7097581381198,
+          "teleports": 0,
+          "collisions": 0,
+          "timing_warning": false,
+          "local": {
+            "target": {
+              "front_crossings": 1528,
+              "queue_m": 267.56416666666667
+            },
+            "donor": {
+              "front_crossings": 2522,
+              "queue_m": 228.765
+            },
+            "other": {
+              "front_crossings": 8673,
+              "queue_m": 424.3958333333333
+            }
+          }
+        },
+        {
+          "seed": 601,
+          "begin_s": 0,
+          "end_s": 3600,
+          "planned": 7900,
+          "inserted": 7116,
+          "arrived": 6629,
+          "running": 487,
+          "waiting": 784,
+          "entry_vh": 297.4855277777787,
+          "network_vh": 456.2851944444443,
+          "total_vh": 753.7707222222231,
+          "completed_delay_s": 146.66216020515895,
+          "teleports": 0,
+          "collisions": 0,
+          "timing_warning": false,
+          "local": {
+            "target": {
+              "front_crossings": 1529,
+              "queue_m": 266.9875
+            },
+            "donor": {
+              "front_crossings": 2528,
+              "queue_m": 225.94416666666666
+            },
+            "other": {
+              "front_crossings": 8748,
+              "queue_m": 420.89666666666665
+            }
+          }
+        }
+      ],
+      "treatment": [
+        {
+          "seed": 211,
+          "begin_s": 0,
+          "end_s": 3600,
+          "planned": 7900,
+          "inserted": 7342,
+          "arrived": 6682,
+          "running": 660,
+          "waiting": 558,
+          "entry_vh": 216.4130833333317,
+          "network_vh": 510.41300000000075,
+          "total_vh": 726.8260833333323,
+          "completed_delay_s": 166.85429512122107,
+          "teleports": 0,
+          "collisions": 0,
+          "timing_warning": false,
+          "local": {
+            "target": {
+              "front_crossings": 1824,
+              "queue_m": 240.11416666666665
+            },
+            "donor": {
+              "front_crossings": 2306,
+              "queue_m": 334.7975
+            },
+            "other": {
+              "front_crossings": 9002,
+              "queue_m": 420.44666666666666
+            }
+          }
+        },
+        {
+          "seed": 307,
+          "begin_s": 0,
+          "end_s": 3600,
+          "planned": 7900,
+          "inserted": 7328,
+          "arrived": 6668,
+          "running": 660,
+          "waiting": 572,
+          "entry_vh": 203.5761666666687,
+          "network_vh": 513.2903611111049,
+          "total_vh": 716.8665277777736,
+          "completed_delay_s": 166.80299340131964,
+          "teleports": 3,
+          "collisions": 3,
+          "timing_warning": false,
+          "local": {
+            "target": {
+              "front_crossings": 1777,
+              "queue_m": 241.92000000000002
+            },
+            "donor": {
+              "front_crossings": 2306,
+              "queue_m": 333.07
+            },
+            "other": {
+              "front_crossings": 9001,
+              "queue_m": 427.17
+            }
+          }
+        },
+        {
+          "seed": 401,
+          "begin_s": 0,
+          "end_s": 3600,
+          "planned": 7900,
+          "inserted": 7366,
+          "arrived": 6687,
+          "running": 679,
+          "waiting": 534,
+          "entry_vh": 204.5826944444462,
+          "network_vh": 500.57802777777954,
+          "total_vh": 705.1607222222258,
+          "completed_delay_s": 161.03774487812197,
+          "teleports": 0,
+          "collisions": 0,
+          "timing_warning": false,
+          "local": {
+            "target": {
+              "front_crossings": 1784,
+              "queue_m": 243.46833333333333
+            },
+            "donor": {
+              "front_crossings": 2311,
+              "queue_m": 333.01666666666665
+            },
+            "other": {
+              "front_crossings": 9005,
+              "queue_m": 427.7875
+            }
+          }
+        },
+        {
+          "seed": 503,
+          "begin_s": 0,
+          "end_s": 3600,
+          "planned": 7900,
+          "inserted": 7357,
+          "arrived": 6678,
+          "running": 679,
+          "waiting": 543,
+          "entry_vh": 202.96691666666916,
+          "network_vh": 509.06347222221467,
+          "total_vh": 712.0303888888839,
+          "completed_delay_s": 165.23650943396183,
+          "teleports": 0,
+          "collisions": 0,
+          "timing_warning": false,
+          "local": {
+            "target": {
+              "front_crossings": 1811,
+              "queue_m": 235.44333333333333
+            },
+            "donor": {
+              "front_crossings": 2302,
+              "queue_m": 335.0375
+            },
+            "other": {
+              "front_crossings": 8984,
+              "queue_m": 434.2758333333333
+            }
+          }
+        },
+        {
+          "seed": 601,
+          "begin_s": 0,
+          "end_s": 3600,
+          "planned": 7900,
+          "inserted": 7396,
+          "arrived": 6680,
+          "running": 716,
+          "waiting": 504,
+          "entry_vh": 176.17286111111025,
+          "network_vh": 517.609138888894,
+          "total_vh": 693.7820000000044,
+          "completed_delay_s": 167.16718263473047,
+          "teleports": 2,
+          "collisions": 2,
+          "timing_warning": false,
+          "local": {
+            "target": {
+              "front_crossings": 1870,
+              "queue_m": 233.96666666666667
+            },
+            "donor": {
+              "front_crossings": 2258,
+              "queue_m": 339.84083333333336
+            },
+            "other": {
+              "front_crossings": 9041,
+              "queue_m": 442.6775
+            }
+          }
+        }
+      ]
+    },
+    {
+      "case_id": "H05",
+      "same_demand_structure": true,
+      "demand_structure_evidence": "Frozen common OD proportions and departure-window construction; vehicle types are supply perturbations.",
+      "reference": [
+        {
+          "seed": 211,
+          "begin_s": 0,
+          "end_s": 3600,
+          "planned": 7900,
+          "inserted": 7083,
+          "arrived": 6602,
+          "running": 481,
+          "waiting": 817,
+          "entry_vh": 307.2792222222283,
+          "network_vh": 461.52022222222286,
+          "total_vh": 768.7994444444512,
+          "completed_delay_s": 150.47539684943982,
+          "teleports": 0,
+          "collisions": 0,
+          "timing_warning": false,
+          "local": {
+            "target": {
+              "front_crossings": 1529,
+              "queue_m": 269.2758333333333
+            },
+            "donor": {
+              "front_crossings": 2524,
+              "queue_m": 228.8575
+            },
+            "other": {
+              "front_crossings": 8705,
+              "queue_m": 424.6958333333333
+            }
+          }
+        },
+        {
+          "seed": 307,
+          "begin_s": 0,
+          "end_s": 3600,
+          "planned": 7900,
+          "inserted": 7194,
+          "arrived": 6686,
+          "running": 508,
+          "waiting": 706,
+          "entry_vh": 297.1590277777812,
+          "network_vh": 455.94752777777904,
+          "total_vh": 753.1065555555602,
+          "completed_delay_s": 147.1042820819628,
+          "teleports": 0,
+          "collisions": 0,
+          "timing_warning": false,
+          "local": {
+            "target": {
+              "front_crossings": 1569,
+              "queue_m": 267.64
+            },
+            "donor": {
+              "front_crossings": 2529,
+              "queue_m": 224.52583333333334
+            },
+            "other": {
+              "front_crossings": 8844,
+              "queue_m": 409.97333333333336
+            }
+          }
+        },
+        {
+          "seed": 401,
+          "begin_s": 0,
+          "end_s": 3600,
+          "planned": 7900,
+          "inserted": 7032,
+          "arrived": 6543,
+          "running": 489,
+          "waiting": 868,
+          "entry_vh": 327.75836111112346,
+          "network_vh": 461.59733333332645,
+          "total_vh": 789.3556944444499,
+          "completed_delay_s": 149.11072749503262,
+          "teleports": 0,
+          "collisions": 0,
+          "timing_warning": false,
+          "local": {
+            "target": {
+              "front_crossings": 1459,
+              "queue_m": 271.09749999999997
+            },
+            "donor": {
+              "front_crossings": 2517,
+              "queue_m": 227.2175
+            },
+            "other": {
+              "front_crossings": 8636,
+              "queue_m": 418.3475
+            }
+          }
+        },
+        {
+          "seed": 503,
+          "begin_s": 0,
+          "end_s": 3600,
+          "planned": 7900,
+          "inserted": 7068,
+          "arrived": 6574,
+          "running": 494,
+          "waiting": 832,
+          "entry_vh": 328.94752777777256,
+          "network_vh": 459.43413888888614,
+          "total_vh": 788.3816666666587,
+          "completed_delay_s": 151.7097581381198,
+          "teleports": 0,
+          "collisions": 0,
+          "timing_warning": false,
+          "local": {
+            "target": {
+              "front_crossings": 1528,
+              "queue_m": 267.56416666666667
+            },
+            "donor": {
+              "front_crossings": 2522,
+              "queue_m": 228.765
+            },
+            "other": {
+              "front_crossings": 8673,
+              "queue_m": 424.3958333333333
+            }
+          }
+        },
+        {
+          "seed": 601,
+          "begin_s": 0,
+          "end_s": 3600,
+          "planned": 7900,
+          "inserted": 7116,
+          "arrived": 6629,
+          "running": 487,
+          "waiting": 784,
+          "entry_vh": 297.4855277777787,
+          "network_vh": 456.2851944444443,
+          "total_vh": 753.7707222222231,
+          "completed_delay_s": 146.66216020515895,
+          "teleports": 0,
+          "collisions": 0,
+          "timing_warning": false,
+          "local": {
+            "target": {
+              "front_crossings": 1529,
+              "queue_m": 266.9875
+            },
+            "donor": {
+              "front_crossings": 2528,
+              "queue_m": 225.94416666666666
+            },
+            "other": {
+              "front_crossings": 8748,
+              "queue_m": 420.89666666666665
+            }
+          }
+        }
+      ],
+      "treatment": [
+        {
+          "seed": 211,
+          "begin_s": 0,
+          "end_s": 3600,
+          "planned": 7900,
+          "inserted": 7670,
+          "arrived": 7130,
+          "running": 540,
+          "waiting": 230,
+          "entry_vh": 56.54166666666639,
+          "network_vh": 440.62452777777753,
+          "total_vh": 497.16619444444393,
+          "completed_delay_s": 122.65035624123426,
+          "teleports": 1207,
+          "collisions": 1207,
+          "timing_warning": true,
+          "local": {
+            "target": {
+              "front_crossings": 1705,
+              "queue_m": 259.0266666666667
+            },
+            "donor": {
+              "front_crossings": 2488,
+              "queue_m": 206.67583333333334
+            },
+            "other": {
+              "front_crossings": 9482,
+              "queue_m": 469.33
+            }
+          }
+        },
+        {
+          "seed": 307,
+          "begin_s": 0,
+          "end_s": 3600,
+          "planned": 7900,
+          "inserted": 7814,
+          "arrived": 7307,
+          "running": 507,
+          "waiting": 86,
+          "entry_vh": 6.505805555555556,
+          "network_vh": 403.63863888888096,
+          "total_vh": 410.1444444444365,
+          "completed_delay_s": 100.28351991241276,
+          "teleports": 954,
+          "collisions": 954,
+          "timing_warning": true,
+          "local": {
+            "target": {
+              "front_crossings": 1847,
+              "queue_m": 248.33083333333332
+            },
+            "donor": {
+              "front_crossings": 2523,
+              "queue_m": 197.11416666666668
+            },
+            "other": {
+              "front_crossings": 9762,
+              "queue_m": 447.1225
+            }
+          }
+        },
+        {
+          "seed": 401,
+          "begin_s": 0,
+          "end_s": 3600,
+          "planned": 7900,
+          "inserted": 7782,
+          "arrived": 7242,
+          "running": 540,
+          "waiting": 118,
+          "entry_vh": 8.772361111111111,
+          "network_vh": 397.1351666666701,
+          "total_vh": 405.90752777778124,
+          "completed_delay_s": 94.57821320077313,
+          "teleports": 880,
+          "collisions": 880,
+          "timing_warning": true,
+          "local": {
+            "target": {
+              "front_crossings": 1823,
+              "queue_m": 242.60583333333332
+            },
+            "donor": {
+              "front_crossings": 2526,
+              "queue_m": 198.7425
+            },
+            "other": {
+              "front_crossings": 9652,
+              "queue_m": 443.80083333333334
+            }
+          }
+        },
+        {
+          "seed": 503,
+          "begin_s": 0,
+          "end_s": 3600,
+          "planned": 7900,
+          "inserted": 7867,
+          "arrived": 7332,
+          "running": 535,
+          "waiting": 33,
+          "entry_vh": 3.9701944444444393,
+          "network_vh": 391.6597222222287,
+          "total_vh": 395.6299166666731,
+          "completed_delay_s": 96.26022640480092,
+          "teleports": 891,
+          "collisions": 891,
+          "timing_warning": true,
+          "local": {
+            "target": {
+              "front_crossings": 1904,
+              "queue_m": 240.65833333333333
+            },
+            "donor": {
+              "front_crossings": 2521,
+              "queue_m": 196.55083333333334
+            },
+            "other": {
+              "front_crossings": 9782,
+              "queue_m": 431.72083333333336
+            }
+          }
+        },
+        {
+          "seed": 601,
+          "begin_s": 0,
+          "end_s": 3600,
+          "planned": 7900,
+          "inserted": 7697,
+          "arrived": 7171,
+          "running": 526,
+          "waiting": 203,
+          "entry_vh": 45.4539722222222,
+          "network_vh": 450.7756944444386,
+          "total_vh": 496.2296666666608,
+          "completed_delay_s": 126.48369125644946,
+          "teleports": 1389,
+          "collisions": 1385,
+          "timing_warning": true,
+          "local": {
+            "target": {
+              "front_crossings": 1615,
+              "queue_m": 268.8641666666667
+            },
+            "donor": {
+              "front_crossings": 2497,
+              "queue_m": 210.1525
+            },
+            "other": {
+              "front_crossings": 9567,
+              "queue_m": 478.0416666666667
+            }
+          }
+        }
+      ]
+    },
+    {
+      "case_id": "H06",
+      "same_demand_structure": true,
+      "demand_structure_evidence": "Frozen common OD proportions and departure-window construction; vehicle types are supply perturbations.",
+      "reference": [
+        {
+          "seed": 211,
+          "begin_s": 0,
+          "end_s": 3600,
+          "planned": 7900,
+          "inserted": 7083,
+          "arrived": 6602,
+          "running": 481,
+          "waiting": 817,
+          "entry_vh": 307.2792222222283,
+          "network_vh": 461.52022222222286,
+          "total_vh": 768.7994444444512,
+          "completed_delay_s": 150.47539684943982,
+          "teleports": 0,
+          "collisions": 0,
+          "timing_warning": false,
+          "local": {
+            "target": {
+              "front_crossings": 1529,
+              "queue_m": 269.2758333333333
+            },
+            "donor": {
+              "front_crossings": 2524,
+              "queue_m": 228.8575
+            },
+            "other": {
+              "front_crossings": 8705,
+              "queue_m": 424.6958333333333
+            }
+          }
+        },
+        {
+          "seed": 307,
+          "begin_s": 0,
+          "end_s": 3600,
+          "planned": 7900,
+          "inserted": 7194,
+          "arrived": 6686,
+          "running": 508,
+          "waiting": 706,
+          "entry_vh": 297.1590277777812,
+          "network_vh": 455.94752777777904,
+          "total_vh": 753.1065555555602,
+          "completed_delay_s": 147.1042820819628,
+          "teleports": 0,
+          "collisions": 0,
+          "timing_warning": false,
+          "local": {
+            "target": {
+              "front_crossings": 1569,
+              "queue_m": 267.64
+            },
+            "donor": {
+              "front_crossings": 2529,
+              "queue_m": 224.52583333333334
+            },
+            "other": {
+              "front_crossings": 8844,
+              "queue_m": 409.97333333333336
+            }
+          }
+        },
+        {
+          "seed": 401,
+          "begin_s": 0,
+          "end_s": 3600,
+          "planned": 7900,
+          "inserted": 7032,
+          "arrived": 6543,
+          "running": 489,
+          "waiting": 868,
+          "entry_vh": 327.75836111112346,
+          "network_vh": 461.59733333332645,
+          "total_vh": 789.3556944444499,
+          "completed_delay_s": 149.11072749503262,
+          "teleports": 0,
+          "collisions": 0,
+          "timing_warning": false,
+          "local": {
+            "target": {
+              "front_crossings": 1459,
+              "queue_m": 271.09749999999997
+            },
+            "donor": {
+              "front_crossings": 2517,
+              "queue_m": 227.2175
+            },
+            "other": {
+              "front_crossings": 8636,
+              "queue_m": 418.3475
+            }
+          }
+        },
+        {
+          "seed": 503,
+          "begin_s": 0,
+          "end_s": 3600,
+          "planned": 7900,
+          "inserted": 7068,
+          "arrived": 6574,
+          "running": 494,
+          "waiting": 832,
+          "entry_vh": 328.94752777777256,
+          "network_vh": 459.43413888888614,
+          "total_vh": 788.3816666666587,
+          "completed_delay_s": 151.7097581381198,
+          "teleports": 0,
+          "collisions": 0,
+          "timing_warning": false,
+          "local": {
+            "target": {
+              "front_crossings": 1528,
+              "queue_m": 267.56416666666667
+            },
+            "donor": {
+              "front_crossings": 2522,
+              "queue_m": 228.765
+            },
+            "other": {
+              "front_crossings": 8673,
+              "queue_m": 424.3958333333333
+            }
+          }
+        },
+        {
+          "seed": 601,
+          "begin_s": 0,
+          "end_s": 3600,
+          "planned": 7900,
+          "inserted": 7116,
+          "arrived": 6629,
+          "running": 487,
+          "waiting": 784,
+          "entry_vh": 297.4855277777787,
+          "network_vh": 456.2851944444443,
+          "total_vh": 753.7707222222231,
+          "completed_delay_s": 146.66216020515895,
+          "teleports": 0,
+          "collisions": 0,
+          "timing_warning": false,
+          "local": {
+            "target": {
+              "front_crossings": 1529,
+              "queue_m": 266.9875
+            },
+            "donor": {
+              "front_crossings": 2528,
+              "queue_m": 225.94416666666666
+            },
+            "other": {
+              "front_crossings": 8748,
+              "queue_m": 420.89666666666665
+            }
+          }
+        }
+      ],
+      "treatment": [
+        {
+          "seed": 211,
+          "begin_s": 0,
+          "end_s": 3600,
+          "planned": 7268,
+          "inserted": 6791,
+          "arrived": 6341,
+          "running": 450,
+          "waiting": 477,
+          "entry_vh": 179.5314166666648,
+          "network_vh": 422.52347222222414,
+          "total_vh": 602.054888888889,
+          "completed_delay_s": 142.68451190663936,
+          "teleports": 0,
+          "collisions": 0,
+          "timing_warning": false,
+          "local": {
+            "target": {
+              "front_crossings": 1580,
+              "queue_m": 269.4083333333333
+            },
+            "donor": {
+              "front_crossings": 2360,
+              "queue_m": 192.7375
+            },
+            "other": {
+              "front_crossings": 8427,
+              "queue_m": 372.095
+            }
+          }
+        },
+        {
+          "seed": 307,
+          "begin_s": 0,
+          "end_s": 3600,
+          "planned": 7268,
+          "inserted": 6810,
+          "arrived": 6373,
+          "running": 437,
+          "waiting": 458,
+          "entry_vh": 176.0009722222243,
+          "network_vh": 418.4873055555587,
+          "total_vh": 594.4882777777829,
+          "completed_delay_s": 142.7117872273655,
+          "teleports": 0,
+          "collisions": 0,
+          "timing_warning": false,
+          "local": {
+            "target": {
+              "front_crossings": 1619,
+              "queue_m": 265.4066666666667
+            },
+            "donor": {
+              "front_crossings": 2362,
+              "queue_m": 188.41083333333333
+            },
+            "other": {
+              "front_crossings": 8465,
+              "queue_m": 375.65916666666664
+            }
+          }
+        },
+        {
+          "seed": 401,
+          "begin_s": 0,
+          "end_s": 3600,
+          "planned": 7268,
+          "inserted": 6804,
+          "arrived": 6364,
+          "running": 440,
+          "waiting": 464,
+          "entry_vh": 156.35272222222173,
+          "network_vh": 420.0611111111139,
+          "total_vh": 576.4138333333356,
+          "completed_delay_s": 139.6235339409182,
+          "teleports": 0,
+          "collisions": 0,
+          "timing_warning": false,
+          "local": {
+            "target": {
+              "front_crossings": 1602,
+              "queue_m": 265.8566666666667
+            },
+            "donor": {
+              "front_crossings": 2360,
+              "queue_m": 189.98
+            },
+            "other": {
+              "front_crossings": 8471,
+              "queue_m": 374.87
+            }
+          }
+        },
+        {
+          "seed": 503,
+          "begin_s": 0,
+          "end_s": 3600,
+          "planned": 7268,
+          "inserted": 6752,
+          "arrived": 6314,
+          "running": 438,
+          "waiting": 516,
+          "entry_vh": 182.12325000000183,
+          "network_vh": 418.2346666666698,
+          "total_vh": 600.3579166666716,
+          "completed_delay_s": 139.8146357301242,
+          "teleports": 0,
+          "collisions": 0,
+          "timing_warning": false,
+          "local": {
+            "target": {
+              "front_crossings": 1579,
+              "queue_m": 263.85749999999996
+            },
+            "donor": {
+              "front_crossings": 2357,
+              "queue_m": 191.78833333333333
+            },
+            "other": {
+              "front_crossings": 8406,
+              "queue_m": 376.4941666666667
+            }
+          }
+        },
+        {
+          "seed": 601,
+          "begin_s": 0,
+          "end_s": 3600,
+          "planned": 7268,
+          "inserted": 6799,
+          "arrived": 6345,
+          "running": 454,
+          "waiting": 469,
+          "entry_vh": 172.28263888888927,
+          "network_vh": 422.2192222222211,
+          "total_vh": 594.5018611111104,
+          "completed_delay_s": 141.24790858944047,
+          "teleports": 1,
+          "collisions": 1,
+          "timing_warning": false,
+          "local": {
+            "target": {
+              "front_crossings": 1590,
+              "queue_m": 267.16166666666663
+            },
+            "donor": {
+              "front_crossings": 2357,
+              "queue_m": 190.67333333333335
+            },
+            "other": {
+              "front_crossings": 8436,
+              "queue_m": 373.8025
+            }
+          }
+        }
+      ]
+    },
+    {
+      "case_id": "H07",
+      "same_demand_structure": true,
+      "demand_structure_evidence": "Frozen common OD proportions and departure-window construction; vehicle types are supply perturbations.",
+      "reference": [
+        {
+          "seed": 211,
+          "begin_s": 0,
+          "end_s": 3600,
+          "planned": 7900,
+          "inserted": 7083,
+          "arrived": 6602,
+          "running": 481,
+          "waiting": 817,
+          "entry_vh": 307.2792222222283,
+          "network_vh": 461.52022222222286,
+          "total_vh": 768.7994444444512,
+          "completed_delay_s": 150.47539684943982,
+          "teleports": 0,
+          "collisions": 0,
+          "timing_warning": false,
+          "local": {
+            "target": {
+              "front_crossings": 1529,
+              "queue_m": 269.2758333333333
+            },
+            "donor": {
+              "front_crossings": 2524,
+              "queue_m": 228.8575
+            },
+            "other": {
+              "front_crossings": 8705,
+              "queue_m": 424.6958333333333
+            }
+          }
+        },
+        {
+          "seed": 307,
+          "begin_s": 0,
+          "end_s": 3600,
+          "planned": 7900,
+          "inserted": 7194,
+          "arrived": 6686,
+          "running": 508,
+          "waiting": 706,
+          "entry_vh": 297.1590277777812,
+          "network_vh": 455.94752777777904,
+          "total_vh": 753.1065555555602,
+          "completed_delay_s": 147.1042820819628,
+          "teleports": 0,
+          "collisions": 0,
+          "timing_warning": false,
+          "local": {
+            "target": {
+              "front_crossings": 1569,
+              "queue_m": 267.64
+            },
+            "donor": {
+              "front_crossings": 2529,
+              "queue_m": 224.52583333333334
+            },
+            "other": {
+              "front_crossings": 8844,
+              "queue_m": 409.97333333333336
+            }
+          }
+        },
+        {
+          "seed": 401,
+          "begin_s": 0,
+          "end_s": 3600,
+          "planned": 7900,
+          "inserted": 7032,
+          "arrived": 6543,
+          "running": 489,
+          "waiting": 868,
+          "entry_vh": 327.75836111112346,
+          "network_vh": 461.59733333332645,
+          "total_vh": 789.3556944444499,
+          "completed_delay_s": 149.11072749503262,
+          "teleports": 0,
+          "collisions": 0,
+          "timing_warning": false,
+          "local": {
+            "target": {
+              "front_crossings": 1459,
+              "queue_m": 271.09749999999997
+            },
+            "donor": {
+              "front_crossings": 2517,
+              "queue_m": 227.2175
+            },
+            "other": {
+              "front_crossings": 8636,
+              "queue_m": 418.3475
+            }
+          }
+        },
+        {
+          "seed": 503,
+          "begin_s": 0,
+          "end_s": 3600,
+          "planned": 7900,
+          "inserted": 7068,
+          "arrived": 6574,
+          "running": 494,
+          "waiting": 832,
+          "entry_vh": 328.94752777777256,
+          "network_vh": 459.43413888888614,
+          "total_vh": 788.3816666666587,
+          "completed_delay_s": 151.7097581381198,
+          "teleports": 0,
+          "collisions": 0,
+          "timing_warning": false,
+          "local": {
+            "target": {
+              "front_crossings": 1528,
+              "queue_m": 267.56416666666667
+            },
+            "donor": {
+              "front_crossings": 2522,
+              "queue_m": 228.765
+            },
+            "other": {
+              "front_crossings": 8673,
+              "queue_m": 424.3958333333333
+            }
+          }
+        },
+        {
+          "seed": 601,
+          "begin_s": 0,
+          "end_s": 3600,
+          "planned": 7900,
+          "inserted": 7116,
+          "arrived": 6629,
+          "running": 487,
+          "waiting": 784,
+          "entry_vh": 297.4855277777787,
+          "network_vh": 456.2851944444443,
+          "total_vh": 753.7707222222231,
+          "completed_delay_s": 146.66216020515895,
+          "teleports": 0,
+          "collisions": 0,
+          "timing_warning": false,
+          "local": {
+            "target": {
+              "front_crossings": 1529,
+              "queue_m": 266.9875
+            },
+            "donor": {
+              "front_crossings": 2528,
+              "queue_m": 225.94416666666666
+            },
+            "other": {
+              "front_crossings": 8748,
+              "queue_m": 420.89666666666665
+            }
+          }
+        }
+      ],
+      "treatment": [
+        {
+          "seed": 211,
+          "begin_s": 0,
+          "end_s": 3600,
+          "planned": 7900,
+          "inserted": 7083,
+          "arrived": 6602,
+          "running": 481,
+          "waiting": 817,
+          "entry_vh": 307.2792222222283,
+          "network_vh": 461.52022222222286,
+          "total_vh": 768.7994444444512,
+          "completed_delay_s": 150.47539684943982,
+          "teleports": 0,
+          "collisions": 0,
+          "timing_warning": false,
+          "local": {
+            "target": {
+              "front_crossings": 1529,
+              "queue_m": 269.2758333333333
+            },
+            "donor": {
+              "front_crossings": 2524,
+              "queue_m": 228.8575
+            },
+            "other": {
+              "front_crossings": 8705,
+              "queue_m": 424.6958333333333
+            }
+          }
+        },
+        {
+          "seed": 307,
+          "begin_s": 0,
+          "end_s": 3600,
+          "planned": 7900,
+          "inserted": 7194,
+          "arrived": 6686,
+          "running": 508,
+          "waiting": 706,
+          "entry_vh": 297.1590277777812,
+          "network_vh": 455.94752777777904,
+          "total_vh": 753.1065555555602,
+          "completed_delay_s": 147.1042820819628,
+          "teleports": 0,
+          "collisions": 0,
+          "timing_warning": false,
+          "local": {
+            "target": {
+              "front_crossings": 1569,
+              "queue_m": 267.64
+            },
+            "donor": {
+              "front_crossings": 2529,
+              "queue_m": 224.52583333333334
+            },
+            "other": {
+              "front_crossings": 8844,
+              "queue_m": 409.97333333333336
+            }
+          }
+        },
+        {
+          "seed": 401,
+          "begin_s": 0,
+          "end_s": 3600,
+          "planned": 7900,
+          "inserted": 7032,
+          "arrived": 6543,
+          "running": 489,
+          "waiting": 868,
+          "entry_vh": 327.75836111112346,
+          "network_vh": 461.59733333332645,
+          "total_vh": 789.3556944444499,
+          "completed_delay_s": 149.11072749503262,
+          "teleports": 0,
+          "collisions": 0,
+          "timing_warning": false,
+          "local": {
+            "target": {
+              "front_crossings": 1459,
+              "queue_m": 271.09749999999997
+            },
+            "donor": {
+              "front_crossings": 2517,
+              "queue_m": 227.2175
+            },
+            "other": {
+              "front_crossings": 8636,
+              "queue_m": 418.3475
+            }
+          }
+        },
+        {
+          "seed": 503,
+          "begin_s": 0,
+          "end_s": 3600,
+          "planned": 7900,
+          "inserted": 7068,
+          "arrived": 6574,
+          "running": 494,
+          "waiting": 832,
+          "entry_vh": 328.94752777777256,
+          "network_vh": 459.43413888888614,
+          "total_vh": 788.3816666666587,
+          "completed_delay_s": 151.7097581381198,
+          "teleports": 0,
+          "collisions": 0,
+          "timing_warning": false,
+          "local": {
+            "target": {
+              "front_crossings": 1528,
+              "queue_m": 267.56416666666667
+            },
+            "donor": {
+              "front_crossings": 2522,
+              "queue_m": 228.765
+            },
+            "other": {
+              "front_crossings": 8673,
+              "queue_m": 424.3958333333333
+            }
+          }
+        },
+        {
+          "seed": 601,
+          "begin_s": 0,
+          "end_s": 3600,
+          "planned": 7900,
+          "inserted": 7116,
+          "arrived": 6629,
+          "running": 487,
+          "waiting": 784,
+          "entry_vh": 297.4855277777787,
+          "network_vh": 456.2851944444443,
+          "total_vh": 753.7707222222231,
+          "completed_delay_s": 146.66216020515895,
+          "teleports": 0,
+          "collisions": 0,
+          "timing_warning": false,
+          "local": {
+            "target": {
+              "front_crossings": 1529,
+              "queue_m": 266.9875
+            },
+            "donor": {
+              "front_crossings": 2528,
+              "queue_m": 225.94416666666666
+            },
+            "other": {
+              "front_crossings": 8748,
+              "queue_m": 420.89666666666665
+            }
+          }
+        }
+      ]
+    },
+    {
+      "case_id": "H08",
+      "same_demand_structure": true,
+      "demand_structure_evidence": "Frozen common OD proportions and departure-window construction; vehicle types are supply perturbations.",
+      "reference": [
+        {
+          "seed": 211,
+          "begin_s": 0,
+          "end_s": 3600,
+          "planned": 7900,
+          "inserted": 7083,
+          "arrived": 6602,
+          "running": 481,
+          "waiting": 817,
+          "entry_vh": 307.2792222222283,
+          "network_vh": 461.52022222222286,
+          "total_vh": 768.7994444444512,
+          "completed_delay_s": 150.47539684943982,
+          "teleports": 0,
+          "collisions": 0,
+          "timing_warning": false,
+          "local": {
+            "target": {
+              "front_crossings": 1529,
+              "queue_m": 269.2758333333333
+            },
+            "donor": {
+              "front_crossings": 2524,
+              "queue_m": 228.8575
+            },
+            "other": {
+              "front_crossings": 8705,
+              "queue_m": 424.6958333333333
+            }
+          }
+        },
+        {
+          "seed": 307,
+          "begin_s": 0,
+          "end_s": 3600,
+          "planned": 7900,
+          "inserted": 7194,
+          "arrived": 6686,
+          "running": 508,
+          "waiting": 706,
+          "entry_vh": 297.1590277777812,
+          "network_vh": 455.94752777777904,
+          "total_vh": 753.1065555555602,
+          "completed_delay_s": 147.1042820819628,
+          "teleports": 0,
+          "collisions": 0,
+          "timing_warning": false,
+          "local": {
+            "target": {
+              "front_crossings": 1569,
+              "queue_m": 267.64
+            },
+            "donor": {
+              "front_crossings": 2529,
+              "queue_m": 224.52583333333334
+            },
+            "other": {
+              "front_crossings": 8844,
+              "queue_m": 409.97333333333336
+            }
+          }
+        },
+        {
+          "seed": 401,
+          "begin_s": 0,
+          "end_s": 3600,
+          "planned": 7900,
+          "inserted": 7032,
+          "arrived": 6543,
+          "running": 489,
+          "waiting": 868,
+          "entry_vh": 327.75836111112346,
+          "network_vh": 461.59733333332645,
+          "total_vh": 789.3556944444499,
+          "completed_delay_s": 149.11072749503262,
+          "teleports": 0,
+          "collisions": 0,
+          "timing_warning": false,
+          "local": {
+            "target": {
+              "front_crossings": 1459,
+              "queue_m": 271.09749999999997
+            },
+            "donor": {
+              "front_crossings": 2517,
+              "queue_m": 227.2175
+            },
+            "other": {
+              "front_crossings": 8636,
+              "queue_m": 418.3475
+            }
+          }
+        },
+        {
+          "seed": 503,
+          "begin_s": 0,
+          "end_s": 3600,
+          "planned": 7900,
+          "inserted": 7068,
+          "arrived": 6574,
+          "running": 494,
+          "waiting": 832,
+          "entry_vh": 328.94752777777256,
+          "network_vh": 459.43413888888614,
+          "total_vh": 788.3816666666587,
+          "completed_delay_s": 151.7097581381198,
+          "teleports": 0,
+          "collisions": 0,
+          "timing_warning": false,
+          "local": {
+            "target": {
+              "front_crossings": 1528,
+              "queue_m": 267.56416666666667
+            },
+            "donor": {
+              "front_crossings": 2522,
+              "queue_m": 228.765
+            },
+            "other": {
+              "front_crossings": 8673,
+              "queue_m": 424.3958333333333
+            }
+          }
+        },
+        {
+          "seed": 601,
+          "begin_s": 0,
+          "end_s": 3600,
+          "planned": 7900,
+          "inserted": 7116,
+          "arrived": 6629,
+          "running": 487,
+          "waiting": 784,
+          "entry_vh": 297.4855277777787,
+          "network_vh": 456.2851944444443,
+          "total_vh": 753.7707222222231,
+          "completed_delay_s": 146.66216020515895,
+          "teleports": 0,
+          "collisions": 0,
+          "timing_warning": false,
+          "local": {
+            "target": {
+              "front_crossings": 1529,
+              "queue_m": 266.9875
+            },
+            "donor": {
+              "front_crossings": 2528,
+              "queue_m": 225.94416666666666
+            },
+            "other": {
+              "front_crossings": 8748,
+              "queue_m": 420.89666666666665
+            }
+          }
+        }
+      ],
+      "treatment": [
+        {
+          "seed": 211,
+          "begin_s": 0,
+          "end_s": 3600,
+          "planned": 8532,
+          "inserted": 7559,
+          "arrived": 6934,
+          "running": 625,
+          "waiting": 973,
+          "entry_vh": 414.66700000000424,
+          "network_vh": 523.3126111111156,
+          "total_vh": 937.9796111111198,
+          "completed_delay_s": 168.69649697144465,
+          "teleports": 0,
+          "collisions": 0,
+          "timing_warning": false,
+          "local": {
+            "target": {
+              "front_crossings": 1532,
+              "queue_m": 275.42333333333335
+            },
+            "donor": {
+              "front_crossings": 2565,
+              "queue_m": 320.68333333333334
+            },
+            "other": {
+              "front_crossings": 9248,
+              "queue_m": 462.4216666666667
+            }
+          }
+        },
+        {
+          "seed": 307,
+          "begin_s": 0,
+          "end_s": 3600,
+          "planned": 8532,
+          "inserted": 7579,
+          "arrived": 6919,
+          "running": 660,
+          "waiting": 953,
+          "entry_vh": 405.392249999998,
+          "network_vh": 529.2901111111055,
+          "total_vh": 934.6823611111034,
+          "completed_delay_s": 169.89215059979813,
+          "teleports": 3,
+          "collisions": 0,
+          "timing_warning": false,
+          "local": {
+            "target": {
+              "front_crossings": 1567,
+              "queue_m": 270.615
+            },
+            "donor": {
+              "front_crossings": 2543,
+              "queue_m": 333.34333333333336
+            },
+            "other": {
+              "front_crossings": 9236,
+              "queue_m": 471.7241666666667
+            }
+          }
+        },
+        {
+          "seed": 401,
+          "begin_s": 0,
+          "end_s": 3600,
+          "planned": 8532,
+          "inserted": 7583,
+          "arrived": 6923,
+          "running": 660,
+          "waiting": 949,
+          "entry_vh": 383.4177777777716,
+          "network_vh": 541.0842500000014,
+          "total_vh": 924.502027777773,
+          "completed_delay_s": 173.7267557417307,
+          "teleports": 6,
+          "collisions": 2,
+          "timing_warning": false,
+          "local": {
+            "target": {
+              "front_crossings": 1563,
+              "queue_m": 275.1825
+            },
+            "donor": {
+              "front_crossings": 2525,
+              "queue_m": 334.4941666666667
+            },
+            "other": {
+              "front_crossings": 9270,
+              "queue_m": 472.665
+            }
+          }
+        },
+        {
+          "seed": 503,
+          "begin_s": 0,
+          "end_s": 3600,
+          "planned": 8532,
+          "inserted": 7651,
+          "arrived": 7052,
+          "running": 599,
+          "waiting": 881,
+          "entry_vh": 368.2517500000013,
+          "network_vh": 518.2568611111062,
+          "total_vh": 886.5086111111075,
+          "completed_delay_s": 163.73022263187744,
+          "teleports": 1,
+          "collisions": 1,
+          "timing_warning": false,
+          "local": {
+            "target": {
+              "front_crossings": 1657,
+              "queue_m": 267.6016666666667
+            },
+            "donor": {
+              "front_crossings": 2591,
+              "queue_m": 315.215
+            },
+            "other": {
+              "front_crossings": 9417,
+              "queue_m": 461.735
+            }
+          }
+        },
+        {
+          "seed": 601,
+          "begin_s": 0,
+          "end_s": 3600,
+          "planned": 8532,
+          "inserted": 7646,
+          "arrived": 7019,
+          "running": 627,
+          "waiting": 886,
+          "entry_vh": 377.8036111111002,
+          "network_vh": 525.4100833333272,
+          "total_vh": 903.2136944444275,
+          "completed_delay_s": 168.42434534833978,
+          "teleports": 2,
+          "collisions": 2,
+          "timing_warning": false,
+          "local": {
+            "target": {
+              "front_crossings": 1626,
+              "queue_m": 272.32750000000004
+            },
+            "donor": {
+              "front_crossings": 2565,
+              "queue_m": 323.3458333333333
+            },
+            "other": {
+              "front_crossings": 9369,
+              "queue_m": 469.1483333333333
+            }
+          }
+        }
+      ]
+    },
+    {
+      "case_id": "H09",
+      "same_demand_structure": true,
+      "demand_structure_evidence": "Frozen common OD proportions and departure-window construction; vehicle types are supply perturbations.",
+      "reference": [
+        {
+          "seed": 211,
+          "begin_s": 0,
+          "end_s": 3600,
+          "planned": 7900,
+          "inserted": 7083,
+          "arrived": 6602,
+          "running": 481,
+          "waiting": 817,
+          "entry_vh": 307.2792222222283,
+          "network_vh": 461.52022222222286,
+          "total_vh": 768.7994444444512,
+          "completed_delay_s": 150.47539684943982,
+          "teleports": 0,
+          "collisions": 0,
+          "timing_warning": false,
+          "local": {
+            "target": {
+              "front_crossings": 1529,
+              "queue_m": 269.2758333333333
+            },
+            "donor": {
+              "front_crossings": 2524,
+              "queue_m": 228.8575
+            },
+            "other": {
+              "front_crossings": 8705,
+              "queue_m": 424.6958333333333
+            }
+          }
+        },
+        {
+          "seed": 307,
+          "begin_s": 0,
+          "end_s": 3600,
+          "planned": 7900,
+          "inserted": 7194,
+          "arrived": 6686,
+          "running": 508,
+          "waiting": 706,
+          "entry_vh": 297.1590277777812,
+          "network_vh": 455.94752777777904,
+          "total_vh": 753.1065555555602,
+          "completed_delay_s": 147.1042820819628,
+          "teleports": 0,
+          "collisions": 0,
+          "timing_warning": false,
+          "local": {
+            "target": {
+              "front_crossings": 1569,
+              "queue_m": 267.64
+            },
+            "donor": {
+              "front_crossings": 2529,
+              "queue_m": 224.52583333333334
+            },
+            "other": {
+              "front_crossings": 8844,
+              "queue_m": 409.97333333333336
+            }
+          }
+        },
+        {
+          "seed": 401,
+          "begin_s": 0,
+          "end_s": 3600,
+          "planned": 7900,
+          "inserted": 7032,
+          "arrived": 6543,
+          "running": 489,
+          "waiting": 868,
+          "entry_vh": 327.75836111112346,
+          "network_vh": 461.59733333332645,
+          "total_vh": 789.3556944444499,
+          "completed_delay_s": 149.11072749503262,
+          "teleports": 0,
+          "collisions": 0,
+          "timing_warning": false,
+          "local": {
+            "target": {
+              "front_crossings": 1459,
+              "queue_m": 271.09749999999997
+            },
+            "donor": {
+              "front_crossings": 2517,
+              "queue_m": 227.2175
+            },
+            "other": {
+              "front_crossings": 8636,
+              "queue_m": 418.3475
+            }
+          }
+        },
+        {
+          "seed": 503,
+          "begin_s": 0,
+          "end_s": 3600,
+          "planned": 7900,
+          "inserted": 7068,
+          "arrived": 6574,
+          "running": 494,
+          "waiting": 832,
+          "entry_vh": 328.94752777777256,
+          "network_vh": 459.43413888888614,
+          "total_vh": 788.3816666666587,
+          "completed_delay_s": 151.7097581381198,
+          "teleports": 0,
+          "collisions": 0,
+          "timing_warning": false,
+          "local": {
+            "target": {
+              "front_crossings": 1528,
+              "queue_m": 267.56416666666667
+            },
+            "donor": {
+              "front_crossings": 2522,
+              "queue_m": 228.765
+            },
+            "other": {
+              "front_crossings": 8673,
+              "queue_m": 424.3958333333333
+            }
+          }
+        },
+        {
+          "seed": 601,
+          "begin_s": 0,
+          "end_s": 3600,
+          "planned": 7900,
+          "inserted": 7116,
+          "arrived": 6629,
+          "running": 487,
+          "waiting": 784,
+          "entry_vh": 297.4855277777787,
+          "network_vh": 456.2851944444443,
+          "total_vh": 753.7707222222231,
+          "completed_delay_s": 146.66216020515895,
+          "teleports": 0,
+          "collisions": 0,
+          "timing_warning": false,
+          "local": {
+            "target": {
+              "front_crossings": 1529,
+              "queue_m": 266.9875
+            },
+            "donor": {
+              "front_crossings": 2528,
+              "queue_m": 225.94416666666666
+            },
+            "other": {
+              "front_crossings": 8748,
+              "queue_m": 420.89666666666665
+            }
+          }
+        }
+      ],
+      "treatment": [
+        {
+          "seed": 211,
+          "begin_s": 0,
+          "end_s": 3600,
+          "planned": 7900,
+          "inserted": 6796,
+          "arrived": 5922,
+          "running": 874,
+          "waiting": 1104,
+          "entry_vh": 430.70161111111366,
+          "network_vh": 623.5840833333299,
+          "total_vh": 1054.2856944444436,
+          "completed_delay_s": 230.6839733198253,
+          "teleports": 2,
+          "collisions": 0,
+          "timing_warning": false,
+          "local": {
+            "target": {
+              "front_crossings": 1370,
+              "queue_m": 276.37833333333333
+            },
+            "donor": {
+              "front_crossings": 2164,
+              "queue_m": 363.12333333333333
+            },
+            "other": {
+              "front_crossings": 8025,
+              "queue_m": 603.6708333333333
+            }
+          }
+        },
+        {
+          "seed": 307,
+          "begin_s": 0,
+          "end_s": 3600,
+          "planned": 7900,
+          "inserted": 6855,
+          "arrived": 5959,
+          "running": 896,
+          "waiting": 1045,
+          "entry_vh": 436.04099999999744,
+          "network_vh": 625.6367777777814,
+          "total_vh": 1061.6777777777788,
+          "completed_delay_s": 236.36816076522993,
+          "teleports": 3,
+          "collisions": 3,
+          "timing_warning": false,
+          "local": {
+            "target": {
+              "front_crossings": 1361,
+              "queue_m": 280.1325
+            },
+            "donor": {
+              "front_crossings": 2155,
+              "queue_m": 367.00249999999994
+            },
+            "other": {
+              "front_crossings": 8071,
+              "queue_m": 614.025
+            }
+          }
+        },
+        {
+          "seed": 401,
+          "begin_s": 0,
+          "end_s": 3600,
+          "planned": 7900,
+          "inserted": 6857,
+          "arrived": 5982,
+          "running": 875,
+          "waiting": 1043,
+          "entry_vh": 435.40336111112657,
+          "network_vh": 638.5929444444614,
+          "total_vh": 1073.996305555588,
+          "completed_delay_s": 242.28504680708812,
+          "teleports": 5,
+          "collisions": 2,
+          "timing_warning": false,
+          "local": {
+            "target": {
+              "front_crossings": 1365,
+              "queue_m": 276.6383333333333
+            },
+            "donor": {
+              "front_crossings": 2153,
+              "queue_m": 363.84
+            },
+            "other": {
+              "front_crossings": 8122,
+              "queue_m": 614.2375
+            }
+          }
+        },
+        {
+          "seed": 503,
+          "begin_s": 0,
+          "end_s": 3600,
+          "planned": 7900,
+          "inserted": 6846,
+          "arrived": 5980,
+          "running": 866,
+          "waiting": 1054,
+          "entry_vh": 427.66908333332265,
+          "network_vh": 629.3315277777773,
+          "total_vh": 1057.0006111111,
+          "completed_delay_s": 237.4595986622077,
+          "teleports": 4,
+          "collisions": 3,
+          "timing_warning": false,
+          "local": {
+            "target": {
+              "front_crossings": 1321,
+              "queue_m": 276.2258333333333
+            },
+            "donor": {
+              "front_crossings": 2177,
+              "queue_m": 360.345
+            },
+            "other": {
+              "front_crossings": 8096,
+              "queue_m": 635.0425
+            }
+          }
+        },
+        {
+          "seed": 601,
+          "begin_s": 0,
+          "end_s": 3600,
+          "planned": 7900,
+          "inserted": 6793,
+          "arrived": 5934,
+          "running": 859,
+          "waiting": 1107,
+          "entry_vh": 456.8341388888866,
+          "network_vh": 613.789111111117,
+          "total_vh": 1070.6232500000037,
+          "completed_delay_s": 230.89955005055606,
+          "teleports": 6,
+          "collisions": 5,
+          "timing_warning": false,
+          "local": {
+            "target": {
+              "front_crossings": 1316,
+              "queue_m": 271.6725
+            },
+            "donor": {
+              "front_crossings": 2170,
+              "queue_m": 350.3566666666666
+            },
+            "other": {
+              "front_crossings": 8046,
+              "queue_m": 606.1324999999999
+            }
+          }
+        }
+      ]
+    },
+    {
+      "case_id": "H10",
+      "same_demand_structure": true,
+      "demand_structure_evidence": "Frozen common OD proportions and departure-window construction; vehicle types are supply perturbations.",
+      "reference": [
+        {
+          "seed": 211,
+          "begin_s": 0,
+          "end_s": 3600,
+          "planned": 7900,
+          "inserted": 7083,
+          "arrived": 6602,
+          "running": 481,
+          "waiting": 817,
+          "entry_vh": 307.2792222222283,
+          "network_vh": 461.52022222222286,
+          "total_vh": 768.7994444444512,
+          "completed_delay_s": 150.47539684943982,
+          "teleports": 0,
+          "collisions": 0,
+          "timing_warning": false,
+          "local": {
+            "target": {
+              "front_crossings": 1529,
+              "queue_m": 269.2758333333333
+            },
+            "donor": {
+              "front_crossings": 2524,
+              "queue_m": 228.8575
+            },
+            "other": {
+              "front_crossings": 8705,
+              "queue_m": 424.6958333333333
+            }
+          }
+        },
+        {
+          "seed": 307,
+          "begin_s": 0,
+          "end_s": 3600,
+          "planned": 7900,
+          "inserted": 7194,
+          "arrived": 6686,
+          "running": 508,
+          "waiting": 706,
+          "entry_vh": 297.1590277777812,
+          "network_vh": 455.94752777777904,
+          "total_vh": 753.1065555555602,
+          "completed_delay_s": 147.1042820819628,
+          "teleports": 0,
+          "collisions": 0,
+          "timing_warning": false,
+          "local": {
+            "target": {
+              "front_crossings": 1569,
+              "queue_m": 267.64
+            },
+            "donor": {
+              "front_crossings": 2529,
+              "queue_m": 224.52583333333334
+            },
+            "other": {
+              "front_crossings": 8844,
+              "queue_m": 409.97333333333336
+            }
+          }
+        },
+        {
+          "seed": 401,
+          "begin_s": 0,
+          "end_s": 3600,
+          "planned": 7900,
+          "inserted": 7032,
+          "arrived": 6543,
+          "running": 489,
+          "waiting": 868,
+          "entry_vh": 327.75836111112346,
+          "network_vh": 461.59733333332645,
+          "total_vh": 789.3556944444499,
+          "completed_delay_s": 149.11072749503262,
+          "teleports": 0,
+          "collisions": 0,
+          "timing_warning": false,
+          "local": {
+            "target": {
+              "front_crossings": 1459,
+              "queue_m": 271.09749999999997
+            },
+            "donor": {
+              "front_crossings": 2517,
+              "queue_m": 227.2175
+            },
+            "other": {
+              "front_crossings": 8636,
+              "queue_m": 418.3475
+            }
+          }
+        },
+        {
+          "seed": 503,
+          "begin_s": 0,
+          "end_s": 3600,
+          "planned": 7900,
+          "inserted": 7068,
+          "arrived": 6574,
+          "running": 494,
+          "waiting": 832,
+          "entry_vh": 328.94752777777256,
+          "network_vh": 459.43413888888614,
+          "total_vh": 788.3816666666587,
+          "completed_delay_s": 151.7097581381198,
+          "teleports": 0,
+          "collisions": 0,
+          "timing_warning": false,
+          "local": {
+            "target": {
+              "front_crossings": 1528,
+              "queue_m": 267.56416666666667
+            },
+            "donor": {
+              "front_crossings": 2522,
+              "queue_m": 228.765
+            },
+            "other": {
+              "front_crossings": 8673,
+              "queue_m": 424.3958333333333
+            }
+          }
+        },
+        {
+          "seed": 601,
+          "begin_s": 0,
+          "end_s": 3600,
+          "planned": 7900,
+          "inserted": 7116,
+          "arrived": 6629,
+          "running": 487,
+          "waiting": 784,
+          "entry_vh": 297.4855277777787,
+          "network_vh": 456.2851944444443,
+          "total_vh": 753.7707222222231,
+          "completed_delay_s": 146.66216020515895,
+          "teleports": 0,
+          "collisions": 0,
+          "timing_warning": false,
+          "local": {
+            "target": {
+              "front_crossings": 1529,
+              "queue_m": 266.9875
+            },
+            "donor": {
+              "front_crossings": 2528,
+              "queue_m": 225.94416666666666
+            },
+            "other": {
+              "front_crossings": 8748,
+              "queue_m": 420.89666666666665
+            }
+          }
+        }
+      ],
+      "treatment": [
+        {
+          "seed": 211,
+          "begin_s": 0,
+          "end_s": 3600,
+          "planned": 7268,
+          "inserted": 6585,
+          "arrived": 6130,
+          "running": 455,
+          "waiting": 683,
+          "entry_vh": 282.61788888888447,
+          "network_vh": 426.81694444443303,
+          "total_vh": 709.4348333333176,
+          "completed_delay_s": 151.46004404567745,
+          "teleports": 0,
+          "collisions": 0,
+          "timing_warning": false,
+          "local": {
+            "target": {
+              "front_crossings": 1412,
+              "queue_m": 270.43333333333334
+            },
+            "donor": {
+              "front_crossings": 2340,
+              "queue_m": 223.595
+            },
+            "other": {
+              "front_crossings": 8107,
+              "queue_m": 419.4725
+            }
+          }
+        },
+        {
+          "seed": 307,
+          "begin_s": 0,
+          "end_s": 3600,
+          "planned": 7268,
+          "inserted": 6548,
+          "arrived": 6107,
+          "running": 441,
+          "waiting": 720,
+          "entry_vh": 289.1956944444397,
+          "network_vh": 428.7760555555578,
+          "total_vh": 717.9717499999975,
+          "completed_delay_s": 151.43392172916356,
+          "teleports": 0,
+          "collisions": 0,
+          "timing_warning": false,
+          "local": {
+            "target": {
+              "front_crossings": 1381,
+              "queue_m": 276.48083333333335
+            },
+            "donor": {
+              "front_crossings": 2340,
+              "queue_m": 220.92833333333334
+            },
+            "other": {
+              "front_crossings": 8102,
+              "queue_m": 425.39
+            }
+          }
+        },
+        {
+          "seed": 401,
+          "begin_s": 0,
+          "end_s": 3600,
+          "planned": 7268,
+          "inserted": 6607,
+          "arrived": 6146,
+          "running": 461,
+          "waiting": 661,
+          "entry_vh": 253.5175833333349,
+          "network_vh": 434.9733055555558,
+          "total_vh": 688.4908888888907,
+          "completed_delay_s": 153.60789131142218,
+          "teleports": 0,
+          "collisions": 0,
+          "timing_warning": false,
+          "local": {
+            "target": {
+              "front_crossings": 1419,
+              "queue_m": 275.7758333333333
+            },
+            "donor": {
+              "front_crossings": 2340,
+              "queue_m": 227.1591666666667
+            },
+            "other": {
+              "front_crossings": 8149,
+              "queue_m": 419.115
+            }
+          }
+        },
+        {
+          "seed": 503,
+          "begin_s": 0,
+          "end_s": 3600,
+          "planned": 7268,
+          "inserted": 6608,
+          "arrived": 6149,
+          "running": 459,
+          "waiting": 660,
+          "entry_vh": 258.2093611111244,
+          "network_vh": 431.925027777774,
+          "total_vh": 690.1343888888985,
+          "completed_delay_s": 151.66392746788122,
+          "teleports": 0,
+          "collisions": 0,
+          "timing_warning": false,
+          "local": {
+            "target": {
+              "front_crossings": 1435,
+              "queue_m": 271.90749999999997
+            },
+            "donor": {
+              "front_crossings": 2335,
+              "queue_m": 224.44833333333332
+            },
+            "other": {
+              "front_crossings": 8142,
+              "queue_m": 418.68083333333334
+            }
+          }
+        },
+        {
+          "seed": 601,
+          "begin_s": 0,
+          "end_s": 3600,
+          "planned": 7268,
+          "inserted": 6633,
+          "arrived": 6211,
+          "running": 422,
+          "waiting": 635,
+          "entry_vh": 241.8806666666668,
+          "network_vh": 424.8212777777793,
+          "total_vh": 666.7019444444461,
+          "completed_delay_s": 147.45714538721617,
+          "teleports": 0,
+          "collisions": 0,
+          "timing_warning": false,
+          "local": {
+            "target": {
+              "front_crossings": 1472,
+              "queue_m": 273.4841666666666
+            },
+            "donor": {
+              "front_crossings": 2350,
+              "queue_m": 222.28416666666666
+            },
+            "other": {
+              "front_crossings": 8231,
+              "queue_m": 405.92583333333334
+            }
+          }
+        }
+      ]
+    },
+    {
+      "case_id": "H11",
+      "same_demand_structure": true,
+      "demand_structure_evidence": "Frozen common OD proportions and departure-window construction; vehicle types are supply perturbations.",
+      "reference": [
+        {
+          "seed": 211,
+          "begin_s": 0,
+          "end_s": 3600,
+          "planned": 7900,
+          "inserted": 7083,
+          "arrived": 6602,
+          "running": 481,
+          "waiting": 817,
+          "entry_vh": 307.2792222222283,
+          "network_vh": 461.52022222222286,
+          "total_vh": 768.7994444444512,
+          "completed_delay_s": 150.47539684943982,
+          "teleports": 0,
+          "collisions": 0,
+          "timing_warning": false,
+          "local": {
+            "target": {
+              "front_crossings": 1529,
+              "queue_m": 269.2758333333333
+            },
+            "donor": {
+              "front_crossings": 2524,
+              "queue_m": 228.8575
+            },
+            "other": {
+              "front_crossings": 8705,
+              "queue_m": 424.6958333333333
+            }
+          }
+        },
+        {
+          "seed": 307,
+          "begin_s": 0,
+          "end_s": 3600,
+          "planned": 7900,
+          "inserted": 7194,
+          "arrived": 6686,
+          "running": 508,
+          "waiting": 706,
+          "entry_vh": 297.1590277777812,
+          "network_vh": 455.94752777777904,
+          "total_vh": 753.1065555555602,
+          "completed_delay_s": 147.1042820819628,
+          "teleports": 0,
+          "collisions": 0,
+          "timing_warning": false,
+          "local": {
+            "target": {
+              "front_crossings": 1569,
+              "queue_m": 267.64
+            },
+            "donor": {
+              "front_crossings": 2529,
+              "queue_m": 224.52583333333334
+            },
+            "other": {
+              "front_crossings": 8844,
+              "queue_m": 409.97333333333336
+            }
+          }
+        },
+        {
+          "seed": 401,
+          "begin_s": 0,
+          "end_s": 3600,
+          "planned": 7900,
+          "inserted": 7032,
+          "arrived": 6543,
+          "running": 489,
+          "waiting": 868,
+          "entry_vh": 327.75836111112346,
+          "network_vh": 461.59733333332645,
+          "total_vh": 789.3556944444499,
+          "completed_delay_s": 149.11072749503262,
+          "teleports": 0,
+          "collisions": 0,
+          "timing_warning": false,
+          "local": {
+            "target": {
+              "front_crossings": 1459,
+              "queue_m": 271.09749999999997
+            },
+            "donor": {
+              "front_crossings": 2517,
+              "queue_m": 227.2175
+            },
+            "other": {
+              "front_crossings": 8636,
+              "queue_m": 418.3475
+            }
+          }
+        },
+        {
+          "seed": 503,
+          "begin_s": 0,
+          "end_s": 3600,
+          "planned": 7900,
+          "inserted": 7068,
+          "arrived": 6574,
+          "running": 494,
+          "waiting": 832,
+          "entry_vh": 328.94752777777256,
+          "network_vh": 459.43413888888614,
+          "total_vh": 788.3816666666587,
+          "completed_delay_s": 151.7097581381198,
+          "teleports": 0,
+          "collisions": 0,
+          "timing_warning": false,
+          "local": {
+            "target": {
+              "front_crossings": 1528,
+              "queue_m": 267.56416666666667
+            },
+            "donor": {
+              "front_crossings": 2522,
+              "queue_m": 228.765
+            },
+            "other": {
+              "front_crossings": 8673,
+              "queue_m": 424.3958333333333
+            }
+          }
+        },
+        {
+          "seed": 601,
+          "begin_s": 0,
+          "end_s": 3600,
+          "planned": 7900,
+          "inserted": 7116,
+          "arrived": 6629,
+          "running": 487,
+          "waiting": 784,
+          "entry_vh": 297.4855277777787,
+          "network_vh": 456.2851944444443,
+          "total_vh": 753.7707222222231,
+          "completed_delay_s": 146.66216020515895,
+          "teleports": 0,
+          "collisions": 0,
+          "timing_warning": false,
+          "local": {
+            "target": {
+              "front_crossings": 1529,
+              "queue_m": 266.9875
+            },
+            "donor": {
+              "front_crossings": 2528,
+              "queue_m": 225.94416666666666
+            },
+            "other": {
+              "front_crossings": 8748,
+              "queue_m": 420.89666666666665
+            }
+          }
+        }
+      ],
+      "treatment": [
+        {
+          "seed": 211,
+          "begin_s": 0,
+          "end_s": 3600,
+          "planned": 7900,
+          "inserted": 7133,
+          "arrived": 6532,
+          "running": 601,
+          "waiting": 767,
+          "entry_vh": 293.4733333333321,
+          "network_vh": 486.95566666666394,
+          "total_vh": 780.428999999996,
+          "completed_delay_s": 161.03565829761172,
+          "teleports": 2,
+          "collisions": 2,
+          "timing_warning": false,
+          "local": {
+            "target": {
+              "front_crossings": 1531,
+              "queue_m": 268.1333333333333
+            },
+            "donor": {
+              "front_crossings": 2427,
+              "queue_m": 269.11833333333334
+            },
+            "other": {
+              "front_crossings": 8714,
+              "queue_m": 422.5733333333333
+            }
+          }
+        },
+        {
+          "seed": 307,
+          "begin_s": 0,
+          "end_s": 3600,
+          "planned": 7900,
+          "inserted": 7110,
+          "arrived": 6497,
+          "running": 613,
+          "waiting": 790,
+          "entry_vh": 333.5389722222303,
+          "network_vh": 488.1543333333302,
+          "total_vh": 821.6933055555605,
+          "completed_delay_s": 163.839667538864,
+          "teleports": 0,
+          "collisions": 0,
+          "timing_warning": false,
+          "local": {
+            "target": {
+              "front_crossings": 1494,
+              "queue_m": 266.9266666666667
+            },
+            "donor": {
+              "front_crossings": 2424,
+              "queue_m": 269.48
+            },
+            "other": {
+              "front_crossings": 8655,
+              "queue_m": 430.67333333333335
+            }
+          }
+        },
+        {
+          "seed": 401,
+          "begin_s": 0,
+          "end_s": 3600,
+          "planned": 7900,
+          "inserted": 7091,
+          "arrived": 6521,
+          "running": 570,
+          "waiting": 809,
+          "entry_vh": 323.14936111111,
+          "network_vh": 476.55044444444945,
+          "total_vh": 799.6998055555594,
+          "completed_delay_s": 157.09882533353746,
+          "teleports": 2,
+          "collisions": 2,
+          "timing_warning": false,
+          "local": {
+            "target": {
+              "front_crossings": 1475,
+              "queue_m": 269.6275
+            },
+            "donor": {
+              "front_crossings": 2453,
+              "queue_m": 254.81
+            },
+            "other": {
+              "front_crossings": 8680,
+              "queue_m": 412.43916666666667
+            }
+          }
+        },
+        {
+          "seed": 503,
+          "begin_s": 0,
+          "end_s": 3600,
+          "planned": 7900,
+          "inserted": 7080,
+          "arrived": 6537,
+          "running": 543,
+          "waiting": 820,
+          "entry_vh": 327.8820000000059,
+          "network_vh": 493.268972222226,
+          "total_vh": 821.1509722222319,
+          "completed_delay_s": 169.51037478965915,
+          "teleports": 0,
+          "collisions": 0,
+          "timing_warning": false,
+          "local": {
+            "target": {
+              "front_crossings": 1509,
+              "queue_m": 269.09583333333336
+            },
+            "donor": {
+              "front_crossings": 2420,
+              "queue_m": 286.30916666666667
+            },
+            "other": {
+              "front_crossings": 8722,
+              "queue_m": 428.99083333333334
+            }
+          }
+        },
+        {
+          "seed": 601,
+          "begin_s": 0,
+          "end_s": 3600,
+          "planned": 7900,
+          "inserted": 7079,
+          "arrived": 6517,
+          "running": 562,
+          "waiting": 821,
+          "entry_vh": 324.0362777777699,
+          "network_vh": 482.0959166666704,
+          "total_vh": 806.1321944444404,
+          "completed_delay_s": 163.39226331133898,
+          "teleports": 0,
+          "collisions": 0,
+          "timing_warning": false,
+          "local": {
+            "target": {
+              "front_crossings": 1476,
+              "queue_m": 276.0175
+            },
+            "donor": {
+              "front_crossings": 2451,
+              "queue_m": 263.8258333333333
+            },
+            "other": {
+              "front_crossings": 8677,
+              "queue_m": 416.46583333333336
+            }
+          }
+        }
+      ]
+    },
+    {
+      "case_id": "H12",
+      "same_demand_structure": true,
+      "demand_structure_evidence": "Frozen common OD proportions and departure-window construction; vehicle types are supply perturbations.",
+      "reference": [
+        {
+          "seed": 211,
+          "begin_s": 0,
+          "end_s": 3600,
+          "planned": 7900,
+          "inserted": 7083,
+          "arrived": 6602,
+          "running": 481,
+          "waiting": 817,
+          "entry_vh": 307.2792222222283,
+          "network_vh": 461.52022222222286,
+          "total_vh": 768.7994444444512,
+          "completed_delay_s": 150.47539684943982,
+          "teleports": 0,
+          "collisions": 0,
+          "timing_warning": false,
+          "local": {
+            "target": {
+              "front_crossings": 1529,
+              "queue_m": 269.2758333333333
+            },
+            "donor": {
+              "front_crossings": 2524,
+              "queue_m": 228.8575
+            },
+            "other": {
+              "front_crossings": 8705,
+              "queue_m": 424.6958333333333
+            }
+          }
+        },
+        {
+          "seed": 307,
+          "begin_s": 0,
+          "end_s": 3600,
+          "planned": 7900,
+          "inserted": 7194,
+          "arrived": 6686,
+          "running": 508,
+          "waiting": 706,
+          "entry_vh": 297.1590277777812,
+          "network_vh": 455.94752777777904,
+          "total_vh": 753.1065555555602,
+          "completed_delay_s": 147.1042820819628,
+          "teleports": 0,
+          "collisions": 0,
+          "timing_warning": false,
+          "local": {
+            "target": {
+              "front_crossings": 1569,
+              "queue_m": 267.64
+            },
+            "donor": {
+              "front_crossings": 2529,
+              "queue_m": 224.52583333333334
+            },
+            "other": {
+              "front_crossings": 8844,
+              "queue_m": 409.97333333333336
+            }
+          }
+        },
+        {
+          "seed": 401,
+          "begin_s": 0,
+          "end_s": 3600,
+          "planned": 7900,
+          "inserted": 7032,
+          "arrived": 6543,
+          "running": 489,
+          "waiting": 868,
+          "entry_vh": 327.75836111112346,
+          "network_vh": 461.59733333332645,
+          "total_vh": 789.3556944444499,
+          "completed_delay_s": 149.11072749503262,
+          "teleports": 0,
+          "collisions": 0,
+          "timing_warning": false,
+          "local": {
+            "target": {
+              "front_crossings": 1459,
+              "queue_m": 271.09749999999997
+            },
+            "donor": {
+              "front_crossings": 2517,
+              "queue_m": 227.2175
+            },
+            "other": {
+              "front_crossings": 8636,
+              "queue_m": 418.3475
+            }
+          }
+        },
+        {
+          "seed": 503,
+          "begin_s": 0,
+          "end_s": 3600,
+          "planned": 7900,
+          "inserted": 7068,
+          "arrived": 6574,
+          "running": 494,
+          "waiting": 832,
+          "entry_vh": 328.94752777777256,
+          "network_vh": 459.43413888888614,
+          "total_vh": 788.3816666666587,
+          "completed_delay_s": 151.7097581381198,
+          "teleports": 0,
+          "collisions": 0,
+          "timing_warning": false,
+          "local": {
+            "target": {
+              "front_crossings": 1528,
+              "queue_m": 267.56416666666667
+            },
+            "donor": {
+              "front_crossings": 2522,
+              "queue_m": 228.765
+            },
+            "other": {
+              "front_crossings": 8673,
+              "queue_m": 424.3958333333333
+            }
+          }
+        },
+        {
+          "seed": 601,
+          "begin_s": 0,
+          "end_s": 3600,
+          "planned": 7900,
+          "inserted": 7116,
+          "arrived": 6629,
+          "running": 487,
+          "waiting": 784,
+          "entry_vh": 297.4855277777787,
+          "network_vh": 456.2851944444443,
+          "total_vh": 753.7707222222231,
+          "completed_delay_s": 146.66216020515895,
+          "teleports": 0,
+          "collisions": 0,
+          "timing_warning": false,
+          "local": {
+            "target": {
+              "front_crossings": 1529,
+              "queue_m": 266.9875
+            },
+            "donor": {
+              "front_crossings": 2528,
+              "queue_m": 225.94416666666666
+            },
+            "other": {
+              "front_crossings": 8748,
+              "queue_m": 420.89666666666665
+            }
+          }
+        }
+      ],
+      "treatment": [
+        {
+          "seed": 211,
+          "begin_s": 0,
+          "end_s": 3600,
+          "planned": 8532,
+          "inserted": 7411,
+          "arrived": 6304,
+          "running": 1107,
+          "waiting": 1121,
+          "entry_vh": 460.285583333331,
+          "network_vh": 727.0951666666688,
+          "total_vh": 1187.3807499999998,
+          "completed_delay_s": 247.35051237309722,
+          "teleports": 6,
+          "collisions": 5,
+          "timing_warning": false,
+          "local": {
+            "target": {
+              "front_crossings": 1451,
+              "queue_m": 277.02
+            },
+            "donor": {
+              "front_crossings": 2204,
+              "queue_m": 371.8183333333333
+            },
+            "other": {
+              "front_crossings": 8622,
+              "queue_m": 641.8308333333333
+            }
+          }
+        },
+        {
+          "seed": 307,
+          "begin_s": 0,
+          "end_s": 3600,
+          "planned": 8532,
+          "inserted": 7372,
+          "arrived": 6304,
+          "running": 1068,
+          "waiting": 1160,
+          "entry_vh": 469.1588055555654,
+          "network_vh": 712.9072222222203,
+          "total_vh": 1182.0660277777856,
+          "completed_delay_s": 242.8154378172593,
+          "teleports": 3,
+          "collisions": 3,
+          "timing_warning": false,
+          "local": {
+            "target": {
+              "front_crossings": 1438,
+              "queue_m": 271.7375
+            },
+            "donor": {
+              "front_crossings": 2275,
+              "queue_m": 369.365
+            },
+            "other": {
+              "front_crossings": 8600,
+              "queue_m": 611.7808333333334
+            }
+          }
+        },
+        {
+          "seed": 401,
+          "begin_s": 0,
+          "end_s": 3600,
+          "planned": 8532,
+          "inserted": 7349,
+          "arrived": 6294,
+          "running": 1055,
+          "waiting": 1183,
+          "entry_vh": 490.1280833333294,
+          "network_vh": 718.6924166666639,
+          "total_vh": 1208.8204999999932,
+          "completed_delay_s": 249.7444057832858,
+          "teleports": 3,
+          "collisions": 2,
+          "timing_warning": false,
+          "local": {
+            "target": {
+              "front_crossings": 1428,
+              "queue_m": 272.6725
+            },
+            "donor": {
+              "front_crossings": 2279,
+              "queue_m": 372.16583333333335
+            },
+            "other": {
+              "front_crossings": 8589,
+              "queue_m": 609.5883333333334
+            }
+          }
+        },
+        {
+          "seed": 503,
+          "begin_s": 0,
+          "end_s": 3600,
+          "planned": 8532,
+          "inserted": 7453,
+          "arrived": 6343,
+          "running": 1110,
+          "waiting": 1079,
+          "entry_vh": 460.08061111111124,
+          "network_vh": 707.0942222222326,
+          "total_vh": 1167.1748333333437,
+          "completed_delay_s": 238.3335440643217,
+          "teleports": 6,
+          "collisions": 4,
+          "timing_warning": false,
+          "local": {
+            "target": {
+              "front_crossings": 1493,
+              "queue_m": 272.28
+            },
+            "donor": {
+              "front_crossings": 2239,
+              "queue_m": 370.5908333333333
+            },
+            "other": {
+              "front_crossings": 8685,
+              "queue_m": 597.115
+            }
+          }
+        },
+        {
+          "seed": 601,
+          "begin_s": 0,
+          "end_s": 3600,
+          "planned": 8532,
+          "inserted": 7449,
+          "arrived": 6348,
+          "running": 1101,
+          "waiting": 1083,
+          "entry_vh": 443.02513888888535,
+          "network_vh": 721.7021944444424,
+          "total_vh": 1164.7273333333278,
+          "completed_delay_s": 244.76865311909287,
+          "teleports": 2,
+          "collisions": 2,
+          "timing_warning": false,
+          "local": {
+            "target": {
+              "front_crossings": 1477,
+              "queue_m": 273.68333333333334
+            },
+            "donor": {
+              "front_crossings": 2248,
+              "queue_m": 370.6533333333333
+            },
+            "other": {
+              "front_crossings": 8654,
+              "queue_m": 637.2524999999999
+            }
+          }
+        }
+      ]
+    }
+  ],
+  "scope": "Anonymous programmatic measurements, no independent human blinding"
+}

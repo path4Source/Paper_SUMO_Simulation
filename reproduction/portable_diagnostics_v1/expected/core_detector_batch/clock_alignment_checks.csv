@@ -1,0 +1,10 @@
+﻿run,step_s,phase_ambiguous_records,direct_notification_records,direct_old_phase_disagreements,no_stay_records_inferred,no_stay_rounding_ambiguous,ceil_mismatch,ceil_mismatch_near_rounded_step_boundary,front_crossings
+baseline_seed42,0.5,1,11787,84,1120,135,153,153,12907
+heavyveh_very_high_seed42,0.5,1,10764,126,455,57,126,126,11219
+weather_heavy_rain_seed42,0.5,1,11054,150,236,51,82,82,11290
+baseline_seed2024,0.5,2,11709,83,1126,145,149,149,12835
+heavyveh_very_high_seed2024,0.5,1,10315,124,422,57,132,132,10737
+weather_heavy_rain_seed2024,0.5,0,11295,139,280,59,85,85,11575
+baseline_seed2025,0.5,0,11882,97,1134,132,150,150,13016
+heavyveh_very_high_seed2025,0.5,2,10906,116,474,75,126,126,11380
+weather_heavy_rain_seed2025,0.5,1,11268,133,291,61,82,82,11559

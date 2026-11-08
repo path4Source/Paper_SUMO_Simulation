@@ -1,0 +1,23 @@
+﻿run,scenario,seed,vehicle,time_s,origin_lane,kind,subtype,log_line,reinsertion_edge,reinsertion_time_s,signal
+heavyveh_very_high_seed42,heavyveh_very_high,42,Eh2_2_truck.32,3089.5,Eh2.386_4,gridlock,yield,6,Ed1,3089.5,n1
+heavyveh_very_high_seed42,heavyveh_very_high,42,Eh3_1_car.150,3194.0,:n1_4_1,collision,junction collision,8,Eh1,3194.0,n1
+weather_heavy_rain_seed42,weather_heavy_rain,42,Eh2_2_car.140,3209.0,Eh2.386_5,gridlock,yield,3,Ed1,3209.0,n1
+weather_heavy_rain_seed42,weather_heavy_rain,42,Eh2_3_car.148,3210.0,Eh2.386_4,gridlock,yield,5,Ed1,3210.0,n1
+weather_heavy_rain_seed42,weather_heavy_rain,42,Eh2_2_car.137,3210.5,Eh2.386_5,gridlock,yield,7,Ed1,3210.5,n1
+weather_heavy_rain_seed42,weather_heavy_rain,42,Eh2_3_car.151,3212.0,Eh2.386_3,gridlock,wrong lane,9,Ed1,3212.0,n1
+weather_heavy_rain_seed42,weather_heavy_rain,42,ED2_car.227,3392.0,ED2_1,gridlock,jam,11,ED2.378,3392.0,unmapped
+weather_heavy_rain_seed42,weather_heavy_rain,42,ED2_car.228,3393.0,ED2_1,gridlock,jam,13,ED2.378,3393.0,unmapped
+weather_heavy_rain_seed42,weather_heavy_rain,42,Eh3_1_car.204,3464.0,:n1_4_1,collision,junction collision,15,Eh1,3464.0,n1
+heavyveh_very_high_seed2024,heavyveh_very_high,2024,Eh3_1_truck.12,803.0,:n1_4_1,collision,junction collision,3,Eh1,803.0,n1
+heavyveh_very_high_seed2024,heavyveh_very_high,2024,EH1_car.509,3181.5,:n1_7_0,collision,side collision,6,EH2,3181.5,n1
+heavyveh_very_high_seed2024,heavyveh_very_high,2024,Eh2_3_car.82,3220.0,Eh2.386_4,gridlock,yield,8,Ed1,3220.5,n1
+heavyveh_very_high_seed2024,heavyveh_very_high,2024,Eh2_3_truck.34,3221.0,Eh2.386_3,gridlock,wrong lane,10,Ed1,3222.0,n1
+heavyveh_very_high_seed2024,heavyveh_very_high,2024,Eh2_2_car.108,3222.5,Eh2.386_3,gridlock,wrong lane,12,Ed1,3222.5,n1
+heavyveh_very_high_seed2024,heavyveh_very_high,2024,Eh3_1_car.133,3283.5,ED1.177_3,gridlock,wrong lane,14,Eh1,3283.5,n1
+heavyveh_very_high_seed2024,heavyveh_very_high,2024,Ed4_1_truck.60,3468.0,Ed4.376_4,gridlock,yield,16,Ed3,3468.0,n4
+weather_heavy_rain_seed2024,weather_heavy_rain,2024,Eh3_1_car.130,2133.0,:n1_4_1,collision,junction collision,1,Eh1,2133.0,n1
+heavyveh_very_high_seed2025,heavyveh_very_high,2025,Eh3_1_car.57,1199.0,:n1_4_1,collision,side collision,4,Eh1,1199.0,n1
+heavyveh_very_high_seed2025,heavyveh_very_high,2025,Eh2_2_car.58,1882.5,Eh2.386_5,gridlock,yield,7,Ed1,1882.5,n1
+heavyveh_very_high_seed2025,heavyveh_very_high,2025,Eh2_2_car.109,3143.0,Eh2.386_2,gridlock,wrong lane,11,Ed1,3143.0,n1
+heavyveh_very_high_seed2025,heavyveh_very_high,2025,Eh2_2_car.123,3287.5,Eh2.386_2,gridlock,wrong lane,13,Ed1,3287.5,n1
+weather_heavy_rain_seed2025,weather_heavy_rain,2025,Eh2_3_car.119,3343.0,Eh2.386_4,gridlock,yield,3,Ed1,3343.0,n1

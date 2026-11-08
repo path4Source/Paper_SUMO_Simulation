@@ -1,0 +1,26 @@
+cff-version: 1.2.0
+message: "Research materials for the accompanying manuscript, currently under review."
+title: "Beyond Throughput: Interpreting Traffic Performance in Oversaturated Signalized Corridors Using SUMO Simulation"
+type: software
+authors:
+  - family-names: Zhang
+    given-names: Zeyu
+  - family-names: Cai
+    given-names: Zhiming
+  - family-names: Hu
+    given-names: Shanwen
+  - family-names: Zhu
+    given-names: Linkai
+  - family-names: Cai
+    given-names: Haohao
+  - family-names: CHAO
+    given-names: Penny Wong-On
+keywords:
+  - SUMO
+  - traffic simulation
+  - signalized corridor
+  - reproducibility
+
+version: "v2026.11.09-core"
+date-released: "2026-11-09"
+repository-code: "https://github.com/path4Source/Paper_SUMO_Simulation"

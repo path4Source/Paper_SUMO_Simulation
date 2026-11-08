@@ -1,0 +1,8 @@
+﻿variant,cases,retained_gains,unresolved,conflicting,warning_qualified,supported,operating_states_json
+full,12,0,2,0,10,0,"{""burden_decrease_only"": 1, ""demand_conditioned"": 4, ""insufficient_evidence"": 4, ""network_improvement"": 1, ""service_deterioration"": 2}"
+without_population,12,0,2,0,10,0,"{""insufficient_evidence"": 8, ""network_improvement"": 1, ""service_deterioration"": 3}"
+without_warning,12,0,10,0,0,2,"{""burden_decrease_only"": 1, ""demand_conditioned"": 4, ""insufficient_evidence"": 4, ""network_improvement"": 1, ""service_deterioration"": 2}"
+without_local,12,0,2,0,10,0,"{""burden_decrease_only"": 1, ""demand_conditioned"": 4, ""insufficient_evidence"": 4, ""network_improvement"": 1, ""service_deterioration"": 2}"
+conventional_QD,12,1,8,0,0,4,"{""QD_gain"": 1, ""QD_loss"": 3, ""insufficient_evidence"": 8}"
+QD_timing_warning,12,0,2,0,10,0,"{""QD_gain"": 1, ""QD_loss"": 3, ""insufficient_evidence"": 8}"
+always_abstain,12,0,12,0,0,0,"{""not_evaluated"": 12}"

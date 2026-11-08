@@ -1,0 +1,8 @@
+{
+  "protocol_sha256": "d254482bc9d0cbccf7078e1dffd30f3e5886f7d6c700bdf4b716875da77304ec",
+  "completed": 2,
+  "cases": [
+    "baseline_reference_seed11",
+    "baseline_reference_seed29"
+  ]
+}

@@ -1,0 +1,11 @@
+__pycache__/
+*.py[cod]
+.venv/
+/outputs/
+/data/
+*.zip
+reproduction/portable_original_analyses_v2/inputs/**/sumo_runs/
+reproduction/portable_original_analyses_v2/inputs/**/runs/
+reproduction/portable_raw_analyses_v2/inputs/**/runs/
+reproduction/portable_diagnostics_v1/inputs/**/runs/
+reproduction/portable_setting_connector_v1/inputs/**/runs/

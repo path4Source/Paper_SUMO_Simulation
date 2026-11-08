@@ -1,0 +1,12 @@
+{
+  "completed": 6,
+  "cases": [
+    "baseline_seed11_sigma0.1_step0.05",
+    "baseline_seed71_sigma0.1_step0.05",
+    "baseline_seed47_sigma0.1_step0.05",
+    "baseline_seed29_sigma0.1_step0.05",
+    "baseline_seed101_sigma0.1_step0.05",
+    "heavyveh_very_high_seed11_sigma0.1_step0.05"
+  ],
+  "utc": "2026-10-23T07:44:09.165007+00:00"
+}

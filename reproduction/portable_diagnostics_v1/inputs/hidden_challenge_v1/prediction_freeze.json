@@ -1,0 +1,7 @@
+{
+  "protocol_sha256": "2b440420be8bc490d8ea3feb2f2b3c1743d68cacb6411fe99f090d22a7b53298",
+  "predictions_sha256": "485603633480bc568ab53d8125fc0979f9741d90acad3eb18b968e7e90b884ef",
+  "rules_sha256": "ec26608a528b421f2c69959ab4f43056b8d9af426340bec4bc4f42ad84b36ca3",
+  "scope": "Predictions saved before analysis joins construction key; author knew the construction. No independent human blinding.",
+  "predictions_saved_utc": "2026-10-19T17:37:10.120033+00:00"
+}

@@ -1,0 +1,13 @@
+﻿state,metric,contrast,mean,lo,hi,n
+baseline,Q,"new setting versus old setting, percent",-1.4265431932955694,-2.275035986539526,-0.5780504000516128,5
+baseline,B,"new setting versus old setting, percent",5.221457689738015,1.7089878365646487,8.733927542911381,5
+baseline,D,"new setting versus old setting, percent",6.721135064412069,3.920147352367764,9.522122776456374,5
+baseline,burden_per_planned_s,"new setting versus old setting, percent",5.221457689738018,1.7089878365646491,8.733927542911387,5
+heavyveh_very_high,Q,"new setting versus old setting, percent",-7.164161360113046,-19.390067943636627,5.061745223410534,5
+heavyveh_very_high,B,"new setting versus old setting, percent",13.043664945806608,-2.8113455952680546,28.89867548688127,5
+heavyveh_very_high,D,"new setting versus old setting, percent",13.122837311809747,5.497748726921903,20.74792589669759,5
+heavyveh_very_high,burden_per_planned_s,"new setting versus old setting, percent",13.043664945806608,-2.811345595268051,28.898675486881267,5
+weather_heavy_rain,Q,"new setting versus old setting, percent",-13.6474406786173,-28.10728576774295,0.8124044105083517,5
+weather_heavy_rain,B,"new setting versus old setting, percent",33.201672644713895,11.029776938102419,55.373568351325375,5
+weather_heavy_rain,D,"new setting versus old setting, percent",43.25045135532197,35.314029990972145,51.1868727196718,5
+weather_heavy_rain,burden_per_planned_s,"new setting versus old setting, percent",33.201672644713895,11.029776938102422,55.37356835132537,5

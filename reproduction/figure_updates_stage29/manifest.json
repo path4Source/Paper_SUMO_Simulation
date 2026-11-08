@@ -1,0 +1,10 @@
+{
+  "base_bundle": "portable_figures_v2",
+  "scope": "one-figure source and rendering update",
+  "files": {
+    "scripts/plot_bottleneck_stage29.py": "f4f5eb483088be86d404ddef2f0d86b797db55775a037a22271a3ec555de51a9",
+    "frozen/data/baseline_edge_bottleneck.csv": "e6d2b2c4b81dd58702f3022102f917252a1a3702483a37e450d14d67e846ecf4",
+    "manuscript_working/figures/Fig08_baseline_edge_bottleneck.png": "2e8f421f9a956951ec1c7370895664bf0f1f04b0f79d21aa6620e3bc633793e7",
+    "audit/stage29_figures/verification.json": "29c4be6f796727128d3c08622b41aec85d822573df4bce7259c3a2acfcef3e52"
+  }
+}

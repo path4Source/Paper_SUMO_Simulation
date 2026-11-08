@@ -1,0 +1,97 @@
+{
+  "complete_runs": 85,
+  "conditions": 16,
+  "paired_seeds": 5,
+  "construction_scope": "Four reused-construction controls (sham, demand 0.85/1.15, moderate weather); twelve parameter values/combinations outside original OAT. New responses, not sixteen novel constructions.",
+  "primary_protocol_frozen_utc": "2026-10-19T17:19:29.929855+00:00",
+  "protocol_sha256": "2b440420be8bc490d8ea3feb2f2b3c1743d68cacb6411fe99f090d22a7b53298",
+  "baseline_warning_seeds": [
+    101,
+    11
+  ],
+  "baseline_teleports_total": 2,
+  "sham_exact_match": true,
+  "construction_source_checks": [
+    {
+      "check": "demand_source",
+      "TP": 7,
+      "FN": 0,
+      "FP": 0,
+      "TN": 9,
+      "scope": "Exposed input/log consistency only; not hidden causal classification accuracy."
+    },
+    {
+      "check": "timing_compatibility",
+      "TP": 3,
+      "FN": 0,
+      "FP": 0,
+      "TN": 13,
+      "scope": "Exposed input/log consistency only; not hidden causal classification accuracy."
+    }
+  ],
+  "ablation_summary": [
+    {
+      "variant": "A_QD",
+      "conditions": 16,
+      "retained_improvement": 3,
+      "demand_flag": 0,
+      "warning_flag": 0,
+      "local_loss": 0,
+      "local_gain": 0,
+      "status_counts_json": "{\"gain_candidate\": 3, \"loss_candidate\": 4, \"unresolved_or_small\": 9}"
+    },
+    {
+      "variant": "B_accounting",
+      "conditions": 16,
+      "retained_improvement": 2,
+      "demand_flag": 7,
+      "warning_flag": 0,
+      "local_loss": 0,
+      "local_gain": 0,
+      "status_counts_json": "{\"demand_conditioned_unresolved\": 7, \"improvement_candidate\": 2, \"service_deterioration_supported\": 3, \"unresolved_or_small\": 4}"
+    },
+    {
+      "variant": "C_warning",
+      "conditions": 16,
+      "retained_improvement": 0,
+      "demand_flag": 7,
+      "warning_flag": 16,
+      "local_loss": 0,
+      "local_gain": 0,
+      "status_counts_json": "{\"warning_qualified_demand_conditioned_unresolved\": 7, \"warning_qualified_improvement_candidate\": 2, \"warning_qualified_service_deterioration_supported\": 3, \"warning_qualified_unresolved_or_small\": 4}"
+    },
+    {
+      "variant": "D_full",
+      "conditions": 16,
+      "retained_improvement": 0,
+      "demand_flag": 7,
+      "warning_flag": 16,
+      "local_loss": 6,
+      "local_gain": 2,
+      "status_counts_json": "{\"warning_qualified_demand_conditioned_unresolved\": 7, \"warning_qualified_network_improvement_only\": 2, \"warning_qualified_service_deterioration_supported\": 3, \"warning_qualified_unresolved_or_small\": 4}"
+    },
+    {
+      "variant": "D_without_accounting",
+      "conditions": 16,
+      "retained_improvement": 0,
+      "demand_flag": 0,
+      "warning_flag": 16,
+      "local_loss": 6,
+      "local_gain": 2,
+      "status_counts_json": "{\"warning_qualified_gain_candidate\": 1, \"warning_qualified_loss_candidate\": 4, \"warning_qualified_network_improvement_only\": 2, \"warning_qualified_unresolved_or_small\": 9}"
+    },
+    {
+      "variant": "D_without_warning",
+      "conditions": 16,
+      "retained_improvement": 0,
+      "demand_flag": 7,
+      "warning_flag": 0,
+      "local_loss": 6,
+      "local_gain": 2,
+      "status_counts_json": "{\"demand_conditioned_unresolved\": 7, \"network_improvement_only\": 2, \"service_deterioration_supported\": 3, \"unresolved_or_small\": 4}"
+    }
+  ],
+  "interpretation": "Internal pilot tests evidence-qualified triage, not independently blinded causal accuracy. Five seeds are exploratory; no stop-line saturation-flow or external validity claim.",
+  "threshold_status_changes_half": 1,
+  "threshold_status_changes_double": 0
+}

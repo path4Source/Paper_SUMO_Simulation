@@ -1,0 +1,45 @@
+{
+  "kind": "focused transfer and measurement batch after exploratory setting checks, not blinded validation",
+  "scenarios": [
+    "baseline",
+    "heavyveh_very_high",
+    "weather_heavy_rain"
+  ],
+  "seeds": [
+    42,
+    2024,
+    2025
+  ],
+  "new_runs": 9,
+  "step_s": 0.5,
+  "action_step_s": 0.5,
+  "integration": "explicit ballistic",
+  "junction_collision_checks": true,
+  "teleport_after_s": 300,
+  "horizon_s": [
+    0,
+    3600
+  ],
+  "warmup_excluded_s": 0,
+  "routes": {
+    "baseline": {
+      "source": "E:\\4\\scientific_reports_major_revision_20261019\\frozen\\inputs\\baseline_rendered.rou.xml",
+      "sha256": "12d34980decfb81168a58b3cfb316b39dff5d9012fed070c174be988749288ef"
+    },
+    "heavyveh_very_high": {
+      "source": "E:\\4\\road_capacity_sci\\outputs\\sumo_runs\\heavyveh_very_high\\routes.rou.xml",
+      "sha256": "4b0143dcd11a4b1441fd592ea9049fdb94c16a90659ef77ec600b7356b7f1620"
+    },
+    "weather_heavy_rain": {
+      "source": "E:\\4\\road_capacity_sci\\outputs\\sumo_runs\\weather_heavy_rain\\routes.rou.xml",
+      "sha256": "1cf32bc0adcebe326048c3ff53978bb71ee390199cd6639bcc32e626ee4244fa"
+    }
+  },
+  "network_sha256": "5c18dcd49ff415a90acc61c5d12ea5a3630928aa8d4c87492ce63de426245ce2",
+  "scope": "Retain original adverse route parameterizations and demand; explicitly set missing tau to its previous default 1. No emission conclusions; do not silently add truck emission/vClass changes in this reproduction batch.",
+  "reason": "Equal 0.5s step/action ballistic had zero recorded collisions/teleports in baseline and shorter-headway cases across three pilot seeds. Seed42 baseline junction check did not alter outputs. This supports focused transfer, not numerical convergence or field calibration.",
+  "measurement": "Passive exact-lane-end E1, last up-to-100m E2, actual signal states, lane counts. Correct interpolation clock and retain ambiguous boundary events. No saturation-flow interpretation without further queue/blocking criteria.",
+  "analysis": "Paired seed-wise changes from new baseline only. Report complete-trip delay and total vehicle-hours including entry waiting; warning cases retained explicitly. No forced heavy-vehicle versus rain rank.",
+  "stop": "Execution or count-accounting failures stop batch. All complete warning-contaminated outcomes retained; no deletion based on response direction.",
+  "frozen_utc": "2026-10-19T16:30:13.502715+00:00"
+}

@@ -1,0 +1,177 @@
+{
+  "version": "1.0",
+  "kind": "prospective frozen-rule, parameter-hidden internal synthetic challenge",
+  "not": "Not independently blinded, not field validation, not unique causal identification, not an external preregistration.",
+  "n_conditions": 16,
+  "n_seeds_each": 5,
+  "seeds": [
+    11,
+    29,
+    47,
+    71,
+    101
+  ],
+  "new_runs": 85,
+  "baseline_runs": 5,
+  "condition_runs": 80,
+  "setting": "SUMO 1.24.0; explicit ballistic; step/action 0.5 s; 0-3600 s; no warmup exclusion; junction collision checks on; collision action teleport; gridlock teleport 300 s.",
+  "construction": [
+    {
+      "case_id": "C01",
+      "name": "truck12_incompatible",
+      "truck": 0.12,
+      "tau": 0.3
+    },
+    {
+      "case_id": "C02",
+      "name": "truck20",
+      "truck": 0.2
+    },
+    {
+      "case_id": "C03",
+      "name": "stochastic_high_demand",
+      "sigma": 0.65,
+      "demand": 1.15
+    },
+    {
+      "case_id": "C04",
+      "name": "stochastic065",
+      "sigma": 0.65
+    },
+    {
+      "case_id": "C05",
+      "name": "demand_increased",
+      "demand": 1.15
+    },
+    {
+      "case_id": "C06",
+      "name": "incompatible_short_headway",
+      "tau": 0.3
+    },
+    {
+      "case_id": "C07",
+      "name": "compatible_short_headway",
+      "tau": 0.7
+    },
+    {
+      "case_id": "C08",
+      "name": "demand_reduced",
+      "demand": 0.85
+    },
+    {
+      "case_id": "C09",
+      "name": "composite_high_demand",
+      "speed": 0.9,
+      "accel": 0.85,
+      "decel": 0.9,
+      "sigma": 0.65,
+      "demand": 1.15
+    },
+    {
+      "case_id": "C10",
+      "name": "sham"
+    },
+    {
+      "case_id": "C11",
+      "name": "composite_moderate",
+      "speed": 0.9,
+      "accel": 0.85,
+      "decel": 0.9,
+      "sigma": 0.65
+    },
+    {
+      "case_id": "C12",
+      "name": "truck12",
+      "truck": 0.12
+    },
+    {
+      "case_id": "C13",
+      "name": "headway13",
+      "tau": 1.3
+    },
+    {
+      "case_id": "C14",
+      "name": "truck12_reduced_demand",
+      "truck": 0.12,
+      "demand": 0.85
+    },
+    {
+      "case_id": "C15",
+      "name": "truck12_high_demand",
+      "truck": 0.12,
+      "demand": 1.15
+    },
+    {
+      "case_id": "C16",
+      "name": "incompatible_high_demand",
+      "tau": 0.3,
+      "demand": 1.15
+    }
+  ],
+  "scope": "New parameter values/combinations and new seeds in the existing corridor, not an independent network. Values are assumed challenge bounds, not empirical weather/behavior distributions.",
+  "demand": "All 25 OD flows scaled uniformly; nearest integer per flow, and rounded truck allocation within each flow. Report realized planned counts and shares.",
+  "truck": "Retain archived truck dimensions/behavior, without changing vClass/emissionClass. No emissions in classifier or outcomes.",
+  "local": "53 incoming controlled lanes; exact-lane-end instantaneous E1 front entries; E2 final up-to-100m mean maximum jam length in metres, aggregated by three prespecified signal IDs n1/n2/n4. Entire-hour service counts, not green-conditioned saturation flow. Teleport-exposed local counts remain qualified.",
+  "inputs_to_rules": "Anonymous case ID outside rule function; five matched seed measurements Q, completed-trip time loss, mean halted vehicles, planned/inserted/running/waiting populations, discrete total vehicle-hours including entry waiting, warning counts/timing warnings, three signal-level local counts/queue measures. No scenario names, vehicle parameters, original routes or construction key passed to classifier.",
+  "thresholds": {
+    "flow_pct": 2.0,
+    "delay_pct": 5.0,
+    "burden_pct": 5.0,
+    "demand_pct": 1.0,
+    "share_pp": 2.0,
+    "local_queue_pct": 5.0
+  },
+  "variants": {
+    "A_QD": [
+      false,
+      false,
+      false
+    ],
+    "B_accounting": [
+      true,
+      false,
+      false
+    ],
+    "C_warning": [
+      true,
+      true,
+      false
+    ],
+    "D_full": [
+      true,
+      true,
+      true
+    ],
+    "D_without_accounting": [
+      false,
+      true,
+      true
+    ],
+    "D_without_warning": [
+      true,
+      false,
+      true
+    ]
+  },
+  "uncertainty": "Five seed-wise paired responses; Student t 95% intervals df=4. A direction is supported only when the whole interval passes the predeclared practical threshold. These exploratory intervals are not equivalence tests or multiplicity-adjusted claims. Conditions, not vehicles/cycles, are diagnostic units.",
+  "warning_rule": "Any observed collision/teleport or timing compatibility warning requires qualification and vetoes retained improvement. No warning count declared harmless. This does not establish that warnings caused the entire measured response.",
+  "threshold_sensitivity": "After fixed primary analysis, report 0.5x and 2x tolerances without changing the primary rules or selecting the better version.",
+  "benchmark_truth": "Construction key describes applied inputs, not realized degradation. Demand-source and incompatible-timing detection can be checked against the key, but these are exposed audit facts, not latent-cause accuracy. Supply-family retrieval is descriptive only; absent support or mixed-case abstention is retained, not relabelled. No total diagnostic accuracy or macro-F1 against self-generated performance labels.",
+  "ablation": "Same cases/seeds/thresholds for QD, +accounting, +warnings, +local, and leave-one-module-out accounting/warnings. Report status transitions, qualified/unqualified gains, demand attribution safeguards, local corroboration and unresolved cases, not superiority over control algorithms.",
+  "execution": "Four subprocesses maximum; retain all completed warning outcomes. Halt on process, missing-output or population-accounting error. Sham must exactly reproduce baseline; otherwise invalidate the challenge until explained. Do not tune after observing outcomes.",
+  "source_hashes": {
+    "network": "5c18dcd49ff415a90acc61c5d12ea5a3630928aa8d4c87492ce63de426245ce2",
+    "baseline_routes": "12d34980decfb81168a58b3cfb316b39dff5d9012fed070c174be988749288ef",
+    "truck_routes": "4b0143dcd11a4b1441fd592ea9049fdb94c16a90659ef77ec600b7356b7f1620",
+    "config_template": "f91d88d4472e694bfc1fd184fc2eccc5007c146beb6c7ef1484a5f9e93b22fb2",
+    "sumo_binary": "68a88f8c057d7aed44c63d93b6133f94d605dfe2578938221a65ee455d64b376"
+  },
+  "code_hashes": {
+    "run_hidden_challenge_v1.py": "eef3401f934a1734e5924eac9129b1e768f424041693ee5a371e256a774494fa",
+    "diagnostic_rules_v1.py": "ec26608a528b421f2c69959ab4f43056b8d9af426340bec4bc4f42ad84b36ca3",
+    "audit_metrics.py": "d6b12fb1405426b35a74085b85cdd0b62f305eb3625262b2db2eddec7ea508fe",
+    "stopline_instrumentation.py": "b540ba24659642c55ba718c58c67f3f097502f4ebb529e977557154a4e62edbe",
+    "extract_hidden_measurements_v1.py": "ca6a360d12a2dda260672d79854d2353d2a9b0b7f946716861f390ce5bbdb34e"
+  },
+  "frozen_utc": "2026-10-19T17:19:29.929855+00:00"
+}

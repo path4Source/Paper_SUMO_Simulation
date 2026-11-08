@@ -1,0 +1,92 @@
+{
+  "key_effects": [
+    {
+      "scenario": "heavyveh_very_high",
+      "metric": "dq",
+      "mean": -16.312065314159323,
+      "ci_half": 0.793838644644553
+    },
+    {
+      "scenario": "weather_heavy_rain",
+      "metric": "dq",
+      "mean": -16.096436277405576,
+      "ci_half": 0.6851818942810061
+    },
+    {
+      "scenario": "heavyveh_high",
+      "metric": "dq",
+      "mean": -12.206506852690756,
+      "ci_half": 1.537528099231931
+    },
+    {
+      "scenario": "sigma_high",
+      "metric": "dq",
+      "mean": -11.109517146870463,
+      "ci_half": 0.4230364733275055
+    },
+    {
+      "scenario": "reaction_slow",
+      "metric": "dq",
+      "mean": -9.556379991449765,
+      "ci_half": 0.5936487386655818
+    },
+    {
+      "scenario": "signal_losttime_high",
+      "metric": "dq",
+      "mean": -4.393565433081958,
+      "ci_half": 0.48527095311973684
+    },
+    {
+      "scenario": "demand_peak",
+      "metric": "dq",
+      "mean": 1.2039261569133628,
+      "ci_half": 0.9377966050512577
+    },
+    {
+      "scenario": "heavyveh_very_high",
+      "metric": "dd",
+      "mean": 70.74924379023926,
+      "ci_half": 4.014027251887592
+    },
+    {
+      "scenario": "weather_heavy_rain",
+      "metric": "dd",
+      "mean": 82.60622924694391,
+      "ci_half": 2.4521374295567417
+    },
+    {
+      "scenario": "heavyveh_high",
+      "metric": "dd",
+      "mean": 55.59954453534063,
+      "ci_half": 2.4734895978758695
+    },
+    {
+      "scenario": "sigma_high",
+      "metric": "dd",
+      "mean": 60.96704321845226,
+      "ci_half": 3.1186042115195556
+    },
+    {
+      "scenario": "reaction_slow",
+      "metric": "dd",
+      "mean": 48.88697373273774,
+      "ci_half": 3.819459717362626
+    },
+    {
+      "scenario": "signal_losttime_high",
+      "metric": "dd",
+      "mean": 27.894377059693333,
+      "ci_half": 1.7224212038428355
+    },
+    {
+      "scenario": "demand_peak",
+      "metric": "dd",
+      "mean": 85.66990858770373,
+      "ci_half": 4.5607873493511235
+    }
+  ],
+  "key_source_sha256": "6876c10d4758063c433f380a8e40cba9855af665a2bbff4a612e81bde80599a8",
+  "intervention_six_metrics_recomputed_from_five_seed_pairs": true,
+  "new_runs": 0,
+  "original_figures_unchanged": true
+}

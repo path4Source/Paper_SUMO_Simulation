@@ -1,0 +1,7 @@
+﻿run,time,type,lane,pos,collider,victim,colliderType,victimType,colliderSpeed,victimSpeed,colliderFront,colliderBack,victimFront,victimBack
+heavyveh_very_high_seed42,3194.00,junction,:n1_4_1,6.47,Eh3_1_car.150,Eh2_2_car.98,car,car,5.66,2.94,"499.31,916.80","498.61,921.74","501.44,922.08","500.73,917.13"
+weather_heavy_rain_seed42,3464.00,junction,:n1_4_1,5.71,Eh3_1_car.204,Eh2_2_car.148,car,car,2.90,5.59,"499.21,917.55","498.50,922.50","501.41,921.85","500.70,916.90"
+heavyveh_very_high_seed2024,803.00,junction,:n1_4_1,5.33,Eh3_1_truck.12,Eh2_2_car.32,truck,car,2.66,3.95,"499.15,917.93","498.40,927.87","501.51,922.57","500.80,917.62"
+heavyveh_very_high_seed2024,3181.50,side,:n1_7_0,16.70,EH1_car.509,EH5_2_truck.18,car,truck,0.00,0.00,"506.56,914.40","511.54,914.40","504.90,922.17","505.95,912.23"
+weather_heavy_rain_seed2024,2133.00,junction,:n1_4_1,7.02,Eh3_1_car.130,Eh2_2_car.91,car,car,3.36,2.28,"499.39,916.25","498.69,921.20","501.47,922.32","500.77,917.37"
+heavyveh_very_high_seed2025,1199.00,side,:n1_4_1,5.51,Eh3_1_car.57,Eh2_2_truck.15,car,truck,4.94,7.93,"499.18,917.75","498.47,922.69","501.60,927.67","500.82,917.73"

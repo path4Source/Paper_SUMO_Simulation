@@ -1,0 +1,9 @@
+{
+  "runs": 9,
+  "lane_run_pairs": 477,
+  "exact_count_matches": 465,
+  "max_abs_count_difference": 2,
+  "complete_lane_cycles": 12915,
+  "phase_ambiguous_events": 9,
+  "saturation_flow_claim": false
+}

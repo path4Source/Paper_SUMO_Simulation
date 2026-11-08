@@ -1,0 +1,42 @@
+{
+  "runs": 9,
+  "teleport_events": 22,
+  "collision_events": 6,
+  "event_counts_match_collision_xml_and_statistics": true,
+  "side_collision_category_corrections": [
+    {
+      "run": "heavyveh_very_high_seed2024",
+      "old_collision_teleport_events": "1",
+      "corrected_collision_teleport_events": 2,
+      "reason": "Side-collision message was previously assigned to other; totals and raw simulation unchanged."
+    },
+    {
+      "run": "heavyveh_very_high_seed2025",
+      "old_collision_teleport_events": "0",
+      "corrected_collision_teleport_events": 1,
+      "reason": "Side-collision message was previously assigned to other; totals and raw simulation unchanged."
+    }
+  ],
+  "lane_run_pairs": 477,
+  "raw_exact_matches": 465,
+  "matches_after_subtracting_teleport_departures": 476,
+  "residuals": [
+    {
+      "run": "weather_heavy_rain_seed42",
+      "lane": "ED2.378_0",
+      "e1_front_entries": 2,
+      "lane_data_left_raw": 0,
+      "lane_data_teleported": 0,
+      "lane_data_left_minus_teleported": 0,
+      "raw_difference": 2,
+      "remaining_difference": 2,
+      "logged_teleport_origins": 0,
+      "front_entries_after_prior_teleport": 2,
+      "prior_teleport_vehicle_ids_json": "[\"ED2_car.227\", \"ED2_car.228\"]",
+      "interpretation": "residual cross-channel mismatch; preserve E1 and laneData separately"
+    }
+  ],
+  "source_version": "SUMO v1_24_0 MSMeanData_Net.cpp notifyLeave increments both left and teleported",
+  "source_url": "https://raw.githubusercontent.com/eclipse-sumo/sumo/v1_24_0/src/microsim/output/MSMeanData_Net.cpp",
+  "interpretation": "Arithmetic reconciliation does not remove network effects of teleporting or establish saturation flow."
+}

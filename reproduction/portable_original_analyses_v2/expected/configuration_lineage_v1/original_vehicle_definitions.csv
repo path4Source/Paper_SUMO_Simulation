@@ -1,0 +1,91 @@
+﻿scenario,seed,vehicle_type,resolved_tau_s,tau_source,accel,decel,sigma,length,minGap,maxSpeed,tau,actionStepLength,vClass,emissionClass,guiShape
+accel_high,42,car,1.0,SUMO 1.24.0 default,3.25,4.5,0.5,5,2.5,16.67,not explicitly assigned,not explicitly assigned,not explicitly assigned,not explicitly assigned,passenger
+accel_low,42,car,1.0,SUMO 1.24.0 default,1.95,4.5,0.5,5,2.5,16.67,not explicitly assigned,not explicitly assigned,not explicitly assigned,not explicitly assigned,passenger
+baseline,42,car,1.0,SUMO 1.24.0 default,2.6,4.5,0.5,5,2.5,16.67,not explicitly assigned,not explicitly assigned,not explicitly assigned,not explicitly assigned,passenger
+bottleneck_speed_drop,42,car,1.0,explicit,2.6,4.5,0.5,5,2.5,16.67,1,not explicitly assigned,not explicitly assigned,not explicitly assigned,passenger
+decel_high,42,car,1.0,explicit,2.6,5.4,0.5,5,2.5,16.67,1,not explicitly assigned,not explicitly assigned,not explicitly assigned,passenger
+decel_low,42,car,1.0,explicit,2.6,3.375,0.5,5,2.5,16.67,1,not explicitly assigned,not explicitly assigned,not explicitly assigned,passenger
+demand_high,42,car,1.0,SUMO 1.24.0 default,2.6,4.5,0.5,5,2.5,16.67,not explicitly assigned,not explicitly assigned,not explicitly assigned,not explicitly assigned,passenger
+demand_low,42,car,1.0,SUMO 1.24.0 default,2.6,4.5,0.5,5,2.5,16.67,not explicitly assigned,not explicitly assigned,not explicitly assigned,not explicitly assigned,passenger
+demand_peak,42,car,1.0,explicit,2.6,4.5,0.5,5,2.5,16.67,1,not explicitly assigned,not explicitly assigned,not explicitly assigned,passenger
+heavyveh_high,42,car,1.0,SUMO 1.24.0 default,2.6,4.5,0.5,5,2.5,16.67,not explicitly assigned,not explicitly assigned,not explicitly assigned,not explicitly assigned,passenger
+heavyveh_high,42,truck,1.0,SUMO 1.24.0 default,1.20,3.50,0.55,10.0,3.0,13.89,not explicitly assigned,not explicitly assigned,not explicitly assigned,not explicitly assigned,truck
+heavyveh_mid,42,car,1.0,SUMO 1.24.0 default,2.6,4.5,0.5,5,2.5,16.67,not explicitly assigned,not explicitly assigned,not explicitly assigned,not explicitly assigned,passenger
+heavyveh_mid,42,truck,1.0,SUMO 1.24.0 default,1.20,3.50,0.55,10.0,3.0,13.89,not explicitly assigned,not explicitly assigned,not explicitly assigned,not explicitly assigned,truck
+heavyveh_very_high,42,car,1.0,explicit,2.6,4.5,0.5,5,2.5,16.67,1,not explicitly assigned,not explicitly assigned,not explicitly assigned,passenger
+heavyveh_very_high,42,truck,1.0,explicit,1.20,3.50,0.55,10.0,3.0,13.89,1,not explicitly assigned,not explicitly assigned,not explicitly assigned,truck
+lane_control_ed2,42,car,1.0,explicit,2.6,4.5,0.5,5,2.5,16.67,1,not explicitly assigned,not explicitly assigned,not explicitly assigned,passenger
+mingap_high,42,car,1.0,SUMO 1.24.0 default,2.6,4.5,0.5,5,3.125,16.67,not explicitly assigned,not explicitly assigned,not explicitly assigned,not explicitly assigned,passenger
+mingap_low,42,car,1.0,SUMO 1.24.0 default,2.6,4.5,0.5,5,1.875,16.67,not explicitly assigned,not explicitly assigned,not explicitly assigned,not explicitly assigned,passenger
+reaction_fast,42,car,0.8,explicit,2.6,4.5,0.5,5,2.5,16.67,0.8,not explicitly assigned,not explicitly assigned,not explicitly assigned,passenger
+reaction_slow,42,car,1.4,explicit,2.6,4.5,0.5,5,2.5,16.67,1.4,not explicitly assigned,not explicitly assigned,not explicitly assigned,passenger
+sigma_high,42,car,1.0,SUMO 1.24.0 default,2.6,4.5,0.8,5,2.5,16.67,not explicitly assigned,not explicitly assigned,not explicitly assigned,not explicitly assigned,passenger
+sigma_low,42,car,1.0,SUMO 1.24.0 default,2.6,4.5,0.2,5,2.5,16.67,not explicitly assigned,not explicitly assigned,not explicitly assigned,not explicitly assigned,passenger
+signal_green_long,42,car,1.0,explicit,2.6,4.5,0.5,5,2.5,16.67,1,not explicitly assigned,not explicitly assigned,not explicitly assigned,passenger
+signal_green_short,42,car,1.0,explicit,2.6,4.5,0.5,5,2.5,16.67,1,not explicitly assigned,not explicitly assigned,not explicitly assigned,passenger
+signal_losttime_high,42,car,1.0,explicit,2.6,4.5,0.5,5,2.5,16.67,1,not explicitly assigned,not explicitly assigned,not explicitly assigned,passenger
+signal_offset_mismatch,42,car,1.0,explicit,2.6,4.5,0.5,5,2.5,16.67,1,not explicitly assigned,not explicitly assigned,not explicitly assigned,passenger
+speed_high,42,car,1.0,SUMO 1.24.0 default,2.6,4.5,0.5,5,2.5,19.1705,not explicitly assigned,not explicitly assigned,not explicitly assigned,not explicitly assigned,passenger
+speed_low,42,car,1.0,SUMO 1.24.0 default,2.6,4.5,0.5,5,2.5,14.1695,not explicitly assigned,not explicitly assigned,not explicitly assigned,not explicitly assigned,passenger
+weather_heavy_rain,42,car,1.0,SUMO 1.24.0 default,1.82,3.825,0.8,5,2.5,13.336,not explicitly assigned,not explicitly assigned,not explicitly assigned,not explicitly assigned,passenger
+weather_rain,42,car,1.0,SUMO 1.24.0 default,2.21,4.05,0.65,5,2.5,15.003,not explicitly assigned,not explicitly assigned,not explicitly assigned,not explicitly assigned,passenger
+accel_high,2024,car,1.0,explicit,3.25,4.5,0.5,5,2.5,16.67,1,not explicitly assigned,not explicitly assigned,not explicitly assigned,passenger
+accel_low,2024,car,1.0,explicit,1.95,4.5,0.5,5,2.5,16.67,1,not explicitly assigned,not explicitly assigned,not explicitly assigned,passenger
+baseline,2024,car,1.0,explicit,2.6,4.5,0.5,5,2.5,16.67,1,not explicitly assigned,not explicitly assigned,not explicitly assigned,passenger
+bottleneck_speed_drop,2024,car,1.0,explicit,2.6,4.5,0.5,5,2.5,16.67,1,not explicitly assigned,not explicitly assigned,not explicitly assigned,passenger
+decel_high,2024,car,1.0,explicit,2.6,5.4,0.5,5,2.5,16.67,1,not explicitly assigned,not explicitly assigned,not explicitly assigned,passenger
+decel_low,2024,car,1.0,explicit,2.6,3.375,0.5,5,2.5,16.67,1,not explicitly assigned,not explicitly assigned,not explicitly assigned,passenger
+demand_high,2024,car,1.0,explicit,2.6,4.5,0.5,5,2.5,16.67,1,not explicitly assigned,not explicitly assigned,not explicitly assigned,passenger
+demand_low,2024,car,1.0,explicit,2.6,4.5,0.5,5,2.5,16.67,1,not explicitly assigned,not explicitly assigned,not explicitly assigned,passenger
+demand_peak,2024,car,1.0,explicit,2.6,4.5,0.5,5,2.5,16.67,1,not explicitly assigned,not explicitly assigned,not explicitly assigned,passenger
+heavyveh_high,2024,car,1.0,explicit,2.6,4.5,0.5,5,2.5,16.67,1,not explicitly assigned,not explicitly assigned,not explicitly assigned,passenger
+heavyveh_high,2024,truck,1.0,explicit,1.20,3.50,0.55,10.0,3.0,13.89,1,not explicitly assigned,not explicitly assigned,not explicitly assigned,truck
+heavyveh_mid,2024,car,1.0,explicit,2.6,4.5,0.5,5,2.5,16.67,1,not explicitly assigned,not explicitly assigned,not explicitly assigned,passenger
+heavyveh_mid,2024,truck,1.0,explicit,1.20,3.50,0.55,10.0,3.0,13.89,1,not explicitly assigned,not explicitly assigned,not explicitly assigned,truck
+heavyveh_very_high,2024,car,1.0,explicit,2.6,4.5,0.5,5,2.5,16.67,1,not explicitly assigned,not explicitly assigned,not explicitly assigned,passenger
+heavyveh_very_high,2024,truck,1.0,explicit,1.20,3.50,0.55,10.0,3.0,13.89,1,not explicitly assigned,not explicitly assigned,not explicitly assigned,truck
+lane_control_ed2,2024,car,1.0,explicit,2.6,4.5,0.5,5,2.5,16.67,1,not explicitly assigned,not explicitly assigned,not explicitly assigned,passenger
+mingap_high,2024,car,1.0,explicit,2.6,4.5,0.5,5,3.125,16.67,1,not explicitly assigned,not explicitly assigned,not explicitly assigned,passenger
+mingap_low,2024,car,1.0,explicit,2.6,4.5,0.5,5,1.875,16.67,1,not explicitly assigned,not explicitly assigned,not explicitly assigned,passenger
+reaction_fast,2024,car,0.8,explicit,2.6,4.5,0.5,5,2.5,16.67,0.8,not explicitly assigned,not explicitly assigned,not explicitly assigned,passenger
+reaction_slow,2024,car,1.4,explicit,2.6,4.5,0.5,5,2.5,16.67,1.4,not explicitly assigned,not explicitly assigned,not explicitly assigned,passenger
+sigma_high,2024,car,1.0,explicit,2.6,4.5,0.8,5,2.5,16.67,1,not explicitly assigned,not explicitly assigned,not explicitly assigned,passenger
+sigma_low,2024,car,1.0,explicit,2.6,4.5,0.2,5,2.5,16.67,1,not explicitly assigned,not explicitly assigned,not explicitly assigned,passenger
+signal_green_long,2024,car,1.0,explicit,2.6,4.5,0.5,5,2.5,16.67,1,not explicitly assigned,not explicitly assigned,not explicitly assigned,passenger
+signal_green_short,2024,car,1.0,explicit,2.6,4.5,0.5,5,2.5,16.67,1,not explicitly assigned,not explicitly assigned,not explicitly assigned,passenger
+signal_losttime_high,2024,car,1.0,explicit,2.6,4.5,0.5,5,2.5,16.67,1,not explicitly assigned,not explicitly assigned,not explicitly assigned,passenger
+signal_offset_mismatch,2024,car,1.0,explicit,2.6,4.5,0.5,5,2.5,16.67,1,not explicitly assigned,not explicitly assigned,not explicitly assigned,passenger
+speed_high,2024,car,1.0,explicit,2.6,4.5,0.5,5,2.5,19.1705,1,not explicitly assigned,not explicitly assigned,not explicitly assigned,passenger
+speed_low,2024,car,1.0,explicit,2.6,4.5,0.5,5,2.5,14.1695,1,not explicitly assigned,not explicitly assigned,not explicitly assigned,passenger
+weather_heavy_rain,2024,car,1.0,explicit,1.82,3.825,0.8,5,2.5,13.336,1,not explicitly assigned,not explicitly assigned,not explicitly assigned,passenger
+weather_rain,2024,car,1.0,explicit,2.21,4.05,0.65,5,2.5,15.003,1,not explicitly assigned,not explicitly assigned,not explicitly assigned,passenger
+accel_high,2025,car,1.0,explicit,3.25,4.5,0.5,5,2.5,16.67,1,not explicitly assigned,not explicitly assigned,not explicitly assigned,passenger
+accel_low,2025,car,1.0,explicit,1.95,4.5,0.5,5,2.5,16.67,1,not explicitly assigned,not explicitly assigned,not explicitly assigned,passenger
+baseline,2025,car,1.0,explicit,2.6,4.5,0.5,5,2.5,16.67,1,not explicitly assigned,not explicitly assigned,not explicitly assigned,passenger
+bottleneck_speed_drop,2025,car,1.0,explicit,2.6,4.5,0.5,5,2.5,16.67,1,not explicitly assigned,not explicitly assigned,not explicitly assigned,passenger
+decel_high,2025,car,1.0,explicit,2.6,5.4,0.5,5,2.5,16.67,1,not explicitly assigned,not explicitly assigned,not explicitly assigned,passenger
+decel_low,2025,car,1.0,explicit,2.6,3.375,0.5,5,2.5,16.67,1,not explicitly assigned,not explicitly assigned,not explicitly assigned,passenger
+demand_high,2025,car,1.0,explicit,2.6,4.5,0.5,5,2.5,16.67,1,not explicitly assigned,not explicitly assigned,not explicitly assigned,passenger
+demand_low,2025,car,1.0,explicit,2.6,4.5,0.5,5,2.5,16.67,1,not explicitly assigned,not explicitly assigned,not explicitly assigned,passenger
+demand_peak,2025,car,1.0,explicit,2.6,4.5,0.5,5,2.5,16.67,1,not explicitly assigned,not explicitly assigned,not explicitly assigned,passenger
+heavyveh_high,2025,car,1.0,explicit,2.6,4.5,0.5,5,2.5,16.67,1,not explicitly assigned,not explicitly assigned,not explicitly assigned,passenger
+heavyveh_high,2025,truck,1.0,explicit,1.20,3.50,0.55,10.0,3.0,13.89,1,not explicitly assigned,not explicitly assigned,not explicitly assigned,truck
+heavyveh_mid,2025,car,1.0,explicit,2.6,4.5,0.5,5,2.5,16.67,1,not explicitly assigned,not explicitly assigned,not explicitly assigned,passenger
+heavyveh_mid,2025,truck,1.0,explicit,1.20,3.50,0.55,10.0,3.0,13.89,1,not explicitly assigned,not explicitly assigned,not explicitly assigned,truck
+heavyveh_very_high,2025,car,1.0,explicit,2.6,4.5,0.5,5,2.5,16.67,1,not explicitly assigned,not explicitly assigned,not explicitly assigned,passenger
+heavyveh_very_high,2025,truck,1.0,explicit,1.20,3.50,0.55,10.0,3.0,13.89,1,not explicitly assigned,not explicitly assigned,not explicitly assigned,truck
+lane_control_ed2,2025,car,1.0,explicit,2.6,4.5,0.5,5,2.5,16.67,1,not explicitly assigned,not explicitly assigned,not explicitly assigned,passenger
+mingap_high,2025,car,1.0,explicit,2.6,4.5,0.5,5,3.125,16.67,1,not explicitly assigned,not explicitly assigned,not explicitly assigned,passenger
+mingap_low,2025,car,1.0,explicit,2.6,4.5,0.5,5,1.875,16.67,1,not explicitly assigned,not explicitly assigned,not explicitly assigned,passenger
+reaction_fast,2025,car,0.8,explicit,2.6,4.5,0.5,5,2.5,16.67,0.8,not explicitly assigned,not explicitly assigned,not explicitly assigned,passenger
+reaction_slow,2025,car,1.4,explicit,2.6,4.5,0.5,5,2.5,16.67,1.4,not explicitly assigned,not explicitly assigned,not explicitly assigned,passenger
+sigma_high,2025,car,1.0,explicit,2.6,4.5,0.8,5,2.5,16.67,1,not explicitly assigned,not explicitly assigned,not explicitly assigned,passenger
+sigma_low,2025,car,1.0,explicit,2.6,4.5,0.2,5,2.5,16.67,1,not explicitly assigned,not explicitly assigned,not explicitly assigned,passenger
+signal_green_long,2025,car,1.0,explicit,2.6,4.5,0.5,5,2.5,16.67,1,not explicitly assigned,not explicitly assigned,not explicitly assigned,passenger
+signal_green_short,2025,car,1.0,explicit,2.6,4.5,0.5,5,2.5,16.67,1,not explicitly assigned,not explicitly assigned,not explicitly assigned,passenger
+signal_losttime_high,2025,car,1.0,explicit,2.6,4.5,0.5,5,2.5,16.67,1,not explicitly assigned,not explicitly assigned,not explicitly assigned,passenger
+signal_offset_mismatch,2025,car,1.0,explicit,2.6,4.5,0.5,5,2.5,16.67,1,not explicitly assigned,not explicitly assigned,not explicitly assigned,passenger
+speed_high,2025,car,1.0,explicit,2.6,4.5,0.5,5,2.5,19.1705,1,not explicitly assigned,not explicitly assigned,not explicitly assigned,passenger
+speed_low,2025,car,1.0,explicit,2.6,4.5,0.5,5,2.5,14.1695,1,not explicitly assigned,not explicitly assigned,not explicitly assigned,passenger
+weather_heavy_rain,2025,car,1.0,explicit,1.82,3.825,0.8,5,2.5,13.336,1,not explicitly assigned,not explicitly assigned,not explicitly assigned,passenger
+weather_rain,2025,car,1.0,explicit,2.21,4.05,0.65,5,2.5,15.003,1,not explicitly assigned,not explicitly assigned,not explicitly assigned,passenger

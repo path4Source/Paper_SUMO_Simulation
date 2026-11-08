@@ -1,0 +1,20 @@
+{
+  "completed": 14,
+  "cases": [
+    "bridge_baseline_seed101",
+    "bridge_baseline_seed47",
+    "bridge_baseline_seed29",
+    "bridge_baseline_seed11",
+    "bridge_baseline_seed71",
+    "bridge_heavyveh_very_high_seed47",
+    "bridge_heavyveh_very_high_seed29",
+    "bridge_heavyveh_very_high_seed101",
+    "bridge_heavyveh_very_high_seed11",
+    "holdout_B00_seed211",
+    "bridge_heavyveh_very_high_seed71",
+    "bridge_weather_heavy_rain_seed29",
+    "bridge_weather_heavy_rain_seed11",
+    "bridge_weather_heavy_rain_seed101"
+  ],
+  "utc": "2026-10-23T07:28:34.160599+00:00"
+}

@@ -1,0 +1,43 @@
+{
+  "purpose": "Test sensitivity to gridlock teleport handling; keep collision detection/action unchanged.",
+  "scenarios": [
+    "baseline",
+    "heavyveh_very_high",
+    "weather_heavy_rain"
+  ],
+  "seeds": [
+    42,
+    2024,
+    2025
+  ],
+  "new_runs": 12,
+  "controls": "Three seed42 runs with original 300s policy, omitting passive detectors.",
+  "treatment": "Nine runs with time-to-teleport=-1; collision.action=teleport and junction checks remain enabled.",
+  "fixed": "Frozen network/routes, explicit ballistic, step/action 0.5s, horizon 0-3600s, no warmup removal.",
+  "outcomes": "Paired scenario responses and policy differences in Q, completed delay, total vehicle-hours, inserted/waiting/running populations; collision and teleport events and affected vehicles.",
+  "interpretation": "Report continuous policy sensitivity with exploratory three-seed intervals. Do not equate small teleport rate with harmlessness, call the disabled-gridlock policy ground truth, or treat it as collision free. No new acceptance threshold fitted to these outcomes.",
+  "halt": "Execution/accounting failure or detector-removal control disagreement stops the batch. Warning outcomes are retained.",
+  "network_sha256": "5c18dcd49ff415a90acc61c5d12ea5a3630928aa8d4c87492ce63de426245ce2",
+  "source_sha256": {
+    "baseline_seed42/run.sumocfg": "f91d88d4472e694bfc1fd184fc2eccc5007c146beb6c7ef1484a5f9e93b22fb2",
+    "baseline_seed42/routes.rou.xml": "e76f40db0cbc40df4bcf03f2d0f6a4e1b127a10a832b30d84697862a897428e2",
+    "baseline_seed2024/run.sumocfg": "1a7b9ac64a5de8d4af0b56ed293bb1c4513b1b67fb1ef06de82ce3fdc2624ffb",
+    "baseline_seed2024/routes.rou.xml": "e76f40db0cbc40df4bcf03f2d0f6a4e1b127a10a832b30d84697862a897428e2",
+    "baseline_seed2025/run.sumocfg": "14e10277b1cc638cc39155a5e3fcd96655c2245c22c24bbf273b726b6626e5df",
+    "baseline_seed2025/routes.rou.xml": "e76f40db0cbc40df4bcf03f2d0f6a4e1b127a10a832b30d84697862a897428e2",
+    "heavyveh_very_high_seed42/run.sumocfg": "f91d88d4472e694bfc1fd184fc2eccc5007c146beb6c7ef1484a5f9e93b22fb2",
+    "heavyveh_very_high_seed42/routes.rou.xml": "4b0143dcd11a4b1441fd592ea9049fdb94c16a90659ef77ec600b7356b7f1620",
+    "heavyveh_very_high_seed2024/run.sumocfg": "1a7b9ac64a5de8d4af0b56ed293bb1c4513b1b67fb1ef06de82ce3fdc2624ffb",
+    "heavyveh_very_high_seed2024/routes.rou.xml": "4b0143dcd11a4b1441fd592ea9049fdb94c16a90659ef77ec600b7356b7f1620",
+    "heavyveh_very_high_seed2025/run.sumocfg": "14e10277b1cc638cc39155a5e3fcd96655c2245c22c24bbf273b726b6626e5df",
+    "heavyveh_very_high_seed2025/routes.rou.xml": "4b0143dcd11a4b1441fd592ea9049fdb94c16a90659ef77ec600b7356b7f1620",
+    "weather_heavy_rain_seed42/run.sumocfg": "f91d88d4472e694bfc1fd184fc2eccc5007c146beb6c7ef1484a5f9e93b22fb2",
+    "weather_heavy_rain_seed42/routes.rou.xml": "0e47e96bc18ef9fd84881cf4625287544bf3c32ad8540f5f8eb2bbaed99484f8",
+    "weather_heavy_rain_seed2024/run.sumocfg": "1a7b9ac64a5de8d4af0b56ed293bb1c4513b1b67fb1ef06de82ce3fdc2624ffb",
+    "weather_heavy_rain_seed2024/routes.rou.xml": "0e47e96bc18ef9fd84881cf4625287544bf3c32ad8540f5f8eb2bbaed99484f8",
+    "weather_heavy_rain_seed2025/run.sumocfg": "14e10277b1cc638cc39155a5e3fcd96655c2245c22c24bbf273b726b6626e5df",
+    "weather_heavy_rain_seed2025/routes.rou.xml": "0e47e96bc18ef9fd84881cf4625287544bf3c32ad8540f5f8eb2bbaed99484f8"
+  },
+  "official_policy_reference": "https://sumo.dlr.de/docs/Simulation/Why_Vehicles_are_teleporting.html",
+  "frozen_utc": "2026-10-19T16:48:34.873010+00:00"
+}

@@ -1,0 +1,33 @@
+{
+  "kind": "exploratory time/action separation; not confirmatory",
+  "settings_step_action_s": [
+    [
+      0.5,
+      1.0
+    ],
+    [
+      0.1,
+      0.5
+    ]
+  ],
+  "tau_s": [
+    1.0,
+    0.8
+  ],
+  "seeds": [
+    42,
+    2024,
+    2025
+  ],
+  "new_runs": 12,
+  "runner_sha256": "89b433a4253c0414251e2418b6bcf52a97ae9d22d0e82e7e723d7d27950cd271",
+  "integration": "explicit semi-implicit Euler, same as previous tranche",
+  "contrasts": [
+    "0.5/1.0 versus 0.5/0.5: fixed numerical step, changed action interval",
+    "0.1/0.5 versus 0.5/0.5: fixed action interval, changed numerical step",
+    "tau 0.8 versus 1.0: always paired within the same settings and seed"
+  ],
+  "limits": "Action intervals change behavior and numerical response. SUMO normally selects ballistic when action length is explicitly configured; Euler is fixed here for historical comparability, not endorsed as the final configuration. Ballistic and safety checks remain necessary before choosing the main rerun configuration.",
+  "stop_rule": "Stop on execution or accounting failure; preserve every result regardless of sign. Do not interpret tau below the action interval as an engineering improvement.",
+  "frozen_utc": "2026-10-19T13:30:56.419637+00:00"
+}

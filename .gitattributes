@@ -1,0 +1,3 @@
+# Preserve byte-for-byte checksums when staging and checking out this research archive.
+# This does not disable text diffs or change GitHub language classification.
+* -text

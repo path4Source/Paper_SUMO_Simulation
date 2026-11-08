@@ -1,0 +1,553 @@
+{
+  "version": 1,
+  "frozen_utc": "2026-10-23T07:12:38.209808+00:00",
+  "jobs": [
+    {
+      "case": "bridge_baseline_seed101",
+      "kind": "bridge",
+      "source": "author_holdout_v2/runs/bridge/baseline_seed101",
+      "completion_sha256": "39fa0812fd1656b00b35a3f259a4dd5918aec4ba208af22347cdef0d142d6b52"
+    },
+    {
+      "case": "bridge_baseline_seed11",
+      "kind": "bridge",
+      "source": "author_holdout_v2/runs/bridge/baseline_seed11",
+      "completion_sha256": "862b72dbbea5a71c7a6396ebe2f62169034ed80fa3813c508b8c1715e6d3a3da"
+    },
+    {
+      "case": "bridge_baseline_seed29",
+      "kind": "bridge",
+      "source": "author_holdout_v2/runs/bridge/baseline_seed29",
+      "completion_sha256": "2654e22f76b0d7b90dbd598cc118e41b80c6f328c7eeaff957bd5d7c2880dfe0"
+    },
+    {
+      "case": "bridge_baseline_seed47",
+      "kind": "bridge",
+      "source": "author_holdout_v2/runs/bridge/baseline_seed47",
+      "completion_sha256": "9bc049a8939f638f44fcb7ce7878fcef7f54d3381977c2e467ae4af4776a4ea2"
+    },
+    {
+      "case": "bridge_baseline_seed71",
+      "kind": "bridge",
+      "source": "author_holdout_v2/runs/bridge/baseline_seed71",
+      "completion_sha256": "d3b64a3ef6a4aae3e53246e0adb2899c9aac2ba252522c59067cf2bfcffb2ab1"
+    },
+    {
+      "case": "bridge_heavyveh_very_high_seed101",
+      "kind": "bridge",
+      "source": "author_holdout_v2/runs/bridge/heavyveh_very_high_seed101",
+      "completion_sha256": "5fe7f4b5c10a837d68ffbaa910d3b832dc32dee6758a5844379bb8fa7b596e88"
+    },
+    {
+      "case": "bridge_heavyveh_very_high_seed11",
+      "kind": "bridge",
+      "source": "author_holdout_v2/runs/bridge/heavyveh_very_high_seed11",
+      "completion_sha256": "b1866593ba2c6730b072437000cdc5a36101b50748088b8e838555a743630af0"
+    },
+    {
+      "case": "bridge_heavyveh_very_high_seed29",
+      "kind": "bridge",
+      "source": "author_holdout_v2/runs/bridge/heavyveh_very_high_seed29",
+      "completion_sha256": "bad73de4d9c39847dc37d114e2f7370c6ba4696c94faba5e77e9948d14a7c49a"
+    },
+    {
+      "case": "bridge_heavyveh_very_high_seed47",
+      "kind": "bridge",
+      "source": "author_holdout_v2/runs/bridge/heavyveh_very_high_seed47",
+      "completion_sha256": "e10e72276b905335c459252d7055e414fd7d596d983ff2973e5b6798a1a8856c"
+    },
+    {
+      "case": "bridge_heavyveh_very_high_seed71",
+      "kind": "bridge",
+      "source": "author_holdout_v2/runs/bridge/heavyveh_very_high_seed71",
+      "completion_sha256": "8f331a57cc2d2ece08d56386c44eb91102a70950b6ed8dcde20987d3ec8fd2c4"
+    },
+    {
+      "case": "bridge_weather_heavy_rain_seed101",
+      "kind": "bridge",
+      "source": "author_holdout_v2/runs/bridge/weather_heavy_rain_seed101",
+      "completion_sha256": "c53aaa386c23483c25225670220988b9a3c88051cbdbe91545ee6290356a4072"
+    },
+    {
+      "case": "bridge_weather_heavy_rain_seed11",
+      "kind": "bridge",
+      "source": "author_holdout_v2/runs/bridge/weather_heavy_rain_seed11",
+      "completion_sha256": "cb663b8d74b8940e624408c1200410cfe3f119d65a79185a7c1d6bc4fb64f147"
+    },
+    {
+      "case": "bridge_weather_heavy_rain_seed29",
+      "kind": "bridge",
+      "source": "author_holdout_v2/runs/bridge/weather_heavy_rain_seed29",
+      "completion_sha256": "6fe7d1d613e700d61ffda763dca4e0e868cb42a93b88cf2625e1b63a7879253e"
+    },
+    {
+      "case": "bridge_weather_heavy_rain_seed47",
+      "kind": "bridge",
+      "source": "author_holdout_v2/runs/bridge/weather_heavy_rain_seed47",
+      "completion_sha256": "bbafc74e26acaba7b27633428c6311600899b3857ce39300318399a1da9c95dc"
+    },
+    {
+      "case": "bridge_weather_heavy_rain_seed71",
+      "kind": "bridge",
+      "source": "author_holdout_v2/runs/bridge/weather_heavy_rain_seed71",
+      "completion_sha256": "fc1d75a0bb216ca8ec1a646cd222cbb923d799c8ebe10c5f871cc1a4d18ed2a7"
+    },
+    {
+      "case": "holdout_B00_seed211",
+      "kind": "holdout",
+      "source": "author_holdout_v2/runs/holdout/B00_seed211",
+      "completion_sha256": "895c534188f8a911c50276f396397b184157d7542d1544117a42b81117c18d53"
+    },
+    {
+      "case": "holdout_B00_seed307",
+      "kind": "holdout",
+      "source": "author_holdout_v2/runs/holdout/B00_seed307",
+      "completion_sha256": "69ed7e0db61b0ac237f55364fdedb4dfc44c28cf56c8060333c39d5b8d1f9acc"
+    },
+    {
+      "case": "holdout_B00_seed401",
+      "kind": "holdout",
+      "source": "author_holdout_v2/runs/holdout/B00_seed401",
+      "completion_sha256": "52238bce8bc18cc3ad77e4efa46ec57a68da128985f373d04d065337830e4734"
+    },
+    {
+      "case": "holdout_B00_seed503",
+      "kind": "holdout",
+      "source": "author_holdout_v2/runs/holdout/B00_seed503",
+      "completion_sha256": "17f2facc845b5e633b721acce7073c964a6c5f733d36219e7a17c7809ba01ac0"
+    },
+    {
+      "case": "holdout_B00_seed601",
+      "kind": "holdout",
+      "source": "author_holdout_v2/runs/holdout/B00_seed601",
+      "completion_sha256": "4c2941b064d9d430868d0041a01f2a88baf8ad7d9fd100b42f0f46556aaea887"
+    },
+    {
+      "case": "holdout_H01_seed211",
+      "kind": "holdout",
+      "source": "author_holdout_v2/runs/holdout/H01_seed211",
+      "completion_sha256": "db4ed7635267dc171f098a21c7a602f9c830c42873b121961e35a95d2e0c5b4f"
+    },
+    {
+      "case": "holdout_H01_seed307",
+      "kind": "holdout",
+      "source": "author_holdout_v2/runs/holdout/H01_seed307",
+      "completion_sha256": "d30f622afa552a05c8cd7e5ca6c3891926769d798b1bc9ca8c7f4c3dcb4399ba"
+    },
+    {
+      "case": "holdout_H01_seed401",
+      "kind": "holdout",
+      "source": "author_holdout_v2/runs/holdout/H01_seed401",
+      "completion_sha256": "1bbb0a5ae3afc93143313fe14cdd2278a7c33a0665c2ef227d9c1ce421bcdcfb"
+    },
+    {
+      "case": "holdout_H01_seed503",
+      "kind": "holdout",
+      "source": "author_holdout_v2/runs/holdout/H01_seed503",
+      "completion_sha256": "b957c13b32c4bef0b390222224c9d10b232e2c7311139e34e4d520abeccf567c"
+    },
+    {
+      "case": "holdout_H01_seed601",
+      "kind": "holdout",
+      "source": "author_holdout_v2/runs/holdout/H01_seed601",
+      "completion_sha256": "d7649abcbbce8c74bfc50f0b424d21cf5927a1a7e8bed1debfdb1403467bddad"
+    },
+    {
+      "case": "holdout_H02_seed211",
+      "kind": "holdout",
+      "source": "author_holdout_v2/runs/holdout/H02_seed211",
+      "completion_sha256": "e5dc808fc8e98765c4fc521948c5542febd3d51cbccede9991d8af04442eff94"
+    },
+    {
+      "case": "holdout_H02_seed307",
+      "kind": "holdout",
+      "source": "author_holdout_v2/runs/holdout/H02_seed307",
+      "completion_sha256": "cd64735bb56f630b526dc4549ff28ee988f0dbb97610fdeaf8a59a72d602d1e7"
+    },
+    {
+      "case": "holdout_H02_seed401",
+      "kind": "holdout",
+      "source": "author_holdout_v2/runs/holdout/H02_seed401",
+      "completion_sha256": "78b1f9631165243b2c9f07e151d960ffd7d8d71b0b9a7cdc63d0b37579409cc6"
+    },
+    {
+      "case": "holdout_H02_seed503",
+      "kind": "holdout",
+      "source": "author_holdout_v2/runs/holdout/H02_seed503",
+      "completion_sha256": "e9b5486e9867e40a5356514e37d298ac292edfd992414069b4a141ee90763b49"
+    },
+    {
+      "case": "holdout_H02_seed601",
+      "kind": "holdout",
+      "source": "author_holdout_v2/runs/holdout/H02_seed601",
+      "completion_sha256": "60a6d109d3bd7f111ae8c6cf4cebd079c8d49cf390da4a35d6ba1e81a137a13e"
+    },
+    {
+      "case": "holdout_H03_seed211",
+      "kind": "holdout",
+      "source": "author_holdout_v2/runs/holdout/H03_seed211",
+      "completion_sha256": "b50f1e47d28cd5109b56442ece23e0c657db9ff9f3e94da4543580e794d9b254"
+    },
+    {
+      "case": "holdout_H03_seed307",
+      "kind": "holdout",
+      "source": "author_holdout_v2/runs/holdout/H03_seed307",
+      "completion_sha256": "8951981a49d2ba07ede2e3001e0807dc6df8498be336ec4ac91628cf78eb8f6d"
+    },
+    {
+      "case": "holdout_H03_seed401",
+      "kind": "holdout",
+      "source": "author_holdout_v2/runs/holdout/H03_seed401",
+      "completion_sha256": "d6aa2fe765bb073efef1a41107af264c9e5539ce17111a8c0f7bfbb3b6fa366f"
+    },
+    {
+      "case": "holdout_H03_seed503",
+      "kind": "holdout",
+      "source": "author_holdout_v2/runs/holdout/H03_seed503",
+      "completion_sha256": "3c826715e803c6df8f710c4263c15851c57da7b1e4e1a2c0516f06ba5398b4e9"
+    },
+    {
+      "case": "holdout_H03_seed601",
+      "kind": "holdout",
+      "source": "author_holdout_v2/runs/holdout/H03_seed601",
+      "completion_sha256": "fd695ddfe6f889f132893ba826efe467bc95ccebea915b1dee1f1b6b06fd3a63"
+    },
+    {
+      "case": "holdout_H04_seed211",
+      "kind": "holdout",
+      "source": "author_holdout_v2/runs/holdout/H04_seed211",
+      "completion_sha256": "0482bf186ce3a1441e682ba0ea943b02bd17b095644afd3e0d548803043ebf4b"
+    },
+    {
+      "case": "holdout_H04_seed307",
+      "kind": "holdout",
+      "source": "author_holdout_v2/runs/holdout/H04_seed307",
+      "completion_sha256": "4a8de94a202fe7cb04736ef41120645c5581e5d3690b301d783670db8d46c7b0"
+    },
+    {
+      "case": "holdout_H04_seed401",
+      "kind": "holdout",
+      "source": "author_holdout_v2/runs/holdout/H04_seed401",
+      "completion_sha256": "69e7d44a2e18c10fdd5fa3bc6038b84cefa6299e3446551cf809ad2cacf94313"
+    },
+    {
+      "case": "holdout_H04_seed503",
+      "kind": "holdout",
+      "source": "author_holdout_v2/runs/holdout/H04_seed503",
+      "completion_sha256": "19b400e6727b0e3625759d793d8966ce818a9d9880508462138aca6216b0e00a"
+    },
+    {
+      "case": "holdout_H04_seed601",
+      "kind": "holdout",
+      "source": "author_holdout_v2/runs/holdout/H04_seed601",
+      "completion_sha256": "a38949a2b8097337360522d373727b3e0e1a12ede797a0c2bcd9d8b25a3acbf0"
+    },
+    {
+      "case": "holdout_H05_seed211",
+      "kind": "holdout",
+      "source": "author_holdout_v2/runs/holdout/H05_seed211",
+      "completion_sha256": "bd8b5ebd1e3bdcef8a913b98067fd698c77f2a6a88eb2c8a8c2cb74975e84f0f"
+    },
+    {
+      "case": "holdout_H05_seed307",
+      "kind": "holdout",
+      "source": "author_holdout_v2/runs/holdout/H05_seed307",
+      "completion_sha256": "d5f8d7efbca97d6688a31921d24af9803d993d498c8ff6c6d52f77358dd5f152"
+    },
+    {
+      "case": "holdout_H05_seed401",
+      "kind": "holdout",
+      "source": "author_holdout_v2/runs/holdout/H05_seed401",
+      "completion_sha256": "2d86f25155f826ffffa5da81e76566489fc3a7d459e6ee6801190be04dc73eb0"
+    },
+    {
+      "case": "holdout_H05_seed503",
+      "kind": "holdout",
+      "source": "author_holdout_v2/runs/holdout/H05_seed503",
+      "completion_sha256": "5ccc74e877cdf4529feb71afda600c66174d5bd462ca83fb33da27bc76faa96e"
+    },
+    {
+      "case": "holdout_H05_seed601",
+      "kind": "holdout",
+      "source": "author_holdout_v2/runs/holdout/H05_seed601",
+      "completion_sha256": "a694af07f8e4dc0c32b0f4a83dac9b51916d0fdcff4150c44761988cf18a51dc"
+    },
+    {
+      "case": "holdout_H06_seed211",
+      "kind": "holdout",
+      "source": "author_holdout_v2/runs/holdout/H06_seed211",
+      "completion_sha256": "416175a2cb47c4ee6694653684cf69c5bb17e31d666fa5abc045ff7e741a5f28"
+    },
+    {
+      "case": "holdout_H06_seed307",
+      "kind": "holdout",
+      "source": "author_holdout_v2/runs/holdout/H06_seed307",
+      "completion_sha256": "2318aadcbe0e450773dd8bd4005d4d22224b42f10c61d32011d10439035aacd5"
+    },
+    {
+      "case": "holdout_H06_seed401",
+      "kind": "holdout",
+      "source": "author_holdout_v2/runs/holdout/H06_seed401",
+      "completion_sha256": "1452e159087c7ebc4a1f7be4617fab01b7ec42a6924523246d970a070d689292"
+    },
+    {
+      "case": "holdout_H06_seed503",
+      "kind": "holdout",
+      "source": "author_holdout_v2/runs/holdout/H06_seed503",
+      "completion_sha256": "530ac4b9652bc01e93b49068d003d6292b2c0567f996009a4b9b90bf127b5320"
+    },
+    {
+      "case": "holdout_H06_seed601",
+      "kind": "holdout",
+      "source": "author_holdout_v2/runs/holdout/H06_seed601",
+      "completion_sha256": "6c656a3e046158c36c6aa490132399d0577d58a41f0d348825e3d3ea10741daa"
+    },
+    {
+      "case": "holdout_H07_seed211",
+      "kind": "holdout",
+      "source": "author_holdout_v2/runs/holdout/H07_seed211",
+      "completion_sha256": "4cdc66de39713da5ae724fcea3f2f9bff603cde383280a55e9c6fc5cf901760e"
+    },
+    {
+      "case": "holdout_H07_seed307",
+      "kind": "holdout",
+      "source": "author_holdout_v2/runs/holdout/H07_seed307",
+      "completion_sha256": "428c668cf5bc8164b2bd65240e22c3c1f0560ad29d4398ed90f8cce21f9dfa97"
+    },
+    {
+      "case": "holdout_H07_seed401",
+      "kind": "holdout",
+      "source": "author_holdout_v2/runs/holdout/H07_seed401",
+      "completion_sha256": "e671c3e72aedc08097bf5362f78a71d081b6594fde780d1d1e00c13480105137"
+    },
+    {
+      "case": "holdout_H07_seed503",
+      "kind": "holdout",
+      "source": "author_holdout_v2/runs/holdout/H07_seed503",
+      "completion_sha256": "19ad4f9feed3e9ceffe85b41e8e6d14f740fedbcf5efc8f9f8e9dfff7b95eac3"
+    },
+    {
+      "case": "holdout_H07_seed601",
+      "kind": "holdout",
+      "source": "author_holdout_v2/runs/holdout/H07_seed601",
+      "completion_sha256": "60a267d493c3db50ad37b9a6c7d9e110364ecfb78eebbdc2e2d43f11512653be"
+    },
+    {
+      "case": "holdout_H08_seed211",
+      "kind": "holdout",
+      "source": "author_holdout_v2/runs/holdout/H08_seed211",
+      "completion_sha256": "b82eadedeb2cb9b52b8183e2e1d60551ccc74db5d44a0294c7dc6a08bb38d400"
+    },
+    {
+      "case": "holdout_H08_seed307",
+      "kind": "holdout",
+      "source": "author_holdout_v2/runs/holdout/H08_seed307",
+      "completion_sha256": "4581b9dd2cfc83141047677d44b8fc793f3bfafc5db1c67883f564f9566f21bd"
+    },
+    {
+      "case": "holdout_H08_seed401",
+      "kind": "holdout",
+      "source": "author_holdout_v2/runs/holdout/H08_seed401",
+      "completion_sha256": "ca628f69a381213479db0fb5bf22c30bbbe108b6912c87e82dd2dac2945503fe"
+    },
+    {
+      "case": "holdout_H08_seed503",
+      "kind": "holdout",
+      "source": "author_holdout_v2/runs/holdout/H08_seed503",
+      "completion_sha256": "221bfb5efaf1848ceca723cd3067c727321f6ecd379f8b89b005d8a944e14a53"
+    },
+    {
+      "case": "holdout_H08_seed601",
+      "kind": "holdout",
+      "source": "author_holdout_v2/runs/holdout/H08_seed601",
+      "completion_sha256": "78b9415dbcf0eecb50323a21f74bd7a996806e28e29ed26716003ca84c06258d"
+    },
+    {
+      "case": "holdout_H09_seed211",
+      "kind": "holdout",
+      "source": "author_holdout_v2/runs/holdout/H09_seed211",
+      "completion_sha256": "2b95cd77b8e37e583082f974397a7ab3b8f43f9f2ab7f9608956a09e39ef2c39"
+    },
+    {
+      "case": "holdout_H09_seed307",
+      "kind": "holdout",
+      "source": "author_holdout_v2/runs/holdout/H09_seed307",
+      "completion_sha256": "25cce19561c2338c0ada49a49a949945821f9743b63df2572698b548e68dacf0"
+    },
+    {
+      "case": "holdout_H09_seed401",
+      "kind": "holdout",
+      "source": "author_holdout_v2/runs/holdout/H09_seed401",
+      "completion_sha256": "ed7c1987762ffd8bf78fd53c11f178d9c6534c1f3abc7fc3e599b53a6dd10f29"
+    },
+    {
+      "case": "holdout_H09_seed503",
+      "kind": "holdout",
+      "source": "author_holdout_v2/runs/holdout/H09_seed503",
+      "completion_sha256": "43e0e72593eeab95d62419c9ad4ca26f0463f0bd06ddb286c29701b9707ad7be"
+    },
+    {
+      "case": "holdout_H09_seed601",
+      "kind": "holdout",
+      "source": "author_holdout_v2/runs/holdout/H09_seed601",
+      "completion_sha256": "4450e0a96cb1c40c0bc3a87af04b3b0d19ad72d013d292098704ca966ac27b21"
+    },
+    {
+      "case": "holdout_H10_seed211",
+      "kind": "holdout",
+      "source": "author_holdout_v2/runs/holdout/H10_seed211",
+      "completion_sha256": "3d9d8656984feef99d36102fcf5c56de4b4003a4e1a5c9762ff78401fa54c036"
+    },
+    {
+      "case": "holdout_H10_seed307",
+      "kind": "holdout",
+      "source": "author_holdout_v2/runs/holdout/H10_seed307",
+      "completion_sha256": "8710e6d66996458d26795e76ea802d0211697d02e489963474b87e7d48d6e8e1"
+    },
+    {
+      "case": "holdout_H10_seed401",
+      "kind": "holdout",
+      "source": "author_holdout_v2/runs/holdout/H10_seed401",
+      "completion_sha256": "70d2b8a5aca2b4cfd07b89f7b9a3ff7a3191d538129a44d5d075efb3a9a05cab"
+    },
+    {
+      "case": "holdout_H10_seed503",
+      "kind": "holdout",
+      "source": "author_holdout_v2/runs/holdout/H10_seed503",
+      "completion_sha256": "95ebeb43b0bfde22d6d728623aa22a0501e5af9a97248fef9bdbfd68252d8049"
+    },
+    {
+      "case": "holdout_H10_seed601",
+      "kind": "holdout",
+      "source": "author_holdout_v2/runs/holdout/H10_seed601",
+      "completion_sha256": "ed5002862482a151e82a5297d993f768158700d29e073d38235b833767ce8f7f"
+    },
+    {
+      "case": "holdout_H11_seed211",
+      "kind": "holdout",
+      "source": "author_holdout_v2/runs/holdout/H11_seed211",
+      "completion_sha256": "659202df87450c0d76abcac11771e4d95eab986d07f2fc0bbdce59c4fce461c5"
+    },
+    {
+      "case": "holdout_H11_seed307",
+      "kind": "holdout",
+      "source": "author_holdout_v2/runs/holdout/H11_seed307",
+      "completion_sha256": "da36f84f6cf16f33b4aee8e8a7242667d173c26272e820dea5ef57d045b1a522"
+    },
+    {
+      "case": "holdout_H11_seed401",
+      "kind": "holdout",
+      "source": "author_holdout_v2/runs/holdout/H11_seed401",
+      "completion_sha256": "5b2c73100e1c0047dccb108662f0a1e2facb65829f36761f929120db5ef8ab11"
+    },
+    {
+      "case": "holdout_H11_seed503",
+      "kind": "holdout",
+      "source": "author_holdout_v2/runs/holdout/H11_seed503",
+      "completion_sha256": "aa0b6faea00db9b8acadb2778e4fec83b1df70481e41f72896ff8a74cbdc8f51"
+    },
+    {
+      "case": "holdout_H11_seed601",
+      "kind": "holdout",
+      "source": "author_holdout_v2/runs/holdout/H11_seed601",
+      "completion_sha256": "8f8f7eb062c19e9f38e6545f6a0c639f1c5cc6878c433ad00e98842a08cfa28e"
+    },
+    {
+      "case": "holdout_H12_seed211",
+      "kind": "holdout",
+      "source": "author_holdout_v2/runs/holdout/H12_seed211",
+      "completion_sha256": "46020d2e0ca69bcf2d531269a37c9dd7170fe35569172790831291333a3fd0e1"
+    },
+    {
+      "case": "holdout_H12_seed307",
+      "kind": "holdout",
+      "source": "author_holdout_v2/runs/holdout/H12_seed307",
+      "completion_sha256": "5166fc50bb23e614a2c822cda26fa6af01b1b1467b98b3163a6d02c24e3f54a8"
+    },
+    {
+      "case": "holdout_H12_seed401",
+      "kind": "holdout",
+      "source": "author_holdout_v2/runs/holdout/H12_seed401",
+      "completion_sha256": "5a943cb79080bc1b908d3ea6e9977463b17e1c122c758549b5d1ac1627646120"
+    },
+    {
+      "case": "holdout_H12_seed503",
+      "kind": "holdout",
+      "source": "author_holdout_v2/runs/holdout/H12_seed503",
+      "completion_sha256": "f82a7d3740963102e6255ff5cd51498f9da7a73e8aee371364fb8abcbf14ec5c"
+    },
+    {
+      "case": "holdout_H12_seed601",
+      "kind": "holdout",
+      "source": "author_holdout_v2/runs/holdout/H12_seed601",
+      "completion_sha256": "1e230b955441dd9c9d5e5fb88420a3ec9a012f761b803d5c56f25514ee7f3b66"
+    }
+  ],
+  "observational_replays": 80,
+  "causal_cases_added": 0,
+  "setting": "All original settings and warnings retained; add only laneData, 300-s windows.",
+  "equivalence": "Exact record agreement for summary, trips, E1 front events, original E2, collisions and warning log required.",
+  "comparison": "All 53 monitored lanes: E1 front entries versus laneData left minus teleported. Retain residuals, including negative counts, without correction or seed exclusion.",
+  "downstream": "Replace only local crossing counts in a copy of the 12 anonymous cases. Recompute the seven frozen variants and compare all 84 complete prediction objects, not accuracy.",
+  "scope": "Internal cross-output consistency, not independent correctness or field validation. No new queue-duration inference.",
+  "stopping": "Stop dispatch on technical failure; preserve partial and active runs. Never overwrite or automatically rerun partial directories.",
+  "protected_inputs": {
+    "author_holdout_v2/protocol.json": "78d8efcaff70fde09675d34c767296aa4370be697285711602fb198aa7ffe54b",
+    "author_holdout_v2/monitored_groups.json": "08208b01b1b8a2e359e06d2dbe91d24dafeb371a9fc20b43448bc4cddbe151ac",
+    "author_holdout_v2/analysis/observable_cases.json": "c2574a6a3ae38381bbb6d1b8d459349171ff37ef719df16b132f099b375bd91b",
+    "author_holdout_v2/analysis/predictions_LOCKED.json": "ec1b88068207f321e6bca80a65f4b1edf9f19f5c6e93ffe1d577588ab8c47988"
+  },
+  "code_sha256": {
+    "analyze_author_holdout_v2.py": "89fc3225bcbd14307bc4f4d898841a4dcda94dec7baddd49dad3855735be9bf2",
+    "analyze_independent_intervention_v1.py": "eba3b7d96ea86eecc81969f949d306c991d83a473c14d59ed3b5b2d42a1a0285",
+    "analyze_measurement_replay_BH.py": "e566e2eaa37e484e17a47eebc538c761007d7bc401caf0e886b9705fff68504a",
+    "audit_metrics.py": "d6b12fb1405426b35a74085b85cdd0b62f305eb3625262b2db2eddec7ea508fe",
+    "blind_test_v2_tools.py": "02ec94f7963feea18aca2479f98cb1d59f3e382273e3eb5934787b9a0d9c9dd9",
+    "diagnostic_rules_v2_draft.py": "8d6dc7752cc3791e5e0416a27ce58ec141e13c880b492cbc9afe8706c72dc91a",
+    "freeze_submission.py": "1809e006438a33e09d2d11e19aa5d6f532215f3255f222f9104bf626c10a9a52",
+    "run_author_holdout_v2.py": "3fe4568383f702efd2745442cf87d7ea261bda50732c41de192ed2b8e488f67c",
+    "run_hidden_challenge_v1.py": "eef3401f934a1734e5924eac9129b1e768f424041693ee5a371e256a774494fa",
+    "run_independent_intervention_v1.py": "a81c6ba5c664e8c999ec47fd5f8054bdebaa9985e327484368b751f30c8bd08c",
+    "run_measurement_replay_BH.py": "e475b7cd3e57b2c6b40e66567eb51bac9ad07bf620fcedd721f6afaea20cd713",
+    "run_timepilot.py": "89b433a4253c0414251e2418b6bcf52a97ae9d22d0e82e7e723d7d27950cd271",
+    "stopline_instrumentation.py": "b540ba24659642c55ba718c58c67f3f097502f4ebb529e977557154a4e62edbe",
+    "validate_holdout_measurements_BK.py": "70c0b4fafae3849614dfd0eb6fc51a58a0b8923f939dc89fec8ba24e2fbdfcab"
+  },
+  "manuscript_sha256": {
+    "main.tex": "2d8c7c9e8864869de8d64d473a0fb5809c0a550b0ea1f54197a9348704b19e8e",
+    "revision_audit_stage4.tex": "d37626117ff6225a934160d6d9809977ba60c48f0bb82294ef570048b01cec44",
+    "revision_author_holdout_results_AY.tex": "f70b5188514cb27777edd2f47e39d98415708641bc99cb7f1134fd61d72623d4",
+    "revision_author_holdout_supplement_AY.tex": "a65b8e2d2b37ebdde1140ac4d37914ba8400ab0495c41507a3c17b55314a8070",
+    "revision_author_holdout_table_AY.tex": "bbb93e07e4e002f79f8296461609881b6caa9820a384c1632e1c390d7bb70774",
+    "revision_compact_discussion_BE.tex": "1d5967d04a071a0c3fd421df36b71adc280eab322f0d9d4404ee46d38bc1faa0",
+    "revision_compact_methods_BE.tex": "0512a4a83635bf5275c8786da2485ce9b1382faa18d32d29ec7693a5a00ca675",
+    "revision_compact_results_BE.tex": "92b785f52fe603f57d0e9645921d20d2a8abc01ecccb90943a99b785ba80795b",
+    "revision_configuration_map_BA.tex": "f4561f9b3c51c2b6bdd7178969440072a202a61a584c18d0e3467161196786c9",
+    "revision_holdout_ledger_BB.tex": "f189c67c0c632e8762a365cdbbe254436e5e355022e0d8aa720266b7f62aef0c",
+    "revision_horizon_methods_stage9.tex": "f4dec5307e4e7ca1d564f757832d5ca157c438f3557b1d04e00aebe33130cebc",
+    "revision_horizon_results_stage9.tex": "3b607fcddee4fb25d67670e3d03e12dd102156dde11bbd9d9a105a2a8e0ab074",
+    "revision_horizon_supplement_stage9.tex": "1f38e39a33e144e0999dff3d89c596f36fccd5bb326833ae8daf95b04fbdb1ce",
+    "revision_intervention_methods_stage7.tex": "a3000d5f5c5362b29c16c2159b69f1a96490f2ab8f6448cc7b714780eedd61c9",
+    "revision_intervention_results_stage7.tex": "06540495503b504d411648dcbeda4d95ed5bf1c5f604b7b413e219762ee355b2",
+    "revision_local_integrity_AZ.tex": "d3ba8d9c6335225137581818ada28b93f64f6c829b2e235a83460fa9a45e3347",
+    "revision_local_measurements_stage10.tex": "99b8f17fb2cf46355e03ec3587b366d6320e18595c7e80b93f3f7fc3dd8ca729",
+    "revision_measurement_replay_BI.tex": "400e944dd232934d7cac87617f811d5a3cbde5555e0e0e848f917359945494b8",
+    "revision_morris_extension_BA.tex": "4a805942d0952f96813e7f2f251b3dfa70ecc7f056977890d90ab8784acf8670",
+    "revision_morris_methods_stage19.tex": "adf0d2472c678fe22b08c9df14132601b786f91d3a9325170e0cfcb566da9325",
+    "revision_morris_results_stage19.tex": "0632458749707bf250e82ffddab2092054af2a5cb114ba9fc14c1810edfd3aa1",
+    "revision_morris_seed_rows_stage19.tex": "6ef0318edb94f28f141024154d2643e79a363b7b3d7a282d3c048d50b09a9fc7",
+    "revision_morris_supplement_stage19.tex": "310c60aafd4e02a5e4c2f872fb5a863ec29f03cc40c590e348a038ec11d18dbc",
+    "revision_morris_table_BE.tex": "a90371e17abcba1a298f6a9d936dfedc548c3ef36ce858fd4575d2e7f14ee4f0",
+    "revision_oat_precision_stage13.tex": "b7328fb69be9802b6aa6a2d11b6f5852e14d4c701baa4ac092bf7f247978f580",
+    "revision_relocated_BE.tex": "10c04875c5f32999532997d0ab971760a73dfc6a2dbec72746dd38233a06820a",
+    "revision_results_stage5.tex": "5c02e1de83ed911d7987d03648e058465d65d1dbb11f5919d9618ccafad9ead4",
+    "revision_rules_stage5.tex": "a7b1dae51df69cf9253cdf836fd05be4795f2c96107ca74524853dd280fdfd10",
+    "revision_rule_table_BE.tex": "550d62b8784b451e49a432c57548c1d06f4cec8aaf271dfa3376f335e4fb007b",
+    "revision_score_details_stage8.tex": "3d1bbd608e9a1b1849a20407bbc0ed6518450bde7706f4b784a080e17cf3926e",
+    "revision_setup_details_stage13.tex": "1c0f4cc085b0df253e74b51e0ec9764aa77384e622dca8e29279146bb49c731b",
+    "revision_warning_exposure_stage14.tex": "033287016466a29357347d1688b688c1066ec9ae494ad38dd69ba6752c64ca70",
+    "supplementary.tex": "39fde5002faed3362559701ad8f30a4d97be4b692af558755fc75e8422c90a71",
+    "supplementary_appendix.tex": "7607cdc881704626d3700f10e08cc5b8efda1319930e7582ddd7e58b00f3da95"
+  },
+  "sumo_sha256": "68a88f8c057d7aed44c63d93b6133f94d605dfe2578938221a65ee455d64b376"
+}

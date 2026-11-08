@@ -1,0 +1,130 @@
+[
+  {
+    "file": "Fig08_baseline_edge_bottleneck.pdf",
+    "source_documents": [
+      "supplementary_appendix.tex"
+    ],
+    "sha256": "e4f45f24c4567fe89501b64aadf5045f04c5a454e68f007deef4f66e765ea324",
+    "reference": "reproduction/portable_figures_v4/expected/Fig08_baseline_edge_bottleneck.pdf"
+  },
+  {
+    "file": "Fig23_weather_decomposition.pdf",
+    "source_documents": [
+      "supplementary_appendix.tex"
+    ],
+    "sha256": "03e20083cdfc2f407a4ddc827bf0d72b81acc98ef8b8f68c9f143c5def25c369",
+    "reference": "reproduction/portable_figures_v4/expected/Fig23_weather_decomposition.pdf"
+  },
+  {
+    "file": "Fig_intervention_complete_BE.pdf",
+    "source_documents": [
+      "main.tex"
+    ],
+    "sha256": "bb433d060adf2873b7eb17d2801af5548876f11260f7467f14e5f58176babeda",
+    "reference": "reproduction/portable_figures_v4/expected/Fig_intervention_complete_BE.pdf"
+  },
+  {
+    "file": "Fig_key_effects_BE.pdf",
+    "source_documents": [
+      "main.tex"
+    ],
+    "sha256": "b39f46efddbba9c8dc88ae4068d486386c5c1d30d5ec9220a84b609fda6d8c74",
+    "reference": "reproduction/portable_figures_v4/expected/Fig_key_effects_BE.pdf"
+  },
+  {
+    "file": "Fig_revision_QD_response.pdf",
+    "source_documents": [
+      "supplementary_appendix.tex"
+    ],
+    "sha256": "6d4c9ec8c826eb73ef2f792d8d31becdf6a3d9028594d8b049c4cef82a32aa2d",
+    "reference": "reproduction/portable_figures_v4/expected/Fig_revision_QD_response.pdf"
+  },
+  {
+    "file": "Fig_revision_cycle_audit.pdf",
+    "source_documents": [
+      "main.tex"
+    ],
+    "sha256": "fc729bb95ee47dc0e4378de50eb6c252e3b64984d08c1d70b954ab14627c9023",
+    "reference": "reproduction/portable_figures_v4/expected/Fig_revision_cycle_audit.pdf"
+  },
+  {
+    "file": "Fig_revision_framework.pdf",
+    "source_documents": [
+      "main.tex"
+    ],
+    "sha256": "0fc18e6d5cdb243f9ef85c0c573a6d0e9da3f4bb511cce0be1bff4ae298b7bc3",
+    "reference": "reproduction/portable_figures_v4/expected/Fig_revision_framework.pdf"
+  },
+  {
+    "file": "Fig_revision_horizon.pdf",
+    "source_documents": [
+      "supplementary_appendix.tex"
+    ],
+    "sha256": "b82ce9085d6a1383b32bd30d8a491bef9421774e260753f89aee27b36987a52c",
+    "reference": "reproduction/portable_figures_v4/expected/Fig_revision_horizon.pdf"
+  },
+  {
+    "file": "Fig_revision_interactions_stage10.pdf",
+    "source_documents": [
+      "supplementary_appendix.tex"
+    ],
+    "sha256": "2dd010b8c2d54110b137569fcc24125bcf10269fbea91b0379d9abf49b9caa04",
+    "reference": "reproduction/portable_figures_v4/expected/Fig_revision_interactions_stage10.pdf"
+  },
+  {
+    "file": "Fig_revision_multiseed_scores.pdf",
+    "source_documents": [
+      "supplementary_appendix.tex"
+    ],
+    "sha256": "739a28fd7a2f7cd741b2b23d65f522f8cd916dae1c05308d558461325cb7775f",
+    "reference": "reproduction/portable_figures_v4/expected/Fig_revision_multiseed_scores.pdf"
+  },
+  {
+    "file": "Fig_revision_network_stage10.pdf",
+    "source_documents": [
+      "main.tex"
+    ],
+    "sha256": "88bde790bab37e4f95a0edb6d241f18162373ae0662ab26fc96e176a266a5490",
+    "reference": "reproduction/portable_figures_v4/expected/Fig_revision_network_stage10.pdf"
+  },
+  {
+    "file": "Fig_revision_oat_stage10.pdf",
+    "source_documents": [
+      "supplementary_appendix.tex"
+    ],
+    "sha256": "91a6a4eb38fb760aa0f52b3ff7cf6b216174c1a4128b310f9766c2d3d96abd9f",
+    "reference": "reproduction/portable_figures_v4/expected/Fig_revision_oat_stage10.pdf"
+  },
+  {
+    "file": "Fig_revision_score_robustness.pdf",
+    "source_documents": [
+      "supplementary_appendix.tex"
+    ],
+    "sha256": "0be5e2411ec4f30c0a3c6f568028d410fbecca1f12ed35b631f6f632dbbee04e",
+    "reference": "reproduction/portable_figures_v4/expected/Fig_revision_score_robustness.pdf"
+  },
+  {
+    "file": "Fig_revision_scores.pdf",
+    "source_documents": [
+      "supplementary_appendix.tex"
+    ],
+    "sha256": "7a46e3b8b3deb20d242e8046e2e2bf9de5033cc5ef41512d620c4284d120da0a",
+    "reference": "reproduction/portable_figures_v4/expected/Fig_revision_scores.pdf"
+  },
+  {
+    "file": "Fig_revision_ten_seed_stage10.pdf",
+    "source_documents": [
+      "supplementary_appendix.tex"
+    ],
+    "sha256": "09c83a358a4332492f3b2afe6f835a52ff231e8d4b6d33fbe8df319a44bd9f6e",
+    "reference": "reproduction/portable_figures_v4/expected/Fig_revision_ten_seed_stage10.pdf"
+  },
+  {
+    "file": "Fig_revision_three_seed_stage10.pdf",
+    "source_documents": [
+      "supplementary_appendix.tex"
+    ],
+    "sha256": "5f6affc3fd8a4babb4573c7f0052218d597afda2c2777df905f9c35d37d3f6dc",
+    "reference": "reproduction/portable_figures_v4/expected/Fig_revision_three_seed_stage10.pdf"
+  }
+]

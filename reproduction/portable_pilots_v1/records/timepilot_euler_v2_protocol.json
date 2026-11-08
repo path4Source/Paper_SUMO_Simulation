@@ -1,0 +1,44 @@
+{
+  "kind": "exploratory time-setting pilot, not confirmatory or blinded",
+  "seeds": [
+    42,
+    2024,
+    2025
+  ],
+  "tau_s": [
+    1.0,
+    0.8,
+    1.4
+  ],
+  "step_action_pairs_s": [
+    [
+      1.0,
+      1.0
+    ],
+    [
+      0.5,
+      0.5
+    ],
+    [
+      0.5,
+      1.0
+    ],
+    [
+      0.1,
+      0.5
+    ]
+  ],
+  "horizon_s": [
+    0,
+    3600
+  ],
+  "warmup_excluded_s": 0,
+  "integration": "explicit semi-implicit Euler, step-method.ballistic=false",
+  "amendment": "The first v1 baseline auto-selected ballistic and did not reproduce the original. It is preserved under pilot/. Freeze explicit Euler before further outcomes. First execution tranche: tau 1.0 and 0.8, (step,action)=(1,1) and (0.5,0.5), seed 42 only.",
+  "network_sha256": "5c18dcd49ff415a90acc61c5d12ea5a3630928aa8d4c87492ce63de426245ce2",
+  "route_source_sha256": "12d34980decfb81168a58b3cfb316b39dff5d9012fed070c174be988749288ef",
+  "sumo_sha256": "68a88f8c057d7aed44c63d93b6133f94d605dfe2578938221a65ee455d64b376",
+  "analysis": "Within-setting matched-seed comparison against tau=1.0. Count collision and noncollision teleports separately. No significance claims from pilot. Smaller step changes numerical and possibly behavioral response; no cross-setting comparison called treatment benefit.",
+  "caveat": "Preserve original junction collision checks=false for reproduction; zero logged collisions is not a universal safety proof.",
+  "stop_conditions": "Fail on SUMO error or incomplete outputs. Preserve failed runs. No selective removal based on response sign."
+}

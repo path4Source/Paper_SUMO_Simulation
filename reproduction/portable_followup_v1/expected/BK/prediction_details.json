@@ -1,0 +1,3060 @@
+[
+  {
+    "case_id": "H01",
+    "variant": "full",
+    "original": {
+      "version": "v2-draft-not-frozen",
+      "variant": "full",
+      "operating_state": "service_deterioration",
+      "adoption": "qualified_warning",
+      "retained_improvement": false,
+      "warning_observed": true,
+      "raw_QD_loss": true,
+      "raw_QD_gain": false,
+      "flags": [
+        "local_deterioration_evidence",
+        "warning_audit_required"
+      ],
+      "conflicts": [],
+      "local_gain_groups": [],
+      "local_loss_groups": [
+        "donor",
+        "other"
+      ]
+    },
+    "second_channel": {
+      "version": "v2-draft-not-frozen",
+      "variant": "full",
+      "operating_state": "service_deterioration",
+      "adoption": "qualified_warning",
+      "retained_improvement": false,
+      "warning_observed": true,
+      "raw_QD_loss": true,
+      "raw_QD_gain": false,
+      "flags": [
+        "local_deterioration_evidence",
+        "warning_audit_required"
+      ],
+      "conflicts": [],
+      "local_gain_groups": [],
+      "local_loss_groups": [
+        "donor",
+        "other"
+      ]
+    }
+  },
+  {
+    "case_id": "H01",
+    "variant": "without_population",
+    "original": {
+      "version": "v2-draft-not-frozen",
+      "variant": "without_population",
+      "operating_state": "service_deterioration",
+      "adoption": "qualified_warning",
+      "retained_improvement": false,
+      "warning_observed": true,
+      "raw_QD_loss": true,
+      "raw_QD_gain": false,
+      "flags": [
+        "population_module_omitted",
+        "local_deterioration_evidence",
+        "warning_audit_required"
+      ],
+      "conflicts": [],
+      "local_gain_groups": [],
+      "local_loss_groups": [
+        "donor",
+        "other"
+      ]
+    },
+    "second_channel": {
+      "version": "v2-draft-not-frozen",
+      "variant": "without_population",
+      "operating_state": "service_deterioration",
+      "adoption": "qualified_warning",
+      "retained_improvement": false,
+      "warning_observed": true,
+      "raw_QD_loss": true,
+      "raw_QD_gain": false,
+      "flags": [
+        "population_module_omitted",
+        "local_deterioration_evidence",
+        "warning_audit_required"
+      ],
+      "conflicts": [],
+      "local_gain_groups": [],
+      "local_loss_groups": [
+        "donor",
+        "other"
+      ]
+    }
+  },
+  {
+    "case_id": "H01",
+    "variant": "without_warning",
+    "original": {
+      "version": "v2-draft-not-frozen",
+      "variant": "without_warning",
+      "operating_state": "service_deterioration",
+      "adoption": "supported",
+      "retained_improvement": false,
+      "warning_observed": true,
+      "raw_QD_loss": true,
+      "raw_QD_gain": false,
+      "flags": [
+        "local_deterioration_evidence"
+      ],
+      "conflicts": [],
+      "local_gain_groups": [],
+      "local_loss_groups": [
+        "donor",
+        "other"
+      ]
+    },
+    "second_channel": {
+      "version": "v2-draft-not-frozen",
+      "variant": "without_warning",
+      "operating_state": "service_deterioration",
+      "adoption": "supported",
+      "retained_improvement": false,
+      "warning_observed": true,
+      "raw_QD_loss": true,
+      "raw_QD_gain": false,
+      "flags": [
+        "local_deterioration_evidence"
+      ],
+      "conflicts": [],
+      "local_gain_groups": [],
+      "local_loss_groups": [
+        "donor",
+        "other"
+      ]
+    }
+  },
+  {
+    "case_id": "H01",
+    "variant": "without_local",
+    "original": {
+      "version": "v2-draft-not-frozen",
+      "variant": "without_local",
+      "operating_state": "service_deterioration",
+      "adoption": "qualified_warning",
+      "retained_improvement": false,
+      "warning_observed": true,
+      "raw_QD_loss": true,
+      "raw_QD_gain": false,
+      "flags": [
+        "local_module_omitted",
+        "warning_audit_required"
+      ],
+      "conflicts": [],
+      "local_gain_groups": [],
+      "local_loss_groups": []
+    },
+    "second_channel": {
+      "version": "v2-draft-not-frozen",
+      "variant": "without_local",
+      "operating_state": "service_deterioration",
+      "adoption": "qualified_warning",
+      "retained_improvement": false,
+      "warning_observed": true,
+      "raw_QD_loss": true,
+      "raw_QD_gain": false,
+      "flags": [
+        "local_module_omitted",
+        "warning_audit_required"
+      ],
+      "conflicts": [],
+      "local_gain_groups": [],
+      "local_loss_groups": []
+    }
+  },
+  {
+    "case_id": "H01",
+    "variant": "conventional_QD",
+    "original": {
+      "version": "v2-draft-not-frozen",
+      "variant": "conventional_QD",
+      "operating_state": "QD_loss",
+      "adoption": "supported",
+      "retained_improvement": false,
+      "warning_observed": true,
+      "raw_QD_loss": true,
+      "raw_QD_gain": false,
+      "flags": [],
+      "conflicts": [],
+      "local_gain_groups": [],
+      "local_loss_groups": []
+    },
+    "second_channel": {
+      "version": "v2-draft-not-frozen",
+      "variant": "conventional_QD",
+      "operating_state": "QD_loss",
+      "adoption": "supported",
+      "retained_improvement": false,
+      "warning_observed": true,
+      "raw_QD_loss": true,
+      "raw_QD_gain": false,
+      "flags": [],
+      "conflicts": [],
+      "local_gain_groups": [],
+      "local_loss_groups": []
+    }
+  },
+  {
+    "case_id": "H01",
+    "variant": "QD_timing_warning",
+    "original": {
+      "version": "v2-draft-not-frozen",
+      "variant": "QD_timing_warning",
+      "operating_state": "QD_loss",
+      "adoption": "qualified_warning",
+      "retained_improvement": false,
+      "warning_observed": true,
+      "raw_QD_loss": true,
+      "raw_QD_gain": false,
+      "flags": [],
+      "conflicts": [],
+      "local_gain_groups": [],
+      "local_loss_groups": []
+    },
+    "second_channel": {
+      "version": "v2-draft-not-frozen",
+      "variant": "QD_timing_warning",
+      "operating_state": "QD_loss",
+      "adoption": "qualified_warning",
+      "retained_improvement": false,
+      "warning_observed": true,
+      "raw_QD_loss": true,
+      "raw_QD_gain": false,
+      "flags": [],
+      "conflicts": [],
+      "local_gain_groups": [],
+      "local_loss_groups": []
+    }
+  },
+  {
+    "case_id": "H01",
+    "variant": "always_abstain",
+    "original": {
+      "version": "v2-draft-not-frozen",
+      "variant": "always_abstain",
+      "operating_state": "not_evaluated",
+      "adoption": "unresolved",
+      "retained_improvement": false,
+      "warning_observed": true,
+      "raw_QD_loss": true,
+      "raw_QD_gain": false,
+      "flags": [],
+      "conflicts": [],
+      "local_gain_groups": [],
+      "local_loss_groups": []
+    },
+    "second_channel": {
+      "version": "v2-draft-not-frozen",
+      "variant": "always_abstain",
+      "operating_state": "not_evaluated",
+      "adoption": "unresolved",
+      "retained_improvement": false,
+      "warning_observed": true,
+      "raw_QD_loss": true,
+      "raw_QD_gain": false,
+      "flags": [],
+      "conflicts": [],
+      "local_gain_groups": [],
+      "local_loss_groups": []
+    }
+  },
+  {
+    "case_id": "H02",
+    "variant": "full",
+    "original": {
+      "version": "v2-draft-not-frozen",
+      "variant": "full",
+      "operating_state": "insufficient_evidence",
+      "adoption": "qualified_warning",
+      "retained_improvement": false,
+      "warning_observed": true,
+      "raw_QD_loss": false,
+      "raw_QD_gain": false,
+      "flags": [
+        "warning_audit_required"
+      ],
+      "conflicts": [],
+      "local_gain_groups": [],
+      "local_loss_groups": []
+    },
+    "second_channel": {
+      "version": "v2-draft-not-frozen",
+      "variant": "full",
+      "operating_state": "insufficient_evidence",
+      "adoption": "qualified_warning",
+      "retained_improvement": false,
+      "warning_observed": true,
+      "raw_QD_loss": false,
+      "raw_QD_gain": false,
+      "flags": [
+        "warning_audit_required"
+      ],
+      "conflicts": [],
+      "local_gain_groups": [],
+      "local_loss_groups": []
+    }
+  },
+  {
+    "case_id": "H02",
+    "variant": "without_population",
+    "original": {
+      "version": "v2-draft-not-frozen",
+      "variant": "without_population",
+      "operating_state": "insufficient_evidence",
+      "adoption": "qualified_warning",
+      "retained_improvement": false,
+      "warning_observed": true,
+      "raw_QD_loss": false,
+      "raw_QD_gain": false,
+      "flags": [
+        "population_module_omitted",
+        "warning_audit_required"
+      ],
+      "conflicts": [],
+      "local_gain_groups": [],
+      "local_loss_groups": []
+    },
+    "second_channel": {
+      "version": "v2-draft-not-frozen",
+      "variant": "without_population",
+      "operating_state": "insufficient_evidence",
+      "adoption": "qualified_warning",
+      "retained_improvement": false,
+      "warning_observed": true,
+      "raw_QD_loss": false,
+      "raw_QD_gain": false,
+      "flags": [
+        "population_module_omitted",
+        "warning_audit_required"
+      ],
+      "conflicts": [],
+      "local_gain_groups": [],
+      "local_loss_groups": []
+    }
+  },
+  {
+    "case_id": "H02",
+    "variant": "without_warning",
+    "original": {
+      "version": "v2-draft-not-frozen",
+      "variant": "without_warning",
+      "operating_state": "insufficient_evidence",
+      "adoption": "unresolved",
+      "retained_improvement": false,
+      "warning_observed": true,
+      "raw_QD_loss": false,
+      "raw_QD_gain": false,
+      "flags": [],
+      "conflicts": [],
+      "local_gain_groups": [],
+      "local_loss_groups": []
+    },
+    "second_channel": {
+      "version": "v2-draft-not-frozen",
+      "variant": "without_warning",
+      "operating_state": "insufficient_evidence",
+      "adoption": "unresolved",
+      "retained_improvement": false,
+      "warning_observed": true,
+      "raw_QD_loss": false,
+      "raw_QD_gain": false,
+      "flags": [],
+      "conflicts": [],
+      "local_gain_groups": [],
+      "local_loss_groups": []
+    }
+  },
+  {
+    "case_id": "H02",
+    "variant": "without_local",
+    "original": {
+      "version": "v2-draft-not-frozen",
+      "variant": "without_local",
+      "operating_state": "insufficient_evidence",
+      "adoption": "qualified_warning",
+      "retained_improvement": false,
+      "warning_observed": true,
+      "raw_QD_loss": false,
+      "raw_QD_gain": false,
+      "flags": [
+        "local_module_omitted",
+        "warning_audit_required"
+      ],
+      "conflicts": [],
+      "local_gain_groups": [],
+      "local_loss_groups": []
+    },
+    "second_channel": {
+      "version": "v2-draft-not-frozen",
+      "variant": "without_local",
+      "operating_state": "insufficient_evidence",
+      "adoption": "qualified_warning",
+      "retained_improvement": false,
+      "warning_observed": true,
+      "raw_QD_loss": false,
+      "raw_QD_gain": false,
+      "flags": [
+        "local_module_omitted",
+        "warning_audit_required"
+      ],
+      "conflicts": [],
+      "local_gain_groups": [],
+      "local_loss_groups": []
+    }
+  },
+  {
+    "case_id": "H02",
+    "variant": "conventional_QD",
+    "original": {
+      "version": "v2-draft-not-frozen",
+      "variant": "conventional_QD",
+      "operating_state": "insufficient_evidence",
+      "adoption": "unresolved",
+      "retained_improvement": false,
+      "warning_observed": true,
+      "raw_QD_loss": false,
+      "raw_QD_gain": false,
+      "flags": [],
+      "conflicts": [],
+      "local_gain_groups": [],
+      "local_loss_groups": []
+    },
+    "second_channel": {
+      "version": "v2-draft-not-frozen",
+      "variant": "conventional_QD",
+      "operating_state": "insufficient_evidence",
+      "adoption": "unresolved",
+      "retained_improvement": false,
+      "warning_observed": true,
+      "raw_QD_loss": false,
+      "raw_QD_gain": false,
+      "flags": [],
+      "conflicts": [],
+      "local_gain_groups": [],
+      "local_loss_groups": []
+    }
+  },
+  {
+    "case_id": "H02",
+    "variant": "QD_timing_warning",
+    "original": {
+      "version": "v2-draft-not-frozen",
+      "variant": "QD_timing_warning",
+      "operating_state": "insufficient_evidence",
+      "adoption": "qualified_warning",
+      "retained_improvement": false,
+      "warning_observed": true,
+      "raw_QD_loss": false,
+      "raw_QD_gain": false,
+      "flags": [],
+      "conflicts": [],
+      "local_gain_groups": [],
+      "local_loss_groups": []
+    },
+    "second_channel": {
+      "version": "v2-draft-not-frozen",
+      "variant": "QD_timing_warning",
+      "operating_state": "insufficient_evidence",
+      "adoption": "qualified_warning",
+      "retained_improvement": false,
+      "warning_observed": true,
+      "raw_QD_loss": false,
+      "raw_QD_gain": false,
+      "flags": [],
+      "conflicts": [],
+      "local_gain_groups": [],
+      "local_loss_groups": []
+    }
+  },
+  {
+    "case_id": "H02",
+    "variant": "always_abstain",
+    "original": {
+      "version": "v2-draft-not-frozen",
+      "variant": "always_abstain",
+      "operating_state": "not_evaluated",
+      "adoption": "unresolved",
+      "retained_improvement": false,
+      "warning_observed": true,
+      "raw_QD_loss": false,
+      "raw_QD_gain": false,
+      "flags": [],
+      "conflicts": [],
+      "local_gain_groups": [],
+      "local_loss_groups": []
+    },
+    "second_channel": {
+      "version": "v2-draft-not-frozen",
+      "variant": "always_abstain",
+      "operating_state": "not_evaluated",
+      "adoption": "unresolved",
+      "retained_improvement": false,
+      "warning_observed": true,
+      "raw_QD_loss": false,
+      "raw_QD_gain": false,
+      "flags": [],
+      "conflicts": [],
+      "local_gain_groups": [],
+      "local_loss_groups": []
+    }
+  },
+  {
+    "case_id": "H03",
+    "variant": "full",
+    "original": {
+      "version": "v2-draft-not-frozen",
+      "variant": "full",
+      "operating_state": "burden_decrease_only",
+      "adoption": "qualified_warning",
+      "retained_improvement": false,
+      "warning_observed": true,
+      "raw_QD_loss": false,
+      "raw_QD_gain": false,
+      "flags": [
+        "warning_audit_required"
+      ],
+      "conflicts": [],
+      "local_gain_groups": [],
+      "local_loss_groups": []
+    },
+    "second_channel": {
+      "version": "v2-draft-not-frozen",
+      "variant": "full",
+      "operating_state": "burden_decrease_only",
+      "adoption": "qualified_warning",
+      "retained_improvement": false,
+      "warning_observed": true,
+      "raw_QD_loss": false,
+      "raw_QD_gain": false,
+      "flags": [
+        "warning_audit_required"
+      ],
+      "conflicts": [],
+      "local_gain_groups": [],
+      "local_loss_groups": []
+    }
+  },
+  {
+    "case_id": "H03",
+    "variant": "without_population",
+    "original": {
+      "version": "v2-draft-not-frozen",
+      "variant": "without_population",
+      "operating_state": "insufficient_evidence",
+      "adoption": "qualified_warning",
+      "retained_improvement": false,
+      "warning_observed": true,
+      "raw_QD_loss": false,
+      "raw_QD_gain": false,
+      "flags": [
+        "population_module_omitted",
+        "warning_audit_required"
+      ],
+      "conflicts": [],
+      "local_gain_groups": [],
+      "local_loss_groups": []
+    },
+    "second_channel": {
+      "version": "v2-draft-not-frozen",
+      "variant": "without_population",
+      "operating_state": "insufficient_evidence",
+      "adoption": "qualified_warning",
+      "retained_improvement": false,
+      "warning_observed": true,
+      "raw_QD_loss": false,
+      "raw_QD_gain": false,
+      "flags": [
+        "population_module_omitted",
+        "warning_audit_required"
+      ],
+      "conflicts": [],
+      "local_gain_groups": [],
+      "local_loss_groups": []
+    }
+  },
+  {
+    "case_id": "H03",
+    "variant": "without_warning",
+    "original": {
+      "version": "v2-draft-not-frozen",
+      "variant": "without_warning",
+      "operating_state": "burden_decrease_only",
+      "adoption": "unresolved",
+      "retained_improvement": false,
+      "warning_observed": true,
+      "raw_QD_loss": false,
+      "raw_QD_gain": false,
+      "flags": [],
+      "conflicts": [],
+      "local_gain_groups": [],
+      "local_loss_groups": []
+    },
+    "second_channel": {
+      "version": "v2-draft-not-frozen",
+      "variant": "without_warning",
+      "operating_state": "burden_decrease_only",
+      "adoption": "unresolved",
+      "retained_improvement": false,
+      "warning_observed": true,
+      "raw_QD_loss": false,
+      "raw_QD_gain": false,
+      "flags": [],
+      "conflicts": [],
+      "local_gain_groups": [],
+      "local_loss_groups": []
+    }
+  },
+  {
+    "case_id": "H03",
+    "variant": "without_local",
+    "original": {
+      "version": "v2-draft-not-frozen",
+      "variant": "without_local",
+      "operating_state": "burden_decrease_only",
+      "adoption": "qualified_warning",
+      "retained_improvement": false,
+      "warning_observed": true,
+      "raw_QD_loss": false,
+      "raw_QD_gain": false,
+      "flags": [
+        "local_module_omitted",
+        "warning_audit_required"
+      ],
+      "conflicts": [],
+      "local_gain_groups": [],
+      "local_loss_groups": []
+    },
+    "second_channel": {
+      "version": "v2-draft-not-frozen",
+      "variant": "without_local",
+      "operating_state": "burden_decrease_only",
+      "adoption": "qualified_warning",
+      "retained_improvement": false,
+      "warning_observed": true,
+      "raw_QD_loss": false,
+      "raw_QD_gain": false,
+      "flags": [
+        "local_module_omitted",
+        "warning_audit_required"
+      ],
+      "conflicts": [],
+      "local_gain_groups": [],
+      "local_loss_groups": []
+    }
+  },
+  {
+    "case_id": "H03",
+    "variant": "conventional_QD",
+    "original": {
+      "version": "v2-draft-not-frozen",
+      "variant": "conventional_QD",
+      "operating_state": "insufficient_evidence",
+      "adoption": "unresolved",
+      "retained_improvement": false,
+      "warning_observed": true,
+      "raw_QD_loss": false,
+      "raw_QD_gain": false,
+      "flags": [],
+      "conflicts": [],
+      "local_gain_groups": [],
+      "local_loss_groups": []
+    },
+    "second_channel": {
+      "version": "v2-draft-not-frozen",
+      "variant": "conventional_QD",
+      "operating_state": "insufficient_evidence",
+      "adoption": "unresolved",
+      "retained_improvement": false,
+      "warning_observed": true,
+      "raw_QD_loss": false,
+      "raw_QD_gain": false,
+      "flags": [],
+      "conflicts": [],
+      "local_gain_groups": [],
+      "local_loss_groups": []
+    }
+  },
+  {
+    "case_id": "H03",
+    "variant": "QD_timing_warning",
+    "original": {
+      "version": "v2-draft-not-frozen",
+      "variant": "QD_timing_warning",
+      "operating_state": "insufficient_evidence",
+      "adoption": "qualified_warning",
+      "retained_improvement": false,
+      "warning_observed": true,
+      "raw_QD_loss": false,
+      "raw_QD_gain": false,
+      "flags": [],
+      "conflicts": [],
+      "local_gain_groups": [],
+      "local_loss_groups": []
+    },
+    "second_channel": {
+      "version": "v2-draft-not-frozen",
+      "variant": "QD_timing_warning",
+      "operating_state": "insufficient_evidence",
+      "adoption": "qualified_warning",
+      "retained_improvement": false,
+      "warning_observed": true,
+      "raw_QD_loss": false,
+      "raw_QD_gain": false,
+      "flags": [],
+      "conflicts": [],
+      "local_gain_groups": [],
+      "local_loss_groups": []
+    }
+  },
+  {
+    "case_id": "H03",
+    "variant": "always_abstain",
+    "original": {
+      "version": "v2-draft-not-frozen",
+      "variant": "always_abstain",
+      "operating_state": "not_evaluated",
+      "adoption": "unresolved",
+      "retained_improvement": false,
+      "warning_observed": true,
+      "raw_QD_loss": false,
+      "raw_QD_gain": false,
+      "flags": [],
+      "conflicts": [],
+      "local_gain_groups": [],
+      "local_loss_groups": []
+    },
+    "second_channel": {
+      "version": "v2-draft-not-frozen",
+      "variant": "always_abstain",
+      "operating_state": "not_evaluated",
+      "adoption": "unresolved",
+      "retained_improvement": false,
+      "warning_observed": true,
+      "raw_QD_loss": false,
+      "raw_QD_gain": false,
+      "flags": [],
+      "conflicts": [],
+      "local_gain_groups": [],
+      "local_loss_groups": []
+    }
+  },
+  {
+    "case_id": "H04",
+    "variant": "full",
+    "original": {
+      "version": "v2-draft-not-frozen",
+      "variant": "full",
+      "operating_state": "insufficient_evidence",
+      "adoption": "qualified_warning",
+      "retained_improvement": false,
+      "warning_observed": true,
+      "raw_QD_loss": false,
+      "raw_QD_gain": false,
+      "flags": [
+        "local_recovery_evidence",
+        "local_deterioration_evidence",
+        "spatial_redistribution",
+        "warning_audit_required"
+      ],
+      "conflicts": [],
+      "local_gain_groups": [
+        "target"
+      ],
+      "local_loss_groups": [
+        "donor"
+      ]
+    },
+    "second_channel": {
+      "version": "v2-draft-not-frozen",
+      "variant": "full",
+      "operating_state": "insufficient_evidence",
+      "adoption": "qualified_warning",
+      "retained_improvement": false,
+      "warning_observed": true,
+      "raw_QD_loss": false,
+      "raw_QD_gain": false,
+      "flags": [
+        "local_recovery_evidence",
+        "local_deterioration_evidence",
+        "spatial_redistribution",
+        "warning_audit_required"
+      ],
+      "conflicts": [],
+      "local_gain_groups": [
+        "target"
+      ],
+      "local_loss_groups": [
+        "donor"
+      ]
+    }
+  },
+  {
+    "case_id": "H04",
+    "variant": "without_population",
+    "original": {
+      "version": "v2-draft-not-frozen",
+      "variant": "without_population",
+      "operating_state": "insufficient_evidence",
+      "adoption": "qualified_warning",
+      "retained_improvement": false,
+      "warning_observed": true,
+      "raw_QD_loss": false,
+      "raw_QD_gain": false,
+      "flags": [
+        "population_module_omitted",
+        "local_recovery_evidence",
+        "local_deterioration_evidence",
+        "spatial_redistribution",
+        "warning_audit_required"
+      ],
+      "conflicts": [],
+      "local_gain_groups": [
+        "target"
+      ],
+      "local_loss_groups": [
+        "donor"
+      ]
+    },
+    "second_channel": {
+      "version": "v2-draft-not-frozen",
+      "variant": "without_population",
+      "operating_state": "insufficient_evidence",
+      "adoption": "qualified_warning",
+      "retained_improvement": false,
+      "warning_observed": true,
+      "raw_QD_loss": false,
+      "raw_QD_gain": false,
+      "flags": [
+        "population_module_omitted",
+        "local_recovery_evidence",
+        "local_deterioration_evidence",
+        "spatial_redistribution",
+        "warning_audit_required"
+      ],
+      "conflicts": [],
+      "local_gain_groups": [
+        "target"
+      ],
+      "local_loss_groups": [
+        "donor"
+      ]
+    }
+  },
+  {
+    "case_id": "H04",
+    "variant": "without_warning",
+    "original": {
+      "version": "v2-draft-not-frozen",
+      "variant": "without_warning",
+      "operating_state": "insufficient_evidence",
+      "adoption": "unresolved",
+      "retained_improvement": false,
+      "warning_observed": true,
+      "raw_QD_loss": false,
+      "raw_QD_gain": false,
+      "flags": [
+        "local_recovery_evidence",
+        "local_deterioration_evidence",
+        "spatial_redistribution"
+      ],
+      "conflicts": [],
+      "local_gain_groups": [
+        "target"
+      ],
+      "local_loss_groups": [
+        "donor"
+      ]
+    },
+    "second_channel": {
+      "version": "v2-draft-not-frozen",
+      "variant": "without_warning",
+      "operating_state": "insufficient_evidence",
+      "adoption": "unresolved",
+      "retained_improvement": false,
+      "warning_observed": true,
+      "raw_QD_loss": false,
+      "raw_QD_gain": false,
+      "flags": [
+        "local_recovery_evidence",
+        "local_deterioration_evidence",
+        "spatial_redistribution"
+      ],
+      "conflicts": [],
+      "local_gain_groups": [
+        "target"
+      ],
+      "local_loss_groups": [
+        "donor"
+      ]
+    }
+  },
+  {
+    "case_id": "H04",
+    "variant": "without_local",
+    "original": {
+      "version": "v2-draft-not-frozen",
+      "variant": "without_local",
+      "operating_state": "insufficient_evidence",
+      "adoption": "qualified_warning",
+      "retained_improvement": false,
+      "warning_observed": true,
+      "raw_QD_loss": false,
+      "raw_QD_gain": false,
+      "flags": [
+        "local_module_omitted",
+        "warning_audit_required"
+      ],
+      "conflicts": [],
+      "local_gain_groups": [],
+      "local_loss_groups": []
+    },
+    "second_channel": {
+      "version": "v2-draft-not-frozen",
+      "variant": "without_local",
+      "operating_state": "insufficient_evidence",
+      "adoption": "qualified_warning",
+      "retained_improvement": false,
+      "warning_observed": true,
+      "raw_QD_loss": false,
+      "raw_QD_gain": false,
+      "flags": [
+        "local_module_omitted",
+        "warning_audit_required"
+      ],
+      "conflicts": [],
+      "local_gain_groups": [],
+      "local_loss_groups": []
+    }
+  },
+  {
+    "case_id": "H04",
+    "variant": "conventional_QD",
+    "original": {
+      "version": "v2-draft-not-frozen",
+      "variant": "conventional_QD",
+      "operating_state": "insufficient_evidence",
+      "adoption": "unresolved",
+      "retained_improvement": false,
+      "warning_observed": true,
+      "raw_QD_loss": false,
+      "raw_QD_gain": false,
+      "flags": [],
+      "conflicts": [],
+      "local_gain_groups": [],
+      "local_loss_groups": []
+    },
+    "second_channel": {
+      "version": "v2-draft-not-frozen",
+      "variant": "conventional_QD",
+      "operating_state": "insufficient_evidence",
+      "adoption": "unresolved",
+      "retained_improvement": false,
+      "warning_observed": true,
+      "raw_QD_loss": false,
+      "raw_QD_gain": false,
+      "flags": [],
+      "conflicts": [],
+      "local_gain_groups": [],
+      "local_loss_groups": []
+    }
+  },
+  {
+    "case_id": "H04",
+    "variant": "QD_timing_warning",
+    "original": {
+      "version": "v2-draft-not-frozen",
+      "variant": "QD_timing_warning",
+      "operating_state": "insufficient_evidence",
+      "adoption": "qualified_warning",
+      "retained_improvement": false,
+      "warning_observed": true,
+      "raw_QD_loss": false,
+      "raw_QD_gain": false,
+      "flags": [],
+      "conflicts": [],
+      "local_gain_groups": [],
+      "local_loss_groups": []
+    },
+    "second_channel": {
+      "version": "v2-draft-not-frozen",
+      "variant": "QD_timing_warning",
+      "operating_state": "insufficient_evidence",
+      "adoption": "qualified_warning",
+      "retained_improvement": false,
+      "warning_observed": true,
+      "raw_QD_loss": false,
+      "raw_QD_gain": false,
+      "flags": [],
+      "conflicts": [],
+      "local_gain_groups": [],
+      "local_loss_groups": []
+    }
+  },
+  {
+    "case_id": "H04",
+    "variant": "always_abstain",
+    "original": {
+      "version": "v2-draft-not-frozen",
+      "variant": "always_abstain",
+      "operating_state": "not_evaluated",
+      "adoption": "unresolved",
+      "retained_improvement": false,
+      "warning_observed": true,
+      "raw_QD_loss": false,
+      "raw_QD_gain": false,
+      "flags": [],
+      "conflicts": [],
+      "local_gain_groups": [],
+      "local_loss_groups": []
+    },
+    "second_channel": {
+      "version": "v2-draft-not-frozen",
+      "variant": "always_abstain",
+      "operating_state": "not_evaluated",
+      "adoption": "unresolved",
+      "retained_improvement": false,
+      "warning_observed": true,
+      "raw_QD_loss": false,
+      "raw_QD_gain": false,
+      "flags": [],
+      "conflicts": [],
+      "local_gain_groups": [],
+      "local_loss_groups": []
+    }
+  },
+  {
+    "case_id": "H05",
+    "variant": "full",
+    "original": {
+      "version": "v2-draft-not-frozen",
+      "variant": "full",
+      "operating_state": "network_improvement",
+      "adoption": "qualified_warning",
+      "retained_improvement": false,
+      "warning_observed": true,
+      "raw_QD_loss": false,
+      "raw_QD_gain": true,
+      "flags": [
+        "warning_audit_required"
+      ],
+      "conflicts": [],
+      "local_gain_groups": [],
+      "local_loss_groups": []
+    },
+    "second_channel": {
+      "version": "v2-draft-not-frozen",
+      "variant": "full",
+      "operating_state": "network_improvement",
+      "adoption": "qualified_warning",
+      "retained_improvement": false,
+      "warning_observed": true,
+      "raw_QD_loss": false,
+      "raw_QD_gain": true,
+      "flags": [
+        "warning_audit_required"
+      ],
+      "conflicts": [],
+      "local_gain_groups": [],
+      "local_loss_groups": []
+    }
+  },
+  {
+    "case_id": "H05",
+    "variant": "without_population",
+    "original": {
+      "version": "v2-draft-not-frozen",
+      "variant": "without_population",
+      "operating_state": "network_improvement",
+      "adoption": "qualified_warning",
+      "retained_improvement": false,
+      "warning_observed": true,
+      "raw_QD_loss": false,
+      "raw_QD_gain": true,
+      "flags": [
+        "population_module_omitted",
+        "warning_audit_required"
+      ],
+      "conflicts": [],
+      "local_gain_groups": [],
+      "local_loss_groups": []
+    },
+    "second_channel": {
+      "version": "v2-draft-not-frozen",
+      "variant": "without_population",
+      "operating_state": "network_improvement",
+      "adoption": "qualified_warning",
+      "retained_improvement": false,
+      "warning_observed": true,
+      "raw_QD_loss": false,
+      "raw_QD_gain": true,
+      "flags": [
+        "population_module_omitted",
+        "warning_audit_required"
+      ],
+      "conflicts": [],
+      "local_gain_groups": [],
+      "local_loss_groups": []
+    }
+  },
+  {
+    "case_id": "H05",
+    "variant": "without_warning",
+    "original": {
+      "version": "v2-draft-not-frozen",
+      "variant": "without_warning",
+      "operating_state": "network_improvement",
+      "adoption": "unresolved",
+      "retained_improvement": false,
+      "warning_observed": true,
+      "raw_QD_loss": false,
+      "raw_QD_gain": true,
+      "flags": [],
+      "conflicts": [],
+      "local_gain_groups": [],
+      "local_loss_groups": []
+    },
+    "second_channel": {
+      "version": "v2-draft-not-frozen",
+      "variant": "without_warning",
+      "operating_state": "network_improvement",
+      "adoption": "unresolved",
+      "retained_improvement": false,
+      "warning_observed": true,
+      "raw_QD_loss": false,
+      "raw_QD_gain": true,
+      "flags": [],
+      "conflicts": [],
+      "local_gain_groups": [],
+      "local_loss_groups": []
+    }
+  },
+  {
+    "case_id": "H05",
+    "variant": "without_local",
+    "original": {
+      "version": "v2-draft-not-frozen",
+      "variant": "without_local",
+      "operating_state": "network_improvement",
+      "adoption": "qualified_warning",
+      "retained_improvement": false,
+      "warning_observed": true,
+      "raw_QD_loss": false,
+      "raw_QD_gain": true,
+      "flags": [
+        "local_module_omitted",
+        "warning_audit_required"
+      ],
+      "conflicts": [],
+      "local_gain_groups": [],
+      "local_loss_groups": []
+    },
+    "second_channel": {
+      "version": "v2-draft-not-frozen",
+      "variant": "without_local",
+      "operating_state": "network_improvement",
+      "adoption": "qualified_warning",
+      "retained_improvement": false,
+      "warning_observed": true,
+      "raw_QD_loss": false,
+      "raw_QD_gain": true,
+      "flags": [
+        "local_module_omitted",
+        "warning_audit_required"
+      ],
+      "conflicts": [],
+      "local_gain_groups": [],
+      "local_loss_groups": []
+    }
+  },
+  {
+    "case_id": "H05",
+    "variant": "conventional_QD",
+    "original": {
+      "version": "v2-draft-not-frozen",
+      "variant": "conventional_QD",
+      "operating_state": "QD_gain",
+      "adoption": "supported",
+      "retained_improvement": true,
+      "warning_observed": true,
+      "raw_QD_loss": false,
+      "raw_QD_gain": true,
+      "flags": [],
+      "conflicts": [],
+      "local_gain_groups": [],
+      "local_loss_groups": []
+    },
+    "second_channel": {
+      "version": "v2-draft-not-frozen",
+      "variant": "conventional_QD",
+      "operating_state": "QD_gain",
+      "adoption": "supported",
+      "retained_improvement": true,
+      "warning_observed": true,
+      "raw_QD_loss": false,
+      "raw_QD_gain": true,
+      "flags": [],
+      "conflicts": [],
+      "local_gain_groups": [],
+      "local_loss_groups": []
+    }
+  },
+  {
+    "case_id": "H05",
+    "variant": "QD_timing_warning",
+    "original": {
+      "version": "v2-draft-not-frozen",
+      "variant": "QD_timing_warning",
+      "operating_state": "QD_gain",
+      "adoption": "qualified_warning",
+      "retained_improvement": false,
+      "warning_observed": true,
+      "raw_QD_loss": false,
+      "raw_QD_gain": true,
+      "flags": [],
+      "conflicts": [],
+      "local_gain_groups": [],
+      "local_loss_groups": []
+    },
+    "second_channel": {
+      "version": "v2-draft-not-frozen",
+      "variant": "QD_timing_warning",
+      "operating_state": "QD_gain",
+      "adoption": "qualified_warning",
+      "retained_improvement": false,
+      "warning_observed": true,
+      "raw_QD_loss": false,
+      "raw_QD_gain": true,
+      "flags": [],
+      "conflicts": [],
+      "local_gain_groups": [],
+      "local_loss_groups": []
+    }
+  },
+  {
+    "case_id": "H05",
+    "variant": "always_abstain",
+    "original": {
+      "version": "v2-draft-not-frozen",
+      "variant": "always_abstain",
+      "operating_state": "not_evaluated",
+      "adoption": "unresolved",
+      "retained_improvement": false,
+      "warning_observed": true,
+      "raw_QD_loss": false,
+      "raw_QD_gain": true,
+      "flags": [],
+      "conflicts": [],
+      "local_gain_groups": [],
+      "local_loss_groups": []
+    },
+    "second_channel": {
+      "version": "v2-draft-not-frozen",
+      "variant": "always_abstain",
+      "operating_state": "not_evaluated",
+      "adoption": "unresolved",
+      "retained_improvement": false,
+      "warning_observed": true,
+      "raw_QD_loss": false,
+      "raw_QD_gain": true,
+      "flags": [],
+      "conflicts": [],
+      "local_gain_groups": [],
+      "local_loss_groups": []
+    }
+  },
+  {
+    "case_id": "H06",
+    "variant": "full",
+    "original": {
+      "version": "v2-draft-not-frozen",
+      "variant": "full",
+      "operating_state": "demand_conditioned",
+      "adoption": "qualified_warning",
+      "retained_improvement": false,
+      "warning_observed": true,
+      "raw_QD_loss": false,
+      "raw_QD_gain": false,
+      "flags": [
+        "demand_volume_changed",
+        "per_planned_vehicle_burden_decreased",
+        "warning_audit_required"
+      ],
+      "conflicts": [],
+      "local_gain_groups": [],
+      "local_loss_groups": []
+    },
+    "second_channel": {
+      "version": "v2-draft-not-frozen",
+      "variant": "full",
+      "operating_state": "demand_conditioned",
+      "adoption": "qualified_warning",
+      "retained_improvement": false,
+      "warning_observed": true,
+      "raw_QD_loss": false,
+      "raw_QD_gain": false,
+      "flags": [
+        "demand_volume_changed",
+        "per_planned_vehicle_burden_decreased",
+        "warning_audit_required"
+      ],
+      "conflicts": [],
+      "local_gain_groups": [],
+      "local_loss_groups": []
+    }
+  },
+  {
+    "case_id": "H06",
+    "variant": "without_population",
+    "original": {
+      "version": "v2-draft-not-frozen",
+      "variant": "without_population",
+      "operating_state": "insufficient_evidence",
+      "adoption": "qualified_warning",
+      "retained_improvement": false,
+      "warning_observed": true,
+      "raw_QD_loss": false,
+      "raw_QD_gain": false,
+      "flags": [
+        "demand_volume_changed",
+        "population_module_omitted",
+        "warning_audit_required"
+      ],
+      "conflicts": [],
+      "local_gain_groups": [],
+      "local_loss_groups": []
+    },
+    "second_channel": {
+      "version": "v2-draft-not-frozen",
+      "variant": "without_population",
+      "operating_state": "insufficient_evidence",
+      "adoption": "qualified_warning",
+      "retained_improvement": false,
+      "warning_observed": true,
+      "raw_QD_loss": false,
+      "raw_QD_gain": false,
+      "flags": [
+        "demand_volume_changed",
+        "population_module_omitted",
+        "warning_audit_required"
+      ],
+      "conflicts": [],
+      "local_gain_groups": [],
+      "local_loss_groups": []
+    }
+  },
+  {
+    "case_id": "H06",
+    "variant": "without_warning",
+    "original": {
+      "version": "v2-draft-not-frozen",
+      "variant": "without_warning",
+      "operating_state": "demand_conditioned",
+      "adoption": "unresolved",
+      "retained_improvement": false,
+      "warning_observed": true,
+      "raw_QD_loss": false,
+      "raw_QD_gain": false,
+      "flags": [
+        "demand_volume_changed",
+        "per_planned_vehicle_burden_decreased"
+      ],
+      "conflicts": [],
+      "local_gain_groups": [],
+      "local_loss_groups": []
+    },
+    "second_channel": {
+      "version": "v2-draft-not-frozen",
+      "variant": "without_warning",
+      "operating_state": "demand_conditioned",
+      "adoption": "unresolved",
+      "retained_improvement": false,
+      "warning_observed": true,
+      "raw_QD_loss": false,
+      "raw_QD_gain": false,
+      "flags": [
+        "demand_volume_changed",
+        "per_planned_vehicle_burden_decreased"
+      ],
+      "conflicts": [],
+      "local_gain_groups": [],
+      "local_loss_groups": []
+    }
+  },
+  {
+    "case_id": "H06",
+    "variant": "without_local",
+    "original": {
+      "version": "v2-draft-not-frozen",
+      "variant": "without_local",
+      "operating_state": "demand_conditioned",
+      "adoption": "qualified_warning",
+      "retained_improvement": false,
+      "warning_observed": true,
+      "raw_QD_loss": false,
+      "raw_QD_gain": false,
+      "flags": [
+        "demand_volume_changed",
+        "per_planned_vehicle_burden_decreased",
+        "local_module_omitted",
+        "warning_audit_required"
+      ],
+      "conflicts": [],
+      "local_gain_groups": [],
+      "local_loss_groups": []
+    },
+    "second_channel": {
+      "version": "v2-draft-not-frozen",
+      "variant": "without_local",
+      "operating_state": "demand_conditioned",
+      "adoption": "qualified_warning",
+      "retained_improvement": false,
+      "warning_observed": true,
+      "raw_QD_loss": false,
+      "raw_QD_gain": false,
+      "flags": [
+        "demand_volume_changed",
+        "per_planned_vehicle_burden_decreased",
+        "local_module_omitted",
+        "warning_audit_required"
+      ],
+      "conflicts": [],
+      "local_gain_groups": [],
+      "local_loss_groups": []
+    }
+  },
+  {
+    "case_id": "H06",
+    "variant": "conventional_QD",
+    "original": {
+      "version": "v2-draft-not-frozen",
+      "variant": "conventional_QD",
+      "operating_state": "insufficient_evidence",
+      "adoption": "unresolved",
+      "retained_improvement": false,
+      "warning_observed": true,
+      "raw_QD_loss": false,
+      "raw_QD_gain": false,
+      "flags": [],
+      "conflicts": [],
+      "local_gain_groups": [],
+      "local_loss_groups": []
+    },
+    "second_channel": {
+      "version": "v2-draft-not-frozen",
+      "variant": "conventional_QD",
+      "operating_state": "insufficient_evidence",
+      "adoption": "unresolved",
+      "retained_improvement": false,
+      "warning_observed": true,
+      "raw_QD_loss": false,
+      "raw_QD_gain": false,
+      "flags": [],
+      "conflicts": [],
+      "local_gain_groups": [],
+      "local_loss_groups": []
+    }
+  },
+  {
+    "case_id": "H06",
+    "variant": "QD_timing_warning",
+    "original": {
+      "version": "v2-draft-not-frozen",
+      "variant": "QD_timing_warning",
+      "operating_state": "insufficient_evidence",
+      "adoption": "qualified_warning",
+      "retained_improvement": false,
+      "warning_observed": true,
+      "raw_QD_loss": false,
+      "raw_QD_gain": false,
+      "flags": [],
+      "conflicts": [],
+      "local_gain_groups": [],
+      "local_loss_groups": []
+    },
+    "second_channel": {
+      "version": "v2-draft-not-frozen",
+      "variant": "QD_timing_warning",
+      "operating_state": "insufficient_evidence",
+      "adoption": "qualified_warning",
+      "retained_improvement": false,
+      "warning_observed": true,
+      "raw_QD_loss": false,
+      "raw_QD_gain": false,
+      "flags": [],
+      "conflicts": [],
+      "local_gain_groups": [],
+      "local_loss_groups": []
+    }
+  },
+  {
+    "case_id": "H06",
+    "variant": "always_abstain",
+    "original": {
+      "version": "v2-draft-not-frozen",
+      "variant": "always_abstain",
+      "operating_state": "not_evaluated",
+      "adoption": "unresolved",
+      "retained_improvement": false,
+      "warning_observed": true,
+      "raw_QD_loss": false,
+      "raw_QD_gain": false,
+      "flags": [],
+      "conflicts": [],
+      "local_gain_groups": [],
+      "local_loss_groups": []
+    },
+    "second_channel": {
+      "version": "v2-draft-not-frozen",
+      "variant": "always_abstain",
+      "operating_state": "not_evaluated",
+      "adoption": "unresolved",
+      "retained_improvement": false,
+      "warning_observed": true,
+      "raw_QD_loss": false,
+      "raw_QD_gain": false,
+      "flags": [],
+      "conflicts": [],
+      "local_gain_groups": [],
+      "local_loss_groups": []
+    }
+  },
+  {
+    "case_id": "H07",
+    "variant": "full",
+    "original": {
+      "version": "v2-draft-not-frozen",
+      "variant": "full",
+      "operating_state": "insufficient_evidence",
+      "adoption": "unresolved",
+      "retained_improvement": false,
+      "warning_observed": false,
+      "raw_QD_loss": false,
+      "raw_QD_gain": false,
+      "flags": [],
+      "conflicts": [],
+      "local_gain_groups": [],
+      "local_loss_groups": []
+    },
+    "second_channel": {
+      "version": "v2-draft-not-frozen",
+      "variant": "full",
+      "operating_state": "insufficient_evidence",
+      "adoption": "unresolved",
+      "retained_improvement": false,
+      "warning_observed": false,
+      "raw_QD_loss": false,
+      "raw_QD_gain": false,
+      "flags": [],
+      "conflicts": [],
+      "local_gain_groups": [],
+      "local_loss_groups": []
+    }
+  },
+  {
+    "case_id": "H07",
+    "variant": "without_population",
+    "original": {
+      "version": "v2-draft-not-frozen",
+      "variant": "without_population",
+      "operating_state": "insufficient_evidence",
+      "adoption": "unresolved",
+      "retained_improvement": false,
+      "warning_observed": false,
+      "raw_QD_loss": false,
+      "raw_QD_gain": false,
+      "flags": [
+        "population_module_omitted"
+      ],
+      "conflicts": [],
+      "local_gain_groups": [],
+      "local_loss_groups": []
+    },
+    "second_channel": {
+      "version": "v2-draft-not-frozen",
+      "variant": "without_population",
+      "operating_state": "insufficient_evidence",
+      "adoption": "unresolved",
+      "retained_improvement": false,
+      "warning_observed": false,
+      "raw_QD_loss": false,
+      "raw_QD_gain": false,
+      "flags": [
+        "population_module_omitted"
+      ],
+      "conflicts": [],
+      "local_gain_groups": [],
+      "local_loss_groups": []
+    }
+  },
+  {
+    "case_id": "H07",
+    "variant": "without_warning",
+    "original": {
+      "version": "v2-draft-not-frozen",
+      "variant": "without_warning",
+      "operating_state": "insufficient_evidence",
+      "adoption": "unresolved",
+      "retained_improvement": false,
+      "warning_observed": false,
+      "raw_QD_loss": false,
+      "raw_QD_gain": false,
+      "flags": [],
+      "conflicts": [],
+      "local_gain_groups": [],
+      "local_loss_groups": []
+    },
+    "second_channel": {
+      "version": "v2-draft-not-frozen",
+      "variant": "without_warning",
+      "operating_state": "insufficient_evidence",
+      "adoption": "unresolved",
+      "retained_improvement": false,
+      "warning_observed": false,
+      "raw_QD_loss": false,
+      "raw_QD_gain": false,
+      "flags": [],
+      "conflicts": [],
+      "local_gain_groups": [],
+      "local_loss_groups": []
+    }
+  },
+  {
+    "case_id": "H07",
+    "variant": "without_local",
+    "original": {
+      "version": "v2-draft-not-frozen",
+      "variant": "without_local",
+      "operating_state": "insufficient_evidence",
+      "adoption": "unresolved",
+      "retained_improvement": false,
+      "warning_observed": false,
+      "raw_QD_loss": false,
+      "raw_QD_gain": false,
+      "flags": [
+        "local_module_omitted"
+      ],
+      "conflicts": [],
+      "local_gain_groups": [],
+      "local_loss_groups": []
+    },
+    "second_channel": {
+      "version": "v2-draft-not-frozen",
+      "variant": "without_local",
+      "operating_state": "insufficient_evidence",
+      "adoption": "unresolved",
+      "retained_improvement": false,
+      "warning_observed": false,
+      "raw_QD_loss": false,
+      "raw_QD_gain": false,
+      "flags": [
+        "local_module_omitted"
+      ],
+      "conflicts": [],
+      "local_gain_groups": [],
+      "local_loss_groups": []
+    }
+  },
+  {
+    "case_id": "H07",
+    "variant": "conventional_QD",
+    "original": {
+      "version": "v2-draft-not-frozen",
+      "variant": "conventional_QD",
+      "operating_state": "insufficient_evidence",
+      "adoption": "unresolved",
+      "retained_improvement": false,
+      "warning_observed": false,
+      "raw_QD_loss": false,
+      "raw_QD_gain": false,
+      "flags": [],
+      "conflicts": [],
+      "local_gain_groups": [],
+      "local_loss_groups": []
+    },
+    "second_channel": {
+      "version": "v2-draft-not-frozen",
+      "variant": "conventional_QD",
+      "operating_state": "insufficient_evidence",
+      "adoption": "unresolved",
+      "retained_improvement": false,
+      "warning_observed": false,
+      "raw_QD_loss": false,
+      "raw_QD_gain": false,
+      "flags": [],
+      "conflicts": [],
+      "local_gain_groups": [],
+      "local_loss_groups": []
+    }
+  },
+  {
+    "case_id": "H07",
+    "variant": "QD_timing_warning",
+    "original": {
+      "version": "v2-draft-not-frozen",
+      "variant": "QD_timing_warning",
+      "operating_state": "insufficient_evidence",
+      "adoption": "unresolved",
+      "retained_improvement": false,
+      "warning_observed": false,
+      "raw_QD_loss": false,
+      "raw_QD_gain": false,
+      "flags": [],
+      "conflicts": [],
+      "local_gain_groups": [],
+      "local_loss_groups": []
+    },
+    "second_channel": {
+      "version": "v2-draft-not-frozen",
+      "variant": "QD_timing_warning",
+      "operating_state": "insufficient_evidence",
+      "adoption": "unresolved",
+      "retained_improvement": false,
+      "warning_observed": false,
+      "raw_QD_loss": false,
+      "raw_QD_gain": false,
+      "flags": [],
+      "conflicts": [],
+      "local_gain_groups": [],
+      "local_loss_groups": []
+    }
+  },
+  {
+    "case_id": "H07",
+    "variant": "always_abstain",
+    "original": {
+      "version": "v2-draft-not-frozen",
+      "variant": "always_abstain",
+      "operating_state": "not_evaluated",
+      "adoption": "unresolved",
+      "retained_improvement": false,
+      "warning_observed": false,
+      "raw_QD_loss": false,
+      "raw_QD_gain": false,
+      "flags": [],
+      "conflicts": [],
+      "local_gain_groups": [],
+      "local_loss_groups": []
+    },
+    "second_channel": {
+      "version": "v2-draft-not-frozen",
+      "variant": "always_abstain",
+      "operating_state": "not_evaluated",
+      "adoption": "unresolved",
+      "retained_improvement": false,
+      "warning_observed": false,
+      "raw_QD_loss": false,
+      "raw_QD_gain": false,
+      "flags": [],
+      "conflicts": [],
+      "local_gain_groups": [],
+      "local_loss_groups": []
+    }
+  },
+  {
+    "case_id": "H08",
+    "variant": "full",
+    "original": {
+      "version": "v2-draft-not-frozen",
+      "variant": "full",
+      "operating_state": "demand_conditioned",
+      "adoption": "qualified_warning",
+      "retained_improvement": false,
+      "warning_observed": true,
+      "raw_QD_loss": false,
+      "raw_QD_gain": false,
+      "flags": [
+        "demand_volume_changed",
+        "per_planned_vehicle_burden_increased",
+        "warning_audit_required"
+      ],
+      "conflicts": [],
+      "local_gain_groups": [],
+      "local_loss_groups": []
+    },
+    "second_channel": {
+      "version": "v2-draft-not-frozen",
+      "variant": "full",
+      "operating_state": "demand_conditioned",
+      "adoption": "qualified_warning",
+      "retained_improvement": false,
+      "warning_observed": true,
+      "raw_QD_loss": false,
+      "raw_QD_gain": false,
+      "flags": [
+        "demand_volume_changed",
+        "per_planned_vehicle_burden_increased",
+        "warning_audit_required"
+      ],
+      "conflicts": [],
+      "local_gain_groups": [],
+      "local_loss_groups": []
+    }
+  },
+  {
+    "case_id": "H08",
+    "variant": "without_population",
+    "original": {
+      "version": "v2-draft-not-frozen",
+      "variant": "without_population",
+      "operating_state": "insufficient_evidence",
+      "adoption": "qualified_warning",
+      "retained_improvement": false,
+      "warning_observed": true,
+      "raw_QD_loss": false,
+      "raw_QD_gain": false,
+      "flags": [
+        "demand_volume_changed",
+        "population_module_omitted",
+        "warning_audit_required"
+      ],
+      "conflicts": [],
+      "local_gain_groups": [],
+      "local_loss_groups": []
+    },
+    "second_channel": {
+      "version": "v2-draft-not-frozen",
+      "variant": "without_population",
+      "operating_state": "insufficient_evidence",
+      "adoption": "qualified_warning",
+      "retained_improvement": false,
+      "warning_observed": true,
+      "raw_QD_loss": false,
+      "raw_QD_gain": false,
+      "flags": [
+        "demand_volume_changed",
+        "population_module_omitted",
+        "warning_audit_required"
+      ],
+      "conflicts": [],
+      "local_gain_groups": [],
+      "local_loss_groups": []
+    }
+  },
+  {
+    "case_id": "H08",
+    "variant": "without_warning",
+    "original": {
+      "version": "v2-draft-not-frozen",
+      "variant": "without_warning",
+      "operating_state": "demand_conditioned",
+      "adoption": "unresolved",
+      "retained_improvement": false,
+      "warning_observed": true,
+      "raw_QD_loss": false,
+      "raw_QD_gain": false,
+      "flags": [
+        "demand_volume_changed",
+        "per_planned_vehicle_burden_increased"
+      ],
+      "conflicts": [],
+      "local_gain_groups": [],
+      "local_loss_groups": []
+    },
+    "second_channel": {
+      "version": "v2-draft-not-frozen",
+      "variant": "without_warning",
+      "operating_state": "demand_conditioned",
+      "adoption": "unresolved",
+      "retained_improvement": false,
+      "warning_observed": true,
+      "raw_QD_loss": false,
+      "raw_QD_gain": false,
+      "flags": [
+        "demand_volume_changed",
+        "per_planned_vehicle_burden_increased"
+      ],
+      "conflicts": [],
+      "local_gain_groups": [],
+      "local_loss_groups": []
+    }
+  },
+  {
+    "case_id": "H08",
+    "variant": "without_local",
+    "original": {
+      "version": "v2-draft-not-frozen",
+      "variant": "without_local",
+      "operating_state": "demand_conditioned",
+      "adoption": "qualified_warning",
+      "retained_improvement": false,
+      "warning_observed": true,
+      "raw_QD_loss": false,
+      "raw_QD_gain": false,
+      "flags": [
+        "demand_volume_changed",
+        "per_planned_vehicle_burden_increased",
+        "local_module_omitted",
+        "warning_audit_required"
+      ],
+      "conflicts": [],
+      "local_gain_groups": [],
+      "local_loss_groups": []
+    },
+    "second_channel": {
+      "version": "v2-draft-not-frozen",
+      "variant": "without_local",
+      "operating_state": "demand_conditioned",
+      "adoption": "qualified_warning",
+      "retained_improvement": false,
+      "warning_observed": true,
+      "raw_QD_loss": false,
+      "raw_QD_gain": false,
+      "flags": [
+        "demand_volume_changed",
+        "per_planned_vehicle_burden_increased",
+        "local_module_omitted",
+        "warning_audit_required"
+      ],
+      "conflicts": [],
+      "local_gain_groups": [],
+      "local_loss_groups": []
+    }
+  },
+  {
+    "case_id": "H08",
+    "variant": "conventional_QD",
+    "original": {
+      "version": "v2-draft-not-frozen",
+      "variant": "conventional_QD",
+      "operating_state": "insufficient_evidence",
+      "adoption": "unresolved",
+      "retained_improvement": false,
+      "warning_observed": true,
+      "raw_QD_loss": false,
+      "raw_QD_gain": false,
+      "flags": [],
+      "conflicts": [],
+      "local_gain_groups": [],
+      "local_loss_groups": []
+    },
+    "second_channel": {
+      "version": "v2-draft-not-frozen",
+      "variant": "conventional_QD",
+      "operating_state": "insufficient_evidence",
+      "adoption": "unresolved",
+      "retained_improvement": false,
+      "warning_observed": true,
+      "raw_QD_loss": false,
+      "raw_QD_gain": false,
+      "flags": [],
+      "conflicts": [],
+      "local_gain_groups": [],
+      "local_loss_groups": []
+    }
+  },
+  {
+    "case_id": "H08",
+    "variant": "QD_timing_warning",
+    "original": {
+      "version": "v2-draft-not-frozen",
+      "variant": "QD_timing_warning",
+      "operating_state": "insufficient_evidence",
+      "adoption": "qualified_warning",
+      "retained_improvement": false,
+      "warning_observed": true,
+      "raw_QD_loss": false,
+      "raw_QD_gain": false,
+      "flags": [],
+      "conflicts": [],
+      "local_gain_groups": [],
+      "local_loss_groups": []
+    },
+    "second_channel": {
+      "version": "v2-draft-not-frozen",
+      "variant": "QD_timing_warning",
+      "operating_state": "insufficient_evidence",
+      "adoption": "qualified_warning",
+      "retained_improvement": false,
+      "warning_observed": true,
+      "raw_QD_loss": false,
+      "raw_QD_gain": false,
+      "flags": [],
+      "conflicts": [],
+      "local_gain_groups": [],
+      "local_loss_groups": []
+    }
+  },
+  {
+    "case_id": "H08",
+    "variant": "always_abstain",
+    "original": {
+      "version": "v2-draft-not-frozen",
+      "variant": "always_abstain",
+      "operating_state": "not_evaluated",
+      "adoption": "unresolved",
+      "retained_improvement": false,
+      "warning_observed": true,
+      "raw_QD_loss": false,
+      "raw_QD_gain": false,
+      "flags": [],
+      "conflicts": [],
+      "local_gain_groups": [],
+      "local_loss_groups": []
+    },
+    "second_channel": {
+      "version": "v2-draft-not-frozen",
+      "variant": "always_abstain",
+      "operating_state": "not_evaluated",
+      "adoption": "unresolved",
+      "retained_improvement": false,
+      "warning_observed": true,
+      "raw_QD_loss": false,
+      "raw_QD_gain": false,
+      "flags": [],
+      "conflicts": [],
+      "local_gain_groups": [],
+      "local_loss_groups": []
+    }
+  },
+  {
+    "case_id": "H09",
+    "variant": "full",
+    "original": {
+      "version": "v2-draft-not-frozen",
+      "variant": "full",
+      "operating_state": "service_deterioration",
+      "adoption": "qualified_warning",
+      "retained_improvement": false,
+      "warning_observed": true,
+      "raw_QD_loss": true,
+      "raw_QD_gain": false,
+      "flags": [
+        "local_deterioration_evidence",
+        "warning_audit_required"
+      ],
+      "conflicts": [],
+      "local_gain_groups": [],
+      "local_loss_groups": [
+        "donor",
+        "other"
+      ]
+    },
+    "second_channel": {
+      "version": "v2-draft-not-frozen",
+      "variant": "full",
+      "operating_state": "service_deterioration",
+      "adoption": "qualified_warning",
+      "retained_improvement": false,
+      "warning_observed": true,
+      "raw_QD_loss": true,
+      "raw_QD_gain": false,
+      "flags": [
+        "local_deterioration_evidence",
+        "warning_audit_required"
+      ],
+      "conflicts": [],
+      "local_gain_groups": [],
+      "local_loss_groups": [
+        "donor",
+        "other"
+      ]
+    }
+  },
+  {
+    "case_id": "H09",
+    "variant": "without_population",
+    "original": {
+      "version": "v2-draft-not-frozen",
+      "variant": "without_population",
+      "operating_state": "service_deterioration",
+      "adoption": "qualified_warning",
+      "retained_improvement": false,
+      "warning_observed": true,
+      "raw_QD_loss": true,
+      "raw_QD_gain": false,
+      "flags": [
+        "population_module_omitted",
+        "local_deterioration_evidence",
+        "warning_audit_required"
+      ],
+      "conflicts": [],
+      "local_gain_groups": [],
+      "local_loss_groups": [
+        "donor",
+        "other"
+      ]
+    },
+    "second_channel": {
+      "version": "v2-draft-not-frozen",
+      "variant": "without_population",
+      "operating_state": "service_deterioration",
+      "adoption": "qualified_warning",
+      "retained_improvement": false,
+      "warning_observed": true,
+      "raw_QD_loss": true,
+      "raw_QD_gain": false,
+      "flags": [
+        "population_module_omitted",
+        "local_deterioration_evidence",
+        "warning_audit_required"
+      ],
+      "conflicts": [],
+      "local_gain_groups": [],
+      "local_loss_groups": [
+        "donor",
+        "other"
+      ]
+    }
+  },
+  {
+    "case_id": "H09",
+    "variant": "without_warning",
+    "original": {
+      "version": "v2-draft-not-frozen",
+      "variant": "without_warning",
+      "operating_state": "service_deterioration",
+      "adoption": "supported",
+      "retained_improvement": false,
+      "warning_observed": true,
+      "raw_QD_loss": true,
+      "raw_QD_gain": false,
+      "flags": [
+        "local_deterioration_evidence"
+      ],
+      "conflicts": [],
+      "local_gain_groups": [],
+      "local_loss_groups": [
+        "donor",
+        "other"
+      ]
+    },
+    "second_channel": {
+      "version": "v2-draft-not-frozen",
+      "variant": "without_warning",
+      "operating_state": "service_deterioration",
+      "adoption": "supported",
+      "retained_improvement": false,
+      "warning_observed": true,
+      "raw_QD_loss": true,
+      "raw_QD_gain": false,
+      "flags": [
+        "local_deterioration_evidence"
+      ],
+      "conflicts": [],
+      "local_gain_groups": [],
+      "local_loss_groups": [
+        "donor",
+        "other"
+      ]
+    }
+  },
+  {
+    "case_id": "H09",
+    "variant": "without_local",
+    "original": {
+      "version": "v2-draft-not-frozen",
+      "variant": "without_local",
+      "operating_state": "service_deterioration",
+      "adoption": "qualified_warning",
+      "retained_improvement": false,
+      "warning_observed": true,
+      "raw_QD_loss": true,
+      "raw_QD_gain": false,
+      "flags": [
+        "local_module_omitted",
+        "warning_audit_required"
+      ],
+      "conflicts": [],
+      "local_gain_groups": [],
+      "local_loss_groups": []
+    },
+    "second_channel": {
+      "version": "v2-draft-not-frozen",
+      "variant": "without_local",
+      "operating_state": "service_deterioration",
+      "adoption": "qualified_warning",
+      "retained_improvement": false,
+      "warning_observed": true,
+      "raw_QD_loss": true,
+      "raw_QD_gain": false,
+      "flags": [
+        "local_module_omitted",
+        "warning_audit_required"
+      ],
+      "conflicts": [],
+      "local_gain_groups": [],
+      "local_loss_groups": []
+    }
+  },
+  {
+    "case_id": "H09",
+    "variant": "conventional_QD",
+    "original": {
+      "version": "v2-draft-not-frozen",
+      "variant": "conventional_QD",
+      "operating_state": "QD_loss",
+      "adoption": "supported",
+      "retained_improvement": false,
+      "warning_observed": true,
+      "raw_QD_loss": true,
+      "raw_QD_gain": false,
+      "flags": [],
+      "conflicts": [],
+      "local_gain_groups": [],
+      "local_loss_groups": []
+    },
+    "second_channel": {
+      "version": "v2-draft-not-frozen",
+      "variant": "conventional_QD",
+      "operating_state": "QD_loss",
+      "adoption": "supported",
+      "retained_improvement": false,
+      "warning_observed": true,
+      "raw_QD_loss": true,
+      "raw_QD_gain": false,
+      "flags": [],
+      "conflicts": [],
+      "local_gain_groups": [],
+      "local_loss_groups": []
+    }
+  },
+  {
+    "case_id": "H09",
+    "variant": "QD_timing_warning",
+    "original": {
+      "version": "v2-draft-not-frozen",
+      "variant": "QD_timing_warning",
+      "operating_state": "QD_loss",
+      "adoption": "qualified_warning",
+      "retained_improvement": false,
+      "warning_observed": true,
+      "raw_QD_loss": true,
+      "raw_QD_gain": false,
+      "flags": [],
+      "conflicts": [],
+      "local_gain_groups": [],
+      "local_loss_groups": []
+    },
+    "second_channel": {
+      "version": "v2-draft-not-frozen",
+      "variant": "QD_timing_warning",
+      "operating_state": "QD_loss",
+      "adoption": "qualified_warning",
+      "retained_improvement": false,
+      "warning_observed": true,
+      "raw_QD_loss": true,
+      "raw_QD_gain": false,
+      "flags": [],
+      "conflicts": [],
+      "local_gain_groups": [],
+      "local_loss_groups": []
+    }
+  },
+  {
+    "case_id": "H09",
+    "variant": "always_abstain",
+    "original": {
+      "version": "v2-draft-not-frozen",
+      "variant": "always_abstain",
+      "operating_state": "not_evaluated",
+      "adoption": "unresolved",
+      "retained_improvement": false,
+      "warning_observed": true,
+      "raw_QD_loss": true,
+      "raw_QD_gain": false,
+      "flags": [],
+      "conflicts": [],
+      "local_gain_groups": [],
+      "local_loss_groups": []
+    },
+    "second_channel": {
+      "version": "v2-draft-not-frozen",
+      "variant": "always_abstain",
+      "operating_state": "not_evaluated",
+      "adoption": "unresolved",
+      "retained_improvement": false,
+      "warning_observed": true,
+      "raw_QD_loss": true,
+      "raw_QD_gain": false,
+      "flags": [],
+      "conflicts": [],
+      "local_gain_groups": [],
+      "local_loss_groups": []
+    }
+  },
+  {
+    "case_id": "H10",
+    "variant": "full",
+    "original": {
+      "version": "v2-draft-not-frozen",
+      "variant": "full",
+      "operating_state": "demand_conditioned",
+      "adoption": "unresolved",
+      "retained_improvement": false,
+      "warning_observed": false,
+      "raw_QD_loss": false,
+      "raw_QD_gain": false,
+      "flags": [
+        "demand_volume_changed"
+      ],
+      "conflicts": [],
+      "local_gain_groups": [],
+      "local_loss_groups": []
+    },
+    "second_channel": {
+      "version": "v2-draft-not-frozen",
+      "variant": "full",
+      "operating_state": "demand_conditioned",
+      "adoption": "unresolved",
+      "retained_improvement": false,
+      "warning_observed": false,
+      "raw_QD_loss": false,
+      "raw_QD_gain": false,
+      "flags": [
+        "demand_volume_changed"
+      ],
+      "conflicts": [],
+      "local_gain_groups": [],
+      "local_loss_groups": []
+    }
+  },
+  {
+    "case_id": "H10",
+    "variant": "without_population",
+    "original": {
+      "version": "v2-draft-not-frozen",
+      "variant": "without_population",
+      "operating_state": "insufficient_evidence",
+      "adoption": "unresolved",
+      "retained_improvement": false,
+      "warning_observed": false,
+      "raw_QD_loss": false,
+      "raw_QD_gain": false,
+      "flags": [
+        "demand_volume_changed",
+        "population_module_omitted"
+      ],
+      "conflicts": [],
+      "local_gain_groups": [],
+      "local_loss_groups": []
+    },
+    "second_channel": {
+      "version": "v2-draft-not-frozen",
+      "variant": "without_population",
+      "operating_state": "insufficient_evidence",
+      "adoption": "unresolved",
+      "retained_improvement": false,
+      "warning_observed": false,
+      "raw_QD_loss": false,
+      "raw_QD_gain": false,
+      "flags": [
+        "demand_volume_changed",
+        "population_module_omitted"
+      ],
+      "conflicts": [],
+      "local_gain_groups": [],
+      "local_loss_groups": []
+    }
+  },
+  {
+    "case_id": "H10",
+    "variant": "without_warning",
+    "original": {
+      "version": "v2-draft-not-frozen",
+      "variant": "without_warning",
+      "operating_state": "demand_conditioned",
+      "adoption": "unresolved",
+      "retained_improvement": false,
+      "warning_observed": false,
+      "raw_QD_loss": false,
+      "raw_QD_gain": false,
+      "flags": [
+        "demand_volume_changed"
+      ],
+      "conflicts": [],
+      "local_gain_groups": [],
+      "local_loss_groups": []
+    },
+    "second_channel": {
+      "version": "v2-draft-not-frozen",
+      "variant": "without_warning",
+      "operating_state": "demand_conditioned",
+      "adoption": "unresolved",
+      "retained_improvement": false,
+      "warning_observed": false,
+      "raw_QD_loss": false,
+      "raw_QD_gain": false,
+      "flags": [
+        "demand_volume_changed"
+      ],
+      "conflicts": [],
+      "local_gain_groups": [],
+      "local_loss_groups": []
+    }
+  },
+  {
+    "case_id": "H10",
+    "variant": "without_local",
+    "original": {
+      "version": "v2-draft-not-frozen",
+      "variant": "without_local",
+      "operating_state": "demand_conditioned",
+      "adoption": "unresolved",
+      "retained_improvement": false,
+      "warning_observed": false,
+      "raw_QD_loss": false,
+      "raw_QD_gain": false,
+      "flags": [
+        "demand_volume_changed",
+        "local_module_omitted"
+      ],
+      "conflicts": [],
+      "local_gain_groups": [],
+      "local_loss_groups": []
+    },
+    "second_channel": {
+      "version": "v2-draft-not-frozen",
+      "variant": "without_local",
+      "operating_state": "demand_conditioned",
+      "adoption": "unresolved",
+      "retained_improvement": false,
+      "warning_observed": false,
+      "raw_QD_loss": false,
+      "raw_QD_gain": false,
+      "flags": [
+        "demand_volume_changed",
+        "local_module_omitted"
+      ],
+      "conflicts": [],
+      "local_gain_groups": [],
+      "local_loss_groups": []
+    }
+  },
+  {
+    "case_id": "H10",
+    "variant": "conventional_QD",
+    "original": {
+      "version": "v2-draft-not-frozen",
+      "variant": "conventional_QD",
+      "operating_state": "insufficient_evidence",
+      "adoption": "unresolved",
+      "retained_improvement": false,
+      "warning_observed": false,
+      "raw_QD_loss": false,
+      "raw_QD_gain": false,
+      "flags": [],
+      "conflicts": [],
+      "local_gain_groups": [],
+      "local_loss_groups": []
+    },
+    "second_channel": {
+      "version": "v2-draft-not-frozen",
+      "variant": "conventional_QD",
+      "operating_state": "insufficient_evidence",
+      "adoption": "unresolved",
+      "retained_improvement": false,
+      "warning_observed": false,
+      "raw_QD_loss": false,
+      "raw_QD_gain": false,
+      "flags": [],
+      "conflicts": [],
+      "local_gain_groups": [],
+      "local_loss_groups": []
+    }
+  },
+  {
+    "case_id": "H10",
+    "variant": "QD_timing_warning",
+    "original": {
+      "version": "v2-draft-not-frozen",
+      "variant": "QD_timing_warning",
+      "operating_state": "insufficient_evidence",
+      "adoption": "unresolved",
+      "retained_improvement": false,
+      "warning_observed": false,
+      "raw_QD_loss": false,
+      "raw_QD_gain": false,
+      "flags": [],
+      "conflicts": [],
+      "local_gain_groups": [],
+      "local_loss_groups": []
+    },
+    "second_channel": {
+      "version": "v2-draft-not-frozen",
+      "variant": "QD_timing_warning",
+      "operating_state": "insufficient_evidence",
+      "adoption": "unresolved",
+      "retained_improvement": false,
+      "warning_observed": false,
+      "raw_QD_loss": false,
+      "raw_QD_gain": false,
+      "flags": [],
+      "conflicts": [],
+      "local_gain_groups": [],
+      "local_loss_groups": []
+    }
+  },
+  {
+    "case_id": "H10",
+    "variant": "always_abstain",
+    "original": {
+      "version": "v2-draft-not-frozen",
+      "variant": "always_abstain",
+      "operating_state": "not_evaluated",
+      "adoption": "unresolved",
+      "retained_improvement": false,
+      "warning_observed": false,
+      "raw_QD_loss": false,
+      "raw_QD_gain": false,
+      "flags": [],
+      "conflicts": [],
+      "local_gain_groups": [],
+      "local_loss_groups": []
+    },
+    "second_channel": {
+      "version": "v2-draft-not-frozen",
+      "variant": "always_abstain",
+      "operating_state": "not_evaluated",
+      "adoption": "unresolved",
+      "retained_improvement": false,
+      "warning_observed": false,
+      "raw_QD_loss": false,
+      "raw_QD_gain": false,
+      "flags": [],
+      "conflicts": [],
+      "local_gain_groups": [],
+      "local_loss_groups": []
+    }
+  },
+  {
+    "case_id": "H11",
+    "variant": "full",
+    "original": {
+      "version": "v2-draft-not-frozen",
+      "variant": "full",
+      "operating_state": "insufficient_evidence",
+      "adoption": "qualified_warning",
+      "retained_improvement": false,
+      "warning_observed": true,
+      "raw_QD_loss": false,
+      "raw_QD_gain": false,
+      "flags": [
+        "local_deterioration_evidence",
+        "warning_audit_required"
+      ],
+      "conflicts": [],
+      "local_gain_groups": [],
+      "local_loss_groups": [
+        "donor"
+      ]
+    },
+    "second_channel": {
+      "version": "v2-draft-not-frozen",
+      "variant": "full",
+      "operating_state": "insufficient_evidence",
+      "adoption": "qualified_warning",
+      "retained_improvement": false,
+      "warning_observed": true,
+      "raw_QD_loss": false,
+      "raw_QD_gain": false,
+      "flags": [
+        "local_deterioration_evidence",
+        "warning_audit_required"
+      ],
+      "conflicts": [],
+      "local_gain_groups": [],
+      "local_loss_groups": [
+        "donor"
+      ]
+    }
+  },
+  {
+    "case_id": "H11",
+    "variant": "without_population",
+    "original": {
+      "version": "v2-draft-not-frozen",
+      "variant": "without_population",
+      "operating_state": "insufficient_evidence",
+      "adoption": "qualified_warning",
+      "retained_improvement": false,
+      "warning_observed": true,
+      "raw_QD_loss": false,
+      "raw_QD_gain": false,
+      "flags": [
+        "population_module_omitted",
+        "local_deterioration_evidence",
+        "warning_audit_required"
+      ],
+      "conflicts": [],
+      "local_gain_groups": [],
+      "local_loss_groups": [
+        "donor"
+      ]
+    },
+    "second_channel": {
+      "version": "v2-draft-not-frozen",
+      "variant": "without_population",
+      "operating_state": "insufficient_evidence",
+      "adoption": "qualified_warning",
+      "retained_improvement": false,
+      "warning_observed": true,
+      "raw_QD_loss": false,
+      "raw_QD_gain": false,
+      "flags": [
+        "population_module_omitted",
+        "local_deterioration_evidence",
+        "warning_audit_required"
+      ],
+      "conflicts": [],
+      "local_gain_groups": [],
+      "local_loss_groups": [
+        "donor"
+      ]
+    }
+  },
+  {
+    "case_id": "H11",
+    "variant": "without_warning",
+    "original": {
+      "version": "v2-draft-not-frozen",
+      "variant": "without_warning",
+      "operating_state": "insufficient_evidence",
+      "adoption": "unresolved",
+      "retained_improvement": false,
+      "warning_observed": true,
+      "raw_QD_loss": false,
+      "raw_QD_gain": false,
+      "flags": [
+        "local_deterioration_evidence"
+      ],
+      "conflicts": [],
+      "local_gain_groups": [],
+      "local_loss_groups": [
+        "donor"
+      ]
+    },
+    "second_channel": {
+      "version": "v2-draft-not-frozen",
+      "variant": "without_warning",
+      "operating_state": "insufficient_evidence",
+      "adoption": "unresolved",
+      "retained_improvement": false,
+      "warning_observed": true,
+      "raw_QD_loss": false,
+      "raw_QD_gain": false,
+      "flags": [
+        "local_deterioration_evidence"
+      ],
+      "conflicts": [],
+      "local_gain_groups": [],
+      "local_loss_groups": [
+        "donor"
+      ]
+    }
+  },
+  {
+    "case_id": "H11",
+    "variant": "without_local",
+    "original": {
+      "version": "v2-draft-not-frozen",
+      "variant": "without_local",
+      "operating_state": "insufficient_evidence",
+      "adoption": "qualified_warning",
+      "retained_improvement": false,
+      "warning_observed": true,
+      "raw_QD_loss": false,
+      "raw_QD_gain": false,
+      "flags": [
+        "local_module_omitted",
+        "warning_audit_required"
+      ],
+      "conflicts": [],
+      "local_gain_groups": [],
+      "local_loss_groups": []
+    },
+    "second_channel": {
+      "version": "v2-draft-not-frozen",
+      "variant": "without_local",
+      "operating_state": "insufficient_evidence",
+      "adoption": "qualified_warning",
+      "retained_improvement": false,
+      "warning_observed": true,
+      "raw_QD_loss": false,
+      "raw_QD_gain": false,
+      "flags": [
+        "local_module_omitted",
+        "warning_audit_required"
+      ],
+      "conflicts": [],
+      "local_gain_groups": [],
+      "local_loss_groups": []
+    }
+  },
+  {
+    "case_id": "H11",
+    "variant": "conventional_QD",
+    "original": {
+      "version": "v2-draft-not-frozen",
+      "variant": "conventional_QD",
+      "operating_state": "insufficient_evidence",
+      "adoption": "unresolved",
+      "retained_improvement": false,
+      "warning_observed": true,
+      "raw_QD_loss": false,
+      "raw_QD_gain": false,
+      "flags": [],
+      "conflicts": [],
+      "local_gain_groups": [],
+      "local_loss_groups": []
+    },
+    "second_channel": {
+      "version": "v2-draft-not-frozen",
+      "variant": "conventional_QD",
+      "operating_state": "insufficient_evidence",
+      "adoption": "unresolved",
+      "retained_improvement": false,
+      "warning_observed": true,
+      "raw_QD_loss": false,
+      "raw_QD_gain": false,
+      "flags": [],
+      "conflicts": [],
+      "local_gain_groups": [],
+      "local_loss_groups": []
+    }
+  },
+  {
+    "case_id": "H11",
+    "variant": "QD_timing_warning",
+    "original": {
+      "version": "v2-draft-not-frozen",
+      "variant": "QD_timing_warning",
+      "operating_state": "insufficient_evidence",
+      "adoption": "qualified_warning",
+      "retained_improvement": false,
+      "warning_observed": true,
+      "raw_QD_loss": false,
+      "raw_QD_gain": false,
+      "flags": [],
+      "conflicts": [],
+      "local_gain_groups": [],
+      "local_loss_groups": []
+    },
+    "second_channel": {
+      "version": "v2-draft-not-frozen",
+      "variant": "QD_timing_warning",
+      "operating_state": "insufficient_evidence",
+      "adoption": "qualified_warning",
+      "retained_improvement": false,
+      "warning_observed": true,
+      "raw_QD_loss": false,
+      "raw_QD_gain": false,
+      "flags": [],
+      "conflicts": [],
+      "local_gain_groups": [],
+      "local_loss_groups": []
+    }
+  },
+  {
+    "case_id": "H11",
+    "variant": "always_abstain",
+    "original": {
+      "version": "v2-draft-not-frozen",
+      "variant": "always_abstain",
+      "operating_state": "not_evaluated",
+      "adoption": "unresolved",
+      "retained_improvement": false,
+      "warning_observed": true,
+      "raw_QD_loss": false,
+      "raw_QD_gain": false,
+      "flags": [],
+      "conflicts": [],
+      "local_gain_groups": [],
+      "local_loss_groups": []
+    },
+    "second_channel": {
+      "version": "v2-draft-not-frozen",
+      "variant": "always_abstain",
+      "operating_state": "not_evaluated",
+      "adoption": "unresolved",
+      "retained_improvement": false,
+      "warning_observed": true,
+      "raw_QD_loss": false,
+      "raw_QD_gain": false,
+      "flags": [],
+      "conflicts": [],
+      "local_gain_groups": [],
+      "local_loss_groups": []
+    }
+  },
+  {
+    "case_id": "H12",
+    "variant": "full",
+    "original": {
+      "version": "v2-draft-not-frozen",
+      "variant": "full",
+      "operating_state": "demand_conditioned",
+      "adoption": "qualified_warning",
+      "retained_improvement": false,
+      "warning_observed": true,
+      "raw_QD_loss": true,
+      "raw_QD_gain": false,
+      "flags": [
+        "demand_volume_changed",
+        "per_planned_vehicle_burden_increased",
+        "local_deterioration_evidence",
+        "warning_audit_required"
+      ],
+      "conflicts": [],
+      "local_gain_groups": [],
+      "local_loss_groups": [
+        "donor"
+      ]
+    },
+    "second_channel": {
+      "version": "v2-draft-not-frozen",
+      "variant": "full",
+      "operating_state": "demand_conditioned",
+      "adoption": "qualified_warning",
+      "retained_improvement": false,
+      "warning_observed": true,
+      "raw_QD_loss": true,
+      "raw_QD_gain": false,
+      "flags": [
+        "demand_volume_changed",
+        "per_planned_vehicle_burden_increased",
+        "local_deterioration_evidence",
+        "warning_audit_required"
+      ],
+      "conflicts": [],
+      "local_gain_groups": [],
+      "local_loss_groups": [
+        "donor"
+      ]
+    }
+  },
+  {
+    "case_id": "H12",
+    "variant": "without_population",
+    "original": {
+      "version": "v2-draft-not-frozen",
+      "variant": "without_population",
+      "operating_state": "service_deterioration",
+      "adoption": "qualified_warning",
+      "retained_improvement": false,
+      "warning_observed": true,
+      "raw_QD_loss": true,
+      "raw_QD_gain": false,
+      "flags": [
+        "demand_volume_changed",
+        "population_module_omitted",
+        "local_deterioration_evidence",
+        "warning_audit_required"
+      ],
+      "conflicts": [],
+      "local_gain_groups": [],
+      "local_loss_groups": [
+        "donor"
+      ]
+    },
+    "second_channel": {
+      "version": "v2-draft-not-frozen",
+      "variant": "without_population",
+      "operating_state": "service_deterioration",
+      "adoption": "qualified_warning",
+      "retained_improvement": false,
+      "warning_observed": true,
+      "raw_QD_loss": true,
+      "raw_QD_gain": false,
+      "flags": [
+        "demand_volume_changed",
+        "population_module_omitted",
+        "local_deterioration_evidence",
+        "warning_audit_required"
+      ],
+      "conflicts": [],
+      "local_gain_groups": [],
+      "local_loss_groups": [
+        "donor"
+      ]
+    }
+  },
+  {
+    "case_id": "H12",
+    "variant": "without_warning",
+    "original": {
+      "version": "v2-draft-not-frozen",
+      "variant": "without_warning",
+      "operating_state": "demand_conditioned",
+      "adoption": "unresolved",
+      "retained_improvement": false,
+      "warning_observed": true,
+      "raw_QD_loss": true,
+      "raw_QD_gain": false,
+      "flags": [
+        "demand_volume_changed",
+        "per_planned_vehicle_burden_increased",
+        "local_deterioration_evidence"
+      ],
+      "conflicts": [],
+      "local_gain_groups": [],
+      "local_loss_groups": [
+        "donor"
+      ]
+    },
+    "second_channel": {
+      "version": "v2-draft-not-frozen",
+      "variant": "without_warning",
+      "operating_state": "demand_conditioned",
+      "adoption": "unresolved",
+      "retained_improvement": false,
+      "warning_observed": true,
+      "raw_QD_loss": true,
+      "raw_QD_gain": false,
+      "flags": [
+        "demand_volume_changed",
+        "per_planned_vehicle_burden_increased",
+        "local_deterioration_evidence"
+      ],
+      "conflicts": [],
+      "local_gain_groups": [],
+      "local_loss_groups": [
+        "donor"
+      ]
+    }
+  },
+  {
+    "case_id": "H12",
+    "variant": "without_local",
+    "original": {
+      "version": "v2-draft-not-frozen",
+      "variant": "without_local",
+      "operating_state": "demand_conditioned",
+      "adoption": "qualified_warning",
+      "retained_improvement": false,
+      "warning_observed": true,
+      "raw_QD_loss": true,
+      "raw_QD_gain": false,
+      "flags": [
+        "demand_volume_changed",
+        "per_planned_vehicle_burden_increased",
+        "local_module_omitted",
+        "warning_audit_required"
+      ],
+      "conflicts": [],
+      "local_gain_groups": [],
+      "local_loss_groups": []
+    },
+    "second_channel": {
+      "version": "v2-draft-not-frozen",
+      "variant": "without_local",
+      "operating_state": "demand_conditioned",
+      "adoption": "qualified_warning",
+      "retained_improvement": false,
+      "warning_observed": true,
+      "raw_QD_loss": true,
+      "raw_QD_gain": false,
+      "flags": [
+        "demand_volume_changed",
+        "per_planned_vehicle_burden_increased",
+        "local_module_omitted",
+        "warning_audit_required"
+      ],
+      "conflicts": [],
+      "local_gain_groups": [],
+      "local_loss_groups": []
+    }
+  },
+  {
+    "case_id": "H12",
+    "variant": "conventional_QD",
+    "original": {
+      "version": "v2-draft-not-frozen",
+      "variant": "conventional_QD",
+      "operating_state": "QD_loss",
+      "adoption": "supported",
+      "retained_improvement": false,
+      "warning_observed": true,
+      "raw_QD_loss": true,
+      "raw_QD_gain": false,
+      "flags": [],
+      "conflicts": [],
+      "local_gain_groups": [],
+      "local_loss_groups": []
+    },
+    "second_channel": {
+      "version": "v2-draft-not-frozen",
+      "variant": "conventional_QD",
+      "operating_state": "QD_loss",
+      "adoption": "supported",
+      "retained_improvement": false,
+      "warning_observed": true,
+      "raw_QD_loss": true,
+      "raw_QD_gain": false,
+      "flags": [],
+      "conflicts": [],
+      "local_gain_groups": [],
+      "local_loss_groups": []
+    }
+  },
+  {
+    "case_id": "H12",
+    "variant": "QD_timing_warning",
+    "original": {
+      "version": "v2-draft-not-frozen",
+      "variant": "QD_timing_warning",
+      "operating_state": "QD_loss",
+      "adoption": "qualified_warning",
+      "retained_improvement": false,
+      "warning_observed": true,
+      "raw_QD_loss": true,
+      "raw_QD_gain": false,
+      "flags": [],
+      "conflicts": [],
+      "local_gain_groups": [],
+      "local_loss_groups": []
+    },
+    "second_channel": {
+      "version": "v2-draft-not-frozen",
+      "variant": "QD_timing_warning",
+      "operating_state": "QD_loss",
+      "adoption": "qualified_warning",
+      "retained_improvement": false,
+      "warning_observed": true,
+      "raw_QD_loss": true,
+      "raw_QD_gain": false,
+      "flags": [],
+      "conflicts": [],
+      "local_gain_groups": [],
+      "local_loss_groups": []
+    }
+  },
+  {
+    "case_id": "H12",
+    "variant": "always_abstain",
+    "original": {
+      "version": "v2-draft-not-frozen",
+      "variant": "always_abstain",
+      "operating_state": "not_evaluated",
+      "adoption": "unresolved",
+      "retained_improvement": false,
+      "warning_observed": true,
+      "raw_QD_loss": true,
+      "raw_QD_gain": false,
+      "flags": [],
+      "conflicts": [],
+      "local_gain_groups": [],
+      "local_loss_groups": []
+    },
+    "second_channel": {
+      "version": "v2-draft-not-frozen",
+      "variant": "always_abstain",
+      "operating_state": "not_evaluated",
+      "adoption": "unresolved",
+      "retained_improvement": false,
+      "warning_observed": true,
+      "raw_QD_loss": true,
+      "raw_QD_gain": false,
+      "flags": [],
+      "conflicts": [],
+      "local_gain_groups": [],
+      "local_loss_groups": []
+    }
+  }
+]

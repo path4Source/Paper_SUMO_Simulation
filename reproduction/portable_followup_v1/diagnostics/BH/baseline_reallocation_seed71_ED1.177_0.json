@@ -1,0 +1,650 @@
+{
+  "case": "baseline_reallocation_seed71",
+  "lane": "ED1.177_0",
+  "periods": [
+    {
+      "begin": "0.00",
+      "end": "300.00",
+      "front_entries": 25,
+      "corrected_left": 25,
+      "residual": 0
+    },
+    {
+      "begin": "300.00",
+      "end": "600.00",
+      "front_entries": 26,
+      "corrected_left": 26,
+      "residual": 0
+    },
+    {
+      "begin": "600.00",
+      "end": "900.00",
+      "front_entries": 27,
+      "corrected_left": 27,
+      "residual": 0
+    },
+    {
+      "begin": "900.00",
+      "end": "1200.00",
+      "front_entries": 24,
+      "corrected_left": 24,
+      "residual": 0
+    },
+    {
+      "begin": "1200.00",
+      "end": "1500.00",
+      "front_entries": 25,
+      "corrected_left": 25,
+      "residual": 0
+    },
+    {
+      "begin": "1500.00",
+      "end": "1800.00",
+      "front_entries": 25,
+      "corrected_left": 25,
+      "residual": 0
+    },
+    {
+      "begin": "1800.00",
+      "end": "2100.00",
+      "front_entries": 25,
+      "corrected_left": 25,
+      "residual": 0
+    },
+    {
+      "begin": "2100.00",
+      "end": "2400.00",
+      "front_entries": 25,
+      "corrected_left": 24,
+      "residual": 1
+    },
+    {
+      "begin": "2400.00",
+      "end": "2700.00",
+      "front_entries": 30,
+      "corrected_left": 30,
+      "residual": 0
+    },
+    {
+      "begin": "2700.00",
+      "end": "3000.00",
+      "front_entries": 24,
+      "corrected_left": 24,
+      "residual": 0
+    },
+    {
+      "begin": "3000.00",
+      "end": "3300.00",
+      "front_entries": 24,
+      "corrected_left": 24,
+      "residual": 0
+    },
+    {
+      "begin": "3300.00",
+      "end": "3600.00",
+      "front_entries": 21,
+      "corrected_left": 21,
+      "residual": 0
+    }
+  ],
+  "last_entries": [
+    {
+      "id": "stop_ED1.177_0",
+      "time": "3474.27",
+      "state": "enter",
+      "vehID": "Eh3_2_car.211",
+      "speed": "5.69",
+      "length": "5.00",
+      "type": "car",
+      "gap": "11.72"
+    },
+    {
+      "id": "stop_ED1.177_0",
+      "time": "3476.90",
+      "state": "enter",
+      "vehID": "ED2_1_car.73",
+      "speed": "6.72",
+      "length": "5.00",
+      "type": "car",
+      "gap": "1.75"
+    },
+    {
+      "id": "stop_ED1.177_0",
+      "time": "3485.17",
+      "state": "enter",
+      "vehID": "ED2_1_car.70",
+      "speed": "7.60",
+      "length": "5.00",
+      "type": "car",
+      "gap": "7.54"
+    },
+    {
+      "id": "stop_ED1.177_0",
+      "time": "3496.16",
+      "state": "enter",
+      "vehID": "Eh3_2_car.223",
+      "speed": "6.03",
+      "length": "5.00",
+      "type": "car",
+      "gap": "10.33"
+    },
+    {
+      "id": "stop_ED1.177_0",
+      "time": "3499.69",
+      "state": "enter",
+      "vehID": "Eh3_2_car.213",
+      "speed": "7.21",
+      "length": "5.00",
+      "type": "car",
+      "gap": "2.69"
+    },
+    {
+      "id": "stop_ED1.177_0",
+      "time": "3502.97",
+      "state": "enter",
+      "vehID": "Eh3_2_car.224",
+      "speed": "6.01",
+      "length": "5.00",
+      "type": "car",
+      "gap": "2.58"
+    },
+    {
+      "id": "stop_ED1.177_0",
+      "time": "3510.49",
+      "state": "enter",
+      "vehID": "Eh3_2_car.215",
+      "speed": "7.85",
+      "length": "5.00",
+      "type": "car",
+      "gap": "6.66"
+    },
+    {
+      "id": "stop_ED1.177_0",
+      "time": "3513.85",
+      "state": "enter",
+      "vehID": "Eh3_2_car.216",
+      "speed": "7.52",
+      "length": "5.00",
+      "type": "car",
+      "gap": "2.72"
+    },
+    {
+      "id": "stop_ED1.177_0",
+      "time": "3516.12",
+      "state": "enter",
+      "vehID": "Eh3_2_car.225",
+      "speed": "6.11",
+      "length": "5.00",
+      "type": "car",
+      "gap": "1.59"
+    },
+    {
+      "id": "stop_ED1.177_0",
+      "time": "3596.15",
+      "state": "enter",
+      "vehID": "Eh3_2_car.228",
+      "speed": "6.76",
+      "length": "5.00",
+      "type": "car",
+      "gap": "79.19"
+    }
+  ],
+  "fcd_last_frames": [
+    {
+      "time": "3598.00",
+      "vehicles": []
+    },
+    {
+      "time": "3598.10",
+      "vehicles": []
+    },
+    {
+      "time": "3598.20",
+      "vehicles": []
+    },
+    {
+      "time": "3598.30",
+      "vehicles": []
+    },
+    {
+      "time": "3598.40",
+      "vehicles": []
+    },
+    {
+      "time": "3598.50",
+      "vehicles": []
+    },
+    {
+      "time": "3598.60",
+      "vehicles": []
+    },
+    {
+      "time": "3598.70",
+      "vehicles": []
+    },
+    {
+      "time": "3598.80",
+      "vehicles": []
+    },
+    {
+      "time": "3598.90",
+      "vehicles": []
+    },
+    {
+      "time": "3599.00",
+      "vehicles": []
+    },
+    {
+      "time": "3599.10",
+      "vehicles": []
+    },
+    {
+      "time": "3599.20",
+      "vehicles": []
+    },
+    {
+      "time": "3599.30",
+      "vehicles": []
+    },
+    {
+      "time": "3599.40",
+      "vehicles": []
+    },
+    {
+      "time": "3599.50",
+      "vehicles": []
+    },
+    {
+      "time": "3599.60",
+      "vehicles": []
+    },
+    {
+      "time": "3599.70",
+      "vehicles": []
+    },
+    {
+      "time": "3599.80",
+      "vehicles": []
+    },
+    {
+      "time": "3599.90",
+      "vehicles": []
+    }
+  ],
+  "selected_vehicle": "ED2_3_car.36",
+  "vehicle_events": [
+    {
+      "id": "stop_ED2.378_1",
+      "time": "2177.16",
+      "state": "enter",
+      "vehID": "ED2_3_car.36",
+      "speed": "5.09",
+      "length": "5.00",
+      "type": "car",
+      "gap": "1.77"
+    },
+    {
+      "id": "stop_ED2.378_1",
+      "time": "2177.20",
+      "state": "stay",
+      "vehID": "ED2_3_car.36",
+      "speed": "5.08",
+      "length": "5.00",
+      "type": "car"
+    },
+    {
+      "id": "stop_ED2.378_1",
+      "time": "2177.30",
+      "state": "stay",
+      "vehID": "ED2_3_car.36",
+      "speed": "4.97",
+      "length": "5.00",
+      "type": "car"
+    },
+    {
+      "id": "stop_ED2.378_1",
+      "time": "2177.40",
+      "state": "stay",
+      "vehID": "ED2_3_car.36",
+      "speed": "4.98",
+      "length": "5.00",
+      "type": "car"
+    },
+    {
+      "id": "stop_ED2.378_1",
+      "time": "2177.50",
+      "state": "stay",
+      "vehID": "ED2_3_car.36",
+      "speed": "4.92",
+      "length": "5.00",
+      "type": "car"
+    },
+    {
+      "id": "stop_ED2.378_1",
+      "time": "2177.60",
+      "state": "stay",
+      "vehID": "ED2_3_car.36",
+      "speed": "4.93",
+      "length": "5.00",
+      "type": "car"
+    },
+    {
+      "id": "stop_ED2.378_1",
+      "time": "2177.70",
+      "state": "stay",
+      "vehID": "ED2_3_car.36",
+      "speed": "4.95",
+      "length": "5.00",
+      "type": "car"
+    },
+    {
+      "id": "stop_ED2.378_1",
+      "time": "2177.80",
+      "state": "stay",
+      "vehID": "ED2_3_car.36",
+      "speed": "4.93",
+      "length": "5.00",
+      "type": "car"
+    },
+    {
+      "id": "stop_ED2.378_1",
+      "time": "2177.90",
+      "state": "stay",
+      "vehID": "ED2_3_car.36",
+      "speed": "4.90",
+      "length": "5.00",
+      "type": "car"
+    },
+    {
+      "id": "stop_ED2.378_1",
+      "time": "2178.00",
+      "state": "stay",
+      "vehID": "ED2_3_car.36",
+      "speed": "4.84",
+      "length": "5.00",
+      "type": "car"
+    },
+    {
+      "id": "stop_ED2.378_1",
+      "time": "2178.10",
+      "state": "stay",
+      "vehID": "ED2_3_car.36",
+      "speed": "4.76",
+      "length": "5.00",
+      "type": "car"
+    },
+    {
+      "id": "stop_ED2.378_1",
+      "time": "2178.18",
+      "state": "leave",
+      "vehID": "ED2_3_car.36",
+      "speed": "4.73",
+      "length": "5.00",
+      "type": "car",
+      "occupancy": "1.02"
+    },
+    {
+      "id": "stop_ED1.177_0",
+      "time": "2289.65",
+      "state": "enter",
+      "vehID": "ED2_3_car.36",
+      "speed": "14.52",
+      "length": "5.00",
+      "type": "car",
+      "gap": "4.90"
+    },
+    {
+      "id": "stop_ED1.177_0",
+      "time": "2289.70",
+      "state": "stay",
+      "vehID": "ED2_3_car.36",
+      "speed": "14.63",
+      "length": "5.00",
+      "type": "car"
+    },
+    {
+      "id": "stop_ED1.177_0",
+      "time": "2289.80",
+      "state": "stay",
+      "vehID": "ED2_3_car.36",
+      "speed": "14.87",
+      "length": "5.00",
+      "type": "car"
+    },
+    {
+      "id": "stop_ED1.177_0",
+      "time": "2289.90",
+      "state": "stay",
+      "vehID": "ED2_3_car.36",
+      "speed": "15.07",
+      "length": "5.00",
+      "type": "car"
+    },
+    {
+      "id": "stop_ED1.177_0",
+      "time": "2289.98",
+      "state": "leave",
+      "vehID": "ED2_3_car.36",
+      "speed": "15.22",
+      "length": "5.00",
+      "type": "car",
+      "occupancy": "0.34"
+    },
+    {
+      "id": "stop_ED3.294_0",
+      "time": "2316.30",
+      "state": "enter",
+      "vehID": "ED2_3_car.36",
+      "speed": "6.78",
+      "length": "5.00",
+      "type": "car",
+      "gap": "4.59"
+    },
+    {
+      "id": "stop_ED3.294_0",
+      "time": "2316.30",
+      "state": "stay",
+      "vehID": "ED2_3_car.36",
+      "speed": "6.76",
+      "length": "5.00",
+      "type": "car"
+    },
+    {
+      "id": "stop_ED3.294_0",
+      "time": "2316.40",
+      "state": "stay",
+      "vehID": "ED2_3_car.36",
+      "speed": "6.82",
+      "length": "5.00",
+      "type": "car"
+    },
+    {
+      "id": "stop_ED3.294_0",
+      "time": "2316.50",
+      "state": "stay",
+      "vehID": "ED2_3_car.36",
+      "speed": "6.85",
+      "length": "5.00",
+      "type": "car"
+    },
+    {
+      "id": "stop_ED3.294_0",
+      "time": "2316.60",
+      "state": "stay",
+      "vehID": "ED2_3_car.36",
+      "speed": "6.74",
+      "length": "5.00",
+      "type": "car"
+    },
+    {
+      "id": "stop_ED3.294_0",
+      "time": "2316.70",
+      "state": "stay",
+      "vehID": "ED2_3_car.36",
+      "speed": "6.74",
+      "length": "5.00",
+      "type": "car"
+    },
+    {
+      "id": "stop_ED3.294_0",
+      "time": "2316.80",
+      "state": "stay",
+      "vehID": "ED2_3_car.36",
+      "speed": "6.74",
+      "length": "5.00",
+      "type": "car"
+    },
+    {
+      "id": "stop_ED3.294_0",
+      "time": "2316.90",
+      "state": "stay",
+      "vehID": "ED2_3_car.36",
+      "speed": "6.80",
+      "length": "5.00",
+      "type": "car"
+    },
+    {
+      "id": "stop_ED3.294_0",
+      "time": "2317.00",
+      "state": "stay",
+      "vehID": "ED2_3_car.36",
+      "speed": "6.75",
+      "length": "5.00",
+      "type": "car"
+    },
+    {
+      "id": "stop_ED3.294_0",
+      "time": "2317.03",
+      "state": "leave",
+      "vehID": "ED2_3_car.36",
+      "speed": "6.78",
+      "length": "5.00",
+      "type": "car",
+      "occupancy": "0.74"
+    }
+  ],
+  "selected_vehicle_fcd_transitions": [
+    {
+      "time": "2195.00",
+      "id": "ED2_3_car.36",
+      "x": "495.20",
+      "y": "1103.86",
+      "angle": "180.00",
+      "type": "car",
+      "speed": "9.08",
+      "pos": "0.73",
+      "lane": "ED1.91_1",
+      "slope": "0.00"
+    },
+    {
+      "time": "2206.40",
+      "id": "ED2_3_car.36",
+      "x": "495.20",
+      "y": "1080.04",
+      "angle": "180.00",
+      "type": "car",
+      "speed": "0.00",
+      "pos": "24.55",
+      "lane": "ED1.91_1",
+      "slope": "0.00"
+    },
+    {
+      "time": "2206.50",
+      "id": "ED2_3_car.36",
+      "x": "492.00",
+      "y": "1080.04",
+      "angle": "180.00",
+      "type": "car",
+      "speed": "0.00",
+      "pos": "24.55",
+      "lane": "ED1.91_0",
+      "slope": "0.00"
+    },
+    {
+      "time": "2233.30",
+      "id": "ED2_3_car.36",
+      "x": "492.00",
+      "y": "1026.30",
+      "angle": "180.00",
+      "type": "car",
+      "speed": "0.50",
+      "pos": "78.29",
+      "lane": "ED1.91_0",
+      "slope": "0.00"
+    },
+    {
+      "time": "2233.40",
+      "id": "ED2_3_car.36",
+      "x": "491.98",
+      "y": "1026.24",
+      "angle": "180.22",
+      "type": "car",
+      "speed": "0.64",
+      "pos": "0.05",
+      "lane": ":J3_0_1",
+      "slope": "0.00"
+    },
+    {
+      "time": "2236.50",
+      "id": "ED2_3_car.36",
+      "x": "488.45",
+      "y": "1022.08",
+      "angle": "220.96",
+      "type": "car",
+      "speed": "1.31",
+      "pos": "5.20",
+      "lane": ":J3_0_1",
+      "slope": "0.00"
+    },
+    {
+      "time": "2236.60",
+      "id": "ED2_3_car.36",
+      "x": "485.60",
+      "y": "1013.29",
+      "angle": "180.00",
+      "type": "car",
+      "speed": "2.04",
+      "pos": "5.00",
+      "lane": "ED1.177_1",
+      "slope": "0.00"
+    },
+    {
+      "time": "2289.60",
+      "id": "ED2_3_car.36",
+      "x": "485.60",
+      "y": "923.90",
+      "angle": "180.00",
+      "type": "car",
+      "speed": "14.42",
+      "pos": "94.39",
+      "lane": "ED1.177_1",
+      "slope": "0.00"
+    },
+    {
+      "time": "2289.70",
+      "id": "ED2_3_car.36",
+      "x": "485.60",
+      "y": "922.45",
+      "angle": "180.00",
+      "type": "car",
+      "speed": "14.63",
+      "pos": "0.75",
+      "lane": ":n1_1_0",
+      "slope": "0.00"
+    },
+    {
+      "time": "2293.10",
+      "id": "ED2_3_car.36",
+      "x": "485.60",
+      "y": "876.96",
+      "angle": "180.00",
+      "type": "car",
+      "speed": "13.52",
+      "pos": "46.24",
+      "lane": ":n1_1_0",
+      "slope": "0.00"
+    }
+  ],
+  "warning_log": "Warning: Vehicle 'Eh4_1_car.39' performs emergency braking on lane 'Eh4.360_0' with decel=9.00, wished=4.50, severity=1.00, time=380.00.\nWarning: Vehicle 'EH1_2_car.50' performs emergency braking on lane 'EH1.385_0' with decel=9.00, wished=4.50, severity=1.00, time=931.00.\nWarning: Vehicle 'EH1_1_car.175' performs emergency braking on lane 'EH1.385_0' with decel=9.00, wished=4.50, severity=1.00, time=2128.00.\nWarning: Teleporting vehicle 'ED2_3_car.36'; side collision with vehicle 'ED2_3_car.47', lane=':J3_0_1', gap=-1.00, time=2236.60, stage=laneChange.\nWarning: Vehicle 'ED2_3_car.36' ends teleporting on edge 'ED1.177', time=2236.60.\nWarning: Vehicle 'Eh4_1_car.260' performs emergency braking on lane 'Eh4.360_0' with decel=9.00, wished=4.50, severity=1.00, time=2369.00.\nWarning: Vehicle 'ED2_3_car.55' performs emergency braking on lane 'ED3.294_0' with decel=9.00, wished=4.50, severity=1.00, time=2572.00.\nWarning: Vehicle 'EH1_2_car.161' performs emergency braking on lane 'EH1.385_0' with decel=9.00, wished=4.50, severity=1.00, time=2926.00.\nWarning: Teleporting vehicle 'Eh3_1_car.278'; junction collision with vehicle 'Eh2_2_car.178', lane=':n1_4_1', gap=-1.00, time=3331.60, stage=move.\nWarning: Vehicle 'Eh3_1_car.278' ends teleporting on edge 'Eh1', time=3331.60.\n",
+  "interpretation": "Trace only; no correction applied to front or lane-exit counts."
+}

@@ -1,0 +1,77 @@
+{
+  "version": "1.0",
+  "purpose": "Audit two observed baseline side collisions before independent intervention validation.",
+  "selection": "Seeds 11 and 101 are selected retrospectively because their existing 0.5-s baseline runs have side collisions. The new 0.1-s comparison includes ALL five previously fixed seeds, not selected clean seeds.",
+  "jobs": [
+    [
+      "passive",
+      0.5,
+      11
+    ],
+    [
+      "passive",
+      0.5,
+      101
+    ],
+    [
+      "fine_joint",
+      0.1,
+      11
+    ],
+    [
+      "fine_joint",
+      0.1,
+      29
+    ],
+    [
+      "fine_joint",
+      0.1,
+      47
+    ],
+    [
+      "fine_joint",
+      0.1,
+      71
+    ],
+    [
+      "fine_joint",
+      0.1,
+      101
+    ]
+  ],
+  "design": "Two passive-output controls at step/action 0.5/0.5 s, plus five exploratory joint step/action 0.1/0.1-s runs. Tau=1 s, ballistic integration, original network, original demand and signal plans, 3600 s, no warm-up removal, collision checks and collision/gridlock policies unchanged.",
+  "outputs": "Add lane-change events with coordinates and FCD on ED1.91, :J3_0 and ED1.177. Retain whole-hour events, populations and warnings. FCD uses all vehicles on these edges, no stochastic device selection.",
+  "hypothesis": "Side collisions may involve the short 3-to-6-lane fan-out connector and internal lane-changing geometry. Location alone is not causal proof; examine trajectories and lane-change records.",
+  "analysis": "Require exact passive reproduction of predeclared population, burden, completed-delay and warning metrics, plus identical collision element attributes. Compare five paired baseline responses for the joint setting change with exploratory t95 intervals (df4); report every warning including new locations. This changes behavioral action frequency as well as numerical step and is NOT a pure numerical convergence test or field validation.",
+  "decision": "No network edits, no disabling collision checks, no warning-based seed removal, no threshold tuning, no replacement of old results. A warning-free result is not proof of validity. Any unresolved collision keeps interpretation qualified.",
+  "new_runs": 7,
+  "control_fields": [
+    "end_loaded",
+    "end_inserted",
+    "end_arrived",
+    "end_running",
+    "end_waiting",
+    "trip_records",
+    "trip_completed_timeLoss_mean_s",
+    "teleport_events",
+    "stat_safety_collisions",
+    "network_vehicle_hours_discrete",
+    "entry_vehicle_hours_discrete",
+    "total_vehicle_hours_discrete"
+  ],
+  "sources": {
+    "11": "06e346e199168fabbe978fdfc80278ed6c87131c618b3e8b3f3e0c6c30e11fdc",
+    "29": "c8507735f193e60fe32ce9aa2e0c22ef6a9bfd4157259d53cca571638526867c",
+    "47": "f5817384a3da1407a36bb0153ff63bc290a8ada92947d0e36fd23dcb39219d86",
+    "71": "15f11976719e835d0c231e0e7b9717ddd382b7ab2353f4da04496addd369a0d9",
+    "101": "54a55ea91352ca05bd9712108269b1ad15be402bdc50a5a877dadc39069b59bd"
+  },
+  "network_sha256": "5c18dcd49ff415a90acc61c5d12ea5a3630928aa8d4c87492ce63de426245ce2",
+  "sumo_sha256": "68a88f8c057d7aed44c63d93b6133f94d605dfe2578938221a65ee455d64b376",
+  "code_sha256": {
+    "run_connector_audit_v1.py": "e4b9771479d81b6022b07eba0dfe9231963c7dd8c9f5ff22a45facfc3d2a3187",
+    "audit_metrics.py": "d6b12fb1405426b35a74085b85cdd0b62f305eb3625262b2db2eddec7ea508fe",
+    "freeze_submission.py": "1809e006438a33e09d2d11e19aa5d6f532215f3255f222f9104bf626c10a9a52"
+  },
+  "frozen_utc": "2026-10-19T17:49:47.349543+00:00"
+}

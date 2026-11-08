@@ -1,0 +1,7 @@
+﻿scenario,metric,n_seeds,mean,sample_sd,ci95_lower_exploratory,ci95_upper_exploratory,scope
+heavyveh_very_high,throughput_change_pct,3,-14.061882255547156,1.440418162930302,-17.640079334907018,-10.483685176187294,conditional paired-seed t interval; warning events retained; not field or global validation
+heavyveh_very_high,completed_delay_change_pct,3,66.63745895995984,0.8710865484638467,64.473560014641,68.80135790527869,conditional paired-seed t interval; warning events retained; not field or global validation
+heavyveh_very_high,total_vehicle_hours_change_pct,3,52.37505983179653,1.3525769112558343,49.01507251837677,55.735047145216285,conditional paired-seed t interval; warning events retained; not field or global validation
+weather_heavy_rain,throughput_change_pct,3,-12.10308976089205,1.1037031780686963,-14.844840448214299,-9.361339073569802,conditional paired-seed t interval; warning events retained; not field or global validation
+weather_heavy_rain,completed_delay_change_pct,3,65.09298910703501,0.5923660672484097,63.621470220166664,66.56450799390336,conditional paired-seed t interval; warning events retained; not field or global validation
+weather_heavy_rain,total_vehicle_hours_change_pct,3,47.44320870273696,4.207019666516333,36.992392494675414,57.89402491079851,conditional paired-seed t interval; warning events retained; not field or global validation

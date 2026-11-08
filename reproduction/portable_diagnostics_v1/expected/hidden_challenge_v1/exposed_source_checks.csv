@@ -1,0 +1,3 @@
+﻿check,TP,FN,FP,TN,scope
+demand_source,7,0,0,9,Exposed input/log consistency only; not hidden causal classification accuracy.
+timing_compatibility,3,0,0,13,Exposed input/log consistency only; not hidden causal classification accuracy.

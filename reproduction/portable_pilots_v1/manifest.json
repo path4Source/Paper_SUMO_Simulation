@@ -1,0 +1,1183 @@
+{
+  "scope": "22 existing completed pilot inputs with archived warning states retained",
+  "cases": {
+    "pilot_euler_v2/tau0.8_dt0.5_action0.5_seed2024": {
+      "source_run": "pilot_euler_v2/runs/tau0.8_dt0.5_action0.5_seed2024",
+      "source_complete_sha256": "39f4ec7a0d1e178cf0aefe1719b361ce650e5172e67036a8aebb95a7507d9146",
+      "source_protocol_sha256": null,
+      "expected_metrics": "expected/pilot_euler_v2/tau0.8_dt0.5_action0.5_seed2024/metrics.json",
+      "metric_count": 81,
+      "seed": 2024,
+      "horizon_s": 3600.0,
+      "step_s": 0.5,
+      "warnings_retained": 0,
+      "input_files": [
+        {
+          "source": "pilot_euler_v2/runs/tau0.8_dt0.5_action0.5_seed2024/run.sumocfg",
+          "source_sha256": "0fd70b7088c2c566a0e2187fb8ec0da567155ed1513bcbc69621f522efc70caf",
+          "copy": "cases/pilot_euler_v2/tau0.8_dt0.5_action0.5_seed2024/run.sumocfg",
+          "copy_sha256": "02ad33f50809d43d85014b1c38321291789b4a0444553cd10676c3d706fe8cea",
+          "operational_options_preserved": true
+        },
+        {
+          "source": "frozen/inputs/network.net.xml",
+          "source_sha256": "5c18dcd49ff415a90acc61c5d12ea5a3630928aa8d4c87492ce63de426245ce2",
+          "copy": "cases/pilot_euler_v2/tau0.8_dt0.5_action0.5_seed2024/network.net.xml",
+          "copy_sha256": "6659c73d3ddf52c892a40592a5bae3ee2dacc1e8171e24e66f081daaaa742484",
+          "active_xml_equivalent": true,
+          "byte_identical": false
+        },
+        {
+          "source": "pilot_euler_v2/runs/tau0.8_dt0.5_action0.5_seed2024/routes.rou.xml",
+          "source_sha256": "c2ef47b0d56ec2c745fdad09fd44f645dd310c6e524d9080d4a1cf12eecac784",
+          "copy": "cases/pilot_euler_v2/tau0.8_dt0.5_action0.5_seed2024/routes.rou.xml",
+          "copy_sha256": "c2ef47b0d56ec2c745fdad09fd44f645dd310c6e524d9080d4a1cf12eecac784",
+          "active_xml_equivalent": true,
+          "byte_identical": true
+        },
+        {
+          "source": "pilot_euler_v2/runs/tau0.8_dt0.5_action0.5_seed2024/additional.xml",
+          "source_sha256": "9c9010cab3d3542c4e48f4163e209294e47c5f40cab17324f4c06e320f86ba75",
+          "copy": "cases/pilot_euler_v2/tau0.8_dt0.5_action0.5_seed2024/additional.xml",
+          "copy_sha256": "9c9010cab3d3542c4e48f4163e209294e47c5f40cab17324f4c06e320f86ba75",
+          "active_xml_equivalent": true,
+          "byte_identical": true
+        }
+      ],
+      "scientific_role": "Exploratory setting/instrumentation check",
+      "historical_ledger_values_checked": 63,
+      "all_recorded_raw_hashes_reverified": true
+    },
+    "pilot_euler_v2/tau0.8_dt0.5_action0.5_seed2025": {
+      "source_run": "pilot_euler_v2/runs/tau0.8_dt0.5_action0.5_seed2025",
+      "source_complete_sha256": "8c70a4ae35d0236c0ed71d1648263a7121689163bc05db5816342592944b13c0",
+      "source_protocol_sha256": null,
+      "expected_metrics": "expected/pilot_euler_v2/tau0.8_dt0.5_action0.5_seed2025/metrics.json",
+      "metric_count": 81,
+      "seed": 2025,
+      "horizon_s": 3600.0,
+      "step_s": 0.5,
+      "warnings_retained": 0,
+      "input_files": [
+        {
+          "source": "pilot_euler_v2/runs/tau0.8_dt0.5_action0.5_seed2025/run.sumocfg",
+          "source_sha256": "303ec4753d5b83cff7cdb8f63f6bf21bbafba756375991bef29a795ca8a41ed2",
+          "copy": "cases/pilot_euler_v2/tau0.8_dt0.5_action0.5_seed2025/run.sumocfg",
+          "copy_sha256": "d2310be7d7001f5d395536ac8b6cfb275b097523039a749f152eb8cb8d5c6045",
+          "operational_options_preserved": true
+        },
+        {
+          "source": "frozen/inputs/network.net.xml",
+          "source_sha256": "5c18dcd49ff415a90acc61c5d12ea5a3630928aa8d4c87492ce63de426245ce2",
+          "copy": "cases/pilot_euler_v2/tau0.8_dt0.5_action0.5_seed2025/network.net.xml",
+          "copy_sha256": "6659c73d3ddf52c892a40592a5bae3ee2dacc1e8171e24e66f081daaaa742484",
+          "active_xml_equivalent": true,
+          "byte_identical": false
+        },
+        {
+          "source": "pilot_euler_v2/runs/tau0.8_dt0.5_action0.5_seed2025/routes.rou.xml",
+          "source_sha256": "c2ef47b0d56ec2c745fdad09fd44f645dd310c6e524d9080d4a1cf12eecac784",
+          "copy": "cases/pilot_euler_v2/tau0.8_dt0.5_action0.5_seed2025/routes.rou.xml",
+          "copy_sha256": "c2ef47b0d56ec2c745fdad09fd44f645dd310c6e524d9080d4a1cf12eecac784",
+          "active_xml_equivalent": true,
+          "byte_identical": true
+        },
+        {
+          "source": "pilot_euler_v2/runs/tau0.8_dt0.5_action0.5_seed2025/additional.xml",
+          "source_sha256": "9c9010cab3d3542c4e48f4163e209294e47c5f40cab17324f4c06e320f86ba75",
+          "copy": "cases/pilot_euler_v2/tau0.8_dt0.5_action0.5_seed2025/additional.xml",
+          "copy_sha256": "9c9010cab3d3542c4e48f4163e209294e47c5f40cab17324f4c06e320f86ba75",
+          "active_xml_equivalent": true,
+          "byte_identical": true
+        }
+      ],
+      "scientific_role": "Exploratory setting/instrumentation check",
+      "historical_ledger_values_checked": 63,
+      "all_recorded_raw_hashes_reverified": true
+    },
+    "pilot_euler_v2/tau0.8_dt0.5_action0.5_seed42": {
+      "source_run": "pilot_euler_v2/runs/tau0.8_dt0.5_action0.5_seed42",
+      "source_complete_sha256": "dabe79333a036938e612ea1ff4b933c037c116b1f33f349a7a694b43bc07dc71",
+      "source_protocol_sha256": null,
+      "expected_metrics": "expected/pilot_euler_v2/tau0.8_dt0.5_action0.5_seed42/metrics.json",
+      "metric_count": 81,
+      "seed": 42,
+      "horizon_s": 3600.0,
+      "step_s": 0.5,
+      "warnings_retained": 0,
+      "input_files": [
+        {
+          "source": "pilot_euler_v2/runs/tau0.8_dt0.5_action0.5_seed42/run.sumocfg",
+          "source_sha256": "f47456cdcd908cc2f9b11939224a06bc1ff26da0ace4b458ee4c1ed9dd65e70c",
+          "copy": "cases/pilot_euler_v2/tau0.8_dt0.5_action0.5_seed42/run.sumocfg",
+          "copy_sha256": "4ca7b307094ee8aab29ec29bc26d979c310501bf466bddd2ddb2410590e2479d",
+          "operational_options_preserved": true
+        },
+        {
+          "source": "frozen/inputs/network.net.xml",
+          "source_sha256": "5c18dcd49ff415a90acc61c5d12ea5a3630928aa8d4c87492ce63de426245ce2",
+          "copy": "cases/pilot_euler_v2/tau0.8_dt0.5_action0.5_seed42/network.net.xml",
+          "copy_sha256": "6659c73d3ddf52c892a40592a5bae3ee2dacc1e8171e24e66f081daaaa742484",
+          "active_xml_equivalent": true,
+          "byte_identical": false
+        },
+        {
+          "source": "pilot_euler_v2/runs/tau0.8_dt0.5_action0.5_seed42/routes.rou.xml",
+          "source_sha256": "c2ef47b0d56ec2c745fdad09fd44f645dd310c6e524d9080d4a1cf12eecac784",
+          "copy": "cases/pilot_euler_v2/tau0.8_dt0.5_action0.5_seed42/routes.rou.xml",
+          "copy_sha256": "c2ef47b0d56ec2c745fdad09fd44f645dd310c6e524d9080d4a1cf12eecac784",
+          "active_xml_equivalent": true,
+          "byte_identical": true
+        },
+        {
+          "source": "pilot_euler_v2/runs/tau0.8_dt0.5_action0.5_seed42/additional.xml",
+          "source_sha256": "9c9010cab3d3542c4e48f4163e209294e47c5f40cab17324f4c06e320f86ba75",
+          "copy": "cases/pilot_euler_v2/tau0.8_dt0.5_action0.5_seed42/additional.xml",
+          "copy_sha256": "9c9010cab3d3542c4e48f4163e209294e47c5f40cab17324f4c06e320f86ba75",
+          "active_xml_equivalent": true,
+          "byte_identical": true
+        }
+      ],
+      "scientific_role": "Exploratory setting/instrumentation check",
+      "historical_ledger_values_checked": 63,
+      "all_recorded_raw_hashes_reverified": true
+    },
+    "pilot_euler_v2/tau0.8_dt0.5_action1_seed42": {
+      "source_run": "pilot_euler_v2/runs/tau0.8_dt0.5_action1_seed42",
+      "source_complete_sha256": "30364132a2bdb995dc4c4d60bcd4f201fdb4ab17ff7d34da855a32939cbed8c6",
+      "source_protocol_sha256": null,
+      "expected_metrics": "expected/pilot_euler_v2/tau0.8_dt0.5_action1_seed42/metrics.json",
+      "metric_count": 81,
+      "seed": 42,
+      "horizon_s": 3600.0,
+      "step_s": 0.5,
+      "warnings_retained": 7654,
+      "input_files": [
+        {
+          "source": "pilot_euler_v2/runs/tau0.8_dt0.5_action1_seed42/run.sumocfg",
+          "source_sha256": "01f94d1aecea7d441ca15f83062411bc83e5aa3f08903ac37b310851bea8c2df",
+          "copy": "cases/pilot_euler_v2/tau0.8_dt0.5_action1_seed42/run.sumocfg",
+          "copy_sha256": "18678f316c7e07831cf26dc0084c0d019b635d22950b3a7d1b442fa5f2c862a2",
+          "operational_options_preserved": true
+        },
+        {
+          "source": "frozen/inputs/network.net.xml",
+          "source_sha256": "5c18dcd49ff415a90acc61c5d12ea5a3630928aa8d4c87492ce63de426245ce2",
+          "copy": "cases/pilot_euler_v2/tau0.8_dt0.5_action1_seed42/network.net.xml",
+          "copy_sha256": "6659c73d3ddf52c892a40592a5bae3ee2dacc1e8171e24e66f081daaaa742484",
+          "active_xml_equivalent": true,
+          "byte_identical": false
+        },
+        {
+          "source": "pilot_euler_v2/runs/tau0.8_dt0.5_action1_seed42/routes.rou.xml",
+          "source_sha256": "c2ef47b0d56ec2c745fdad09fd44f645dd310c6e524d9080d4a1cf12eecac784",
+          "copy": "cases/pilot_euler_v2/tau0.8_dt0.5_action1_seed42/routes.rou.xml",
+          "copy_sha256": "c2ef47b0d56ec2c745fdad09fd44f645dd310c6e524d9080d4a1cf12eecac784",
+          "active_xml_equivalent": true,
+          "byte_identical": true
+        },
+        {
+          "source": "pilot_euler_v2/runs/tau0.8_dt0.5_action1_seed42/additional.xml",
+          "source_sha256": "9c9010cab3d3542c4e48f4163e209294e47c5f40cab17324f4c06e320f86ba75",
+          "copy": "cases/pilot_euler_v2/tau0.8_dt0.5_action1_seed42/additional.xml",
+          "copy_sha256": "9c9010cab3d3542c4e48f4163e209294e47c5f40cab17324f4c06e320f86ba75",
+          "active_xml_equivalent": true,
+          "byte_identical": true
+        }
+      ],
+      "scientific_role": "Exploratory setting/instrumentation check",
+      "historical_ledger_values_checked": 63,
+      "all_recorded_raw_hashes_reverified": true
+    },
+    "pilot_euler_v2/tau0.8_dt1_action1_seed2024": {
+      "source_run": "pilot_euler_v2/runs/tau0.8_dt1_action1_seed2024",
+      "source_complete_sha256": "f28275c4136d33096db596a471c70d648189f25751f60202653918c0a5de5d95",
+      "source_protocol_sha256": null,
+      "expected_metrics": "expected/pilot_euler_v2/tau0.8_dt1_action1_seed2024/metrics.json",
+      "metric_count": 81,
+      "seed": 2024,
+      "horizon_s": 3600.0,
+      "step_s": 1.0,
+      "warnings_retained": 7404,
+      "input_files": [
+        {
+          "source": "pilot_euler_v2/runs/tau0.8_dt1_action1_seed2024/run.sumocfg",
+          "source_sha256": "f8adbcfa4affa0f3d1b5a4b210bd45caebf92b8f60376a7e494b0bbdf1207a82",
+          "copy": "cases/pilot_euler_v2/tau0.8_dt1_action1_seed2024/run.sumocfg",
+          "copy_sha256": "8421979476956109c8107c86ffbdac6f0a049658fac9dfe76779c1deae467ced",
+          "operational_options_preserved": true
+        },
+        {
+          "source": "frozen/inputs/network.net.xml",
+          "source_sha256": "5c18dcd49ff415a90acc61c5d12ea5a3630928aa8d4c87492ce63de426245ce2",
+          "copy": "cases/pilot_euler_v2/tau0.8_dt1_action1_seed2024/network.net.xml",
+          "copy_sha256": "6659c73d3ddf52c892a40592a5bae3ee2dacc1e8171e24e66f081daaaa742484",
+          "active_xml_equivalent": true,
+          "byte_identical": false
+        },
+        {
+          "source": "pilot_euler_v2/runs/tau0.8_dt1_action1_seed2024/routes.rou.xml",
+          "source_sha256": "c2ef47b0d56ec2c745fdad09fd44f645dd310c6e524d9080d4a1cf12eecac784",
+          "copy": "cases/pilot_euler_v2/tau0.8_dt1_action1_seed2024/routes.rou.xml",
+          "copy_sha256": "c2ef47b0d56ec2c745fdad09fd44f645dd310c6e524d9080d4a1cf12eecac784",
+          "active_xml_equivalent": true,
+          "byte_identical": true
+        },
+        {
+          "source": "pilot_euler_v2/runs/tau0.8_dt1_action1_seed2024/additional.xml",
+          "source_sha256": "9c9010cab3d3542c4e48f4163e209294e47c5f40cab17324f4c06e320f86ba75",
+          "copy": "cases/pilot_euler_v2/tau0.8_dt1_action1_seed2024/additional.xml",
+          "copy_sha256": "9c9010cab3d3542c4e48f4163e209294e47c5f40cab17324f4c06e320f86ba75",
+          "active_xml_equivalent": true,
+          "byte_identical": true
+        }
+      ],
+      "scientific_role": "Exploratory setting/instrumentation check",
+      "historical_ledger_values_checked": 63,
+      "all_recorded_raw_hashes_reverified": true
+    },
+    "pilot_euler_v2/tau0.8_dt1_action1_seed2025": {
+      "source_run": "pilot_euler_v2/runs/tau0.8_dt1_action1_seed2025",
+      "source_complete_sha256": "0d3ad95c69837ec0086b5e3a79263c1ebf0fcb3e071df24d400d00e4c46d3e1b",
+      "source_protocol_sha256": null,
+      "expected_metrics": "expected/pilot_euler_v2/tau0.8_dt1_action1_seed2025/metrics.json",
+      "metric_count": 81,
+      "seed": 2025,
+      "horizon_s": 3600.0,
+      "step_s": 1.0,
+      "warnings_retained": 7452,
+      "input_files": [
+        {
+          "source": "pilot_euler_v2/runs/tau0.8_dt1_action1_seed2025/run.sumocfg",
+          "source_sha256": "2364554be1f476c3aa67322cf11c9c1fd8fb8602fb1efcacd7e8ca875bd4be83",
+          "copy": "cases/pilot_euler_v2/tau0.8_dt1_action1_seed2025/run.sumocfg",
+          "copy_sha256": "fb1a2dccad77e75ff9eb3b599a8e68508c930d09dae57d383533c8daacbb59da",
+          "operational_options_preserved": true
+        },
+        {
+          "source": "frozen/inputs/network.net.xml",
+          "source_sha256": "5c18dcd49ff415a90acc61c5d12ea5a3630928aa8d4c87492ce63de426245ce2",
+          "copy": "cases/pilot_euler_v2/tau0.8_dt1_action1_seed2025/network.net.xml",
+          "copy_sha256": "6659c73d3ddf52c892a40592a5bae3ee2dacc1e8171e24e66f081daaaa742484",
+          "active_xml_equivalent": true,
+          "byte_identical": false
+        },
+        {
+          "source": "pilot_euler_v2/runs/tau0.8_dt1_action1_seed2025/routes.rou.xml",
+          "source_sha256": "c2ef47b0d56ec2c745fdad09fd44f645dd310c6e524d9080d4a1cf12eecac784",
+          "copy": "cases/pilot_euler_v2/tau0.8_dt1_action1_seed2025/routes.rou.xml",
+          "copy_sha256": "c2ef47b0d56ec2c745fdad09fd44f645dd310c6e524d9080d4a1cf12eecac784",
+          "active_xml_equivalent": true,
+          "byte_identical": true
+        },
+        {
+          "source": "pilot_euler_v2/runs/tau0.8_dt1_action1_seed2025/additional.xml",
+          "source_sha256": "9c9010cab3d3542c4e48f4163e209294e47c5f40cab17324f4c06e320f86ba75",
+          "copy": "cases/pilot_euler_v2/tau0.8_dt1_action1_seed2025/additional.xml",
+          "copy_sha256": "9c9010cab3d3542c4e48f4163e209294e47c5f40cab17324f4c06e320f86ba75",
+          "active_xml_equivalent": true,
+          "byte_identical": true
+        }
+      ],
+      "scientific_role": "Exploratory setting/instrumentation check",
+      "historical_ledger_values_checked": 63,
+      "all_recorded_raw_hashes_reverified": true
+    },
+    "pilot_euler_v2/tau0.8_dt1_action1_seed42": {
+      "source_run": "pilot_euler_v2/runs/tau0.8_dt1_action1_seed42",
+      "source_complete_sha256": "3285a9b5a3ff59eca66a998891877e38907936743ed4d0a3ba8379e46d3397d5",
+      "source_protocol_sha256": null,
+      "expected_metrics": "expected/pilot_euler_v2/tau0.8_dt1_action1_seed42/metrics.json",
+      "metric_count": 81,
+      "seed": 42,
+      "horizon_s": 3600.0,
+      "step_s": 1.0,
+      "warnings_retained": 7438,
+      "input_files": [
+        {
+          "source": "pilot_euler_v2/runs/tau0.8_dt1_action1_seed42/run.sumocfg",
+          "source_sha256": "c7cc36e9a2eec022e6a1dd03542352fe42148cddc6eaeeb69158e88a2bed3c19",
+          "copy": "cases/pilot_euler_v2/tau0.8_dt1_action1_seed42/run.sumocfg",
+          "copy_sha256": "af3a2da7c4a3f143c719d3aee626c53e3445ad3cf2b689305b30ec93b59cbb97",
+          "operational_options_preserved": true
+        },
+        {
+          "source": "frozen/inputs/network.net.xml",
+          "source_sha256": "5c18dcd49ff415a90acc61c5d12ea5a3630928aa8d4c87492ce63de426245ce2",
+          "copy": "cases/pilot_euler_v2/tau0.8_dt1_action1_seed42/network.net.xml",
+          "copy_sha256": "6659c73d3ddf52c892a40592a5bae3ee2dacc1e8171e24e66f081daaaa742484",
+          "active_xml_equivalent": true,
+          "byte_identical": false
+        },
+        {
+          "source": "pilot_euler_v2/runs/tau0.8_dt1_action1_seed42/routes.rou.xml",
+          "source_sha256": "c2ef47b0d56ec2c745fdad09fd44f645dd310c6e524d9080d4a1cf12eecac784",
+          "copy": "cases/pilot_euler_v2/tau0.8_dt1_action1_seed42/routes.rou.xml",
+          "copy_sha256": "c2ef47b0d56ec2c745fdad09fd44f645dd310c6e524d9080d4a1cf12eecac784",
+          "active_xml_equivalent": true,
+          "byte_identical": true
+        },
+        {
+          "source": "pilot_euler_v2/runs/tau0.8_dt1_action1_seed42/additional.xml",
+          "source_sha256": "9c9010cab3d3542c4e48f4163e209294e47c5f40cab17324f4c06e320f86ba75",
+          "copy": "cases/pilot_euler_v2/tau0.8_dt1_action1_seed42/additional.xml",
+          "copy_sha256": "9c9010cab3d3542c4e48f4163e209294e47c5f40cab17324f4c06e320f86ba75",
+          "active_xml_equivalent": true,
+          "byte_identical": true
+        }
+      ],
+      "scientific_role": "Exploratory setting/instrumentation check",
+      "historical_ledger_values_checked": 63,
+      "all_recorded_raw_hashes_reverified": true
+    },
+    "pilot_euler_v2/tau1_dt0.5_action0.5_seed2024": {
+      "source_run": "pilot_euler_v2/runs/tau1_dt0.5_action0.5_seed2024",
+      "source_complete_sha256": "33c0ab439c038692e2f535e6147885ff02fe716d3d518199c9a801017147f78e",
+      "source_protocol_sha256": null,
+      "expected_metrics": "expected/pilot_euler_v2/tau1_dt0.5_action0.5_seed2024/metrics.json",
+      "metric_count": 81,
+      "seed": 2024,
+      "horizon_s": 3600.0,
+      "step_s": 0.5,
+      "warnings_retained": 0,
+      "input_files": [
+        {
+          "source": "pilot_euler_v2/runs/tau1_dt0.5_action0.5_seed2024/run.sumocfg",
+          "source_sha256": "0fd70b7088c2c566a0e2187fb8ec0da567155ed1513bcbc69621f522efc70caf",
+          "copy": "cases/pilot_euler_v2/tau1_dt0.5_action0.5_seed2024/run.sumocfg",
+          "copy_sha256": "02ad33f50809d43d85014b1c38321291789b4a0444553cd10676c3d706fe8cea",
+          "operational_options_preserved": true
+        },
+        {
+          "source": "frozen/inputs/network.net.xml",
+          "source_sha256": "5c18dcd49ff415a90acc61c5d12ea5a3630928aa8d4c87492ce63de426245ce2",
+          "copy": "cases/pilot_euler_v2/tau1_dt0.5_action0.5_seed2024/network.net.xml",
+          "copy_sha256": "6659c73d3ddf52c892a40592a5bae3ee2dacc1e8171e24e66f081daaaa742484",
+          "active_xml_equivalent": true,
+          "byte_identical": false
+        },
+        {
+          "source": "pilot_euler_v2/runs/tau1_dt0.5_action0.5_seed2024/routes.rou.xml",
+          "source_sha256": "e76f40db0cbc40df4bcf03f2d0f6a4e1b127a10a832b30d84697862a897428e2",
+          "copy": "cases/pilot_euler_v2/tau1_dt0.5_action0.5_seed2024/routes.rou.xml",
+          "copy_sha256": "e76f40db0cbc40df4bcf03f2d0f6a4e1b127a10a832b30d84697862a897428e2",
+          "active_xml_equivalent": true,
+          "byte_identical": true
+        },
+        {
+          "source": "pilot_euler_v2/runs/tau1_dt0.5_action0.5_seed2024/additional.xml",
+          "source_sha256": "9c9010cab3d3542c4e48f4163e209294e47c5f40cab17324f4c06e320f86ba75",
+          "copy": "cases/pilot_euler_v2/tau1_dt0.5_action0.5_seed2024/additional.xml",
+          "copy_sha256": "9c9010cab3d3542c4e48f4163e209294e47c5f40cab17324f4c06e320f86ba75",
+          "active_xml_equivalent": true,
+          "byte_identical": true
+        }
+      ],
+      "scientific_role": "Exploratory setting/instrumentation check",
+      "historical_ledger_values_checked": 63,
+      "all_recorded_raw_hashes_reverified": true
+    },
+    "pilot_euler_v2/tau1_dt0.5_action0.5_seed2025": {
+      "source_run": "pilot_euler_v2/runs/tau1_dt0.5_action0.5_seed2025",
+      "source_complete_sha256": "e0d717009b0e73f8a2cbb3664417db7a6ce6cd506eb7be7c33f06199d44453ea",
+      "source_protocol_sha256": null,
+      "expected_metrics": "expected/pilot_euler_v2/tau1_dt0.5_action0.5_seed2025/metrics.json",
+      "metric_count": 81,
+      "seed": 2025,
+      "horizon_s": 3600.0,
+      "step_s": 0.5,
+      "warnings_retained": 0,
+      "input_files": [
+        {
+          "source": "pilot_euler_v2/runs/tau1_dt0.5_action0.5_seed2025/run.sumocfg",
+          "source_sha256": "303ec4753d5b83cff7cdb8f63f6bf21bbafba756375991bef29a795ca8a41ed2",
+          "copy": "cases/pilot_euler_v2/tau1_dt0.5_action0.5_seed2025/run.sumocfg",
+          "copy_sha256": "d2310be7d7001f5d395536ac8b6cfb275b097523039a749f152eb8cb8d5c6045",
+          "operational_options_preserved": true
+        },
+        {
+          "source": "frozen/inputs/network.net.xml",
+          "source_sha256": "5c18dcd49ff415a90acc61c5d12ea5a3630928aa8d4c87492ce63de426245ce2",
+          "copy": "cases/pilot_euler_v2/tau1_dt0.5_action0.5_seed2025/network.net.xml",
+          "copy_sha256": "6659c73d3ddf52c892a40592a5bae3ee2dacc1e8171e24e66f081daaaa742484",
+          "active_xml_equivalent": true,
+          "byte_identical": false
+        },
+        {
+          "source": "pilot_euler_v2/runs/tau1_dt0.5_action0.5_seed2025/routes.rou.xml",
+          "source_sha256": "e76f40db0cbc40df4bcf03f2d0f6a4e1b127a10a832b30d84697862a897428e2",
+          "copy": "cases/pilot_euler_v2/tau1_dt0.5_action0.5_seed2025/routes.rou.xml",
+          "copy_sha256": "e76f40db0cbc40df4bcf03f2d0f6a4e1b127a10a832b30d84697862a897428e2",
+          "active_xml_equivalent": true,
+          "byte_identical": true
+        },
+        {
+          "source": "pilot_euler_v2/runs/tau1_dt0.5_action0.5_seed2025/additional.xml",
+          "source_sha256": "9c9010cab3d3542c4e48f4163e209294e47c5f40cab17324f4c06e320f86ba75",
+          "copy": "cases/pilot_euler_v2/tau1_dt0.5_action0.5_seed2025/additional.xml",
+          "copy_sha256": "9c9010cab3d3542c4e48f4163e209294e47c5f40cab17324f4c06e320f86ba75",
+          "active_xml_equivalent": true,
+          "byte_identical": true
+        }
+      ],
+      "scientific_role": "Exploratory setting/instrumentation check",
+      "historical_ledger_values_checked": 63,
+      "all_recorded_raw_hashes_reverified": true
+    },
+    "pilot_euler_v2/tau1_dt0.5_action0.5_seed42": {
+      "source_run": "pilot_euler_v2/runs/tau1_dt0.5_action0.5_seed42",
+      "source_complete_sha256": "1153e507017b2d41c7a6ee62a708c5b5f11a6c6ac3f3f205bc4f2ab169df983a",
+      "source_protocol_sha256": null,
+      "expected_metrics": "expected/pilot_euler_v2/tau1_dt0.5_action0.5_seed42/metrics.json",
+      "metric_count": 81,
+      "seed": 42,
+      "horizon_s": 3600.0,
+      "step_s": 0.5,
+      "warnings_retained": 0,
+      "input_files": [
+        {
+          "source": "pilot_euler_v2/runs/tau1_dt0.5_action0.5_seed42/run.sumocfg",
+          "source_sha256": "f47456cdcd908cc2f9b11939224a06bc1ff26da0ace4b458ee4c1ed9dd65e70c",
+          "copy": "cases/pilot_euler_v2/tau1_dt0.5_action0.5_seed42/run.sumocfg",
+          "copy_sha256": "4ca7b307094ee8aab29ec29bc26d979c310501bf466bddd2ddb2410590e2479d",
+          "operational_options_preserved": true
+        },
+        {
+          "source": "frozen/inputs/network.net.xml",
+          "source_sha256": "5c18dcd49ff415a90acc61c5d12ea5a3630928aa8d4c87492ce63de426245ce2",
+          "copy": "cases/pilot_euler_v2/tau1_dt0.5_action0.5_seed42/network.net.xml",
+          "copy_sha256": "6659c73d3ddf52c892a40592a5bae3ee2dacc1e8171e24e66f081daaaa742484",
+          "active_xml_equivalent": true,
+          "byte_identical": false
+        },
+        {
+          "source": "pilot_euler_v2/runs/tau1_dt0.5_action0.5_seed42/routes.rou.xml",
+          "source_sha256": "e76f40db0cbc40df4bcf03f2d0f6a4e1b127a10a832b30d84697862a897428e2",
+          "copy": "cases/pilot_euler_v2/tau1_dt0.5_action0.5_seed42/routes.rou.xml",
+          "copy_sha256": "e76f40db0cbc40df4bcf03f2d0f6a4e1b127a10a832b30d84697862a897428e2",
+          "active_xml_equivalent": true,
+          "byte_identical": true
+        },
+        {
+          "source": "pilot_euler_v2/runs/tau1_dt0.5_action0.5_seed42/additional.xml",
+          "source_sha256": "9c9010cab3d3542c4e48f4163e209294e47c5f40cab17324f4c06e320f86ba75",
+          "copy": "cases/pilot_euler_v2/tau1_dt0.5_action0.5_seed42/additional.xml",
+          "copy_sha256": "9c9010cab3d3542c4e48f4163e209294e47c5f40cab17324f4c06e320f86ba75",
+          "active_xml_equivalent": true,
+          "byte_identical": true
+        }
+      ],
+      "scientific_role": "Exploratory setting/instrumentation check",
+      "historical_ledger_values_checked": 63,
+      "all_recorded_raw_hashes_reverified": true
+    },
+    "pilot_euler_v2/tau1_dt0.5_action1_seed42": {
+      "source_run": "pilot_euler_v2/runs/tau1_dt0.5_action1_seed42",
+      "source_complete_sha256": "506f50068478e7102706d034f15145a1968e9a01e2af6f2e33064e40bf2803c5",
+      "source_protocol_sha256": null,
+      "expected_metrics": "expected/pilot_euler_v2/tau1_dt0.5_action1_seed42/metrics.json",
+      "metric_count": 81,
+      "seed": 42,
+      "horizon_s": 3600.0,
+      "step_s": 0.5,
+      "warnings_retained": 7378,
+      "input_files": [
+        {
+          "source": "pilot_euler_v2/runs/tau1_dt0.5_action1_seed42/run.sumocfg",
+          "source_sha256": "01f94d1aecea7d441ca15f83062411bc83e5aa3f08903ac37b310851bea8c2df",
+          "copy": "cases/pilot_euler_v2/tau1_dt0.5_action1_seed42/run.sumocfg",
+          "copy_sha256": "18678f316c7e07831cf26dc0084c0d019b635d22950b3a7d1b442fa5f2c862a2",
+          "operational_options_preserved": true
+        },
+        {
+          "source": "frozen/inputs/network.net.xml",
+          "source_sha256": "5c18dcd49ff415a90acc61c5d12ea5a3630928aa8d4c87492ce63de426245ce2",
+          "copy": "cases/pilot_euler_v2/tau1_dt0.5_action1_seed42/network.net.xml",
+          "copy_sha256": "6659c73d3ddf52c892a40592a5bae3ee2dacc1e8171e24e66f081daaaa742484",
+          "active_xml_equivalent": true,
+          "byte_identical": false
+        },
+        {
+          "source": "pilot_euler_v2/runs/tau1_dt0.5_action1_seed42/routes.rou.xml",
+          "source_sha256": "e76f40db0cbc40df4bcf03f2d0f6a4e1b127a10a832b30d84697862a897428e2",
+          "copy": "cases/pilot_euler_v2/tau1_dt0.5_action1_seed42/routes.rou.xml",
+          "copy_sha256": "e76f40db0cbc40df4bcf03f2d0f6a4e1b127a10a832b30d84697862a897428e2",
+          "active_xml_equivalent": true,
+          "byte_identical": true
+        },
+        {
+          "source": "pilot_euler_v2/runs/tau1_dt0.5_action1_seed42/additional.xml",
+          "source_sha256": "9c9010cab3d3542c4e48f4163e209294e47c5f40cab17324f4c06e320f86ba75",
+          "copy": "cases/pilot_euler_v2/tau1_dt0.5_action1_seed42/additional.xml",
+          "copy_sha256": "9c9010cab3d3542c4e48f4163e209294e47c5f40cab17324f4c06e320f86ba75",
+          "active_xml_equivalent": true,
+          "byte_identical": true
+        }
+      ],
+      "scientific_role": "Exploratory setting/instrumentation check",
+      "historical_ledger_values_checked": 63,
+      "all_recorded_raw_hashes_reverified": true
+    },
+    "pilot_euler_v2/tau1_dt1_action1_seed2024": {
+      "source_run": "pilot_euler_v2/runs/tau1_dt1_action1_seed2024",
+      "source_complete_sha256": "fe4115bcd95a93e0046cd64ab666c98ee66dc7591bd52d6c6e67fce701fe328a",
+      "source_protocol_sha256": null,
+      "expected_metrics": "expected/pilot_euler_v2/tau1_dt1_action1_seed2024/metrics.json",
+      "metric_count": 81,
+      "seed": 2024,
+      "horizon_s": 3600.0,
+      "step_s": 1.0,
+      "warnings_retained": 0,
+      "input_files": [
+        {
+          "source": "pilot_euler_v2/runs/tau1_dt1_action1_seed2024/run.sumocfg",
+          "source_sha256": "f8adbcfa4affa0f3d1b5a4b210bd45caebf92b8f60376a7e494b0bbdf1207a82",
+          "copy": "cases/pilot_euler_v2/tau1_dt1_action1_seed2024/run.sumocfg",
+          "copy_sha256": "8421979476956109c8107c86ffbdac6f0a049658fac9dfe76779c1deae467ced",
+          "operational_options_preserved": true
+        },
+        {
+          "source": "frozen/inputs/network.net.xml",
+          "source_sha256": "5c18dcd49ff415a90acc61c5d12ea5a3630928aa8d4c87492ce63de426245ce2",
+          "copy": "cases/pilot_euler_v2/tau1_dt1_action1_seed2024/network.net.xml",
+          "copy_sha256": "6659c73d3ddf52c892a40592a5bae3ee2dacc1e8171e24e66f081daaaa742484",
+          "active_xml_equivalent": true,
+          "byte_identical": false
+        },
+        {
+          "source": "pilot_euler_v2/runs/tau1_dt1_action1_seed2024/routes.rou.xml",
+          "source_sha256": "e76f40db0cbc40df4bcf03f2d0f6a4e1b127a10a832b30d84697862a897428e2",
+          "copy": "cases/pilot_euler_v2/tau1_dt1_action1_seed2024/routes.rou.xml",
+          "copy_sha256": "e76f40db0cbc40df4bcf03f2d0f6a4e1b127a10a832b30d84697862a897428e2",
+          "active_xml_equivalent": true,
+          "byte_identical": true
+        },
+        {
+          "source": "pilot_euler_v2/runs/tau1_dt1_action1_seed2024/additional.xml",
+          "source_sha256": "9c9010cab3d3542c4e48f4163e209294e47c5f40cab17324f4c06e320f86ba75",
+          "copy": "cases/pilot_euler_v2/tau1_dt1_action1_seed2024/additional.xml",
+          "copy_sha256": "9c9010cab3d3542c4e48f4163e209294e47c5f40cab17324f4c06e320f86ba75",
+          "active_xml_equivalent": true,
+          "byte_identical": true
+        }
+      ],
+      "scientific_role": "Exploratory setting/instrumentation check",
+      "historical_ledger_values_checked": 63,
+      "all_recorded_raw_hashes_reverified": true
+    },
+    "pilot_euler_v2/tau1_dt1_action1_seed2025": {
+      "source_run": "pilot_euler_v2/runs/tau1_dt1_action1_seed2025",
+      "source_complete_sha256": "f0a93934e1cc372d958f504d8ceead466de0e733af5d396debefcb8ddd275c0b",
+      "source_protocol_sha256": null,
+      "expected_metrics": "expected/pilot_euler_v2/tau1_dt1_action1_seed2025/metrics.json",
+      "metric_count": 81,
+      "seed": 2025,
+      "horizon_s": 3600.0,
+      "step_s": 1.0,
+      "warnings_retained": 0,
+      "input_files": [
+        {
+          "source": "pilot_euler_v2/runs/tau1_dt1_action1_seed2025/run.sumocfg",
+          "source_sha256": "2364554be1f476c3aa67322cf11c9c1fd8fb8602fb1efcacd7e8ca875bd4be83",
+          "copy": "cases/pilot_euler_v2/tau1_dt1_action1_seed2025/run.sumocfg",
+          "copy_sha256": "fb1a2dccad77e75ff9eb3b599a8e68508c930d09dae57d383533c8daacbb59da",
+          "operational_options_preserved": true
+        },
+        {
+          "source": "frozen/inputs/network.net.xml",
+          "source_sha256": "5c18dcd49ff415a90acc61c5d12ea5a3630928aa8d4c87492ce63de426245ce2",
+          "copy": "cases/pilot_euler_v2/tau1_dt1_action1_seed2025/network.net.xml",
+          "copy_sha256": "6659c73d3ddf52c892a40592a5bae3ee2dacc1e8171e24e66f081daaaa742484",
+          "active_xml_equivalent": true,
+          "byte_identical": false
+        },
+        {
+          "source": "pilot_euler_v2/runs/tau1_dt1_action1_seed2025/routes.rou.xml",
+          "source_sha256": "e76f40db0cbc40df4bcf03f2d0f6a4e1b127a10a832b30d84697862a897428e2",
+          "copy": "cases/pilot_euler_v2/tau1_dt1_action1_seed2025/routes.rou.xml",
+          "copy_sha256": "e76f40db0cbc40df4bcf03f2d0f6a4e1b127a10a832b30d84697862a897428e2",
+          "active_xml_equivalent": true,
+          "byte_identical": true
+        },
+        {
+          "source": "pilot_euler_v2/runs/tau1_dt1_action1_seed2025/additional.xml",
+          "source_sha256": "9c9010cab3d3542c4e48f4163e209294e47c5f40cab17324f4c06e320f86ba75",
+          "copy": "cases/pilot_euler_v2/tau1_dt1_action1_seed2025/additional.xml",
+          "copy_sha256": "9c9010cab3d3542c4e48f4163e209294e47c5f40cab17324f4c06e320f86ba75",
+          "active_xml_equivalent": true,
+          "byte_identical": true
+        }
+      ],
+      "scientific_role": "Exploratory setting/instrumentation check",
+      "historical_ledger_values_checked": 63,
+      "all_recorded_raw_hashes_reverified": true
+    },
+    "pilot_euler_v2/tau1_dt1_action1_seed42": {
+      "source_run": "pilot_euler_v2/runs/tau1_dt1_action1_seed42",
+      "source_complete_sha256": "64e11c5bbea5152f29f83d78449775b4062316319faff7692c75db77efaa8bc0",
+      "source_protocol_sha256": null,
+      "expected_metrics": "expected/pilot_euler_v2/tau1_dt1_action1_seed42/metrics.json",
+      "metric_count": 81,
+      "seed": 42,
+      "horizon_s": 3600.0,
+      "step_s": 1.0,
+      "warnings_retained": 0,
+      "input_files": [
+        {
+          "source": "pilot_euler_v2/runs/tau1_dt1_action1_seed42/run.sumocfg",
+          "source_sha256": "c7cc36e9a2eec022e6a1dd03542352fe42148cddc6eaeeb69158e88a2bed3c19",
+          "copy": "cases/pilot_euler_v2/tau1_dt1_action1_seed42/run.sumocfg",
+          "copy_sha256": "af3a2da7c4a3f143c719d3aee626c53e3445ad3cf2b689305b30ec93b59cbb97",
+          "operational_options_preserved": true
+        },
+        {
+          "source": "frozen/inputs/network.net.xml",
+          "source_sha256": "5c18dcd49ff415a90acc61c5d12ea5a3630928aa8d4c87492ce63de426245ce2",
+          "copy": "cases/pilot_euler_v2/tau1_dt1_action1_seed42/network.net.xml",
+          "copy_sha256": "6659c73d3ddf52c892a40592a5bae3ee2dacc1e8171e24e66f081daaaa742484",
+          "active_xml_equivalent": true,
+          "byte_identical": false
+        },
+        {
+          "source": "pilot_euler_v2/runs/tau1_dt1_action1_seed42/routes.rou.xml",
+          "source_sha256": "e76f40db0cbc40df4bcf03f2d0f6a4e1b127a10a832b30d84697862a897428e2",
+          "copy": "cases/pilot_euler_v2/tau1_dt1_action1_seed42/routes.rou.xml",
+          "copy_sha256": "e76f40db0cbc40df4bcf03f2d0f6a4e1b127a10a832b30d84697862a897428e2",
+          "active_xml_equivalent": true,
+          "byte_identical": true
+        },
+        {
+          "source": "pilot_euler_v2/runs/tau1_dt1_action1_seed42/additional.xml",
+          "source_sha256": "9c9010cab3d3542c4e48f4163e209294e47c5f40cab17324f4c06e320f86ba75",
+          "copy": "cases/pilot_euler_v2/tau1_dt1_action1_seed42/additional.xml",
+          "copy_sha256": "9c9010cab3d3542c4e48f4163e209294e47c5f40cab17324f4c06e320f86ba75",
+          "active_xml_equivalent": true,
+          "byte_identical": true
+        }
+      ],
+      "scientific_role": "Exploratory setting/instrumentation check",
+      "historical_ledger_values_checked": 63,
+      "all_recorded_raw_hashes_reverified": true
+    },
+    "pilot_ballistic_v3/tau0.8_dt0.1_action0.5_seed42": {
+      "source_run": "pilot_ballistic_v3/runs/tau0.8_dt0.1_action0.5_seed42",
+      "source_complete_sha256": "31bfd90c6b55b11a6cddb5bdef2cbbe6a7184a9a295a065e78f2e7ab406a1650",
+      "source_protocol_sha256": null,
+      "expected_metrics": "expected/pilot_ballistic_v3/tau0.8_dt0.1_action0.5_seed42/metrics.json",
+      "metric_count": 81,
+      "seed": 42,
+      "horizon_s": 3600.0,
+      "step_s": 0.1,
+      "warnings_retained": 65,
+      "input_files": [
+        {
+          "source": "pilot_ballistic_v3/runs/tau0.8_dt0.1_action0.5_seed42/run.sumocfg",
+          "source_sha256": "e7a454515dafae4e32c8ff9800cbb34a1a138cc436a87207d239452ca792e2df",
+          "copy": "cases/pilot_ballistic_v3/tau0.8_dt0.1_action0.5_seed42/run.sumocfg",
+          "copy_sha256": "bd334feaa66c8dbae0fff9102a8dabd89d1f37ed7f22bc941125cb6c183c52cc",
+          "operational_options_preserved": true
+        },
+        {
+          "source": "frozen/inputs/network.net.xml",
+          "source_sha256": "5c18dcd49ff415a90acc61c5d12ea5a3630928aa8d4c87492ce63de426245ce2",
+          "copy": "cases/pilot_ballistic_v3/tau0.8_dt0.1_action0.5_seed42/network.net.xml",
+          "copy_sha256": "6659c73d3ddf52c892a40592a5bae3ee2dacc1e8171e24e66f081daaaa742484",
+          "active_xml_equivalent": true,
+          "byte_identical": false
+        },
+        {
+          "source": "pilot_ballistic_v3/runs/tau0.8_dt0.1_action0.5_seed42/routes.rou.xml",
+          "source_sha256": "c2ef47b0d56ec2c745fdad09fd44f645dd310c6e524d9080d4a1cf12eecac784",
+          "copy": "cases/pilot_ballistic_v3/tau0.8_dt0.1_action0.5_seed42/routes.rou.xml",
+          "copy_sha256": "c2ef47b0d56ec2c745fdad09fd44f645dd310c6e524d9080d4a1cf12eecac784",
+          "active_xml_equivalent": true,
+          "byte_identical": true
+        },
+        {
+          "source": "pilot_ballistic_v3/runs/tau0.8_dt0.1_action0.5_seed42/additional.xml",
+          "source_sha256": "9c9010cab3d3542c4e48f4163e209294e47c5f40cab17324f4c06e320f86ba75",
+          "copy": "cases/pilot_ballistic_v3/tau0.8_dt0.1_action0.5_seed42/additional.xml",
+          "copy_sha256": "9c9010cab3d3542c4e48f4163e209294e47c5f40cab17324f4c06e320f86ba75",
+          "active_xml_equivalent": true,
+          "byte_identical": true
+        }
+      ],
+      "scientific_role": "Exploratory setting/instrumentation check",
+      "historical_ledger_values_checked": 63,
+      "all_recorded_raw_hashes_reverified": true
+    },
+    "pilot_ballistic_v3/tau0.8_dt0.5_action0.5_seed42": {
+      "source_run": "pilot_ballistic_v3/runs/tau0.8_dt0.5_action0.5_seed42",
+      "source_complete_sha256": "274aa4c9879530eefd335175398d80ca6be3789ad293e51b56f1d3d420a489b6",
+      "source_protocol_sha256": null,
+      "expected_metrics": "expected/pilot_ballistic_v3/tau0.8_dt0.5_action0.5_seed42/metrics.json",
+      "metric_count": 81,
+      "seed": 42,
+      "horizon_s": 3600.0,
+      "step_s": 0.5,
+      "warnings_retained": 0,
+      "input_files": [
+        {
+          "source": "pilot_ballistic_v3/runs/tau0.8_dt0.5_action0.5_seed42/run.sumocfg",
+          "source_sha256": "55b9bea7c4960471fef4ef21d906ae90700c6a9f8977124e290e1d9d91de6365",
+          "copy": "cases/pilot_ballistic_v3/tau0.8_dt0.5_action0.5_seed42/run.sumocfg",
+          "copy_sha256": "68b3eb570ed8ae3e6cf3b29a75f524b22c11beb29ea9af00ff8cdfb889f8d660",
+          "operational_options_preserved": true
+        },
+        {
+          "source": "frozen/inputs/network.net.xml",
+          "source_sha256": "5c18dcd49ff415a90acc61c5d12ea5a3630928aa8d4c87492ce63de426245ce2",
+          "copy": "cases/pilot_ballistic_v3/tau0.8_dt0.5_action0.5_seed42/network.net.xml",
+          "copy_sha256": "6659c73d3ddf52c892a40592a5bae3ee2dacc1e8171e24e66f081daaaa742484",
+          "active_xml_equivalent": true,
+          "byte_identical": false
+        },
+        {
+          "source": "pilot_ballistic_v3/runs/tau0.8_dt0.5_action0.5_seed42/routes.rou.xml",
+          "source_sha256": "c2ef47b0d56ec2c745fdad09fd44f645dd310c6e524d9080d4a1cf12eecac784",
+          "copy": "cases/pilot_ballistic_v3/tau0.8_dt0.5_action0.5_seed42/routes.rou.xml",
+          "copy_sha256": "c2ef47b0d56ec2c745fdad09fd44f645dd310c6e524d9080d4a1cf12eecac784",
+          "active_xml_equivalent": true,
+          "byte_identical": true
+        },
+        {
+          "source": "pilot_ballistic_v3/runs/tau0.8_dt0.5_action0.5_seed42/additional.xml",
+          "source_sha256": "9c9010cab3d3542c4e48f4163e209294e47c5f40cab17324f4c06e320f86ba75",
+          "copy": "cases/pilot_ballistic_v3/tau0.8_dt0.5_action0.5_seed42/additional.xml",
+          "copy_sha256": "9c9010cab3d3542c4e48f4163e209294e47c5f40cab17324f4c06e320f86ba75",
+          "active_xml_equivalent": true,
+          "byte_identical": true
+        }
+      ],
+      "scientific_role": "Exploratory setting/instrumentation check",
+      "historical_ledger_values_checked": 63,
+      "all_recorded_raw_hashes_reverified": true
+    },
+    "pilot_ballistic_v3/tau0.8_dt0.5_action1_seed42": {
+      "source_run": "pilot_ballistic_v3/runs/tau0.8_dt0.5_action1_seed42",
+      "source_complete_sha256": "a593b7695db55ba77b547dd6708a74458f7a9df92f795f074f4400e48e7181da",
+      "source_protocol_sha256": null,
+      "expected_metrics": "expected/pilot_ballistic_v3/tau0.8_dt0.5_action1_seed42/metrics.json",
+      "metric_count": 81,
+      "seed": 42,
+      "horizon_s": 3600.0,
+      "step_s": 0.5,
+      "warnings_retained": 5484,
+      "input_files": [
+        {
+          "source": "pilot_ballistic_v3/runs/tau0.8_dt0.5_action1_seed42/run.sumocfg",
+          "source_sha256": "8521c2e1fea91bc3a9b61f844ca8740d0ae6d6f97ffa44d00bc389f9b455dc76",
+          "copy": "cases/pilot_ballistic_v3/tau0.8_dt0.5_action1_seed42/run.sumocfg",
+          "copy_sha256": "9b09cdf96257fa758cbe1863abc9b1350ebf7e992fb1962a9a35d3e9706fa2e7",
+          "operational_options_preserved": true
+        },
+        {
+          "source": "frozen/inputs/network.net.xml",
+          "source_sha256": "5c18dcd49ff415a90acc61c5d12ea5a3630928aa8d4c87492ce63de426245ce2",
+          "copy": "cases/pilot_ballistic_v3/tau0.8_dt0.5_action1_seed42/network.net.xml",
+          "copy_sha256": "6659c73d3ddf52c892a40592a5bae3ee2dacc1e8171e24e66f081daaaa742484",
+          "active_xml_equivalent": true,
+          "byte_identical": false
+        },
+        {
+          "source": "pilot_ballistic_v3/runs/tau0.8_dt0.5_action1_seed42/routes.rou.xml",
+          "source_sha256": "c2ef47b0d56ec2c745fdad09fd44f645dd310c6e524d9080d4a1cf12eecac784",
+          "copy": "cases/pilot_ballistic_v3/tau0.8_dt0.5_action1_seed42/routes.rou.xml",
+          "copy_sha256": "c2ef47b0d56ec2c745fdad09fd44f645dd310c6e524d9080d4a1cf12eecac784",
+          "active_xml_equivalent": true,
+          "byte_identical": true
+        },
+        {
+          "source": "pilot_ballistic_v3/runs/tau0.8_dt0.5_action1_seed42/additional.xml",
+          "source_sha256": "9c9010cab3d3542c4e48f4163e209294e47c5f40cab17324f4c06e320f86ba75",
+          "copy": "cases/pilot_ballistic_v3/tau0.8_dt0.5_action1_seed42/additional.xml",
+          "copy_sha256": "9c9010cab3d3542c4e48f4163e209294e47c5f40cab17324f4c06e320f86ba75",
+          "active_xml_equivalent": true,
+          "byte_identical": true
+        }
+      ],
+      "scientific_role": "Exploratory setting/instrumentation check",
+      "historical_ledger_values_checked": 63,
+      "all_recorded_raw_hashes_reverified": true
+    },
+    "pilot_ballistic_v3/tau1_dt0.1_action0.5_seed42": {
+      "source_run": "pilot_ballistic_v3/runs/tau1_dt0.1_action0.5_seed42",
+      "source_complete_sha256": "27d11bd06e3f2d494b083583382dd73c60e0d6c85824817826e83f2b7b0d2535",
+      "source_protocol_sha256": null,
+      "expected_metrics": "expected/pilot_ballistic_v3/tau1_dt0.1_action0.5_seed42/metrics.json",
+      "metric_count": 81,
+      "seed": 42,
+      "horizon_s": 3600.0,
+      "step_s": 0.1,
+      "warnings_retained": 38,
+      "input_files": [
+        {
+          "source": "pilot_ballistic_v3/runs/tau1_dt0.1_action0.5_seed42/run.sumocfg",
+          "source_sha256": "e7a454515dafae4e32c8ff9800cbb34a1a138cc436a87207d239452ca792e2df",
+          "copy": "cases/pilot_ballistic_v3/tau1_dt0.1_action0.5_seed42/run.sumocfg",
+          "copy_sha256": "bd334feaa66c8dbae0fff9102a8dabd89d1f37ed7f22bc941125cb6c183c52cc",
+          "operational_options_preserved": true
+        },
+        {
+          "source": "frozen/inputs/network.net.xml",
+          "source_sha256": "5c18dcd49ff415a90acc61c5d12ea5a3630928aa8d4c87492ce63de426245ce2",
+          "copy": "cases/pilot_ballistic_v3/tau1_dt0.1_action0.5_seed42/network.net.xml",
+          "copy_sha256": "6659c73d3ddf52c892a40592a5bae3ee2dacc1e8171e24e66f081daaaa742484",
+          "active_xml_equivalent": true,
+          "byte_identical": false
+        },
+        {
+          "source": "pilot_ballistic_v3/runs/tau1_dt0.1_action0.5_seed42/routes.rou.xml",
+          "source_sha256": "e76f40db0cbc40df4bcf03f2d0f6a4e1b127a10a832b30d84697862a897428e2",
+          "copy": "cases/pilot_ballistic_v3/tau1_dt0.1_action0.5_seed42/routes.rou.xml",
+          "copy_sha256": "e76f40db0cbc40df4bcf03f2d0f6a4e1b127a10a832b30d84697862a897428e2",
+          "active_xml_equivalent": true,
+          "byte_identical": true
+        },
+        {
+          "source": "pilot_ballistic_v3/runs/tau1_dt0.1_action0.5_seed42/additional.xml",
+          "source_sha256": "9c9010cab3d3542c4e48f4163e209294e47c5f40cab17324f4c06e320f86ba75",
+          "copy": "cases/pilot_ballistic_v3/tau1_dt0.1_action0.5_seed42/additional.xml",
+          "copy_sha256": "9c9010cab3d3542c4e48f4163e209294e47c5f40cab17324f4c06e320f86ba75",
+          "active_xml_equivalent": true,
+          "byte_identical": true
+        }
+      ],
+      "scientific_role": "Exploratory setting/instrumentation check",
+      "historical_ledger_values_checked": 63,
+      "all_recorded_raw_hashes_reverified": true
+    },
+    "pilot_ballistic_v3/tau1_dt0.5_action0.5_seed42": {
+      "source_run": "pilot_ballistic_v3/runs/tau1_dt0.5_action0.5_seed42",
+      "source_complete_sha256": "d3741bee96e5c016898af888dd5fb9461217b7c0a66751ab6b28862a88326dc8",
+      "source_protocol_sha256": null,
+      "expected_metrics": "expected/pilot_ballistic_v3/tau1_dt0.5_action0.5_seed42/metrics.json",
+      "metric_count": 81,
+      "seed": 42,
+      "horizon_s": 3600.0,
+      "step_s": 0.5,
+      "warnings_retained": 0,
+      "input_files": [
+        {
+          "source": "pilot_ballistic_v3/runs/tau1_dt0.5_action0.5_seed42/run.sumocfg",
+          "source_sha256": "55b9bea7c4960471fef4ef21d906ae90700c6a9f8977124e290e1d9d91de6365",
+          "copy": "cases/pilot_ballistic_v3/tau1_dt0.5_action0.5_seed42/run.sumocfg",
+          "copy_sha256": "68b3eb570ed8ae3e6cf3b29a75f524b22c11beb29ea9af00ff8cdfb889f8d660",
+          "operational_options_preserved": true
+        },
+        {
+          "source": "frozen/inputs/network.net.xml",
+          "source_sha256": "5c18dcd49ff415a90acc61c5d12ea5a3630928aa8d4c87492ce63de426245ce2",
+          "copy": "cases/pilot_ballistic_v3/tau1_dt0.5_action0.5_seed42/network.net.xml",
+          "copy_sha256": "6659c73d3ddf52c892a40592a5bae3ee2dacc1e8171e24e66f081daaaa742484",
+          "active_xml_equivalent": true,
+          "byte_identical": false
+        },
+        {
+          "source": "pilot_ballistic_v3/runs/tau1_dt0.5_action0.5_seed42/routes.rou.xml",
+          "source_sha256": "e76f40db0cbc40df4bcf03f2d0f6a4e1b127a10a832b30d84697862a897428e2",
+          "copy": "cases/pilot_ballistic_v3/tau1_dt0.5_action0.5_seed42/routes.rou.xml",
+          "copy_sha256": "e76f40db0cbc40df4bcf03f2d0f6a4e1b127a10a832b30d84697862a897428e2",
+          "active_xml_equivalent": true,
+          "byte_identical": true
+        },
+        {
+          "source": "pilot_ballistic_v3/runs/tau1_dt0.5_action0.5_seed42/additional.xml",
+          "source_sha256": "9c9010cab3d3542c4e48f4163e209294e47c5f40cab17324f4c06e320f86ba75",
+          "copy": "cases/pilot_ballistic_v3/tau1_dt0.5_action0.5_seed42/additional.xml",
+          "copy_sha256": "9c9010cab3d3542c4e48f4163e209294e47c5f40cab17324f4c06e320f86ba75",
+          "active_xml_equivalent": true,
+          "byte_identical": true
+        }
+      ],
+      "scientific_role": "Exploratory setting/instrumentation check",
+      "historical_ledger_values_checked": 63,
+      "all_recorded_raw_hashes_reverified": true
+    },
+    "pilot_ballistic_v3/tau1_dt0.5_action1_seed42": {
+      "source_run": "pilot_ballistic_v3/runs/tau1_dt0.5_action1_seed42",
+      "source_complete_sha256": "42f7840e61c833d6719e3f232737d494fe8b0879307f7feec6fad0df0eced632",
+      "source_protocol_sha256": null,
+      "expected_metrics": "expected/pilot_ballistic_v3/tau1_dt0.5_action1_seed42/metrics.json",
+      "metric_count": 81,
+      "seed": 42,
+      "horizon_s": 3600.0,
+      "step_s": 0.5,
+      "warnings_retained": 116,
+      "input_files": [
+        {
+          "source": "pilot_ballistic_v3/runs/tau1_dt0.5_action1_seed42/run.sumocfg",
+          "source_sha256": "8521c2e1fea91bc3a9b61f844ca8740d0ae6d6f97ffa44d00bc389f9b455dc76",
+          "copy": "cases/pilot_ballistic_v3/tau1_dt0.5_action1_seed42/run.sumocfg",
+          "copy_sha256": "9b09cdf96257fa758cbe1863abc9b1350ebf7e992fb1962a9a35d3e9706fa2e7",
+          "operational_options_preserved": true
+        },
+        {
+          "source": "frozen/inputs/network.net.xml",
+          "source_sha256": "5c18dcd49ff415a90acc61c5d12ea5a3630928aa8d4c87492ce63de426245ce2",
+          "copy": "cases/pilot_ballistic_v3/tau1_dt0.5_action1_seed42/network.net.xml",
+          "copy_sha256": "6659c73d3ddf52c892a40592a5bae3ee2dacc1e8171e24e66f081daaaa742484",
+          "active_xml_equivalent": true,
+          "byte_identical": false
+        },
+        {
+          "source": "pilot_ballistic_v3/runs/tau1_dt0.5_action1_seed42/routes.rou.xml",
+          "source_sha256": "e76f40db0cbc40df4bcf03f2d0f6a4e1b127a10a832b30d84697862a897428e2",
+          "copy": "cases/pilot_ballistic_v3/tau1_dt0.5_action1_seed42/routes.rou.xml",
+          "copy_sha256": "e76f40db0cbc40df4bcf03f2d0f6a4e1b127a10a832b30d84697862a897428e2",
+          "active_xml_equivalent": true,
+          "byte_identical": true
+        },
+        {
+          "source": "pilot_ballistic_v3/runs/tau1_dt0.5_action1_seed42/additional.xml",
+          "source_sha256": "9c9010cab3d3542c4e48f4163e209294e47c5f40cab17324f4c06e320f86ba75",
+          "copy": "cases/pilot_ballistic_v3/tau1_dt0.5_action1_seed42/additional.xml",
+          "copy_sha256": "9c9010cab3d3542c4e48f4163e209294e47c5f40cab17324f4c06e320f86ba75",
+          "active_xml_equivalent": true,
+          "byte_identical": true
+        }
+      ],
+      "scientific_role": "Exploratory setting/instrumentation check",
+      "historical_ledger_values_checked": 63,
+      "all_recorded_raw_hashes_reverified": true
+    },
+    "stopline_pilot/tau1_dt0.5_action0.5_seed42": {
+      "source_run": "stopline_pilot/runs/tau1_dt0.5_action0.5_seed42",
+      "source_complete_sha256": "1cb1dda993ddc5a2aa1faa58024dbff2def1405389abfc6b119ae7f3a84f0430",
+      "source_protocol_sha256": null,
+      "expected_metrics": "expected/stopline_pilot/tau1_dt0.5_action0.5_seed42/metrics.json",
+      "metric_count": 81,
+      "seed": 42,
+      "horizon_s": 3600.0,
+      "step_s": 0.5,
+      "warnings_retained": 0,
+      "input_files": [
+        {
+          "source": "stopline_pilot/runs/tau1_dt0.5_action0.5_seed42/run.sumocfg",
+          "source_sha256": "78ac717b94146a2c1146a55f0a6ca3440636aa0b6144965dd552fb9a9efb62c1",
+          "copy": "cases/stopline_pilot/tau1_dt0.5_action0.5_seed42/run.sumocfg",
+          "copy_sha256": "4ca7b307094ee8aab29ec29bc26d979c310501bf466bddd2ddb2410590e2479d",
+          "operational_options_preserved": true
+        },
+        {
+          "source": "frozen/inputs/network.net.xml",
+          "source_sha256": "5c18dcd49ff415a90acc61c5d12ea5a3630928aa8d4c87492ce63de426245ce2",
+          "copy": "cases/stopline_pilot/tau1_dt0.5_action0.5_seed42/network.net.xml",
+          "copy_sha256": "6659c73d3ddf52c892a40592a5bae3ee2dacc1e8171e24e66f081daaaa742484",
+          "active_xml_equivalent": true,
+          "byte_identical": false
+        },
+        {
+          "source": "pilot_euler_v2/runs/tau1_dt0.5_action0.5_seed42/routes.rou.xml",
+          "source_sha256": "e76f40db0cbc40df4bcf03f2d0f6a4e1b127a10a832b30d84697862a897428e2",
+          "copy": "cases/stopline_pilot/tau1_dt0.5_action0.5_seed42/routes.rou.xml",
+          "copy_sha256": "e76f40db0cbc40df4bcf03f2d0f6a4e1b127a10a832b30d84697862a897428e2",
+          "active_xml_equivalent": true,
+          "byte_identical": true
+        },
+        {
+          "source": "stopline_pilot/runs/tau1_dt0.5_action0.5_seed42/additional.xml",
+          "source_sha256": "1a9982e6a0ccadbaca20cef99172b299fbd2f65e590362d35695df93779bfa13",
+          "copy": "cases/stopline_pilot/tau1_dt0.5_action0.5_seed42/additional.xml",
+          "copy_sha256": "1a9982e6a0ccadbaca20cef99172b299fbd2f65e590362d35695df93779bfa13",
+          "active_xml_equivalent": true,
+          "byte_identical": true
+        }
+      ],
+      "scientific_role": "Exploratory setting/instrumentation check",
+      "historical_ledger_values_checked": 63,
+      "all_recorded_raw_hashes_reverified": true
+    },
+    "stopline_pilot/tau1_dt1_action1_seed42": {
+      "source_run": "stopline_pilot/runs/tau1_dt1_action1_seed42",
+      "source_complete_sha256": "3076f250aa89d5077649290e50d671a2d265401e2ed5d0b9739fc57fb20adb8e",
+      "source_protocol_sha256": null,
+      "expected_metrics": "expected/stopline_pilot/tau1_dt1_action1_seed42/metrics.json",
+      "metric_count": 81,
+      "seed": 42,
+      "horizon_s": 3600.0,
+      "step_s": 1.0,
+      "warnings_retained": 0,
+      "input_files": [
+        {
+          "source": "stopline_pilot/runs/tau1_dt1_action1_seed42/run.sumocfg",
+          "source_sha256": "e32c9faa689f16a8188886fbb88a0db0e8017020478b78cc7b9dd62cb054f9fe",
+          "copy": "cases/stopline_pilot/tau1_dt1_action1_seed42/run.sumocfg",
+          "copy_sha256": "af3a2da7c4a3f143c719d3aee626c53e3445ad3cf2b689305b30ec93b59cbb97",
+          "operational_options_preserved": true
+        },
+        {
+          "source": "frozen/inputs/network.net.xml",
+          "source_sha256": "5c18dcd49ff415a90acc61c5d12ea5a3630928aa8d4c87492ce63de426245ce2",
+          "copy": "cases/stopline_pilot/tau1_dt1_action1_seed42/network.net.xml",
+          "copy_sha256": "6659c73d3ddf52c892a40592a5bae3ee2dacc1e8171e24e66f081daaaa742484",
+          "active_xml_equivalent": true,
+          "byte_identical": false
+        },
+        {
+          "source": "pilot_euler_v2/runs/tau1_dt1_action1_seed42/routes.rou.xml",
+          "source_sha256": "e76f40db0cbc40df4bcf03f2d0f6a4e1b127a10a832b30d84697862a897428e2",
+          "copy": "cases/stopline_pilot/tau1_dt1_action1_seed42/routes.rou.xml",
+          "copy_sha256": "e76f40db0cbc40df4bcf03f2d0f6a4e1b127a10a832b30d84697862a897428e2",
+          "active_xml_equivalent": true,
+          "byte_identical": true
+        },
+        {
+          "source": "stopline_pilot/runs/tau1_dt1_action1_seed42/additional.xml",
+          "source_sha256": "1a9982e6a0ccadbaca20cef99172b299fbd2f65e590362d35695df93779bfa13",
+          "copy": "cases/stopline_pilot/tau1_dt1_action1_seed42/additional.xml",
+          "copy_sha256": "1a9982e6a0ccadbaca20cef99172b299fbd2f65e590362d35695df93779bfa13",
+          "active_xml_equivalent": true,
+          "byte_identical": true
+        }
+      ],
+      "scientific_role": "Exploratory setting/instrumentation check",
+      "historical_ledger_values_checked": 63,
+      "all_recorded_raw_hashes_reverified": true
+    }
+  },
+  "family_counts": {
+    "pilot_euler_v2": 14,
+    "pilot_ballistic_v3": 6,
+    "stopline_pilot": 2
+  },
+  "copied_code": {
+    "audit_metrics.py": {
+      "source": "scripts/audit_metrics.py",
+      "sha256": "d6b12fb1405426b35a74085b85cdd0b62f305eb3625262b2db2eddec7ea508fe"
+    },
+    "portable_reanalysis_entry.py": {
+      "source": "scripts/portable_reanalysis_entry.py",
+      "sha256": "71d130df30ef4e0fcde8e4eb2897944713e4f2318daaa6c02cd609a5214ba122"
+    },
+    "run_simulation.py": {
+      "source": "scripts/portable_simulation_entry.py",
+      "sha256": "4d6e820cdfac957bd15edc3f22f85dc9fd2b477758966241a707f1e5cca4f801"
+    }
+  },
+  "recorded_sumo_sha256": "68a88f8c057d7aed44c63d93b6133f94d605dfe2578938221a65ee455d64b376",
+  "sumo_version": "1.24.0",
+  "new_simulations": 0,
+  "public_deposition_complete": false,
+  "files_sha256": {
+    "audit_metrics.py": "d6b12fb1405426b35a74085b85cdd0b62f305eb3625262b2db2eddec7ea508fe",
+    "cases/pilot_ballistic_v3/tau0.8_dt0.1_action0.5_seed42/additional.xml": "9c9010cab3d3542c4e48f4163e209294e47c5f40cab17324f4c06e320f86ba75",
+    "cases/pilot_ballistic_v3/tau0.8_dt0.1_action0.5_seed42/network.net.xml": "6659c73d3ddf52c892a40592a5bae3ee2dacc1e8171e24e66f081daaaa742484",
+    "cases/pilot_ballistic_v3/tau0.8_dt0.1_action0.5_seed42/routes.rou.xml": "c2ef47b0d56ec2c745fdad09fd44f645dd310c6e524d9080d4a1cf12eecac784",
+    "cases/pilot_ballistic_v3/tau0.8_dt0.1_action0.5_seed42/run.sumocfg": "bd334feaa66c8dbae0fff9102a8dabd89d1f37ed7f22bc941125cb6c183c52cc",
+    "cases/pilot_ballistic_v3/tau0.8_dt0.5_action0.5_seed42/additional.xml": "9c9010cab3d3542c4e48f4163e209294e47c5f40cab17324f4c06e320f86ba75",
+    "cases/pilot_ballistic_v3/tau0.8_dt0.5_action0.5_seed42/network.net.xml": "6659c73d3ddf52c892a40592a5bae3ee2dacc1e8171e24e66f081daaaa742484",
+    "cases/pilot_ballistic_v3/tau0.8_dt0.5_action0.5_seed42/routes.rou.xml": "c2ef47b0d56ec2c745fdad09fd44f645dd310c6e524d9080d4a1cf12eecac784",
+    "cases/pilot_ballistic_v3/tau0.8_dt0.5_action0.5_seed42/run.sumocfg": "68b3eb570ed8ae3e6cf3b29a75f524b22c11beb29ea9af00ff8cdfb889f8d660",
+    "cases/pilot_ballistic_v3/tau0.8_dt0.5_action1_seed42/additional.xml": "9c9010cab3d3542c4e48f4163e209294e47c5f40cab17324f4c06e320f86ba75",
+    "cases/pilot_ballistic_v3/tau0.8_dt0.5_action1_seed42/network.net.xml": "6659c73d3ddf52c892a40592a5bae3ee2dacc1e8171e24e66f081daaaa742484",
+    "cases/pilot_ballistic_v3/tau0.8_dt0.5_action1_seed42/routes.rou.xml": "c2ef47b0d56ec2c745fdad09fd44f645dd310c6e524d9080d4a1cf12eecac784",
+    "cases/pilot_ballistic_v3/tau0.8_dt0.5_action1_seed42/run.sumocfg": "9b09cdf96257fa758cbe1863abc9b1350ebf7e992fb1962a9a35d3e9706fa2e7",
+    "cases/pilot_ballistic_v3/tau1_dt0.1_action0.5_seed42/additional.xml": "9c9010cab3d3542c4e48f4163e209294e47c5f40cab17324f4c06e320f86ba75",
+    "cases/pilot_ballistic_v3/tau1_dt0.1_action0.5_seed42/network.net.xml": "6659c73d3ddf52c892a40592a5bae3ee2dacc1e8171e24e66f081daaaa742484",
+    "cases/pilot_ballistic_v3/tau1_dt0.1_action0.5_seed42/routes.rou.xml": "e76f40db0cbc40df4bcf03f2d0f6a4e1b127a10a832b30d84697862a897428e2",
+    "cases/pilot_ballistic_v3/tau1_dt0.1_action0.5_seed42/run.sumocfg": "bd334feaa66c8dbae0fff9102a8dabd89d1f37ed7f22bc941125cb6c183c52cc",
+    "cases/pilot_ballistic_v3/tau1_dt0.5_action0.5_seed42/additional.xml": "9c9010cab3d3542c4e48f4163e209294e47c5f40cab17324f4c06e320f86ba75",
+    "cases/pilot_ballistic_v3/tau1_dt0.5_action0.5_seed42/network.net.xml": "6659c73d3ddf52c892a40592a5bae3ee2dacc1e8171e24e66f081daaaa742484",
+    "cases/pilot_ballistic_v3/tau1_dt0.5_action0.5_seed42/routes.rou.xml": "e76f40db0cbc40df4bcf03f2d0f6a4e1b127a10a832b30d84697862a897428e2",
+    "cases/pilot_ballistic_v3/tau1_dt0.5_action0.5_seed42/run.sumocfg": "68b3eb570ed8ae3e6cf3b29a75f524b22c11beb29ea9af00ff8cdfb889f8d660",
+    "cases/pilot_ballistic_v3/tau1_dt0.5_action1_seed42/additional.xml": "9c9010cab3d3542c4e48f4163e209294e47c5f40cab17324f4c06e320f86ba75",
+    "cases/pilot_ballistic_v3/tau1_dt0.5_action1_seed42/network.net.xml": "6659c73d3ddf52c892a40592a5bae3ee2dacc1e8171e24e66f081daaaa742484",
+    "cases/pilot_ballistic_v3/tau1_dt0.5_action1_seed42/routes.rou.xml": "e76f40db0cbc40df4bcf03f2d0f6a4e1b127a10a832b30d84697862a897428e2",
+    "cases/pilot_ballistic_v3/tau1_dt0.5_action1_seed42/run.sumocfg": "9b09cdf96257fa758cbe1863abc9b1350ebf7e992fb1962a9a35d3e9706fa2e7",
+    "cases/pilot_euler_v2/tau0.8_dt0.5_action0.5_seed2024/additional.xml": "9c9010cab3d3542c4e48f4163e209294e47c5f40cab17324f4c06e320f86ba75",
+    "cases/pilot_euler_v2/tau0.8_dt0.5_action0.5_seed2024/network.net.xml": "6659c73d3ddf52c892a40592a5bae3ee2dacc1e8171e24e66f081daaaa742484",
+    "cases/pilot_euler_v2/tau0.8_dt0.5_action0.5_seed2024/routes.rou.xml": "c2ef47b0d56ec2c745fdad09fd44f645dd310c6e524d9080d4a1cf12eecac784",
+    "cases/pilot_euler_v2/tau0.8_dt0.5_action0.5_seed2024/run.sumocfg": "02ad33f50809d43d85014b1c38321291789b4a0444553cd10676c3d706fe8cea",
+    "cases/pilot_euler_v2/tau0.8_dt0.5_action0.5_seed2025/additional.xml": "9c9010cab3d3542c4e48f4163e209294e47c5f40cab17324f4c06e320f86ba75",
+    "cases/pilot_euler_v2/tau0.8_dt0.5_action0.5_seed2025/network.net.xml": "6659c73d3ddf52c892a40592a5bae3ee2dacc1e8171e24e66f081daaaa742484",
+    "cases/pilot_euler_v2/tau0.8_dt0.5_action0.5_seed2025/routes.rou.xml": "c2ef47b0d56ec2c745fdad09fd44f645dd310c6e524d9080d4a1cf12eecac784",
+    "cases/pilot_euler_v2/tau0.8_dt0.5_action0.5_seed2025/run.sumocfg": "d2310be7d7001f5d395536ac8b6cfb275b097523039a749f152eb8cb8d5c6045",
+    "cases/pilot_euler_v2/tau0.8_dt0.5_action0.5_seed42/additional.xml": "9c9010cab3d3542c4e48f4163e209294e47c5f40cab17324f4c06e320f86ba75",
+    "cases/pilot_euler_v2/tau0.8_dt0.5_action0.5_seed42/network.net.xml": "6659c73d3ddf52c892a40592a5bae3ee2dacc1e8171e24e66f081daaaa742484",
+    "cases/pilot_euler_v2/tau0.8_dt0.5_action0.5_seed42/routes.rou.xml": "c2ef47b0d56ec2c745fdad09fd44f645dd310c6e524d9080d4a1cf12eecac784",
+    "cases/pilot_euler_v2/tau0.8_dt0.5_action0.5_seed42/run.sumocfg": "4ca7b307094ee8aab29ec29bc26d979c310501bf466bddd2ddb2410590e2479d",
+    "cases/pilot_euler_v2/tau0.8_dt0.5_action1_seed42/additional.xml": "9c9010cab3d3542c4e48f4163e209294e47c5f40cab17324f4c06e320f86ba75",
+    "cases/pilot_euler_v2/tau0.8_dt0.5_action1_seed42/network.net.xml": "6659c73d3ddf52c892a40592a5bae3ee2dacc1e8171e24e66f081daaaa742484",
+    "cases/pilot_euler_v2/tau0.8_dt0.5_action1_seed42/routes.rou.xml": "c2ef47b0d56ec2c745fdad09fd44f645dd310c6e524d9080d4a1cf12eecac784",
+    "cases/pilot_euler_v2/tau0.8_dt0.5_action1_seed42/run.sumocfg": "18678f316c7e07831cf26dc0084c0d019b635d22950b3a7d1b442fa5f2c862a2",
+    "cases/pilot_euler_v2/tau0.8_dt1_action1_seed2024/additional.xml": "9c9010cab3d3542c4e48f4163e209294e47c5f40cab17324f4c06e320f86ba75",
+    "cases/pilot_euler_v2/tau0.8_dt1_action1_seed2024/network.net.xml": "6659c73d3ddf52c892a40592a5bae3ee2dacc1e8171e24e66f081daaaa742484",
+    "cases/pilot_euler_v2/tau0.8_dt1_action1_seed2024/routes.rou.xml": "c2ef47b0d56ec2c745fdad09fd44f645dd310c6e524d9080d4a1cf12eecac784",
+    "cases/pilot_euler_v2/tau0.8_dt1_action1_seed2024/run.sumocfg": "8421979476956109c8107c86ffbdac6f0a049658fac9dfe76779c1deae467ced",
+    "cases/pilot_euler_v2/tau0.8_dt1_action1_seed2025/additional.xml": "9c9010cab3d3542c4e48f4163e209294e47c5f40cab17324f4c06e320f86ba75",
+    "cases/pilot_euler_v2/tau0.8_dt1_action1_seed2025/network.net.xml": "6659c73d3ddf52c892a40592a5bae3ee2dacc1e8171e24e66f081daaaa742484",
+    "cases/pilot_euler_v2/tau0.8_dt1_action1_seed2025/routes.rou.xml": "c2ef47b0d56ec2c745fdad09fd44f645dd310c6e524d9080d4a1cf12eecac784",
+    "cases/pilot_euler_v2/tau0.8_dt1_action1_seed2025/run.sumocfg": "fb1a2dccad77e75ff9eb3b599a8e68508c930d09dae57d383533c8daacbb59da",
+    "cases/pilot_euler_v2/tau0.8_dt1_action1_seed42/additional.xml": "9c9010cab3d3542c4e48f4163e209294e47c5f40cab17324f4c06e320f86ba75",
+    "cases/pilot_euler_v2/tau0.8_dt1_action1_seed42/network.net.xml": "6659c73d3ddf52c892a40592a5bae3ee2dacc1e8171e24e66f081daaaa742484",
+    "cases/pilot_euler_v2/tau0.8_dt1_action1_seed42/routes.rou.xml": "c2ef47b0d56ec2c745fdad09fd44f645dd310c6e524d9080d4a1cf12eecac784",
+    "cases/pilot_euler_v2/tau0.8_dt1_action1_seed42/run.sumocfg": "af3a2da7c4a3f143c719d3aee626c53e3445ad3cf2b689305b30ec93b59cbb97",
+    "cases/pilot_euler_v2/tau1_dt0.5_action0.5_seed2024/additional.xml": "9c9010cab3d3542c4e48f4163e209294e47c5f40cab17324f4c06e320f86ba75",
+    "cases/pilot_euler_v2/tau1_dt0.5_action0.5_seed2024/network.net.xml": "6659c73d3ddf52c892a40592a5bae3ee2dacc1e8171e24e66f081daaaa742484",
+    "cases/pilot_euler_v2/tau1_dt0.5_action0.5_seed2024/routes.rou.xml": "e76f40db0cbc40df4bcf03f2d0f6a4e1b127a10a832b30d84697862a897428e2",
+    "cases/pilot_euler_v2/tau1_dt0.5_action0.5_seed2024/run.sumocfg": "02ad33f50809d43d85014b1c38321291789b4a0444553cd10676c3d706fe8cea",
+    "cases/pilot_euler_v2/tau1_dt0.5_action0.5_seed2025/additional.xml": "9c9010cab3d3542c4e48f4163e209294e47c5f40cab17324f4c06e320f86ba75",
+    "cases/pilot_euler_v2/tau1_dt0.5_action0.5_seed2025/network.net.xml": "6659c73d3ddf52c892a40592a5bae3ee2dacc1e8171e24e66f081daaaa742484",
+    "cases/pilot_euler_v2/tau1_dt0.5_action0.5_seed2025/routes.rou.xml": "e76f40db0cbc40df4bcf03f2d0f6a4e1b127a10a832b30d84697862a897428e2",
+    "cases/pilot_euler_v2/tau1_dt0.5_action0.5_seed2025/run.sumocfg": "d2310be7d7001f5d395536ac8b6cfb275b097523039a749f152eb8cb8d5c6045",
+    "cases/pilot_euler_v2/tau1_dt0.5_action0.5_seed42/additional.xml": "9c9010cab3d3542c4e48f4163e209294e47c5f40cab17324f4c06e320f86ba75",
+    "cases/pilot_euler_v2/tau1_dt0.5_action0.5_seed42/network.net.xml": "6659c73d3ddf52c892a40592a5bae3ee2dacc1e8171e24e66f081daaaa742484",
+    "cases/pilot_euler_v2/tau1_dt0.5_action0.5_seed42/routes.rou.xml": "e76f40db0cbc40df4bcf03f2d0f6a4e1b127a10a832b30d84697862a897428e2",
+    "cases/pilot_euler_v2/tau1_dt0.5_action0.5_seed42/run.sumocfg": "4ca7b307094ee8aab29ec29bc26d979c310501bf466bddd2ddb2410590e2479d",
+    "cases/pilot_euler_v2/tau1_dt0.5_action1_seed42/additional.xml": "9c9010cab3d3542c4e48f4163e209294e47c5f40cab17324f4c06e320f86ba75",
+    "cases/pilot_euler_v2/tau1_dt0.5_action1_seed42/network.net.xml": "6659c73d3ddf52c892a40592a5bae3ee2dacc1e8171e24e66f081daaaa742484",
+    "cases/pilot_euler_v2/tau1_dt0.5_action1_seed42/routes.rou.xml": "e76f40db0cbc40df4bcf03f2d0f6a4e1b127a10a832b30d84697862a897428e2",
+    "cases/pilot_euler_v2/tau1_dt0.5_action1_seed42/run.sumocfg": "18678f316c7e07831cf26dc0084c0d019b635d22950b3a7d1b442fa5f2c862a2",
+    "cases/pilot_euler_v2/tau1_dt1_action1_seed2024/additional.xml": "9c9010cab3d3542c4e48f4163e209294e47c5f40cab17324f4c06e320f86ba75",
+    "cases/pilot_euler_v2/tau1_dt1_action1_seed2024/network.net.xml": "6659c73d3ddf52c892a40592a5bae3ee2dacc1e8171e24e66f081daaaa742484",
+    "cases/pilot_euler_v2/tau1_dt1_action1_seed2024/routes.rou.xml": "e76f40db0cbc40df4bcf03f2d0f6a4e1b127a10a832b30d84697862a897428e2",
+    "cases/pilot_euler_v2/tau1_dt1_action1_seed2024/run.sumocfg": "8421979476956109c8107c86ffbdac6f0a049658fac9dfe76779c1deae467ced",
+    "cases/pilot_euler_v2/tau1_dt1_action1_seed2025/additional.xml": "9c9010cab3d3542c4e48f4163e209294e47c5f40cab17324f4c06e320f86ba75",
+    "cases/pilot_euler_v2/tau1_dt1_action1_seed2025/network.net.xml": "6659c73d3ddf52c892a40592a5bae3ee2dacc1e8171e24e66f081daaaa742484",
+    "cases/pilot_euler_v2/tau1_dt1_action1_seed2025/routes.rou.xml": "e76f40db0cbc40df4bcf03f2d0f6a4e1b127a10a832b30d84697862a897428e2",
+    "cases/pilot_euler_v2/tau1_dt1_action1_seed2025/run.sumocfg": "fb1a2dccad77e75ff9eb3b599a8e68508c930d09dae57d383533c8daacbb59da",
+    "cases/pilot_euler_v2/tau1_dt1_action1_seed42/additional.xml": "9c9010cab3d3542c4e48f4163e209294e47c5f40cab17324f4c06e320f86ba75",
+    "cases/pilot_euler_v2/tau1_dt1_action1_seed42/network.net.xml": "6659c73d3ddf52c892a40592a5bae3ee2dacc1e8171e24e66f081daaaa742484",
+    "cases/pilot_euler_v2/tau1_dt1_action1_seed42/routes.rou.xml": "e76f40db0cbc40df4bcf03f2d0f6a4e1b127a10a832b30d84697862a897428e2",
+    "cases/pilot_euler_v2/tau1_dt1_action1_seed42/run.sumocfg": "af3a2da7c4a3f143c719d3aee626c53e3445ad3cf2b689305b30ec93b59cbb97",
+    "cases/stopline_pilot/tau1_dt0.5_action0.5_seed42/additional.xml": "1a9982e6a0ccadbaca20cef99172b299fbd2f65e590362d35695df93779bfa13",
+    "cases/stopline_pilot/tau1_dt0.5_action0.5_seed42/network.net.xml": "6659c73d3ddf52c892a40592a5bae3ee2dacc1e8171e24e66f081daaaa742484",
+    "cases/stopline_pilot/tau1_dt0.5_action0.5_seed42/routes.rou.xml": "e76f40db0cbc40df4bcf03f2d0f6a4e1b127a10a832b30d84697862a897428e2",
+    "cases/stopline_pilot/tau1_dt0.5_action0.5_seed42/run.sumocfg": "4ca7b307094ee8aab29ec29bc26d979c310501bf466bddd2ddb2410590e2479d",
+    "cases/stopline_pilot/tau1_dt1_action1_seed42/additional.xml": "1a9982e6a0ccadbaca20cef99172b299fbd2f65e590362d35695df93779bfa13",
+    "cases/stopline_pilot/tau1_dt1_action1_seed42/network.net.xml": "6659c73d3ddf52c892a40592a5bae3ee2dacc1e8171e24e66f081daaaa742484",
+    "cases/stopline_pilot/tau1_dt1_action1_seed42/routes.rou.xml": "e76f40db0cbc40df4bcf03f2d0f6a4e1b127a10a832b30d84697862a897428e2",
+    "cases/stopline_pilot/tau1_dt1_action1_seed42/run.sumocfg": "af3a2da7c4a3f143c719d3aee626c53e3445ad3cf2b689305b30ec93b59cbb97",
+    "expected/pilot_ballistic_v3/tau0.8_dt0.1_action0.5_seed42/metrics.json": "19819639933c13f19f170c305c49d0bc564146c94abc3ba6528408e567a76eb4",
+    "expected/pilot_ballistic_v3/tau0.8_dt0.5_action0.5_seed42/metrics.json": "d620916305b448754d0e64add9466fb68720a779f2cd9abd2eb75eef916952ca",
+    "expected/pilot_ballistic_v3/tau0.8_dt0.5_action1_seed42/metrics.json": "a34a03a934827d893daf0524c2eef86ebd2bcb78027813900fb0d2dfacb35e3a",
+    "expected/pilot_ballistic_v3/tau1_dt0.1_action0.5_seed42/metrics.json": "684bea18fbd412a03e943dae21169041ca7446b15525258b84e7390844155db9",
+    "expected/pilot_ballistic_v3/tau1_dt0.5_action0.5_seed42/metrics.json": "5ae7adcf1e5277cd36930777f6f4d9888f7b32cd495da92c288ee84d29dc2dc0",
+    "expected/pilot_ballistic_v3/tau1_dt0.5_action1_seed42/metrics.json": "85328917d43f89dfcdf7ae9ae7ad76e5b5fbb976f2d8aaaf18acb8df36e5673a",
+    "expected/pilot_euler_v2/tau0.8_dt0.5_action0.5_seed2024/metrics.json": "7234628e57cbe5e7c78599d08864b684a3e91f2c4e9f396404c1b3a851e8fb51",
+    "expected/pilot_euler_v2/tau0.8_dt0.5_action0.5_seed2025/metrics.json": "f8ac38ed1f143a15f7c49c4511ead998399d1c12c36e39a6d4323895156e04ef",
+    "expected/pilot_euler_v2/tau0.8_dt0.5_action0.5_seed42/metrics.json": "4a90b73edc15642500aeb0bcae300a9ea25c78c58ea2841f1b358777e131de71",
+    "expected/pilot_euler_v2/tau0.8_dt0.5_action1_seed42/metrics.json": "82cbfe7bb2bac08a7b31cbf7f8a0f9556ac67093162193e662dedc470f1a412e",
+    "expected/pilot_euler_v2/tau0.8_dt1_action1_seed2024/metrics.json": "2add7043faa4843e8a78f4aec1f1646d5c6c013b69af25ca28407cab35e873e3",
+    "expected/pilot_euler_v2/tau0.8_dt1_action1_seed2025/metrics.json": "dd51e0f786cc1c26a929ffea071afbaf9f1c56dc06426e061a1c4bd07206c53d",
+    "expected/pilot_euler_v2/tau0.8_dt1_action1_seed42/metrics.json": "283c869140fea81ce8666803e15993ab758cafa42198a865acfd6c17c4702101",
+    "expected/pilot_euler_v2/tau1_dt0.5_action0.5_seed2024/metrics.json": "736ff099b13db6da51aef6b31dabbfb8a480a79c2263417741dfb8b1b543830e",
+    "expected/pilot_euler_v2/tau1_dt0.5_action0.5_seed2025/metrics.json": "03676f31ddaa17d3d3875efc07d2a97d623dff780e8e67432502f3e780fc340f",
+    "expected/pilot_euler_v2/tau1_dt0.5_action0.5_seed42/metrics.json": "145a0d80650ec747907a39048743b416d59384441ff9aceba17a6b1349e63941",
+    "expected/pilot_euler_v2/tau1_dt0.5_action1_seed42/metrics.json": "4a1b3f9544dfd5ee29fa6f6d1d068e912b25c3978427e7eb1fbc92a44173e645",
+    "expected/pilot_euler_v2/tau1_dt1_action1_seed2024/metrics.json": "fc61f448d92e35a00f2bd8b044e81b9b1bd1ab8da6beaca45480bc707347bfdc",
+    "expected/pilot_euler_v2/tau1_dt1_action1_seed2025/metrics.json": "f6ca176d6983ce223f9d6666c8fb3c1fa1144075b9b62bce097086c5e55ce755",
+    "expected/pilot_euler_v2/tau1_dt1_action1_seed42/metrics.json": "5b0c207759edbeee85212f9a0b090ab76ce9498f9ad8e95fab015e59dd287cdc",
+    "expected/stopline_pilot/tau1_dt0.5_action0.5_seed42/metrics.json": "145a0d80650ec747907a39048743b416d59384441ff9aceba17a6b1349e63941",
+    "expected/stopline_pilot/tau1_dt1_action1_seed42/metrics.json": "5b0c207759edbeee85212f9a0b090ab76ce9498f9ad8e95fab015e59dd287cdc",
+    "portable_reanalysis_entry.py": "71d130df30ef4e0fcde8e4eb2897944713e4f2318daaa6c02cd609a5214ba122",
+    "README.txt": "7acab7358623dc1bf7b454c415b82741e5fe68d00a59f361e2942cad41e7b457",
+    "records/ballistic_separation_protocol.json": "6b940c13f2e5493855aed3f7f30b7b493ea1edd71ef24c49dc2c84a3dd4dcba7",
+    "records/stage2_amendments.json": "213b583f022cae53ba5b2e728b8fb2327966cb4c165cff5e0193f641888f44a6",
+    "records/stopline_pilot_protocol.json": "72507b27b684bcae59e4f94b3e54c996d2092f0d2afd051affcc79e311f535c6",
+    "records/time_action_separation_protocol.json": "9043064b631f57eda1abb06345e59f2122686b1463e225d18f18522a7ba1c33b",
+    "records/timepilot_euler_v2_protocol.json": "acc82d27e334aa216615d4062327850d53dfaf0b3102eaa9a90728a344f01030",
+    "run_simulation.py": "4d6e820cdfac957bd15edc3f22f85dc9fd2b477758966241a707f1e5cca4f801"
+  }
+}

@@ -1,0 +1,3 @@
+﻿run,old_collision_teleport_events,corrected_collision_teleport_events,reason
+heavyveh_very_high_seed2024,1,2,Side-collision message was previously assigned to other; totals and raw simulation unchanged.
+heavyveh_very_high_seed2025,0,1,Side-collision message was previously assigned to other; totals and raw simulation unchanged.

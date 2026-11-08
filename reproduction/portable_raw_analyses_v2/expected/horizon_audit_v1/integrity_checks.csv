@@ -1,0 +1,16 @@
+﻿state,seed,prefix_rows_identical,hashes_verified,horizon_accounting_verified,summary_rows,final_trip_records
+baseline,11,36000,True,True,72000,7900
+baseline,29,36000,True,True,72000,7900
+baseline,47,36000,True,True,72000,7900
+baseline,71,36000,True,True,72000,7900
+baseline,101,36000,True,True,72000,7900
+heavyveh_very_high,11,36000,True,True,72000,7900
+heavyveh_very_high,29,36000,True,True,72000,7900
+heavyveh_very_high,47,36000,True,True,72000,7900
+heavyveh_very_high,71,36000,True,True,72000,7900
+heavyveh_very_high,101,36000,True,True,72000,7900
+weather_heavy_rain,11,36000,True,True,72000,7900
+weather_heavy_rain,29,36000,True,True,72000,7900
+weather_heavy_rain,47,36000,True,True,72000,7900
+weather_heavy_rain,71,36000,True,True,72000,7900
+weather_heavy_rain,101,36000,True,True,72000,7900

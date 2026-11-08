@@ -1,0 +1,112 @@
+<?xml version='1.0' encoding='utf-8'?>
+<additional>
+  <edgeData id="traffic" period="300" excludeEmpty="true" file="traffic_edges.xml" />
+  <instantInductionLoop id="stop_ED1.177_0" lane="ED1.177_0" pos="95.090000" file="stopline_events.xml" friendlyPos="false" />
+  <laneAreaDetector id="queue_ED1.177_0" lane="ED1.177_0" pos="0.000000" endPos="95.090000" period="1" file="lane_queues.xml" friendlyPos="false" timeThreshold="1" speedThreshold="1.388888889" jamThreshold="10" />
+  <instantInductionLoop id="stop_ED1.177_1" lane="ED1.177_1" pos="95.090000" file="stopline_events.xml" friendlyPos="false" />
+  <laneAreaDetector id="queue_ED1.177_1" lane="ED1.177_1" pos="0.000000" endPos="95.090000" period="1" file="lane_queues.xml" friendlyPos="false" timeThreshold="1" speedThreshold="1.388888889" jamThreshold="10" />
+  <instantInductionLoop id="stop_ED1.177_2" lane="ED1.177_2" pos="95.090000" file="stopline_events.xml" friendlyPos="false" />
+  <laneAreaDetector id="queue_ED1.177_2" lane="ED1.177_2" pos="0.000000" endPos="95.090000" period="1" file="lane_queues.xml" friendlyPos="false" timeThreshold="1" speedThreshold="1.388888889" jamThreshold="10" />
+  <instantInductionLoop id="stop_ED1.177_3" lane="ED1.177_3" pos="95.090000" file="stopline_events.xml" friendlyPos="false" />
+  <laneAreaDetector id="queue_ED1.177_3" lane="ED1.177_3" pos="0.000000" endPos="95.090000" period="1" file="lane_queues.xml" friendlyPos="false" timeThreshold="1" speedThreshold="1.388888889" jamThreshold="10" />
+  <instantInductionLoop id="stop_ED1.177_4" lane="ED1.177_4" pos="95.090000" file="stopline_events.xml" friendlyPos="false" />
+  <laneAreaDetector id="queue_ED1.177_4" lane="ED1.177_4" pos="0.000000" endPos="95.090000" period="1" file="lane_queues.xml" friendlyPos="false" timeThreshold="1" speedThreshold="1.388888889" jamThreshold="10" />
+  <instantInductionLoop id="stop_ED1.177_5" lane="ED1.177_5" pos="95.090000" file="stopline_events.xml" friendlyPos="false" />
+  <laneAreaDetector id="queue_ED1.177_5" lane="ED1.177_5" pos="0.000000" endPos="95.090000" period="1" file="lane_queues.xml" friendlyPos="false" timeThreshold="1" speedThreshold="1.388888889" jamThreshold="10" />
+  <instantInductionLoop id="stop_ED2.378_0" lane="ED2.378_0" pos="100.960000" file="stopline_events.xml" friendlyPos="false" />
+  <laneAreaDetector id="queue_ED2.378_0" lane="ED2.378_0" pos="0.960000" endPos="100.960000" period="1" file="lane_queues.xml" friendlyPos="false" timeThreshold="1" speedThreshold="1.388888889" jamThreshold="10" />
+  <instantInductionLoop id="stop_ED2.378_1" lane="ED2.378_1" pos="100.960000" file="stopline_events.xml" friendlyPos="false" />
+  <laneAreaDetector id="queue_ED2.378_1" lane="ED2.378_1" pos="0.960000" endPos="100.960000" period="1" file="lane_queues.xml" friendlyPos="false" timeThreshold="1" speedThreshold="1.388888889" jamThreshold="10" />
+  <instantInductionLoop id="stop_ED2.378_2" lane="ED2.378_2" pos="100.960000" file="stopline_events.xml" friendlyPos="false" />
+  <laneAreaDetector id="queue_ED2.378_2" lane="ED2.378_2" pos="0.960000" endPos="100.960000" period="1" file="lane_queues.xml" friendlyPos="false" timeThreshold="1" speedThreshold="1.388888889" jamThreshold="10" />
+  <instantInductionLoop id="stop_ED3.294_0" lane="ED3.294_0" pos="87.580000" file="stopline_events.xml" friendlyPos="false" />
+  <laneAreaDetector id="queue_ED3.294_0" lane="ED3.294_0" pos="0.000000" endPos="87.580000" period="1" file="lane_queues.xml" friendlyPos="false" timeThreshold="1" speedThreshold="1.388888889" jamThreshold="10" />
+  <instantInductionLoop id="stop_ED3.294_1" lane="ED3.294_1" pos="87.580000" file="stopline_events.xml" friendlyPos="false" />
+  <laneAreaDetector id="queue_ED3.294_1" lane="ED3.294_1" pos="0.000000" endPos="87.580000" period="1" file="lane_queues.xml" friendlyPos="false" timeThreshold="1" speedThreshold="1.388888889" jamThreshold="10" />
+  <instantInductionLoop id="stop_ED3.294_2" lane="ED3.294_2" pos="87.580000" file="stopline_events.xml" friendlyPos="false" />
+  <laneAreaDetector id="queue_ED3.294_2" lane="ED3.294_2" pos="0.000000" endPos="87.580000" period="1" file="lane_queues.xml" friendlyPos="false" timeThreshold="1" speedThreshold="1.388888889" jamThreshold="10" />
+  <instantInductionLoop id="stop_ED3.294_3" lane="ED3.294_3" pos="87.580000" file="stopline_events.xml" friendlyPos="false" />
+  <laneAreaDetector id="queue_ED3.294_3" lane="ED3.294_3" pos="0.000000" endPos="87.580000" period="1" file="lane_queues.xml" friendlyPos="false" timeThreshold="1" speedThreshold="1.388888889" jamThreshold="10" />
+  <instantInductionLoop id="stop_ED3.294_4" lane="ED3.294_4" pos="87.580000" file="stopline_events.xml" friendlyPos="false" />
+  <laneAreaDetector id="queue_ED3.294_4" lane="ED3.294_4" pos="0.000000" endPos="87.580000" period="1" file="lane_queues.xml" friendlyPos="false" timeThreshold="1" speedThreshold="1.388888889" jamThreshold="10" />
+  <instantInductionLoop id="stop_ED3.294_5" lane="ED3.294_5" pos="87.580000" file="stopline_events.xml" friendlyPos="false" />
+  <laneAreaDetector id="queue_ED3.294_5" lane="ED3.294_5" pos="0.000000" endPos="87.580000" period="1" file="lane_queues.xml" friendlyPos="false" timeThreshold="1" speedThreshold="1.388888889" jamThreshold="10" />
+  <instantInductionLoop id="stop_EH1.385_0" lane="EH1.385_0" pos="87.570000" file="stopline_events.xml" friendlyPos="false" />
+  <laneAreaDetector id="queue_EH1.385_0" lane="EH1.385_0" pos="0.000000" endPos="87.570000" period="1" file="lane_queues.xml" friendlyPos="false" timeThreshold="1" speedThreshold="1.388888889" jamThreshold="10" />
+  <instantInductionLoop id="stop_EH1.385_1" lane="EH1.385_1" pos="87.570000" file="stopline_events.xml" friendlyPos="false" />
+  <laneAreaDetector id="queue_EH1.385_1" lane="EH1.385_1" pos="0.000000" endPos="87.570000" period="1" file="lane_queues.xml" friendlyPos="false" timeThreshold="1" speedThreshold="1.388888889" jamThreshold="10" />
+  <instantInductionLoop id="stop_EH1.385_2" lane="EH1.385_2" pos="87.570000" file="stopline_events.xml" friendlyPos="false" />
+  <laneAreaDetector id="queue_EH1.385_2" lane="EH1.385_2" pos="0.000000" endPos="87.570000" period="1" file="lane_queues.xml" friendlyPos="false" timeThreshold="1" speedThreshold="1.388888889" jamThreshold="10" />
+  <instantInductionLoop id="stop_EH1.385_3" lane="EH1.385_3" pos="87.570000" file="stopline_events.xml" friendlyPos="false" />
+  <laneAreaDetector id="queue_EH1.385_3" lane="EH1.385_3" pos="0.000000" endPos="87.570000" period="1" file="lane_queues.xml" friendlyPos="false" timeThreshold="1" speedThreshold="1.388888889" jamThreshold="10" />
+  <instantInductionLoop id="stop_EH1.385_4" lane="EH1.385_4" pos="87.570000" file="stopline_events.xml" friendlyPos="false" />
+  <laneAreaDetector id="queue_EH1.385_4" lane="EH1.385_4" pos="0.000000" endPos="87.570000" period="1" file="lane_queues.xml" friendlyPos="false" timeThreshold="1" speedThreshold="1.388888889" jamThreshold="10" />
+  <instantInductionLoop id="stop_EH1.385_5" lane="EH1.385_5" pos="87.570000" file="stopline_events.xml" friendlyPos="false" />
+  <laneAreaDetector id="queue_EH1.385_5" lane="EH1.385_5" pos="0.000000" endPos="87.570000" period="1" file="lane_queues.xml" friendlyPos="false" timeThreshold="1" speedThreshold="1.388888889" jamThreshold="10" />
+  <instantInductionLoop id="stop_EH5.381_0" lane="EH5.381_0" pos="91.660000" file="stopline_events.xml" friendlyPos="false" />
+  <laneAreaDetector id="queue_EH5.381_0" lane="EH5.381_0" pos="0.000000" endPos="91.660000" period="1" file="lane_queues.xml" friendlyPos="false" timeThreshold="1" speedThreshold="1.388888889" jamThreshold="10" />
+  <instantInductionLoop id="stop_EH5.381_1" lane="EH5.381_1" pos="91.660000" file="stopline_events.xml" friendlyPos="false" />
+  <laneAreaDetector id="queue_EH5.381_1" lane="EH5.381_1" pos="0.000000" endPos="91.660000" period="1" file="lane_queues.xml" friendlyPos="false" timeThreshold="1" speedThreshold="1.388888889" jamThreshold="10" />
+  <instantInductionLoop id="stop_EH5.381_2" lane="EH5.381_2" pos="91.660000" file="stopline_events.xml" friendlyPos="false" />
+  <laneAreaDetector id="queue_EH5.381_2" lane="EH5.381_2" pos="0.000000" endPos="91.660000" period="1" file="lane_queues.xml" friendlyPos="false" timeThreshold="1" speedThreshold="1.388888889" jamThreshold="10" />
+  <instantInductionLoop id="stop_Ed1.209_0" lane="Ed1.209_0" pos="69.300000" file="stopline_events.xml" friendlyPos="false" />
+  <laneAreaDetector id="queue_Ed1.209_0" lane="Ed1.209_0" pos="0.000000" endPos="69.300000" period="1" file="lane_queues.xml" friendlyPos="false" timeThreshold="1" speedThreshold="1.388888889" jamThreshold="10" />
+  <instantInductionLoop id="stop_Ed1.209_1" lane="Ed1.209_1" pos="69.300000" file="stopline_events.xml" friendlyPos="false" />
+  <laneAreaDetector id="queue_Ed1.209_1" lane="Ed1.209_1" pos="0.000000" endPos="69.300000" period="1" file="lane_queues.xml" friendlyPos="false" timeThreshold="1" speedThreshold="1.388888889" jamThreshold="10" />
+  <instantInductionLoop id="stop_Ed1.209_2" lane="Ed1.209_2" pos="69.300000" file="stopline_events.xml" friendlyPos="false" />
+  <laneAreaDetector id="queue_Ed1.209_2" lane="Ed1.209_2" pos="0.000000" endPos="69.300000" period="1" file="lane_queues.xml" friendlyPos="false" timeThreshold="1" speedThreshold="1.388888889" jamThreshold="10" />
+  <instantInductionLoop id="stop_Ed1.209_3" lane="Ed1.209_3" pos="69.300000" file="stopline_events.xml" friendlyPos="false" />
+  <laneAreaDetector id="queue_Ed1.209_3" lane="Ed1.209_3" pos="0.000000" endPos="69.300000" period="1" file="lane_queues.xml" friendlyPos="false" timeThreshold="1" speedThreshold="1.388888889" jamThreshold="10" />
+  <instantInductionLoop id="stop_Ed3.290_0" lane="Ed3.290_0" pos="82.680000" file="stopline_events.xml" friendlyPos="false" />
+  <laneAreaDetector id="queue_Ed3.290_0" lane="Ed3.290_0" pos="0.000000" endPos="82.680000" period="1" file="lane_queues.xml" friendlyPos="false" timeThreshold="1" speedThreshold="1.388888889" jamThreshold="10" />
+  <instantInductionLoop id="stop_Ed3.290_1" lane="Ed3.290_1" pos="82.680000" file="stopline_events.xml" friendlyPos="false" />
+  <laneAreaDetector id="queue_Ed3.290_1" lane="Ed3.290_1" pos="0.000000" endPos="82.680000" period="1" file="lane_queues.xml" friendlyPos="false" timeThreshold="1" speedThreshold="1.388888889" jamThreshold="10" />
+  <instantInductionLoop id="stop_Ed3.290_2" lane="Ed3.290_2" pos="82.680000" file="stopline_events.xml" friendlyPos="false" />
+  <laneAreaDetector id="queue_Ed3.290_2" lane="Ed3.290_2" pos="0.000000" endPos="82.680000" period="1" file="lane_queues.xml" friendlyPos="false" timeThreshold="1" speedThreshold="1.388888889" jamThreshold="10" />
+  <instantInductionLoop id="stop_Ed3.290_3" lane="Ed3.290_3" pos="82.680000" file="stopline_events.xml" friendlyPos="false" />
+  <laneAreaDetector id="queue_Ed3.290_3" lane="Ed3.290_3" pos="0.000000" endPos="82.680000" period="1" file="lane_queues.xml" friendlyPos="false" timeThreshold="1" speedThreshold="1.388888889" jamThreshold="10" />
+  <instantInductionLoop id="stop_Ed3.290_4" lane="Ed3.290_4" pos="82.680000" file="stopline_events.xml" friendlyPos="false" />
+  <laneAreaDetector id="queue_Ed3.290_4" lane="Ed3.290_4" pos="0.000000" endPos="82.680000" period="1" file="lane_queues.xml" friendlyPos="false" timeThreshold="1" speedThreshold="1.388888889" jamThreshold="10" />
+  <instantInductionLoop id="stop_Ed3.290_5" lane="Ed3.290_5" pos="82.680000" file="stopline_events.xml" friendlyPos="false" />
+  <laneAreaDetector id="queue_Ed3.290_5" lane="Ed3.290_5" pos="0.000000" endPos="82.680000" period="1" file="lane_queues.xml" friendlyPos="false" timeThreshold="1" speedThreshold="1.388888889" jamThreshold="10" />
+  <instantInductionLoop id="stop_Ed4.376_0" lane="Ed4.376_0" pos="105.930000" file="stopline_events.xml" friendlyPos="false" />
+  <laneAreaDetector id="queue_Ed4.376_0" lane="Ed4.376_0" pos="5.930000" endPos="105.930000" period="1" file="lane_queues.xml" friendlyPos="false" timeThreshold="1" speedThreshold="1.388888889" jamThreshold="10" />
+  <instantInductionLoop id="stop_Ed4.376_1" lane="Ed4.376_1" pos="105.930000" file="stopline_events.xml" friendlyPos="false" />
+  <laneAreaDetector id="queue_Ed4.376_1" lane="Ed4.376_1" pos="5.930000" endPos="105.930000" period="1" file="lane_queues.xml" friendlyPos="false" timeThreshold="1" speedThreshold="1.388888889" jamThreshold="10" />
+  <instantInductionLoop id="stop_Ed4.376_2" lane="Ed4.376_2" pos="105.930000" file="stopline_events.xml" friendlyPos="false" />
+  <laneAreaDetector id="queue_Ed4.376_2" lane="Ed4.376_2" pos="5.930000" endPos="105.930000" period="1" file="lane_queues.xml" friendlyPos="false" timeThreshold="1" speedThreshold="1.388888889" jamThreshold="10" />
+  <instantInductionLoop id="stop_Ed4.376_3" lane="Ed4.376_3" pos="105.930000" file="stopline_events.xml" friendlyPos="false" />
+  <laneAreaDetector id="queue_Ed4.376_3" lane="Ed4.376_3" pos="5.930000" endPos="105.930000" period="1" file="lane_queues.xml" friendlyPos="false" timeThreshold="1" speedThreshold="1.388888889" jamThreshold="10" />
+  <instantInductionLoop id="stop_Ed4.376_4" lane="Ed4.376_4" pos="105.930000" file="stopline_events.xml" friendlyPos="false" />
+  <laneAreaDetector id="queue_Ed4.376_4" lane="Ed4.376_4" pos="5.930000" endPos="105.930000" period="1" file="lane_queues.xml" friendlyPos="false" timeThreshold="1" speedThreshold="1.388888889" jamThreshold="10" />
+  <instantInductionLoop id="stop_Ed4.376_5" lane="Ed4.376_5" pos="105.930000" file="stopline_events.xml" friendlyPos="false" />
+  <laneAreaDetector id="queue_Ed4.376_5" lane="Ed4.376_5" pos="5.930000" endPos="105.930000" period="1" file="lane_queues.xml" friendlyPos="false" timeThreshold="1" speedThreshold="1.388888889" jamThreshold="10" />
+  <instantInductionLoop id="stop_Eh2.386_0" lane="Eh2.386_0" pos="86.310000" file="stopline_events.xml" friendlyPos="false" />
+  <laneAreaDetector id="queue_Eh2.386_0" lane="Eh2.386_0" pos="0.000000" endPos="86.310000" period="1" file="lane_queues.xml" friendlyPos="false" timeThreshold="1" speedThreshold="1.388888889" jamThreshold="10" />
+  <instantInductionLoop id="stop_Eh2.386_1" lane="Eh2.386_1" pos="86.310000" file="stopline_events.xml" friendlyPos="false" />
+  <laneAreaDetector id="queue_Eh2.386_1" lane="Eh2.386_1" pos="0.000000" endPos="86.310000" period="1" file="lane_queues.xml" friendlyPos="false" timeThreshold="1" speedThreshold="1.388888889" jamThreshold="10" />
+  <instantInductionLoop id="stop_Eh2.386_2" lane="Eh2.386_2" pos="86.310000" file="stopline_events.xml" friendlyPos="false" />
+  <laneAreaDetector id="queue_Eh2.386_2" lane="Eh2.386_2" pos="0.000000" endPos="86.310000" period="1" file="lane_queues.xml" friendlyPos="false" timeThreshold="1" speedThreshold="1.388888889" jamThreshold="10" />
+  <instantInductionLoop id="stop_Eh2.386_3" lane="Eh2.386_3" pos="86.310000" file="stopline_events.xml" friendlyPos="false" />
+  <laneAreaDetector id="queue_Eh2.386_3" lane="Eh2.386_3" pos="0.000000" endPos="86.310000" period="1" file="lane_queues.xml" friendlyPos="false" timeThreshold="1" speedThreshold="1.388888889" jamThreshold="10" />
+  <instantInductionLoop id="stop_Eh2.386_4" lane="Eh2.386_4" pos="86.310000" file="stopline_events.xml" friendlyPos="false" />
+  <laneAreaDetector id="queue_Eh2.386_4" lane="Eh2.386_4" pos="0.000000" endPos="86.310000" period="1" file="lane_queues.xml" friendlyPos="false" timeThreshold="1" speedThreshold="1.388888889" jamThreshold="10" />
+  <instantInductionLoop id="stop_Eh2.386_5" lane="Eh2.386_5" pos="86.310000" file="stopline_events.xml" friendlyPos="false" />
+  <laneAreaDetector id="queue_Eh2.386_5" lane="Eh2.386_5" pos="0.000000" endPos="86.310000" period="1" file="lane_queues.xml" friendlyPos="false" timeThreshold="1" speedThreshold="1.388888889" jamThreshold="10" />
+  <instantInductionLoop id="stop_Eh3.384_0" lane="Eh3.384_0" pos="94.990000" file="stopline_events.xml" friendlyPos="false" />
+  <laneAreaDetector id="queue_Eh3.384_0" lane="Eh3.384_0" pos="0.000000" endPos="94.990000" period="1" file="lane_queues.xml" friendlyPos="false" timeThreshold="1" speedThreshold="1.388888889" jamThreshold="10" />
+  <instantInductionLoop id="stop_Eh3.384_1" lane="Eh3.384_1" pos="94.990000" file="stopline_events.xml" friendlyPos="false" />
+  <laneAreaDetector id="queue_Eh3.384_1" lane="Eh3.384_1" pos="0.000000" endPos="94.990000" period="1" file="lane_queues.xml" friendlyPos="false" timeThreshold="1" speedThreshold="1.388888889" jamThreshold="10" />
+  <instantInductionLoop id="stop_Eh3.384_2" lane="Eh3.384_2" pos="94.990000" file="stopline_events.xml" friendlyPos="false" />
+  <laneAreaDetector id="queue_Eh3.384_2" lane="Eh3.384_2" pos="0.000000" endPos="94.990000" period="1" file="lane_queues.xml" friendlyPos="false" timeThreshold="1" speedThreshold="1.388888889" jamThreshold="10" />
+  <instantInductionLoop id="stop_Eh3.384_3" lane="Eh3.384_3" pos="94.990000" file="stopline_events.xml" friendlyPos="false" />
+  <laneAreaDetector id="queue_Eh3.384_3" lane="Eh3.384_3" pos="0.000000" endPos="94.990000" period="1" file="lane_queues.xml" friendlyPos="false" timeThreshold="1" speedThreshold="1.388888889" jamThreshold="10" />
+  <instantInductionLoop id="stop_Eh4.360_0" lane="Eh4.360_0" pos="112.660000" file="stopline_events.xml" friendlyPos="false" />
+  <laneAreaDetector id="queue_Eh4.360_0" lane="Eh4.360_0" pos="12.660000" endPos="112.660000" period="1" file="lane_queues.xml" friendlyPos="false" timeThreshold="1" speedThreshold="1.388888889" jamThreshold="10" />
+  <instantInductionLoop id="stop_Eh4.360_1" lane="Eh4.360_1" pos="112.660000" file="stopline_events.xml" friendlyPos="false" />
+  <laneAreaDetector id="queue_Eh4.360_1" lane="Eh4.360_1" pos="12.660000" endPos="112.660000" period="1" file="lane_queues.xml" friendlyPos="false" timeThreshold="1" speedThreshold="1.388888889" jamThreshold="10" />
+  <instantInductionLoop id="stop_Eh4.360_2" lane="Eh4.360_2" pos="112.660000" file="stopline_events.xml" friendlyPos="false" />
+  <laneAreaDetector id="queue_Eh4.360_2" lane="Eh4.360_2" pos="12.660000" endPos="112.660000" period="1" file="lane_queues.xml" friendlyPos="false" timeThreshold="1" speedThreshold="1.388888889" jamThreshold="10" />
+  <timedEvent type="SaveTLSStates" dest="tls_states.xml" />
+  <laneData id="audit_lane_flow" period="300" excludeEmpty="false" file="lane_flow.xml" />
+</additional>

@@ -1,0 +1,147 @@
+{
+  "11": {
+    "arrived": 6713,
+    "collisions": 1.0,
+    "config_warning": false,
+    "delay": 142.18380902726068,
+    "halting": 191.36638888888888,
+    "inserted": 7181,
+    "local": {
+      "n1": {
+        "front_crossings": 5529,
+        "queue_m": 432.05416666666696
+      },
+      "n2": {
+        "front_crossings": 3725,
+        "queue_m": 245.21750000000006
+      },
+      "n4": {
+        "front_crossings": 3774,
+        "queue_m": 208.58083333333337
+      }
+    },
+    "planned": 7900,
+    "running": 468,
+    "seed": 11,
+    "teleports": 1,
+    "unique_teleported": 1,
+    "vehicle_hours": 726.8638888888889,
+    "waiting": 719
+  },
+  "29": {
+    "arrived": 6629,
+    "collisions": 0.0,
+    "config_warning": false,
+    "delay": 146.37247246945265,
+    "halting": 200.40430555555557,
+    "inserted": 7123,
+    "local": {
+      "n1": {
+        "front_crossings": 5455,
+        "queue_m": 436.4675000000001
+      },
+      "n2": {
+        "front_crossings": 3641,
+        "queue_m": 260.95416666666665
+      },
+      "n4": {
+        "front_crossings": 3731,
+        "queue_m": 203.54333333333335
+      }
+    },
+    "planned": 7900,
+    "running": 494,
+    "seed": 29,
+    "teleports": 0,
+    "unique_teleported": 0,
+    "vehicle_hours": 768.7638888888889,
+    "waiting": 777
+  },
+  "47": {
+    "arrived": 6681,
+    "collisions": 0.0,
+    "config_warning": false,
+    "delay": 143.9682337973355,
+    "halting": 193.99,
+    "inserted": 7154,
+    "local": {
+      "n1": {
+        "front_crossings": 5504,
+        "queue_m": 435.7349999999998
+      },
+      "n2": {
+        "front_crossings": 3698,
+        "queue_m": 250.98000000000005
+      },
+      "n4": {
+        "front_crossings": 3760,
+        "queue_m": 208.72500000000002
+      }
+    },
+    "planned": 7900,
+    "running": 473,
+    "seed": 47,
+    "teleports": 0,
+    "unique_teleported": 0,
+    "vehicle_hours": 724.5576388888888,
+    "waiting": 746
+  },
+  "71": {
+    "arrived": 6681,
+    "collisions": 0.0,
+    "config_warning": false,
+    "delay": 138.74450980392163,
+    "halting": 188.02069444444444,
+    "inserted": 7171,
+    "local": {
+      "n1": {
+        "front_crossings": 5502,
+        "queue_m": 431.5016666666669
+      },
+      "n2": {
+        "front_crossings": 3696,
+        "queue_m": 246.8683333333334
+      },
+      "n4": {
+        "front_crossings": 3757,
+        "queue_m": 207.2175
+      }
+    },
+    "planned": 7900,
+    "running": 490,
+    "seed": 71,
+    "teleports": 0,
+    "unique_teleported": 0,
+    "vehicle_hours": 723.3493055555556,
+    "waiting": 729
+  },
+  "101": {
+    "arrived": 6689,
+    "collisions": 1.0,
+    "config_warning": false,
+    "delay": 139.70720586036768,
+    "halting": 193.4963888888889,
+    "inserted": 7152,
+    "local": {
+      "n1": {
+        "front_crossings": 5505,
+        "queue_m": 434.81499999999994
+      },
+      "n2": {
+        "front_crossings": 3705,
+        "queue_m": 249.47083333333345
+      },
+      "n4": {
+        "front_crossings": 3755,
+        "queue_m": 205.50749999999996
+      }
+    },
+    "planned": 7900,
+    "running": 463,
+    "seed": 101,
+    "teleports": 1,
+    "unique_teleported": 1,
+    "vehicle_hours": 717.5963888888889,
+    "waiting": 748
+  }
+}

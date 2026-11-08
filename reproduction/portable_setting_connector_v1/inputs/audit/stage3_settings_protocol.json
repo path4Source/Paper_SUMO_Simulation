@@ -1,0 +1,142 @@
+{
+  "kind": "exploratory setting qualification, not held-out diagnosis validation",
+  "cases": [
+    {
+      "tau": 1.0,
+      "step": 0.5,
+      "action": 0.5,
+      "seed": 42,
+      "junctions": false,
+      "purpose": "paired equal-step/action multi-seed check"
+    },
+    {
+      "tau": 0.8,
+      "step": 0.5,
+      "action": 0.5,
+      "seed": 42,
+      "junctions": false,
+      "purpose": "paired equal-step/action multi-seed check"
+    },
+    {
+      "tau": 1.0,
+      "step": 0.1,
+      "action": 0.1,
+      "seed": 42,
+      "junctions": false,
+      "purpose": "paired equal-step/action multi-seed check"
+    },
+    {
+      "tau": 0.8,
+      "step": 0.1,
+      "action": 0.1,
+      "seed": 42,
+      "junctions": false,
+      "purpose": "paired equal-step/action multi-seed check"
+    },
+    {
+      "tau": 1.0,
+      "step": 0.5,
+      "action": 0.5,
+      "seed": 2024,
+      "junctions": false,
+      "purpose": "paired equal-step/action multi-seed check"
+    },
+    {
+      "tau": 0.8,
+      "step": 0.5,
+      "action": 0.5,
+      "seed": 2024,
+      "junctions": false,
+      "purpose": "paired equal-step/action multi-seed check"
+    },
+    {
+      "tau": 1.0,
+      "step": 0.1,
+      "action": 0.1,
+      "seed": 2024,
+      "junctions": false,
+      "purpose": "paired equal-step/action multi-seed check"
+    },
+    {
+      "tau": 0.8,
+      "step": 0.1,
+      "action": 0.1,
+      "seed": 2024,
+      "junctions": false,
+      "purpose": "paired equal-step/action multi-seed check"
+    },
+    {
+      "tau": 1.0,
+      "step": 0.5,
+      "action": 0.5,
+      "seed": 2025,
+      "junctions": false,
+      "purpose": "paired equal-step/action multi-seed check"
+    },
+    {
+      "tau": 0.8,
+      "step": 0.5,
+      "action": 0.5,
+      "seed": 2025,
+      "junctions": false,
+      "purpose": "paired equal-step/action multi-seed check"
+    },
+    {
+      "tau": 1.0,
+      "step": 0.1,
+      "action": 0.1,
+      "seed": 2025,
+      "junctions": false,
+      "purpose": "paired equal-step/action multi-seed check"
+    },
+    {
+      "tau": 0.8,
+      "step": 0.1,
+      "action": 0.1,
+      "seed": 2025,
+      "junctions": false,
+      "purpose": "paired equal-step/action multi-seed check"
+    },
+    {
+      "tau": 1.0,
+      "step": 0.5,
+      "action": 0.5,
+      "seed": 42,
+      "junctions": true,
+      "purpose": "junction collision-detection sensitivity"
+    },
+    {
+      "tau": 1.0,
+      "step": 0.1,
+      "action": 0.1,
+      "seed": 42,
+      "junctions": true,
+      "purpose": "junction collision-detection sensitivity"
+    },
+    {
+      "tau": 1.0,
+      "step": 0.25,
+      "action": 0.5,
+      "seed": 42,
+      "junctions": false,
+      "purpose": "intermediate resolution at fixed action 0.5; compare prior 0.5/0.5 and 0.1/0.5"
+    }
+  ],
+  "expected_total_cases": 15,
+  "previous_cases_reused": 2,
+  "expected_new_runs": 13,
+  "integration": "explicit ballistic throughout",
+  "horizon_s": [
+    0,
+    3600
+  ],
+  "warmup_exclusion_s": 0,
+  "network_sha256": "5c18dcd49ff415a90acc61c5d12ea5a3630928aa8d4c87492ce63de426245ce2",
+  "route_sha256": "12d34980decfb81168a58b3cfb316b39dff5d9012fed070c174be988749288ef",
+  "sumo_sha256": "68a88f8c057d7aed44c63d93b6133f94d605dfe2578938221a65ee455d64b376",
+  "comparison": "tau 0.8 vs 1.0 only within identical settings/seed. Means of paired percent changes and exploratory t intervals with 2 degrees of freedom. Full warning causes, entry delay and residual vehicles retained.",
+  "qualification": "Compatible tau/action intervals and no integration warning are necessary. Any collision or teleport means warning-contaminated evidence, not clean improvement. Emergency braking is reported even with zero teleports. Never select settings merely for larger throughput.",
+  "limits": "Changing step and action together changes behavior as well as numerics; it does not establish numerical convergence. One-seed junction checks are not a complete safety validation. Main-scenario setting remains provisional until these limitations are resolved.",
+  "stop": "Stop on execution/accounting/integration-compatibility error; preserve all warning-contaminated completed outcomes and all failures.",
+  "frozen_utc": "2026-10-19T14:59:25.130833+00:00"
+}

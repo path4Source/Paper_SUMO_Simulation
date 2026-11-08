@@ -1,0 +1,22 @@
+{
+  "protocol_sha256": "d254482bc9d0cbccf7078e1dffd30f3e5886f7d6c700bdf4b716875da77304ec",
+  "completed": 16,
+  "cases": [
+    "baseline_reference_seed11",
+    "baseline_reference_seed29",
+    "baseline_reference_seed101",
+    "baseline_reference_seed71",
+    "baseline_reference_seed47",
+    "baseline_reallocation_seed11",
+    "baseline_reallocation_seed29",
+    "baseline_reallocation_seed71",
+    "baseline_reallocation_seed101",
+    "baseline_reallocation_seed47",
+    "heavyveh_very_high_reference_seed11",
+    "heavyveh_very_high_reference_seed47",
+    "heavyveh_very_high_reference_seed29",
+    "heavyveh_very_high_reference_seed71",
+    "heavyveh_very_high_reference_seed101",
+    "heavyveh_very_high_reallocation_seed11"
+  ]
+}

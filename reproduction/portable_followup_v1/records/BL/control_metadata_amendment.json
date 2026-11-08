@@ -1,0 +1,20 @@
+{
+  "utc": "2026-10-23T07:25:31.343647+00:00",
+  "original_protocol_sha256": "4aa77b6dc4e5a850efafb04339cbeb9d5f7d4f72a6fb97f7bc97497ea197c3c6",
+  "resume_code_sha256": "ff2ddc31f46407f11e8a2fdc706408fed39fb6c6c79f7cb19e875d358b6539c8",
+  "test_code_sha256": "0f4b444355528325de859cc3551dfe4dfe88a7173318b652fdebf76bf0c75a22",
+  "refinement_runs_before_amendment": 0,
+  "control_rerun": false,
+  "reason": "The planned omission of FCD output removes only the fcd_<vehicle-id> token in tripinfo devices. All vehicle identities, ordering, and other trip attributes match exactly; other original output channels match exactly.",
+  "permitted_exception": "Only the expected FCD device token for each matching vehicle in the technical control. No numerical tolerance, attribute omission, changed setting, seed substitution or outcome selection.",
+  "matched_traffic_trip_records": 7900,
+  "matched_other_channels": [
+    "summary.xml",
+    "stopline_events.xml",
+    "lane_queues.xml",
+    "collisions.xml",
+    "warnings"
+  ],
+  "original_failure_preserved": true,
+  "scientific_design_and_analysis_unchanged": true
+}

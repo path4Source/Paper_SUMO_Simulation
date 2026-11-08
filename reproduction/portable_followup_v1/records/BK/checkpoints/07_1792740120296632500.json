@@ -1,0 +1,13 @@
+{
+  "completed": 7,
+  "cases": [
+    "bridge_baseline_seed101",
+    "bridge_baseline_seed47",
+    "bridge_baseline_seed29",
+    "bridge_baseline_seed11",
+    "bridge_baseline_seed71",
+    "bridge_heavyveh_very_high_seed47",
+    "bridge_heavyveh_very_high_seed29"
+  ],
+  "utc": "2026-10-23T07:22:00.296632+00:00"
+}

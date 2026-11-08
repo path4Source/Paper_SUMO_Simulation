@@ -1,0 +1,4177 @@
+{
+  "included_in_this_package": false,
+  "runs": [
+    {
+      "case": "bridge/baseline_seed101",
+      "source_directory": "author_holdout_v2/runs/bridge/baseline_seed101",
+      "files": {
+        "collisions.xml": {
+          "sha256": "c452fcb591d390f91caf565c26f29f8c56dc786e33b77cee1e58b8de8d59431d",
+          "bytes": 1912
+        },
+        "lanechanges.xml": {
+          "sha256": "b7b9e233ed3cc41d86076a4a275ef820754a30e5fe81ffdd4c957db47c499082",
+          "bytes": 7673625
+        },
+        "lane_queues.xml": {
+          "sha256": "7b6970cfc8cc2b06af58b7d68a2f87d8239c074b9f6b1b6b52682f5a2ea6368f",
+          "bytes": 418547
+        },
+        "metrics.json": {
+          "sha256": "42457eba2d55403aeafe6191567ff2afc8496d47c239d275785ae816513e2b52",
+          "bytes": 3673
+        },
+        "statistics.xml": {
+          "sha256": "02d140414780ab4b26e5a06c2bb280ce2dd25af4ff605e73bc07c8f86d427b25",
+          "bytes": 2875
+        },
+        "stopline_events.xml": {
+          "sha256": "8c5e97a24ac8b5c7ce1037d3cbf9fce344ca4d0ff6bb00a8058af745b3b6e736",
+          "bytes": 15067496
+        },
+        "summary.xml": {
+          "sha256": "3373de4bbd94d6089d9591b8eb2875addd19fe1022bd0e8751a89491bbfc5c04",
+          "bytes": 9249436
+        },
+        "sumo_stderr.log": {
+          "sha256": "a5952f2136a2b8d41ef0886e5035f07ee65e29385e61aaba183452e55cdbac6e",
+          "bytes": 555
+        },
+        "sumo_stdout.log": {
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "bytes": 0
+        },
+        "tripinfo.xml": {
+          "sha256": "f2675aefdde50e3da329a534ca20422b8012a5efe40570fc41a157b40fe4e419",
+          "bytes": 3368826
+        }
+      }
+    },
+    {
+      "case": "bridge/baseline_seed11",
+      "source_directory": "author_holdout_v2/runs/bridge/baseline_seed11",
+      "files": {
+        "collisions.xml": {
+          "sha256": "e5ce8ea16dee7562bd7787ae79e7553075a23c838503caad4e108487571603fd",
+          "bytes": 1911
+        },
+        "lanechanges.xml": {
+          "sha256": "e7243f425b634edebc1034ff02d426d84192c9315ab2696f973b8dd398e896e2",
+          "bytes": 7586900
+        },
+        "lane_queues.xml": {
+          "sha256": "639443125afb8ded1f5cf5274c8354ce6f1f4131d6f63634ef68290c7ee2c0d3",
+          "bytes": 418540
+        },
+        "metrics.json": {
+          "sha256": "1a6699fd06b3cdd537e55a5e9d79f106c08650c2a3ed8916c7c74cbde1d204ac",
+          "bytes": 3659
+        },
+        "statistics.xml": {
+          "sha256": "658369413986bab8016f6fbbca2d8fdf3bcdaf476696ee3cd30641c517dbf999",
+          "bytes": 2874
+        },
+        "stopline_events.xml": {
+          "sha256": "d03cea40a9fcaf0bfc9e9da118e7fff1d2159a1114d8c2e9a7a3f692e48e0917",
+          "bytes": 14968329
+        },
+        "summary.xml": {
+          "sha256": "a9ec9bd667796f3a94bfc13371b2fc6129a5013888ab3d1aa089c7a65f8bf9b6",
+          "bytes": 9249255
+        },
+        "sumo_stderr.log": {
+          "sha256": "bf30f37b5ebe22dda89be66788fee229a2edddbc1d2202d46c9af45d6e85fffd",
+          "bytes": 418
+        },
+        "sumo_stdout.log": {
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "bytes": 0
+        },
+        "tripinfo.xml": {
+          "sha256": "d6be7826dbd044c3e10df962793060c164e2bf5ab19d1785f89e4ab481ee9d80",
+          "bytes": 3367458
+        }
+      }
+    },
+    {
+      "case": "bridge/baseline_seed29",
+      "source_directory": "author_holdout_v2/runs/bridge/baseline_seed29",
+      "files": {
+        "collisions.xml": {
+          "sha256": "40a024e1f8971e1c9295abb1a12502a5c0466fa988ca9895da39594fcbeb1d06",
+          "bytes": 1911
+        },
+        "lanechanges.xml": {
+          "sha256": "9f99751d9961b94b271076306352d8d1c23cca475ce4c6327d847d818e76bfb6",
+          "bytes": 7683501
+        },
+        "lane_queues.xml": {
+          "sha256": "44b8957b430d5947fd8facb1a979cf0ca323921e0e87a8a43bae545292c92856",
+          "bytes": 418535
+        },
+        "metrics.json": {
+          "sha256": "5a5fd02acdd51881531fa0c7a6231ba8cc80382d6451ac8f10761c850d9976b5",
+          "bytes": 3706
+        },
+        "statistics.xml": {
+          "sha256": "c3638599e72c56cd9d74e4c5c320f07fd9d7d7e837082211d6c88eaf238698a5",
+          "bytes": 2873
+        },
+        "stopline_events.xml": {
+          "sha256": "da84e19c5cfc637fb1de1fd0d1b62f28e69bd0c57e4977be176a82012f8d842b",
+          "bytes": 15072357
+        },
+        "summary.xml": {
+          "sha256": "4ea95b1354246cf5390c7566494e908a1e652e2eb06230fda372d6fb7da5e4cb",
+          "bytes": 9249434
+        },
+        "sumo_stderr.log": {
+          "sha256": "bda8db1356649e1171adb2d6b32ca4a7b35bb464d8f634da37a1b4d892ad085f",
+          "bytes": 734
+        },
+        "sumo_stdout.log": {
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "bytes": 0
+        },
+        "tripinfo.xml": {
+          "sha256": "45f889a20afcb98da5f08083353516ed4629b00e8a59cb51a01b7237a513e7a7",
+          "bytes": 3369766
+        }
+      }
+    },
+    {
+      "case": "bridge/baseline_seed47",
+      "source_directory": "author_holdout_v2/runs/bridge/baseline_seed47",
+      "files": {
+        "collisions.xml": {
+          "sha256": "0d61d9629db627e2b5192481646834112de0b927ad0b4269709602419b65965f",
+          "bytes": 1911
+        },
+        "lanechanges.xml": {
+          "sha256": "c50a88416faf96db063da0dffe69c583a365164b9c03aaa411ece6887349b273",
+          "bytes": 7650958
+        },
+        "lane_queues.xml": {
+          "sha256": "f64f506a703b01522e2ef12ab63aaac3ca65b2f80b84b490234b9d22212f535a",
+          "bytes": 418538
+        },
+        "metrics.json": {
+          "sha256": "556505a4f59da76e5aba60a5bc737c572fc69dd84ea66f03769098496b250264",
+          "bytes": 3654
+        },
+        "statistics.xml": {
+          "sha256": "5abae918adcb0c10642213cd8f95db80a95d702ee5bc70b2b603e3152b019122",
+          "bytes": 2873
+        },
+        "stopline_events.xml": {
+          "sha256": "ca3c15b3b73e65fb4e907a7d3a4318be3d3cec1924805f2f34e0ef0819c8a47d",
+          "bytes": 15089184
+        },
+        "summary.xml": {
+          "sha256": "9c984375fb2262b70334e2b6d7fe90868c299b354ec32896dec66f50b85dfc78",
+          "bytes": 9249457
+        },
+        "sumo_stderr.log": {
+          "sha256": "de13553b67351958d83ffe9bf4dc94d9a5b1c009844b50c406a4dd2b7b275bfa",
+          "bytes": 696
+        },
+        "sumo_stdout.log": {
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "bytes": 0
+        },
+        "tripinfo.xml": {
+          "sha256": "0f39174716b25884b6e9c9669d9c22a5382394bb2421f4b89b3e6a281b54e35a",
+          "bytes": 3369250
+        }
+      }
+    },
+    {
+      "case": "bridge/baseline_seed71",
+      "source_directory": "author_holdout_v2/runs/bridge/baseline_seed71",
+      "files": {
+        "collisions.xml": {
+          "sha256": "d31565ca7ebe85fba3a5e7186240ee8fd92494f66b9cb792a99505ed659fc6fa",
+          "bytes": 1911
+        },
+        "lanechanges.xml": {
+          "sha256": "9da057169c4518b08089768fb4567260bf017b838364f13b066ee468a155eb5d",
+          "bytes": 7648548
+        },
+        "lane_queues.xml": {
+          "sha256": "48dc666715f045194a62f6a127b72fbbefa9f6cf21d412964db8620eeda97456",
+          "bytes": 418530
+        },
+        "metrics.json": {
+          "sha256": "ff93b8149403a9b4907da30f106a1f4d25035747fffda01de8e7b597eada2480",
+          "bytes": 3655
+        },
+        "statistics.xml": {
+          "sha256": "b901bff7930a9ca8462c8063b36ace40cb83913ce2b5f8465240fbb4614bcaae",
+          "bytes": 2874
+        },
+        "stopline_events.xml": {
+          "sha256": "26566730370d1567fcf0d156366657d721e458b8da2e93178e96344ed517febd",
+          "bytes": 15046138
+        },
+        "summary.xml": {
+          "sha256": "d3df0e0cadd0556396b23c0dcdca0941ba2498197bf27d41b2072e665a15130d",
+          "bytes": 9248229
+        },
+        "sumo_stderr.log": {
+          "sha256": "1383b8ffc9d946804389faef666cc7d00427df768dd6206d788d499fcfcaa46c",
+          "bytes": 697
+        },
+        "sumo_stdout.log": {
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "bytes": 0
+        },
+        "tripinfo.xml": {
+          "sha256": "27d6e220561549659b8a72b5a683ea77ea2fe2fbf3bf95351094c66302ceddba",
+          "bytes": 3368741
+        }
+      }
+    },
+    {
+      "case": "bridge/heavyveh_very_high_seed101",
+      "source_directory": "author_holdout_v2/runs/bridge/heavyveh_very_high_seed101",
+      "files": {
+        "collisions.xml": {
+          "sha256": "37f632e84fc6a587f61fe9a2183317a7eaac5748d842b6456bf40feaab0d3d68",
+          "bytes": 3790
+        },
+        "lanechanges.xml": {
+          "sha256": "6242e28a7fff662cb0b353e0b573ef872d757e0b35a85fde62bb4757284ab19a",
+          "bytes": 7576185
+        },
+        "lane_queues.xml": {
+          "sha256": "d4d6018464e43385f5e4c5421eba4e548fd55225138cc7648c68bce83c9ab6c6",
+          "bytes": 419437
+        },
+        "metrics.json": {
+          "sha256": "b27221fa87d5a86eafb9f37ed8cc307550f17490e1bb641560f7fcf575e6d4d5",
+          "bytes": 3809
+        },
+        "statistics.xml": {
+          "sha256": "cdf5df9c7b83682a2b84daec9148ee9b55aacaf35d486b4bfcd0f27cef1c8961",
+          "bytes": 2876
+        },
+        "stopline_events.xml": {
+          "sha256": "e0661f5a32a7aed1eb31637e7a8a3b323cd97b5dcc2cbefdf62810c150fbe6cb",
+          "bytes": 17347162
+        },
+        "summary.xml": {
+          "sha256": "e5daa5a7483a91dffb7853dea8e4af4a9044b179643e946d77e5444bdcd2e03b",
+          "bytes": 9275226
+        },
+        "sumo_stderr.log": {
+          "sha256": "1d9df7efc6e9c36d5db49932a26cd09171f45b2e612dfe49fad976e9fed74bda",
+          "bytes": 2152
+        },
+        "sumo_stdout.log": {
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "bytes": 0
+        },
+        "tripinfo.xml": {
+          "sha256": "e59f9a64a1c1c742e2b6de8120df947f7b72d8857ce205af0775955344ea39b1",
+          "bytes": 3373101
+        }
+      }
+    },
+    {
+      "case": "bridge/heavyveh_very_high_seed11",
+      "source_directory": "author_holdout_v2/runs/bridge/heavyveh_very_high_seed11",
+      "files": {
+        "collisions.xml": {
+          "sha256": "7ed1b512c679ee30b40ffce971fe19cdff5145f71ca85817d9426fbf597f29a2",
+          "bytes": 6903
+        },
+        "lanechanges.xml": {
+          "sha256": "9f3496422e9292aebff97caa8ebd3b79c6229b009dd0d4e6b093c12036ec6ed1",
+          "bytes": 6009721
+        },
+        "lane_queues.xml": {
+          "sha256": "d522a8383e24a53954bcf8c76a24665a6a72806fa2b8f1b89d6a9778cc3fe0e7",
+          "bytes": 419671
+        },
+        "metrics.json": {
+          "sha256": "0d201adeb23f7a5cf2edb6a7d3a07aae72efee8a53a10f44a233415d1ad95be6",
+          "bytes": 4413
+        },
+        "statistics.xml": {
+          "sha256": "9231381c0ecbf2a83886bcc69af1fb695c372e56f3cd4d9c564162785f76bd48",
+          "bytes": 2882
+        },
+        "stopline_events.xml": {
+          "sha256": "52fbebd3f5f703dae91d5c4c14fbf7ede7b4d0be2fa4b87ec00e8838e228e246",
+          "bytes": 27169525
+        },
+        "summary.xml": {
+          "sha256": "62c3f613acf3750306a25b18792c0cb7a03fead44acca2aec74df0447b922162",
+          "bytes": 9300537
+        },
+        "sumo_stderr.log": {
+          "sha256": "46e88bf0c7565e07925536969c04ae9a72ca6fff6288e32315e95d966b24458c",
+          "bytes": 21306
+        },
+        "sumo_stdout.log": {
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "bytes": 0
+        },
+        "tripinfo.xml": {
+          "sha256": "7cc2f274a9314ba4abb5e6309787fa4d7f5d8742f56010ee568d275c63fb3352",
+          "bytes": 3353664
+        }
+      }
+    },
+    {
+      "case": "bridge/heavyveh_very_high_seed29",
+      "source_directory": "author_holdout_v2/runs/bridge/heavyveh_very_high_seed29",
+      "files": {
+        "collisions.xml": {
+          "sha256": "4cef9ebb700355f1b5289302f4cdacf579aafa4336b30bd6aaecea49193f3e11",
+          "bytes": 2546
+        },
+        "lanechanges.xml": {
+          "sha256": "19f16bf6bde101df04a4be98291bc3737e2104a97e56ab83bb8d1f1f678d840f",
+          "bytes": 7644054
+        },
+        "lane_queues.xml": {
+          "sha256": "8518ae58d29772150e862e2c50643c4f0e5ff19fd5aafdf3f4dfe82373eed332",
+          "bytes": 419452
+        },
+        "metrics.json": {
+          "sha256": "b30394a5bec58714585207e7eee63201f99d1013f9eae06579e98fe3a7293f60",
+          "bytes": 3787
+        },
+        "statistics.xml": {
+          "sha256": "89559d6e951c73d99c311d9d1352cab7d3ca959c0d41b6158eb9b76b50a19c14",
+          "bytes": 2875
+        },
+        "stopline_events.xml": {
+          "sha256": "89199269946fb392fbec6827e01bd0282be6dece1e2b2c4df4758e53e8e77e1b",
+          "bytes": 17657731
+        },
+        "summary.xml": {
+          "sha256": "70189008e87821051b7b9b92489759bb2be926681e261f32d560bc24d67f9d25",
+          "bytes": 9270340
+        },
+        "sumo_stderr.log": {
+          "sha256": "0ebe51bcbb6a5100478b256145256b413b51bf53bd9edd19972a5df16180b801",
+          "bytes": 1206
+        },
+        "sumo_stdout.log": {
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "bytes": 0
+        },
+        "tripinfo.xml": {
+          "sha256": "83a552e9fec46ca6e2067a13a1d04db4c5fb0db1a456453bce0e8ea4109e565d",
+          "bytes": 3376270
+        }
+      }
+    },
+    {
+      "case": "bridge/heavyveh_very_high_seed47",
+      "source_directory": "author_holdout_v2/runs/bridge/heavyveh_very_high_seed47",
+      "files": {
+        "collisions.xml": {
+          "sha256": "1140016be91e9e71a7fee0f6a31d46aa8dc89375de2cb98942983d03adf37131",
+          "bytes": 3469
+        },
+        "lanechanges.xml": {
+          "sha256": "6e75ad01db0171882eeaf77ab03ef19d52180e9620230d85e1cd0311bbcddb6c",
+          "bytes": 7533121
+        },
+        "lane_queues.xml": {
+          "sha256": "2b071e05d5cc220c5d9a833ed2aa87eaa48a60beb44f0da4481d3e56f1e3ed81",
+          "bytes": 419462
+        },
+        "metrics.json": {
+          "sha256": "5802cb5c1c2f29871d086461a17af36c5c16df65c931b1c80aee2587b92da471",
+          "bytes": 3822
+        },
+        "statistics.xml": {
+          "sha256": "835d38a62c4adce3b68c1809d7cbdbff515ce387c1952aa2507fffd0f48be810",
+          "bytes": 2875
+        },
+        "stopline_events.xml": {
+          "sha256": "23984c59520c5b0ce873dcf7ffcd321431a37b46d41e2df8a3f422aae5756de3",
+          "bytes": 17380120
+        },
+        "summary.xml": {
+          "sha256": "af92d98a96bd55758558b5efedb24031f992f991bb8d3a39a0d7089705c18679",
+          "bytes": 9270456
+        },
+        "sumo_stderr.log": {
+          "sha256": "4a5ce36c99b9d6bf44d7f8358864a9f012bb8e0490527479206ee92b495c4b01",
+          "bytes": 1607
+        },
+        "sumo_stdout.log": {
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "bytes": 0
+        },
+        "tripinfo.xml": {
+          "sha256": "28ff88d4811ae600f3a07b3c5edd21560f9b8b5b4d84a07a6c793790ed2fba4a",
+          "bytes": 3374525
+        }
+      }
+    },
+    {
+      "case": "bridge/heavyveh_very_high_seed71",
+      "source_directory": "author_holdout_v2/runs/bridge/heavyveh_very_high_seed71",
+      "files": {
+        "collisions.xml": {
+          "sha256": "c0053590c2017d24833b5b30bbcff2e84c3a3bbe98d9335ff1f1fcdc528d765f",
+          "bytes": 2535
+        },
+        "lanechanges.xml": {
+          "sha256": "0c66d9df26ee730251af15be3dc0cac20cd29833c3399ef8357ebcd300665f8a",
+          "bytes": 7233403
+        },
+        "lane_queues.xml": {
+          "sha256": "4c3d7040cf9c5621484c490fddf08d508d9cf159b659231b2d878b77b8a8eaf9",
+          "bytes": 419410
+        },
+        "metrics.json": {
+          "sha256": "7d2babf26c773d6d5266bfb4898f5bca130ce048a2bb26fd67b7838d15f3652e",
+          "bytes": 3802
+        },
+        "statistics.xml": {
+          "sha256": "f41238a422e9c3b1848544cacb4f039b2a73ebd6f3e494a61fa930d51979f97a",
+          "bytes": 2875
+        },
+        "stopline_events.xml": {
+          "sha256": "80f4d7a857a0eaf327ee346ca459a31b0b97213bfff2502c07d6790e35fc1e11",
+          "bytes": 16879860
+        },
+        "summary.xml": {
+          "sha256": "8d83c6f1519df7f29b3ab4c478c7c235e474a9503594a8eefb70d8fefc19fe57",
+          "bytes": 9274993
+        },
+        "sumo_stderr.log": {
+          "sha256": "df11eb25f5459c2508422aaa32c8ecc7e3a720e353d7b018dcb22beee84f8a10",
+          "bytes": 1560
+        },
+        "sumo_stdout.log": {
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "bytes": 0
+        },
+        "tripinfo.xml": {
+          "sha256": "fa3b6972f3bf08be2010daef7938009a2de96b698d691081471a2ceb5e95c485",
+          "bytes": 3370720
+        }
+      }
+    },
+    {
+      "case": "bridge/weather_heavy_rain_seed101",
+      "source_directory": "author_holdout_v2/runs/bridge/weather_heavy_rain_seed101",
+      "files": {
+        "collisions.xml": {
+          "sha256": "da49968eb0419b12b368704f3df63159e4fcab7a7afd65834dff441faeca7f38",
+          "bytes": 3475
+        },
+        "lanechanges.xml": {
+          "sha256": "019326a17cd9cedb9c0085eb42ac28fdf1ee294c0a34a28602c3f8661bd7e02c",
+          "bytes": 7677855
+        },
+        "lane_queues.xml": {
+          "sha256": "11edf532eee9ac034fe28022301c5015d411cee0775cba3234490912a82b3d50",
+          "bytes": 419660
+        },
+        "metrics.json": {
+          "sha256": "5be2c100a341db2c8da5aedba5dd7585224c733a42da4d89c902e74a04f0322f",
+          "bytes": 3810
+        },
+        "statistics.xml": {
+          "sha256": "7b510341a4fb49fee819cbd5d6975f1ad94212432b9de9012d6573a120f5ca66",
+          "bytes": 2877
+        },
+        "stopline_events.xml": {
+          "sha256": "8146c2d56ef30aca3cc66c515c96fe829c849dc70a7164a53ca9b37f824a8e3f",
+          "bytes": 16409148
+        },
+        "summary.xml": {
+          "sha256": "4d4d36c3c1606d176a84a3a992029b5b2956d923f36e8be97f4e6e86e63d6532",
+          "bytes": 9267955
+        },
+        "sumo_stderr.log": {
+          "sha256": "fcae3ac0a3531c0b2affcf2e49235c0896522337a87fae4aa749d8e9dde836da",
+          "bytes": 2558
+        },
+        "sumo_stdout.log": {
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "bytes": 0
+        },
+        "tripinfo.xml": {
+          "sha256": "41ee7bc8e8a4e7700c239404decbf1f80d002b4cb2904e32b3a78740c6cf77ef",
+          "bytes": 3364245
+        }
+      }
+    },
+    {
+      "case": "bridge/weather_heavy_rain_seed11",
+      "source_directory": "author_holdout_v2/runs/bridge/weather_heavy_rain_seed11",
+      "files": {
+        "collisions.xml": {
+          "sha256": "d63990b46241edf302f7140dc72b2d91f104c2708cd53891be5c6f0901f1bf37",
+          "bytes": 2847
+        },
+        "lanechanges.xml": {
+          "sha256": "a75b98010ec4665d9f9fc8d2b9f1c8840b7da33922fefef9c955e29a194445ab",
+          "bytes": 7945174
+        },
+        "lane_queues.xml": {
+          "sha256": "08f5a4213ab680ee2183e4e3d90449bf32a46d1aea2b272676349c591f899775",
+          "bytes": 419559
+        },
+        "metrics.json": {
+          "sha256": "40f4c73bacacc9059f2338b36d1aa1874255eb884eb457822b3e9f08a1dc40ae",
+          "bytes": 3778
+        },
+        "statistics.xml": {
+          "sha256": "3d33f3fd43ce79030471b005288500af23405e9c794be47bf0bffdaf3d5947d5",
+          "bytes": 2876
+        },
+        "stopline_events.xml": {
+          "sha256": "dc5bd3990ad19a6a28e5fbbd9ed40df7db5f646264c153bac4e797e62288e345",
+          "bytes": 16282878
+        },
+        "summary.xml": {
+          "sha256": "e6216535540b2c6646e72639532d6a131543bc1d24a067035b45b47061b657d4",
+          "bytes": 9266486
+        },
+        "sumo_stderr.log": {
+          "sha256": "98959713c672f545d3545d15e7de4fc4f4c332d4a607520915aafa7e378a967b",
+          "bytes": 1412
+        },
+        "sumo_stdout.log": {
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "bytes": 0
+        },
+        "tripinfo.xml": {
+          "sha256": "fd644ee0943350390f2a66841ea6d97d5ad74392683ea0e8b7dcca6e99afe624",
+          "bytes": 3365346
+        }
+      }
+    },
+    {
+      "case": "bridge/weather_heavy_rain_seed29",
+      "source_directory": "author_holdout_v2/runs/bridge/weather_heavy_rain_seed29",
+      "files": {
+        "collisions.xml": {
+          "sha256": "d7de9ce9fe1a93befe882c6c6aad0db74541a67ade591c6464661c7e4f664ac5",
+          "bytes": 3158
+        },
+        "lanechanges.xml": {
+          "sha256": "b04bab103efd901cc09f9c64cc52908250d667eda0e224b0d360466e374d5182",
+          "bytes": 7905810
+        },
+        "lane_queues.xml": {
+          "sha256": "a050ac6ab88ebe4655d755872cedab59102f35c80c211592c82a22771f329fa9",
+          "bytes": 419501
+        },
+        "metrics.json": {
+          "sha256": "50c03782908b27982c245976d86fac2899fbda3727563efc2f6012302e7bba86",
+          "bytes": 3777
+        },
+        "statistics.xml": {
+          "sha256": "23a8c634ff7feb56c9abda74ce8db7d39a6c9600fdd09eefb8cfd91c1a4cb69d",
+          "bytes": 2876
+        },
+        "stopline_events.xml": {
+          "sha256": "e565cdc705364ba79f6052f0431cec5b21b7dd5f316f401f6516f4bdbb91fd14",
+          "bytes": 16342567
+        },
+        "summary.xml": {
+          "sha256": "6894a6190c7d6a106d6e43e122d7239f1f8de98dc9bb5b266286d91007e4fecf",
+          "bytes": 9262655
+        },
+        "sumo_stderr.log": {
+          "sha256": "77dc52c1df41e52a9b4611bed8eb46a48f8a66a011f65e7e9ef2dc7dbe356f99",
+          "bytes": 1785
+        },
+        "sumo_stdout.log": {
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "bytes": 0
+        },
+        "tripinfo.xml": {
+          "sha256": "1233c5169730f4021fcede0c1d23323eb4a728126f20a48dd2445744519fb704",
+          "bytes": 3364606
+        }
+      }
+    },
+    {
+      "case": "bridge/weather_heavy_rain_seed47",
+      "source_directory": "author_holdout_v2/runs/bridge/weather_heavy_rain_seed47",
+      "files": {
+        "collisions.xml": {
+          "sha256": "5531cb21077b2cc7ae8474f2b3ccde227fc51f7b4887e0f976fd2ce5cdb146fc",
+          "bytes": 2848
+        },
+        "lanechanges.xml": {
+          "sha256": "8b5404f3f54914bd39cc9524c312d5bf41557ba3ffea30a901ee693417f3d3f1",
+          "bytes": 7734561
+        },
+        "lane_queues.xml": {
+          "sha256": "053643f3a11a8febc158ab257a23e8e770fb99dcf1362754050be6d3d37f90d2",
+          "bytes": 419634
+        },
+        "metrics.json": {
+          "sha256": "00d7ce5452abb225bdcbe05a1dd0c529d4e7c7ab32a4cf511d68521643882e53",
+          "bytes": 3780
+        },
+        "statistics.xml": {
+          "sha256": "15e79bfe8ba3da3797cb4d2a7a643b81ce71f2d5bdf4f9c103c650248bdaf101",
+          "bytes": 2876
+        },
+        "stopline_events.xml": {
+          "sha256": "fb086777d6a8be59666760ce3269d1ae35f334fe370a83cb77f8b2c3ad2cac8c",
+          "bytes": 16313718
+        },
+        "summary.xml": {
+          "sha256": "9647faf1118a067cbf761a389f9afdfffefecf562dbdc26af88ef10e28060e62",
+          "bytes": 9265891
+        },
+        "sumo_stderr.log": {
+          "sha256": "897c36b27e440ecbd4582df0b5528214b6206cb3208ea54c2d100fec6ea81999",
+          "bytes": 1609
+        },
+        "sumo_stdout.log": {
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "bytes": 0
+        },
+        "tripinfo.xml": {
+          "sha256": "378255e163c2616992cd00a29cf6697b8a41c7f36a5199b7e437c4f37eb21c98",
+          "bytes": 3363757
+        }
+      }
+    },
+    {
+      "case": "bridge/weather_heavy_rain_seed71",
+      "source_directory": "author_holdout_v2/runs/bridge/weather_heavy_rain_seed71",
+      "files": {
+        "collisions.xml": {
+          "sha256": "297d63907bcdaa1a26e05934047e4e694caafe93f04b24dd8731bbe22fc6bfeb",
+          "bytes": 16024
+        },
+        "lanechanges.xml": {
+          "sha256": "872da2ab11e95fdd0553a2e3d32765896258d805a958cb7e3c4bef9883e95ec9",
+          "bytes": 6201909
+        },
+        "lane_queues.xml": {
+          "sha256": "18104dfbf7d20ddef5cf2453cad6b75169bad562cabdd909035b78ffdd2e4f69",
+          "bytes": 420713
+        },
+        "metrics.json": {
+          "sha256": "9b460e0b0d535455f33323616216ff198e9083840e92eeab58ecd75545076522",
+          "bytes": 4906
+        },
+        "statistics.xml": {
+          "sha256": "26be65a1caf5afdb15a48decddac72ff243afb08bba9285f2f2d9dce47ffb13f",
+          "bytes": 2883
+        },
+        "stopline_events.xml": {
+          "sha256": "402d3e53d4b7d59c0ef5c22b93aa1735995e715fb3598e96b184f01297c80386",
+          "bytes": 29633718
+        },
+        "summary.xml": {
+          "sha256": "56b63fa84f7d956fa360950c202f4c23b8af38d594b53e3cac5393c8cbf753e9",
+          "bytes": 9323926
+        },
+        "sumo_stderr.log": {
+          "sha256": "36995695ccd51ac6626b2e02106bc9212041032a4e588f2ad025861ecc83e8e1",
+          "bytes": 40828
+        },
+        "sumo_stdout.log": {
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "bytes": 0
+        },
+        "tripinfo.xml": {
+          "sha256": "59dabfcce24ba63dc2f5f15b76c3875e455eba857447e87f4efb5f3877270369",
+          "bytes": 3340224
+        }
+      }
+    },
+    {
+      "case": "holdout/B00_seed211",
+      "source_directory": "author_holdout_v2/runs/holdout/B00_seed211",
+      "files": {
+        "collisions.xml": {
+          "sha256": "99135e27449c2a081ec0d6cc6d81508b7967fdf0f6ec827a9476d5f67fe7ddd0",
+          "bytes": 1812
+        },
+        "lane_queues.xml": {
+          "sha256": "023d264e88ad4e047b50f068f67218b591d4adfdd3de90ac89b0574ef67889e1",
+          "bytes": 418494
+        },
+        "metrics.json": {
+          "sha256": "c6f2de9734138510a6ae9ae2608e1b860098e39f08c6e4587fbac3bdb0342d84",
+          "bytes": 3646
+        },
+        "statistics.xml": {
+          "sha256": "b4e8a645b7f4b73573ff6a80ee8f3aa720aa81c0f139178d774afd324954f647",
+          "bytes": 2775
+        },
+        "stopline_events.xml": {
+          "sha256": "acf9c179cacb1d9361ce24d62438a808dcb62e969f3379574194fc79bdc5a845",
+          "bytes": 14959425
+        },
+        "summary.xml": {
+          "sha256": "e8dd127533bdc1578a9a6e25f657f24c9a5cd213956b63fa2ce1c3912cdf9166",
+          "bytes": 9248056
+        },
+        "sumo_stderr.log": {
+          "sha256": "72d3891f453dcafae670c237550c91e0adc8ead73d8461eaa6eb3b139a380894",
+          "bytes": 557
+        },
+        "sumo_stdout.log": {
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "bytes": 0
+        },
+        "tripinfo.xml": {
+          "sha256": "047d626764882fdf700fbc37331ca6a4725e292963db87eff773dec7cb5eab27",
+          "bytes": 3367820
+        }
+      }
+    },
+    {
+      "case": "holdout/B00_seed307",
+      "source_directory": "author_holdout_v2/runs/holdout/B00_seed307",
+      "files": {
+        "collisions.xml": {
+          "sha256": "468b14607ee3aa6c354ff19afe22d9dd0c679036d83f5facf545ee2da80e5768",
+          "bytes": 1812
+        },
+        "lane_queues.xml": {
+          "sha256": "1f332933e17011858cf861c6c84c16b33a52250e069b7091cd5d98a8637e0215",
+          "bytes": 418442
+        },
+        "metrics.json": {
+          "sha256": "f6e28ba04183005c3285fed126d4af6f263bcef489457d8b66e96b7b07ba7442",
+          "bytes": 3658
+        },
+        "statistics.xml": {
+          "sha256": "a7ceb80d1eb6dceb2376a5908494d5cb87f9c8433a3dcdef733c56ef17756bc0",
+          "bytes": 2775
+        },
+        "stopline_events.xml": {
+          "sha256": "47d984edde3982e8dd6ac5a2eac097b0a24ea459f429cf35c32d1f09e2fe411f",
+          "bytes": 15060124
+        },
+        "summary.xml": {
+          "sha256": "6484353957900470814bc44bce8c4d357bb0e7a28c2f33e48426df66be70765e",
+          "bytes": 9250890
+        },
+        "sumo_stderr.log": {
+          "sha256": "fb74c95dcfe1cb3aeebf25fd08c75e44232c058499e18fdf4cdb5eff6839179b",
+          "bytes": 696
+        },
+        "sumo_stdout.log": {
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "bytes": 0
+        },
+        "tripinfo.xml": {
+          "sha256": "7042a2a174e2ed6c02cfda338b403f54243827fb4daa370edcd57039d0109fd4",
+          "bytes": 3369938
+        }
+      }
+    },
+    {
+      "case": "holdout/B00_seed401",
+      "source_directory": "author_holdout_v2/runs/holdout/B00_seed401",
+      "files": {
+        "collisions.xml": {
+          "sha256": "3c001c69c8f74c4e8675611683deb51f9857f6e46d6b2ac1f8831eb9908d6a51",
+          "bytes": 1812
+        },
+        "lane_queues.xml": {
+          "sha256": "c4bc885fcb362884d222caa82ee9ede1d06e2e54de2da0b12b2e4d12f33e85fd",
+          "bytes": 418440
+        },
+        "metrics.json": {
+          "sha256": "27be42dda3c80912172b7cdd6fc165280f6daeef20dc4d1282d0075f2f9388b3",
+          "bytes": 3653
+        },
+        "statistics.xml": {
+          "sha256": "e0e694f51dfafd7535219bd188f5d4d15f1d1fc5dd96b425ac16881aa278da65",
+          "bytes": 2775
+        },
+        "stopline_events.xml": {
+          "sha256": "8f611aa47cb798149a3854dc1b74aa672fb74e2833ce6fb44d89fa905a894835",
+          "bytes": 14806305
+        },
+        "summary.xml": {
+          "sha256": "fab72c9b3dfabcb59929878ab22baae0813d37f2d1c3080d28678cc436c91411",
+          "bytes": 9250125
+        },
+        "sumo_stderr.log": {
+          "sha256": "2e5fbb540b29fac9423368ae27d12dc28e3fec8c63d0a82fe7720b88c1434423",
+          "bytes": 417
+        },
+        "sumo_stdout.log": {
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "bytes": 0
+        },
+        "tripinfo.xml": {
+          "sha256": "eea40f167ccfac5295c9e69a0da48580ecbb8f59ed3e1c9a475d5155e386ed42",
+          "bytes": 3366625
+        }
+      }
+    },
+    {
+      "case": "holdout/B00_seed503",
+      "source_directory": "author_holdout_v2/runs/holdout/B00_seed503",
+      "files": {
+        "collisions.xml": {
+          "sha256": "1f7871a924a78d4d0e534f76f19d214df899159849293b7bac774b370d79f2e4",
+          "bytes": 1812
+        },
+        "lane_queues.xml": {
+          "sha256": "e486ab06331fac8fa4411d112625660936e720fdd771db3b96641f96c7d51ba8",
+          "bytes": 418420
+        },
+        "metrics.json": {
+          "sha256": "0e68041b72931e7bd7d5e1f20119dd35d72ea0479a64f57b2dddbed51d8873a7",
+          "bytes": 3658
+        },
+        "statistics.xml": {
+          "sha256": "0d5f519e020880110e20e6769960afa9583550096f93a6826eb30a290425e299",
+          "bytes": 2776
+        },
+        "stopline_events.xml": {
+          "sha256": "8e316652699acd63f8bc133bfe4d980020917f2e5d35fb6121211e235d13db97",
+          "bytes": 14859042
+        },
+        "summary.xml": {
+          "sha256": "a901764c279e28cf069a32db9c903eb66956f255a24a06ba16f629390542b555",
+          "bytes": 9249077
+        },
+        "sumo_stderr.log": {
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "bytes": 0
+        },
+        "sumo_stdout.log": {
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "bytes": 0
+        },
+        "tripinfo.xml": {
+          "sha256": "ff142fa3f216f16d2abbb499e75e2c0356a342dfb110f656aa989ddd749e6b79",
+          "bytes": 3367369
+        }
+      }
+    },
+    {
+      "case": "holdout/B00_seed601",
+      "source_directory": "author_holdout_v2/runs/holdout/B00_seed601",
+      "files": {
+        "collisions.xml": {
+          "sha256": "30970317145df2cf92b9811bea19a5e15dda800a6124f03ae01360bff790e498",
+          "bytes": 1812
+        },
+        "lane_queues.xml": {
+          "sha256": "f5e08c9e9873703fb403def64d5617e1bf8f8168905300f7a22f5a0f9f9efb55",
+          "bytes": 418440
+        },
+        "metrics.json": {
+          "sha256": "6bf151c5f8b48d73e64c8f7a5376a102f5dc485a096f71b4dc21d009de332c14",
+          "bytes": 3654
+        },
+        "statistics.xml": {
+          "sha256": "90bbfb4d74215aa9429b21d0eca0aa1a2b8b90ae8602abc818ef3e0d0b23b555",
+          "bytes": 2775
+        },
+        "stopline_events.xml": {
+          "sha256": "0770398d338034f2b42001fb0f9ee05301d6d29eec130922b589acaad0b6fd8c",
+          "bytes": 14949989
+        },
+        "summary.xml": {
+          "sha256": "ffc411924b3b61fd087b74b6ff47b88894075a56809eacdfabe4cf5b62cbc9b1",
+          "bytes": 9250078
+        },
+        "sumo_stderr.log": {
+          "sha256": "21eb0137827e0c4b2c0e906a4aa9d55b04c8cfe9f0978b65bed83acd1aff85b1",
+          "bytes": 416
+        },
+        "sumo_stdout.log": {
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "bytes": 0
+        },
+        "tripinfo.xml": {
+          "sha256": "9ce47ac80514093f10a8f92cdd899e2dcb35d261cee0f954ca2d90e829a339be",
+          "bytes": 3368270
+        }
+      }
+    },
+    {
+      "case": "holdout/H01_seed211",
+      "source_directory": "author_holdout_v2/runs/holdout/H01_seed211",
+      "files": {
+        "collisions.xml": {
+          "sha256": "16bc2eafef4af0cf42c01569906fea9ef1b1bc60f403a2c27a28b8883a499b1f",
+          "bytes": 1812
+        },
+        "lane_queues.xml": {
+          "sha256": "00e61dedce2230419c64f90a4d3fbee59ba6bfed4c62234f280b6610a6fe2d89",
+          "bytes": 418892
+        },
+        "metrics.json": {
+          "sha256": "724f46c3f37f01c94462de6509a51f1028c2ee01599445ea9e16d937d22b48f6",
+          "bytes": 3656
+        },
+        "statistics.xml": {
+          "sha256": "c9e7925f9a07b16797a15e1b45e38fa938aa840dd88b2138e7734e6d70384b01",
+          "bytes": 2776
+        },
+        "stopline_events.xml": {
+          "sha256": "bb8475041caec084f237a4406fbe078f8adaf23dd135a3006efb6aa476c65c4e",
+          "bytes": 16092310
+        },
+        "summary.xml": {
+          "sha256": "268ee1449dfcc466ada99b305da502cce50d34124bb368ec3aadcf48ed568ca4",
+          "bytes": 9260078
+        },
+        "sumo_stderr.log": {
+          "sha256": "6536ebbd5862f0415b67792be309062975813e5ca40aa8a4e02a4d6e32da3857",
+          "bytes": 835
+        },
+        "sumo_stdout.log": {
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "bytes": 0
+        },
+        "tripinfo.xml": {
+          "sha256": "e03269af56bf2730b1555bcc9781a1d6271f082c0e7069e06420cfbd1a54db52",
+          "bytes": 3370773
+        }
+      }
+    },
+    {
+      "case": "holdout/H01_seed307",
+      "source_directory": "author_holdout_v2/runs/holdout/H01_seed307",
+      "files": {
+        "collisions.xml": {
+          "sha256": "b7a0285e977ed718607aad9162792772a5384afcf034d1add8efa353eb170b57",
+          "bytes": 2128
+        },
+        "lane_queues.xml": {
+          "sha256": "3a6c5750dce0cbea1ed33b5fe5e0fc2905811f63e0bfe3aabc4dffea7c502ec6",
+          "bytes": 418905
+        },
+        "metrics.json": {
+          "sha256": "9520a7de3623d51c9ec0816381515e7612672e6d8a654b59892a44875060f8b2",
+          "bytes": 3702
+        },
+        "statistics.xml": {
+          "sha256": "653f0ece3aa76e07db36e551d0fd834849903458ac5bd9caa6554e01b11f84b8",
+          "bytes": 2776
+        },
+        "stopline_events.xml": {
+          "sha256": "be9624fb7fb96e5fa10165e31a10dcf6528bc362eb5806b589f7f9d3d8984b73",
+          "bytes": 16210037
+        },
+        "summary.xml": {
+          "sha256": "3d8fc3e5f582abe1cc13adf357de5d34a60730173f1dfdbeea7831fb895e6a6c",
+          "bytes": 9257232
+        },
+        "sumo_stderr.log": {
+          "sha256": "a8a72fad7c344e8cea079d4385f413ab13c83fea731e7638ee0eb9dd7ff17690",
+          "bytes": 646
+        },
+        "sumo_stdout.log": {
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "bytes": 0
+        },
+        "tripinfo.xml": {
+          "sha256": "a5798b8ed9d640129c6c779d547fa8538531d19a80d84af2b7da09394767d6ae",
+          "bytes": 3370723
+        }
+      }
+    },
+    {
+      "case": "holdout/H01_seed401",
+      "source_directory": "author_holdout_v2/runs/holdout/H01_seed401",
+      "files": {
+        "collisions.xml": {
+          "sha256": "3c91379ff672f2f7f752846219b72cfce24d7bda77e6e8b2bfda9d58e2039b04",
+          "bytes": 2126
+        },
+        "lane_queues.xml": {
+          "sha256": "69c6a8e4457caa691edcbcd2dac51715b1bfaf5bb1e9981357ecaf3708e8ebb5",
+          "bytes": 418992
+        },
+        "metrics.json": {
+          "sha256": "4d3cb43a49b38c9c7773f302e4128b75aab8c172fd98f55c1bc12fb18d78015c",
+          "bytes": 3702
+        },
+        "statistics.xml": {
+          "sha256": "c1323db7b3af22a8e31937f0e7163f051e9d4a995eeab6f5d497789e6368f61e",
+          "bytes": 2776
+        },
+        "stopline_events.xml": {
+          "sha256": "879e110e7e24b184dc7234f10e924137fc61b36fc5f937dcbe0d847cb5aa4d43",
+          "bytes": 16253351
+        },
+        "summary.xml": {
+          "sha256": "60d6fd41e1c7e833a7d15c64250cd0e622b0cd7a4aa13524f51f6e171ed82685",
+          "bytes": 9260499
+        },
+        "sumo_stderr.log": {
+          "sha256": "720e6035d62f3ab141cc20c9f511551dd437ba6d902ea4247d2e9653d71224d3",
+          "bytes": 786
+        },
+        "sumo_stdout.log": {
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "bytes": 0
+        },
+        "tripinfo.xml": {
+          "sha256": "3bc43c0589362a8add538720f54e5d91cb18ca28d76ba7b720f2eeddb7f44ff5",
+          "bytes": 3370730
+        }
+      }
+    },
+    {
+      "case": "holdout/H01_seed503",
+      "source_directory": "author_holdout_v2/runs/holdout/H01_seed503",
+      "files": {
+        "collisions.xml": {
+          "sha256": "cac70c108f16b4be3c5b0bcdd6abecc9558131c0d86250c7e1022057df15ae76",
+          "bytes": 2124
+        },
+        "lane_queues.xml": {
+          "sha256": "1b0e43b0b09d04320834f26f25c43f55a91f5e8e3b0cea510d8986e463c2f5e1",
+          "bytes": 418992
+        },
+        "metrics.json": {
+          "sha256": "eb6da07e13c6d544720e1e468f6acc513e50ea3cceb1bcd4994415ec95d1e1c8",
+          "bytes": 3706
+        },
+        "statistics.xml": {
+          "sha256": "f734019012378e5c79685e283be8e2a3efa6fbdfdb8430d4ab51e1759ddea159",
+          "bytes": 2776
+        },
+        "stopline_events.xml": {
+          "sha256": "c24b3f214767f15abeef4ff4a8e26b7b4fe2d496bf5fef72b13e13c8c68ce812",
+          "bytes": 16394870
+        },
+        "summary.xml": {
+          "sha256": "d790cc2f191f0fb575696b3f7f00f61e5f2beb1d72cc804f957713463cacb6c8",
+          "bytes": 9259388
+        },
+        "sumo_stderr.log": {
+          "sha256": "fb8d95a0b9b540d69e50dbe88c32cd1e9306c1eb89697d99b1acddf1516cabf4",
+          "bytes": 645
+        },
+        "sumo_stdout.log": {
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "bytes": 0
+        },
+        "tripinfo.xml": {
+          "sha256": "f5f55c467dd652f72f3c40c4a7c15b8fced8d12be5dc3d824564f7e80353de31",
+          "bytes": 3372621
+        }
+      }
+    },
+    {
+      "case": "holdout/H01_seed601",
+      "source_directory": "author_holdout_v2/runs/holdout/H01_seed601",
+      "files": {
+        "collisions.xml": {
+          "sha256": "7e9e0026e4ad9bb33eb8b850ae189bcb7f0b4cdc7c63d7ed664ada6d368f1a84",
+          "bytes": 2131
+        },
+        "lane_queues.xml": {
+          "sha256": "49cc34433fc2caa955f9055485bf165b91c7e3d84b82cf03e37b59f9a0ff283a",
+          "bytes": 418875
+        },
+        "metrics.json": {
+          "sha256": "df7647aa8986ee6c0908a1512988646a3716ba8424f478483ed46e169d52846d",
+          "bytes": 3712
+        },
+        "statistics.xml": {
+          "sha256": "bed65b289fec735e8fbe7e248376b1545e4b3379ac45a0569d4d213f1105b1ec",
+          "bytes": 2776
+        },
+        "stopline_events.xml": {
+          "sha256": "7cdd01c08898f0554fa2fd1b33da9b6832beba89a76be9540829cfbda54aedd0",
+          "bytes": 16287248
+        },
+        "summary.xml": {
+          "sha256": "ee62b04188b2790e8ac3f0f0a6925588b2520124a2e20e7daf83255dcdd9a57c",
+          "bytes": 9257976
+        },
+        "sumo_stderr.log": {
+          "sha256": "fa62a8855dc668ea63577c5c4b1908cbd2499acfee7f228b11e4127166928fa5",
+          "bytes": 649
+        },
+        "sumo_stdout.log": {
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "bytes": 0
+        },
+        "tripinfo.xml": {
+          "sha256": "1b6b766162f283b11103f8058beda90d5bedf2724aae05e65064bd5099afa72a",
+          "bytes": 3372349
+        }
+      }
+    },
+    {
+      "case": "holdout/H02_seed211",
+      "source_directory": "author_holdout_v2/runs/holdout/H02_seed211",
+      "files": {
+        "collisions.xml": {
+          "sha256": "a13cf9d757524ae841873c76f545603248d37d866ae49f98d350be295527f515",
+          "bytes": 1812
+        },
+        "lane_queues.xml": {
+          "sha256": "a4c9763f8fb27895400b40f1d635d91adc57a3829e035d225ec23f86cbe30178",
+          "bytes": 418436
+        },
+        "metrics.json": {
+          "sha256": "53f6a86a22486cd6ff0c966215744dd83c9522965ffda78e227217420adbd573",
+          "bytes": 3655
+        },
+        "statistics.xml": {
+          "sha256": "963bdc769ac3546f6be14cb41b750cdae513c03392972aefccb16d7800033607",
+          "bytes": 2774
+        },
+        "stopline_events.xml": {
+          "sha256": "24ca66477c0e9e3409e4d86c128d369429f0f12ba1e82aaf8d290d2b5f8277d1",
+          "bytes": 15025912
+        },
+        "summary.xml": {
+          "sha256": "6a1a32bf10a2bc7c07f2c05d7026060740959d74470659e7aefc0c89bdf67b4e",
+          "bytes": 9249940
+        },
+        "sumo_stderr.log": {
+          "sha256": "156579aeeb42093cf364faae5a24502318de0caa5c8f91a8f5909f451932c8e7",
+          "bytes": 1391
+        },
+        "sumo_stdout.log": {
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "bytes": 0
+        },
+        "tripinfo.xml": {
+          "sha256": "5138dd638cbfb7099f27cd7608aef482d7709b57e13e73338883b3b0620bc0d7",
+          "bytes": 3370618
+        }
+      }
+    },
+    {
+      "case": "holdout/H02_seed307",
+      "source_directory": "author_holdout_v2/runs/holdout/H02_seed307",
+      "files": {
+        "collisions.xml": {
+          "sha256": "376b6d1be59fb0b9f145d0de0c3097d42d6b2b0a49e98440134d94464d7bcc24",
+          "bytes": 1812
+        },
+        "lane_queues.xml": {
+          "sha256": "35136cb2ccf0fb7a03c20bc1e2baa25be1eb2d61e8d11a79b150665c37323d50",
+          "bytes": 418498
+        },
+        "metrics.json": {
+          "sha256": "179e1a49bcb7760a6f04d7d4b55a547575b662cb1a5caf6f146e9e9ec4003c46",
+          "bytes": 3732
+        },
+        "statistics.xml": {
+          "sha256": "bd2797517777a9c47ca3842ddf3ab26628473f5646a5deffc881b03703f627d1",
+          "bytes": 2775
+        },
+        "stopline_events.xml": {
+          "sha256": "8fe0db4ff75460584bc72a9a6526b979f082fda36d67099f2275bc413ea3a1ac",
+          "bytes": 14870336
+        },
+        "summary.xml": {
+          "sha256": "fc9090dcae976f032e784e309b230af2ff50ba36ba7de4d2e91df2fd2f52b4a7",
+          "bytes": 9250170
+        },
+        "sumo_stderr.log": {
+          "sha256": "394a2c309b8c5884296bf8bfa1e94cca98d2a4198a981869149fd550c4f9a4cd",
+          "bytes": 1331
+        },
+        "sumo_stdout.log": {
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "bytes": 0
+        },
+        "tripinfo.xml": {
+          "sha256": "a82dc59ad4b84b5f5513680e329d223c4225825b9f233898e0186ff07a6d6da2",
+          "bytes": 3368275
+        }
+      }
+    },
+    {
+      "case": "holdout/H02_seed401",
+      "source_directory": "author_holdout_v2/runs/holdout/H02_seed401",
+      "files": {
+        "collisions.xml": {
+          "sha256": "09d2449d010fb9ea43091733bd6dbc244fb3dbf00dafa6fa3f8e87bc777f10c1",
+          "bytes": 1812
+        },
+        "lane_queues.xml": {
+          "sha256": "2a8a432ee8d02370cb4ebd515fd9ad6534aec0bc9b74812090bcf355958361fd",
+          "bytes": 418452
+        },
+        "metrics.json": {
+          "sha256": "5e18d5720d6ffa1d81d301a6a94642d764efa406d4f04b878402359c8ff48cca",
+          "bytes": 3654
+        },
+        "statistics.xml": {
+          "sha256": "668a04a2f3bc53fde4b9bf5d6dceac99a975981045d7c9418b7171a1f861d056",
+          "bytes": 2773
+        },
+        "stopline_events.xml": {
+          "sha256": "18d51d1445bfa328ab432ba1e958be9884e5bc2d423de3ed57a2a7d3e5273367",
+          "bytes": 14899723
+        },
+        "summary.xml": {
+          "sha256": "f56fad968070d07010760be644099f58636dc053f491b2ea7fa58c48f257ecba",
+          "bytes": 9248190
+        },
+        "sumo_stderr.log": {
+          "sha256": "8e4b670780803e251808020714a541d50b7fb8fd8ffc46edf4b04600e7e66dab",
+          "bytes": 1112
+        },
+        "sumo_stdout.log": {
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "bytes": 0
+        },
+        "tripinfo.xml": {
+          "sha256": "467a8724dccd7e371a43b7e0cb8849ff331e951c461853e8887f1e324bf16e22",
+          "bytes": 3369612
+        }
+      }
+    },
+    {
+      "case": "holdout/H02_seed503",
+      "source_directory": "author_holdout_v2/runs/holdout/H02_seed503",
+      "files": {
+        "collisions.xml": {
+          "sha256": "c7423a9cceaae92acb6c374656e57d128fd51df9ed25e5b3b517af4833e97c19",
+          "bytes": 1812
+        },
+        "lane_queues.xml": {
+          "sha256": "c4ea225e0f2e3ef12034d2fd6193c9ef7d4d8968633d89f8923ac80050ee2ad4",
+          "bytes": 418444
+        },
+        "metrics.json": {
+          "sha256": "7c95c088e874b2f53ad23b7182fbb34fa412b76d06e6461139b3022e96be621c",
+          "bytes": 3654
+        },
+        "statistics.xml": {
+          "sha256": "cc048ecb32b1e7c5d5632bcea187a5581cf733ff5d353a13f77de0deb6cac197",
+          "bytes": 2773
+        },
+        "stopline_events.xml": {
+          "sha256": "bd42bb7ee073e59789b6fbc8a2a209b67ce1336cb4587f1da20b620726fd6b97",
+          "bytes": 14871347
+        },
+        "summary.xml": {
+          "sha256": "00af9c154c881c6ffe138cbc98ee6adb45ebf73082f189f3a01f0e6ad2c71efb",
+          "bytes": 9249698
+        },
+        "sumo_stderr.log": {
+          "sha256": "2a3169473070083d928f6f48e6461061b57226bafd77222d184a1af94edc422d",
+          "bytes": 1110
+        },
+        "sumo_stdout.log": {
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "bytes": 0
+        },
+        "tripinfo.xml": {
+          "sha256": "ffc99e6e26e9ef803c78a44ff9844c1d5b42d581668d6f9d22b75d12cbeada87",
+          "bytes": 3370034
+        }
+      }
+    },
+    {
+      "case": "holdout/H02_seed601",
+      "source_directory": "author_holdout_v2/runs/holdout/H02_seed601",
+      "files": {
+        "collisions.xml": {
+          "sha256": "7ce9fc5ab7ddc2fe84f671810e1c92c6de94550e77647e09ec1d4290d5181e46",
+          "bytes": 1812
+        },
+        "lane_queues.xml": {
+          "sha256": "3f7d6e4068291a518aef1e1415f9b851a429e421e5a0083dc5342c47e2d09e40",
+          "bytes": 418427
+        },
+        "metrics.json": {
+          "sha256": "b26917f97dfba50366f3e75e044519485fe61729c6b64a854b11ec4601cc806d",
+          "bytes": 3647
+        },
+        "statistics.xml": {
+          "sha256": "a2bdff54215d96790026af159ad14303594b86dcb2aaa120dae63567134dc2b6",
+          "bytes": 2775
+        },
+        "stopline_events.xml": {
+          "sha256": "8771e63929fe71a19e561bbb322e7f88019fea0d98d0a7d775938b6f7d2830e1",
+          "bytes": 14886255
+        },
+        "summary.xml": {
+          "sha256": "b6ad4937449b355969cc4c61f0dd8586d1517dce0bf4a14ea72f3752a443726f",
+          "bytes": 9250495
+        },
+        "sumo_stderr.log": {
+          "sha256": "7db92d979e025d4fb0269ac85b6d85acb4a98350c8f02b3e50b53346ab8ba498",
+          "bytes": 832
+        },
+        "sumo_stdout.log": {
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "bytes": 0
+        },
+        "tripinfo.xml": {
+          "sha256": "7c37185688a75c1503488da20969b3615319f1aa209b6060d9ef3994eb04d26f",
+          "bytes": 3370174
+        }
+      }
+    },
+    {
+      "case": "holdout/H03_seed211",
+      "source_directory": "author_holdout_v2/runs/holdout/H03_seed211",
+      "files": {
+        "collisions.xml": {
+          "sha256": "5ef781b458cc82302a6b285048468f798345f3760ba63dfc95ada783592fc30b",
+          "bytes": 1812
+        },
+        "lane_queues.xml": {
+          "sha256": "3c6539589cbd6474bbb2816dddff411a6a55550d2562d05d009836bd2ea49bf7",
+          "bytes": 418437
+        },
+        "metrics.json": {
+          "sha256": "6d7dfa16c57f7befec8c88c728edae68638f61f8a29ad1ec9cc834b6455bb0b1",
+          "bytes": 3647
+        },
+        "statistics.xml": {
+          "sha256": "05c8a4b1178dc9478262c9c77171ea85eeb2a6816d13cd269a3ed10bda0675ce",
+          "bytes": 2773
+        },
+        "stopline_events.xml": {
+          "sha256": "19da223e1b5638691f05cf8424feca3e51213489acf4f044a6c3b5c6c80d09f3",
+          "bytes": 15397584
+        },
+        "summary.xml": {
+          "sha256": "b633cfac793bd7ed93a56c04b6355e5f408827359c1c455bf862b5d9aa617bf2",
+          "bytes": 9244433
+        },
+        "sumo_stderr.log": {
+          "sha256": "2f113a7867c86bccfc66b1d0779b76431618ae4614a5dc430cc22ad1338caa67",
+          "bytes": 418
+        },
+        "sumo_stdout.log": {
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "bytes": 0
+        },
+        "tripinfo.xml": {
+          "sha256": "58a1562f2143a76956e60919ac2dbf266b7121c4f4d7c4f72f26c103a63c1750",
+          "bytes": 3371598
+        }
+      }
+    },
+    {
+      "case": "holdout/H03_seed307",
+      "source_directory": "author_holdout_v2/runs/holdout/H03_seed307",
+      "files": {
+        "collisions.xml": {
+          "sha256": "68e5cd20b307a2ec8bc02dab115335a09d4b52919c80543f67ef86edff303e98",
+          "bytes": 1812
+        },
+        "lane_queues.xml": {
+          "sha256": "6039c2e9429df346477457becf81e538c2b9005ff520e190d63ca7bf7ea2f098",
+          "bytes": 418431
+        },
+        "metrics.json": {
+          "sha256": "98bad7b566fce18b5ad3f92baa0f5f66454ecb9e53b6ea166d9180cf185ca057",
+          "bytes": 3656
+        },
+        "statistics.xml": {
+          "sha256": "dc92107cecb02354fbe69495f85d85ab54e8e5936f9c7b750a1914c2aba9e780",
+          "bytes": 2774
+        },
+        "stopline_events.xml": {
+          "sha256": "cc11fe6532cf26ac002f2d515bd64bc16514ec7c40fa36be0eb6c7fb929668e6",
+          "bytes": 15104365
+        },
+        "summary.xml": {
+          "sha256": "0da1620baba1e1494f82d03cdf11973df53d577a291fbee0df2a242f3d032a71",
+          "bytes": 9244093
+        },
+        "sumo_stderr.log": {
+          "sha256": "d15e084e4d3034cf52d202b1fc0fd67d83831c9bdc335ed0a4433d98b6ee5a27",
+          "bytes": 416
+        },
+        "sumo_stdout.log": {
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "bytes": 0
+        },
+        "tripinfo.xml": {
+          "sha256": "8f15a1b8286821a59d3359ead36d2810f60c07ad7f64427010b0e560784a6a72",
+          "bytes": 3369496
+        }
+      }
+    },
+    {
+      "case": "holdout/H03_seed401",
+      "source_directory": "author_holdout_v2/runs/holdout/H03_seed401",
+      "files": {
+        "collisions.xml": {
+          "sha256": "79357aa19d4fa7586d4e3833d6f6e7f59c246c916769f80c0f3581f89c89e209",
+          "bytes": 1812
+        },
+        "lane_queues.xml": {
+          "sha256": "f2f42a8f5b6f77853d866536b026809b535d0d6885be5c7d19d5a83672fe3eeb",
+          "bytes": 418441
+        },
+        "metrics.json": {
+          "sha256": "defca6fe25d8051cc888f07c9b33e85fc26227c744040adb4647e32c56bcae46",
+          "bytes": 3658
+        },
+        "statistics.xml": {
+          "sha256": "c264c55c54fc3799524ee9ff4a063f678714ecf1a191963a88761a53df14d797",
+          "bytes": 2774
+        },
+        "stopline_events.xml": {
+          "sha256": "0fe64f55fa9ffb339e168ee21b879e237d5a32b2b9d9f2b8f796f870543615fd",
+          "bytes": 15040333
+        },
+        "summary.xml": {
+          "sha256": "bae0e71c70ca9049cb7ba04f270caab6ab8cbf8695664ee03c924cf178474756",
+          "bytes": 9242782
+        },
+        "sumo_stderr.log": {
+          "sha256": "469b36d1bb59f84629c1fbab814c3a1cd4710af4604f6d1b93ce126e97c22784",
+          "bytes": 417
+        },
+        "sumo_stdout.log": {
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "bytes": 0
+        },
+        "tripinfo.xml": {
+          "sha256": "96a838618b3ecba0a33c9f3194a94d59953c1ff111d57928340e499dddb6d10d",
+          "bytes": 3368925
+        }
+      }
+    },
+    {
+      "case": "holdout/H03_seed503",
+      "source_directory": "author_holdout_v2/runs/holdout/H03_seed503",
+      "files": {
+        "collisions.xml": {
+          "sha256": "40c8e21127202c86e14bafae447cb711d911df5907fa61832e98725d705264a3",
+          "bytes": 2122
+        },
+        "lane_queues.xml": {
+          "sha256": "10299899c39c99174744ac77647d99c1bc7dd945d2496b8ed9942abe6d3990c8",
+          "bytes": 418429
+        },
+        "metrics.json": {
+          "sha256": "acb7e7321e0a2a4d8533bdb01a794c4c7231a28b2d25876753bf3d4fb0d2aa66",
+          "bytes": 3745
+        },
+        "statistics.xml": {
+          "sha256": "3f01f9885d71fb6dc36affa355d501b13d0e4a8d0e0e5f32044d072dfd62c21e",
+          "bytes": 2773
+        },
+        "stopline_events.xml": {
+          "sha256": "f4766164f6c33f44532952a3fcce8c13f169c4c0089816778189b864dff4470c",
+          "bytes": 15138039
+        },
+        "summary.xml": {
+          "sha256": "77ffcf5f0b52f1cd8ceb4f7aec450c78f468b37c0a8d427ca3b578c0410fa779",
+          "bytes": 9242020
+        },
+        "sumo_stderr.log": {
+          "sha256": "fd9b20e315816b445b62c15615238a148f6d9e7115fb1d2e81d101c021f9f0a0",
+          "bytes": 826
+        },
+        "sumo_stdout.log": {
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "bytes": 0
+        },
+        "tripinfo.xml": {
+          "sha256": "3fc86ba6e3293e28ae2ee58a83dc7a358f5aa24a63a49615eaf49b4b28944782",
+          "bytes": 3370411
+        }
+      }
+    },
+    {
+      "case": "holdout/H03_seed601",
+      "source_directory": "author_holdout_v2/runs/holdout/H03_seed601",
+      "files": {
+        "collisions.xml": {
+          "sha256": "4e33bad18e3efed950386c854c843e5e1c956e338d9be084532231a494230953",
+          "bytes": 1812
+        },
+        "lane_queues.xml": {
+          "sha256": "da7494ad2695096fc4553c672e544c11d644293c0c57758c2a4263e20109f49f",
+          "bytes": 418409
+        },
+        "metrics.json": {
+          "sha256": "55f98ebb15379506afae807dc038ca23fdfbda92733fb864da400a98c45cf285",
+          "bytes": 3656
+        },
+        "statistics.xml": {
+          "sha256": "25187b566b13a6d40506ba18cb495b4b8aefc29f766a53dd89c1ed24c7e5b165",
+          "bytes": 2773
+        },
+        "stopline_events.xml": {
+          "sha256": "142e8ad46e6b656ef77dda480527dce6edf22301a9251a64c5778cef7c2fcc41",
+          "bytes": 15234162
+        },
+        "summary.xml": {
+          "sha256": "64b16f95ebbc709bb467e5f209ec7ed935b30448fd437a197ade8d13a17d6d6c",
+          "bytes": 9245703
+        },
+        "sumo_stderr.log": {
+          "sha256": "c4ebbf2df68e0a6d3434756c96504740188c60422e721952c99071c7a9fb6404",
+          "bytes": 695
+        },
+        "sumo_stdout.log": {
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "bytes": 0
+        },
+        "tripinfo.xml": {
+          "sha256": "206a57e69b656bd215e121c6c50bd643c738878868d75e861fa74a7330d3b8d0",
+          "bytes": 3371292
+        }
+      }
+    },
+    {
+      "case": "holdout/H04_seed211",
+      "source_directory": "author_holdout_v2/runs/holdout/H04_seed211",
+      "files": {
+        "collisions.xml": {
+          "sha256": "581f0c0a6be8f00ca4dbbe09ae3e4b085341f60a5e68be63dd0c9cc512f59e05",
+          "bytes": 1812
+        },
+        "lane_queues.xml": {
+          "sha256": "ad58100cfacba2c7709a4942377c18b82d88259dc34bc0b59b9441801916459b",
+          "bytes": 418646
+        },
+        "metrics.json": {
+          "sha256": "0adfe6f9156234ad22b2ccd87c65115a041e417b25b2cd1482a67fcad5cf4892",
+          "bytes": 3658
+        },
+        "statistics.xml": {
+          "sha256": "d5a71c01b7742021acf34aa7247ed7656f09cc75861b9128eb98585bcdff0e29",
+          "bytes": 2774
+        },
+        "stopline_events.xml": {
+          "sha256": "2e4e940c5c09c3397508a3ffb87655a7730298efd9b198c4eefe1abbf8815674",
+          "bytes": 15363612
+        },
+        "summary.xml": {
+          "sha256": "746425ba9ed49ac9df48ec7b371ac1fc6f1babb1bc9718e7d86a22e5c4216dce",
+          "bytes": 9247665
+        },
+        "sumo_stderr.log": {
+          "sha256": "74a2bd697cf2278091eb6ad0735e5704844c9f396bce330f98a9c987e25aa249",
+          "bytes": 556
+        },
+        "sumo_stdout.log": {
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "bytes": 0
+        },
+        "tripinfo.xml": {
+          "sha256": "3d4fed3b15d114827cb90d5ab5242d1004a5a00c1ba1be5c5143cfa60b461421",
+          "bytes": 3373430
+        }
+      }
+    },
+    {
+      "case": "holdout/H04_seed307",
+      "source_directory": "author_holdout_v2/runs/holdout/H04_seed307",
+      "files": {
+        "collisions.xml": {
+          "sha256": "a783e00d8e31ef441054127cb332d4007170c369705a0bb68535abc0a5b644d2",
+          "bytes": 2747
+        },
+        "lane_queues.xml": {
+          "sha256": "4cca2908e58dcd4c481797f992ae1371ed3bf1e73a1d64c5e0bdc35fbf432cff",
+          "bytes": 418667
+        },
+        "metrics.json": {
+          "sha256": "e6dc8ac3b067b5b87386154c19414dac80bb2219d014c108b9d4c2ce97837361",
+          "bytes": 3712
+        },
+        "statistics.xml": {
+          "sha256": "8ce9790a3e8bc17bda252bedb4b2f7bc06d57040ec0bca5d63aaec3f7f33c8f2",
+          "bytes": 2774
+        },
+        "stopline_events.xml": {
+          "sha256": "9c04343fc3982f13c8b52281c354e8fd6580b7ba2f0b5fe6149c46c84cbca55a",
+          "bytes": 15409576
+        },
+        "summary.xml": {
+          "sha256": "2ff3b7aec80867399e121c7ee2dcafc60674b73bd981e05c27f16af818a11e6f",
+          "bytes": 9245526
+        },
+        "sumo_stderr.log": {
+          "sha256": "92f1dc8e69a9d9b88dcbe801e3b78f6dc0fd73ebdfca2e53fd63b42cb490929e",
+          "bytes": 1386
+        },
+        "sumo_stdout.log": {
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "bytes": 0
+        },
+        "tripinfo.xml": {
+          "sha256": "754278e32fa8c7359633f5e105271a5872be2be8b2918c6df4e8f36a019c9aea",
+          "bytes": 3373164
+        }
+      }
+    },
+    {
+      "case": "holdout/H04_seed401",
+      "source_directory": "author_holdout_v2/runs/holdout/H04_seed401",
+      "files": {
+        "collisions.xml": {
+          "sha256": "b8c047c6803c27ab7ff89ce4e0e6205d94d4d3bf8d263b1c5ff345ca8984b140",
+          "bytes": 1812
+        },
+        "lane_queues.xml": {
+          "sha256": "7de794cb0c3ffc6cee7a2783c11cded011d1209d8aa63d0082d03c684f3ea201",
+          "bytes": 418650
+        },
+        "metrics.json": {
+          "sha256": "74af8ddd4c99ca253cd0375a6a8c74f82abb0c662f46222558b318dcc12b2d5b",
+          "bytes": 3658
+        },
+        "statistics.xml": {
+          "sha256": "dc7ba5490b2fe4bb647bcade4b91e9ec675b1890fb2a87b3d8f7a8eacff35c50",
+          "bytes": 2774
+        },
+        "stopline_events.xml": {
+          "sha256": "a6a5975d0e5786001b601f00a8bd454bd8508350576fc271d1d4da664029b007",
+          "bytes": 15348872
+        },
+        "summary.xml": {
+          "sha256": "9cd70ec8af63e7f910292cc5a57f529233e3e88d447d17f17b84fdfb60d292f5",
+          "bytes": 9246036
+        },
+        "sumo_stderr.log": {
+          "sha256": "1614fe29be009da648ba0b56ea611e99b6b368069dcab89942127607d2b47d14",
+          "bytes": 832
+        },
+        "sumo_stdout.log": {
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "bytes": 0
+        },
+        "tripinfo.xml": {
+          "sha256": "c05141d559f1485d68830b6a6eac20928a5a71862619ffdeaa3f438dd09ecdc9",
+          "bytes": 3373335
+        }
+      }
+    },
+    {
+      "case": "holdout/H04_seed503",
+      "source_directory": "author_holdout_v2/runs/holdout/H04_seed503",
+      "files": {
+        "collisions.xml": {
+          "sha256": "0f7e9d8dd85232178bf9f1319d44c78441876aee00ede8decd149b54153cc527",
+          "bytes": 1812
+        },
+        "lane_queues.xml": {
+          "sha256": "2fd62f457f7eaa5b423ef6efa4d9ea7c1f33b567b8d6f16fef4aa5501e82bc29",
+          "bytes": 418666
+        },
+        "metrics.json": {
+          "sha256": "9c07c3f31c0706b9be2503d6b6f1fa5a68c42dd6944a1f2ee3fd7dbf4bf574bd",
+          "bytes": 3641
+        },
+        "statistics.xml": {
+          "sha256": "b4115cfeac47fe3405e4d9117be1c44ace282cf0b3ea9ff32d421afb2dead54a",
+          "bytes": 2774
+        },
+        "stopline_events.xml": {
+          "sha256": "0824322616adbe05fcdf0cfb0469e132777ea987b294996b963b54efb3e13ec4",
+          "bytes": 15357753
+        },
+        "summary.xml": {
+          "sha256": "9246aea08332bf6b438df7ad53e80eeffada95de9029c5252a0a50ca1c78dd10",
+          "bytes": 9245260
+        },
+        "sumo_stderr.log": {
+          "sha256": "6958aa206ccaa746422955bc3234791a8b4d6fc93cd48f5d65ce8fa243453d17",
+          "bytes": 420
+        },
+        "sumo_stdout.log": {
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "bytes": 0
+        },
+        "tripinfo.xml": {
+          "sha256": "d96d56e6ce968c5d05e390743a06c9c0a6a2888efd32531b8214c8fdf74fda21",
+          "bytes": 3373472
+        }
+      }
+    },
+    {
+      "case": "holdout/H04_seed601",
+      "source_directory": "author_holdout_v2/runs/holdout/H04_seed601",
+      "files": {
+        "collisions.xml": {
+          "sha256": "3f36990e1a39d4ee941f548dc06199830abec178aa2acb73ddd469b1daff5fe1",
+          "bytes": 2438
+        },
+        "lane_queues.xml": {
+          "sha256": "6cc49d658c17d77d590b4b232bba76e9094dbff802af5ff611fab162be748153",
+          "bytes": 418744
+        },
+        "metrics.json": {
+          "sha256": "81afcdff1f0d7c5e082084a692eb7133570fc70ec144373aedef518337c2baa5",
+          "bytes": 3703
+        },
+        "statistics.xml": {
+          "sha256": "7a0f5e4435c94bac0f5573e84b2f71ea19c4d3885e3a875860d3bc64690205c8",
+          "bytes": 2774
+        },
+        "stopline_events.xml": {
+          "sha256": "ced76c8d01a6e1fa8618a5ed0bdf5e23b82e6c8f354c2b3ef16a7f84bafb8ae4",
+          "bytes": 15499600
+        },
+        "summary.xml": {
+          "sha256": "151f348b11163f4e287d8c8fdb31bde7d765e9d83d00638ff2fbc88bf3248255",
+          "bytes": 9238098
+        },
+        "sumo_stderr.log": {
+          "sha256": "a12a13700a7db2ff77197e88a2c59af7ede6f26f1bb604e2c79f2b3db184c0c5",
+          "bytes": 1016
+        },
+        "sumo_stdout.log": {
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "bytes": 0
+        },
+        "tripinfo.xml": {
+          "sha256": "6bcd269b4d24b8c25907e1a1d79f01b8b17188a2f8c2f45107a37003e2a39b0a",
+          "bytes": 3373809
+        }
+      }
+    },
+    {
+      "case": "holdout/H05_seed211",
+      "source_directory": "author_holdout_v2/runs/holdout/H05_seed211",
+      "files": {
+        "collisions.xml": {
+          "sha256": "9bb8b1bccbae4145ed86c0c06dbcd6be6e8356485395397733f353e0be174515",
+          "bytes": 382243
+        },
+        "lane_queues.xml": {
+          "sha256": "ce136a8a2af826625b10371cf8b465605efda3b79f6b0dcb00db60b209627359",
+          "bytes": 419061
+        },
+        "metrics.json": {
+          "sha256": "9d32bc11ba148bd5a9b34390243dd4844bff56ff74e04fba5714c77ed53612ad",
+          "bytes": 4823
+        },
+        "statistics.xml": {
+          "sha256": "ac4d605d40a62a9c3c9505c04d8f94307d8f23dd241a423f18f3ff6309a678ca",
+          "bytes": 2782
+        },
+        "stopline_events.xml": {
+          "sha256": "3ca2f764cf73da79fe23c4b972040f43bc9cb86df1f47c6f75b2516df4a08ac2",
+          "bytes": 15651303
+        },
+        "summary.xml": {
+          "sha256": "19115ecd3200570cad59c3fef89fc3ba62a562e1ebf787aa8cd6cd2d2f29244e",
+          "bytes": 9334526
+        },
+        "sumo_stderr.log": {
+          "sha256": "99df1b7e40c922f1d04ce38ff8a9cf3acaad36b1dc3c643eda7e4c944c8c0976",
+          "bytes": 306421
+        },
+        "sumo_stdout.log": {
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "bytes": 0
+        },
+        "tripinfo.xml": {
+          "sha256": "a535f7bc223092510ef4605f8a757127e20b9b697fd24c469cd83149413cfedf",
+          "bytes": 3379676
+        }
+      }
+    },
+    {
+      "case": "holdout/H05_seed307",
+      "source_directory": "author_holdout_v2/runs/holdout/H05_seed307",
+      "files": {
+        "collisions.xml": {
+          "sha256": "98f48621104f5a8a1acd1d2107c3796b33ee632e2289db34eb5b69625b451261",
+          "bytes": 302665
+        },
+        "lane_queues.xml": {
+          "sha256": "7b376d2e857a6e0bba0585bb72ca85ed9df3cbc9c882bcaf4cde2ad382d121ef",
+          "bytes": 418852
+        },
+        "metrics.json": {
+          "sha256": "0ed7ed28226033bbd4596665528175af42ff11d9d9bccd6ea693003c445ad880",
+          "bytes": 4752
+        },
+        "statistics.xml": {
+          "sha256": "cf73313ddfdea44b7fa890fe1ad391e8879b723b91a77678b9fd55319272191d",
+          "bytes": 2775
+        },
+        "stopline_events.xml": {
+          "sha256": "94635ab1f88ec9b8c359f4bbde845a5aea66e7616a22830e4154ffd6208b7cab",
+          "bytes": 15921721
+        },
+        "summary.xml": {
+          "sha256": "0dab3b5e62582a58955289d4721bbb857a9fe6ae3adfba2c1af85c97930765c1",
+          "bytes": 9299169
+        },
+        "sumo_stderr.log": {
+          "sha256": "24d9058e35c312b34d052f0d1ebac43ec0af8189172d608f4fefe165b5778d37",
+          "bytes": 224443
+        },
+        "sumo_stdout.log": {
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "bytes": 0
+        },
+        "tripinfo.xml": {
+          "sha256": "57070611d2b6d04d8ac56599614c19c6e33dc4929d4dd1a06b76f163a32549b5",
+          "bytes": 3380877
+        }
+      }
+    },
+    {
+      "case": "holdout/H05_seed401",
+      "source_directory": "author_holdout_v2/runs/holdout/H05_seed401",
+      "files": {
+        "collisions.xml": {
+          "sha256": "698de91f1a8fec8d9c6ea49bf76d0fb68ae0947bc7b6c5774536f8aea35fcf38",
+          "bytes": 279254
+        },
+        "lane_queues.xml": {
+          "sha256": "40853fcd5c9f27006aedfbbbdb50877d13a6799cf7733cc0e1b759950ed983f8",
+          "bytes": 418812
+        },
+        "metrics.json": {
+          "sha256": "f98c51ad5ba5989bbc7561c1fe5224579fc9efe5bf46a3dc348fb8d4221aae8e",
+          "bytes": 4780
+        },
+        "statistics.xml": {
+          "sha256": "53be042fa05b16f19e103e1f504a16dfeeb73089a3b6d19e01d26b8a42467143",
+          "bytes": 2776
+        },
+        "stopline_events.xml": {
+          "sha256": "43624a5206558a22ff4b72ec4996e6c4bc0ad4f16df1778e13f03c8a080ec806",
+          "bytes": 15751763
+        },
+        "summary.xml": {
+          "sha256": "91f2c6b7a0b345f7ac236c2a96bf7d2bbaf0f7629842b121efd4192ae24c384c",
+          "bytes": 9300885
+        },
+        "sumo_stderr.log": {
+          "sha256": "261afafc79c3630d00703480cad520b0251325f241fc0de1651857509012ea2d",
+          "bytes": 207300
+        },
+        "sumo_stdout.log": {
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "bytes": 0
+        },
+        "tripinfo.xml": {
+          "sha256": "d22966b749ee2dd967547259658ecd61a28378e5fa964eea0d74b73b2ddec84e",
+          "bytes": 3379692
+        }
+      }
+    },
+    {
+      "case": "holdout/H05_seed503",
+      "source_directory": "author_holdout_v2/runs/holdout/H05_seed503",
+      "files": {
+        "collisions.xml": {
+          "sha256": "70f43abbd387c52558c1607d61e564523bd9675fc5761af0fe9146ebe2364e51",
+          "bytes": 282703
+        },
+        "lane_queues.xml": {
+          "sha256": "60e16216dc560b529e95de02e3c163f400be79d0d891e025f15efa97c70b4b89",
+          "bytes": 418772
+        },
+        "metrics.json": {
+          "sha256": "ff23caafd304885e8ed6271ba2af4fad516930142053b8e400140f5b835fb76c",
+          "bytes": 4783
+        },
+        "statistics.xml": {
+          "sha256": "994f6be1a32eddad698f934843c2511829369000fdcbfa7df951fff8c1cd6bf2",
+          "bytes": 2775
+        },
+        "stopline_events.xml": {
+          "sha256": "cee012abe949af6e2bc1f86fa3f789ebb654dbb591ef3beacc24d5d2f302d671",
+          "bytes": 15860942
+        },
+        "summary.xml": {
+          "sha256": "1d31e0777ced765eec06697f29eaaef5ac8c825dd2571ca785625a692c07276f",
+          "bytes": 9297170
+        },
+        "sumo_stderr.log": {
+          "sha256": "7d80d12f2967496a22a1336f2996238c3fb4526a051836bc65859d2db9fd1b16",
+          "bytes": 207582
+        },
+        "sumo_stdout.log": {
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "bytes": 0
+        },
+        "tripinfo.xml": {
+          "sha256": "9bdbf34af170ca9b845f62f1334c78b7b8e737923a52fdff79beae0b50a3a428",
+          "bytes": 3381429
+        }
+      }
+    },
+    {
+      "case": "holdout/H05_seed601",
+      "source_directory": "author_holdout_v2/runs/holdout/H05_seed601",
+      "files": {
+        "collisions.xml": {
+          "sha256": "af2f398a5ddab56783045b3cbd15b5b874827ecdfefb5d85988976fc6a63e054",
+          "bytes": 438403
+        },
+        "lane_queues.xml": {
+          "sha256": "16a3f3471de644edda9e079a01b42b28d2dc02c5c9f041919af0dae0bf172d72",
+          "bytes": 419110
+        },
+        "metrics.json": {
+          "sha256": "fac185f5e602ab1c615cc1eebcfa21d307caab11ee85fdea11935a903630844b",
+          "bytes": 4941
+        },
+        "statistics.xml": {
+          "sha256": "e259bb814ecba227ebed8328d025dd07cfec6f628fbef96de5125dae3b4da048",
+          "bytes": 2782
+        },
+        "stopline_events.xml": {
+          "sha256": "7e575e28cd47e5fc05b58b098477704b557e2a12da31068841b98f9d0e17089b",
+          "bytes": 15798806
+        },
+        "summary.xml": {
+          "sha256": "2baa431a3dee63f4b8f8fa51abd6bc2e1e5e6ab11b92f6b7919185ac15945aa7",
+          "bytes": 9338648
+        },
+        "sumo_stderr.log": {
+          "sha256": "2840b38ba868f9f4574dfb6af8e94dbb15fa45b145d177196442c5fc3d5da0f5",
+          "bytes": 354851
+        },
+        "sumo_stdout.log": {
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "bytes": 0
+        },
+        "tripinfo.xml": {
+          "sha256": "5b6bbc7ab9b2190d76212c842f946d562933e2bf615d4f36c4a871bcf726dd22",
+          "bytes": 3380658
+        }
+      }
+    },
+    {
+      "case": "holdout/H06_seed211",
+      "source_directory": "author_holdout_v2/runs/holdout/H06_seed211",
+      "files": {
+        "collisions.xml": {
+          "sha256": "607509f3f1b47aca5f39f6b6d1bbc2b44f9575dd313cd4e30b0e8642142e2480",
+          "bytes": 1812
+        },
+        "lane_queues.xml": {
+          "sha256": "efb3d62dff4889a335f1e3226a1583a9b5b3012e922a518c639ee0f0607a6a2b",
+          "bytes": 418187
+        },
+        "metrics.json": {
+          "sha256": "251d8da70c5013c0703baa9d5dccc30d770388558a5c8050f19d5ef0c5002b56",
+          "bytes": 3666
+        },
+        "statistics.xml": {
+          "sha256": "36e7706888e91cc0d6b266e00d98c91e82d6cf1364874ef877b9729dedcaa184",
+          "bytes": 2773
+        },
+        "stopline_events.xml": {
+          "sha256": "a9e91576b4ea6b0e211abe6ec8e94692c4781d7cbf9d7a17d8a3cc72008a3aa7",
+          "bytes": 14435062
+        },
+        "summary.xml": {
+          "sha256": "1ebb285f767bf419bf22c3634519c886e4d026cd8e2840b6caa397d9f00e2f24",
+          "bytes": 9237459
+        },
+        "sumo_stderr.log": {
+          "sha256": "01466757a9f05d93a051173483d0697b548fc2985118940f6633517166ebb6ed",
+          "bytes": 415
+        },
+        "sumo_stdout.log": {
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "bytes": 0
+        },
+        "tripinfo.xml": {
+          "sha256": "9c19f62c61d9c674ff3492bd5bec14de60c5558c6c1aaef357a2aa38dba68cbd",
+          "bytes": 3103322
+        }
+      }
+    },
+    {
+      "case": "holdout/H06_seed307",
+      "source_directory": "author_holdout_v2/runs/holdout/H06_seed307",
+      "files": {
+        "collisions.xml": {
+          "sha256": "d347de24a6be2b24cac12ec7067c4bd9065e2e1a8806b2d494382f6804af85bd",
+          "bytes": 1812
+        },
+        "lane_queues.xml": {
+          "sha256": "653feba3761827affba6e8fa403c3f14498f54652674fdad3c8dca81cc90a48f",
+          "bytes": 418200
+        },
+        "metrics.json": {
+          "sha256": "a766712c84fe307ab6d3fa2a642acea32a0fbb50e7dcce0c66dd2c37e153eb43",
+          "bytes": 3667
+        },
+        "statistics.xml": {
+          "sha256": "7600b4cedab43999e93718b99076238033bc2c07a0e238338fa5bca4595297cd",
+          "bytes": 2773
+        },
+        "stopline_events.xml": {
+          "sha256": "735f0b5bf37da4add14939132efbb20fe805f1359e630e9195dee8251c57cac6",
+          "bytes": 14545098
+        },
+        "summary.xml": {
+          "sha256": "4a85a22750d99ec64c33280035fd8a871e908b825e5d4997413443a0ff8de9b5",
+          "bytes": 9237254
+        },
+        "sumo_stderr.log": {
+          "sha256": "00da0a3e56fc025f756a881c74d19697ef3a4a9e93b524b453841fb3f8dfd815",
+          "bytes": 556
+        },
+        "sumo_stdout.log": {
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "bytes": 0
+        },
+        "tripinfo.xml": {
+          "sha256": "d1aaca88156546ef85051d267da0a3dcbf1ae1c0ba867504e0a34d87c0dc3237",
+          "bytes": 3103596
+        }
+      }
+    },
+    {
+      "case": "holdout/H06_seed401",
+      "source_directory": "author_holdout_v2/runs/holdout/H06_seed401",
+      "files": {
+        "collisions.xml": {
+          "sha256": "9acc670ee1d07a7f793d28057a577db62d3a61401bb147432fedf3868fcd86a2",
+          "bytes": 1812
+        },
+        "lane_queues.xml": {
+          "sha256": "16a446005361b9cfa3036c41dbfe186ad79688076ec250c77b156ec9e56ce2d6",
+          "bytes": 418194
+        },
+        "metrics.json": {
+          "sha256": "588d9eb5ac3297772fd61213cf344327162cb13926dd95643edf8b18b8a2502e",
+          "bytes": 3656
+        },
+        "statistics.xml": {
+          "sha256": "0e1822ff8e91c0db8792f31d2b50423a8be23caa73ddbf216a49443b50be88d6",
+          "bytes": 2773
+        },
+        "stopline_events.xml": {
+          "sha256": "e1896f726d5e7d1fd9996d229de2827f289b1dde08b18eeeeb8961e4d5f22fbf",
+          "bytes": 14506336
+        },
+        "summary.xml": {
+          "sha256": "48cb9e70ff4d9936d786f45542379966c7a5d81a21ad1d92e5e7a3b93e729a27",
+          "bytes": 9233434
+        },
+        "sumo_stderr.log": {
+          "sha256": "41e081df8d4c0036f9438415714e1e3717363c9e2d899c184437750d29eb8301",
+          "bytes": 278
+        },
+        "sumo_stdout.log": {
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "bytes": 0
+        },
+        "tripinfo.xml": {
+          "sha256": "596ad21a8e3074c7e136f56b86f7fd3ed5bf95526dd11967efe6847a6443b0e2",
+          "bytes": 3103655
+        }
+      }
+    },
+    {
+      "case": "holdout/H06_seed503",
+      "source_directory": "author_holdout_v2/runs/holdout/H06_seed503",
+      "files": {
+        "collisions.xml": {
+          "sha256": "5ef71f0155016adeddb4f43628ca3fbaa7ea54aa446c366720c5df798495d498",
+          "bytes": 1812
+        },
+        "lane_queues.xml": {
+          "sha256": "1274735c087d163122a09d07fb58bf85837c995280a3538ec5401332c3a95642",
+          "bytes": 418198
+        },
+        "metrics.json": {
+          "sha256": "e54e913b052c3340060534b82b0bcd8109afd624d3e5b0fae48ff4193864b2a4",
+          "bytes": 3669
+        },
+        "statistics.xml": {
+          "sha256": "c784d039721ddf39bccca476c8405ef2ad4530f72ffe7b16048bd02fb47b4972",
+          "bytes": 2773
+        },
+        "stopline_events.xml": {
+          "sha256": "b393349fe65474040b86b11a5591ba73739afbcae338577084ed868c0b61c2ff",
+          "bytes": 14398715
+        },
+        "summary.xml": {
+          "sha256": "cd6a0a41a965dd5f6c0d349bc5fa7b71f9ca1d53b63298b860a343198800dd79",
+          "bytes": 9240295
+        },
+        "sumo_stderr.log": {
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "bytes": 0
+        },
+        "sumo_stdout.log": {
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "bytes": 0
+        },
+        "tripinfo.xml": {
+          "sha256": "3f6f7115bdbafe7ff7c63aee49d98e12a5c354af764f3305a2ea43f12ea3d24a",
+          "bytes": 3102702
+        }
+      }
+    },
+    {
+      "case": "holdout/H06_seed601",
+      "source_directory": "author_holdout_v2/runs/holdout/H06_seed601",
+      "files": {
+        "collisions.xml": {
+          "sha256": "a34b8c4a3cce6f84173e60e24af5a5ebc0b4fd83bebcd16eb0a4bb1e438ccae5",
+          "bytes": 2122
+        },
+        "lane_queues.xml": {
+          "sha256": "a00ab5d43559e8c36f47a99e555b40fa8fde0270b26e4090a433285609782745",
+          "bytes": 418172
+        },
+        "metrics.json": {
+          "sha256": "49d6359a6577786d572eff92b2f24cfa24bddd8542e48c39ad6079ed4ac3ce21",
+          "bytes": 3705
+        },
+        "statistics.xml": {
+          "sha256": "aad30a318ce71de09292a320143deabf493b539ab84ea8a970f3149e038d8614",
+          "bytes": 2773
+        },
+        "stopline_events.xml": {
+          "sha256": "0357ab46ca989f3385ab5e1a07398044a3d532718fdaca646922e8b8636e2f2d",
+          "bytes": 14441646
+        },
+        "summary.xml": {
+          "sha256": "23695e581b722b00fcb6ee517f5bdf2351ee6063158042a98db51affb7772501",
+          "bytes": 9236275
+        },
+        "sumo_stderr.log": {
+          "sha256": "eb4bba6644a78aedf476f2e0ed681975f48ec8b1d3b8099b3b8decfce8520c86",
+          "bytes": 508
+        },
+        "sumo_stdout.log": {
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "bytes": 0
+        },
+        "tripinfo.xml": {
+          "sha256": "ccecd592e70342527dd689398f10aa4d17283c45bd25c18d930bdb5bd7b52ada",
+          "bytes": 3103460
+        }
+      }
+    },
+    {
+      "case": "holdout/H07_seed211",
+      "source_directory": "author_holdout_v2/runs/holdout/H07_seed211",
+      "files": {
+        "collisions.xml": {
+          "sha256": "e626cc0e75f4ed8f0f0db8a218b1e16a452c359ce22e73ec8646eb9b32e6705c",
+          "bytes": 1812
+        },
+        "lane_queues.xml": {
+          "sha256": "644136807f0d4214bd6b24cd4509d9f66a13f231ff84c27021cf4d378f487a71",
+          "bytes": 418494
+        },
+        "metrics.json": {
+          "sha256": "11120e4832da57655c5de9389e480057252afd5a1e862051ade8cc960af92ccd",
+          "bytes": 3647
+        },
+        "statistics.xml": {
+          "sha256": "c79d6b7504e9e874f8043213f297d8613ddf4f4fedb7a1994f28bb1939d196e7",
+          "bytes": 2775
+        },
+        "stopline_events.xml": {
+          "sha256": "3b0686c6599f4b15b68b3f129d63d3b41580b876d7db648d5bcfd66c996d61ab",
+          "bytes": 14959425
+        },
+        "summary.xml": {
+          "sha256": "9b73ddec3c9466991335482090a7d2ef8fc027b8d32a317050c8bd2aa4b903fa",
+          "bytes": 9248056
+        },
+        "sumo_stderr.log": {
+          "sha256": "72d3891f453dcafae670c237550c91e0adc8ead73d8461eaa6eb3b139a380894",
+          "bytes": 557
+        },
+        "sumo_stdout.log": {
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "bytes": 0
+        },
+        "tripinfo.xml": {
+          "sha256": "2da9d2aa5f2ca8c23a22141c49f14015c1e81eed64a5d8cdf5bb4cc7a5c2d1c1",
+          "bytes": 3367820
+        }
+      }
+    },
+    {
+      "case": "holdout/H07_seed307",
+      "source_directory": "author_holdout_v2/runs/holdout/H07_seed307",
+      "files": {
+        "collisions.xml": {
+          "sha256": "ae8a475068c333729f5a82b0394728bb2272ee01aca92fe32901208689b08572",
+          "bytes": 1812
+        },
+        "lane_queues.xml": {
+          "sha256": "a20c45ff84ac4c31f7d3d25b412563f72a7813a284ea5ed5d1bcbb32495cbf2e",
+          "bytes": 418442
+        },
+        "metrics.json": {
+          "sha256": "5daa43b89b742f13737413db586d291e7aa02b593278737a2c6bac8d2710e113",
+          "bytes": 3659
+        },
+        "statistics.xml": {
+          "sha256": "c22b900a3bbc8c001e092927482670a5b57af8e1d967c779c73f407b30f4d08b",
+          "bytes": 2775
+        },
+        "stopline_events.xml": {
+          "sha256": "e064ade577af4ba61c264253b0beff85f0252ceffd9940170cc9b6506ccd14cf",
+          "bytes": 15060124
+        },
+        "summary.xml": {
+          "sha256": "aef86b06b322d696b0bd5610d0b31ac1f97365543bdcb3ae0e57a908ded30546",
+          "bytes": 9250890
+        },
+        "sumo_stderr.log": {
+          "sha256": "fb74c95dcfe1cb3aeebf25fd08c75e44232c058499e18fdf4cdb5eff6839179b",
+          "bytes": 696
+        },
+        "sumo_stdout.log": {
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "bytes": 0
+        },
+        "tripinfo.xml": {
+          "sha256": "3f155249f0a35a8a4773aca05fc20a57141848dea30f5a5d84c3ea4f5e3538b7",
+          "bytes": 3369938
+        }
+      }
+    },
+    {
+      "case": "holdout/H07_seed401",
+      "source_directory": "author_holdout_v2/runs/holdout/H07_seed401",
+      "files": {
+        "collisions.xml": {
+          "sha256": "a6bbff3fccb100023ed05e12eab8286b5fa1c0df521c07d4d81f84b3eeac80f1",
+          "bytes": 1812
+        },
+        "lane_queues.xml": {
+          "sha256": "e050831c713af4e2681dbbd218e2d62596a3e6c13d3f3cd5c96153b4d7cf9ab8",
+          "bytes": 418440
+        },
+        "metrics.json": {
+          "sha256": "8f4ca13a803be0a259e81ba3a56be0305a76979301c80bc99b3e3dceb723f495",
+          "bytes": 3653
+        },
+        "statistics.xml": {
+          "sha256": "ac04ab6289d1bce8203ce6aab88bb4fbdad82c12bac2005881a8061497973509",
+          "bytes": 2775
+        },
+        "stopline_events.xml": {
+          "sha256": "630414f02a148c465c343afd62c16cfa95b95b75180a258be3934ecfc61ace3a",
+          "bytes": 14806305
+        },
+        "summary.xml": {
+          "sha256": "8d706df19516581f9514e3d7676ed9c9618c913051ad6ccb9a113ca39d2c3a0a",
+          "bytes": 9250125
+        },
+        "sumo_stderr.log": {
+          "sha256": "2e5fbb540b29fac9423368ae27d12dc28e3fec8c63d0a82fe7720b88c1434423",
+          "bytes": 417
+        },
+        "sumo_stdout.log": {
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "bytes": 0
+        },
+        "tripinfo.xml": {
+          "sha256": "5ae6fbe47558b03808ded672256219b9e20994675c08f5e312d80c30d2eea237",
+          "bytes": 3366625
+        }
+      }
+    },
+    {
+      "case": "holdout/H07_seed503",
+      "source_directory": "author_holdout_v2/runs/holdout/H07_seed503",
+      "files": {
+        "collisions.xml": {
+          "sha256": "903726db56abbcf2cc3cdacd2e0d6e6ba6bd03f07b4eeeffca59fef3bc8cfa4b",
+          "bytes": 1812
+        },
+        "lane_queues.xml": {
+          "sha256": "4b6b38f22c487a8416677bc7824af4980f7f4e30539eac0e76797ebba8a79a8d",
+          "bytes": 418420
+        },
+        "metrics.json": {
+          "sha256": "e0c5684ae2b83f551120d4ec8661d589f9ea83a121228f6f957b938a2e2eac2c",
+          "bytes": 3658
+        },
+        "statistics.xml": {
+          "sha256": "8d32cfb8b9a68af390a675fa017bc4b25ae609db24f1834b4acee7a707583c15",
+          "bytes": 2776
+        },
+        "stopline_events.xml": {
+          "sha256": "be976f7e3fd32305eb8b799e26d81a2ed245c8beb76940aafefaa5bfd3117c7b",
+          "bytes": 14859042
+        },
+        "summary.xml": {
+          "sha256": "e01991455354a919b1e029fdeeacce140a361c43fad2d8cb2a24b11f3677295d",
+          "bytes": 9249077
+        },
+        "sumo_stderr.log": {
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "bytes": 0
+        },
+        "sumo_stdout.log": {
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "bytes": 0
+        },
+        "tripinfo.xml": {
+          "sha256": "bd32a42988c29306f27efd17907fdfff1bee3cf2ab6fe00c2657bd55eae25979",
+          "bytes": 3367369
+        }
+      }
+    },
+    {
+      "case": "holdout/H07_seed601",
+      "source_directory": "author_holdout_v2/runs/holdout/H07_seed601",
+      "files": {
+        "collisions.xml": {
+          "sha256": "a7f654c37380b1ef6df4d3725856c1adbf7417793be3c8e22b73999dc81bf313",
+          "bytes": 1812
+        },
+        "lane_queues.xml": {
+          "sha256": "33075779293acffcd2cfa698202a05a0155754e19a5c40db153baf0877124f00",
+          "bytes": 418440
+        },
+        "metrics.json": {
+          "sha256": "b36e1d3534f09ed87b4f28463640553a6cefd3537ce3a3a580b63ce7de1526da",
+          "bytes": 3654
+        },
+        "statistics.xml": {
+          "sha256": "b3f05765d45797635bd1bec012ce75fa901fe28d6144ba5d2268344407ddaa72",
+          "bytes": 2775
+        },
+        "stopline_events.xml": {
+          "sha256": "b8e6c3bf97158bcefc4e6358726fcd0cd00fb95add865ab7c44f776a19ffcc65",
+          "bytes": 14949989
+        },
+        "summary.xml": {
+          "sha256": "bdb3a4d8531ab78e92e79931849cd18ecd9ec60a28e0f41bccc74ae4a4522566",
+          "bytes": 9250078
+        },
+        "sumo_stderr.log": {
+          "sha256": "21eb0137827e0c4b2c0e906a4aa9d55b04c8cfe9f0978b65bed83acd1aff85b1",
+          "bytes": 416
+        },
+        "sumo_stdout.log": {
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "bytes": 0
+        },
+        "tripinfo.xml": {
+          "sha256": "2255bdae03f62ec375d2c45b4fe1a7f8642bc39e0c497377c42c75954b7f717c",
+          "bytes": 3368270
+        }
+      }
+    },
+    {
+      "case": "holdout/H08_seed211",
+      "source_directory": "author_holdout_v2/runs/holdout/H08_seed211",
+      "files": {
+        "collisions.xml": {
+          "sha256": "608ff7f0d9ee88923f978dfa9f4a1b6a37ea721c69ade5e2886a0b8c08bdb8e8",
+          "bytes": 1812
+        },
+        "lane_queues.xml": {
+          "sha256": "880e0baa6a90a5dc082b547d7fba33583f8fe9f375f1842dec9970deefcb8406",
+          "bytes": 418758
+        },
+        "metrics.json": {
+          "sha256": "58e97fdbccb20d50a77c28a59f7990da96d196d00829e49942c49ec57512b4b0",
+          "bytes": 3669
+        },
+        "statistics.xml": {
+          "sha256": "fc1647f5a599aec0fbfba3a092c6be60fb1041822fd4a2f89d601bf7baf09980",
+          "bytes": 2776
+        },
+        "stopline_events.xml": {
+          "sha256": "2bbde983e405678fceb746d6c6db6463753157e67bbd37cfdf56b3574965b317",
+          "bytes": 15523705
+        },
+        "summary.xml": {
+          "sha256": "8ef78dbd63a402e7af7461c9325f4856fae2d968fd8a054cffbd8f7f223ea3cb",
+          "bytes": 9261384
+        },
+        "sumo_stderr.log": {
+          "sha256": "0139020564e26cbba7f5d1cc0f76b28f456526c639946f6a663ee6a92126128d",
+          "bytes": 560
+        },
+        "sumo_stdout.log": {
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "bytes": 0
+        },
+        "tripinfo.xml": {
+          "sha256": "171ff2ff74b94a47d7fcf8f20b889b853f721de31b492c897bbed7ba8700a2d5",
+          "bytes": 3636569
+        }
+      }
+    },
+    {
+      "case": "holdout/H08_seed307",
+      "source_directory": "author_holdout_v2/runs/holdout/H08_seed307",
+      "files": {
+        "collisions.xml": {
+          "sha256": "3d89244d2271a7190fc8a6c918b6cbd524d0811baf6c15dfa2fc98690a4b2dcc",
+          "bytes": 1812
+        },
+        "lane_queues.xml": {
+          "sha256": "4643fcf8f586e371ea48ae4108c7a3e96856449ea64f1e0f50aace0b88378b92",
+          "bytes": 418823
+        },
+        "metrics.json": {
+          "sha256": "194786906700e3341a1d43c67941219a353aa2803771d26f3750c152bce62337",
+          "bytes": 3719
+        },
+        "statistics.xml": {
+          "sha256": "ac53020181a794b7de0e5d9850f0fa6e6b71ba3c1f38f399350829377e5b6f90",
+          "bytes": 2776
+        },
+        "stopline_events.xml": {
+          "sha256": "f5cc16b7750c08a9a9d4e8b2f04a38c7399c774b6f6024de4e4240c7c4f24b59",
+          "bytes": 15486549
+        },
+        "summary.xml": {
+          "sha256": "eda25a039157e8153d4b3da633d45fdc1c5dac0927b6c4ba25e35e8fc4d38543",
+          "bytes": 9260299
+        },
+        "sumo_stderr.log": {
+          "sha256": "4dfdf1dd4b5552a0262ba49278ac18057e83d6b607949572c95ad7adbbbe3dc2",
+          "bytes": 954
+        },
+        "sumo_stdout.log": {
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "bytes": 0
+        },
+        "tripinfo.xml": {
+          "sha256": "e362cbcec216348555fc38c506fe3fe776df1269be52392a570e71dae7d3c089",
+          "bytes": 3636869
+        }
+      }
+    },
+    {
+      "case": "holdout/H08_seed401",
+      "source_directory": "author_holdout_v2/runs/holdout/H08_seed401",
+      "files": {
+        "collisions.xml": {
+          "sha256": "8192fc3cd17cf59f2347230f7e701f503a5cf97f03c5b930142decddbdae5793",
+          "bytes": 2438
+        },
+        "lane_queues.xml": {
+          "sha256": "05f1867b330406212b18b07aca01e35433d0194fc910748992fcad9b58ac2387",
+          "bytes": 418802
+        },
+        "metrics.json": {
+          "sha256": "2f298ce38fddaeea586fca1675bdf29a72eeaa5d2a5b9c411559c48df5e061ea",
+          "bytes": 3808
+        },
+        "statistics.xml": {
+          "sha256": "c5519270119adb491b196cb3e067ab077da8d0b046bf2446f5cb90d4ab883339",
+          "bytes": 2776
+        },
+        "stopline_events.xml": {
+          "sha256": "759976fca2decdcd9ce1b35e942e6aad8da1f86ed274677b088180e9c042c9dd",
+          "bytes": 15517548
+        },
+        "summary.xml": {
+          "sha256": "e140c83cc00e8ba9ef2de3320f2e6d891faebe4b6724187e4e8e567a93778c91",
+          "bytes": 9258524
+        },
+        "sumo_stderr.log": {
+          "sha256": "4634049842c9cd358ff2340c11ad63f48d2856aad365c536fd93725ee33627b2",
+          "bytes": 1746
+        },
+        "sumo_stdout.log": {
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "bytes": 0
+        },
+        "tripinfo.xml": {
+          "sha256": "e59afef8ddd10402ae2bfb27f2ac36d250ba4dc27983ba878c96d759dcd4c1f7",
+          "bytes": 3637224
+        }
+      }
+    },
+    {
+      "case": "holdout/H08_seed503",
+      "source_directory": "author_holdout_v2/runs/holdout/H08_seed503",
+      "files": {
+        "collisions.xml": {
+          "sha256": "a9a579397f6309b588f13b340bccc4c1a0a2e285469d844b4da1202970a8a733",
+          "bytes": 2125
+        },
+        "lane_queues.xml": {
+          "sha256": "cbd1c0169cfe239213f0ef24f39bb14ed64f73cc5a1294d42cd6a2b0195c6303",
+          "bytes": 418774
+        },
+        "metrics.json": {
+          "sha256": "743f3838a345bfa79c82b158830b2ef9c91ad343ba5ff58ddc93189c8be7e6b7",
+          "bytes": 3717
+        },
+        "statistics.xml": {
+          "sha256": "ba9f2cc09cbc56166ec4d0a0f0711d5aaed959b42ccab799e45ce849f39daf6a",
+          "bytes": 2776
+        },
+        "stopline_events.xml": {
+          "sha256": "d374d1ba5b44430d17208f8883268f2ffa1523a2a05dfe28814177c4bb5e47fc",
+          "bytes": 15812876
+        },
+        "summary.xml": {
+          "sha256": "a42afccafcddf137db3b995c388f281554d491ece05b37327aa8fd5068954c65",
+          "bytes": 9261654
+        },
+        "sumo_stderr.log": {
+          "sha256": "d9c8c713447d5b9f602160393b43ee6cfdc8e14825e82e5df6cd0b008a7df18f",
+          "bytes": 647
+        },
+        "sumo_stdout.log": {
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "bytes": 0
+        },
+        "tripinfo.xml": {
+          "sha256": "aa9f95f5656d1d12566a57f1a378705bdff53fce97b0d9ae680bb23924a2f999",
+          "bytes": 3638709
+        }
+      }
+    },
+    {
+      "case": "holdout/H08_seed601",
+      "source_directory": "author_holdout_v2/runs/holdout/H08_seed601",
+      "files": {
+        "collisions.xml": {
+          "sha256": "a55cf84db890dbf906e0d73ddaf69cdbccfcf4bd18b7c31bda9e67ed4f87a2a8",
+          "bytes": 2438
+        },
+        "lane_queues.xml": {
+          "sha256": "1fc25d5849ce195cb3826afa97ed1273d76a1252d50428be65f90731a484eda6",
+          "bytes": 418759
+        },
+        "metrics.json": {
+          "sha256": "74fbcc6c2f992c09accd043901242f8b253631398d98cbed3a48897e8d771425",
+          "bytes": 3711
+        },
+        "statistics.xml": {
+          "sha256": "be076bc29d70d9b1f253cd44c0b5464fb795be33ac0ad7d6f7f3124dd6a84d08",
+          "bytes": 2776
+        },
+        "stopline_events.xml": {
+          "sha256": "fb572ea7fc38601568b3aa61d071efbd5db3465650e292458fd728618a9a57aa",
+          "bytes": 15678484
+        },
+        "summary.xml": {
+          "sha256": "b191e0e5e0f4f0b7611755f88e64f2a402ca5e872635acec86caa5f449c24a0b",
+          "bytes": 9258758
+        },
+        "sumo_stderr.log": {
+          "sha256": "798fec111817450bdd04c60b3f4281b2cc70f365af77d4b990beb359561c2c67",
+          "bytes": 1434
+        },
+        "sumo_stdout.log": {
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "bytes": 0
+        },
+        "tripinfo.xml": {
+          "sha256": "1d6c8a8ed16f69cb6b9310eece681fab1c544ee3c8d9a53d78c36c1ca8d55d54",
+          "bytes": 3638562
+        }
+      }
+    },
+    {
+      "case": "holdout/H09_seed211",
+      "source_directory": "author_holdout_v2/runs/holdout/H09_seed211",
+      "files": {
+        "collisions.xml": {
+          "sha256": "95c472ddb6c9f6a89edfc7796e37947f77216b2ee9d060cd4bec7ea526e95c7f",
+          "bytes": 1812
+        },
+        "lane_queues.xml": {
+          "sha256": "68bd0254daecdd6aa735031c17eb1ec0555872fec6afa2aa36d62c09d1225116",
+          "bytes": 419204
+        },
+        "metrics.json": {
+          "sha256": "061ae60b71b19a61e49df114e67de36f4c217de00a78c3ec40859976df52fd1a",
+          "bytes": 3750
+        },
+        "statistics.xml": {
+          "sha256": "dcd032af329b6e4a542eeb05d064c7dfd0aac3c7f6687e62287b5f8723e448f0",
+          "bytes": 2776
+        },
+        "stopline_events.xml": {
+          "sha256": "05d4bfc85037e89f1d04c876cb04311ba28168bd6cca07230a4add4a7b6a6b21",
+          "bytes": 16909834
+        },
+        "summary.xml": {
+          "sha256": "49fd63a425e09010a376733566d950b0923cd74e90dc742c559ad46a6e0bd1a5",
+          "bytes": 9270436
+        },
+        "sumo_stderr.log": {
+          "sha256": "5694e2f0aa93a407ab0e81fda91bdca2c5a37f469956accfed6a1f305525b659",
+          "bytes": 1064
+        },
+        "sumo_stdout.log": {
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "bytes": 0
+        },
+        "tripinfo.xml": {
+          "sha256": "ca5423753e674a59a59134e2982358b8c7c05e6e393988e69e5af6dee5f7db1f",
+          "bytes": 3372655
+        }
+      }
+    },
+    {
+      "case": "holdout/H09_seed307",
+      "source_directory": "author_holdout_v2/runs/holdout/H09_seed307",
+      "files": {
+        "collisions.xml": {
+          "sha256": "eb9df7aa9861af25a18baa5f370328ba8a86c5a661451932daaf30722b01fb24",
+          "bytes": 2750
+        },
+        "lane_queues.xml": {
+          "sha256": "b72293b21d4fcc0c1e5e8a5aedde996a6530e49e9286c663e7bb09c86417e326",
+          "bytes": 419139
+        },
+        "metrics.json": {
+          "sha256": "adcd7719167b5850f44fa3949a09e10a26751d341fcf46c4f1617b7f9f74d036",
+          "bytes": 3733
+        },
+        "statistics.xml": {
+          "sha256": "9a020dff97b55010eae47686d49d1028589d91df951b5c4a56c651378f7a1f27",
+          "bytes": 2776
+        },
+        "stopline_events.xml": {
+          "sha256": "88d2c03158c4a65850d4eee8065aee283c8a33051b6477753b8bba1c5e47ed70",
+          "bytes": 16965270
+        },
+        "summary.xml": {
+          "sha256": "04634f318fc3ebfbf8f789ac09ed2ce6ce93cf330ea1b093726eab683fb1bc4b",
+          "bytes": 9265548
+        },
+        "sumo_stderr.log": {
+          "sha256": "73764681f43097537d53745a8d0b8d5487d0ee92a1f54013f22104bfe773e366",
+          "bytes": 1377
+        },
+        "sumo_stdout.log": {
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "bytes": 0
+        },
+        "tripinfo.xml": {
+          "sha256": "177b2a5ee35998bf147d8ba7b4db82c727ec6bc4514f85f9b91401132de5646b",
+          "bytes": 3373800
+        }
+      }
+    },
+    {
+      "case": "holdout/H09_seed401",
+      "source_directory": "author_holdout_v2/runs/holdout/H09_seed401",
+      "files": {
+        "collisions.xml": {
+          "sha256": "6211f4dd7b76a99070ae27d9b12798f36e283a6063a6f1bea77e2dfc0be0dd06",
+          "bytes": 2437
+        },
+        "lane_queues.xml": {
+          "sha256": "ca79a50c8c942a6026f76b3fcddc033210ddc18b2941b286d626c38f61441fa4",
+          "bytes": 419144
+        },
+        "metrics.json": {
+          "sha256": "c1553536e49d1891f74abe3f8c6cc822b8fbc74cdf4de0c29ba6d5ee1f72141f",
+          "bytes": 3769
+        },
+        "statistics.xml": {
+          "sha256": "50d6373630d36985f8e76b7e01ec3ceb04696e9c36ad14357af4cb1023150010",
+          "bytes": 2776
+        },
+        "stopline_events.xml": {
+          "sha256": "b48f8cf9279c807d3b98ad46634ff7db81e7ab0b3b5c4ce45a4ce369c250ab28",
+          "bytes": 16966499
+        },
+        "summary.xml": {
+          "sha256": "27f2feb23892a8dccf05986a8c7011143bf38dbb792d65419034621a027e969e",
+          "bytes": 9265780
+        },
+        "sumo_stderr.log": {
+          "sha256": "74b71505a241839407d731f082db51bb992e44ed6ec965cf90f1ffdad9c93759",
+          "bytes": 1573
+        },
+        "sumo_stdout.log": {
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "bytes": 0
+        },
+        "tripinfo.xml": {
+          "sha256": "5fe6460ffa03061f1e5473b7213c84c730ac143c6aa9035c88de76955f6cc486",
+          "bytes": 3374022
+        }
+      }
+    },
+    {
+      "case": "holdout/H09_seed503",
+      "source_directory": "author_holdout_v2/runs/holdout/H09_seed503",
+      "files": {
+        "collisions.xml": {
+          "sha256": "52bc852ca9a53afb6811fe260c7e2441caf26995c87e9a1d5838b8f87f9fb552",
+          "bytes": 2749
+        },
+        "lane_queues.xml": {
+          "sha256": "f4cf0d834a4512d2a5e53e487ed4578953ba1bb5d15667ba0146fb70537b22b8",
+          "bytes": 419184
+        },
+        "metrics.json": {
+          "sha256": "e829ab70795cb5135f7bc1cdc4867ff2f367be9d72baeefa2c30c1f2ce21a119",
+          "bytes": 3747
+        },
+        "statistics.xml": {
+          "sha256": "b2723cadd7b504e763ce7d4e8d6f3b0251a8fa6118865c03ffbbb43eec04679f",
+          "bytes": 2776
+        },
+        "stopline_events.xml": {
+          "sha256": "d5a29d9c34c118888ab78127c59c445c65c1fd3cce345e6a6ef4eb2e85e6dd9a",
+          "bytes": 17027355
+        },
+        "summary.xml": {
+          "sha256": "62a1deda04cad6bc9a2747afbb41162552eee92f2164b050f9ed5a4a54ecb199",
+          "bytes": 9265187
+        },
+        "sumo_stderr.log": {
+          "sha256": "a9de01772fc3db84a85951b92cd60d1f735b6303ab41accde13c305d3c7f2439",
+          "bytes": 1282
+        },
+        "sumo_stdout.log": {
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "bytes": 0
+        },
+        "tripinfo.xml": {
+          "sha256": "c06179c0bbe4fd879742d1760a7c2cc2f2d2db9ecca68717c7dc1424ef7593c8",
+          "bytes": 3374036
+        }
+      }
+    },
+    {
+      "case": "holdout/H09_seed601",
+      "source_directory": "author_holdout_v2/runs/holdout/H09_seed601",
+      "files": {
+        "collisions.xml": {
+          "sha256": "f4bb5f647b8cf4ee198986869535f379cf3ba94068da794ad56625f1d946f517",
+          "bytes": 3376
+        },
+        "lane_queues.xml": {
+          "sha256": "82e919210ce118c298a493f9fae17cc1f78686777e8bae210b36461b3a102ff9",
+          "bytes": 419095
+        },
+        "metrics.json": {
+          "sha256": "cf7efa54462ff38aecebda79ed954086ed50a13723d15188376fddc82a2d8e41",
+          "bytes": 3765
+        },
+        "statistics.xml": {
+          "sha256": "fc895a2d5ca2f3196c648775697c474f43c6522f33b544af714ef5f1cd87f289",
+          "bytes": 2777
+        },
+        "stopline_events.xml": {
+          "sha256": "7aeb382dca5b9ca4f353d7af9347fe43f937b52dd9b8186041162ece812abacc",
+          "bytes": 16921171
+        },
+        "summary.xml": {
+          "sha256": "1aebbc437563f84e8e406fcecd5fd27cd33315ab8300bff0538453774fb40466",
+          "bytes": 9268035
+        },
+        "sumo_stderr.log": {
+          "sha256": "a23ceaf57ef970ec9b1f8c62020dcda2b951b1a66d7c0fa88d767aa459458494",
+          "bytes": 1600
+        },
+        "sumo_stdout.log": {
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "bytes": 0
+        },
+        "tripinfo.xml": {
+          "sha256": "8195ef41e744584139a30daab576e388cb2f10a68afb277728920b55e16a0286",
+          "bytes": 3372589
+        }
+      }
+    },
+    {
+      "case": "holdout/H10_seed211",
+      "source_directory": "author_holdout_v2/runs/holdout/H10_seed211",
+      "files": {
+        "collisions.xml": {
+          "sha256": "42f8526a2ad1b1ce42533600dacbf9b135694892aabd3f923e543ee87079956f",
+          "bytes": 1812
+        },
+        "lane_queues.xml": {
+          "sha256": "93b5e70df06d919925c373ef46099b5aced77083bd42e76443515b24f5bfc6a1",
+          "bytes": 418299
+        },
+        "metrics.json": {
+          "sha256": "6ea07afd31bc3a3270f9a0ce78866ea9285ee16aa4dc2b9d658100ca32c3d41f",
+          "bytes": 3668
+        },
+        "statistics.xml": {
+          "sha256": "4a168414fdd71b551413de01abc33493c3a9b6bc970e9add3d98ab287f57ac8b",
+          "bytes": 2775
+        },
+        "stopline_events.xml": {
+          "sha256": "807123792fd268a9fd85d0b7dd72717889c1fcbd3c797b6df6d6602358ca793f",
+          "bytes": 15561534
+        },
+        "summary.xml": {
+          "sha256": "16409b463deb9a7537a00aad2facf4097651b49ab6d689710bc7ee115cf3d89c",
+          "bytes": 9248484
+        },
+        "sumo_stderr.log": {
+          "sha256": "df1c9ce7323c6cd3936c1079e640d8a0973b22b0252c912aa3290e0902a2bf2b",
+          "bytes": 692
+        },
+        "sumo_stdout.log": {
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "bytes": 0
+        },
+        "tripinfo.xml": {
+          "sha256": "bf1f3875bb876c858e01cf0cec67efa50608223556ff730ce5a60d7315601f28",
+          "bytes": 3103125
+        }
+      }
+    },
+    {
+      "case": "holdout/H10_seed307",
+      "source_directory": "author_holdout_v2/runs/holdout/H10_seed307",
+      "files": {
+        "collisions.xml": {
+          "sha256": "5ae3501de51459bcceca3874e91b44ccb65ef1470498af13873671798dd6bc84",
+          "bytes": 1812
+        },
+        "lane_queues.xml": {
+          "sha256": "c3fe03f9795b5c97184349b56e27d16910ccee4f46cd9efc022dbaf9400a8e6c",
+          "bytes": 418334
+        },
+        "metrics.json": {
+          "sha256": "cc4b192e81dea427a05cb1cbd51164f5e3b357a32a6e2a45360dd7b5a1ecb085",
+          "bytes": 3669
+        },
+        "statistics.xml": {
+          "sha256": "81db1bb87f5ebb63167c967d82dd86ba1d6e3c2d815e9bb8b9566a24f3323c3f",
+          "bytes": 2776
+        },
+        "stopline_events.xml": {
+          "sha256": "d86dc78cf9a41fd4e04d5294bc00e95983c14cec9b532b73bed94ffd79cb0405",
+          "bytes": 15559188
+        },
+        "summary.xml": {
+          "sha256": "88f45f636f686d067838b35451b6c0061c30ded7214da4301e9b498af96bacd3",
+          "bytes": 9249914
+        },
+        "sumo_stderr.log": {
+          "sha256": "a93d365a68594cb9aa09c68ab4b82b17a31da8a7da20b216380a33c52134b1bb",
+          "bytes": 277
+        },
+        "sumo_stdout.log": {
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "bytes": 0
+        },
+        "tripinfo.xml": {
+          "sha256": "31dda7f6cb9c4a53518d236d9400a18b08299260a1797ffbda41cba72ded650a",
+          "bytes": 3102794
+        }
+      }
+    },
+    {
+      "case": "holdout/H10_seed401",
+      "source_directory": "author_holdout_v2/runs/holdout/H10_seed401",
+      "files": {
+        "collisions.xml": {
+          "sha256": "aea5bb330844e763d7ffe45a113c56cc0718e261f48c21443a98d91367121bbe",
+          "bytes": 1812
+        },
+        "lane_queues.xml": {
+          "sha256": "728ac161eea7716174b8ace600dd7981e30d13d3d9e236f315c50694e5eb67d5",
+          "bytes": 418298
+        },
+        "metrics.json": {
+          "sha256": "a2d2bbe515b806d6271ac8208d3a560358114f1fa2aea2334ef310d1a88efd01",
+          "bytes": 3668
+        },
+        "statistics.xml": {
+          "sha256": "1e68a9a86870ffef94efab214cd4d691ef74c170ec7e1d95270a0eb3e5030b19",
+          "bytes": 2774
+        },
+        "stopline_events.xml": {
+          "sha256": "447a4bd27d5c7b07dc102d90d21250f757b7938925f18eaa4de89bda815681d8",
+          "bytes": 15704417
+        },
+        "summary.xml": {
+          "sha256": "0b1ec50e4baa138baccd000427b192d221164fd2dac597f38a436eb979510947",
+          "bytes": 9245483
+        },
+        "sumo_stderr.log": {
+          "sha256": "a55ff0503c422537649b2aecf69f63e321a96d7f4afa5ae709f04b8497006033",
+          "bytes": 275
+        },
+        "sumo_stdout.log": {
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "bytes": 0
+        },
+        "tripinfo.xml": {
+          "sha256": "fbc5fe60c86b8e470a5cec161a0f2e613b6869377df789d333032d3527903817",
+          "bytes": 3104018
+        }
+      }
+    },
+    {
+      "case": "holdout/H10_seed503",
+      "source_directory": "author_holdout_v2/runs/holdout/H10_seed503",
+      "files": {
+        "collisions.xml": {
+          "sha256": "e74b222adb5e381dd796eb6160e7de9428f2feaed65fbb498a24cc5ef6deb5d5",
+          "bytes": 1812
+        },
+        "lane_queues.xml": {
+          "sha256": "539734a099d3192cc36672c2727517a040aa22d32719443e199ddf124ffa7008",
+          "bytes": 418296
+        },
+        "metrics.json": {
+          "sha256": "41a8074a8087a468a0786e6d156b1e67ccbf438c63522933647f133829a390b8",
+          "bytes": 3665
+        },
+        "statistics.xml": {
+          "sha256": "c227fb81038e931001e5ad8b9c433bf32e0ccb444793434d1576f684a5881d19",
+          "bytes": 2773
+        },
+        "stopline_events.xml": {
+          "sha256": "970f03bc2c1e1c150f0f2e76f4b6ccb5db62ecdd7b5614e12f214de43707df73",
+          "bytes": 15714689
+        },
+        "summary.xml": {
+          "sha256": "5d8cf3d8ea301c1f205fd8bd98196ab82e969ae823d29db7c0a662666ec5ccea",
+          "bytes": 9247019
+        },
+        "sumo_stderr.log": {
+          "sha256": "faf448def30390585bdf2fe028b3325ad6cc5d6ace0b4a4453fe333e173f145a",
+          "bytes": 969
+        },
+        "sumo_stdout.log": {
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "bytes": 0
+        },
+        "tripinfo.xml": {
+          "sha256": "ef63a6bc7ba9b4181c0644a9bb4ca8ce18070e412335c84429d6ff4360b93932",
+          "bytes": 3103872
+        }
+      }
+    },
+    {
+      "case": "holdout/H10_seed601",
+      "source_directory": "author_holdout_v2/runs/holdout/H10_seed601",
+      "files": {
+        "collisions.xml": {
+          "sha256": "2a808d86227c9c409c97a7d7be1f1eaac62a9e39a1a2a12fe6e49314440c34fe",
+          "bytes": 1812
+        },
+        "lane_queues.xml": {
+          "sha256": "13442373992d7fbf245893ab267e1a1a0bfc33b5b34492cb5df8f9cb19fae712",
+          "bytes": 418297
+        },
+        "metrics.json": {
+          "sha256": "c56eae1215e63a1a0092533001232c9af8074af1e39a7d58d7694c6376b238c4",
+          "bytes": 3663
+        },
+        "statistics.xml": {
+          "sha256": "f6900021aac8ab02699acca3e435e46e98b5fd84fcaa681a17d4c83b21013445",
+          "bytes": 2773
+        },
+        "stopline_events.xml": {
+          "sha256": "73547ce86ae163d627a44e77453110d1747af8117aaa54591802a953652f242e",
+          "bytes": 15803716
+        },
+        "summary.xml": {
+          "sha256": "8e9049b8302230d02284bfb5b52fd2f97a09e9614d0f38c2235d1563b079634d",
+          "bytes": 9247105
+        },
+        "sumo_stderr.log": {
+          "sha256": "41db360b273545715946a1f85bfba5443442b95f024bf4400cb7e43f1f7cfcc4",
+          "bytes": 834
+        },
+        "sumo_stdout.log": {
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "bytes": 0
+        },
+        "tripinfo.xml": {
+          "sha256": "15adfcd78cdd2bb0bea3be2dec36e52ac479603eeb3cf5e2e67803dd6305c09a",
+          "bytes": 3104590
+        }
+      }
+    },
+    {
+      "case": "holdout/H11_seed211",
+      "source_directory": "author_holdout_v2/runs/holdout/H11_seed211",
+      "files": {
+        "collisions.xml": {
+          "sha256": "2bedc30560b3345dc6c637ec74a23bfbd8067911b04bf4e72a7fb1658acff268",
+          "bytes": 2438
+        },
+        "lane_queues.xml": {
+          "sha256": "361cc7d4ad56891a9c80ba53e1d8aa357ea62fa185803f44a0a4e20a79469522",
+          "bytes": 418534
+        },
+        "metrics.json": {
+          "sha256": "11c14ea705e98d7b259d235fa403df14a3a60520c81c588a41fc3d71d7e47baa",
+          "bytes": 3696
+        },
+        "statistics.xml": {
+          "sha256": "00c72d8fc6953bd1ac45e53d735f65e14cce22526e55db0660a337f1bae47b13",
+          "bytes": 2775
+        },
+        "stopline_events.xml": {
+          "sha256": "1d993e483bd7bb54fe9c6b08c0d5a66cb98d21b060d0d9c21b2ed5de0ea001f7",
+          "bytes": 15354493
+        },
+        "summary.xml": {
+          "sha256": "2d51709352ec9cc49cf86478ecb7f844553e4f2cd1f621f18c6474ed105db045",
+          "bytes": 9248696
+        },
+        "sumo_stderr.log": {
+          "sha256": "20e44e925f5e576e55bd87d01418ab993bc876ecbded5a21055b0ffafcef36a4",
+          "bytes": 1293
+        },
+        "sumo_stdout.log": {
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "bytes": 0
+        },
+        "tripinfo.xml": {
+          "sha256": "b0d2d700dfcc0259de97efe8194f810cd8546ff725b85e5360c1662a45af1c10",
+          "bytes": 3368645
+        }
+      }
+    },
+    {
+      "case": "holdout/H11_seed307",
+      "source_directory": "author_holdout_v2/runs/holdout/H11_seed307",
+      "files": {
+        "collisions.xml": {
+          "sha256": "f15fcaa38ce734887575c2f7d0a05ad95c3c424324b0ddb9334b1e2b8d09297e",
+          "bytes": 1812
+        },
+        "lane_queues.xml": {
+          "sha256": "8069bb22f6abadb6ed30ebe33c29078c86e2db0c26675ea955bb725b8b751086",
+          "bytes": 418536
+        },
+        "metrics.json": {
+          "sha256": "d80905d627173f076937bce21bb7cce67b00b63db8787cf53596076b5fd5a3d5",
+          "bytes": 3660
+        },
+        "statistics.xml": {
+          "sha256": "540d3b923fd566475e28eb7ea5cd0b5cb81d053b860d0c2b442e5b982af2d198",
+          "bytes": 2776
+        },
+        "stopline_events.xml": {
+          "sha256": "d385427128aca24ac1814cac68a39ef24e9b44138a2b55c1617c85dc8ad0a644",
+          "bytes": 15311459
+        },
+        "summary.xml": {
+          "sha256": "18cc87c021b1cec17b71d77730c87d544533c10f0ae7110353ace8703c213f80",
+          "bytes": 9252645
+        },
+        "sumo_stderr.log": {
+          "sha256": "66db03f303a02dca54eba9d3c29ff8d8a9989e915027fca09d8f69212853d653",
+          "bytes": 555
+        },
+        "sumo_stdout.log": {
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "bytes": 0
+        },
+        "tripinfo.xml": {
+          "sha256": "234f900af157b7ed1313f4533b5493f0128ba44cee8fc114bec0f07f02864e7e",
+          "bytes": 3368244
+        }
+      }
+    },
+    {
+      "case": "holdout/H11_seed401",
+      "source_directory": "author_holdout_v2/runs/holdout/H11_seed401",
+      "files": {
+        "collisions.xml": {
+          "sha256": "24806659972ec359bfd80dfe9a05f2b469c878dbe8eeb55c22a8bbed235e797a",
+          "bytes": 2438
+        },
+        "lane_queues.xml": {
+          "sha256": "15d1d6a8a6b0272bf52154feb2e7ebf8f1a9650a7bc334b9a7430b29f3006a67",
+          "bytes": 418454
+        },
+        "metrics.json": {
+          "sha256": "f155d11f130c284ae9ae8f5b74fdc3dd1d64d829e66df51e94cbc9ff0b1abb20",
+          "bytes": 3702
+        },
+        "statistics.xml": {
+          "sha256": "fec4d4431e62ccf39d2255df3219983b120c2f8787d6812256f1f0e90595a436",
+          "bytes": 2776
+        },
+        "stopline_events.xml": {
+          "sha256": "1fdaedeedaeecf1198c5013a89c8e1297c7983458ac8c20d922cc4370024a18c",
+          "bytes": 15216430
+        },
+        "summary.xml": {
+          "sha256": "a8e80c0e94a4291b841b514197ba0e6aff0876642d0f3dde3fb3483416a8ee95",
+          "bytes": 9251090
+        },
+        "sumo_stderr.log": {
+          "sha256": "97f7588968469f7a435ec83430b1935586ac63844a88444e2f194e8368b7b57b",
+          "bytes": 737
+        },
+        "sumo_stdout.log": {
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "bytes": 0
+        },
+        "tripinfo.xml": {
+          "sha256": "df350bc84fbc45bbf76d51c28df5b9f4d2cf19bfda61ab4420e69f0c6deb58ab",
+          "bytes": 3367891
+        }
+      }
+    },
+    {
+      "case": "holdout/H11_seed503",
+      "source_directory": "author_holdout_v2/runs/holdout/H11_seed503",
+      "files": {
+        "collisions.xml": {
+          "sha256": "d2f7f0815c1825b73acfd2d45e152fb7874db33ee4910d5a97b32b9560f62b78",
+          "bytes": 1812
+        },
+        "lane_queues.xml": {
+          "sha256": "4d2f266208869e88b4ff53a3d8a52b7703c0885368ec2112923d1f2158cc862d",
+          "bytes": 418571
+        },
+        "metrics.json": {
+          "sha256": "e9c6f5e7caaf680ce95ee0db1ffde1af331fe69059cd3c44404a6a60c3a0f152",
+          "bytes": 3659
+        },
+        "statistics.xml": {
+          "sha256": "8d6bb2a06a875a57d368c698e0df82075a6eadc534968e0e07bd3fe3320e6325",
+          "bytes": 2776
+        },
+        "stopline_events.xml": {
+          "sha256": "377c38ab8f366efae72a164987b0ae72814be34fe2e208a3107cd0d30faa414c",
+          "bytes": 15268613
+        },
+        "summary.xml": {
+          "sha256": "1d7def42592572edc481e8bb6bea1297eb83ba35fa379d4a8cfbc044ed9cb214",
+          "bytes": 9254557
+        },
+        "sumo_stderr.log": {
+          "sha256": "0199ce3193973f2ae294a5732e231388d7e7df7b42f2c6eab3af0e97b087fe04",
+          "bytes": 277
+        },
+        "sumo_stdout.log": {
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "bytes": 0
+        },
+        "tripinfo.xml": {
+          "sha256": "b1f07ef09ca388519fcd63b37fa2f6bb138d3149a28b4cd3ed14932dde416bed",
+          "bytes": 3368496
+        }
+      }
+    },
+    {
+      "case": "holdout/H11_seed601",
+      "source_directory": "author_holdout_v2/runs/holdout/H11_seed601",
+      "files": {
+        "collisions.xml": {
+          "sha256": "8ada4de68ee752f8391e9979a3c70a17118599b8b512db8bb81582d7eb377b03",
+          "bytes": 1812
+        },
+        "lane_queues.xml": {
+          "sha256": "e93f95ecdf98994c90e66c1e139d6b47bebc4b5df52681cfad19bac1e1ac4ff4",
+          "bytes": 418554
+        },
+        "metrics.json": {
+          "sha256": "af88830b263ae5343115fc82e4a61146a3be93f0381e5e2e6dc3f4fd3a2875e1",
+          "bytes": 3658
+        },
+        "statistics.xml": {
+          "sha256": "c3affba28ac08026eb156da96d80b5e22adc66ae6026fa80ddea503f25999c0a",
+          "bytes": 2776
+        },
+        "stopline_events.xml": {
+          "sha256": "69008165204bf3b7d85669a1cb5ec6d58c35eb83472bac162000e1183a79d643",
+          "bytes": 15210572
+        },
+        "summary.xml": {
+          "sha256": "0fd4085ce2b7974a1743c4f6b9127cef3d91a52ac429382e77ad609219d00fc4",
+          "bytes": 9251026
+        },
+        "sumo_stderr.log": {
+          "sha256": "93e9a1e3f94ba3406bb85e231d47e3027701e163c40ad2e8559325fbb999fb8e",
+          "bytes": 279
+        },
+        "sumo_stdout.log": {
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "bytes": 0
+        },
+        "tripinfo.xml": {
+          "sha256": "f0dfa613fcbf4279a0ef4bda7ab737a27a7027621a22392eb26c6697ffb3b0cf",
+          "bytes": 3367865
+        }
+      }
+    },
+    {
+      "case": "holdout/H12_seed211",
+      "source_directory": "author_holdout_v2/runs/holdout/H12_seed211",
+      "files": {
+        "collisions.xml": {
+          "sha256": "d76a41744c8a60bb99889020ffa04df994645317fdc891f12ed85ab3611dbe30",
+          "bytes": 3370
+        },
+        "lane_queues.xml": {
+          "sha256": "e5e8099f4bc4970040a853aa369cb90b26d05a2b894dd625b4d2dd827c49fd9c",
+          "bytes": 419546
+        },
+        "metrics.json": {
+          "sha256": "98ded2f39f44966509e5b0e52c10d76ffde21196f3da1b1bddd683c81858c934",
+          "bytes": 3748
+        },
+        "statistics.xml": {
+          "sha256": "449b43176fc9c3ada073dd2be0920df06aafb2bb895c7847a845dd2196affb14",
+          "bytes": 2777
+        },
+        "stopline_events.xml": {
+          "sha256": "ec0e468cfa817103942cd438b3849229184cbb0b6f50043754f84ad5ac3e92a5",
+          "bytes": 16459292
+        },
+        "summary.xml": {
+          "sha256": "958b467d1d7c123969f2b5df7cc4f9ffd68984428f4d0b9278fca6287a924b1b",
+          "bytes": 9271569
+        },
+        "sumo_stderr.log": {
+          "sha256": "e7e2f353952f4ed01466332f37378c62ccec271ea512f2f1acacb29d549ddfba",
+          "bytes": 2420
+        },
+        "sumo_stdout.log": {
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "bytes": 0
+        },
+        "tripinfo.xml": {
+          "sha256": "206676151c301b3058536cbec2f03c007fab037f1ae44f97b1876b8838cd51c1",
+          "bytes": 3635480
+        }
+      }
+    },
+    {
+      "case": "holdout/H12_seed307",
+      "source_directory": "author_holdout_v2/runs/holdout/H12_seed307",
+      "files": {
+        "collisions.xml": {
+          "sha256": "4f46ab0a202d862994e76ccab94e77462eab9c2618cb031407e381a4fbefb463",
+          "bytes": 2747
+        },
+        "lane_queues.xml": {
+          "sha256": "38360296e8bdd00382a37aa2999f569d4cf2c8e8cf11a3107218c2c4e422f89d",
+          "bytes": 419500
+        },
+        "metrics.json": {
+          "sha256": "78b1059b31a33ffae39ec0ae1d702f018f3d014ef72c1d0d91628b7ffb048386",
+          "bytes": 3710
+        },
+        "statistics.xml": {
+          "sha256": "be9c05af07c0872918db7dfc71f7938f0428dad7f9be9c4cdc2021a61abd8edd",
+          "bytes": 2777
+        },
+        "stopline_events.xml": {
+          "sha256": "e72ac370b684209c28cb2b452512b0a5c897289bf834bb5334637a9c769156db",
+          "bytes": 16280395
+        },
+        "summary.xml": {
+          "sha256": "d168af27e1e30d3084017898cb9f8d735148071605d7cff7ffbc79289505330c",
+          "bytes": 9270068
+        },
+        "sumo_stderr.log": {
+          "sha256": "467549d7399c6231993c3b814dbc5645b5ae58cd051ce990bc7a14d60e395de7",
+          "bytes": 957
+        },
+        "sumo_stdout.log": {
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "bytes": 0
+        },
+        "tripinfo.xml": {
+          "sha256": "e7b427e3760a2c02adfeca699ae0e8fc1b1d51c8d1ffb2b6f40ad37769199573",
+          "bytes": 3634480
+        }
+      }
+    },
+    {
+      "case": "holdout/H12_seed401",
+      "source_directory": "author_holdout_v2/runs/holdout/H12_seed401",
+      "files": {
+        "collisions.xml": {
+          "sha256": "50322371748321a98900f1a49d484a20cde8e44f432f0ff1b0984867e2c07fc5",
+          "bytes": 2434
+        },
+        "lane_queues.xml": {
+          "sha256": "2b6b7e6270fea01c26374e152e4f1f07cc252804356262b3923727ec2b58775d",
+          "bytes": 419484
+        },
+        "metrics.json": {
+          "sha256": "b1ac6fbc5294b2fa6694f3a96049e3c360b580c70b767dade43ebbed065ebc0a",
+          "bytes": 3735
+        },
+        "statistics.xml": {
+          "sha256": "b2f2a690d3146c4881c99e87412e1c958d929f9d9e2faa4b544a36465f85d44d",
+          "bytes": 2777
+        },
+        "stopline_events.xml": {
+          "sha256": "21af6033b0205e101287d13687d487c207a3ab4da9e063d808e9ae1b0eadf04a",
+          "bytes": 16149774
+        },
+        "summary.xml": {
+          "sha256": "d51d8f221b78c8e6db699739d30bce7a029535e3701c1909f52ebad34e68809a",
+          "bytes": 9271101
+        },
+        "sumo_stderr.log": {
+          "sha256": "143b4604c87f38d361d1ab45ba9b7a36fa2e6f7a53612a0d922730960d16e89e",
+          "bytes": 1047
+        },
+        "sumo_stdout.log": {
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "bytes": 0
+        },
+        "tripinfo.xml": {
+          "sha256": "16d70ad26212618acd701e682834db097ee60604539b71b7cba2e318d1c424c6",
+          "bytes": 3634149
+        }
+      }
+    },
+    {
+      "case": "holdout/H12_seed503",
+      "source_directory": "author_holdout_v2/runs/holdout/H12_seed503",
+      "files": {
+        "collisions.xml": {
+          "sha256": "d770381d9b9a01f2f66a7415ea028aea76a0c4671b73e549e33780ee43447a18",
+          "bytes": 3060
+        },
+        "lane_queues.xml": {
+          "sha256": "5b1665c2f8505554ec516b069e78cad08f99ebc690e794fda628a74d4a78b0b9",
+          "bytes": 419435
+        },
+        "metrics.json": {
+          "sha256": "63ee1ca780e6ac364fdf0c84df2a2de07356d06f4454bc2d062290586c7fcc42",
+          "bytes": 3779
+        },
+        "statistics.xml": {
+          "sha256": "3d7bba1b552f70e76a49c53d2e01fc87ac4de49ba538d31a05296cfbe6e008c3",
+          "bytes": 2777
+        },
+        "stopline_events.xml": {
+          "sha256": "2011e96e67d84d655ecfe34787dd0ae75da7b703196616a9ac457dd04c524eed",
+          "bytes": 16272640
+        },
+        "summary.xml": {
+          "sha256": "b0a8b58564c94ad741be30870fed6966cfb553f5e83c770b2511ab28a675e9c9",
+          "bytes": 9269480
+        },
+        "sumo_stderr.log": {
+          "sha256": "041ad1fc3d2db67a043f1c24779e34964f4ace9015d50f6ea076934da9511aa9",
+          "bytes": 1563
+        },
+        "sumo_stdout.log": {
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "bytes": 0
+        },
+        "tripinfo.xml": {
+          "sha256": "33c2075ca91375ae5cd988e75df4c331a9d96e1bb902658ae431f754968e4e02",
+          "bytes": 3635888
+        }
+      }
+    },
+    {
+      "case": "holdout/H12_seed601",
+      "source_directory": "author_holdout_v2/runs/holdout/H12_seed601",
+      "files": {
+        "collisions.xml": {
+          "sha256": "6e4738e7b2c6c5e9a1fa0a0c6f6d03a189fe2b5798b30c0ea30b9bea8b55e97b",
+          "bytes": 2433
+        },
+        "lane_queues.xml": {
+          "sha256": "2c76457916cf9f58a299068c3c27761a8aa94eb0583fe09f31257793f1d533ae",
+          "bytes": 419544
+        },
+        "metrics.json": {
+          "sha256": "ada717d1d00fea34c978dd0fca1ecf9ab038314c50567279e6ebc93108c0db46",
+          "bytes": 3722
+        },
+        "statistics.xml": {
+          "sha256": "a244488cca5a2d88ca08c97d29ad44f35362082d10fb5abce49b0051b6ff51da",
+          "bytes": 2778
+        },
+        "stopline_events.xml": {
+          "sha256": "8a37b7a2ef9d570c477a2304bcd3e6d44a5c6ad6fd1597f844c70686ef65e5f6",
+          "bytes": 16331998
+        },
+        "summary.xml": {
+          "sha256": "3a072f56889ea47d0090990bf265136dbda94add0e499ab4c989180afa7e99d0",
+          "bytes": 9270175
+        },
+        "sumo_stderr.log": {
+          "sha256": "93863ecc7396bd7cbe47517de7987da3190d3a9f7045b7fd2dcabc819c3cce83",
+          "bytes": 588
+        },
+        "sumo_stdout.log": {
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "bytes": 0
+        },
+        "tripinfo.xml": {
+          "sha256": "abc587e2e69d50ec3124ff5007e0af5112a10f28eb4de5a83c8eb827d1d189d9",
+          "bytes": 3636077
+        }
+      }
+    },
+    {
+      "case": "bridge_reused/baseline_seed11",
+      "source_directory": "connector_audit_v1/runs/fine_joint_seed11",
+      "files": {
+        "collisions.xml": {
+          "sha256": "3364c8d8d6ab1d29380b68d83b55a9d557abab2081f2cb03f24771efbeccd6df",
+          "bytes": 2094
+        },
+        "connector_fcd.xml.gz": {
+          "sha256": "69090a9b2baab790e654b9296b89d82656cb3cfc0301a93c51b716241d7c6bc7",
+          "bytes": 11844585
+        },
+        "fcd_edges.txt": {
+          "sha256": "00a8704ce7eeaa72803c1b8cda8a439ed8177ddf2fb83d225db6fc90e25639dd",
+          "bytes": 39
+        },
+        "lanechanges.xml": {
+          "sha256": "ae8f600f478329a24b9bcbd73543d2bd9227ff78589bd5a82397c3b1f7ea85e2",
+          "bytes": 7443209
+        },
+        "lane_queues.xml": {
+          "sha256": "23ce39d84e87e27b044bbecb7a6c49447b0399df746513fa76ffc7036d108e8b",
+          "bytes": 418651
+        },
+        "statistics.xml": {
+          "sha256": "bf4214b0535ff5d1fbc6f92e1ecd6e107ae00dade4065348ea94675fd5822db7",
+          "bytes": 3055
+        },
+        "stopline_events.xml": {
+          "sha256": "0725ef2ba7d86301beb12692ecea2a9f06bd5c10991375f5fe455ed45a0585f3",
+          "bytes": 14738107
+        },
+        "summary.xml": {
+          "sha256": "1cd50919d678f9086993d71026ac37d0ad8634ab97a02cca93c52a4d2b834ca5",
+          "bytes": 9248903
+        },
+        "sumo_stderr.log": {
+          "sha256": "b116d514c91e1cd9ecc5a13eeb4f80ad58fc7da17014678bad63aeea85d50811",
+          "bytes": 279
+        },
+        "sumo_stdout.log": {
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "bytes": 0
+        },
+        "tripinfo.xml": {
+          "sha256": "9278125aeefb72745657e109ef7d283d044eb76c113b1433345dea8806bf5e1d",
+          "bytes": 3501637
+        }
+      }
+    },
+    {
+      "case": "bridge_reused/baseline_seed29",
+      "source_directory": "connector_audit_v1/runs/fine_joint_seed29",
+      "files": {
+        "collisions.xml": {
+          "sha256": "01cc889638650177fcf649ffc70990d074ccf63cddce5893ec2338b09fdc0fe9",
+          "bytes": 2094
+        },
+        "connector_fcd.xml.gz": {
+          "sha256": "1279327231b777495eedf9578651bd07000a118ccd7f8eba6c635d47cf5eb283",
+          "bytes": 11668487
+        },
+        "fcd_edges.txt": {
+          "sha256": "00a8704ce7eeaa72803c1b8cda8a439ed8177ddf2fb83d225db6fc90e25639dd",
+          "bytes": 39
+        },
+        "lanechanges.xml": {
+          "sha256": "abf7ad96a85becd72b3e652f969f6bff23758be1cd8d37743189568357575cb6",
+          "bytes": 7512119
+        },
+        "lane_queues.xml": {
+          "sha256": "b2872d237dfed68da4c3bf46516eaf5e74ac2b0df712c4d305c60cad8947c00b",
+          "bytes": 418653
+        },
+        "statistics.xml": {
+          "sha256": "73ee553b0f19467ddbf6ef3a8a8d2190132f1fb4fb2d064a4da66e594d2da569",
+          "bytes": 3055
+        },
+        "stopline_events.xml": {
+          "sha256": "dda176c05d7b13475b930b6b5e483db1dfdb41ce727913ce38ebb7eb76b753fb",
+          "bytes": 14858076
+        },
+        "summary.xml": {
+          "sha256": "aa593f0d498f2315aab54f96a3160fa1d16d043f2e855bf109ec76480ba17720",
+          "bytes": 9249754
+        },
+        "sumo_stderr.log": {
+          "sha256": "cfca9665f542cb3d9b824385cbdb27bf73dab8d73eaf2c66e37ff526c0859f5c",
+          "bytes": 556
+        },
+        "sumo_stdout.log": {
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "bytes": 0
+        },
+        "tripinfo.xml": {
+          "sha256": "40bd7a2c39943f0037a2ee010a2731b576bf72b6f397a2e3c63f95c2468a30a2",
+          "bytes": 3502402
+        }
+      }
+    },
+    {
+      "case": "bridge_reused/baseline_seed47",
+      "source_directory": "connector_audit_v1/runs/fine_joint_seed47",
+      "files": {
+        "collisions.xml": {
+          "sha256": "706b1dedfaae04ab4761e6371212c072fbbe37d73b85e20c83a2d822c82459ba",
+          "bytes": 2094
+        },
+        "connector_fcd.xml.gz": {
+          "sha256": "1af27d27c52948935f1f1b7523c6e1af7cd1ed9238f407d1899c421533a76111",
+          "bytes": 11789580
+        },
+        "fcd_edges.txt": {
+          "sha256": "00a8704ce7eeaa72803c1b8cda8a439ed8177ddf2fb83d225db6fc90e25639dd",
+          "bytes": 39
+        },
+        "lanechanges.xml": {
+          "sha256": "08683245d95066a2c688f7893785a72f511969da3d1ae9c33b2851cb4765c7d3",
+          "bytes": 7472746
+        },
+        "lane_queues.xml": {
+          "sha256": "e603dda87f2df93c16e2ee20d010679abfa408cd088495e5567ad5f2fc75b1d7",
+          "bytes": 418668
+        },
+        "statistics.xml": {
+          "sha256": "b79e601495176d1781ddccf8c7658680ed63eb0084372f9d68434a0c2eee472c",
+          "bytes": 3056
+        },
+        "stopline_events.xml": {
+          "sha256": "55f5f724296e324161df6783b5b7706ba991c37de617475bd5564f5b19e276a4",
+          "bytes": 14658113
+        },
+        "summary.xml": {
+          "sha256": "6d38799a56bc8892708427bc6ebac10633506fbbd5a1ab27e274ed9d53c11e2f",
+          "bytes": 9249650
+        },
+        "sumo_stderr.log": {
+          "sha256": "04e31db4aa0b079cb1bfb442daa0128ec9918b988a41392a3a852f1758fa7c55",
+          "bytes": 558
+        },
+        "sumo_stdout.log": {
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "bytes": 0
+        },
+        "tripinfo.xml": {
+          "sha256": "b28b2001696be1d71a977f7ec4cfaf7b59a6fd7fb3c971022a1b031424b730c8",
+          "bytes": 3500953
+        }
+      }
+    },
+    {
+      "case": "bridge_reused/baseline_seed71",
+      "source_directory": "connector_audit_v1/runs/fine_joint_seed71",
+      "files": {
+        "collisions.xml": {
+          "sha256": "db6918edfefc63113e4ce5e4c01501525ff2e164c961d080d7896691473c3e78",
+          "bytes": 2094
+        },
+        "connector_fcd.xml.gz": {
+          "sha256": "93cb52c3fd72f2554ddc598d261206a98faf7cabf08abea927c9c07ce645b016",
+          "bytes": 11540110
+        },
+        "fcd_edges.txt": {
+          "sha256": "00a8704ce7eeaa72803c1b8cda8a439ed8177ddf2fb83d225db6fc90e25639dd",
+          "bytes": 39
+        },
+        "lanechanges.xml": {
+          "sha256": "5e261bf020d3211ae25f1796cf08d3e95fa6447e90b9677c024ebdce0a4ae5d7",
+          "bytes": 7518392
+        },
+        "lane_queues.xml": {
+          "sha256": "16212da98314f1de834b1f84069eaf0847b26d1821e2570e0c329fa87f0f3315",
+          "bytes": 418660
+        },
+        "statistics.xml": {
+          "sha256": "96680235102ac7be2a5983c6d20c954888a8891c5f0ffa593d12498f25a62bf4",
+          "bytes": 3056
+        },
+        "stopline_events.xml": {
+          "sha256": "e1662eee9ee35b4ee45658bf450c41d3724c67586de92a5ad1eaefcbcfc5b323",
+          "bytes": 14762898
+        },
+        "summary.xml": {
+          "sha256": "34ec9e4f995450a444c0b26940931df852fdfe22a1b9146cf5150db30bf8a726",
+          "bytes": 9249094
+        },
+        "sumo_stderr.log": {
+          "sha256": "f84062e62aca6b6d47f92101c5742cf9fe791c675db60496f08bb53209d1fc0f",
+          "bytes": 278
+        },
+        "sumo_stdout.log": {
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "bytes": 0
+        },
+        "tripinfo.xml": {
+          "sha256": "2fca3fc71f6f7cf8f48bade8af4675524e8f1f740da5ac8ecf2a82d49d7f10c7",
+          "bytes": 3501675
+        }
+      }
+    },
+    {
+      "case": "bridge_reused/baseline_seed101",
+      "source_directory": "connector_audit_v1/runs/fine_joint_seed101",
+      "files": {
+        "collisions.xml": {
+          "sha256": "25df0bfda71f71628f344d9d32d5c6fa9ce57c06b122ad4842e59312714b0e6b",
+          "bytes": 2095
+        },
+        "connector_fcd.xml.gz": {
+          "sha256": "7029d6167a258f8be17e0ff282b30973545a5709dc2a3b270d233b9ed37dbef2",
+          "bytes": 11588732
+        },
+        "fcd_edges.txt": {
+          "sha256": "00a8704ce7eeaa72803c1b8cda8a439ed8177ddf2fb83d225db6fc90e25639dd",
+          "bytes": 39
+        },
+        "lanechanges.xml": {
+          "sha256": "e840c1f4f596d19a396c9180aed5a4a3d749d02902bf29b1af1b0b6b7bee2b45",
+          "bytes": 7493200
+        },
+        "lane_queues.xml": {
+          "sha256": "f31024256167355721dfe7dd53d9d387bc5beab8aef20f7bac5624e3f9e59337",
+          "bytes": 418670
+        },
+        "statistics.xml": {
+          "sha256": "43ccc9e47ad1c2e3a31d81752d9d5fe0fb71c3c994532cfb414dac2712e11be2",
+          "bytes": 3058
+        },
+        "stopline_events.xml": {
+          "sha256": "9d19313b8596091a4b87d23c270b74e37660bb49b6958bc887e9f3da4ffe7250",
+          "bytes": 14763493
+        },
+        "summary.xml": {
+          "sha256": "86fcee252812e4492afd4b5b6cbfa41bd813c9c3db7d150fa1f68452d547ee72",
+          "bytes": 9252534
+        },
+        "sumo_stderr.log": {
+          "sha256": "216e3d2ef7ba4d722fef6599f79689a7f8f9669e0b18a2ce71b7081bff83b05a",
+          "bytes": 696
+        },
+        "sumo_stdout.log": {
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "bytes": 0
+        },
+        "tripinfo.xml": {
+          "sha256": "d5708fbe9ea28a0c53a94f23c7563777d43e7388badf931ef51f074c35410f5c",
+          "bytes": 3501505
+        }
+      }
+    },
+    {
+      "case": "bridge_reused/heavyveh_very_high_seed11",
+      "source_directory": "independent_intervention_v1/runs/heavyveh_very_high_reference_seed11",
+      "files": {
+        "collisions.xml": {
+          "sha256": "62ff8fb434a7482a3805cbd03f7297e4f4717184cc7992f69de1e594c3ab4871",
+          "bytes": 2407
+        },
+        "connector_fcd.xml.gz": {
+          "sha256": "d7bab6ac4e986d2f09303719bb7686a452fe204094ac7fa176f980dd2bef9505",
+          "bytes": 10666595
+        },
+        "fcd_edges.txt": {
+          "sha256": "00a8704ce7eeaa72803c1b8cda8a439ed8177ddf2fb83d225db6fc90e25639dd",
+          "bytes": 39
+        },
+        "lanechanges.xml": {
+          "sha256": "fc6528923d7da9e295f2d7798362ec2e0c9840e907965e010c7cd824e9ad391b",
+          "bytes": 7519308
+        },
+        "lane_queues.xml": {
+          "sha256": "ef05d5eb807e0aa9db147524178e03ed30e89a082e2083cc84675e68857323f8",
+          "bytes": 419237
+        },
+        "statistics.xml": {
+          "sha256": "2ddad31e6c6a29f866d3c5fe54991fb1f50712889ef88cc2c6a75ed349dc4633",
+          "bytes": 3059
+        },
+        "stopline_events.xml": {
+          "sha256": "85f5fe7395017a0aa26e617d5f1cc27b8b5045caea68d78f3ded89605bb448e4",
+          "bytes": 17543912
+        },
+        "summary.xml": {
+          "sha256": "f192fdfe84c76636c9420a13fc9d71003cc3570f1bd1747c01068b6ed6b2e808",
+          "bytes": 9269659
+        },
+        "sumo_stderr.log": {
+          "sha256": "5b6414dbe7370ed87a6706ddd199cfe89e5dbaa9590ac4969279605a8d5ffb72",
+          "bytes": 510
+        },
+        "sumo_stdout.log": {
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "bytes": 0
+        },
+        "tripinfo.xml": {
+          "sha256": "c1254de779fa1fd8a872e6883f2f4942e2e3420b0c7f4631e4c648d2215388ed",
+          "bytes": 3509649
+        }
+      }
+    },
+    {
+      "case": "bridge_reused/heavyveh_very_high_seed29",
+      "source_directory": "independent_intervention_v1/runs/heavyveh_very_high_reference_seed29",
+      "files": {
+        "collisions.xml": {
+          "sha256": "3d27742e645ac96bc3381959afcfc89e7eee96d698ea29a1e5ad6254703b9d8a",
+          "bytes": 3983
+        },
+        "connector_fcd.xml.gz": {
+          "sha256": "896a4a950b436128d2401c4e6903b61bdbc672a5cde2ac2f9c544467c1010525",
+          "bytes": 10695579
+        },
+        "fcd_edges.txt": {
+          "sha256": "00a8704ce7eeaa72803c1b8cda8a439ed8177ddf2fb83d225db6fc90e25639dd",
+          "bytes": 39
+        },
+        "lanechanges.xml": {
+          "sha256": "14b561b96be02b27f0a46bdcce0bfbe5588a580ca43d6e69cf59ad836618b2fd",
+          "bytes": 7412117
+        },
+        "lane_queues.xml": {
+          "sha256": "f1c57c8cb3315fead417b63d3e8233c07186f1d6b6150807a2f3af4a76a106b5",
+          "bytes": 419412
+        },
+        "statistics.xml": {
+          "sha256": "9f211904dab1a4bc2e3ff2e67cb46ed1e46d9de7c277ed264dccf2cb196fe98b",
+          "bytes": 3059
+        },
+        "stopline_events.xml": {
+          "sha256": "1a2f363daee7e5472504df039f8d998e1bf58a24d5f6b2004767e71b47a9f676",
+          "bytes": 17184459
+        },
+        "summary.xml": {
+          "sha256": "dbe9f3a7015d43ad596294bf35a6b3f0d18f3e6e638495547fe16fbf4cd7667c",
+          "bytes": 9271238
+        },
+        "sumo_stderr.log": {
+          "sha256": "de64cdfaa34b6eb76590de8ec92df94ada13476fea2f98cb9850c2e2659eb0be",
+          "bytes": 1644
+        },
+        "sumo_stdout.log": {
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "bytes": 0
+        },
+        "tripinfo.xml": {
+          "sha256": "47e144d5f4d203e3fe5445a03242dbddf97e7bf5848c29cb8a3ce64efe397731",
+          "bytes": 3507609
+        }
+      }
+    },
+    {
+      "case": "bridge_reused/heavyveh_very_high_seed47",
+      "source_directory": "independent_intervention_v1/runs/heavyveh_very_high_reference_seed47",
+      "files": {
+        "collisions.xml": {
+          "sha256": "64f41cf0b2b38fb24812e4e304e5471f69a1af9a3ce3605297504cc02ad4aa11",
+          "bytes": 3352
+        },
+        "connector_fcd.xml.gz": {
+          "sha256": "ade4c91eb2f85bd5e03c62c888fcf25413f09ff03ea38bc44bc79a09b19b8458",
+          "bytes": 10396737
+        },
+        "fcd_edges.txt": {
+          "sha256": "00a8704ce7eeaa72803c1b8cda8a439ed8177ddf2fb83d225db6fc90e25639dd",
+          "bytes": 39
+        },
+        "lanechanges.xml": {
+          "sha256": "75d36ad70d75fc112b797f07bec1842e1c043c7a2476a9231f246ba52c8b1c71",
+          "bytes": 7509129
+        },
+        "lane_queues.xml": {
+          "sha256": "ed88e0b7db1e34cdac57ded640efe31df2797ce5c775e44fd09bd3faf3d8d4d0",
+          "bytes": 419507
+        },
+        "statistics.xml": {
+          "sha256": "50bccacb830d0ad48892d277459047816e79ceb5802f232c23af40af03272bc4",
+          "bytes": 3059
+        },
+        "stopline_events.xml": {
+          "sha256": "23ebb3ffc2fb99eeb2cd2c728af371c14b9221bef293aa7ec38dcd7eb1939340",
+          "bytes": 17509237
+        },
+        "summary.xml": {
+          "sha256": "862796f956d8478f8bbe671ba50bba73a0674865a4e353aaf623d7a46206a59c",
+          "bytes": 9268025
+        },
+        "sumo_stderr.log": {
+          "sha256": "1a97311c00e76e93a6244ef700865d9878605c57ae2d9f555de5aeeed49f153a",
+          "bytes": 1517
+        },
+        "sumo_stdout.log": {
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "bytes": 0
+        },
+        "tripinfo.xml": {
+          "sha256": "1bef943e515c68ada0bc1da175a6174f98ed5ea1ef2c99949048a0b605099e2f",
+          "bytes": 3510492
+        }
+      }
+    },
+    {
+      "case": "bridge_reused/heavyveh_very_high_seed71",
+      "source_directory": "independent_intervention_v1/runs/heavyveh_very_high_reference_seed71",
+      "files": {
+        "collisions.xml": {
+          "sha256": "1e81d06cf2dc99d8cf727c3286293203e7cb8d9fba2fbeb983a1765a7544e078",
+          "bytes": 3662
+        },
+        "connector_fcd.xml.gz": {
+          "sha256": "fe2e63df6b03cb6a3f984c7426636f3b8d627c16362b667a0f45b394d975740e",
+          "bytes": 10466117
+        },
+        "fcd_edges.txt": {
+          "sha256": "00a8704ce7eeaa72803c1b8cda8a439ed8177ddf2fb83d225db6fc90e25639dd",
+          "bytes": 39
+        },
+        "lanechanges.xml": {
+          "sha256": "ee32d1006a64c5edb56719506bd8fa9ddb0728c9096e186466c0a62266ec14b9",
+          "bytes": 7380319
+        },
+        "lane_queues.xml": {
+          "sha256": "eedfaf164fbfb3fab729e3647eda60a6dadf2739abd51f2f839181bc2b19d2ce",
+          "bytes": 419501
+        },
+        "statistics.xml": {
+          "sha256": "64cfeaca188e929c0b10745f348eb1befe1a22a4fb07cd6ce3fc2dec1919718e",
+          "bytes": 3059
+        },
+        "stopline_events.xml": {
+          "sha256": "ecef169b048502494676c7ec39af0fa7764be845e9de5ea83292a0a4afffadbb",
+          "bytes": 17482194
+        },
+        "summary.xml": {
+          "sha256": "fb4dda7bcd12d3d9624cbeccfac20cfd6aa020af0a08ead46067889e44e04acc",
+          "bytes": 9268307
+        },
+        "sumo_stderr.log": {
+          "sha256": "38ca55470fc2249037e3d6fa1c45d1927e561377dff3604376c9723309884e3f",
+          "bytes": 2018
+        },
+        "sumo_stdout.log": {
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "bytes": 0
+        },
+        "tripinfo.xml": {
+          "sha256": "13e939ae991d8bbbc830ecd582e64426433ec43b961dae5712d232763bd55e6e",
+          "bytes": 3508987
+        }
+      }
+    },
+    {
+      "case": "bridge_reused/heavyveh_very_high_seed101",
+      "source_directory": "independent_intervention_v1/runs/heavyveh_very_high_reference_seed101",
+      "files": {
+        "collisions.xml": {
+          "sha256": "61d3b7ca3e594f20cfd13450d6151d6970b74c037daae813d01e4eca1b3cc469",
+          "bytes": 3659
+        },
+        "connector_fcd.xml.gz": {
+          "sha256": "64170d52cce854e7c42fc6bef51fdd32bbb9662a42ce93ed3c66d7b1ebaa1989",
+          "bytes": 10591455
+        },
+        "fcd_edges.txt": {
+          "sha256": "00a8704ce7eeaa72803c1b8cda8a439ed8177ddf2fb83d225db6fc90e25639dd",
+          "bytes": 39
+        },
+        "lanechanges.xml": {
+          "sha256": "6c29bc1ecc59c040eabedc0ebacf5b419540861eefd6ed73f6d43afc72219634",
+          "bytes": 7434808
+        },
+        "lane_queues.xml": {
+          "sha256": "691d549f7f7a115da07b8d8dc0d7e94b786000bd0d06551dd81053f72ec6bd1e",
+          "bytes": 419440
+        },
+        "statistics.xml": {
+          "sha256": "f1a578c1d31e02327fd3342fd5b2acbeb6d05fb97843d20e62ea4c9ca4bd30c6",
+          "bytes": 3060
+        },
+        "stopline_events.xml": {
+          "sha256": "9e9cd09cbe3a979ce41288fe0b6711c430e19c995289643174f4d8f74e9598a8",
+          "bytes": 17502960
+        },
+        "summary.xml": {
+          "sha256": "6ad3a5adc30f0c97e97c9b0dd7ae59c33db4277d3c9990d48c5d69d1c57b1866",
+          "bytes": 9268333
+        },
+        "sumo_stderr.log": {
+          "sha256": "2b26a3c8e2a6b2f8cdae6b55de5f1c91f571641eddcdfad7f04843590f3fe7fa",
+          "bytes": 2119
+        },
+        "sumo_stdout.log": {
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "bytes": 0
+        },
+        "tripinfo.xml": {
+          "sha256": "f10d285f409212bc4de2382378d8e2c58e90cc8acbf766293d9d3b721dc2f5de",
+          "bytes": 3508725
+        }
+      }
+    },
+    {
+      "case": "bridge_reused/weather_heavy_rain_seed11",
+      "source_directory": "independent_intervention_v1/runs/weather_heavy_rain_reference_seed11",
+      "files": {
+        "collisions.xml": {
+          "sha256": "5169a01e6250f0f1b0c52b68ef19edee75f3e709fb3513ec44bad163aa0587bc",
+          "bytes": 2720
+        },
+        "connector_fcd.xml.gz": {
+          "sha256": "e92e4d294e74fac3346be5f039ad1707c3850cf40f8765258677b0266edf26a7",
+          "bytes": 12568410
+        },
+        "fcd_edges.txt": {
+          "sha256": "00a8704ce7eeaa72803c1b8cda8a439ed8177ddf2fb83d225db6fc90e25639dd",
+          "bytes": 39
+        },
+        "lanechanges.xml": {
+          "sha256": "8d30b19f93085c423757e74268c63bf68498943ce1fba408b2a70b0b85ab2af1",
+          "bytes": 8162264
+        },
+        "lane_queues.xml": {
+          "sha256": "8da073a4257ce92bc12a508b02741c6f7924c9c46630c2761bfa71806a207d8a",
+          "bytes": 419079
+        },
+        "statistics.xml": {
+          "sha256": "6d94cd07bd54b29c8643396f9f6db5e85e25c0d1fa4f3e8b5abb973058d588a7",
+          "bytes": 3058
+        },
+        "stopline_events.xml": {
+          "sha256": "e9289e96064727df85adaedb18d9deb80a2dace7d8e033abe3ad02502317357a",
+          "bytes": 16111834
+        },
+        "summary.xml": {
+          "sha256": "7fd5a7ebe5d3dedb907a898b23d04f7fb29a038b699ee873247077ed9eaf09f8",
+          "bytes": 9258225
+        },
+        "sumo_stderr.log": {
+          "sha256": "7d70561104d74f7383102a85854f24e4589b7647d181a64c9a15f9e678485240",
+          "bytes": 736
+        },
+        "sumo_stdout.log": {
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "bytes": 0
+        },
+        "tripinfo.xml": {
+          "sha256": "06e425772bb2dd7835d16529d15fdf6e710f6f068642b636a280f3b2e5bee41e",
+          "bytes": 3497806
+        }
+      }
+    },
+    {
+      "case": "bridge_reused/weather_heavy_rain_seed29",
+      "source_directory": "independent_intervention_v1/runs/weather_heavy_rain_reference_seed29",
+      "files": {
+        "collisions.xml": {
+          "sha256": "7cccca156331b8d74f61bf0da4db8816dc784f8fb42fab7a54083b1545f35fb9",
+          "bytes": 2720
+        },
+        "connector_fcd.xml.gz": {
+          "sha256": "2b1b740b3eb52143c3b299dd0149c68f44739e127eab6eca076aab720001c34f",
+          "bytes": 12798103
+        },
+        "fcd_edges.txt": {
+          "sha256": "00a8704ce7eeaa72803c1b8cda8a439ed8177ddf2fb83d225db6fc90e25639dd",
+          "bytes": 39
+        },
+        "lanechanges.xml": {
+          "sha256": "5d23d90390ba31ab43491b3dbc280d5cc2f241ef1d0376a3b2e8b76ec49aa2f9",
+          "bytes": 8240099
+        },
+        "lane_queues.xml": {
+          "sha256": "4f1a1e1bb15096bfe6139e038ef988e708f6fbbdc6d3451985d109d514eef9c3",
+          "bytes": 419138
+        },
+        "statistics.xml": {
+          "sha256": "aa9c9d192d5a8cc65ba98cee22fe96522502d5fae5363cbb10c1f95776afaafb",
+          "bytes": 3058
+        },
+        "stopline_events.xml": {
+          "sha256": "a5da27be2fb5d79af828a6ee13827931392f0b489617261a99a5c933505261e7",
+          "bytes": 16193043
+        },
+        "summary.xml": {
+          "sha256": "c0d077f8b8bff1024815b380f2495a311a45d1d5a6dfd45b1a57bebfc577b8fe",
+          "bytes": 9258093
+        },
+        "sumo_stderr.log": {
+          "sha256": "94a4ebca9947adecd5011f20148316231e898f391cf050a34a4db9af276d7aaf",
+          "bytes": 1061
+        },
+        "sumo_stdout.log": {
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "bytes": 0
+        },
+        "tripinfo.xml": {
+          "sha256": "71d7a3897df49f4dd6157bc357adcf9afa4c15d5d72f4dc1039f98b9cd4332f9",
+          "bytes": 3497908
+        }
+      }
+    },
+    {
+      "case": "bridge_reused/weather_heavy_rain_seed47",
+      "source_directory": "independent_intervention_v1/runs/weather_heavy_rain_reference_seed47",
+      "files": {
+        "collisions.xml": {
+          "sha256": "c0859c1aa1609920680a10e6eddda691ede6b94e34825564f9e90ef98da21a4e",
+          "bytes": 2407
+        },
+        "connector_fcd.xml.gz": {
+          "sha256": "1ae53388bfd90163b11854a79331ddb4976500926f6ef2c92b223711528de71d",
+          "bytes": 12518691
+        },
+        "fcd_edges.txt": {
+          "sha256": "00a8704ce7eeaa72803c1b8cda8a439ed8177ddf2fb83d225db6fc90e25639dd",
+          "bytes": 39
+        },
+        "lanechanges.xml": {
+          "sha256": "21f6b2db723905c9ae8be2ce0e934aef1a136c5a6c5ec416ecfd86c95c4fe349",
+          "bytes": 8266892
+        },
+        "lane_queues.xml": {
+          "sha256": "3f1f95280a77a5b89bb7fe3e7cedb53ab5d12c413091e7da09ed8b6a6093d90a",
+          "bytes": 419164
+        },
+        "statistics.xml": {
+          "sha256": "680e5b26c027d45a7a3583ff6ef992509dc1c8d62bc8f2dfef30fc4182e36f45",
+          "bytes": 3058
+        },
+        "stopline_events.xml": {
+          "sha256": "541bf2e55f789db6b17bff2b764d7146538c5ba6182b87b7d82d8be7a667a230",
+          "bytes": 16523210
+        },
+        "summary.xml": {
+          "sha256": "6ab1589361fa8715f577e97e35af999dc6d9949145963aa35efe611df6272ef8",
+          "bytes": 9253546
+        },
+        "sumo_stderr.log": {
+          "sha256": "d3d754e338e46f753b6fe9048472d9aec7a77165829f63dae301244d555dcbeb",
+          "bytes": 923
+        },
+        "sumo_stdout.log": {
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "bytes": 0
+        },
+        "tripinfo.xml": {
+          "sha256": "f9aac4039d6a37c0d18e0d7305a4828e7b77a9dfd0653a987bf9b464cf9dc646",
+          "bytes": 3499336
+        }
+      }
+    },
+    {
+      "case": "bridge_reused/weather_heavy_rain_seed71",
+      "source_directory": "independent_intervention_v1/runs/weather_heavy_rain_reference_seed71",
+      "files": {
+        "collisions.xml": {
+          "sha256": "542a263846d6dd013709c2816473a106fa831362479b165944dd63e8855a454a",
+          "bytes": 2094
+        },
+        "connector_fcd.xml.gz": {
+          "sha256": "2c4d74f1e953a4821a33c9886389af60e941eb952ac2206879d8c9136b2cfba3",
+          "bytes": 12405700
+        },
+        "fcd_edges.txt": {
+          "sha256": "00a8704ce7eeaa72803c1b8cda8a439ed8177ddf2fb83d225db6fc90e25639dd",
+          "bytes": 39
+        },
+        "lanechanges.xml": {
+          "sha256": "1b5a559c3e908d58a0152506070010ce6676f3834d331faef6aa75cd1f7455d0",
+          "bytes": 8173475
+        },
+        "lane_queues.xml": {
+          "sha256": "41ff85ee2eed35610545f1cfdc8f693619b23250a74d51122e2a2b40fc126b47",
+          "bytes": 419172
+        },
+        "statistics.xml": {
+          "sha256": "285aca5f058ebbadb1a90d479a78458b32cab0134f3957a04ea8d9dae2a72669",
+          "bytes": 3058
+        },
+        "stopline_events.xml": {
+          "sha256": "980a9ef43a4c1362a181b0658257180361f2292866512c21aebcfb5efda137ae",
+          "bytes": 16195423
+        },
+        "summary.xml": {
+          "sha256": "c3108b13be119f5b8e7703b1fd1e3d3677def846c2ad7cba5d2eed0936bc4f23",
+          "bytes": 9257719
+        },
+        "sumo_stderr.log": {
+          "sha256": "e3df9dd05f1d09177abcab7c892a22667bb5c3be6aaa83a5df3804af3373a2bf",
+          "bytes": 877
+        },
+        "sumo_stdout.log": {
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "bytes": 0
+        },
+        "tripinfo.xml": {
+          "sha256": "e83943336183cbcd4e1fdb1e8f9dc496cb4541825ce31660e668248a3dfb6430",
+          "bytes": 3498746
+        }
+      }
+    },
+    {
+      "case": "bridge_reused/weather_heavy_rain_seed101",
+      "source_directory": "independent_intervention_v1/runs/weather_heavy_rain_reference_seed101",
+      "files": {
+        "collisions.xml": {
+          "sha256": "ccc010174bffe9a5a5970fc58db30ac5534463bbb236a39517193b5b1b617950",
+          "bytes": 2721
+        },
+        "connector_fcd.xml.gz": {
+          "sha256": "e703ff2e1ea41f2586f801321232d215576044d89312c792ba4ae5a09637493a",
+          "bytes": 12107285
+        },
+        "fcd_edges.txt": {
+          "sha256": "00a8704ce7eeaa72803c1b8cda8a439ed8177ddf2fb83d225db6fc90e25639dd",
+          "bytes": 39
+        },
+        "lanechanges.xml": {
+          "sha256": "7bed492464b13dffb936d677a4df8ac9cfabd4b580e9de424ad396aaac13297f",
+          "bytes": 8233114
+        },
+        "lane_queues.xml": {
+          "sha256": "0b5c487b83481d546a3f811803a086cddbde6089c527dd7536c68bfe6411f6ea",
+          "bytes": 419041
+        },
+        "statistics.xml": {
+          "sha256": "15932a861cb4ad72fa53bc66b3a391a946c3b2fb0a6b1974214f0e0d9acafe79",
+          "bytes": 3059
+        },
+        "stopline_events.xml": {
+          "sha256": "51d83ae089f933fbdfcb77152adf0fc02ec053a5ae94f03cfca122f12a5c18e1",
+          "bytes": 16471821
+        },
+        "summary.xml": {
+          "sha256": "dc3f365d0ff722a18aba2afb0e13c2dfcdf4ba0b67bbcc0765c4e01a9c49a6e4",
+          "bytes": 9252379
+        },
+        "sumo_stderr.log": {
+          "sha256": "b321a1108c8f3237b9a61fcfdc1e7de459142e5be9834f3d75f8610bd6fa33d9",
+          "bytes": 875
+        },
+        "sumo_stdout.log": {
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "bytes": 0
+        },
+        "tripinfo.xml": {
+          "sha256": "4274b5b837a9dcf8dee9d87cb2e96613f24285b4ecf35e186bf83249a7530af7",
+          "bytes": 3500302
+        }
+      }
+    }
+  ],
+  "scope": "Completion-bound files and supplementary archived outputs are included in the companion archive; restore using the root entry point.",
+  "companion_archive": "holdout-raw.zip"
+}

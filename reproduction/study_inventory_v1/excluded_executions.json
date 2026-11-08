@@ -1,0 +1,25 @@
+[
+  {
+    "source": "pilot/runs/tau1_dt1_action1_seed42",
+    "role": "automatic-ballistic debug run",
+    "counted_as_revision": false,
+    "record_sha256": "b1be2bd288516085ea3ecb1a4ad91df1cd5b4a44cad3b10de601663f0cc0343f"
+  },
+  {
+    "source": "pilot_euler_v2/runs/tau1_dt0.1_action0.5_seed42",
+    "role": "interrupted exploratory run",
+    "counted_as_revision": false
+  },
+  {
+    "source": "audit/stage17_portability/relocated/replay_project/replays/connector_audit_v1/fine_joint_seed11/replay_report.json",
+    "role": "same-configuration migration replay",
+    "counted_as_revision": false,
+    "record_sha256": "970932f1fc62a0bbfef544c2102ccc84399cd1615286c00729d7e4e43a7f29d0"
+  },
+  {
+    "source": "audit/stage18_portability/relocated/replay_project/replays/original/baseline/replay_report.json",
+    "role": "same-configuration migration replay",
+    "counted_as_revision": false,
+    "record_sha256": "d2e042596688278fb77c61b87271fa73071816ff558a8b02ac2cb47ce2770e98"
+  }
+]

@@ -1,0 +1,150 @@
+{
+  "sources": [
+    {
+      "file": "core_detector_batch/cycle_diagnostics.csv",
+      "source": "release_preparation/portable_figures_v2/core_detector_batch/cycle_diagnostics.csv",
+      "sha256": "d23784758cfe8501c253c97f243f88f9b2ef630e2383a23b336646bb88b54d51",
+      "transformation": "none"
+    },
+    {
+      "file": "frozen/data/baseline_edge_bottleneck.csv",
+      "source": "release_preparation/portable_figures_v2/frozen/data/baseline_edge_bottleneck.csv",
+      "sha256": "e6d2b2c4b81dd58702f3022102f917252a1a3702483a37e450d14d67e846ecf4",
+      "transformation": "none"
+    },
+    {
+      "file": "frozen/data/sumo_factorial_interactions.csv",
+      "source": "release_preparation/portable_figures_v2/frozen/data/sumo_factorial_interactions.csv",
+      "sha256": "d6859ff97a2321b33cfa6046163422685ed6754a147614a17287a95598292468",
+      "transformation": "none"
+    },
+    {
+      "file": "frozen/data/sumo_keyseed_scenario_summary.csv",
+      "source": "release_preparation/portable_figures_v2/frozen/data/sumo_keyseed_scenario_summary.csv",
+      "sha256": "6876c10d4758063c433f380a8e40cba9855af665a2bbff4a612e81bde80599a8",
+      "transformation": "none"
+    },
+    {
+      "file": "frozen/data/sumo_multiseed_scenario_summary.csv",
+      "source": "release_preparation/portable_figures_v2/frozen/data/sumo_multiseed_scenario_summary.csv",
+      "sha256": "60e72abac4b1c8981cb53de18f66a9649eae5bf6b2b20402c45667db1615cb19",
+      "transformation": "none"
+    },
+    {
+      "file": "frozen/data/sumo_scenario_effects.csv",
+      "source": "release_preparation/portable_figures_v2/frozen/data/sumo_scenario_effects.csv",
+      "sha256": "f270502f777b65db9790f21c6735ceafa26dcff35eca606edff3c77562abb3f7",
+      "transformation": "none"
+    },
+    {
+      "file": "frozen/data/weather_decomposition_summary.csv",
+      "source": "release_preparation/portable_figures_v2/frozen/data/weather_decomposition_summary.csv",
+      "sha256": "7e59873744ecab5c2aaf4a982dff1a97f20aa964e8bc3ef3fa6d6b28a821136d",
+      "transformation": "none"
+    },
+    {
+      "file": "frozen/inputs/network.net.xml",
+      "source": "release_preparation/portable_figures_v2/frozen/inputs/network.net.xml",
+      "sha256": "5c18dcd49ff415a90acc61c5d12ea5a3630928aa8d4c87492ce63de426245ce2",
+      "transformation": "none"
+    },
+    {
+      "file": "horizon_audit_v1/timeline.csv",
+      "source": "release_preparation/portable_figures_v2/horizon_audit_v1/timeline.csv",
+      "sha256": "31182a814b233c2dd588b1d69042a815adfa2090aaf62a5a91c268287a69e70d",
+      "transformation": "none"
+    },
+    {
+      "file": "independent_intervention_v1/analysis_summary.json",
+      "source": "release_preparation/portable_figures_v2/independent_intervention_v1/analysis_summary.json",
+      "sha256": "6676bd532d48f42d34fc50e15b168fe0a1170f46d5d847d03f93beef3c19a47a",
+      "transformation": "none"
+    },
+    {
+      "file": "independent_intervention_v1/paired_intervention_effects.csv",
+      "source": "release_preparation/portable_figures_v2/independent_intervention_v1/paired_intervention_effects.csv",
+      "sha256": "f58b26141e7ba95c68f927dcfd31441d908d781900789ca0472526ab5bf0dfab",
+      "transformation": "none"
+    },
+    {
+      "file": "score_revision_v1/factor_scores.csv",
+      "source": "release_preparation/portable_figures_v2/score_revision_v1/factor_scores.csv",
+      "sha256": "0414babf75b35277b28499d86f29818e16d0a7407334eca731a56f58f7d83934",
+      "transformation": "none"
+    },
+    {
+      "file": "score_revision_v1/multiseed_factor_scores.csv",
+      "source": "release_preparation/portable_figures_v2/score_revision_v1/multiseed_factor_scores.csv",
+      "sha256": "e403434d0387509206a3cdad93cf35477fdd0566e3ebb1110682a65085e75c30",
+      "transformation": "none"
+    },
+    {
+      "file": "score_revision_v1/range_summary.csv",
+      "source": "release_preparation/portable_figures_v2/score_revision_v1/range_summary.csv",
+      "sha256": "9099883d2b9339e8635961233ca4e0a80045bbded95cfea5a6931f1885a912b9",
+      "transformation": "none"
+    },
+    {
+      "file": "score_revision_v1/scenario_scores.csv",
+      "source": "release_preparation/portable_figures_v2/score_revision_v1/scenario_scores.csv",
+      "sha256": "c38a2d41aed37c04da61e036065598d7ca2d8cb2101450501a3055ad5db53bd6",
+      "transformation": "none"
+    },
+    {
+      "file": "scripts/legacy_weather.py",
+      "source": "release_preparation/portable_figures_v2/scripts/legacy_weather.py",
+      "sha256": "67e10fada99722d241e0c0f877fb9e20c30031967082a5492a802d9a9baaec8f",
+      "transformation": "none"
+    },
+    {
+      "file": "scripts/plot_core_cycle_check.py",
+      "source": "release_preparation/portable_figures_v2/scripts/plot_core_cycle_check.py",
+      "sha256": "e01df52a49ae592ebcad84dd84752bbd2af20419eedfeb2fbc9231ff632c77d9",
+      "transformation": "none"
+    },
+    {
+      "file": "scripts/plot_horizon_v1.py",
+      "source": "release_preparation/portable_figures_v2/scripts/plot_horizon_v1.py",
+      "sha256": "87d179b433be5681996e45d6e43e22740cae5e989dfb290f8d1c3f77586d264b",
+      "transformation": "none"
+    },
+    {
+      "file": "scripts/plot_independent_intervention_v1.py",
+      "source": "release_preparation/portable_figures_v2/scripts/plot_independent_intervention_v1.py",
+      "sha256": "8a738fc9327810df856c28ef43429d7853ac4c2f1e1deb6542fb0ffa592df18c",
+      "transformation": "none"
+    },
+    {
+      "file": "scripts/plot_legacy_stage10.py",
+      "source": "release_preparation/portable_figures_v2/scripts/plot_legacy_stage10.py",
+      "sha256": "51d05ab13ddbeb5017ebd424802b82e59f9e36ad1982f11b14a28f8da44a0437",
+      "transformation": "none"
+    },
+    {
+      "file": "scripts/plot_scores_stage8.py",
+      "source": "release_preparation/portable_figures_v2/scripts/plot_scores_stage8.py",
+      "sha256": "a7e328243a3bec0717f36b6caf08f394a5f0d9302e9e21066a45d3de00dc7b84",
+      "transformation": "none"
+    },
+    {
+      "file": "scripts/stopline_instrumentation.py",
+      "source": "release_preparation/portable_figures_v2/scripts/stopline_instrumentation.py",
+      "sha256": "b540ba24659642c55ba718c58c67f3f097502f4ebb529e977557154a4e62edbe",
+      "transformation": "none"
+    },
+    {
+      "file": "scripts/plot_bottleneck_stage29.py",
+      "source": "release_preparation/figure_updates_stage29/scripts/plot_bottleneck_stage29.py",
+      "sha256": "f4f5eb483088be86d404ddef2f0d86b797db55775a037a22271a3ec555de51a9",
+      "transformation": "none"
+    },
+    {
+      "file": "scripts/current_style.py",
+      "source": "scripts/restyle_figures_20261022.py",
+      "source_sha256": "ff4ad11690507dc75eb41c2875725b4d420f3a1422d768dab9232e2e8ef41861",
+      "sha256": "5d50345e72c0eaa6789fc548f3194acff256d20c1dadfa50cb5ac8608d424aba",
+      "transformation": "two package-local path substitutions only"
+    }
+  ],
+  "new_simulation_runs": 0
+}

@@ -1,0 +1,153 @@
+{
+  "new_runs": 7,
+  "unchanged_network": true,
+  "passive_controls_exact": true,
+  "warning_free_is_not_validation": true,
+  "joint_step_action_not_pure_convergence": true,
+  "collision_events": [
+    {
+      "kind": "passive",
+      "seed": 11,
+      "run": "passive_seed11",
+      "time": "765.00",
+      "type": "side",
+      "lane": ":J3_0_1",
+      "pos": "5.53",
+      "collider": "ED2_3_car.16",
+      "victim": "ED2_2_car.14",
+      "colliderType": "car",
+      "victimType": "car",
+      "colliderSpeed": "1.27",
+      "victimSpeed": "0.00",
+      "colliderFront": "488.14,1021.90",
+      "colliderBack": "491.79,1025.74",
+      "victimFront": "489.65,1021.24",
+      "victimBack": "491.77,1025.17",
+      "event_index": 0,
+      "related_lanechanges_within_2s": 1
+    },
+    {
+      "kind": "passive",
+      "seed": 101,
+      "run": "passive_seed101",
+      "time": "1632.00",
+      "type": "side",
+      "lane": ":J3_0_3",
+      "pos": "5.07",
+      "collider": "ED2_car.96",
+      "victim": "ED2_1_car.36",
+      "colliderType": "car",
+      "victimType": "car",
+      "colliderSpeed": "0.69",
+      "victimSpeed": "0.00",
+      "colliderFront": "493.48,1022.12",
+      "colliderBack": "495.19,1026.23",
+      "victimFront": "495.20,1021.75",
+      "victimBack": "495.20,1025.88",
+      "event_index": 0,
+      "related_lanechanges_within_2s": 1
+    }
+  ],
+  "paired_setting_changes": {
+    "end_arrived": {
+      "difference": {
+        "mean": 59.6,
+        "ci95_low": 2.2437241978859177,
+        "ci95_high": 116.95627580211408,
+        "n": 5
+      },
+      "reference_mean": 6678.6,
+      "observed_mean": 6738.2,
+      "relative_pct": {
+        "mean": 0.89474260696075,
+        "ci95_low": 0.027028525252501767,
+        "ci95_high": 1.7624566886689983,
+        "n": 5
+      }
+    },
+    "end_running": {
+      "difference": {
+        "mean": -10.2,
+        "ci95_low": -27.12037721977991,
+        "ci95_high": 6.7203772197799125,
+        "n": 5
+      },
+      "reference_mean": 477.6,
+      "observed_mean": 467.4,
+      "relative_pct": {
+        "mean": -2.0818763176335975,
+        "ci95_low": -5.551219313437203,
+        "ci95_high": 1.387466678170008,
+        "n": 5
+      }
+    },
+    "end_waiting": {
+      "difference": {
+        "mean": -49.4,
+        "ci95_low": -98.79888083716364,
+        "ci95_high": -0.0011191628363604877,
+        "n": 5
+      },
+      "reference_mean": 743.8,
+      "observed_mean": 694.4,
+      "relative_pct": {
+        "mean": -6.532396892064272,
+        "ci95_low": -12.780286258438451,
+        "ci95_high": -0.2845075256900911,
+        "n": 5
+      }
+    },
+    "stat_safety_collisions": {
+      "difference": {
+        "mean": -0.4,
+        "ci95_low": -1.080087380658257,
+        "ci95_high": 0.2800873806582569,
+        "n": 5
+      },
+      "reference_mean": 0.4,
+      "observed_mean": 0.0
+    },
+    "teleport_events": {
+      "difference": {
+        "mean": -0.4,
+        "ci95_low": -1.080087380658257,
+        "ci95_high": 0.2800873806582569,
+        "n": 5
+      },
+      "reference_mean": 0.4,
+      "observed_mean": 0
+    },
+    "total_vehicle_hours_discrete": {
+      "difference": {
+        "mean": -11.512516666664805,
+        "ci95_low": -49.25308386927166,
+        "ci95_high": 26.22805053594205,
+        "n": 5
+      },
+      "reference_mean": 732.2262222222222,
+      "observed_mean": 720.7137055555575,
+      "relative_pct": {
+        "mean": -1.4861054059809242,
+        "ci95_low": -6.467781470195986,
+        "ci95_high": 3.4955706582341377,
+        "n": 5
+      }
+    },
+    "trip_completed_timeLoss_mean_s": {
+      "difference": {
+        "mean": -2.0006321237213682,
+        "ci95_low": -6.752747126648448,
+        "ci95_high": 2.7514828792057116,
+        "n": 5
+      },
+      "reference_mean": 142.19524619166762,
+      "observed_mean": 140.19461406794625,
+      "relative_pct": {
+        "mean": -1.363495463908666,
+        "ci95_low": -4.663691348843583,
+        "ci95_high": 1.9367004210262517,
+        "n": 5
+      }
+    }
+  }
+}

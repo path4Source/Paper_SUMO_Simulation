@@ -1,0 +1,87 @@
+{
+  "simulations": {
+    "original": {
+      "directory": "reproduction/portable_original_v1"
+    },
+    "diagnostics": {
+      "directory": "reproduction/portable_simulations_v1"
+    },
+    "morris": {
+      "directory": "reproduction/portable_morris_inputs_v1"
+    },
+    "pilots": {
+      "directory": "reproduction/portable_pilots_v1"
+    },
+    "followup": {
+      "directory": "reproduction/portable_followup_v1"
+    }
+  },
+  "analyses": {
+    "original": {
+      "directory": "reproduction/portable_original_analyses_v2",
+      "entry": "run_reproduction.py",
+      "raw_root": null
+    },
+    "local": {
+      "directory": "reproduction/portable_raw_analyses_v2",
+      "entry": "run_reproduction.py",
+      "raw_root": null
+    },
+    "warnings": {
+      "directory": "reproduction/portable_diagnostics_v1",
+      "entry": "run_reproduction.py",
+      "raw_root": null
+    },
+    "settings": {
+      "directory": "reproduction/portable_setting_connector_v1",
+      "entry": "run_reproduction.py",
+      "raw_root": null
+    },
+    "morris": {
+      "directory": "reproduction/portable_morris_raw_v1",
+      "entry": "run_raw_reproduction.py",
+      "raw_root": "data/morris_raw"
+    },
+    "scores": {
+      "directory": "reproduction/portable_score_raw_v1",
+      "entry": "run_raw_reproduction.py",
+      "raw_root": "data/original_score_raw"
+    },
+    "holdout": {
+      "directory": "reproduction/portable_holdout_v2",
+      "entry": "run_raw_reproduction.py",
+      "raw_root": "data/holdout_raw"
+    },
+    "holdout_processed": {
+      "directory": "reproduction/portable_holdout_v2",
+      "entry": "run_processed_reproduction.py",
+      "raw_root": null
+    },
+    "followup": {
+      "directory": "reproduction/portable_followup_v1",
+      "entry": "run_raw_reproduction.py",
+      "raw_root": "data/followup_raw"
+    }
+  },
+  "figure_package": "reproduction/portable_figures_v2",
+  "figure_update": "reproduction/figure_updates_stage29",
+  "current_figure_package": "reproduction/portable_figures_v5",
+  "status": "core evidence release; later six-condition supplement not included",
+  "run_counts": {
+    "original": 240,
+    "revision_diagnostics_before_holdout": 166,
+    "exploratory": 22,
+    "morris_design": 660,
+    "morris_equivalence_controls": 5,
+    "added_holdout_and_bridge": 80,
+    "unique_executions": 1344,
+    "reused_bridge_references": 15,
+    "passive_measurement_replays": 110,
+    "numerical_refinements": 60,
+    "numerical_technical_control": 1,
+    "reused_numerical_references": 30
+  },
+  "run_count_scope": "The base inventory ends before the n1 follow-up. Addenda use separate run identities.",
+  "addenda_manifest": "addenda_manifest.json",
+  "release_tag": "v2026.11.09-core"
+}

@@ -1,0 +1,16 @@
+{
+  "Fig_revision_scores": "2bd9399fd2beaeb6d570d285b24db5eb4ec1f5f2cf3f15626850ea44390f4c28",
+  "Fig_revision_score_robustness": "206b5cd8b743db474f3bb32e14afbb1aae2a7256972804c83bcabfad8bb2b03c",
+  "Fig_revision_multiseed_scores": "d58c3fad3addeb52b58eeae3c0fd025ab48fc4bedee299364a65a1a66229909c",
+  "Fig_revision_QD_response": "f0a9c305f300a9851638fa604d04100d4dd7d4688eff98d89b406ef84019d22b",
+  "Fig_revision_oat_stage10": "dcf55f2ddf94944e4933c44567df6b480c73d3290717daab1be0f80c2c287332",
+  "Fig_revision_three_seed_stage10": "873aa6e1207747de9193ef8c1c05bd7862bd190b1f242ebef78d967b99ca6141",
+  "Fig_revision_ten_seed_stage10": "562ac15c50df2505f4bad5c366d4b08d8e6701108ae47a669d815e687227dc4a",
+  "Fig_revision_network_stage10": "2fde7bb92a83beefab5ce6690c88a466a8329a8e1c7403fce0eaf1069f6b859a",
+  "Fig_revision_interactions_stage10": "34d67a94223c1b445dc44f936481d59f3b457d0838f16c034efa2421285fffdb",
+  "Fig_revision_cycle_audit": "eab238b2748372033334bc135d4cdb2bdac31ebcf6f74e312da0423bb24c9002",
+  "Fig_revision_intervention": "a737814d649fdd3d3d7d4dc9be145e5632e9ce357ec418a771da6a9b2f92dea6",
+  "Fig23_weather_decomposition": "6ecd9ca45806813429836fb160b5c71df01f0b9aea43659ba2e00671c3f5b346",
+  "Fig08_baseline_edge_bottleneck": "80c28f27d6190535ca2078214222ab7fa8d754f4c1d2ff0bfefd04de375e7239",
+  "Fig_revision_horizon": "e6cabdd6631f33354c66551b8dd6f9cd99935cf8701563caa80e271859c15b35"
+}

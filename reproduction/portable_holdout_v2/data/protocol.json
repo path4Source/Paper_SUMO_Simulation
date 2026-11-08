@@ -1,0 +1,185 @@
+{
+  "original_protocol_sha256": "78d8efcaff70fde09675d34c767296aa4370be697285711602fb198aa7ffe54b",
+  "omitted_fields": [
+    "user_direction"
+  ],
+  "omission_reason": "Administrative conversation note; scientific protocol fields unchanged",
+  "protocol": {
+    "frozen_utc": "2026-10-22T12:47:03.893730+00:00",
+    "version": "author-holdout-v2-1.0",
+    "validation_type": "Author-prepared prospective parameter-hidden holdout, not independent human blinding",
+    "purpose": "Test the revised population-first rules on a fixed new set; separate stochastic-update setting effects before interpreting output changes.",
+    "bridge": {
+      "states": [
+        "baseline",
+        "heavyveh_very_high",
+        "weather_heavy_rain"
+      ],
+      "seeds": [
+        11,
+        29,
+        47,
+        71,
+        101
+      ],
+      "new_runs": 15,
+      "reused_runs": 15,
+      "changed_setting": "Set every vType sigmaStep=1.0 s; retain the saved 0.1/0.1 s ballistic configuration and its other input parameters.",
+      "interpretation": "Within-setting paired bridge, not numerical convergence or proof of a junction defect. Output-only FCD recording may be omitted; traffic dynamics and warning policies remain unchanged."
+    },
+    "holdout": {
+      "conditions": [
+        {
+          "case_id": "H01",
+          "name": "truck010",
+          "truck": 0.1,
+          "family": "supply_candidate"
+        },
+        {
+          "case_id": "H02",
+          "name": "stochastic038",
+          "sigma": 0.38,
+          "family": "recovery_candidate"
+        },
+        {
+          "case_id": "H03",
+          "name": "headway085",
+          "tau": 0.85,
+          "family": "recovery_candidate"
+        },
+        {
+          "case_id": "H04",
+          "name": "reallocation6",
+          "reallocation": true,
+          "family": "redistribution_candidate"
+        },
+        {
+          "case_id": "H05",
+          "name": "incompatible_headway008",
+          "tau": 0.08,
+          "family": "timing_audit_control"
+        },
+        {
+          "case_id": "H06",
+          "name": "demand092",
+          "demand": 0.92,
+          "family": "demand"
+        },
+        {
+          "case_id": "H07",
+          "name": "sham",
+          "family": "sham"
+        },
+        {
+          "case_id": "H08",
+          "name": "demand108",
+          "demand": 1.08,
+          "family": "demand"
+        },
+        {
+          "case_id": "H09",
+          "name": "truck018",
+          "truck": 0.18,
+          "family": "supply_candidate"
+        },
+        {
+          "case_id": "H10",
+          "name": "truck010_demand092",
+          "truck": 0.1,
+          "demand": 0.92,
+          "family": "mixed"
+        },
+        {
+          "case_id": "H11",
+          "name": "stochastic062",
+          "sigma": 0.62,
+          "family": "supply_candidate"
+        },
+        {
+          "case_id": "H12",
+          "name": "composite_demand108",
+          "speed": 0.88,
+          "accel": 0.8,
+          "decel": 0.9,
+          "sigma": 0.68,
+          "demand": 1.08,
+          "family": "mixed"
+        }
+      ],
+      "seeds": [
+        211,
+        307,
+        401,
+        503,
+        601
+      ],
+      "condition_runs": 60,
+      "baseline_runs": 5,
+      "setting": "SUMO 1.24.0; step/action=0.1/0.1 s; explicit sigmaStep=1.0 s for all vehicle types; ballistic; junction collision checks on; collision teleport; gridlock teleport 300 s; one-hour fixed cohort; no warmup exclusion.",
+      "setting_rationale": "Preserve the original 1 s Krauss stochastic-update period explicitly while using compatible fine integration/action intervals. Fixed before new outcomes, not selected for fewer warnings. This is the setting of this holdout, not a claim that all manuscript settings are converged.",
+      "scope": "Assumed within-model scenarios. The timing-audit control deliberately sets tau=0.08 s below the 0.1 s step/action; retain and qualify it, not a physically recommended parameter.",
+      "labels": "Construction families are known applied inputs, not realized causal truth. Do not calculate causal accuracy, confusion or valid-gain recall without separately justified reference judgments.",
+      "local": "53 monitored controlled lanes partitioned into target (5), donor (13), and remaining lanes. Count lane-end front entries; sum duration-weighted mean maximum jam extent over last up-to-100 m. Fixed grouping, including donor costs, is used for all cases.",
+      "groups_source": "The six-second reallocation has the same receiving/donating movement sets as the prior four-second candidate; cycle, states, offsets and clearances are unchanged.",
+      "recovery_target": "target aggregate only; not a claim that each of the five target lanes improves",
+      "seed_unit": "Five paired seeds per case; 12 scenario units, 60 treatment simulations and 5 shared references. Seeds are not independent causal cases.",
+      "outcome_reporting": "All seven rule variants and all cases, warnings, abstentions and mixed flags; no post-outcome replacement, favorable-seed selection or threshold tuning.",
+      "thresholds": {
+        "flow_pct": 2.0,
+        "delay_pct": 5.0,
+        "burden_pct": 5.0,
+        "demand_pct": 1.0,
+        "share_pp": 2.0,
+        "local_queue_pct": 5.0
+      },
+      "variants": [
+        "full",
+        "without_population",
+        "without_warning",
+        "without_local",
+        "conventional_QD",
+        "QD_timing_warning",
+        "always_abstain"
+      ]
+    },
+    "stopping": "Stop scheduling new runs on a process, input-integrity or population-accounting error; finish and preserve already running jobs. A completed warning-exposed run is not a failed run. Never overwrite partial run folders.",
+    "planned_new_runs": 80,
+    "source_hashes": {
+      "network": "5c18dcd49ff415a90acc61c5d12ea5a3630928aa8d4c87492ce63de426245ce2",
+      "template": "f91d88d4472e694bfc1fd184fc2eccc5007c146beb6c7ef1484a5f9e93b22fb2",
+      "sumo": "68a88f8c057d7aed44c63d93b6133f94d605dfe2578938221a65ee455d64b376",
+      "baseline_routes": "12d34980decfb81168a58b3cfb316b39dff5d9012fed070c174be988749288ef",
+      "truck_routes": "4b0143dcd11a4b1441fd592ea9049fdb94c16a90659ef77ec600b7356b7f1620"
+    },
+    "reused_complete_record_hashes": {
+      "baseline_11": "9d6823b3df8bade2e9186802c66923535558304e59d0a2fb2588610eae85ec94",
+      "baseline_29": "c489c01ed431d3699826015447def41f940d45b87b80b221456eae008f2692ef",
+      "baseline_47": "5ae4068b0defd24edb126ba48148715bf14e11d3cf6ca4886861f521c2e3a278",
+      "baseline_71": "29c3ffd43b8bd19ac5b598a82730b8527bd14997718f737dd397c20ee53c66a4",
+      "baseline_101": "970348c926f23e0b3895de3a766bceb0cac3da1dc044dfce9f24da29ab1234f9",
+      "heavyveh_very_high_11": "c6b119ec524e740f02ce027c2332038dafcaf1e836f53b06fc0b03376306c1cc",
+      "heavyveh_very_high_29": "8b6d98bae85aae4d34768b0fba5ad2861cb2bcaf8de38bcddbb18d6da3dd8194",
+      "heavyveh_very_high_47": "b1ee943e7f294037882bcd19ffbace0f3d43065c261dc3eaf384627fc134db3b",
+      "heavyveh_very_high_71": "535c28ba6acdb9ecf715d108fe7d06a91308d8cc420fbfe64b60709b81599980",
+      "heavyveh_very_high_101": "baca13d6198adb0820cc704cbed651960c3afe491377b139c656cdb05361e274",
+      "weather_heavy_rain_11": "ed056a4740fb5f6262a2ecd63f186ce022c319a55033ee8da97ea29b563e612a",
+      "weather_heavy_rain_29": "eaf826d3c43862d200a876e7b642f4455fd10df27e3bd00deb219caaddcb1cf9",
+      "weather_heavy_rain_47": "416da34c5f73c10edd9f8c2d5672a6a5edcea64cdfd173c8cdb1743aaa00bf10",
+      "weather_heavy_rain_71": "aa5eb2382b0bda6a67b7bd8ffb4a7fb297774c257ec5efc4315377432a18db7a",
+      "weather_heavy_rain_101": "39d5df51565af4f97e795ed392d5cd136114141813b45015d4145f788d6c5e55"
+    },
+    "code_hashes": {
+      "run_author_holdout_v2.py": "3fe4568383f702efd2745442cf87d7ea261bda50732c41de192ed2b8e488f67c",
+      "analyze_author_holdout_v2.py": "89fc3225bcbd14307bc4f4d898841a4dcda94dec7baddd49dad3855735be9bf2",
+      "audit_metrics.py": "d6b12fb1405426b35a74085b85cdd0b62f305eb3625262b2db2eddec7ea508fe",
+      "run_hidden_challenge_v1.py": "eef3401f934a1734e5924eac9129b1e768f424041693ee5a371e256a774494fa",
+      "stopline_instrumentation.py": "b540ba24659642c55ba718c58c67f3f097502f4ebb529e977557154a4e62edbe",
+      "analyze_independent_intervention_v1.py": "eba3b7d96ea86eecc81969f949d306c991d83a473c14d59ed3b5b2d42a1a0285",
+      "diagnostic_rules_v2_draft.py": "8d6dc7752cc3791e5e0416a27ce58ec141e13c880b492cbc9afe8706c72dc91a",
+      "blind_test_v2_tools.py": "02ec94f7963feea18aca2479f98cb1d59f3e382273e3eb5934787b9a0d9c9dd9",
+      "freeze_submission.py": "1809e006438a33e09d2d11e19aa5d6f532215f3255f222f9104bf626c10a9a52",
+      "run_timepilot.py": "89b433a4253c0414251e2418b6bcf52a97ae9d22d0e82e7e723d7d27950cd271",
+      "run_independent_intervention_v1.py": "a81c6ba5c664e8c999ec47fd5f8054bdebaa9985e327484368b751f30c8bd08c"
+    }
+  }
+}

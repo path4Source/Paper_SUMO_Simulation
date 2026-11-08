@@ -1,0 +1,14 @@
+factor,label,best,worst,mean,top3_frequency,top5_frequency
+heavy_vehicle_share,Heavy vehicles,1.0,2.0,1.1666666666666667,1.0,1.0
+weather,Weather,1.0,2.0,1.8333333333333333,1.0,1.0
+driver_sigma,Behavioral stochasticity,3.0,10.0,4.166666666666667,0.8333333333333334,0.8333333333333334
+signal_lost_time,Signal lost time,3.0,5.0,4.5,0.16666666666666666,1.0
+reaction_time,Desired time headway,4.0,10.0,5.166666666666667,0.0,0.8333333333333334
+acceleration,Acceleration,6.0,10.0,6.666666666666667,0.0,0.0
+max_speed,Maximum speed,4.0,9.0,7.333333333333333,0.0,0.16666666666666666
+min_gap,Minimum gap,7.0,10.0,7.833333333333333,0.0,0.0
+signal_green,Green duration,8.0,10.0,8.833333333333334,0.0,0.0
+deceleration,Deceleration,5.0,10.0,9.166666666666666,0.0,0.16666666666666666
+bottleneck_speed,Bottleneck speed,6.0,11.0,10.166666666666666,0.0,0.0
+lane_control,Lane control,10.0,12.5,12.083333333333334,0.0,0.0
+signal_offset,Signal offset,10.0,12.5,12.083333333333334,0.0,0.0

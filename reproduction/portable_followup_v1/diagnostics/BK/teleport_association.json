@@ -1,0 +1,1667 @@
+{
+  "utc": "2026-10-23T08:38:07.819917+00:00",
+  "analysis_type": "Post-output descriptive event audit",
+  "residual_lane_runs": 35,
+  "cases": 12,
+  "diagnostics": [
+    {
+      "case": "bridge_heavyveh_very_high_seed11",
+      "lane": "ED1.177_0",
+      "front_entries": 157,
+      "left": 156,
+      "teleported": 0,
+      "vaporized": 0,
+      "arrived": 0,
+      "laneChangedFrom": 0,
+      "corrected_left": 156,
+      "residual": 1,
+      "front_events_with_latest_prior_teleport_end_on_this_edge": 1,
+      "example_matches": [
+        {
+          "vehicle": "Eh3_car.300",
+          "front_time": 3592.22,
+          "last_teleport_end": {
+            "edge": "ED1.177",
+            "time": 3485.7
+          }
+        }
+      ],
+      "attribution": "Temporal association only. Aggregate lane exits do not identify individual crossings; no FCD trace is available for these runs."
+    },
+    {
+      "case": "bridge_weather_heavy_rain_seed71",
+      "lane": "ED1.177_0",
+      "front_entries": 140,
+      "left": 138,
+      "teleported": 0,
+      "vaporized": 0,
+      "arrived": 0,
+      "laneChangedFrom": 0,
+      "corrected_left": 138,
+      "residual": 2,
+      "front_events_with_latest_prior_teleport_end_on_this_edge": 3,
+      "example_matches": [
+        {
+          "vehicle": "Eh3_2_car.109",
+          "front_time": 2600.81,
+          "last_teleport_end": {
+            "edge": "ED1.177",
+            "time": 2593.1
+          }
+        },
+        {
+          "vehicle": "Eh3_car.393",
+          "front_time": 3325.48,
+          "last_teleport_end": {
+            "edge": "ED1.177",
+            "time": 3238.2
+          }
+        },
+        {
+          "vehicle": "Eh3_car.340",
+          "front_time": 3338.86,
+          "last_teleport_end": {
+            "edge": "ED1.177",
+            "time": 2280.0
+          }
+        }
+      ],
+      "attribution": "Temporal association only. Aggregate lane exits do not identify individual crossings; no FCD trace is available for these runs."
+    },
+    {
+      "case": "bridge_weather_heavy_rain_seed71",
+      "lane": "Ed1.209_0",
+      "front_entries": 321,
+      "left": 320,
+      "teleported": 2,
+      "vaporized": 0,
+      "arrived": 0,
+      "laneChangedFrom": 263,
+      "corrected_left": 318,
+      "residual": 3,
+      "front_events_with_latest_prior_teleport_end_on_this_edge": 4,
+      "example_matches": [
+        {
+          "vehicle": "Ed4_car.176",
+          "front_time": 2640.37,
+          "last_teleport_end": {
+            "edge": "Ed1.209",
+            "time": 2626.3
+          }
+        },
+        {
+          "vehicle": "Eh2_3_car.85",
+          "front_time": 2760.29,
+          "last_teleport_end": {
+            "edge": "Ed1.209",
+            "time": 2758.7
+          }
+        },
+        {
+          "vehicle": "Ed4_car.168",
+          "front_time": 2763.32,
+          "last_teleport_end": {
+            "edge": "Ed1.209",
+            "time": 2761.8
+          }
+        },
+        {
+          "vehicle": "Eh4_2_car.37",
+          "front_time": 2766.97,
+          "last_teleport_end": {
+            "edge": "Ed1.209",
+            "time": 2766.3
+          }
+        }
+      ],
+      "attribution": "Temporal association only. Aggregate lane exits do not identify individual crossings; no FCD trace is available for these runs."
+    },
+    {
+      "case": "holdout_H02_seed307",
+      "lane": "ED2.378_0",
+      "front_entries": 1,
+      "left": 0,
+      "teleported": 0,
+      "vaporized": 0,
+      "arrived": 0,
+      "laneChangedFrom": 0,
+      "corrected_left": 0,
+      "residual": 1,
+      "front_events_with_latest_prior_teleport_end_on_this_edge": 1,
+      "example_matches": [
+        {
+          "vehicle": "ED2_2_car.38",
+          "front_time": 2671.0,
+          "last_teleport_end": {
+            "edge": "ED2.378",
+            "time": 2663.0
+          }
+        }
+      ],
+      "attribution": "Temporal association only. Aggregate lane exits do not identify individual crossings; no FCD trace is available for these runs."
+    },
+    {
+      "case": "holdout_H03_seed503",
+      "lane": "ED1.177_0",
+      "front_entries": 278,
+      "left": 277,
+      "teleported": 0,
+      "vaporized": 0,
+      "arrived": 0,
+      "laneChangedFrom": 0,
+      "corrected_left": 277,
+      "residual": 1,
+      "front_events_with_latest_prior_teleport_end_on_this_edge": 1,
+      "example_matches": [
+        {
+          "vehicle": "ED2_3_car.49",
+          "front_time": 2279.96,
+          "last_teleport_end": {
+            "edge": "ED1.177",
+            "time": 2255.0
+          }
+        }
+      ],
+      "attribution": "Temporal association only. Aggregate lane exits do not identify individual crossings; no FCD trace is available for these runs."
+    },
+    {
+      "case": "holdout_H03_seed503",
+      "lane": "ED2.378_0",
+      "front_entries": 1,
+      "left": 0,
+      "teleported": 0,
+      "vaporized": 0,
+      "arrived": 0,
+      "laneChangedFrom": 0,
+      "corrected_left": 0,
+      "residual": 1,
+      "front_events_with_latest_prior_teleport_end_on_this_edge": 1,
+      "example_matches": [
+        {
+          "vehicle": "ED2_car.97",
+          "front_time": 1685.58,
+          "last_teleport_end": {
+            "edge": "ED2.378",
+            "time": 1684.4
+          }
+        }
+      ],
+      "attribution": "Temporal association only. Aggregate lane exits do not identify individual crossings; no FCD trace is available for these runs."
+    },
+    {
+      "case": "holdout_H04_seed307",
+      "lane": "ED1.177_0",
+      "front_entries": 300,
+      "left": 299,
+      "teleported": 0,
+      "vaporized": 0,
+      "arrived": 0,
+      "laneChangedFrom": 0,
+      "corrected_left": 299,
+      "residual": 1,
+      "front_events_with_latest_prior_teleport_end_on_this_edge": 1,
+      "example_matches": [
+        {
+          "vehicle": "ED2_3_car.68",
+          "front_time": 3487.06,
+          "last_teleport_end": {
+            "edge": "ED1.177",
+            "time": 3471.0
+          }
+        }
+      ],
+      "attribution": "Temporal association only. Aggregate lane exits do not identify individual crossings; no FCD trace is available for these runs."
+    },
+    {
+      "case": "holdout_H05_seed211",
+      "lane": "ED1.177_0",
+      "front_entries": 396,
+      "left": 334,
+      "teleported": 0,
+      "vaporized": 0,
+      "arrived": 0,
+      "laneChangedFrom": 0,
+      "corrected_left": 334,
+      "residual": 62,
+      "front_events_with_latest_prior_teleport_end_on_this_edge": 78,
+      "example_matches": [
+        {
+          "vehicle": "Eh3_car.156",
+          "front_time": 674.97,
+          "last_teleport_end": {
+            "edge": "ED1.177",
+            "time": 623.0
+          }
+        },
+        {
+          "vehicle": "ED2_car.55",
+          "front_time": 680.2,
+          "last_teleport_end": {
+            "edge": "ED1.177",
+            "time": 661.2
+          }
+        },
+        {
+          "vehicle": "Eh3_car.172",
+          "front_time": 680.82,
+          "last_teleport_end": {
+            "edge": "ED1.177",
+            "time": 673.2
+          }
+        },
+        {
+          "vehicle": "Eh3_2_car.71",
+          "front_time": 923.97,
+          "last_teleport_end": {
+            "edge": "ED1.177",
+            "time": 917.7
+          }
+        },
+        {
+          "vehicle": "Eh3_car.239",
+          "front_time": 947.28,
+          "last_teleport_end": {
+            "edge": "ED1.177",
+            "time": 938.4
+          }
+        }
+      ],
+      "attribution": "Temporal association only. Aggregate lane exits do not identify individual crossings; no FCD trace is available for these runs."
+    },
+    {
+      "case": "holdout_H05_seed211",
+      "lane": "ED2.378_0",
+      "front_entries": 129,
+      "left": 0,
+      "teleported": 0,
+      "vaporized": 0,
+      "arrived": 0,
+      "laneChangedFrom": 0,
+      "corrected_left": 0,
+      "residual": 129,
+      "front_events_with_latest_prior_teleport_end_on_this_edge": 129,
+      "example_matches": [
+        {
+          "vehicle": "ED2_car.107",
+          "front_time": 1083.66,
+          "last_teleport_end": {
+            "edge": "ED2.378",
+            "time": 1009.2
+          }
+        },
+        {
+          "vehicle": "ED2_car.114",
+          "front_time": 1089.4,
+          "last_teleport_end": {
+            "edge": "ED2.378",
+            "time": 1046.2
+          }
+        },
+        {
+          "vehicle": "ED2_3_car.29",
+          "front_time": 1093.33,
+          "last_teleport_end": {
+            "edge": "ED2.378",
+            "time": 1070.2
+          }
+        },
+        {
+          "vehicle": "ED2_2_car.30",
+          "front_time": 1219.08,
+          "last_teleport_end": {
+            "edge": "ED2.378",
+            "time": 1123.4
+          }
+        },
+        {
+          "vehicle": "ED2_1_car.30",
+          "front_time": 1220.95,
+          "last_teleport_end": {
+            "edge": "ED2.378",
+            "time": 1125.2
+          }
+        }
+      ],
+      "attribution": "Temporal association only. Aggregate lane exits do not identify individual crossings; no FCD trace is available for these runs."
+    },
+    {
+      "case": "holdout_H05_seed211",
+      "lane": "ED3.294_0",
+      "front_entries": 84,
+      "left": 80,
+      "teleported": 0,
+      "vaporized": 0,
+      "arrived": 0,
+      "laneChangedFrom": 0,
+      "corrected_left": 80,
+      "residual": 4,
+      "front_events_with_latest_prior_teleport_end_on_this_edge": 4,
+      "example_matches": [
+        {
+          "vehicle": "Eh3_car.555",
+          "front_time": 2610.38,
+          "last_teleport_end": {
+            "edge": "ED3.294",
+            "time": 2601.2
+          }
+        },
+        {
+          "vehicle": "ED2_car.181",
+          "front_time": 2882.78,
+          "last_teleport_end": {
+            "edge": "ED3.294",
+            "time": 2849.2
+          }
+        },
+        {
+          "vehicle": "Eh3_car.591",
+          "front_time": 2884.16,
+          "last_teleport_end": {
+            "edge": "ED3.294",
+            "time": 2859.8
+          }
+        },
+        {
+          "vehicle": "Eh3_car.746",
+          "front_time": 3431.69,
+          "last_teleport_end": {
+            "edge": "ED3.294",
+            "time": 3383.8
+          }
+        }
+      ],
+      "attribution": "Temporal association only. Aggregate lane exits do not identify individual crossings; no FCD trace is available for these runs."
+    },
+    {
+      "case": "holdout_H05_seed211",
+      "lane": "Ed1.209_0",
+      "front_entries": 561,
+      "left": 566,
+      "teleported": 12,
+      "vaporized": 0,
+      "arrived": 0,
+      "laneChangedFrom": 118,
+      "corrected_left": 554,
+      "residual": 7,
+      "front_events_with_latest_prior_teleport_end_on_this_edge": 8,
+      "example_matches": [
+        {
+          "vehicle": "Eh2_2_car.12",
+          "front_time": 300.46,
+          "last_teleport_end": {
+            "edge": "Ed1.209",
+            "time": 295.2
+          }
+        },
+        {
+          "vehicle": "Eh2_2_car.13",
+          "front_time": 304.5,
+          "last_teleport_end": {
+            "edge": "Ed1.209",
+            "time": 296.5
+          }
+        },
+        {
+          "vehicle": "Eh2_2_car.160",
+          "front_time": 2938.87,
+          "last_teleport_end": {
+            "edge": "Ed1.209",
+            "time": 2933.5
+          }
+        },
+        {
+          "vehicle": "Eh4_2_car.88",
+          "front_time": 3384.18,
+          "last_teleport_end": {
+            "edge": "Ed1.209",
+            "time": 3380.2
+          }
+        },
+        {
+          "vehicle": "Eh4_2_car.90",
+          "front_time": 3385.37,
+          "last_teleport_end": {
+            "edge": "Ed1.209",
+            "time": 3381.2
+          }
+        }
+      ],
+      "attribution": "Temporal association only. Aggregate lane exits do not identify individual crossings; no FCD trace is available for these runs."
+    },
+    {
+      "case": "holdout_H05_seed211",
+      "lane": "Eh3.384_0",
+      "front_entries": 216,
+      "left": 211,
+      "teleported": 11,
+      "vaporized": 0,
+      "arrived": 0,
+      "laneChangedFrom": 68,
+      "corrected_left": 200,
+      "residual": 16,
+      "front_events_with_latest_prior_teleport_end_on_this_edge": 215,
+      "example_matches": [
+        {
+          "vehicle": "Eh3_car.331",
+          "front_time": 1223.34,
+          "last_teleport_end": {
+            "edge": "Eh3.384",
+            "time": 1216.8
+          }
+        },
+        {
+          "vehicle": "Eh3_car.334",
+          "front_time": 1246.16,
+          "last_teleport_end": {
+            "edge": "Eh3.384",
+            "time": 1239.6
+          }
+        },
+        {
+          "vehicle": "Eh3_2_car.110",
+          "front_time": 1349.73,
+          "last_teleport_end": {
+            "edge": "Eh3.384",
+            "time": 1343.2
+          }
+        },
+        {
+          "vehicle": "Eh3_1_car.148",
+          "front_time": 1360.79,
+          "last_teleport_end": {
+            "edge": "Eh3.384",
+            "time": 1354.2
+          }
+        },
+        {
+          "vehicle": "Eh3_car.374",
+          "front_time": 1371.14,
+          "last_teleport_end": {
+            "edge": "Eh3.384",
+            "time": 1364.6
+          }
+        }
+      ],
+      "attribution": "Temporal association only. Aggregate lane exits do not identify individual crossings; no FCD trace is available for these runs."
+    },
+    {
+      "case": "holdout_H05_seed307",
+      "lane": "ED1.177_0",
+      "front_entries": 416,
+      "left": 360,
+      "teleported": 0,
+      "vaporized": 0,
+      "arrived": 0,
+      "laneChangedFrom": 1,
+      "corrected_left": 360,
+      "residual": 56,
+      "front_events_with_latest_prior_teleport_end_on_this_edge": 74,
+      "example_matches": [
+        {
+          "vehicle": "ED2_2_car.4",
+          "front_time": 277.21,
+          "last_teleport_end": {
+            "edge": "ED1.177",
+            "time": 265.2
+          }
+        },
+        {
+          "vehicle": "ED2_3_car.4",
+          "front_time": 278.24,
+          "last_teleport_end": {
+            "edge": "ED1.177",
+            "time": 262.6
+          }
+        },
+        {
+          "vehicle": "ED2_car.29",
+          "front_time": 414.6,
+          "last_teleport_end": {
+            "edge": "ED1.177",
+            "time": 402.2
+          }
+        },
+        {
+          "vehicle": "ED2_car.43",
+          "front_time": 542.58,
+          "last_teleport_end": {
+            "edge": "ED1.177",
+            "time": 521.2
+          }
+        },
+        {
+          "vehicle": "ED2_car.41",
+          "front_time": 550.71,
+          "last_teleport_end": {
+            "edge": "ED1.177",
+            "time": 545.2
+          }
+        }
+      ],
+      "attribution": "Temporal association only. Aggregate lane exits do not identify individual crossings; no FCD trace is available for these runs."
+    },
+    {
+      "case": "holdout_H05_seed307",
+      "lane": "ED2.378_0",
+      "front_entries": 106,
+      "left": 0,
+      "teleported": 0,
+      "vaporized": 0,
+      "arrived": 0,
+      "laneChangedFrom": 0,
+      "corrected_left": 0,
+      "residual": 106,
+      "front_events_with_latest_prior_teleport_end_on_this_edge": 106,
+      "example_matches": [
+        {
+          "vehicle": "ED2_2_car.9",
+          "front_time": 375.44,
+          "last_teleport_end": {
+            "edge": "ED2.378",
+            "time": 351.2
+          }
+        },
+        {
+          "vehicle": "ED2_3_car.33",
+          "front_time": 1231.43,
+          "last_teleport_end": {
+            "edge": "ED2.378",
+            "time": 1229.2
+          }
+        },
+        {
+          "vehicle": "ED2_car.144",
+          "front_time": 1330.13,
+          "last_teleport_end": {
+            "edge": "ED2.378",
+            "time": 1330.1
+          }
+        },
+        {
+          "vehicle": "ED2_car.146",
+          "front_time": 1333.23,
+          "last_teleport_end": {
+            "edge": "ED2.378",
+            "time": 1333.2
+          }
+        },
+        {
+          "vehicle": "ED2_car.138",
+          "front_time": 1440.88,
+          "last_teleport_end": {
+            "edge": "ED2.378",
+            "time": 1326.6
+          }
+        }
+      ],
+      "attribution": "Temporal association only. Aggregate lane exits do not identify individual crossings; no FCD trace is available for these runs."
+    },
+    {
+      "case": "holdout_H05_seed307",
+      "lane": "ED3.294_0",
+      "front_entries": 90,
+      "left": 83,
+      "teleported": 0,
+      "vaporized": 0,
+      "arrived": 0,
+      "laneChangedFrom": 0,
+      "corrected_left": 83,
+      "residual": 7,
+      "front_events_with_latest_prior_teleport_end_on_this_edge": 7,
+      "example_matches": [
+        {
+          "vehicle": "Eh3_car.425",
+          "front_time": 1654.25,
+          "last_teleport_end": {
+            "edge": "ED3.294",
+            "time": 1649.2
+          }
+        },
+        {
+          "vehicle": "Eh3_car.448",
+          "front_time": 1790.97,
+          "last_teleport_end": {
+            "edge": "ED3.294",
+            "time": 1786.0
+          }
+        },
+        {
+          "vehicle": "ED2_car.163",
+          "front_time": 1794.17,
+          "last_teleport_end": {
+            "edge": "ED3.294",
+            "time": 1789.2
+          }
+        },
+        {
+          "vehicle": "Eh3_car.520",
+          "front_time": 2064.94,
+          "last_teleport_end": {
+            "edge": "ED3.294",
+            "time": 2049.2
+          }
+        },
+        {
+          "vehicle": "Eh3_car.543",
+          "front_time": 2334.61,
+          "last_teleport_end": {
+            "edge": "ED3.294",
+            "time": 2313.0
+          }
+        }
+      ],
+      "attribution": "Temporal association only. Aggregate lane exits do not identify individual crossings; no FCD trace is available for these runs."
+    },
+    {
+      "case": "holdout_H05_seed307",
+      "lane": "Ed1.209_0",
+      "front_entries": 583,
+      "left": 585,
+      "teleported": 6,
+      "vaporized": 0,
+      "arrived": 0,
+      "laneChangedFrom": 121,
+      "corrected_left": 579,
+      "residual": 4,
+      "front_events_with_latest_prior_teleport_end_on_this_edge": 4,
+      "example_matches": [
+        {
+          "vehicle": "Ed4_car.28",
+          "front_time": 378.67,
+          "last_teleport_end": {
+            "edge": "Ed1.209",
+            "time": 373.3
+          }
+        },
+        {
+          "vehicle": "Ed4_car.85",
+          "front_time": 884.31,
+          "last_teleport_end": {
+            "edge": "Ed1.209",
+            "time": 878.2
+          }
+        },
+        {
+          "vehicle": "EH5_1_car.74",
+          "front_time": 2772.03,
+          "last_teleport_end": {
+            "edge": "Ed1.209",
+            "time": 2770.6
+          }
+        },
+        {
+          "vehicle": "EH1_1_car.229",
+          "front_time": 2816.6,
+          "last_teleport_end": {
+            "edge": "Ed1.209",
+            "time": 2811.2
+          }
+        }
+      ],
+      "attribution": "Temporal association only. Aggregate lane exits do not identify individual crossings; no FCD trace is available for these runs."
+    },
+    {
+      "case": "holdout_H05_seed307",
+      "lane": "Eh3.384_0",
+      "front_entries": 147,
+      "left": 144,
+      "teleported": 2,
+      "vaporized": 0,
+      "arrived": 0,
+      "laneChangedFrom": 40,
+      "corrected_left": 142,
+      "residual": 5,
+      "front_events_with_latest_prior_teleport_end_on_this_edge": 147,
+      "example_matches": [
+        {
+          "vehicle": "Eh3_2_car.133",
+          "front_time": 1626.77,
+          "last_teleport_end": {
+            "edge": "Eh3.384",
+            "time": 1620.2
+          }
+        },
+        {
+          "vehicle": "Eh3_2_car.143",
+          "front_time": 1746.73,
+          "last_teleport_end": {
+            "edge": "Eh3.384",
+            "time": 1740.2
+          }
+        },
+        {
+          "vehicle": "Eh3_1_car.193",
+          "front_time": 1763.25,
+          "last_teleport_end": {
+            "edge": "Eh3.384",
+            "time": 1757.2
+          }
+        },
+        {
+          "vehicle": "Eh3_car.482",
+          "front_time": 1769.49,
+          "last_teleport_end": {
+            "edge": "Eh3.384",
+            "time": 1763.4
+          }
+        },
+        {
+          "vehicle": "Eh3_1_car.201",
+          "front_time": 1834.73,
+          "last_teleport_end": {
+            "edge": "Eh3.384",
+            "time": 1828.2
+          }
+        }
+      ],
+      "attribution": "Temporal association only. Aggregate lane exits do not identify individual crossings; no FCD trace is available for these runs."
+    },
+    {
+      "case": "holdout_H05_seed401",
+      "lane": "ED1.177_0",
+      "front_entries": 401,
+      "left": 347,
+      "teleported": 0,
+      "vaporized": 0,
+      "arrived": 0,
+      "laneChangedFrom": 0,
+      "corrected_left": 347,
+      "residual": 54,
+      "front_events_with_latest_prior_teleport_end_on_this_edge": 66,
+      "example_matches": [
+        {
+          "vehicle": "ED2_car.34",
+          "front_time": 412.55,
+          "last_teleport_end": {
+            "edge": "ED1.177",
+            "time": 389.6
+          }
+        },
+        {
+          "vehicle": "Eh3_car.99",
+          "front_time": 416.97,
+          "last_teleport_end": {
+            "edge": "ED1.177",
+            "time": 410.2
+          }
+        },
+        {
+          "vehicle": "Eh3_car.115",
+          "front_time": 541.17,
+          "last_teleport_end": {
+            "edge": "ED1.177",
+            "time": 499.0
+          }
+        },
+        {
+          "vehicle": "ED2_car.43",
+          "front_time": 543.93,
+          "last_teleport_end": {
+            "edge": "ED1.177",
+            "time": 509.2
+          }
+        },
+        {
+          "vehicle": "Eh3_car.116",
+          "front_time": 548.32,
+          "last_teleport_end": {
+            "edge": "ED1.177",
+            "time": 501.8
+          }
+        }
+      ],
+      "attribution": "Temporal association only. Aggregate lane exits do not identify individual crossings; no FCD trace is available for these runs."
+    },
+    {
+      "case": "holdout_H05_seed401",
+      "lane": "ED2.378_0",
+      "front_entries": 84,
+      "left": 0,
+      "teleported": 0,
+      "vaporized": 0,
+      "arrived": 0,
+      "laneChangedFrom": 0,
+      "corrected_left": 0,
+      "residual": 84,
+      "front_events_with_latest_prior_teleport_end_on_this_edge": 84,
+      "example_matches": [
+        {
+          "vehicle": "ED2_3_car.23",
+          "front_time": 863.02,
+          "last_teleport_end": {
+            "edge": "ED2.378",
+            "time": 857.2
+          }
+        },
+        {
+          "vehicle": "ED2_car.119",
+          "front_time": 1109.97,
+          "last_teleport_end": {
+            "edge": "ED2.378",
+            "time": 1104.2
+          }
+        },
+        {
+          "vehicle": "ED2_car.133",
+          "front_time": 1320.89,
+          "last_teleport_end": {
+            "edge": "ED2.378",
+            "time": 1231.2
+          }
+        },
+        {
+          "vehicle": "ED2_car.142",
+          "front_time": 1341.19,
+          "last_teleport_end": {
+            "edge": "ED2.378",
+            "time": 1333.2
+          }
+        },
+        {
+          "vehicle": "ED2_car.155",
+          "front_time": 1450.52,
+          "last_teleport_end": {
+            "edge": "ED2.378",
+            "time": 1447.4
+          }
+        }
+      ],
+      "attribution": "Temporal association only. Aggregate lane exits do not identify individual crossings; no FCD trace is available for these runs."
+    },
+    {
+      "case": "holdout_H05_seed401",
+      "lane": "ED3.294_0",
+      "front_entries": 94,
+      "left": 80,
+      "teleported": 0,
+      "vaporized": 0,
+      "arrived": 0,
+      "laneChangedFrom": 0,
+      "corrected_left": 80,
+      "residual": 14,
+      "front_events_with_latest_prior_teleport_end_on_this_edge": 14,
+      "example_matches": [
+        {
+          "vehicle": "Eh3_car.304",
+          "front_time": 1379.57,
+          "last_teleport_end": {
+            "edge": "ED3.294",
+            "time": 1374.6
+          }
+        },
+        {
+          "vehicle": "Eh3_car.341",
+          "front_time": 1380.77,
+          "last_teleport_end": {
+            "edge": "ED3.294",
+            "time": 1375.8
+          }
+        },
+        {
+          "vehicle": "Eh3_car.370",
+          "front_time": 1513.49,
+          "last_teleport_end": {
+            "edge": "ED3.294",
+            "time": 1506.4
+          }
+        },
+        {
+          "vehicle": "ED2_car.175",
+          "front_time": 1927.62,
+          "last_teleport_end": {
+            "edge": "ED3.294",
+            "time": 1921.2
+          }
+        },
+        {
+          "vehicle": "Eh3_car.526",
+          "front_time": 2060.75,
+          "last_teleport_end": {
+            "edge": "ED3.294",
+            "time": 2044.8
+          }
+        }
+      ],
+      "attribution": "Temporal association only. Aggregate lane exits do not identify individual crossings; no FCD trace is available for these runs."
+    },
+    {
+      "case": "holdout_H05_seed401",
+      "lane": "Ed1.209_0",
+      "front_entries": 600,
+      "left": 604,
+      "teleported": 13,
+      "vaporized": 0,
+      "arrived": 0,
+      "laneChangedFrom": 130,
+      "corrected_left": 591,
+      "residual": 9,
+      "front_events_with_latest_prior_teleport_end_on_this_edge": 9,
+      "example_matches": [
+        {
+          "vehicle": "Ed4_car.90",
+          "front_time": 892.21,
+          "last_teleport_end": {
+            "edge": "Ed1.209",
+            "time": 888.2
+          }
+        },
+        {
+          "vehicle": "Ed4_1_car.65",
+          "front_time": 901.24,
+          "last_teleport_end": {
+            "edge": "Ed1.209",
+            "time": 895.0
+          }
+        },
+        {
+          "vehicle": "Eh2_2_car.77",
+          "front_time": 1503.13,
+          "last_teleport_end": {
+            "edge": "Ed1.209",
+            "time": 1494.7
+          }
+        },
+        {
+          "vehicle": "Eh2_2_car.90",
+          "front_time": 1740.57,
+          "last_teleport_end": {
+            "edge": "Ed1.209",
+            "time": 1733.3
+          }
+        },
+        {
+          "vehicle": "Eh4_2_car.69",
+          "front_time": 2760.83,
+          "last_teleport_end": {
+            "edge": "Ed1.209",
+            "time": 2718.2
+          }
+        }
+      ],
+      "attribution": "Temporal association only. Aggregate lane exits do not identify individual crossings; no FCD trace is available for these runs."
+    },
+    {
+      "case": "holdout_H05_seed401",
+      "lane": "Eh3.384_0",
+      "front_entries": 91,
+      "left": 90,
+      "teleported": 6,
+      "vaporized": 0,
+      "arrived": 0,
+      "laneChangedFrom": 37,
+      "corrected_left": 84,
+      "residual": 7,
+      "front_events_with_latest_prior_teleport_end_on_this_edge": 91,
+      "example_matches": [
+        {
+          "vehicle": "Eh3_1_car.221",
+          "front_time": 2029.52,
+          "last_teleport_end": {
+            "edge": "Eh3.384",
+            "time": 2023.2
+          }
+        },
+        {
+          "vehicle": "Eh3_car.599",
+          "front_time": 2185.17,
+          "last_teleport_end": {
+            "edge": "Eh3.384",
+            "time": 2178.6
+          }
+        },
+        {
+          "vehicle": "Eh3_car.631",
+          "front_time": 2300.34,
+          "last_teleport_end": {
+            "edge": "Eh3.384",
+            "time": 2293.8
+          }
+        },
+        {
+          "vehicle": "Eh3_car.672",
+          "front_time": 2452.94,
+          "last_teleport_end": {
+            "edge": "Eh3.384",
+            "time": 2446.4
+          }
+        },
+        {
+          "vehicle": "Eh3_1_car.269",
+          "front_time": 2472.73,
+          "last_teleport_end": {
+            "edge": "Eh3.384",
+            "time": 2466.2
+          }
+        }
+      ],
+      "attribution": "Temporal association only. Aggregate lane exits do not identify individual crossings; no FCD trace is available for these runs."
+    },
+    {
+      "case": "holdout_H05_seed503",
+      "lane": "ED1.177_0",
+      "front_entries": 404,
+      "left": 360,
+      "teleported": 0,
+      "vaporized": 0,
+      "arrived": 0,
+      "laneChangedFrom": 0,
+      "corrected_left": 360,
+      "residual": 44,
+      "front_events_with_latest_prior_teleport_end_on_this_edge": 57,
+      "example_matches": [
+        {
+          "vehicle": "ED2_car.14",
+          "front_time": 275.13,
+          "last_teleport_end": {
+            "edge": "ED1.177",
+            "time": 260.9
+          }
+        },
+        {
+          "vehicle": "ED2_2_car.4",
+          "front_time": 277.55,
+          "last_teleport_end": {
+            "edge": "ED1.177",
+            "time": 270.5
+          }
+        },
+        {
+          "vehicle": "ED2_car.17",
+          "front_time": 278.76,
+          "last_teleport_end": {
+            "edge": "ED1.177",
+            "time": 273.2
+          }
+        },
+        {
+          "vehicle": "ED2_car.55",
+          "front_time": 668.72,
+          "last_teleport_end": {
+            "edge": "ED1.177",
+            "time": 620.2
+          }
+        },
+        {
+          "vehicle": "ED2_car.60",
+          "front_time": 674.28,
+          "last_teleport_end": {
+            "edge": "ED1.177",
+            "time": 631.1
+          }
+        }
+      ],
+      "attribution": "Temporal association only. Aggregate lane exits do not identify individual crossings; no FCD trace is available for these runs."
+    },
+    {
+      "case": "holdout_H05_seed503",
+      "lane": "ED2.378_0",
+      "front_entries": 114,
+      "left": 0,
+      "teleported": 0,
+      "vaporized": 0,
+      "arrived": 0,
+      "laneChangedFrom": 0,
+      "corrected_left": 0,
+      "residual": 114,
+      "front_events_with_latest_prior_teleport_end_on_this_edge": 114,
+      "example_matches": [
+        {
+          "vehicle": "ED2_3_car.26",
+          "front_time": 977.98,
+          "last_teleport_end": {
+            "edge": "ED2.378",
+            "time": 972.2
+          }
+        },
+        {
+          "vehicle": "ED2_car.125",
+          "front_time": 1326.69,
+          "last_teleport_end": {
+            "edge": "ED2.378",
+            "time": 1326.4
+          }
+        },
+        {
+          "vehicle": "ED2_car.128",
+          "front_time": 1335.7,
+          "last_teleport_end": {
+            "edge": "ED2.378",
+            "time": 1331.1
+          }
+        },
+        {
+          "vehicle": "ED2_3_car.35",
+          "front_time": 1337.18,
+          "last_teleport_end": {
+            "edge": "ED2.378",
+            "time": 1274.5
+          }
+        },
+        {
+          "vehicle": "ED2_2_car.35",
+          "front_time": 1342.4,
+          "last_teleport_end": {
+            "edge": "ED2.378",
+            "time": 1342.3
+          }
+        }
+      ],
+      "attribution": "Temporal association only. Aggregate lane exits do not identify individual crossings; no FCD trace is available for these runs."
+    },
+    {
+      "case": "holdout_H05_seed503",
+      "lane": "ED3.294_0",
+      "front_entries": 95,
+      "left": 82,
+      "teleported": 0,
+      "vaporized": 0,
+      "arrived": 0,
+      "laneChangedFrom": 0,
+      "corrected_left": 82,
+      "residual": 13,
+      "front_events_with_latest_prior_teleport_end_on_this_edge": 13,
+      "example_matches": [
+        {
+          "vehicle": "ED2_car.82",
+          "front_time": 1105.35,
+          "last_teleport_end": {
+            "edge": "ED3.294",
+            "time": 1099.2
+          }
+        },
+        {
+          "vehicle": "Eh3_car.374",
+          "front_time": 1519.9,
+          "last_teleport_end": {
+            "edge": "ED3.294",
+            "time": 1514.6
+          }
+        },
+        {
+          "vehicle": "ED2_car.147",
+          "front_time": 1787.0,
+          "last_teleport_end": {
+            "edge": "ED3.294",
+            "time": 1773.2
+          }
+        },
+        {
+          "vehicle": "Eh3_car.462",
+          "front_time": 1788.48,
+          "last_teleport_end": {
+            "edge": "ED3.294",
+            "time": 1780.4
+          }
+        },
+        {
+          "vehicle": "Eh3_car.449",
+          "front_time": 1789.82,
+          "last_teleport_end": {
+            "edge": "ED3.294",
+            "time": 1782.6
+          }
+        }
+      ],
+      "attribution": "Temporal association only. Aggregate lane exits do not identify individual crossings; no FCD trace is available for these runs."
+    },
+    {
+      "case": "holdout_H05_seed503",
+      "lane": "Ed1.209_0",
+      "front_entries": 595,
+      "left": 592,
+      "teleported": 8,
+      "vaporized": 0,
+      "arrived": 0,
+      "laneChangedFrom": 140,
+      "corrected_left": 584,
+      "residual": 11,
+      "front_events_with_latest_prior_teleport_end_on_this_edge": 11,
+      "example_matches": [
+        {
+          "vehicle": "Eh2_2_car.10",
+          "front_time": 299.13,
+          "last_teleport_end": {
+            "edge": "Ed1.209",
+            "time": 292.9
+          }
+        },
+        {
+          "vehicle": "EH1_1_car.19",
+          "front_time": 300.16,
+          "last_teleport_end": {
+            "edge": "Ed1.209",
+            "time": 294.9
+          }
+        },
+        {
+          "vehicle": "Eh2_2_car.15",
+          "front_time": 420.67,
+          "last_teleport_end": {
+            "edge": "Ed1.209",
+            "time": 414.7
+          }
+        },
+        {
+          "vehicle": "Eh2_2_car.26",
+          "front_time": 538.02,
+          "last_teleport_end": {
+            "edge": "Ed1.209",
+            "time": 533.6
+          }
+        },
+        {
+          "vehicle": "Eh2_2_car.87",
+          "front_time": 1740.69,
+          "last_teleport_end": {
+            "edge": "Ed1.209",
+            "time": 1732.8
+          }
+        }
+      ],
+      "attribution": "Temporal association only. Aggregate lane exits do not identify individual crossings; no FCD trace is available for these runs."
+    },
+    {
+      "case": "holdout_H05_seed503",
+      "lane": "Eh3.384_0",
+      "front_entries": 84,
+      "left": 80,
+      "teleported": 0,
+      "vaporized": 0,
+      "arrived": 0,
+      "laneChangedFrom": 29,
+      "corrected_left": 80,
+      "residual": 4,
+      "front_events_with_latest_prior_teleport_end_on_this_edge": 84,
+      "example_matches": [
+        {
+          "vehicle": "Eh3_car.261",
+          "front_time": 971.33,
+          "last_teleport_end": {
+            "edge": "Eh3.384",
+            "time": 964.8
+          }
+        },
+        {
+          "vehicle": "Eh3_car.268",
+          "front_time": 995.75,
+          "last_teleport_end": {
+            "edge": "Eh3.384",
+            "time": 992.0
+          }
+        },
+        {
+          "vehicle": "Eh3_car.271",
+          "front_time": 1005.32,
+          "last_teleport_end": {
+            "edge": "Eh3.384",
+            "time": 998.8
+          }
+        },
+        {
+          "vehicle": "Eh3_2_car.100",
+          "front_time": 1228.72,
+          "last_teleport_end": {
+            "edge": "Eh3.384",
+            "time": 1222.2
+          }
+        },
+        {
+          "vehicle": "Eh3_car.337",
+          "front_time": 1239.93,
+          "last_teleport_end": {
+            "edge": "Eh3.384",
+            "time": 1233.4
+          }
+        }
+      ],
+      "attribution": "Temporal association only. Aggregate lane exits do not identify individual crossings; no FCD trace is available for these runs."
+    },
+    {
+      "case": "holdout_H05_seed601",
+      "lane": "ED1.177_0",
+      "front_entries": 415,
+      "left": 337,
+      "teleported": 0,
+      "vaporized": 0,
+      "arrived": 0,
+      "laneChangedFrom": 0,
+      "corrected_left": 337,
+      "residual": 78,
+      "front_events_with_latest_prior_teleport_end_on_this_edge": 98,
+      "example_matches": [
+        {
+          "vehicle": "ED2_car.20",
+          "front_time": 283.47,
+          "last_teleport_end": {
+            "edge": "ED1.177",
+            "time": 276.2
+          }
+        },
+        {
+          "vehicle": "Eh3_car.111",
+          "front_time": 549.58,
+          "last_teleport_end": {
+            "edge": "ED1.177",
+            "time": 544.1
+          }
+        },
+        {
+          "vehicle": "Eh3_car.148",
+          "front_time": 671.63,
+          "last_teleport_end": {
+            "edge": "ED1.177",
+            "time": 618.9
+          }
+        },
+        {
+          "vehicle": "Eh3_2_car.52",
+          "front_time": 673.52,
+          "last_teleport_end": {
+            "edge": "ED1.177",
+            "time": 667.2
+          }
+        },
+        {
+          "vehicle": "Eh3_car.203",
+          "front_time": 812.93,
+          "last_teleport_end": {
+            "edge": "ED1.177",
+            "time": 780.5
+          }
+        }
+      ],
+      "attribution": "Temporal association only. Aggregate lane exits do not identify individual crossings; no FCD trace is available for these runs."
+    },
+    {
+      "case": "holdout_H05_seed601",
+      "lane": "ED2.378_0",
+      "front_entries": 157,
+      "left": 0,
+      "teleported": 0,
+      "vaporized": 0,
+      "arrived": 0,
+      "laneChangedFrom": 0,
+      "corrected_left": 0,
+      "residual": 157,
+      "front_events_with_latest_prior_teleport_end_on_this_edge": 157,
+      "example_matches": [
+        {
+          "vehicle": "ED2_2_car.15",
+          "front_time": 609.88,
+          "last_teleport_end": {
+            "edge": "ED2.378",
+            "time": 566.2
+          }
+        },
+        {
+          "vehicle": "ED2_3_car.16",
+          "front_time": 612.62,
+          "last_teleport_end": {
+            "edge": "ED2.378",
+            "time": 601.4
+          }
+        },
+        {
+          "vehicle": "ED2_1_car.22",
+          "front_time": 857.78,
+          "last_teleport_end": {
+            "edge": "ED2.378",
+            "time": 819.2
+          }
+        },
+        {
+          "vehicle": "ED2_4_car.53",
+          "front_time": 974.65,
+          "last_teleport_end": {
+            "edge": "ED2.378",
+            "time": 970.4
+          }
+        },
+        {
+          "vehicle": "ED2_2_car.27",
+          "front_time": 992.98,
+          "last_teleport_end": {
+            "edge": "ED2.378",
+            "time": 987.2
+          }
+        }
+      ],
+      "attribution": "Temporal association only. Aggregate lane exits do not identify individual crossings; no FCD trace is available for these runs."
+    },
+    {
+      "case": "holdout_H05_seed601",
+      "lane": "ED3.294_0",
+      "front_entries": 79,
+      "left": 76,
+      "teleported": 0,
+      "vaporized": 0,
+      "arrived": 0,
+      "laneChangedFrom": 0,
+      "corrected_left": 76,
+      "residual": 3,
+      "front_events_with_latest_prior_teleport_end_on_this_edge": 3,
+      "example_matches": [
+        {
+          "vehicle": "Eh2_car.310",
+          "front_time": 2881.73,
+          "last_teleport_end": {
+            "edge": "ED3.294",
+            "time": 2843.2
+          }
+        },
+        {
+          "vehicle": "Eh2_car.370",
+          "front_time": 3428.82,
+          "last_teleport_end": {
+            "edge": "ED3.294",
+            "time": 3382.2
+          }
+        },
+        {
+          "vehicle": "Eh3_car.733",
+          "front_time": 3566.66,
+          "last_teleport_end": {
+            "edge": "ED3.294",
+            "time": 3499.0
+          }
+        }
+      ],
+      "attribution": "Temporal association only. Aggregate lane exits do not identify individual crossings; no FCD trace is available for these runs."
+    },
+    {
+      "case": "holdout_H05_seed601",
+      "lane": "EH5.381_0",
+      "front_entries": 201,
+      "left": 200,
+      "teleported": 0,
+      "vaporized": 0,
+      "arrived": 0,
+      "laneChangedFrom": 0,
+      "corrected_left": 200,
+      "residual": 1,
+      "front_events_with_latest_prior_teleport_end_on_this_edge": 1,
+      "example_matches": [
+        {
+          "vehicle": "EH5_car.296",
+          "front_time": 2701.48,
+          "last_teleport_end": {
+            "edge": "EH5.381",
+            "time": 2694.3
+          }
+        }
+      ],
+      "attribution": "Temporal association only. Aggregate lane exits do not identify individual crossings; no FCD trace is available for these runs."
+    },
+    {
+      "case": "holdout_H05_seed601",
+      "lane": "Ed1.209_0",
+      "front_entries": 609,
+      "left": 601,
+      "teleported": 9,
+      "vaporized": 0,
+      "arrived": 0,
+      "laneChangedFrom": 130,
+      "corrected_left": 592,
+      "residual": 17,
+      "front_events_with_latest_prior_teleport_end_on_this_edge": 18,
+      "example_matches": [
+        {
+          "vehicle": "EH1_1_car.17",
+          "front_time": 294.97,
+          "last_teleport_end": {
+            "edge": "Ed1.209",
+            "time": 250.2
+          }
+        },
+        {
+          "vehicle": "Ed4_car.30",
+          "front_time": 377.62,
+          "last_teleport_end": {
+            "edge": "Ed1.209",
+            "time": 372.3
+          }
+        },
+        {
+          "vehicle": "Eh2_2_car.20",
+          "front_time": 419.37,
+          "last_teleport_end": {
+            "edge": "Ed1.209",
+            "time": 413.1
+          }
+        },
+        {
+          "vehicle": "Eh2_2_car.79",
+          "front_time": 1506.94,
+          "last_teleport_end": {
+            "edge": "Ed1.209",
+            "time": 1500.2
+          }
+        },
+        {
+          "vehicle": "EH1_1_car.134",
+          "front_time": 1742.75,
+          "last_teleport_end": {
+            "edge": "Ed1.209",
+            "time": 1733.6
+          }
+        }
+      ],
+      "attribution": "Temporal association only. Aggregate lane exits do not identify individual crossings; no FCD trace is available for these runs."
+    },
+    {
+      "case": "holdout_H05_seed601",
+      "lane": "Eh3.384_0",
+      "front_entries": 223,
+      "left": 223,
+      "teleported": 12,
+      "vaporized": 0,
+      "arrived": 0,
+      "laneChangedFrom": 111,
+      "corrected_left": 211,
+      "residual": 12,
+      "front_events_with_latest_prior_teleport_end_on_this_edge": 223,
+      "example_matches": [
+        {
+          "vehicle": "Eh3_2_car.67",
+          "front_time": 833.74,
+          "last_teleport_end": {
+            "edge": "Eh3.384",
+            "time": 827.2
+          }
+        },
+        {
+          "vehicle": "Eh3_car.224",
+          "front_time": 840.78,
+          "last_teleport_end": {
+            "edge": "Eh3.384",
+            "time": 830.6
+          }
+        },
+        {
+          "vehicle": "Eh3_2_car.71",
+          "front_time": 900.74,
+          "last_teleport_end": {
+            "edge": "Eh3.384",
+            "time": 894.2
+          }
+        },
+        {
+          "vehicle": "Eh3_car.241",
+          "front_time": 905.62,
+          "last_teleport_end": {
+            "edge": "Eh3.384",
+            "time": 898.8
+          }
+        },
+        {
+          "vehicle": "Eh3_2_car.79",
+          "front_time": 978.18,
+          "last_teleport_end": {
+            "edge": "Eh3.384",
+            "time": 971.6
+          }
+        }
+      ],
+      "attribution": "Temporal association only. Aggregate lane exits do not identify individual crossings; no FCD trace is available for these runs."
+    },
+    {
+      "case": "holdout_H06_seed601",
+      "lane": "ED1.177_0",
+      "front_entries": 281,
+      "left": 280,
+      "teleported": 0,
+      "vaporized": 0,
+      "arrived": 0,
+      "laneChangedFrom": 0,
+      "corrected_left": 280,
+      "residual": 1,
+      "front_events_with_latest_prior_teleport_end_on_this_edge": 1,
+      "example_matches": [
+        {
+          "vehicle": "ED2_3_car.42",
+          "front_time": 3356.49,
+          "last_teleport_end": {
+            "edge": "ED1.177",
+            "time": 3337.5
+          }
+        }
+      ],
+      "attribution": "Temporal association only. Aggregate lane exits do not identify individual crossings; no FCD trace is available for these runs."
+    },
+    {
+      "case": "holdout_H08_seed307",
+      "lane": "ED2.378_0",
+      "front_entries": 2,
+      "left": 0,
+      "teleported": 0,
+      "vaporized": 0,
+      "arrived": 0,
+      "laneChangedFrom": 0,
+      "corrected_left": 0,
+      "residual": 2,
+      "front_events_with_latest_prior_teleport_end_on_this_edge": 2,
+      "example_matches": [
+        {
+          "vehicle": "ED2_car.83",
+          "front_time": 1470.39,
+          "last_teleport_end": {
+            "edge": "ED2.378",
+            "time": 1460.9
+          }
+        },
+        {
+          "vehicle": "ED2_2_car.21",
+          "front_time": 1472.02,
+          "last_teleport_end": {
+            "edge": "ED2.378",
+            "time": 1462.8
+          }
+        }
+      ],
+      "attribution": "Temporal association only. Aggregate lane exits do not identify individual crossings; no FCD trace is available for these runs."
+    }
+  ],
+  "counts_corrected": false,
+  "predictions_changed": false,
+  "interpretation": "Report both channels. Associations with preceding teleport reinsertion explain why event attribution needs qualification, but do not certify which per-lane count is physically correct."
+}

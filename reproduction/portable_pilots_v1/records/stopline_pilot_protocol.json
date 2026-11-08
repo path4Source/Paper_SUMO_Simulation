@@ -1,0 +1,17 @@
+{
+  "kind": "passive measurement feasibility and reproduction check; not confirmatory",
+  "network_sha256": "5c18dcd49ff415a90acc61c5d12ea5a3630928aa8d4c87492ce63de426245ce2",
+  "baseline_runs": [
+    "tau1_dt1_action1_seed42",
+    "tau1_dt0.5_action0.5_seed42"
+  ],
+  "scope": "All external incoming lanes controlled by the three actual signals; no selection based on effect size.",
+  "E1": "Instantaneous loop at the exact end of each incoming lane. Front-entry timestamps, sorted per lane, define crossings and headways; reported gap is not a headway. Track non-longitudinal leaves and terminal censoring separately.",
+  "E2": "Last min(100m, lane length), 1s aggregation, speed threshold 5/3.6 m/s, time threshold 1s, jam gap threshold 10m. Detector-limited jam length is not the full upstream back-of-queue.",
+  "signals": "Actual per-step TLS output, not edge-union or assumed green fractions. Protected G and permissive g kept separate; heterogeneous shared lanes excluded from phase-normalized comparisons.",
+  "cycle_scope": "Complete observed phase-0-to-phase-0 cycles only, no warm-up removed. Boundary-truncated cycles reported separately. Do not claim steady state from this pilot.",
+  "headway_scope": "Any green-window headways are observed operational headways, not saturation headways. Full queue-present, start-up and downstream-blocking validation remains required.",
+  "invariance": "Require exact match of inserted, arrived, running, waiting, teleport counts and completed-trip outputs with corresponding passive-free baseline.",
+  "interpretation": "This pilot validates instrumentation; it does not validate field capacity or the legacy proxy.",
+  "frozen_utc": "2026-10-19T13:35:52.514534+00:00"
+}

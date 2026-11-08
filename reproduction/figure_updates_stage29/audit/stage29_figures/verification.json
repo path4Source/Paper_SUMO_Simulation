@@ -1,0 +1,54 @@
+{
+  "bar_values_pct": [
+    18.639288519706035,
+    12.373231842182326,
+    11.425989457450985,
+    7.665938310691421,
+    7.663439677443806,
+    6.310758541393648,
+    5.615349456478885,
+    4.809737494643062,
+    4.5183179537635025,
+    3.910229525502182,
+    3.5145709507425753,
+    3.3845959944121096
+  ],
+  "edge_labels": [
+    "ED2",
+    "ED1.177",
+    "Eh3",
+    "Ed1.209",
+    "ED2.378",
+    "Ed3.290",
+    "Eh2.386",
+    "EH1.385",
+    "ED3.294",
+    "Ed4.376",
+    "ED1.91",
+    "Ed1.122"
+  ],
+  "axis_y_limits": [
+    0.0,
+    20.5
+  ],
+  "outside_canvas_text": [],
+  "canvas_inches": [
+    8,
+    4.7
+  ],
+  "dpi": 600,
+  "all_bar_tops_and_value_labels_inside_axes": true,
+  "raster_mask_or_crop_applied": false,
+  "denominator": "cumulative waiting summed over the complete frozen edge table",
+  "total_source_edges": 39,
+  "seed": 42,
+  "configuration": "original",
+  "window_s": [
+    0,
+    3600
+  ],
+  "source": "frozen\\data\\baseline_edge_bottleneck.csv",
+  "source_sha256": "e6d2b2c4b81dd58702f3022102f917252a1a3702483a37e450d14d67e846ecf4",
+  "png_sha256": "2e8f421f9a956951ec1c7370895664bf0f1f04b0f79d21aa6620e3bc633793e7",
+  "matplotlib_version": "3.11.2"
+}
