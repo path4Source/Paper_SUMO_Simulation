@@ -2,6 +2,12 @@
 
 Research materials for **Beyond Throughput: Interpreting Traffic Performance in Oversaturated Signalized Corridors Using SUMO Simulation**.
 
+Code and data: [versioned core release, v2026.11.09-core](https://github.com/path4Source/Paper_SUMO_Simulation/releases/tag/v2026.11.09-core),
+code commit `8f155cda4435757ee916311d91c21f81985f60e3`.
+The current documentation corrects the earlier availability and download instructions;
+the tagged code, data, protocols and predictions are unchanged. The later six-condition
+supplement remains withheld pending reference locking.
+
 An increase in completed traffic can reflect better service, a different demand load, or simulator handling of warnings. This study combines evidence rules, vehicle accounting, local measurements, and intervention tests to distinguish these explanations in an oversaturated three-signal SUMO corridor.
 
 ## Study and evidence
@@ -30,6 +36,7 @@ Use Python 3.12. Recorded simulations use SUMO 1.24.0; install SUMO separately.
 On Windows, extract the repository into a short path such as `E:/bt`. Deeply nested download folders can exceed Windows path limits when raw data are restored. The entry point checks this before restoration. Keep analysis output paths short as well.
 
 ```sh
+python -m pip install -r requirements-analysis.txt
 python reproduce.py list
 python reproduce.py verify
 python reproduce.py cases original
@@ -63,7 +70,44 @@ The input inventory contains 240 original runs, 166 revision diagnostic runs, 22
 
 ## Reproducing the analyses
 
+### Lightweight review
+
+The code checkout is enough to verify the manifests and recompute the 84
+case/comparator outputs from processed observations. No raw archive or SUMO run
+is required:
+
+```sh
+python -m pip install -r requirements-analysis.txt
+python reproduce.py verify
+python reproduce.py analyze holdout_processed --output ../holdout-processed-review
+```
+
+To check the original twelve-case reference comparison, download only
+[`provisional-reference-comparison.zip`](https://github.com/path4Source/Paper_SUMO_Simulation/releases/download/v2026.11.09-core/provisional-reference-comparison.zip)
+(about 56 kB) into `../supplemental-assets`:
+
+```sh
+python archive_addenda.py restore reference --archive-dir ../supplemental-assets --output ../reference-study
+python ../reference-study/reproduce.py --output ../reference-results
+```
+
+These are reproduction checks; the reference comparison remains provisional.
+
+### Raw measurements
+
 Install the analysis environment, then restore the companion data archives:
+
+The release provides seven complete base ZIPs and two byte parts of
+`followup-raw.zip`. Download the needed ZIPs first. For the follow-up analysis,
+also download both parts, `followup-raw.parts.json` and `join_data_archive.py`
+into `../data-deposit-candidate`, then join and verify them:
+
+```sh
+python ../data-deposit-candidate/join_data_archive.py --manifest ../data-deposit-candidate/followup-raw.parts.json --output ../data-deposit-candidate/followup-raw.zip
+```
+
+After joining, there are eight complete base ZIPs. The [data guide](docs/data.md)
+maps analyses to archives, so a single-group check need not download all data.
 
 ```sh
 python -m pip install -r requirements-analysis.txt

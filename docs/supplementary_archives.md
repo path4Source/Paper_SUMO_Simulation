@@ -32,7 +32,39 @@ agreement remains provisional while the evaluation process is confirmed. State
 agreement, mixed-label agreement, coverage and candidate selection are separate
 outputs. The original 0/3 reference-positive retention result remains unchanged.
 The source package's v3 provenance is retained: the same observations, labels
-and predictions underpin v4.4.1. Personal declarations are not included.
+and predictions underpin v4.4.1. Its `public upload pending` and
+`publicly_uploaded=false` fields describe the packaging stage. Current public
+availability is established by [release v2026.11.09-core](https://github.com/path4Source/Paper_SUMO_Simulation/releases/tag/v2026.11.09-core),
+not by those historical fields. Personal declarations are not included.
+
+### Rule names and freeze records
+
+The module name `diagnostic_rules_v2_draft.py`, its introductory `NOT frozen`
+text and its `v2-draft-not-frozen` version string were retained from rule
+development. The subsequent twelve-condition holdout used that exact source,
+bound by SHA-256 `8d6dc7752cc3791e5e0416a27ce58ec141e13c880b492cbc9afe8706c72dc91a`
+in [the holdout protocol](../reproduction/portable_holdout_v2/data/protocol.json).
+The protocol records a freeze time of 22 October 2026, 12:47:03.893730 UTC,
+all seven variants, the seeds and the fixed tolerances: 2% flow, 5% delay,
+burden and local queue response, 1% demand, and two percentage points for
+population fractions. Neither the source nor those thresholds was renamed or
+edited for publication.
+
+The public protocol is a wrapper retaining the original protocol digest
+(`78d8efcaff70fde09675d34c767296aa4370be697285711602fb198aa7ffe54b`);
+only an administrative conversation field was omitted. The same original
+digest is stored in the 80 new execution completion records in `holdout-raw.zip`,
+whose recorded completion times range from 12:51:41 to 13:43:18 UTC that day.
+[The locked predictions](../reproduction/portable_holdout_v2/data/predictions_LOCKED.json)
+bind that protocol and the canonical observation digest. Their internal
+prediction digest is `95cc8381ce8dd408526d8b4d794895b4c7d55371c63e3a3859eea527d4a40692`.
+The processed-input reproduction command checks these bindings and both rule
+implementations.
+
+These are retained author records. The prediction document has no separate
+timestamp field; current hashes, ZIP times and this later Git commit do not
+independently certify historical locking order or assessor blinding. The
+original reference comparison therefore retains its provisional status.
 
 ## n1 event and speed-gain-only development check
 
