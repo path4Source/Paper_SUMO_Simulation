@@ -5,9 +5,10 @@ eight base-data archives remain available through `reproduce.py`. The later
 evidence has a separate manifest, `addenda_manifest.json`, with archive and
 member SHA-256 checksums. None of the commands below starts a simulation.
 
-The later six-condition supplement is withheld while its reference assessment is
-pending. This release contains no new six-case inputs, construction mapping or
-predictions. The original twelve-case reference comparison remains provisional.
+The core release below remains unchanged. The later six-condition panel and
+eight-condition prospective confirmation are now distributed through a separate
+[S29/S30 release and data guide](confirmation_data.md), corresponding to v4.5.1.
+The original twelve-case reference comparison remains provisional.
 
 ## Inspect and restore
 

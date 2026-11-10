@@ -66,15 +66,15 @@ checksums are recorded in `data_manifest.json`, `addenda_manifest.json` and the
 release's `RELEASE_SHA256SUMS.txt`. A DOI has not been assigned; the release tag
 and commit identify the public version.
 
-This release covers the original study, measurement and numerical checks, the
-original twelve-case provisional reference comparison, and n1 development
-records. It excludes the later six-condition supplement while reference
-assessment is pending. Those inputs, outputs and predictions are retained as a
-separate editorial-review package and will be deposited after the reference
-return is locked. An editorial reviewer checking the reported results needs
-the complete research package; a reference assessor receives only the anonymous
-evidence packet. Neither private process declarations nor correspondence is
-included in this public release. Public access does not assign a reuse licence;
+The core release covers the original study, measurement and numerical checks,
+the original twelve-case provisional reference comparison, and n1 development
+records. The later six-condition panel and eight-condition confirmation are
+available separately in [v2026.11.10-supplement](https://github.com/path4Source/Paper_SUMO_Simulation/releases/tag/v2026.11.10-supplement).
+Their complete raw archives and offline replay commands are listed in the
+[S29/S30 data guide](confirmation_data.md). Construction records, predictions
+and observable-endpoint references are public for reproducibility; this does
+not change the reported evaluation scope. Neither private process declarations
+nor correspondence is included. Public access does not assign a reuse licence;
 the existing third-party notices remain in force.
 
 ## Provenance records

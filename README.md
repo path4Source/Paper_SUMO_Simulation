@@ -4,9 +4,10 @@ Research materials for **Beyond Throughput: Interpreting Traffic Performance in 
 
 Code and data: [versioned core release, v2026.11.09-core](https://github.com/path4Source/Paper_SUMO_Simulation/releases/tag/v2026.11.09-core),
 code commit `8f155cda4435757ee916311d91c21f81985f60e3`.
-The current documentation corrects the earlier availability and download instructions;
-the tagged code, data, protocols and predictions are unchanged. The later six-condition
-supplement remains withheld pending reference locking.
+The tagged core code, data, protocols and predictions are unchanged.
+The later six-condition and eight-condition confirmation datasets are available in
+[v2026.11.10-supplement](https://github.com/path4Source/Paper_SUMO_Simulation/releases/tag/v2026.11.10-supplement).
+See the [S29/S30 data guide](docs/confirmation_data.md) for complete downloads and replay commands.
 
 An increase in completed traffic can reflect better service, a different demand load, or simulator handling of warnings. This study combines evidence rules, vehicle accounting, local measurements, and intervention tests to distinguish these explanations in an oversaturated three-signal SUMO corridor.
 
@@ -167,10 +168,11 @@ in [Supplementary archives](docs/supplementary_archives.md). Of the 45 records,
 27 are reused and 18 are additions. Neither development candidate was adopted.
 
 The original twelve-case comparison remains provisional while its assessment
-process is confirmed. The subsequent six-condition supplement is not included
-in this release because its reference assessment is pending. Its inputs,
-construction mapping and predictions will be deposited separately after the
-reference return is locked or the assessment scope is explicitly changed.
-This release therefore does not establish completion of independent assessment
-or full deposition of every supplement. Personal declarations, correspondence,
-manuscript drafts and reviewer responses are not included.
+process is confirmed. The core release remains unchanged. The subsequent
+[supplementary release](docs/confirmation_data.md) adds the complete six-condition
+panel (35 runs, Table S29) and the eight-condition prospective confirmation
+(45 runs, Table S30). These public archives include construction records and
+predictions and are not packets for blinded reference assessment. Publication
+of the records does not establish independent human evaluation or a candidate
+selection advantage. Personal declarations, correspondence, manuscript drafts
+and reviewer responses are not included.

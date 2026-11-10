@@ -8,10 +8,10 @@
     "CITATION.cff": "24d66818f357b325937a6737499aad5bc885401ad58329d8d83613bca69f341e",
     "data_manifest.json": "60983176c0f8616ac4b8f12362eee00000e0cf8f7c11bd7c18f9dcffb706789f",
     "docs/chronology.md": "31587daf0379b3a137e03a6f1ea5da418fbab8819f828564e49d2133b9b6cea8",
-    "docs/data.md": "f06e70b32dfd51fbb1f95a6a7fdef27e17ccd68059d268477c83beedeb1b688e",
+    "docs/data.md": "34dd46b2cac6bb97b5b71cf43a38cfe974646452badf045aa36d29f4ed4f0cd9",
     "docs/experiment_chronology.json": "0ce2442960bbdc330504f41805e1643bf64f177835f5d7ce1e9e2ba5cbd55dd2",
     "docs/reproduction.md": "eb08e15ab422a9a5bc6635a9a28c4e2d09878f6f53837c87b7a8148c80c6e36e",
-    "docs/supplementary_archives.md": "5848e0bad4e0e743a5dc7068be141e1cb3c8d3de7d593cab9148f0a28abf6f49",
+    "docs/supplementary_archives.md": "f15192ad5e2700193d1f357648bb10c19b66fc94eee15241ae2b660942513776",
     "figures/Fig08_baseline_edge_bottleneck.pdf": "e4f45f24c4567fe89501b64aadf5045f04c5a454e68f007deef4f66e765ea324",
     "figures/Fig23_weather_decomposition.pdf": "03e20083cdfc2f407a4ddc827bf0d72b81acc98ef8b8f68c9f143c5def25c369",
     "figures/Fig_revision_cycle_audit.pdf": "fc729bb95ee47dc0e4378de50eb6c252e3b64984d08c1d70b954ab14627c9023",
@@ -29,7 +29,7 @@
     "figures/Fig_revision_three_seed_stage10.pdf": "5f6affc3fd8a4babb4573c7f0052218d597afda2c2777df905f9c35d37d3f6dc",
     "figures/index.json": "ff5e17a041471dacf9afe56b230c3beefc09b7b232107a8ca9a356079b2116b8",
     "licenses/SUMO-EPL-2.0.txt": "8c349f80764d0648e645f41ef23772a70c995a0924b5235f735f4a3d09df127c",
-    "README.md": "2cc71bb6ea487bd777a8eb5de62bb73b06950b5c822b4c61ef41b17a3286ac24",
+    "README.md": "ee8b5d550755093dabf94a29b12c5fc9ed77e34c3c65d804e39a1ad42770ae43",
     "reproduce.py": "07a482fe84260c41dc3338c59a23f4eacca05f43813e68866dd2fedf7837d457",
     "reproduction/figure_updates_stage29/audit/stage29_figures/verification.json": "29c4be6f796727128d3c08622b41aec85d822573df4bce7259c3a2acfcef3e52",
     "reproduction/figure_updates_stage29/frozen/data/baseline_edge_bottleneck.csv": "e6d2b2c4b81dd58702f3022102f917252a1a3702483a37e450d14d67e846ecf4",
@@ -7666,6 +7666,7 @@
     "tests/test_holdout_release.py": "e5187fc7b7ffdc97a8a7eb22c24eb7e8ec85260031ec9a0c2f211c3a162fb36f",
     "tests/test_path_lengths.py": "051b380defcf8bf0ff5cd1c4da9948ccdbe5bfabddb58f45ef72e40c53fc0eac",
     "tests/test_reproduce.py": "2ef960f05c6e06f40595a6d29af8e8c40b7495ab3797bf813df5e419ed958202",
-    "THIRD_PARTY_NOTICES.md": "ab587a0c41fac6a630d624d4e1c5483bd50c60d93556b402434c6cfd4b4036ba"
+    "THIRD_PARTY_NOTICES.md": "ab587a0c41fac6a630d624d4e1c5483bd50c60d93556b402434c6cfd4b4036ba",
+    "docs/confirmation_data.md": "580677bfbcb506ce0db1aca56b11634443397303f00c35e23c8a70e522e0e10b"
   }
 }
