@@ -7,7 +7,7 @@ Research materials for **Beyond Throughput: Interpreting Traffic Performance in 
 | What you need | Where to get it |
 | --- | --- |
 | Figures 1–10 and S1–S2, including the revised workflow and three-seed throughput plot | [View the figures by number](figures/README.md) or [download all 12 figures](https://github.com/path4Source/Paper_SUMO_Simulation/releases/download/v2026.11.18-revision/manuscript-figures.zip) |
-| SUMO network, routes, configurations, analysis code and core data | [Core release](https://github.com/path4Source/Paper_SUMO_Simulation/releases/tag/v2026.11.09-core), code commit `8f155cda4435` |
+| SUMO network, routes, configurations, analysis code and core data | [Core release](https://github.com/path4Source/Paper_SUMO_Simulation/releases/tag/v2026.11.09-core) |
 | Table S18: six-condition study (35 runs) | [Download the six-condition archive](https://github.com/path4Source/Paper_SUMO_Simulation/releases/download/v2026.11.10-supplement/s29-six-condition-evidence.zip); archive identifier **S29** |
 | Table S19: eight-condition confirmation (45 runs) | [Download the eight-condition archive](https://github.com/path4Source/Paper_SUMO_Simulation/releases/download/v2026.11.10-supplement/s30-prospective-confirmation-evidence.zip); archive identifier **S30** |
 
