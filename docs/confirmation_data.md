@@ -1,16 +1,17 @@
-# S29 and S30 data
+# Data for Tables S18 and S19
 
 [Release v2026.11.10-supplement](https://github.com/path4Source/Paper_SUMO_Simulation/releases/tag/v2026.11.10-supplement)
-provides the complete recorded datasets supporting Tables S29 and S30 in the
-v4.5.1 manuscript. The earlier
+provides the complete recorded datasets for the six- and eight-condition studies.
+In the 18 November manuscript these are Tables S18 and S19. The original archive
+identifiers S29 and S30 are retained in filenames, checksums and commands. The
 [core release](https://github.com/path4Source/Paper_SUMO_Simulation/releases/tag/v2026.11.09-core)
 remains unchanged. Download the two study ZIPs as complete files; no multipart
 restoration is needed.
 
-| Table | Download | Contents |
+| Current table (archive ID) | Download | Contents |
 | --- | --- | --- |
-| S29 | [s29-six-condition-evidence.zip](https://github.com/path4Source/Paper_SUMO_Simulation/releases/download/v2026.11.10-supplement/s29-six-condition-evidence.zip) | 35 runs, six conditions, 84 paired intervals, 42 implementation outputs and 1,855 lane records |
-| S30 | [s30-prospective-confirmation-evidence.zip](https://github.com/path4Source/Paper_SUMO_Simulation/releases/download/v2026.11.10-supplement/s30-prospective-confirmation-evidence.zip) | 45 runs, eight conditions, 112 paired intervals, 72 implementation outputs and 216 local comparisons |
+| S18 (S29) | [s29-six-condition-evidence.zip](https://github.com/path4Source/Paper_SUMO_Simulation/releases/download/v2026.11.10-supplement/s29-six-condition-evidence.zip) | 35 runs, six conditions, 84 paired intervals, 42 implementation outputs and 1,855 lane records |
+| S19 (S30) | [s30-prospective-confirmation-evidence.zip](https://github.com/path4Source/Paper_SUMO_Simulation/releases/download/v2026.11.10-supplement/s30-prospective-confirmation-evidence.zip) | 45 runs, eight conditions, 112 paired intervals, 72 implementation outputs and 216 local comparisons |
 
 The release includes `RELEASE_SHA256SUMS.txt`, `PUBLIC_FILES_SHA256.json` and
 `PUBLIC_DISTRIBUTION.json`. Use the first to verify downloaded assets and the

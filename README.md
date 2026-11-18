@@ -2,12 +2,16 @@
 
 Research materials for **Beyond Throughput: Interpreting Traffic Performance in Oversaturated Signalized Corridors Using SUMO Simulation**.
 
-Code and data: [versioned core release, v2026.11.09-core](https://github.com/path4Source/Paper_SUMO_Simulation/releases/tag/v2026.11.09-core),
-code commit `8f155cda4435757ee916311d91c21f81985f60e3`.
-The tagged core code, data, protocols and predictions are unchanged.
-The later six-condition and eight-condition confirmation datasets are available in
-[v2026.11.10-supplement](https://github.com/path4Source/Paper_SUMO_Simulation/releases/tag/v2026.11.10-supplement).
-See the [S29/S30 data guide](docs/confirmation_data.md) for complete downloads and replay commands.
+## Public downloads for the 18 November 2026 manuscript
+
+| What you need | Where to get it |
+| --- | --- |
+| Figures 1–10 and S1–S2, including the revised workflow and three-seed throughput plot | [View the figures by number](figures/README.md) or [download all 12 figures](https://github.com/path4Source/Paper_SUMO_Simulation/releases/download/v2026.11.18-revision/manuscript-figures.zip) |
+| SUMO network, routes, configurations, analysis code and core data | [Core release](https://github.com/path4Source/Paper_SUMO_Simulation/releases/tag/v2026.11.09-core), code commit `8f155cda4435` |
+| Table S18: six-condition study (35 runs) | [Download the six-condition archive](https://github.com/path4Source/Paper_SUMO_Simulation/releases/download/v2026.11.10-supplement/s29-six-condition-evidence.zip); archive identifier **S29** |
+| Table S19: eight-condition confirmation (45 runs) | [Download the eight-condition archive](https://github.com/path4Source/Paper_SUMO_Simulation/releases/download/v2026.11.10-supplement/s30-prospective-confirmation-evidence.zip); archive identifier **S30** |
+
+No GitHub account is needed to view or download these files. The two data releases cited in the paper are unchanged. See the [supplementary data guide](docs/confirmation_data.md) for checksums and replay commands. The November 18 update changes the figure set and table numbering, not the simulations or results.
 
 An increase in completed traffic can reflect better service, a different demand load, or simulator handling of warnings. This study combines evidence rules, vehicle accounting, local measurements, and intervention tests to distinguish these explanations in an oversaturated three-signal SUMO corridor.
 
@@ -121,13 +125,13 @@ Place `data-deposit-candidate/` next to the extracted repository directory. See 
 
 Individual analysis commands and plotting environments are described in [Reproduction](docs/reproduction.md). Restore and verification do not run SUMO.
 
-For the current manuscript figures, install `reproduction/portable_figures_v5/requirements.txt` and run:
+For the current manuscript figures, install `reproduction/manuscript_figures/requirements.txt` and run:
 
 ```sh
 python reproduce.py figures --group current --output ../current-figures
 ```
 
-This generates the 14 data figures and the framework used in the current main text and supplement. The `publication_figures/` output contains exactly those 15 PDFs; numerical traces and paired intervals are checked. Figure 1 has an editable draw.io source; its verified PDF is copied by default. Add `--drawio /path/to/draw.io` to re-export that source. Historical figure groups remain available for earlier presentation versions.
+The output directory contains `publication_figures/` with 10 main and 2 supplementary PDFs. Figure 1 is supplied as the published PDF and editable draw.io source; add `--drawio /path/to/draw.io` to re-export it. Figure 3 is regenerated from the archived paired intervals, using all 26 perturbations. For the figure set that originally accompanied the core data, use `--group core-20261109`.
 
 ## Scope
 
@@ -149,13 +153,13 @@ python reproduce.py analyze followup --output ../followup-results
 
 This reconstructs lane counts, sampled detector extent, run metrics, paired intervals and frozen comparator outputs. It retains measurement residuals and every numerical outcome. No simulation is started by the analysis command. The calculation-function provenance and execution ledger are in `reproduction/portable_followup_v1/`.
 
-The current figure index contains the 15 figures referenced by the full-length manuscript. Author predictions in this repository are separate from the assessor-only packet and must remain withheld from the reference assessor until the returned judgments have been locked.
+The public data contain predictions and construction records. They are not anonymous evidence packets for a new blind assessment of the same cases.
 
 The legacy `freeze_submission.py` helper is imported only for its unchanged SHA-256 function. Its two private document paths have been replaced by relative placeholders in this distribution; private submission and review files are not included. Protocol records retain the hashes of the original executed source, while package manifests identify the distributed copies. This path-only adaptation does not change any calculation function.
 
-## Evidence included in this release
+## Evidence in the two cited data releases
 
-This version covers the original study, revision measurement and numerical
+The November 9 core release covers the original study, revision measurement and numerical
 checks, the provisional twelve-case reference comparison, and n1 event and
 controller-development evidence. It corresponds to the completed parts of
 manuscript baseline `20261108_v4_4_1`. Companion data are available under the
@@ -170,8 +174,8 @@ in [Supplementary archives](docs/supplementary_archives.md). Of the 45 records,
 The original twelve-case comparison remains provisional while its assessment
 process is confirmed. The core release remains unchanged. The subsequent
 [supplementary release](docs/confirmation_data.md) adds the complete six-condition
-panel (35 runs, Table S29) and the eight-condition prospective confirmation
-(45 runs, Table S30). These public archives include construction records and
+panel (35 runs, current Table S18) and the eight-condition prospective confirmation
+(45 runs, current Table S19). These public archives include construction records and
 predictions and are not packets for blinded reference assessment. Publication
 of the records does not establish independent human evaluation or a candidate
 selection advantage. Personal declarations, correspondence, manuscript drafts

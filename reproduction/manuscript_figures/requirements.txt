@@ -1,0 +1,2 @@
+-r ../portable_figures_v5/requirements.txt
+reportlab==4.4.9

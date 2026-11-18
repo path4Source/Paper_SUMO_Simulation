@@ -144,7 +144,7 @@ def main(argv=None):
     analysis.add_argument("--output", required=True)
     figures = sub.add_parser("figures")
     figures.add_argument("--group", required=True, choices=[
-        "current", "scores", "legacy", "cycle", "intervention", "horizon", "weather", "bottleneck"])
+        "current", "core-20261109", "scores", "legacy", "cycle", "intervention", "horizon", "weather", "bottleneck"])
     figures.add_argument("--output", required=True)
     figures.add_argument("--python", help="Separate plotting-environment interpreter")
     figures.add_argument("--drawio", help="Re-export the current framework with an installed draw.io executable")
@@ -189,11 +189,14 @@ def main(argv=None):
         if args.drawio and args.group != "current":
             raise ValueError("--drawio is supported only for --group current")
         output = fresh_output(ROOT, args.output)
-        if args.group == "current":
+        if args.group in ("current", "core-20261109"):
             package = package_check(ROOT, catalog["current_figure_package"])
-            shutil.copytree(package, output)
-            options = ["--drawio", args.drawio] if args.drawio else []
-            execute(output / "reproduce_figures.py", options, output, args.python)
+            work = output / "core-work" if args.group == "current" else output
+            shutil.copytree(package, work)
+            execute(work / "reproduce_figures.py", [], work, args.python)
+            if args.group == "current":
+                options = [str(output)] + (["--drawio", args.drawio] if args.drawio else [])
+                execute(ROOT / "reproduction/manuscript_figures/assemble.py", options, ROOT, args.python)
         elif args.group == "bottleneck":
             package = package_check(ROOT, catalog["figure_update"])
             execute(package / "scripts/plot_bottleneck_stage29.py", ["--output", str(output)], package, args.python)

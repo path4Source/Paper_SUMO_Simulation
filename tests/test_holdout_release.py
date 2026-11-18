@@ -58,8 +58,8 @@ class HoldoutReleaseTests(unittest.TestCase):
     def test_current_figures_exactly_match_index(self):
         index = entry.load(ROOT / "figures/index.json")
         self.assertEqual({x["file"] for x in index}, {p.name for p in (ROOT / "figures").glob("*.pdf")})
-        self.assertEqual(sum("main.tex" in x["source_documents"] for x in index), 11)
-        self.assertEqual(sum("supplementary_appendix.tex" in x["source_documents"] for x in index), 4)
+        self.assertEqual(sum("content/main_clean.tex" in x["source_documents"] for x in index), 10)
+        self.assertEqual(sum("appendix/clean.tex" in x["source_documents"] for x in index), 2)
 
 
 if __name__ == "__main__":

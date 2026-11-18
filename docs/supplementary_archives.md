@@ -7,7 +7,7 @@ member SHA-256 checksums. None of the commands below starts a simulation.
 
 The core release below remains unchanged. The later six-condition panel and
 eight-condition prospective confirmation are now distributed through a separate
-[S29/S30 release and data guide](confirmation_data.md), corresponding to v4.5.1.
+[data guide for current Tables S18 and S19](confirmation_data.md). The archives retain their original identifiers S29 and S30.
 The original twelve-case reference comparison remains provisional.
 
 ## Inspect and restore

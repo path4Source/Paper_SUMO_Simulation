@@ -21,6 +21,6 @@ keywords:
   - signalized corridor
   - reproducibility
 
-version: "v2026.11.09-core"
-date-released: "2026-11-09"
+version: "v2026.11.18-revision"
+date-released: "2026-11-18"
 repository-code: "https://github.com/path4Source/Paper_SUMO_Simulation"

@@ -71,7 +71,7 @@ the original twelve-case provisional reference comparison, and n1 development
 records. The later six-condition panel and eight-condition confirmation are
 available separately in [v2026.11.10-supplement](https://github.com/path4Source/Paper_SUMO_Simulation/releases/tag/v2026.11.10-supplement).
 Their complete raw archives and offline replay commands are listed in the
-[S29/S30 data guide](confirmation_data.md). Construction records, predictions
+[data guide for Tables S18 and S19 (archives S29 and S30)](confirmation_data.md). Construction records, predictions
 and observable-endpoint references are public for reproducibility; this does
 not change the reported evaluation scope. Neither private process declarations
 nor correspondence is included. Public access does not assign a reuse licence;
