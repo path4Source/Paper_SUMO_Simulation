@@ -153,7 +153,6 @@ python reproduce.py analyze followup --output ../followup-results
 
 This reconstructs lane counts, sampled detector extent, run metrics, paired intervals and frozen comparator outputs. It retains measurement residuals and every numerical outcome. No simulation is started by the analysis command. The calculation-function provenance and execution ledger are in `reproduction/portable_followup_v1/`.
 
-The public data contain predictions and construction records. They are not anonymous evidence packets for a new blind assessment of the same cases.
 
 The legacy `freeze_submission.py` helper is imported only for its unchanged SHA-256 function. Its two private document paths have been replaced by relative placeholders in this distribution; private submission and review files are not included. Protocol records retain the hashes of the original executed source, while package manifests identify the distributed copies. This path-only adaptation does not change any calculation function.
 
@@ -166,17 +165,3 @@ manuscript baseline `20261108_v4_4_1`. Companion data are available under the
 repository's Releases tab. Archive filenames and checksums are recorded in
 `data_manifest.json` and `addenda_manifest.json`.
 
-The 1,344-execution inventory predates the n1 follow-up. The later event probes,
-eight-run speed-gain check and 45-record controller panel are listed separately
-in [Supplementary archives](docs/supplementary_archives.md). Of the 45 records,
-27 are reused and 18 are additions. Neither development candidate was adopted.
-
-The original twelve-case comparison remains provisional while its assessment
-process is confirmed. The core release remains unchanged. The subsequent
-[supplementary release](docs/confirmation_data.md) adds the complete six-condition
-panel (35 runs, current Table S18) and the eight-condition prospective confirmation
-(45 runs, current Table S19). These public archives include construction records and
-predictions and are not packets for blinded reference assessment. Publication
-of the records does not establish independent human evaluation or a candidate
-selection advantage. Personal declarations, correspondence, manuscript drafts
-and reviewer responses are not included.
